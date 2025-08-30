@@ -1,0 +1,1411 @@
+Airbus A318/A319/A320/A321 (CFM56 & V2500) B1+B2 Technical Training
+Manual
+ATA 26 -- Fire Protection Airframe Systems
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store Issue 012 -
+Revision 01 - Dated 01/01/2025 1 of 165
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store Issue 012 -
+Revision 01 - Dated 01/01/2025 2 of 165
+ATA Chapters Required in this Training Manual AIRFRAME SYSTEMS ATA 26
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+Fire Protection
+CATTS Ltd
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store Issue 012 -
+Revision 01 - Dated 01/01/2025 3 of 165
+Training Manual Ma Airbus A318/319/ A320/A321 (CFM56 & V2500) ATA 26
+Airframe Systems; Fire Protection Level 3
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 4 of 165
+FIRE PROTECTION GENERAL Fire Protection System Component Location (2) .
+. . . . . . . . . . . . . . . . 2 Fire Protection System Control &
+Indicating (2) . . . . . . . . . . . . . . . . 20
+ENGINE FIRE PROTECTION Engine Fire Detection Logic (3) . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . 22 Engine Fire Pushbutton
+Interfaces (3) . . . . . . . . . . . . . . . . . . . . . . . . 32 SYS
+Operation in Case of ENG Fire in Flight (3) . . . . . . . . . . . . . .
+. 34 SYS Operation in Case of ENG Fire on GND (3) . . . . . . . . . . .
+. . . . 40 Precautions (3) . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . 46 Electrical Circuits (3) . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48
+APU FIRE PROTECTION APU Fire Detection Logic (3) . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . 58 APU Fire Pushbutton Interfaces
+(3) . . . . . . . . . . . . . . . . . . . . . . . . . . 66 System
+Operation in Case of APU Fire (3) . . . . . . . . . . . . . . . . . . .
+. 68 Auto Extinguishing on Ground (2) . . . . . . . . . . . . . . . . .
+. . . . . . . . . . 74 Precautions (3) . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . 80 Electrical Circuits
+(3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . 82
+AVIONICS SMOKE DETECTION Avionics Smoke Procedure (3) . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . 96
+CARGO & LAVATORY FIRE PROTECTION Cargo Fire Protection System
+Presentation (2) . . . . . . . . . . . . . . . . 114 Cargo & Lavatory
+Smoke Detection System D/O (3) . . . . . . . . . . . 120 FAP Smoke
+Detection Page (2) . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. 132 Cargo Smoke Procedure (3) . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . 134 Precautions (3) . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . 140 Cargo Fire
+Protection for ETOPS (option) (3) . . . . . . . . . . . . . . . . . 142
+Fire Protection System Line Maintenance (2) . . . . . . . . . . . . . .
+. . . 148 Fire Protection System Operation, Control & Indicating (3) . .
+. . . . 160
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 5 of 165
+FIRE PROTECTION SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW The engine
+and APU fire protection is done by two sub-systems: the FIRE detection
+system and the FIRE extinguishing system.
+ENGINE AND APU FIRE DETECTION The engines and the APU have individual
+fire detection systems. Each system has two identical detection loops (A
+and B) installed in parallel. Each loop includes 3 detector elements.
+The two loops are monitored by a Fire Detection Unit (FDU). FDU 1
+monitors the loops on engine 1 and FDU 2 monitors the loops on engine 2.
+The FDU sends FIRE and FAULT signals to the Flight Warning Computer
+(FWC) for display on ECAM.
+ENGINE AND APU FIRE EXTINGUISHING The guarded FIRE P/B switches give
+FIRE indication and are used to isolate the related systems. When the
+FIRE pushbutton is released out, the engine or APU will shut down. This
+also arms the extinguishing system. Each engine has 2 fire bottles
+installed in the pylon. The discharge of each bottle is controlled by a
+related AGENT P/BSW. The P/B switches are on the FIRE panel on the
+overhead panel. For the APU, there is only one fire extinguisher bottle,
+which is installed in the aft fuselage forward of the APU firewall. Its
+discharge is controlled by one AGENT P/BSW. On the ground, an APU FIRE
+will cause an automatic shutdown of the APU and an automatic discharge
+of the bottle. The TEST buttons are used to do tests on the different
+fire detection and extinguishing systems and make sure they operate
+correctly.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 6 of 165
+SYSTEM OVERVIEW - ENGINE AND APU FIRE DETECTION & ENGINE AND APU FIRE
+EXTINGUISHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 7 of 165
+FIRE PROTECTION SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW
+(continued) AVIONICS SMOKE DETECTION The A320 family aircraft have a
+cooling system for the avionics equipment. The cooling system is
+controlled and monitored by the Avionics Equipment Ventilation
+Controller (AEVC). The circulation of the air through the system is
+supplied by a blower fan (cool air supply) and an extraction fan (warm
+air removal). The extraction airflow is downstream of the avionics
+equipment. The avionics SMOKE detector, which is installed in the
+extraction duct, is used for the detection of smoke from the computers
+and control boxes. The detector is monitored by the AEVC. The smoke
+detector directly sends the signal to FWC for the AVIONICS SMOKE warning
+in the cockpit.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 8 of 165
+SYSTEM OVERVIEW - AVIONICS SMOKE DETECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 9 of 165
+FIRE PROTECTION SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW
+(continued) CARGO SMOKE DETECTION The cargo compartment smoke detection
+system is monitored by the Smoke Detection Function (SDF) integrated in
+the Cabin Intercommunication Data System (CIDS). The CIDS-SDF receives
+signals from the cargo detectors and sends SMOKE or FAULT warnings to
+the Flight Warning Computer (FWC) to give an alert to the flight crew.
+CARGO FIRE EXTINGUISHING The cargo compartment fire-extinguishing agent
+is discharged into the FWD compartment through one nozzle (2 nozzles for
+A321) or into the AFT compartment through two nozzles (3 nozzles for
+A321). The standard system includes one extinguishing bottle in the FWD
+cargo compartment (or in the AFT bulk cargo compartment, RH side, for
+A318 and A319). For the A320, the extinguishing bottle can also be in
+the AFT cargo compartment. An optional system includes two bottles. The
+second bottle can be used for large range operations.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 10 of 165
+SYSTEM OVERVIEW - CARGO SMOKE DETECTION & CARGO FIRE EXTINGUISHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 11 of 165
+FIRE PROTECTION SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW
+(continued) LAVATORY SMOKE DETECTION AND EXTINGUISHING The lavatory
+smoke detection system is monitored by the SDF integrated in the CIDS.
+The CIDS-SDF receives signals from the lavatory detectors and sends
+SMOKE or FAULT warnings to the FWC to give an alert to the flight crew.
+The protection of each lavatory waste bin is done by an automatic fire
+extinguishing system. A small pressurized extinguisher will
+automatically discharge if there is a fire. The fusible material in the
+discharge tube melts at high temperature and the pressurized agent is
+discharged into the waste bin. LAV SMOKE warnings are also sent to the
+CIDS to give an alert to the cabin crew.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 12 of 165
+SYSTEM OVERVIEW - LAVATORY SMOKE DETECTION AND EXTINGUISHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 13 of 165
+FIRE PROTECTION SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION ENGINE
+FIRE DETECTION AND EXTINGUISHING Each fire detection loop contains 3
+detector elements connected in parallel. The engine fire extinguishing
+bottles are in the pylon. There are access panels on the two sides of
+the pylon.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 14 of 165
+COMPONENT LOCATION - ENGINE FIRE DETECTION AND EXTINGUISHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 15 of 165
+FIRE PROTECTION SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+(continued) APU FIRE DETECTION AND EXTINGUISHING Each APU fire detection
+loop is a single detector element installed around the interior of the
+APU compartment. The APU fire extinguishing bottle is in the aft
+fuselage forward of the APU firewall. There is an access panel on the
+lower fuselage.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 16 of 165
+COMPONENT LOCATION - APU FIRE DETECTION AND EXTINGUISHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 17 of 165
+FIRE PROTECTION SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+(continued) AVIONICS SMOKE DETECTION There is only one avionics smoke
+detector, which is in the avionics compartment in the ventilation
+extraction duct.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 18 of 165
+COMPONENT LOCATION - AVIONICS SMOKE DETECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 19 of 165
+FIRE PROTECTION SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+(continued) CARGO COMPARTMENT FIRE DETECTION AND EXTINGUISHING Each
+cargo compartment has 2 smoke detectors in each cavity. The smoke
+detectors are installed in recessed panels in the compartment ceiling.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 20 of 165
+COMPONENT LOCATION - CARGO COMPARTMENT FIRE DETECTION AND EXTINGUISHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 21 of 165
+FIRE PROTECTION SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+(continued) LAVATORY SMOKE DETECTION AND EXTINGUISHING Each lavatory has
+only one smoke detector, installed in the air extraction duct in the
+lavatory ceiling. The protection of each lavatory waste bin is done by
+an automatic fire extinguishing system. A small pressurized extinguisher
+will automatically discharge into the waste bin if there is a fire.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 22 of 165
+COMPONENT LOCATION - LAVATORY SMOKE DETECTION AND EXTINGUISHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 23 of 165
+FIRE PROTECTION SYSTEM CONTROL & INDICATING (2) LOCATE
+CONTROL/INDICATING IN COCKPIT ENGINE FIRE PROTECTION APU FIRE
+PROTECTION + GND AUTO EXTINGUISHING CARGO SMOKE PROTECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 24 of 165
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 25 of 165
+ENGINE FIRE DETECTION LOGIC (3) FIRE DETECTORS STATE In NORMAL STATE,
+the INTEGRITY switch is closed and the ALARM switch is open. In ALARM
+STATE: The effect of an average temperature expands the helium (inert)
+gas, which in turn closes the ALARM switch, or the effect of heat caused
+by a flame or hot gas, releases core (active) gas from the hybrid core,
+which in turn closes the ALARM switch. In both cases, the detector sends
+a fire signal. In FAULT STATE: In the event of gas pressure loss (pipe
+fracture or cut off due to a torching flame), the INTEGRITY switch opens
+and generates a fault signal.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 26 of 165
+FIRE DETECTORS STATE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 27 of 165
+ENGINE FIRE DETECTION LOGIC (3) GENERAL The engine Fire Detection Unit
+(FDU) has two channels capable of detecting any case of engine fire and
+loop failure. Each channel does the same detection logic depending on
+the loop A and loop B status.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 28 of 165
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 29 of 165
+ENGINE FIRE DETECTION LOGIC (3) FIRE WARNING In case of a fire detected
+on both loops or on one loop with the other faulty, the channels provide
+a fire warning to the ENGINE FIRE panel, ENGINE START control panel,
+MASTER WARN and ECAM displays. The FDU generates a fire warning signal
+if any of the following conditions are met: - fire on loop A and fire on
+loop B, - fire on loop A and fault on loop B, - fault on loop A and fire
+on loop B, - fault on loop A and fault on loop B within 5 seconds (both
+loops broken due to a torching flame).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 30 of 165
+FIRE WARNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 31 of 165
+ENGINE FIRE DETECTION LOGIC (3) LOOP FAULT WARNING In case of a loop
+failure the FDU supplies a loop fault warning signal to the ECAM and
+Centralized Fault Display Interface Unit (CFDIU). The FDU generates an
+inoperative signal if any of the following conditions are met: -
+electrical failure, - integrity failure, - detection of a single loop
+FIRE during more than 16 s while the other loop is in normal condition.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 32 of 165
+LOOP FAULT WARNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 33 of 165
+ENGINE FIRE DETECTION LOGIC (3) DETECTION FAULT WARNING The detection
+fault logic is based on a dual loop failure. It agrees with a total loss
+of the detection system. When the FDU generates two inoperative signals
+related to loop A and loop B fault logic, the Flight Warning Computer
+(FWC) elaborates the fault warning.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 34 of 165
+DETECTION FAULT WARNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 35 of 165
+ENGINE FIRE PUSHBUTTON INTERFACES (3) GENERAL During the engine fire
+procedure, the ENGINE FIRE P/BSW is manually released out. This triggers
+several automatic sequences simplifying further crew actions and system
+monitoring.
+MONITORING INTERFACES Releasing the fire P/BSW out cancels the
+Continuous Repetitive Chime (CRC), signals the action to the Flight
+Warning Computer (FWC) for further management of other warnings and
+messages and the SQUIB light comes on, on the engine fire control panel.
+SUPPLY INTERFACES Quick isolation of all systems on the related engine,
+which could be the origin of the fire or feed the fire, is achieved as
+soon as the fire P/BSW is released out. These systems are: - fuel, -
+air, - electric power, - hydraulic power. The electric supply to the
+Engine Interface Unit (EIU) is also disconnected.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 36 of 165
+GENERAL ... SUPPLY INTERFACES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 37 of 165
+SYS OPERATION IN CASE OF ENG FIRE IN FLIGHT (3) GENERAL The following
+fire procedure describes the flight crew procedure when an engine FIRE
+warning occurs in flight. The procedure takes engine 2 as an example.
+FIRE PROCEDURE FIRE DETECTION When a fire is detected, the Continuous
+Repetitive Chime (CRC) sounds, the MASTER Warning flashes, the ENGINE
+FIRE P/BSW light comes on and the FIRE light on the Engine panel comes
+on. The warning is shown on the Engine and Warning Display and the
+engine system page comes up automatically.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 38 of 165
+GENERAL & FIRE PROCEDURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 39 of 165
+SYS OPERATION IN CASE OF ENG FIRE IN FLIGHT (3) FIRE PROCEDURE
+(continued) ISOLATION To follow the fire procedure the following actions
+have to be done: NOTE: Note: The Master Warning P/BSW may be pressed to
+cancel the continuous repetitive chime. - set thrust lever to "IDLE". -
+set ENG MASTER 2 lever to "OFF". When the MASTER lever is set to OFF,
+the low pressure and the high pressure fuel valves close and cause
+engine shutdown. - release ENG 2 FIRE P/BSW. When the ENGINE FIRE P/BSW
+is released out the Single Chime (SC) sounds. The MASTER CAUTion comes
+on due to systems deactivation. The fuel low pressure valve closure is
+confirmed .The SQUIB lights illuminate on the AGENT P/BSWs to indicate
+that AGENT P/BSWs can be used.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 40 of 165
+FIRE PROCEDURE - ISOLATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 41 of 165
+SYS OPERATION IN CASE OF ENG FIRE IN FLIGHT (3) FIRE PROCEDURE
+(continued) FIRE EXTINGUISHING To extinguish the fire the following
+actions have to be done: - wait for 10 seconds: this is required to
+reduce engine windmilling, reducing the nacelle ventilation which
+increases the agent effect, - press AGENT 1 P/BSW. When the AGENT 1
+P/BSW is pressed, the fire bottle one is discharged in the engine
+compartment and the DISCHarge light comes on. If the fire still persists
+after 30 seconds, the second bottle must be discharged, - press AGENT 2
+P/BSW. When the fire is extinguished, the ENGINE FIRE P/BSW light and
+the FIRE indication on the ENG panel go off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 42 of 165
+FIRE PROCEDURE - FIRE EXTINGUISHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 43 of 165
+SYS OPERATION IN CASE OF ENG FIRE ON GND (3) GENERAL The following FIRE
+procedure describes the procedure when an engine FIRE warning occurs on
+the ground. The procedure takes Engine 2 as an example.
+FIRE PROCEDURE FIRE DETECTION When fire is detected, the Continuous
+Repetitive Chime (CRC) sounds, the MASTER WARNing flashes, the ENGINE
+FIRE P/BSW light comes on and the FIRE light on the ENGine panel comes
+on. The warning is shown on the Engine and Warning Display and the
+engine system page comes up automatically.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 44 of 165
+GENERAL & FIRE PROCEDURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 45 of 165
+SYS OPERATION IN CASE OF ENG FIRE ON GND (3) FIRE PROCEDURE (continued)
+ISOLATION To follow the fire procedure the following actions have to be
+done: NOTE: Note: The MASTER WARN P/BSW may be pressed to cancel the
+CRC. - as long as the rolling speed of the aircraft does not exceed V1,
+the crew must stop the aircraft, - set thrust levers to "IDLE". Note
+that full REVerse may be used to stop the aircraft, - when the aircraft
+is stopped and parking brake is set to "ON", set ENG MASTER 2 lever to
+"OFF". When the ENG MASTER lever is set to "OFF", the low pressure and
+high pressure valves close and cause engine shutdown, - select ENG 2
+FIRE P/BSW. When the ENGINE FIRE P/BSW is released out the Single Chime
+(SC) sounds. The MASTER CAUTion comes on due to systems deactivation.
+The fuel low pressure valve closure is confirmed. The SQUIB lights on
+the AGENT P/BSWs come on to indicate that AGENT P/BSWs can be used.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 46 of 165
+FIRE PROCEDURE - ISOLATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 47 of 165
+SYS OPERATION IN CASE OF ENG FIRE ON GND (3) FIRE PROCEDURE (continued)
+FIRE EXTINGUISHING To follow the fire procedure, the following actions
+have to be done: - select AGENT 1 and AGENT 2 P/BSWs. When the AGENT 1
+and AGENT 2 P/BSWs are pressed, both engine fire bottles are discharged
+in the engine compartment and the DISCHarge lights come on, - select ENG
+MASTER 1 lever to OFF. When the second engine is shut down, if the APU
+is not running the ECAM displays are lost. If the APU is running, it
+must be shut down.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 48 of 165
+FIRE PROCEDURE - FIRE EXTINGUISHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 49 of 165
+PRECAUTIONS (3) GENERAL Specific precautions must be taken during
+removal or installation of a fire extinguishing bottle and a discharge
+cartridge.
+FIRE BOTTLE WARNING: The fire bottle cartridges are explosive. Remove
+them before working on the bottle. Protective caps must be installed
+during bottle removal/installation to prevent damage to discharge
+diaphragm, which could result in injury to personnel.
+DISCHARGE CARTRIDGE WARNING: Before power is supplied to the A/C make
+sure that electrical circuits upon which work is in progress are
+isolated. Cartridges are class "C" explosives and must be handled or
+stored by authorized personnel or disposed of by an approved method.
+When cartridge electrical connectors are disconnected, the cartridge
+electrical pins must be shunted with a protective shunt, which is given
+by the manufacturer. A shunt plug or shorting clip will prevent bottle
+discharge which could cause injury to maintenance personnel. The
+cartridge installed must be supplied by fire bottle vendor and agreed
+with the specification indicated in the AMM.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 50 of 165
+GENERAL ... DISCHARGE CARTRIDGE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 51 of 165
+ELECTRICAL CIRCUITS (3) FIRE DETECTION CIRCUIT The engine fire and
+overheat detection system is supplied by the electrical power from the
+DC system. Each engine has two continuous loops connected in parallel to
+a Fire Detection Unit (FDU). Each FDU has two identical channels:
+channel A and B. Each one has its own power supply and is connected to
+one fire detection loop.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 52 of 165
+FIRE DETECTION CIRCUIT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 53 of 165
+ELECTRICAL CIRCUITS (3) FIRE EXTINGUISHING CIRCUIT The engine fire
+extinguishing system is supplied by electrical power from the DC system.
+For each engine the system comprises one ENGine FIRE P/BSW, two
+SQUIB/DISCHarge P/BSWs and one TEST P/B located on the ENG and APU FIRE
+panel; and two fire extinguishing bottles located in the engine pylon.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 54 of 165
+FIRE EXTINGUISHING CIRCUIT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 55 of 165
+ELECTRICAL CIRCUITS (3) FIRE EXTINGUISHING CIRCUIT (continued) TEST
+PUSHBUTTON The operational test lets the pilot monitor and activate the
+fire protection system. It can be done on the ground or in flight. Each
+engine has its TEST P/B which must be pushed and held when doing the
+test. When the TEST P/B is pressed, the fire warning indications are
+triggered on the related engine section on the ENG and APU FIRE panel.
+Each TEST P/B lets the crew check the condition of the fire detectors,
+the FDU, and the indication warnings. It initiates the loops and squib
+tests.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 56 of 165
+FIRE EXTINGUISHING CIRCUIT - TEST PUSHBUTTON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 57 of 165
+ELECTRICAL CIRCUITS (3) FIRE EXTINGUISHING CIRCUIT (continued) ENGINE 2
+FIRE PUSHBUTTON Pushing the ENG 2 FIRE P/BSW arms the engine 2 fire
+extinguishing bottles firing system. The SQUIB lights come on to
+indicate that fire bottles can be used. At the same time the engine is
+isolated from the rest of the aircraft systems.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 58 of 165
+FIRE EXTINGUISHING CIRCUIT - ENGINE 2 FIRE PUSHBUTTON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 59 of 165
+ELECTRICAL CIRCUITS (3) FIRE EXTINGUISHING CIRCUIT (continued) DISCH
+PUSHBUTTON When the AGENT 1 P/BSW is selected the extinguishing agent
+flows in the rigid pipes and is immediately sprayed in the engine zones.
+The amber DISCH legend comes on when the fire extinguisher bottle is
+completely discharged. The DISCH alarm module sends the related signal
+to the Flight Warning Computer (FWC).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 60 of 165
+FIRE EXTINGUISHING CIRCUIT - DISCH PUSHBUTTON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 61 of 165
+APU FIRE DETECTION LOGIC (3) FIRE DETECTORS STATE In NORMAL STATE, the
+INTEGRITY switch is closed and the ALARM switch is open. In ALARM STATE:
+The effect of an average temperature expands the helium (inert) gas,
+which in turn closes the ALARM switch, or the effect of heat caused by a
+flame or hot gas, releases core (active) gas from the hybrid core, which
+in turn closes the ALARM switch. In both cases, the detector sends a
+fire signal. In FAULT STATE: In the event of gas pressure loss (pipe
+fracture or cut off due to a torching flame), the INTEGRITY switch opens
+and generates a fault signal.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 62 of 165
+FIRE DETECTORS STATE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 63 of 165
+APU FIRE DETECTION LOGIC (3) GENERAL The APU Fire Detection Unit (FDU)
+has two channels capable of detecting any case of APU fire and loop
+failure. Each channel does the same detection logic depending on the
+loop A and loop B status.
+FIRE WARNING In case of a fire detected on both loops or on one loop
+with the other faulty, the channels send a fire warning to the APU FIRE
+panel, EXTernal PoWeR control panel, MASTER WARN and ECAM displays. The
+FDU supplies a fire warning signal if any of the following conditions
+are met: - fire on loop A and fire on loop B, - fire on loop A and fault
+on loop B, - fault on loop A and fire on loop B, - fault on loop A and
+fault on loop B within 5 seconds (both loops broken due to a torching
+flame).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 64 of 165
+GENERAL & FIRE WARNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 65 of 165
+APU FIRE DETECTION LOGIC (3) LOOP FAULT WARNING In case of a loop
+failure the FDU supplies a loop fault warning signal to the ECAM and
+Centralized Fault Display Interface Unit (CFDIU). The FDU supplies an
+inoperative signal if any of the following conditions are met: -
+electrical failure, - integrity failure, - detection of a single loop
+fire during more than 16 s while the other loop is in normal condition.
+ELECTRICAL FAILURE An electrical failure is signaled by a loop fault
+message if there is a loss of electrical power of the APU fire detection
+system.
+INTEGRITY FAILURE An integrity failure is signaled by a loop fault
+message if there is a loss of pressure in a fire sensor element.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 66 of 165
+LOOP FAULT WARNING - ELECTRICAL FAILURE & INTEGRITY FAILURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 67 of 165
+APU FIRE DETECTION LOGIC (3) DETECTION FAULT WARNING The detection fault
+logic is based on a dual loop failure. It agrees with a total loss of
+the detection system. When the FDU supplies two inoperative signals
+related to loop A and loop B fault logic, the Flight Warning Computer
+(FWC) elaborates a detection fault warning.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 68 of 165
+DETECTION FAULT WARNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 69 of 165
+APU FIRE PUSHBUTTON INTERFACES (3) GENERAL During the APU fire
+procedure, the APU FIRE PUSHbutton switch is manually released out. This
+triggers several automatic sequences simplifying further crew actions
+and system monitoring.
+MONITORING INTERFACES Releasing the FIRE P/BSW out cancels the
+Continuous Repetitive Chime (CRC), signals the action to the Flight
+Warning Computer (FWC), for further management of other warnings and
+messages and the SQUIB light comes on, on the APU fire control panel.
+SUPPLY INTERFACES Quick isolation of all systems on the APU, which could
+be the origin of the fire or feed the fire, is achieved as soon as the
+FIRE P/BSW is released out. These systems are: - fuel, - air, - electric
+power. The Electronic Control Box (ECB) of the APU is triggered to
+initiate an emergency APU shutdown.
+AUTO EXTINGUISHING ON GROUND When an APU fire is detected on ground, the
+APU shuts down automatically and the fire extinguishing system is
+automatically triggered.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 70 of 165
+GENERAL ... AUTO EXTINGUISHING ON GROUND
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 71 of 165
+SYSTEM OPERATION IN CASE OF APU FIRE (3) GENERAL The aircraft is in
+flight and the APU is running.
+FIRE DETECTION When a fire is detected, the Continuous Repetitive Chime
+(CRC) sounds, the MASTER WARNing flashes and the APU FIRE PUSH button
+switch light on the APU FIRE panel comes on.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 72 of 165
+GENERAL & FIRE DETECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 73 of 165
+SYSTEM OPERATION IN CASE OF APU FIRE (3) APU ISOLATION To isolate the
+APU, the APU FIRE PUSH button switch must be released out. In this case,
+the CRC stops, the fuel low pressure shutoff valve and the fuel solenoid
+valve close and cause APU shutdown. The Single Chime (SC) sounds, the
+MASTER CAUTion and the FAULT light on the APU MASTER SWitch P/B come on.
+The SQUIB light comes on to indicate that the AGENT P/BSW can be used.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 74 of 165
+APU ISOLATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 75 of 165
+SYSTEM OPERATION IN CASE OF APU FIRE (3) FIRE EXTINGUISHING A 10 s delay
+allows the airflow to reduce, this increases the agent effect. Then
+AGENT P/BSW must be pressed in. The fire bottle is discharged in the APU
+compartment and the DISCHarge light comes on. When the fire is
+extinguished, the MASTER WARN and the APU FIRE PUSH button switch lights
+go off. The APU MASTER SW P/B has to be released out; when this is done
+the FAULT light and the MASTER CAUT go off. This completes the
+procedure.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 76 of 165
+FIRE EXTINGUISHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 77 of 165
+AUTO EXTINGUISHING ON GROUND (2) GENERAL The aircraft is on ground, and
+the APU is running without supervision.
+FIRE DETECTION When a fire is detected, the Continuous Repetitive Chime
+(CRC) sounds, the MASTER WARNing flashes and the APU FIRE PUSH button
+switch light on the APU FIRE panel comes on. The APU FIRE light on the
+EXTernal PoWeR panel comes on, and the external horn sounds.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 78 of 165
+GENERAL & FIRE DETECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 79 of 165
+AUTO EXTINGUISHING ON GROUND (2) APU ISOLATION The fuel low pressure
+shut off valve and the fuel solenoid valve close and the APU shuts down.
+The Single Chime (SC) sounds, the MASTER CAUTion and the FAULT light on
+the APU MASTER SWitch button come on.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 80 of 165
+APU ISOLATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 81 of 165
+AUTO EXTINGUISHING ON GROUND (2) FIRE EXTINGUISHING Three seconds after
+APU isolation, the APU fire bottle is discharged automatically and the
+DISCHarge light on the AGENT P/BSW comes on.
+FIRE EXTINGUISHED When the fire is extinguished, the MASTER WARN, the
+APU FIRE PUSH button switch light on the APU FIRE panel and the APU FIRE
+light on the EXT PWR panel go off, the external horn stops. NOTE: Note:
+It is not necessary to use the APU SHUT OFF switch on the EXT PWR panel
+in case of APU fire auto extinguishing.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 82 of 165
+FIRE EXTINGUISHING - FIRE EXTINGUISHED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 83 of 165
+PRECAUTIONS (3) GENERAL Specific precautions must be taken during
+removal or installation of a fire extinguishing bottle and a discharge
+cartridge.
+FIRE BOTTLE WARNING: The fire bottle cartridges are explosive. Remove
+them before working on the bottle. Protective caps must be installed
+during bottle removal/installation to prevent damage to discharge
+diaphragm, which could result in injury to personnel.
+DISCHARGE CARTRIDGE WARNING: Before power is supplied to the A/C make
+sure that electrical circuits upon which work is in progress are
+isolated. Cartridges are class "C" explosives and must be handled or
+stored by authorized personnel or disposed of by an approved method.
+When cartridge electrical connectors are disconnected, the cartridge
+electrical pins must be shunted with a protective shunt, which is given
+by the manufacturer. A shunt plug or shorting clip will prevent bottle
+discharge, which could cause injury to maintenance personnel. The
+cartridge installed must be of the same make as the fire bottle and
+agreed with the specification indicated in the AMM.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 84 of 165
+GENERAL ... DISCHARGE CARTRIDGE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 85 of 165
+ELECTRICAL CIRCUITS (3) DETECTION CIRCUIT The APU fire and overheat
+detection system is supplied by the aircraft DC electrical power. The
+detection system has two identical and electrically independent loops
+connected in parallel to a Fire Detection Unit (FDU). Each FDU has two
+identical channels: channel A and B. Each one has its own power supply
+and is connected to one fire detection loop.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 86 of 165
+DETECTION CIRCUIT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 87 of 165
+ELECTRICAL CIRCUITS (3) EXTINGUISHING CIRCUIT The APU fire extinguishing
+system gets the electrical power from the DC system of the aircraft. The
+system has an APU FIRE PUSH button switch, a SQUIB/DISCHarge P/BSW and
+one TEST P/BSW located on the ENGine and APU FIRE panel. A fire
+extinguishing bottle is installed forward the APU compartment firewall.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 88 of 165
+EXTINGUISHING CIRCUIT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 89 of 165
+ELECTRICAL CIRCUITS (3) EXTINGUISHING CIRCUIT (continued) APU FIRE
+PUSHBUTTON When fire is detected, the APU FIRE PUSH button switch light
+comes on. Pushing this P/BSW arms the APU fire extinguishing bottle
+firing system. The SQUIB light comes on to indicate that fire bottle can
+be used. At the same time the APU is isolated from the rest of the
+aircraft systems.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 90 of 165
+EXTINGUISHING CIRCUIT - APU FIRE PUSHBUTTON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 91 of 165
+ELECTRICAL CIRCUITS (3) EXTINGUISHING CIRCUIT (continued) DISCH
+PUSHBUTTON When the AGENT P/BSW is selected the extinguishing agent is
+released and flows into the APU compartment. The amber DISCH legend
+comes on when the fire extinguisher bottle has lost pressure.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 92 of 165
+EXTINGUISHING CIRCUIT - DISCH PUSHBUTTON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 93 of 165
+ELECTRICAL CIRCUITS (3) AUTO EXTINGUISHING CIRCUIT When an APU fire is
+detected on ground, the extinguishing system is automatically activated.
+The system circuit gets its power supply from the DC system of the
+aircraft.
+FIRE DETECTED In case of fire detected on the ground and input signal
+from LGCIU 1 (MLG 1+2 compressed) valid, 28 VDC is provided to several
+Relays inside the APU Auto Extinguishing Relay Circuit to initiate the
+EMER shut down and automatic fire extinguishing of the APU. The relay
+circuit energizes the ground horn and the APU FIRE light on the EXTernal
+PoWeR panel. The APU LP Valve Motors will be supplied with electrical
+power to close the Valve, the APU ECB receives a discrete input signal
+to initiate an EMER shut down and the APU fire bottle squib will be
+supplied with 28VDC 3sec. after EMER shut down has been initiated by the
+ECB. The bottle is discharged and the extinguishing agent is released
+into the APU compartment. NOTE: Note: APU automatic extinguishing is
+only triggered by APU Fire Loop "A".
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 94 of 165
+AUTO EXTINGUISHING CIRCUIT - FIRE DETECTED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 95 of 165
+ELECTRICAL CIRCUITS (3) AUTO EXTINGUISHING CIRCUIT (continued) AUTO
+EXTINGUISHING TEST The test is initiated from the APU AUTO EXTINGuishing
+section of the overhead panel (50VU). Pressing the TEST P/BSW, the white
+ON light is illuminated and 28VDC is connected to a number of relays
+inside the Auto Extinguishing Relay Circuit, which then energize the: -
+Extinguishing Ground Test Relay (36WF), to isolate the Fire
+Extinguishing Bottle from the automatic fire extinguishing circuit, to
+prevent 28VDC power supply to the filaments of Fire Extinguishing Bottle
+Cartridge, during the Test. Once this Extinguishing Ground Test Relay is
+energized, the test continues as follows: - The APU FIRE P/B Loop A
+lights illuminate. With the A/C ON GROUND condition, supplied by LGCIU
+1: - The Relay Auto Push (34WF) controls the Fire EMER Stop Relay 1
+(5WF) to initiate the closing of the APU Fuel LP Valve and the EMER Shut
+down signal to the ECB, - The Relay Auto Push (34WF) also controls Fire
+EMER Stop Relay 2 (6WF), also responsible to initiate the closing of APU
+Fuel LP Valve, - The RED APU FIRE light on the External Power panel
+108VU illuminates, - The Ground Horn sounds. Finally the white OK
+indicator light on the Auto Extinguishing Test P/BSW comes on to
+indicate the correct operation of the tested Relays, indicating a
+successful circuitry test.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 96 of 165
+AUTO EXTINGUISHING CIRCUIT - AUTO EXTINGUISHING TEST
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 97 of 165
+ELECTRICAL CIRCUITS (3) AUTO EXTINGUISHING CIRCUIT (continued) SYSTEM
+RESET The reset is initiated from the APU AUTO EXTING section of the
+overhead panel. When the RESET P/BSW is pressed all the relays are
+de-energized. The fire bottle is connected to the automatic fire
+extinguishing circuit again. The horn and the APU FIRE light go off. The
+ON and OK indicator lights go off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 98 of 165
+AUTO EXTINGUISHING CIRCUIT - SYSTEM RESET
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 99 of 165
+AVIONICS SMOKE PROCEDURE (3) MASTER CAUTION When smoke is detected, the
+MASTER CAUTion comes on, the Single Chime (SC) sounds, GENerator 1 LINE
+SMOKE light comes on, on the EMERgency ELECtrical PoWeR panel and the
+BLOWER FAULT and EXTRACT FAULT lights on the VENTILATION panel come on.
+The actions to do appear on the upper ECAM display. NOTE: The smoke is
+directly perceptible by the crew through the center pedestal. The MASTER
+CAUT must be selected before doing the ECAM actions.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 100 of 165
+MASTER CAUTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 101 of 165
+AVIONICS SMOKE PROCEDURE (3) OXYGEN MASK As smoke is confirmed, the crew
+has to use the oxygen masks and establish communication. Avoid the use
+of interphone position to minimize the interference from oxygen mask
+breathing noise.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 102 of 165
+OXYGEN MASK
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 103 of 165
+AVIONICS SMOKE PROCEDURE (3) CABIN AND COCKPIT ISOLATION CABIN FANS To
+prevent smoke from entering into the cockpit and cabin, the cabin fans
+have to be stopped by setting to OFF the CABin FANS P/BSW on the
+VENTILATION panel.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 104 of 165
+CABIN AND COCKPIT ISOLATION - CABIN FANS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 105 of 165
+AVIONICS SMOKE PROCEDURE (3) CABIN AND COCKPIT ISOLATION (continued)
+BLOWER FAN The blower and extract fans of the avionics ventilation
+system must be set to the OVeRriDe position to evacuate the smoke
+overboard. When the BLOWER P/BSW is set to OVRD, the blower fan stops
+and the air conditioning system is used as a cold air source by opening
+the air conditioning inlet valve.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 106 of 165
+CABIN AND COCKPIT ISOLATION - BLOWER FAN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 107 of 165
+AVIONICS SMOKE PROCEDURE (3) CABIN AND COCKPIT ISOLATION (continued)
+EXTRACT FAN AND EXTRACT VALVE The EXTRACT P/BSW must be set to OVRD
+position. Then, the air is extracted overboard through the auxiliary
+flap inside the Skin Air Outlet Valve, which is partially open. The
+extract fan keeps on running. When the SMOKE warning is displayed, a 5
+minutes countdown is also displayed on ECAM. After the ventilation
+system reconfiguration, the cockpit crew should allow 5 minutes for the
+SMOKE warning to disappear.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 108 of 165
+CABIN AND COCKPIT ISOLATION - EXTRACT FAN AND EXTRACT VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 109 of 165
+AVIONICS SMOKE PROCEDURE (3) SMOKE SOURCE ISOLATION As smoke is still
+perceptible, it is necessary to act on the electrical system. The
+actions shown on the EWD indicate how to shed the normal electrical
+network to isolate the smoke source.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 110 of 165
+SMOKE SOURCE ISOLATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 111 of 165
+AVIONICS SMOKE PROCEDURE (3) SMOKE SOURCE ISOLATION (continued)
+GENERATOR 1 To isolate the smoke source the GEN 1 LINE P/BSW must be set
+to the OFF position. This opens the GEN 1 LINE contactor. Generator 1
+keeps on supplying one fuel pump on each wing tank, and the galleys are
+shed. AC BUS 1 is supplied by generator 2 through the Bus Tie Contactor
+(BTC).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 112 of 165
+SMOKE SOURCE ISOLATION - GENERATOR 1
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 113 of 165
+AVIONICS SMOKE PROCEDURE (3) ESSENTIAL ELECTRICAL NETWORK RAM AIR
+TURBINE SUPPLYING The MANual ON P/B must be selected to extend the Ram
+Air Turbine (RAT). The RAT is now extended and the EMER GEN is connected
+to keep the aircraft essential electrical network supplied. NOTE: The
+emergency generator parameters are displayed on the ECAM.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 114 of 165
+ESSENTIAL ELECTRICAL NETWORK - RAM AIR TURBINE SUPPLYING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 115 of 165
+AVIONICS SMOKE PROCEDURE (3) ESSENTIAL ELECTRICAL NETWORK (continued)
+GENERATOR 2 With the emergency generator running, the engine 2 and APU
+generators have to be switched off in order to isolate the normal
+electrical network. Engine 1 generator must be kept running for fuel
+pump operation.
+EMERGENCY CONFIGURATION The GEN 2 P/BSW on the ELEC PWR panel is set to
+OFF. As both engine generators have been disconnected, the electrical
+system is now in emergency configuration and the lower ECAM display is
+no longer supplied. The aircraft has to land as soon as possible by
+following the emergency procedure. The avionics smoke procedure is then
+completed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 116 of 165
+ESSENTIAL ELECTRICAL NETWORK - GENERATOR 2 & EMERGENCY CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 117 of 165
+CARGO FIRE PROTECTION SYSTEM PRESENTATION (2) GENERAL The cargo fire
+protection is supplied by two systems: - the cargo smoke detection
+(separate FWD & AFT systems), - the cargo fire extinguishing (separate
+FWD & AFT systems).
+SMOKE DETECTORS The cargo smoke detection system is installed in the FWD
+and in the AFT/BULK cargo compartments. Four optical smoke detectors are
+located in two cavities in the ceiling of the AFT/BULK cargo compartment
+and two additional detectors in the FWD cargo compartment. The cargo
+smoke detectors are electrically connected to the Cabin
+Intercommunication Data System (CIDS) directors via Controller Area
+Network (CAN) buses.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 118 of 165
+GENERAL & SMOKE DETECTORS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 119 of 165
+CARGO FIRE PROTECTION SYSTEM PRESENTATION (2) CIDS SMOKE DETECTION
+FUNCTION
+BOTTLE
+For each compartment, the Smoke Detection Function (SDF) integrated in
+each CIDS director triggers cabin and cockpit warnings. The directors
+interface with the Centralized Fault Display Interface Unit (CFDIU), the
+ventilation system, and the cargo fire extinguishing bottle condition
+monitoring system. A SMOKE warning is generated when both detectors in a
+cavity detect smoke ('AND' logic). The CIDS-SDF also monitors the smoke
+detectors in case of a single detection. When only one cargo smoke
+detector detects smoke, the CIDS-SDF checks the second detector
+automatically: - if this test shows a normal operation of the second
+detector, the first detector is declared faulty. The result is no smoke
+warning in the cockpit, - if this test shows an abnormal operation of
+the second detector, the smoke warnings are activated. The second
+detector is declared faulty.
+On A320 and A321, one extinguisher bottle is installed in the FWD cargo
+compartment, on A318 and A319 the bottle is installed in the Bulk cargo
+compartment. Optionally, on the A320, the extinguisher bottle can be
+installed in the AFT cargo compartment. The bottle supplies fire
+extinguishing for the FWD and for the AFT/BULK cargo compartments. The
+bottle has a pressure switch to monitor agent pressure and two
+electrically firing cartridges or squibs for agent discharges. The
+bottle pressure and the two squibs circuit conditions are continuously
+monitored by the CIDS-SDF. In case of bottle pressure drop or loss of
+electrical squib continuity, the CIDS-SDF sends signals to the ECAM and
+CFDS.
+WARNINGS The CIDS-SDF sends signals for cockpit local warnings, ECAM
+system and cargo ventilation controller. It also supplies the fault
+messages to the Centralized Fault Display System (CFDS). In case of FWD
+or AFT/BULK smoke detection; the respective SMOKE light comes on, on the
+CARGO SMOKE panel. At the same time the cargo ventilation controller
+closes the isolation valves of the affected compartment (If ventilation
+installed). In case of a smoke detector failure, the CIDS-SDF sends
+signals to the ECAM and CFDS systems.
+DISCH PUSHBUTTON Action on one of the FWD or AFT guarded DISCHarge P/Bs
+discharges the bottle in the respective cargo compartment. When smoke is
+detected, the FWD or AFT DISCH P/BSW has to be pressed, in order to fire
+the related squib of the extinguishing bottle. Both DISCH lights come on
+when the fire extinguishing bottle is discharged.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+TEST PUSHBUTTON When the TEST P/B is pressed and held, the CIDS-SDF
+carries out an automatic test. Smoke and a bottle pressure drop
+conditions are simulated. The smoke detectors are tested. When the TEST
+P/B is pressed and held, the SMOKE and DISCH lights on the CARGO SMOKE
+panel come on twice, and the ECAM warnings are activated. The isolation
+valves of the cargo compartment ventilation system close and the
+extraction fan stops. The CIDS also passes the test and in case of a
+failure of one CIDS-SDF channel the lamps come on only once. When the
+TEST P/B is released, the DISCH lights and the SMOKE lights go off. The
+isolation valves of the cargo compartment ventilation system open and
+the extraction fan starts. The information is stored in the CFDS. On
+aircraft fitted with CIDS Smoke Detection functions (post mod 33100),
+spurious smoke warnings can be caused in particular circumstances, which
+can lead to IFTB or diversion. This software is now included in new CIDS
+OBRM (P/N Z064H000034D) introduced via: - SB A320-23-1766 for CEO A320
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 120 of 165
+CIDS SMOKE DETECTION FUNCTION ... TEST PUSHBUTTON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 121 of 165
+CARGO FIRE PROTECTION SYSTEM PRESENTATION (2) A321 SYSTEM The A321 cargo
+fire protection is supplied by two basic systems: - the cargo smoke
+detection, - the cargo fire extinguishing. The A321 cargo fire
+protection system operation is identical to the A320. The A321 cargo
+smoke detection system is installed in the FWD and in the AFT/BULK cargo
+compartments. Six optical smoke detectors are located in three cavities
+in the ceiling of the AFT/BULK cargo compartment and four additional
+detectors are located in two cavities in the ceiling of the FWD cargo
+compartment. The cargo smoke detectors are electrically connected to the
+CIDS directors via CAN busses.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 122 of 165
+A321 SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 123 of 165
+CARGO & LAVATORY SMOKE DETECTION SYSTEM D/O (3) GENERAL The cargo and
+lavatory smoke detectors are connected to both Smoke Detection Functions
+(SDFs) integrated in the Cabin Intercommunication Data System (CIDS)
+directors via Controller Area Network (CAN) busses.
+LAVATORY SMOKE The lavatory smoke detectors are connected to type B
+Decoder/Encoder Units (DEUs) via CAN buses and the DEUs B are linked to
+the CIDS directors via the CIDS middle line bus. The lavatory smoke
+detection is done by the Central Processing Unit (CPU) and the CIDS-SDF.
+When smoke is detected in a lavatory, the CPU 1 or 2 sends the following
+cabin warnings: - a triple chime is broadcast in all cabin or attendant
+station loudspeakers, - a flashing amber light on the related Area Call
+Panel (ACP), - "SMOKE LAV X" message is displayed and a red indicator
+flashes on all the Attendant Indication Panels (AIPs), - SMOKE DETECTION
+page appears automatically on the Flight Attendant Panel (FAP) on which
+"SMOKE DETECTED" red message is displayed and a red icon is displayed at
+the affected location, - the affected amber lavatory call light flashes.
+Simultaneously, the SDF 1 or 2 sends a smoke alert to the Flight Warning
+Computers (FWCs), which generates the following cockpit warnings: - a
+Continuous Repetitive Chime (CRC), - the red MASTER WARNing light, - the
+LAVATORY SMOKE warning message on the EWD. If smoke is no longer
+detected, the directors automatically reset all visual and aural
+indications. NOTE: An option disables lavatory warnings in the cockpit.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 124 of 165
+GENERAL & LAVATORY SMOKE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 125 of 165
+CARGO & LAVATORY SMOKE DETECTION SYSTEM D/O (3) LAVATORY FAULT When a
+lavatory smoke detector failure is detected by CIDS-SDF, the faulty
+detector is automatically isolated in the bus system. The lavatory
+detection fault is shown in the cockpit and on the FAP for the cabin.
+The cabin warnings are: - a flashing amber CAUTion light on FAP upper
+left corner if the SMOKE DETECTION page cannot be immediately
+displayed, - an amber icon displayed at the affected location on the
+SMOKE DETECTION page, - a failure message displayed in amber. The
+inoperative lavatory smoke detector FAULT is sent to: - the Centralized
+Fault Display Interface Unit (CFDIU) for maintenance purposes, - the
+FWC, for ECAM indication, - the CIDS directors for FAP indications.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 126 of 165
+LAVATORY FAULT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 127 of 165
+CARGO & LAVATORY SMOKE DETECTION SYSTEM D/O (3) CARGO SMOKE When cargo
+smoke is detected, the CIDS-SDF function sends the SMOKE warning signal
+to the cockpit through the FWCs. When smoke is detected in one
+compartment, (aft shown as example), the following activated warnings
+are: - the CRC, - the MASTER WARN light, - the ECAM message, - the SMOKE
+light on the CARGO SMOKE panel.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 128 of 165
+CARGO SMOKE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 129 of 165
+CARGO & LAVATORY SMOKE DETECTION SYSTEM D/O (3) CARGO FAULT When a cargo
+smoke detector failure is detected by the CIDS-SDF, the faulty detector
+is automatically isolated in the bus system. The cargo detection fault
+is shown in the cockpit. The inoperative cargo smoke detector (bulk
+shown as example) FAULT is sent to: - the CFDIU for maintenance
+purposes, - the FWCs, for ECAM indication.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 130 of 165
+CARGO FAULT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 131 of 165
+CARGO & LAVATORY SMOKE DETECTION SYSTEM D/O (3) BOTTLE FAULT In case of
+a fire bottle pressure drop or a loss of electrical squib continuity,
+the CIDS-SDF sends signals to the ECAM and to the CFDIU. When a
+discontinuity occurs on the squib circuit, the following warnings are
+activated in the cockpit by the FWCs: - Single Chime (SC), - MASTER CAUT
+light, - ECAM message. The inoperative squib is also shown on the CFDIU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 132 of 165
+BOTTLE FAULT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 133 of 165
+CARGO & LAVATORY SMOKE DETECTION SYSTEM D/O (3) CIDS SDF FAULT If one
+SDF card in one CIDS director fails, the smoke detection function is
+transferred to the remaining SDF card in the other CIDS director and a
+status/maintenance message is shown. If the SDF cards in the CIDS
+director 1 and 2 fails, an automatic fault indication is shown on the
+Engine and Warning display accompanied by the SC and MASTER CAUT light.
+The failure message is also sent to the CFDIU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 134 of 165
+CIDS SDF FAULT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 135 of 165
+FAP SMOKE DETECTION PAGE (2) INDICATIONS The Flight Attendant Panel
+(FAP) SMOKE DETECTION page indicates cabin related smoke alerts and
+smoke sensor faults (LAVatory E shown as example). In case of smoke
+alert (LAV A shown as example) the page will come up automatically
+regardless of any other previous selected page or FAP function. The
+following messages shall be indicated: - smoke alerts with location, -
+sensor faults with location, - smoke signal reset. If smoke is no longer
+detected, the Smoke Detection Function (SDF) integrated in the Cabin
+Intercommunication Data System (CIDS) directors resets all the
+indications automatically. The visual and aural indications in cabin can
+be manually reset by pushing the Smoke Reset button on the FAP
+touchscreen or the SMOKE RESET hard key on the FAP subpanel. A system
+configuration by plug-in memory cassette, the Cabin Assignment Module
+(CAM), is installed in the front of the FAP. It defines the smoke
+detection properties: - definition of chime distribution, - definition
+of Attendant Indicating Panels (AIPs) indications, - assignments of call
+lights, - assignments of Area Call Panels (ACPs) indications, -
+assignments of smoke zones reset commands, - assignments of flashing
+modes for smoke indications.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 136 of 165
+INDICATIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 137 of 165
+CARGO SMOKE PROCEDURE (3) AURAL AND VISUAL INDICATIONS When cargo smoke
+is detected (bulk smoke is shown as an example), the Continuous
+Repetitive Chime (CRC) sounds, the MASTER WARNing flashes and the SMOKE
+light on the CARGO SMOKE panel comes on. The isolation valves of the
+cargo compartment are automatically closed and the ISOLation VALVE FAULT
+light on the CARGO HEAT panel comes on. NOTE: The ventilation and the
+heating systems are optional and independent for each compartment.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 138 of 165
+AURAL AND VISUAL INDICATIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 139 of 165
+CARGO SMOKE PROCEDURE (3) EXTINGUISHING PROCEDURE The AFT ISOL VALVE
+P/BSW must be pressed (available only if AFT ventilation system is
+installed). The isolation valves closure is confirmed. Then, the
+DISCHarge P/B is pressed for the AFT cargo compartment. When the DISCH
+P/BSW is pressed, the fire bottle is discharged into the cargo
+compartment. As the bottle pressure is released, the pressure switch
+gives the DISCH light activation. With the smoke extinguished, all
+warnings disappear except the DISCH lights, which remain on. NOTE: In
+case of cargo smoke warning on ground you should never discharge the
+on-board extinguishing bottle. A visual inspection of the cargo
+compartment must be done. If fire is confirmed, portable extinguishers
+must be used.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 140 of 165
+EXTINGUISHING PROCEDURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 141 of 165
+CARGO SMOKE PROCEDURE (3) A321 CONFIGURATION In case of a cargo smoke
+detected on the A321 cargo compartment (bulk smoke is shown as an
+example) the procedure is the same as described for the other single
+aisle family aircraft. Only the layout of the detection and
+extinguishing system is different.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 142 of 165
+A321 CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 143 of 165
+PRECAUTIONS (3) GENERAL Specific precautions must be taken during
+removal or installation of a fire extinguishing bottle and a discharge
+cartridge.
+FIRE BOTTLE WARNING: The fire bottle cartridges are explosive. Remove
+them before working on the bottle. Protective caps must be installed
+during bottle removal/installation to prevent damage to discharge
+diaphragm, which could result in injury to personnel.
+DISCHARGE CARTRIDGE WARNING: Before power is supplied to the A/C, make
+sure that electrical circuits upon which work is in progress are
+isolated. Cartridges are class "C" explosives and must be handled or
+stored by authorized personnel or disposed of by an approved method.
+When cartridge electrical connectors are disconnected, the cartridge
+electrical pins must be shunted with a protective shunt which is given
+by the manufacturer. A shunt plug or shorting clip will prevent bottle
+discharge which could cause injury to maintenance personnel. The
+cartridge installed must be supplied by fire bottle vendor and agreed
+with the specification indicated in the AMM.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 144 of 165
+GENERAL ... DISCHARGE CARTRIDGE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 145 of 165
+CARGO FIRE PROTECTION FOR ETOPS (OPTION) (3) ETOPS REQUIREMENTS FOR
+CARGO HOLD PROTECTION The ETOPS rules require the A/C to be protected
+against cargo fire, for the duration of the diversion (120 min, 180 min)
+with added 15 min supplemental, in the scenario of a go-around requiring
+a second approach to the alternate airport. Additional features are
+installed in order to guarantee sufficient agent concentration for the
+time of the diversion plus 15 minutes. Such features with the single
+shot system configuration, requires: - a large bottle. Such features
+with the dual shot system configuration, requires: - an additional
+bottle (two bottles), - a flow metering system on the second bottle.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 146 of 165
+ETOPS REQUIREMENTS FOR CARGO HOLD PROTECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 147 of 165
+CARGO FIRE PROTECTION FOR ETOPS (OPTION) (3) BOTTLE CONFIGURATION TO
+SATISFY ETOPS 120 OR 180 MIN Depending on the volume of the cargo holds
+on the SA family models (A318, A319, A320 and A321) the A/C has: - for
+the A318, A319 and the A320, two 630 cu. in. bottles to protect up to
+180 min ETOPS, - for the A319, a single 800 cu. in. bottle,
+gives/protects a protection up to 120 min ETOPS - for the A321, two
+bottles gives/protects a protection up to 135 min ETOPS, extended up to
+180 min ETOPS. Because of the maintenance access constraints in the FWD
+and AFT cargo holds, particularly with the installation of the ACT on
+the A319CJ and also on other models, such bottles, squib and flow
+metering system are installed on the side or AFT of the bulk cargo hold.
+The A321 bottles, squib and flow metering system are installed on the
+side of the FWD cargo hold. NOTE: The installation of the flow metering
+system is on the discharge circuit of the second bottle.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 148 of 165
+BOTTLE CONFIGURATION TO SATISFY ETOPS 120 OR 180 MIN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 149 of 165
+CARGO FIRE PROTECTION FOR ETOPS (OPTION) (3) DUAL SHOT CARGO SMOKE
+CONTROL PANEL AND FLOW METERING SYSTEM This optional panel 22VU has an
+additional feature to control the discharge on the second cargo fire
+bottle, by cockpit crew manual, also called dual shot system. The ETOPS
+panel 22VU controls each of the squib on the two bottles. A priority
+relay prevents the bottle 2 to be discharged before bottle 1. The TEST
+pushbutton switch on the overhead panel 22VU, activates the Smoke
+Detection Function within the Director (CIDS-SDF), starting an automatic
+test. Smoke and bottle pressure drop conditions are simulated.
+Indications appear on the cargo smoke panel 22VU as follows: - the FWD
+and AFT smoke indication lights come on, - the FWD and AFT discharge
+indication lights come on. The smoke detection function in the
+CIDS-Director (CIDS-SDF) continuously monitors the bottle pressure
+condition, the cartridges and the wiring. If faults occur, they show on
+the ECAM upper display unit. The faults are also transmitted to the
+Centralized Fault Display (CFDS). The second bottle equally supplies the
+FWD and AFT cargo compartment discharge nozzles through an ETOPS flow
+metering system. This ETOPS flow metering system is made of: - a water
+absorbing filter, - a solid particle filter, - a pressure reducer, - a
+diaphragm (for flow metering) and non-return valve. The ETOPS flow
+metering system makes sure that there is a sufficient concentration in
+the cargo compartment during ETOPS flight diversion. NOTE: the second
+bottle on ETOPS A/C will be discharged through a flow metering system 60
+min. after the first bottle.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 150 of 165
+DUAL SHOT CARGO SMOKE CONTROL PANEL AND FLOW METERING SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 151 of 165
+FIRE PROTECTION SYSTEM LINE MAINTENANCE (2) SERVICING The ENGINE and APU
+FIRE tests must be performed prior to start. Press and hold the TEST
+pushbutton on the Engine or APU fire panel. The test will trigger all of
+the FIRE warnings in the cockpit. During the engine FIRE test: - FIRE
+light on overhead panel illuminates, - FIRE light on engine start panel
+illuminates, - both SQUIB lights illuminate, - both DISCH lights
+illuminate, - both red MASTER WARNING lights illuminate on the glare
+shield panel, - continuous chime sounds, - engine FIRE procedure
+displayed on upper ECAM DU, - ENGINE page displayed on lower ECAM DU.
+During the APU FIRE test: - FIRE light on overhead panel illuminates, -
+SQUIB light illuminates, - DISCH light illuminates, - both red MASTER
+WARNING lights illuminate on the glare shield panel, - continuous chime
+sounds, - APU FIRE procedure displayed on upper ECAM DU, - APU page
+displayed on lower ECAM DU Reliability of Engine Fire Extinguishing
+Operation (V2500):Several operators reported finding cracks on engine
+fire extinguishing pipes fitted on Aircraft powered by IAE V2500 series
+engines. Cracking of the fire extinguisher pipe can interfere with
+correct operation of the fire extinguishing agent. Investigations
+identified that high vibration in the area of the pipe is the most
+likely cause of these fatigue cracks as the piping end is not
+sufficiently supported.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 152 of 165
+SERVICING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 153 of 165
+FIRE PROTECTION SYSTEM LINE MAINTENANCE (2) DAILY CHECKS Each lavatory
+waste bin is protected from fire by an automatically discharged fire
+bottle. The bottle is located above the waste bin. The lavatory fire
+bottle pressure may be checked at the pressure gage on the bottle. The
+APU fire bottle is located forward of the APU firewall. Prior to
+starting the APU, the bottle pressure may be insured by checking the red
+disc located on the rear fuselage lower left side. The red disc is
+connected to an overpressure discharge tube. If the bottle pressure
+becomes excessive, the bottle will discharge to protect the structure
+and the red disc will blow out. The cargo compartments should be checked
+for integrity. Any damage to the cargo compartment ceiling or sidewall
+liner should be repaired immediately. If the compartment is ventilated,
+the ventilation isolation valves are automatically closed when SMOKE is
+detected. A hole in the liner could induce airflow through the
+compartment, compromising the fire protection of the compartments. If
+the compartment is not ventilated, no airflow is permitted.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 154 of 165
+DAILY CHECKS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 155 of 165
+FIRE PROTECTION SYSTEM LINE MAINTENANCE (2) MEL/DEACTIVATION The
+aircraft may be dispatched per the MEL with an engine or APU LOOP A or
+LOOP B fault. A fire test must be performed to verify the integrity of
+the other loop. The aircraft may not be dispatched with a FIRE DETECTION
+fault (A and B loops faulty). A single cargo smoke detector fault will
+be indicated by a STATUS message on ECAM. The aircraft may be dispatched
+in this condition per the MEL. If both detectors in one cavity are
+faulty, the aircraft may be dispatched with the compartment empty. The
+aircraft may be dispatched with the use of the compartments as long as
+the compartment does not contain inflammable or combustible materials.
+If the aircraft is equipped with cargo compartment ventilation, the
+isolation valves must be selected closed. Before each flight, the
+compartment liner must be checked for condition and integrity. Each
+lavatory has a single detector. If this detector fails, the aircraft may
+be dispatched with the lavatory locked closed and the waste bin empty.
+The lavatory may be used as long as the extinguisher pressure is
+verified OK and periodic smoke checks are done by the cabin staff. To
+lock the lavatory, lift the "LAVATORY" cover plate on the outside of the
+door and slide the unlocking pin to the LOCK position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 156 of 165
+MEL/DEACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 157 of 165
+MEL/DEACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 158 of 165
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 159 of 165
+FIRE PROTECTION SYSTEM LINE MAINTENANCE (2) MAINTENANCE TIPS The APU
+auto extinguishing test should be performed every 3000 flight hours.
+This test will insure that the APU will be protected in case of a fire.
+When a fire is detected the APU will shut down and the fire bottle will
+be discharged automatically. The Auto extinguishing test pushbutton is
+found on the overhead MAINT panel. The test must be done with the APU
+shut down but with the master switch selected ON. During the test the
+APU auto shutdown is simulated and the APU fuel supply valve is closed.
+Both squibs of each engine fire bottle No. 1 and one squib of the APU
+fire bottle are supplied by 28 VDC from the HOT bus. When performing
+maintenance with the FIRE pushbutton released out, make sure to pull
+both squib C/Bs to protect against bottle discharge. If the C/Bs are not
+pulled, the bottle may be discharged even without power on the aircraft.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 160 of 165
+MAINTENANCE TIPS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 161 of 165
+MAINTENANCE TIPS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 162 of 165
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 163 of 165
+FIRE PROTECTION SYSTEM OPERATION, CONTROL & INDICATING (3) FIRE
+DETECTION ENG 1 FIRE LOOP A FAULT AVIONICS SMOKE DETECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 164 of 165
+Training Manual Airbus A318/319/ A320/A321 (CFM56 & V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 01/01/2025 165 of 165

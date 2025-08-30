@@ -1,0 +1,1469 @@
+Airbus A318/A319/A320/A321 (CFM56 & V2500) B1+B2 Technical Training
+Manual
+ATA 29 -- Hydraulic Power Airframe Systems
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more. Contact us Tel: +44(0) 1565 653745 Email:
+admin@catts.org.uk Web: www.catts.org.uk Online Training:
+catts.learnupon.com/store
+ATA Chapters Required in this Training Manual AIRFRAME SYSTEMS ATA 29
+Hydraulic Power
+ATA 29A
+Hydraulic Power-Monitoring and Indicating
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+Training Ma Manual Airbus A318/319/ A320/A321 (CFM56 & V2500) ATA 29
+Airframe Systems; Hydraulic Power Level 3
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER Hydraulic Power System Component Location (2) . . . . .
+. . . . . . . . . . 2 Hydraulic Power System Control & Indicating (2) .
+. . . . . . . . . . . . . 10 Hydraulic System Users (2) . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . 12 Circuit
+Identification and Routing (2) . . . . . . . . . . . . . . . . . . . . .
+. . . 14 Green Hydraulic System D/O (3) . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . 22 Blue Hydraulic System D/O (3) . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . 32 Yellow Hydraulic System D/O
+(3) . . . . . . . . . . . . . . . . . . . . . . . . . . . 40 Hydraulic
+Reservoir Pressurizing SYS D/O (3) . . . . . . . . . . . . . . . . . 54
+Hydraulic Reservoir Filling Presentation (2) . . . . . . . . . . . . . .
+. . . . . 58 Seal Drain System Description (3) . . . . . . . . . . . . .
+. . . . . . . . . . . . . . 60 Hydraulic Power System Operation, Control
+& Indicating (3) . . . . . 66
+MAINTENANCE PRACTICE Reservoir Depressurization/Pressurisation (2) . . .
+. . . . . . . . . . . . . . . 68 Reservoir Filling (2) . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74 Hydraulic
+Power System Line Maintenance (2) . . . . . . . . . . . . . . . . 78 RAT
+Test (3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . 106 Hydraulic Leakage (3) . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . 112
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 5 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW On the
+green system the normal source of pressure is the Engine Driven Pump
+(EDP) and as auxiliary source the Power Transfer Unit (PTU). On the blue
+system the normal source of pressure is the electrical pump (E-Pump) and
+as auxiliary source the Ram Air Turbine (RAT). NOTE: The blue electric
+pump can be used as an auxiliary power source for maintenance purposes
+on ground. On the yellow system the normal source of pressure is the EDP
+and as auxiliary sources the PTU and the electric pump (E- Pump).
+An interlock mechanism will only permit RAT stowage if the blades are
+properly aligned. It also prevents rotation when stowed. The interlock
+will release at approximately 5 degrees from the full extension
+position. Extension is by spring force. Retraction (stowage) is by blue
+hydraulic pressure. Up lock release is by solenoid operation. Down lock
+release is by hydraulic pressure.
+NOTE: The yellow system also has a hand pump dedicated to cargo door
+operation.
+PTU The PTU is an auxiliary pressure supply for either the green or
+yellow systems without transfer of fluid between the two systems. It
+operates automatically if there is a delta pressure of 500psi between
+the green / yellow or yellow / green hydraulic systems. The side
+operating as a pump will take fluid from its associated reservoir and
+provide an output through the PTU manifold to the HP manifold. The motor
+side is supplied from the HP manifold through the PTU manifold, and is
+connected to the return system. The PTU is de-activated by closing the
+solenoid valves on the PTU manifolds. Each section of the PTU has a case
+drain connection to the return system.
+RAT The RAT is an auxiliary pressure supply for the blue system, and for
+the emergency electrical power Constant Speed Motor/Generator (CSM / G).
+It can be deployed automatically or manually depending on the failure
+conditions. The RAT is locked when extended.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 6 of 120
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - PTU & RAT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 7 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+PTU/ELEC PUMPS/RAT The PTU is located in the main landing gear bay. The
+blue electric pump and the RAT are located in the blue hydraulic bay and
+the yellow electric pump is located in the yellow hydraulic bay.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 8 of 120
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - PTU/ELEC PUMPS/RAT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 9 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+(continued) ENGINE PUMP The EDPs 1 and 2 are located on the accessory
+gearbox of engine 1 (EDP 1 green system) and engine 2 (EDP 2 yellow
+system).
+RESERVOIR The green reservoir is located inside the main landing gear
+bay. The blue reservoir is located aft of the main landing gear bay on
+the LH side. The yellow reservoir is located inside the yellow hydraulic
+bay.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 10 of 120
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - ENGINE PUMP & RESERVOIR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 11 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+(continued) SERVICING PANELS The hydraulic servicing panels are located
+aft of the main landing gear bay; the green and the blue panels on the
+LH side, and the yellow panel on the RH side.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 12 of 120
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - SERVICING PANELS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 13 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM CONTROL & INDICATING (2) LOCATE
+CONTROL/INDICATING IN COCKPIT HYDRAULIC CONTROL/INDICATING RESERVOIR LOW
+AIR PRESSURE FAILURE RESERVOIR FLUID BELOW NORMAL RESERVOIR FLUID
+QUANTITY LOW YELLOW ELECTRICAL PUMP FAILURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 14 of 120
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 15 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC SYSTEM USERS (2) GREEN, BLUE, YELLOW USERS The three
+independent hydraulic systems respectively supply the users indicated on
+the diagram. Between these systems, the users are shared in order to
+ensure the aircraft control, even if only one hydraulic system is
+inoperative. On the blue hydraulic system, the Constant Speed
+Motor/Generator (CSM/G) is used to provide aircraft electrical power in
+case of emergency.
+PRIORITY VALVES In the event of low hydraulic pressure, the priority
+valves maintain the operation of essential systems by cutting off
+hydraulic power to heavy load users.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 16 of 120
+FOR TRAINING PURPOSES ONLY
+GREEN, BLUE, YELLOW USERS & PRIORITY VALVES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 17 of 120
+FOR TRAINING PURPOSES ONLY
+CIRCUIT IDENTIFICATION AND ROUTING (2) PIPE ROUTING The A/C has three
+hydraulically independent systems: blue, green, yellow. There are no
+hydraulic pipes in the passenger cabin or flight compartment.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 18 of 120
+FOR TRAINING PURPOSES ONLY
+PIPE ROUTING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 19 of 120
+FOR TRAINING PURPOSES ONLY
+CIRCUIT IDENTIFICATION AND ROUTING (2) pipe identification Each pipe is
+identified by a self-adhesive label, which indicates: - the part number
+of the pipe, - the identification of the pipe as a hydraulic pipe, its
+function with black dots and the direction of the fluid flow with yellow
+and blue fields, - an identification of the system comprising a color
+code and a number 1, 2 or 3 respectively indicating the Green, Blue, or
+Yellow system.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 20 of 120
+FOR TRAINING PURPOSES ONLY
+PIPE IDENTIFICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 21 of 120
+FOR TRAINING PURPOSES ONLY
+CIRCUIT IDENTIFICATION AND ROUTING (2) component identification Each
+hydraulic component is identified by a placard affixed on the structure
+near to it, which gives its Functional Item Number (FIN) and its
+designation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 22 of 120
+FOR TRAINING PURPOSES ONLY
+COMPONENT IDENTIFICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 23 of 120
+FOR TRAINING PURPOSES ONLY
+CIRCUIT IDENTIFICATION AND ROUTING (2) cONNECTIONS The most common
+connections in the hydraulic system are shown below. There are two types
+of connections: - permanent connections or permaswage, - removable
+connections or standard straight or special fittings. The manifolds have
+bobbin type connections for some components. The bobbins are equipped
+with a square seal on the component side and an O-ring on the manifold
+side.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 24 of 120
+FOR TRAINING PURPOSES ONLY
+CONNECTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 25 of 120
+FOR TRAINING PURPOSES ONLY
+GREEN HYDRAULIC SYSTEM D/O (3) EDP
+B2 SCOPE CAUTION: MODULE TAGGED B2 SCOPE. BE AWARE THAT ONLY
+AVIONICS/ELECTRICAL TOPICS SHOULD BE LEARNED FOR A T2 COURSE.
+GENERAL Most of the system components are installed in the MLG
+compartment.
+RESERVOIR The reservoir has a direct reading gauge, a quantity indicator
+and a low level switch for ECAM indicating and warning. There are three
+levels: - Normal fill level: 14 l. (3.7 US gal), - Maximum gaugeable
+level: 18 l. (4.76 US gal), - Low level warning: 3.0 ± 0.4 l. (0.79 ±
+0.1 US gal).
+The EDP is attached to the accessory gearbox. A solenoid valve
+controlled by the ENG 1 PUMP P/B selects the pressurized or
+depressurized mode. The EDP cooling and lubricating flow goes through
+the case drain filter installed in the return circuit. Pump outlet
+pressure is 3000 psi (206 bar) at zero flow. The EDP includes a blocking
+valve, which isolates the pump from the hydraulic system when the pump
+operates in depressurized mode. Case drain filter clogging indication: P
+= 87 ± 8.7 psi (6 ± 0.6 bar).
+ACOUSTIC FILTER The acoustic filter is installed in the outlet from the
+green EDP. It removes the pulses of pressure of the HP flow from the
+pump. The acoustic filter is an empty metal sphere, with inlet and
+outlet connections on opposite sides.
+PRESSURE SWITCH RESERVOIR PRESSURIZATION The reservoir is normally
+pressurized with air to prevent cavitation of the pumps. The reservoir
+is pressurized to 50 psi (3.45 bar) and is sealed to hold the pressure
+when there is no air supply. The threshold of the LP switch is 22 psi
+(1.52 bar). The threshold of the pressure relief valve is 77 psi (5.3
+bar).
+FIRE VALVE The green system fire valve installed in the LH wing, inboard
+of the pylon, is controlled by ENG 1 FIRE P/B. When the valve closes, it
+stops the supply of fluid to the Engine Driven Pump (EDP).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+The EDP pressure switch monitors the EDP outlet pressure for ECAM
+indications. The threshold of the pressure switch is 1740 psi (120 bar).
+NOTE: A check valve downstream of the pump stops the fluid flow to the
+pump if the system is pressurized by the PTU.
+GROUND COUPLINGS The ground service panel has two connectors used to
+pressurize the green hydraulic system from a ground cart. A selector
+valve, two connectors and a hand pump are used for hydraulic reservoir
+refilling.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 26 of 120
+FOR TRAINING PURPOSES ONLY
+B2 SCOPE ... GROUND COUPLINGS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 27 of 120
+FOR TRAINING PURPOSES ONLY
+GREEN HYDRAULIC SYSTEM D/O (3) SAMPLING VALVE
+HP MANIFOLD The High Pressure (HP) manifold supplies the PTU manifold
+and the leak measurement manifold.
+PRESSURE SWITCHES The signals from both pressure switches at the HP
+manifold are sent to the Flight Control Computers (FCCs), to the
+Braking/Steering Control Unit (BSCU), the ECAM will receive information
+from one of the two switches for LP indication, and to the Flight
+Augmentation Computer (FAC). The threshold of the pressure switches is
+1450 psi (99.5 bar).
+A sampling valve is provided on the HP manifold. NOTE: CAUTION: when
+sampling, let the fluid run for a moment into a container, then put 0.2L
+(0.05USG) of fluid into an appropriate bottle for analysis.
+PRESSURE RELIEF VALVE The system relief valve connects the HP circuit to
+the return circuit in case of overpressure. The relief valve opens at
+3436 psi (237 bar) and closes at 3190 psi (220 bar).
+PRESSURE TRANSDUCER The pressure transducer provides data for pressure
+indication on the ECAM and sends information to Elevator Aileron
+Computers (ELACs) 1 and 2.
+LEAK MEASUREMENT VALVE The leak measurement valve isolates the primary
+flight controls when the guarded LEAK MEASUREMENT VALVES P/B on the
+maintenance panel is set to OFF.
+HP FILTER The HP filter has a clogging indicator. The clogging indicator
+operates when the differential pressure is higher than 87 ± 8.7 psi (6 ±
+0.6 bar).
+ACCUMULATOR The accumulator acts as a damper for small changes. It also
+makes a supply of fluid available in case of any demand. The accumulator
+is precharged with nitrogen to 1885 psi (130 bar) at 20°C. It holds 1.1l
+(0.29 US gal) of total volume of fluid when it is full.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 28 of 120
+FOR TRAINING PURPOSES ONLY
+HP MANIFOLD - PRESSURE SWITCHES ... PRESSURE RELIEF VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 29 of 120
+FOR TRAINING PURPOSES ONLY
+GREEN HYDRAULIC SYSTEM D/O (3) LEAK MEASUREMENT MANIFOLD (OPTIONAL) The
+optional leak measurement manifold supplies the flight controls of the
+RH wing, LH wing and tail section via three outputs. After closing the
+related leak measurement valve, operating manually a spool valve lets
+the related section be supplied for leak measurement testing.
+PTU MANIFOLD The PTU manifold is composed of three different valves: -
+The normal braking selector valve which cuts the hydraulic supply to the
+normal brakes, - The solenoid valve installed in the PTU supply line
+which stops the PTU operation, - The priority valve which makes sure
+that all available hydraulic pressure is sent to the primary flight
+controls if pressure in the system is reduced.
+RETURN MANIFOLD The return manifold comprises: - One return filter with
+a clogging indicator and a by-pass device, - One temperature sensor
+which has one temperature switch and two temperature transducers. The
+red pin of clogging indicator comes out when the differential pressure
+across the filter is more than 29 ± 4.4 psi (2 ± 0.3 bar). The by-pass
+operates when the differential pressure across the filter is more than
+58 ± 6.0 psi (4.0 ± 0.4 bar). Then the device lets the fluid go from
+inlet to outlet without filtration. The temperature switch and
+temperature transducers send data for ECAM warnings and indication on
+overhead P/Bs.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 30 of 120
+FOR TRAINING PURPOSES ONLY
+LEAK MEASUREMENT MANIFOLD (OPTIONAL) ... RETURN MANIFOLD
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 31 of 120
+FOR TRAINING PURPOSES ONLY
+GREEN HYDRAULIC SYSTEM D/O (3) POWER TRANSFER UNIT (PTU) PTU NORMAL
+OPERATION (NOT INHIBITED) The Power Transfer Unit (PTU) will run
+automatically when the differential pressure between the green and
+yellow circuits is greater than 500 psi (34.5 bar).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 32 of 120
+FOR TRAINING PURPOSES ONLY
+POWER TRANSFER UNIT (PTU) - PTU NORMAL OPERATION (NOT INHIBITED)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 33 of 120
+FOR TRAINING PURPOSES ONLY
+GREEN HYDRAULIC SYSTEM D/O (3) POWER TRANSFER UNIT (PTU) (continued) PTU
+INHIBITED The PTU operation is inhibited: - During cargo door
+operation, - If the PTU P/B is switched OFF, - When the A/C is on
+ground, with one engine running and if the parking brake is set on or
+the nose wheel steering is disconnected for towing (example: First
+engine start up during push back). As an option, a PTU inhibition logic
+prevents the PTU from running in overspeed condition (Hyd reservoir low
+level on one sys) and later on leads to the loss of the second sys (Hyd
+reservoir overheat on the other sys). In flight, if the PTU is not able
+to pressurize a hydraulic failed system (G SYS LO PR or Y SYS LO PR)
+within 6 seconds, either due to external leakage or PTU failure, the PTU
+is automatically inhibited. This PTU inhibition logic is activated if
+both engines are running and remains activated as long as one engine is
+running. The 20s relay has been installed for the deactivation of the
+PTU inhibition logic. Once the PTU has been automatically inhibited, the
+logic is "de-latched" and PTU no longer inhibited 20 seconds after one
+of the following are met: - A/C on ground OR, - Both engines stopped, -
+The affected hydraulic system does not longer detect a low-pressure
+condition.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 34 of 120
+FOR TRAINING PURPOSES ONLY
+POWER TRANSFER UNIT (PTU) - PTU INHIBITED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 35 of 120
+FOR TRAINING PURPOSES ONLY
+BLUE HYDRAULIC SYSTEM D/O (3) B2 SCOPE
+ACOUSTIC FILTER
+CAUTION: MODULE TAGGED B2 SCOPE. BE AWARE THAT ONLY AVIONICS/ELECTRICAL
+TOPICS SHOULD BE LEARNED FOR A T2 COURSE.
+The acoustic filter is installed in the outlet from the blue electrical
+pump. It removes the pulses of pressure of the HP flow from the pump.
+The acoustic filter is an empty metal sphere, with inlet and outlet
+connections on opposite sides.
+RESERVOIR
+RAM AIR TURBINE
+The reservoir has a direct reading gage, a quantity indicator and a low
+level switch for ECAM indicating and warning. Normal fill level: 6 l
+(1.58 US gal). Maximum gageable level: 8 l (2.11 US gal). Low level
+warning: between 2.0 and 2.3 l (0.52 and 0.6 US gal).
+PRESSURE SWITCH
+RESERVOIR PRESSURIZATION The reservoir is normally pressurized with air
+to prevent pump cavitation. The reservoir is pressurized to 50 psi (3.43
+bar) and is sealed to hold the pressure when there is no air supply. The
+threshold of the air pressure switch is 22 psi (1.52 bar). The threshold
+of the air pressure relief valve is 77 psi (5.3 bar).
+ELECTRIC PUMP With the ELECtric (ELEC) PUMP P/B set to AUTO, the blue
+electric pump will run, if one engine is running, or the BLUE PUMP
+OverRiDe (OVRD) P/B is set to ON, or NLG is not compressed and AC power
+is available from the APU. With the last condition, at touchdown a time
+delay relay maintains the pump operation for two minutes after NLG
+compression. The pump outlet pressure is 3000 psi (206 bar) at zero
+flow. A temperature switch sends a signal to the ECAM if the pump body
+temperature exceeds 165°C. The electric pump cooling and lubricating
+flow goes through the case drain filter installed in the return circuit.
+Case drain filter clogging indication: P = 87 ± 8.7 psi (6 ± 0.6 bar).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+The Ram Air Turbine (RAT) is deployed automatically if all AC electrical
+power sources are lost at speeds greater than 100 kts, or manually by
+using either one of the guarded P/Bs.
+The pressure switch monitors the electric pump pressure for ECAM
+indications. The threshold of the pressure switch is 1450 psi (99.5
+bar). A check valve stops the flow of fluid to the electric pump if the
+system is pressurized by the RAT.
+GROUND COUPLINGS On ground it is possible to pressurize the blue
+hydraulic system from a ground power unit.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 36 of 120
+FOR TRAINING PURPOSES ONLY
+B2 SCOPE ... GROUND COUPLINGS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 37 of 120
+FOR TRAINING PURPOSES ONLY
+BLUE HYDRAULIC SYSTEM D/O (3) CURRENT TRANSFORMER AND PHASE UNBALANCE
+DETECTOR The system has a current transformer and a phase unbalance
+detector which protect the electric circuit from the electric pump. When
+there is a fault, the detector gets a signal from the current
+transformer. It uses this signal to stop the supply of power to relay
+and thus stop the motor. When the unit has operated, it stays in that
+condition until it is set again. This happens automatically when the
+supply of power to the unit is stopped (through operation of P/BSW
+HYD/BLUE/ELEC PUMP) and then started again (and there is no fault signal
+from the current transformer).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 38 of 120
+FOR TRAINING PURPOSES ONLY
+CURRENT TRANSFORMER AND PHASE UNBALANCE DETECTOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 39 of 120
+FOR TRAINING PURPOSES ONLY
+BLUE HYDRAULIC SYSTEM D/O (3) PRESSURE RELIEF VALVE
+HIGH PRESSURE MANIFOLD
+The pressure relief valve connects the HP circuit to the return circuit
+in case of over pressure. The relief valve opens at 3436 psi (237 bar)
+and closes at 3190 psi (220 bar).
+The High Pressure (HP) manifold is composed of: - two pressure
+switches, - a pressure transducer, - a leak measurement valve, - a HP
+filter, - a priority valve, - a pressure relief valve, - a sampling
+valve.
+SAMPLING VALVE A sampling valve is installed on the HP manifold. NOTE:
+CAUTION: when sampling, let the fluid run for a moment into a container,
+then put 0.2L (0.05USG) of fluid into an appropriate bottle for
+analysis.
+PRESSURE SWITCHES The signals from both HP manifold pressure switches
+are sent to the ECAM system and to the Flight Control Computers (FCCs).
+The threshold of the pressure switches is 1450 psi (99.5 bar).
+PRESSURE TRANSDUCER The pressure transducer gives data for pressure
+indication on the ECAM and sends information to ELevator Aileron
+Computers (ELACs) 1 and 2.
+ACCUMULATOR The accumulator acts as a damper for small changes. It also
+makes a supply of fluid available if there is a demand. The accumulator
+is pre-charged with nitrogen to 1885 psi (130 bar) at 20°C. When it is
+full, it holds a total volume of fluid of 1.1 l (0.29 US gal) .
+LEAK MEASUREMENT VALVE The leak measurement valve isolates the flight
+controls when the guarded LEAK MEASUREMENT VALVES P/B on the maintenance
+panel is set to OFF.
+HP FILTER The HP filter has a clogging indicator. The clogging indicator
+operates when the differential pressure is higher than 87 ± 8.7 psi (6 ±
+0.6 bar).
+PRIORITY VALVE The priority valve makes sure that all available
+hydraulic pressure is sent to the primary flight controls if pressure in
+the system is reduced. The threshold of the priority valve is 1842 psi
+(127 bar).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 40 of 120
+FOR TRAINING PURPOSES ONLY
+HIGH PRESSURE MANIFOLD & ACCUMULATOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 41 of 120
+FOR TRAINING PURPOSES ONLY
+BLUE HYDRAULIC SYSTEM D/O (3) LEAK MEASUREMENT MANIFOLD (OPTIONAL) The
+optional leak measurement manifold supplies the flight controls of the
+RH wing, LH wing and tail section via three outputs. After closing the
+related leak measurement valve, operating manually a spool valve lets
+the related section be supplied for leak measurement testing.
+RETURN MANIFOLD The return manifold comprises: - one return filter with
+a clogging indicator and a by-pass device, - one temperature sensor
+which has one temperature switch and two temperature transducers. The
+red pin of the clogging indicator comes out when the differential
+pressure across the filter is more than 29 ± 4.4 psi (2 ± 0.3 bar). The
+by-pass operates when the differential pressure across the filter is
+more than 58 ± 6.0 psi (4.0 ± 0.4 bar). Then the device allows fluid to
+go from inlet to outlet without filtration. The temperature switch and
+temperature transducers send data for ECAM warnings and indication on
+overhead P/Bs.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 42 of 120
+FOR TRAINING PURPOSES ONLY
+LEAK MEASUREMENT MANIFOLD (OPTIONAL) & RETURN MANIFOLD
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 43 of 120
+FOR TRAINING PURPOSES ONLY
+YELLOW HYDRAULIC SYSTEM D/O (3) EDP
+B2 SCOPE
+Most of the system components are installed in the yellow hydraulic
+compartment, set in the RH belly fairing, FWD of the MLG compartment.
+The EDP is attached to the accessory gearbox. A solenoid valve
+controlled by the ENG 2 PUMP P/B selects the pressurized or
+depressurized mode. The EDP cooling and lubricating flow goes through
+the case drain filter installed in the return circuit. Pump outlet
+pressure is 3000 psi (206 bar) at zero flow. The EDP includes a blocking
+valve which isolates the pump from the hydraulic system when the pump
+operates in depressurized mode. Case drain filter clogging indication: P
+= 87 ± 8.7 psi (6 ± 0.6 bar).
+RESERVOIR
+PRESSURE SWITCH
+The reservoir has a direct reading gauge, a quantity indicator and a low
+level switch for ECAM indications and warnings. There are three
+levels: - normal fill level: 12 l. (3.17 US gal), - maximum gaugeable
+level: 18 l. (4.76 US gal), - low level warning: 3.0 ± 0.4 l. (0.79 ±
+0.1 US gal).
+A pressure switch monitors the EDP outlet pressure for ECAM indications.
+The threshold of the pressure switch is 1740 psi (120 bar).
+CAUTION: MODULE TAGGED B2 SCOPE. BE AWARE THAT ONLY AVIONICS/ELECTRICAL
+TOPICS SHOULD BE LEARNED FOR A T2 COURSE.
+GENERAL
+RESERVOIR PRESSURIZATION The reservoir is normally pressurized with air
+to prevent cavitation of the pumps. The reservoir is pressurized to 50
+psi (3.45 bar) and is sealed by a check-valve to hold the pressure when
+there is no air supply. The threshold of the LP switch is 22 psi
+(1.52bar).
+NOTE: A check valve downstream of the pump stops the fluid flow to the
+pump if the system is pressurized by the PTU or by the yellow electric
+pump and the pressure supplied by the EDP is lower.
+GROUND COUPLINGS On the ground it is possible to pressurize the yellow
+hydraulic system from a ground power unit.
+FIRE VALVE The yellow system fire valve installed in the RH wing,
+inboard of the pylon, is controlled by ENG 2 FIRE P/B. When the valve
+closes, it stops the supply of fluid from the reservoir to the Engine
+Driven Pump (EDP).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 44 of 120
+FOR TRAINING PURPOSES ONLY
+B2 SCOPE ... GROUND COUPLINGS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 45 of 120
+FOR TRAINING PURPOSES ONLY
+YELLOW HYDRAULIC SYSTEM D/O (3) HAND PUMP The hand pump is installed on
+the ground service panel of the yellow system and is used for manual
+cargo door operation only. On ground, when no electrical power is
+available, the hand pump can be used to open or close the cargo doors.
+ELECTRIC PUMP The yellow electric pump runs if the ELEC PUMP P/B is set
+to ON, or if a cargo door selector is operated. The electric pump
+cooling and lubricating flow goes through the return filter. In case of
+cargo door operation, the PTU is inhibited, the yellow leak measurement
+valve is closed and a signal is sent to the Slat Flap Control Computer
+(SFCC) 2 to prevent flaps movement. A check valve downstream of the pump
+stops the fluid flow to the pump if the system is pressurized from the
+EDP or the PTU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 46 of 120
+FOR TRAINING PURPOSES ONLY
+HAND PUMP & ELECTRIC PUMP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 47 of 120
+FOR TRAINING PURPOSES ONLY
+YELLOW HYDRAULIC SYSTEM D/O (3) ELECTRIC PUMP (continued) CURRENT
+TRANSFORMER AND PHASE UNBALANCE DETECTOR The system has a current
+transformer and a phase unbalance detector which protect the electric
+circuit of the electric pump. When there is a fault, the detector gets a
+signal from the current transformer. It uses this signal to stop the
+supply of power to relay and thus stop the motor. When the unit has
+operated, it stays in that condition until it is set again. This happens
+automatically when the supply of power to the unit is stopped (through
+operation of P/BSW HYD/YELLOW/ELEC PUMP) and then started again (and
+there is no fault signal from the current transformer).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 48 of 120
+FOR TRAINING PURPOSES ONLY
+ELECTRIC PUMP - CURRENT TRANSFORMER AND PHASE UNBALANCE DETECTOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 49 of 120
+FOR TRAINING PURPOSES ONLY
+YELLOW HYDRAULIC SYSTEM D/O (3) POWER TRANSFER UNIT (PTU) PTU NORMAL
+OPERATION (NOT INHIBITED) The Power Transfer Unit (PTU) will run
+automatically when the differential pressure between the green and
+yellow circuits is greater than 500 psi (34.5 bar).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 50 of 120
+FOR TRAINING PURPOSES ONLY
+POWER TRANSFER UNIT (PTU) - PTU NORMAL OPERATION (NOT INHIBITED)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 51 of 120
+FOR TRAINING PURPOSES ONLY
+YELLOW HYDRAULIC SYSTEM D/O (3) POWER TRANSFER UNIT (PTU) (continued)
+PTU INHIBITED The PTU operation is inhibited : - during cargo door
+operation, - if the PTU P/B is switched OFF, - when the A/C is on
+ground, with one engine running and if the parking brake is set on or
+the nose wheel steering is disconnected for towing (example: First
+engine start up during push back) . As an option, a PTU inhibition logic
+prevents the PTU from running in overspeed condition (Hyd reservoir low
+level on one sys) and later on leads to the loss of the second sys (Hyd
+reservoir overheat on the other sys). In flight, if the PTU is not able
+to pressurize a hydraulic failed system (G SYS LO PR or Y SYS LO PR)
+within 6 seconds, either due to external leakage or PTU failure, the PTU
+is automatically inhibited. This PTU inhibition logic is activated if
+both engines are running and remains activated as long as one engine is
+running. The 20s relay has been installed for the deactivation of the
+PTU inhibition logic. Once the PTU has been automatically inhibited, the
+logic is "de-latched" and PTU no longer inhibited 20 seconds after one
+of the following are met: - A/C on ground OR, - Both engines stopped, -
+The affected hydraulic system does not longer detect a low-pressure
+condition.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 52 of 120
+FOR TRAINING PURPOSES ONLY
+POWER TRANSFER UNIT (PTU) - PTU INHIBITED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 53 of 120
+FOR TRAINING PURPOSES ONLY
+YELLOW HYDRAULIC SYSTEM D/O (3) HP MANIFOLD
+NOTE: CAUTION: when sampling, let the fluid run for a moment into a
+container, then put 0.2L (0.05USG) of fluid into an appropriate bottle
+for analysis.
+The HP manifold supplies the PTU manifold and the leak measurement
+manifold.
+PRESSURE RELIEF VALVE
+PRESSURE SWITCHES The signals from both HP manifold pressure switches
+are sent to the ECAM system, to the Flight Control Computers (FCCs) , to
+the Flight Augmentation Computer (FAC) 2, the Brake and Steering Control
+Unit (BSCU) as well as the Alternate Brake Control Unit (ABCU). The
+threshold of the pressure switches is 1450 psi (99.5 bar).
+The system relief valve connects the HP circuit to the return circuit in
+case of overpressure. The relief valve opens at 3436 psi (237 bar) and
+closes at 3190 psi (220 bar).
+ACCUMULATOR The accumulator acts as a damper for small changes. It also
+acts as a supply of fluid available in case of request. The accumulator
+is pre-charged with nitrogen to 1885 psi (130 bar) at 20°C. It holds 1l
+(0.26 US gal) of total volume of fluid when it is full.
+PRESSURE TRANSDUCER The pressure transducer gives data for pressure
+indication on the ECAM and sends information to ELevator Aileron
+Computers (ELACs) 1 and 2.
+LEAK MEASUREMENT MANIFOLD (OPTIONAL)
+LEAK MEASUREMENT VALVE The leak measurement valve isolates the primary
+flight controls when the guarded LEAK MEASUREMENT VALVES P/B on the
+maintenance panel is set to OFF (white OFF light is illuminated). The
+solenoid valve is automatically closed if the yellow electric pump is
+energized by using cargo door selectors. This is to prevent any movement
+of the flight controls.
+The optional leak measurement manifold supplies the flight controls of
+the RH wing, LH wing and tail section via three outputs. Operating
+manually, a spool valve lets the associated section of the flight
+controls be supplied for leak measurement testing.
+HP FILTER
+The PTU manifold is composed of one disconnection and two different
+valves.
+The High Pressure (HP) filter has a clogging indicator. The clogging
+indicator operates when the differential pressure is higher than 87 ±
+8.7 psi (6 ± 0.6 bar).
+PTU MANIFOLD
+QUICK DISCONNECT
+SAMPLING VALVE
+The quick disconnect is used for maintenance operations to prevent PTU
+operation.
+A sampling valve is installed on the HP manifold.
+SOLENOID VALVE The solenoid valve installed in the PTU supply line,
+stops the PTU operation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 54 of 120
+FOR TRAINING PURPOSES ONLY
+PRIORITY VALVE The priority valve makes sure that all available
+hydraulic pressure is sent to the primary flight controls if pressure in
+the system is reduced.
+RETURN MANIFOLD The return manifold comprises: - one return filter with
+a clogging indicator and a by-pass device, - one temperature sensor
+which has one temperature switch and two temperature transducers. The
+red pin of the clogging indicator pops out when the differential
+pressure across the filter is more than 29 ± 4.4 psi (2 ± 0.3 bar). The
+by-pass operates when the differential pressure across the filter is
+more than 58 ± 6.0 psi (4.0 ± 0.4 bar). Then the device allows fluid to
+go from inlet to outlet without filtration. The temperature switch and
+temperature transducers send data for ECAM warnings and indication on
+overhead P/Bs.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 55 of 120
+FOR TRAINING PURPOSES ONLY
+HP MANIFOLD ... RETURN MANIFOLD
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 56 of 120
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 57 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC RESERVOIR PRESSURIZING SYS D/O (3) GENERAL
+GROUND CONNECTOR
+An air pressure system is provided to pressurize each hydraulic
+reservoir in order to ensure adequate fluid supply to the pumps. Each
+reservoir is pressurized by air at 50 psi (3.5 bar). The system also
+remains airtight in the event of pressurization system failure or after
+engine shutdown.
+Pressurized air from a ground supply cart goes directly to the reservoir
+pressurization unit through a ground connector.
+SOURCES
+A filter fitted with a clogging indicator is installed in the reservoir
+pressurization unit to filter the air from the different supply sources.
+The pressure sources are engine 1, via a restrictor or both engines and
+the APU, via the pneumatic manifold. The pressure sources are: - the
+engine 1 High Pressure (HP) compressor for usual operation, - the
+pneumatic system in case of loss of engine 1, - the ground supply.
+RESTRICTOR A restrictor limits the airflow and reduces the temperature
+of the HP air to a satisfactory level. The restrictor also prevents too
+much bleed air leakage in case of a leak downstream of the restrictor.
+RESERVOIR PRESSURIZATION UNIT The reservoir pressurization unit controls
+the pressure of the air supplied to the reservoirs.
+PRESSURE REDUCING VALVE A pressure reducing valve is fitted to the
+reservoir pressurization unit. In normal operation, the delivery
+pressure of engine 1 has priority over the pressure supply from the
+pneumatic manifold. The pressure reducing valve outlet pressure is 50
+psi (3.5bar). Two check valves prevent any reverse flow.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+FILTER
+WATER SEPARATOR A water separator is installed on the reservoir
+pressurization unit. It makes sure that the air delivered to the
+reservoirs is clear of any fluid. There are two drain valves that
+prevent freezing of the water in the reservoir pressurization unit. One
+is an automatic drain valve that is opened after each engine or APU
+shutdown; the other one is a manual self-sealing drain valve.
+RESERVOIR CHECK VALVE Downstream of the reservoir pressurization unit,
+the air supply is divided into three flows to supply the reservoirs
+through their related check valve. The green and yellow check valves are
+installed between the floor beams above the hydraulic bay and the blue
+one is installed in the aft cargo compartment.
+PRESSURE GAGE An air pressure gage is installed on each hydraulic
+reservoir to indicate the actual pressure. The pressure switch generates
+LOW AIR PRESS warning if the pressure is less than 22 psi (1.52 bar).
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 58 of 120
+FOR TRAINING PURPOSES ONLY
+PRESSURE RELIEF VALVE A pressure relief valve, installed on each
+reservoir, relieves pressure to the atmosphere in the event of a system
+overpressure. The threshold of the pressure relief valve is 77 psi (5.3
+bar).
+MANUAL DEPRESSURIZATION VALVE A manual depressurization valve is fitted
+on each ground service panel to depressurize each reservoir. WARNING:
+WHEN USING THE MANUAL DEPRESSURIZATION VALVE, PUT ON EYE PROTECTION AND
+KEEP AWAY FROM THE OUTLET OF THE VALVE. THE AIR CAN BE HOT AND CONTAIN
+PARTICLES OF DUST AND/OR HYDRAULIC FLUID.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 59 of 120
+FOR TRAINING PURPOSES ONLY
+GENERAL ... MANUAL DEPRESSURIZATION VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 60 of 120
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 61 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC RESERVOIR FILLING PRESENTATION (2) COUPLING SOCKET
+the three colored lights. The direct reading gages are used if no
+electrical power supply is available.
+The coupling socket is used to fill the reservoir from a pressurized
+ground hydraulic supply. The coupling socket includes a check valve.
+CHECK VALVE
+RESTRICTOR
+The hydraulic fluid is sent to the reservoirs via a check valve and the
+filter of the low-pressure return circuit. The check valves isolate the
+main hydraulic systems from the reservoir filling system when it is not
+in use.
+A restrictor located between the coupling socket and the reservoir
+filling selector valve protects the system against over pressure.
+HAND PUMP The hand pump is used to refill the reservoirs if no ground
+cart is available. The hand pump lever is on the yellow ground service
+panel. A specific filling valve including a filter and a check valve is
+installed on the hand pump.
+FILTER The filter of the reservoir filling system is equipped with a
+clogging indicator. NOTE: Note: No bypass possibility on this filter.
+RESERVOIR FILLING SELECTOR VALVE The reservoir filling selector valve
+directs the hydraulic fluid from the supply source to the reservoir of
+the selected system. Do not depressurize the hydraulic reservoir to
+refill it. In the NEUTRAL position, an internal thermal relief valve
+protects the selector valve from thermal expansion of the fluid.
+RESERVOIR QUANTITY INDICATOR A reservoir quantity indicator allows
+refilling monitoring. It shows the contents of the selected hydraulic
+reservoir that is indicated by one of
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 62 of 120
+FOR TRAINING PURPOSES ONLY
+COUPLING SOCKET ... CHECK VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 63 of 120
+FOR TRAINING PURPOSES ONLY
+SEAL DRAIN SYSTEM DESCRIPTION (3) GENERAL The seal drain system collects
+hydraulic fluid from the seal drains of some hydraulic components. The
+hydraulic fluid that may escape from some hydraulic components in the
+form of leak or abnormal condition, such as hydraulic reservoir
+overfilling or internal overpressure, is drained into collector tanks.
+FWD SYSTEM The FWD system consists of flexible hoses and rigid pipes
+connected to a collector tank. The FWD collector tank is attached
+between frames 40 and 41 in the yellow hydraulic compartment. The
+components which are drained into the FWD collector tank located in the
+yellow hydraulic compartment are: - blue electric pump, - yellow
+electric pump, - slats Power Control Unit (PCU), - green hydraulic
+reservoir, - yellow hydraulic reservoir.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 64 of 120
+FOR TRAINING PURPOSES ONLY
+GENERAL & FWD SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 65 of 120
+FOR TRAINING PURPOSES ONLY
+SEAL DRAIN SYSTEM DESCRIPTION (3) AFT SYSTEM The AFT system consists of
+flexible hoses and rigid pipes connected to a collector tank. The AFT
+collector tank is attached to the right side of the keel beam in the
+main hydraulic compartment. The components which are drained into the
+aft collector located in the main landing gear compartment are: - flaps
+PCU, - Power Transfer Unit (PTU), - Constant Speed Motor/Generator
+(CSM/G), - blue hydraulic reservoir.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 66 of 120
+FOR TRAINING PURPOSES ONLY
+AFT SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 67 of 120
+FOR TRAINING PURPOSES ONLY
+SEAL DRAIN SYSTEM DESCRIPTION (3) TANK DRAINAGE The system is designed
+so that the hydraulic fluid drains into the collector tanks by gravity.
+The collector tanks attached to the aircraft structure by means of quick
+release clamps must be removed for drainage. Each collector tank, which
+has a capacity of 0.75 liters (0.19 US Gal), must be emptied and cleaned
+at regular intervals.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 68 of 120
+FOR TRAINING PURPOSES ONLY
+TANK DRAINAGE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 69 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM OPERATION, CONTROL & INDICATING (3) 3 HYDRAULIC
+SYSTEMS PRESSURIZATION WITH ELECTRICAL PUMPS PTU & ENGINE PUMP OPERATION
+RESERVOIR OVERHEAT FAILURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 70 of 120
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 71 of 120
+FOR TRAINING PURPOSES ONLY
+RESERVOIR DEPRESSURIZATION/PRESSURISATION (2) WARNING WARNING: PAY
+ATTENTION TO PROTECT YOUR HANDS AND YOUR FACE FROM THE AIR WHICH COMES
+OUT WHEN YOU OPEN RESERVOIR MANUAL DEPRESSURIZATION VALVES. THE AIR MAY
+BE HOT AND CONTAIN HYDRAULIC FLUID. USE APPROPRIATE SAFETY WEAR.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 72 of 120
+FOR TRAINING PURPOSES ONLY
+WARNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 73 of 120
+FOR TRAINING PURPOSES ONLY
+RESERVOIR DEPRESSURIZATION/PRESSURISATION (2) DEPRESSURIZATION OPERATION
+Make sure the hydraulic system will not be pressurized during this task.
+Open the access panel to the hydraulic ground service panel. The direct
+reading gauge on the reservoir will show the actual air pressure inside
+the reservoir. Wear the proper protection when you open the
+depressurizing valve. The air can be hot and contain hydraulic fluid.
+The gauge on the reservoir will show the decrease in pressure. Make sure
+the valve is completely closed. If the reservoir needs to be
+depressurized for a longer time during a maintenance task, a special
+tool needs to be installed. Unscrew the normal depressurizing valve and
+install the maintenance tool to prevent unwanted pressure build up.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 74 of 120
+FOR TRAINING PURPOSES ONLY
+DEPRESSURIZATION OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 75 of 120
+FOR TRAINING PURPOSES ONLY
+RESERVOIR DEPRESSURIZATION/PRESSURISATION (2) PRESSURIZATION OPERATION
+Pressurization of a Hydraulic Reservoir: - Remove the maintenance tool
+and install the normal depressurization valve to ensure pressurization
+of the reservoir. - Open the access panel of the blue hydraulic
+compartment. - Connect the nitrogen pressure hose to the Air Pressure
+Manifold. - Adjust the nitrogen pressure (to 50 PSI) according to the
+pressure gauge on the reservoir. - Disconnect the pressure hose and
+close the access panels.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 76 of 120
+FOR TRAINING PURPOSES ONLY
+PRESSURIZATION OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 77 of 120
+FOR TRAINING PURPOSES ONLY
+RESERVOIR FILLING (2) WARNING WARNING: IF YOU GET THE FLUID ON YOUR SKIN
+OR IN YOUR EYES: - FLUSH IT AWAY WITH CLEAN WATER, - GET MEDICAL AID.
+MAKE SURE THAT THE TRAVEL RANGES OF THE FLIGHT CONTROL SURFACES ARE
+CLEAR BEFORE YOU PRESSURIZE/DEPRESSURIZE A HYDRAULIC SYSTEM. FOLLOW THE
+HYDRAULIC SAFETY PROCEDURES. PRECAUTIONS HAVE TO BE TAKEN BEFORE
+STARTING HYDRAULIC RESERVOIR FILLING OPERATION. MAKE SURE THAT: - THE
+SPEED BRAKES AND SPOILERS ARE RETRACTED, - THE THRUST REVERSERS ARE
+STOWED (CFM-56 ENGINE ONLY), - THE L/G IS EXTENDED AND THE DOORS ARE
+CLOSED, - THE FWD AND AFT CARGO COMPARTMENT DOORS ARE CLOSED.
+PRECAUTION Before starting with the filling procedure, all flight
+control surfaces must be in their neutral retracted position,
+thrust-reversers retracted and the cargo-doors must be in the closed
+position. When the flight control surfaces are retracted, place warning
+notices to prevent others from moving the flight control surfaces.
+Select the hydraulic page on the system display and make sure that the
+hydraulic systems are completely depressurized.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+Makes sure that the system accumulator is pre-pressurized to the correct
+value and that the hydraulic system reservoir is correctly
+pre-pressurized with air. Pressurize the yellow hydraulic circuit with
+the yellow electric pump. The PTU should be in the OFF position to make
+sure only the yellow system will be pressurized. When the electric pump
+is selected to OFF, the triple indicator should show the brake
+accumulator as being fully pressurized to 3000 PSI. Place a warning
+notice to tell persons not to operate the hydraulic system. Open the
+Green and Yellow Hydraulic Ground Service Panel. Remove the hand pump
+lever from the yellow panel and assemble it, so it can be used on the
+Green Service Panel Hand Pump. Make sure to wear the proper protection
+gloves and goggles before removing the flexible hose from its housing.
+Connect the hose to the hand pump and insert it into a new canister of
+hydraulic fluid. Select the hydraulic system that needs to be filled.
+The selection is confirmed by a colored LED on the indication panel.
+Install the hand pump lever on the pump and start the filling operation.
+Fill the system reservoir to the last white line in the related colored
+band and not to the end of the scale. Put the selector back to Neutral.
+Remove the hose from the hand pump and clean and dry the hose and its
+connections to prevent spillage. Install blanking caps on the pump and
+hose. Re-install the hose in the housing. Remove the hand pump lever and
+re-assemble it in its stowing configuration and install it on the yellow
+service panel. Close the service panels. If a reservoir is overfilled,
+it must be drained. Connect the flexible hose to the drain connector.
+NOTE: Do not forget to depressurize the reservoir before opening the
+drain valve.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 78 of 120
+FOR TRAINING PURPOSES ONLY
+Use a container of sufficient size to collect the excess fluid from the
+reservoir. Open the drain connector until the required reservoir level
+is reached. Remove the flexible hose and clean the connection.
+Re-pressurize the reservoir before operation of the system. Remove the
+warning notices and check the hydraulic system page for correct level
+indication.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 79 of 120
+FOR TRAINING PURPOSES ONLY
+WARNING & PRECAUTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 80 of 120
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 81 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) SERVICING RESERVOIR AIR
+PRESSURIZATION All three reservoirs are pressurized to 50 psi to prevent
+pump cavitation. The non-return valves are in each reservoir supply
+manifold. Make sure that the pressure is kept for until 12 hours after
+engine shutdown on ground and for until 3 hours after a failure of the
+air supply in flight. Each reservoir has a depressurization valve on its
+related service panel. For long time depressurization, a
+depressurization tool can be installed on the depressurization valve. A
+77 psi pressure relief valve is installed onto the supply manifold at
+each reservoir. All three reservoirs are pressurized directly from
+Engine 1 for normal supply and from the bleed air system for alternate
+supply at 43 psi. The air pressurization manifold has a ground supply
+connection. It is put into the blue hydraulic bay and adjusts the normal
+or ground supply to 50 psi. There are two water drains: one is automatic
+after engine and APU shutdown, and the other is manually operated. After
+maintenance on the hydraulic system, the reservoir pressurization can be
+done with a pneumatic ground cart connected to the reservoir pressure
+unit, the APU or the pneumatic system ground connection.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 82 of 120
+FOR TRAINING PURPOSES ONLY
+SERVICING - RESERVOIR AIR PRESSURIZATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 83 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) SERVICING (continued) FLUID
+LEVEL CHECK The following Aircraft Configuration is needed for a correct
+fluid level check and servicing: - the speed brakes and spoilers must be
+retracted, - the thrust reversers stowed, - the cargo doors closed, -
+all system accumulators empty of fluid and pressurized with nitrogen to
+the correct pressure, - the accumulators pre-charge pressure must be
+checked, - the reservoirs are pressurized with air, - the landing gear
+must be in down position with the landing gear doors closed (one door
+may be open), - and the brake accumulator may be pressurized with fluid.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 84 of 120
+FOR TRAINING PURPOSES ONLY
+SERVICING - FLUID LEVEL CHECK
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 85 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) SERVICING (continued)
+RESERVOIR FILLING Set the yellow electric pump to ON to make sure that
+the brake accumulator is pressurized, then set the pump to OFF. Connect
+the selected servicing source to the green servicing panel. When you use
+the panel hand pump, connect the hose to the hand pump and insert it
+into the fluid container, and then install the pump handle. The handle
+is stowed at the yellow servicing panel. When you use the external pump,
+connect the lower filling port and set the minimum flow (it must not be
+more than 435 psi). Then select the reservoir to be filled, make sure
+that its related light is ON, and fill the reservoir with fluid to the
+upper end of the scale. NOTE: If the reservoir is filled too much, this
+will cause an incorrect pressurization. Large changes in ambient
+temperature can also have an effect on the reservoir level. For every
+10°C change, the green and yellow volumes change by 0.50 l and the blue
+volume changes by 0.25 l.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 86 of 120
+FOR TRAINING PURPOSES ONLY
+SERVICING - RESERVOIR FILLING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 87 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) SERVICING (continued)
+BLEEDING If you have filled the reservoir after: - maintenance, - or
+removal/installation of large hydraulic components, - or hydraulic fluid
+low level (loss of the hydraulic system), - or high loss of hydraulic
+fluid, Do the related bleeding procedure to make sure that the quantity
+of hydraulic fluid in the system is correct. For instance, after
+maintenance of the hydraulic system upstream of the EDP. Loosen the nut
+of the case drain hose so that the air (or hydraulic fluid mixed with
+air bubbles) comes out of the connection. Wait until the fluid flows
+freely and tighten the nut again. Check for air in the system: - make
+sure that the air pressure in the reservoir of the associated hydraulic
+system is not less than 50 psi (if necessary, pressurize the
+reservoir), - read the gauge of the associated reservoir and make a note
+of the fluid level, - depressurize the reservoir of the associated
+hydraulic system, - after 5 minutes, read the gauge again and make a
+note of the level, - compare both levels, - if the difference between
+both levels is more than 2 liters, do the bleeding procedure again until
+the result is satisfactory.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 88 of 120
+FOR TRAINING PURPOSES ONLY
+SERVICING - BLEEDING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 89 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) SERVICING (continued) HIGH
+PRESSURE (HP), CASE DRAIN, AND LOW PRESSURE (LP) FILTERS The Hydraulic
+Systems have: - a HP filter in the pressure line, in the reservoir
+filling system, and the normal and alternate braking system, - an LP
+filter in the return line, - a case drain filter in the case drain line
+of the EDP's and the blue electric pump. All these filters have a red
+clogging indicator, which pops out when the filter is clogged (dirty)
+and replaceable filter elements The LP filters have replaceable filter
+elements and a by-pass system.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 90 of 120
+FOR TRAINING PURPOSES ONLY
+SERVICING - HIGH PRESSURE (HP), CASE DRAIN, AND LOW PRESSURE (LP)
+FILTERS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 91 of 120
+FOR TRAINING PURPOSES ONLY
+SERVICING - HIGH PRESSURE (HP), CASE DRAIN, AND LOW PRESSURE (LP)
+FILTERS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 92 of 120
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 93 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) SERVICING (continued)
+ACCUMULATORS Each system has an accumulator, located in its associated
+hydraulic bays. The yellow brake system has an additional accumulator
+for emergency braking and parking brake. The nitrogen pre-charge is
+adjusted at the accumulator in accordance to the ambient temperature. On
+system pressurization each accumulators will take approximately 1 Lt. of
+fluid. Each accumulator has a nitrogen pressure indicator.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 94 of 120
+FOR TRAINING PURPOSES ONLY
+SERVICING - ACCUMULATORS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 95 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) SERVICING (continued)
+EXTERNAL LEAK TEST OF COMPONENTS A leak is the quantity of fluid that
+comes out of a component and that is sufficient to become a drop or
+drops, or will possibly become a drop. (approximately 20 drops =1 cc,
+and 75600 drops =1 gallon) A leakage is a quantity of fluid on the
+surface of a component that is not sufficient to become a drop. A stain
+is an area on the surface of a component that has a different color. It
+is usually caused when fluid leakage becomes dry on the component
+surface after a high temperature operation. For a correct analysis of
+component leak rates, you must obey the subsequent steps: - the seal
+obtained at hydraulic tube connections is obtained on metal-to-metal
+surfaces. If a leak cannot be stopped by tightening the nut to the
+specified torque, the joint is probably defective and should be
+repaired. - when possible, activate components for some cycles before
+carrying out the external leakage check. - dynamic seals are easy to
+examine for leakage while in the static condition because pistons, slide
+valves and swivel joints move only during a short time interval. Many
+components cannot be obviously monitored during operation. - by
+following the AMM procedure operate the related component, - after
+operation, inspect the component. If there is a sign of any external
+leakage, compare the quantity of leakage with the values given in the
+AMM table for specified limits.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 96 of 120
+FOR TRAINING PURPOSES ONLY
+SERVICING - EXTERNAL LEAK TEST OF COMPONENTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 97 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) DAILY CHECKS During the
+daily check the reservoirs quantity indication on the ECAM display unit
+has to be checked. In case of incorrect findings during this check, the
+related AMM tasks have to be done to restore the system to normal status
+or to readjust quantities and pressures to nominal values. In case of
+hydraulic fluid level found below normal, the system needs to be
+refilled using the Hand Pump or a Hydraulic Service Cart. In case of
+hydraulic fluid level found above normal, the system needs to be
+drained.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 98 of 120
+FOR TRAINING PURPOSES ONLY
+DAILY CHECKS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 99 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) MEL/DEACTIVATION The fluid
+quantity has to be checked on the reservoir direct reading gage prior to
+each flight. The LO LVL Warning has to be checked operative before the
+first flight. The air pressure has to be checked on the reservoir direct
+reading gage prior to each flight.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 100 of 120
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 101 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) MAINTENANCE TIPS PTU PTU
+inhibition is achieved by closing the solenoid valves (they are fail
+safe open) at the PTU manifolds, and for maintenance actions by also
+disconnecting the coupling on the yellow (right) side of the unit. The
+PTU operation is inhibited at first engine start and during cargo door
+operation. NOTE: At the second engine start, the inhibition is removed
+when the second engine master switch is set to ON then the PTU will
+operate momentarily for self test purpose.
+RAT A RAT retraction module controls the RAT stowage procedure. This
+module is installed on the blue servicing panel. NOTE: To prevent a
+possible extension during maintenance work, a RAT safety tool must be
+installed.
+SAFETY PRECAUTIONS To prevent an unwanted operation of the PTU, the
+isolation coupling must be disconnected. Keep the RAT extension area
+clear of ground equipment and personnel. Install the RAT safety device
+before working in the RAT area.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 102 of 120
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE TIPS - PTU ... SAFETY PRECAUTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 103 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) MAINTENANCE TIPS (continued)
+TIGHTENING TORQUES Before you torque a component or connection, obey the
+precautions and procedures given in the tightening practices for
+hydraulic connection procedure in the AMM Chapter 20. The tightening
+torques are given in the AMM tables chapter 20. When you use an adapter,
+the values shown on the dial of the torque wrench are not the applied
+values .To get the correct value, the formula given on the next picture
+must be applied. The drawing shows as an example the tightening torque
+for HARRISSON and PERMASWAGE sleeve nuts and in-line-check valves and
+how to use a torque wrench and adapter.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 104 of 120
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE TIPS - TIGHTENING TORQUES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 105 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) MPD CHECK ITEMS During the
+scheduled check (MPD): - the fluid level on the main hydraulic reservoir
+indicators has to be checked, - the air pressure of main hydraulic power
+reservoir has to be checked using the reading gage, - the clogging
+indicators on Engine Driven Pump (EDP) case drain filter (pop out not
+protruding) have to be checked, - the nitrogen charge pressure on
+hydraulic power Accumulators has to be checked using the direct reading
+gage. In case or incorrect findings during these checks, the related AMM
+tasks have to be done to restore the system to normal status or to
+readjust quantities and pressures to nominal values.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 106 of 120
+FOR TRAINING PURPOSES ONLY
+MPD CHECK ITEMS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 107 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC POWER SYSTEM LINE MAINTENANCE (2) ENVIRONMENTAL PRECAUTIONS Do
+not discharge products such as oil, fuel, solvent, lubricant either in
+trash bins, soil or into the water network (drains, gutters, rain water,
+waste water, etc...). Sort waste fluids and use specific waste disposal
+containers. Each product must be stored in an appropriate and specific
+cabinet or room such as a fire-resistant and sealed cupboard.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 108 of 120
+FOR TRAINING PURPOSES ONLY
+ENVIRONMENTAL PRECAUTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 109 of 120
+FOR TRAINING PURPOSES ONLY
+RAT TEST (3) IF THE PROTECTIVE EQUIPMENT MOVES DURING THE TEST, IT CAN
+TOUCH THE RAT AND CAUSE DAMAGE.
+PRECAUTIONS WARNING: PUT THE SAFETY DEVICES AND THE WARNING NOTICES IN
+POSITION BEFORE YOU START A TASK ON OR NEAR: - THE FLIGHT CONTROLS, -
+THE FLIGHT CONTROL SURFACES, - THE L/G AND THE RELATED DOORS, -
+COMPONENTS THAT MOVE. MAKE SURE THAT THE TRAVEL RANGES OF THE FLIGHT
+CONTROL SURFACES ARE CLEAR BEFORE YOU PRESSURIZE/DEPRESSURIZE A
+HYDRAULIC SYSTEM. MAKE SURE THAT THE SAFETY LOCKS ARE IN POSITION ON THE
+L/G. MAKE SURE THAT THE RAM AIR TURBINE (RAT) TRAVEL RANGE IS CLEAR
+BEFORE YOU EXTEND THE RAT. PLACE SAFETY BARRIERS IN POSITION AND FIT THE
+RAT PROTECTIVE EQUIPMENT AS PER AMM PROCEDURE. DO NOT STAND IN FRONT OF
+OR BESIDE THE RAT PROPELLER ASSEMBLY DURING THE FUNCTIONAL TEST.
+MAIN STEPS OF THE TEST OPERATION PREPARATION OF RAT TEST To functionally
+check the RAT on ground it is necessary to: - manually deploy the RAT
+from the cockpit, - connect the ground test motor to the RAT gearbox, -
+connect the ground checkout unit to the RAT control panel, - connect the
+RAT flow control test kit to the blue ground service panel.
+NOTE: Note: do not operate the RAT deployment solenoids for more than 60
+sec. You can operate them more than once, but you must then let them
+cool down for 30 min. CAUTION: MAKE SURE THAT YOU INSTALL THE PROTECTIVE
+EQUIPMENT CORRECTLY, THAT IT IS STABLE AND THAT IT CANNOT MOVE DURING
+THE TEST.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 110 of 120
+FOR TRAINING PURPOSES ONLY
+PRECAUTIONS & MAIN STEPS OF THE TEST OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 111 of 120
+FOR TRAINING PURPOSES ONLY
+RAT TEST (3) To install the RAT safety tool you need to adjust the
+length and the gap between the tool and the RAT. Make sure there is no
+contact between the tool and the RAT and there is a gap of minimum 1
+millimeter.
+MAIN STEPS OF THE TEST OPERATION (continued) RAT EXTENSION Before you
+start with the extension you need to gain access to the blue hydraulic
+compartment to remove the RAT Safety tool. Warning: Make sure the travel
+range of the RAT is clear and the area secured before you start with the
+extension. In the cockpit, make sure that all related circuit breakers
+are closed. Push the RAT MAN On pushbutton on the Emergency Electrical
+Panel to extend the RAT. To retract the RAT, you need to start the blue
+electric pump on the maintenance panel by pressing the Blue Pump
+Override push button. Check on the hydraulic page of the system display
+that the pressure in the blue system is correct and the RAT symbol is
+shown in green. Open and safety the CB on the rear circuit breaker
+panel. Gain access to the Blue Ground Service panel and open the RAT
+Stow Panel. Operate the lights test switch to check the condition of the
+indicator lights. Lift the guard of the master switch and select it to
+"on". Set the Stow/Reset switch to the reset position before selecting
+it to the stow position. The red indicator light comes on to show that
+the retraction actuator is now pressurized and the RAT retracts. If the
+amber Interlock light comes on, the retraction is stopped because the
+blades are not correctly aligned. Align the blades and reset the
+Interlock caution light. Hold the stow switch in the stow position. The
+red light comes on to show the retraction actuator is pressurized. Hold
+the stow switch until the RAT is completely retracted and the green
+"stowed" light comes on. Close the stow panel access door and the blue
+ground service panel. In the cockpit select the Blue Pump Override
+pushbutton to 'off' and check on the hydraulic page that the pressure
+reads zero and the RAT symbol is shown in white.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 112 of 120
+FOR TRAINING PURPOSES ONLY
+MAIN STEPS OF THE TEST OPERATION - RAT EXTENSION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 113 of 120
+FOR TRAINING PURPOSES ONLY
+RAT TEST (3) MAIN STEPS OF THE TEST OPERATION (continued) RAT TEST
+Before starting the test, all relevant circuit breakers must be closed,
+and the RAT travel range and the area must be secured Extend the RAT by
+pressing the RAT MAN ON pushbutton on the hydraulics control panel.
+Check on the hydraulic page that the RAT symbol is shown in green in
+association with a single chime "RAT Fault" message on ECAM. Retract the
+RAT via the blue hydraulic ground service panel following the same
+procedure as for the RAT Extension Test. Extend the RAT again by
+pressing the RAT Man ON pushbutton on the Emergency Electrical panel.
+Check again the indication on the hydraulic page to show the RAT symbol
+in green in association with a single chime "RAT Fault" message on ECAM.
+Open and safety the relevant CB depending on the task. Examine the RAT
+for damages and check the oil level of the gearbox and make sure there
+are no leaks. Remove the cover plate on the rear to prepare the
+installation of the hydraulic drive motor. Align the spine-shaft and
+tighten the attachment bolts. Connect the pressure and suction hose of
+the hydraulic ground cart to the blue ground service panel. Make sure
+you rotate the nut to the very end of the thread to make sure the
+self-sealing coupling is open. Open the stow-panel access to connect the
+electrical cable of the ground test box to the connector on the
+stow-panel. Install the safety device inside the RAT bay that will hold
+the test cage in position during the test. Place the test cage in
+position and align the hydraulic lines and the cage to be in the correct
+position for the forward safety strut to engage on the cage fitting.
+Press the Blue Leak Measurement pushbutton to isolate the primary
+flights controls from the hydraulic supply. Start the Blue Electric
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Pump via the override pushbutton on the maintenance panel. Check the
+hydraulic pressure on the hydraulic system page and make sure the RAT
+does not start rotating when the system is fully pressurized. On the
+ground test equipment, open the supply to the motor to drive the blades.
+Check that the flow created by the pump is in accordance with the
+figures given in the table. Simulate different load conditions with the
+by-pass according to the task. Stop the blue electrical pump from
+pressurizing the blue system and select the blue leak measurement valve
+to the open position. Check on the hydraulic page that the system is
+completely depressurized. Remove the test cage and examine the RAT for
+damage and leaks. Remove the hydraulic drive motor from the rear of the
+RAT and reinstall the cover and re-stow the RAT.
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 114 of 120
+FOR TRAINING PURPOSES ONLY
+MAIN STEPS OF THE TEST OPERATION - RAT TEST
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 115 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC LEAKAGE (3) warning WARNING: PROTECT YOUR HANDS AND FACE FROM
+THE HYDRAULIC FLUID WHICH COMES OUT WHEN YOU UNSCREW HYDRAULIC LINES AND
+COMPONENTS. HYDRAULIC FLUID ITSELF IS A CONTAMINANT. USE APPROPRIATE
+SAFETY WEAR.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 116 of 120
+FOR TRAINING PURPOSES ONLY
+WARNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 117 of 120
+FOR TRAINING PURPOSES ONLY
+HYDRAULIC LEAKAGE (3) Preventing Hydraulic Leaks These simple plumbing
+problems can also be real hard to fix if you don't know the basic
+hydraulic plumbing rules. If you don't work carefully and follow these
+rules, your work may be the cause of the next hydraulic leak that delays
+or cancels a flight. Let's look at these basic hydraulic plumbing rules:
+contamination that gets into a system or collects on sealing surfaces
+can cause leaks internal and external. Hydraulic fluid itself is a
+contaminant. It can eat paint and decals. When hydraulic fluid is
+allowed to penetrate a composite structure, it will attack the core
+material and reduce it to mush. Once a composite assembly has been
+attacked, its structural integrity will be lost. To avoid damage caused
+by twisting, tearing, and chipping, always lubricate O-rings, packing
+seals, back-up rings, and fitting threads with hydraulic fluid before
+assembly. When assembling hydraulic system fittings, be sure that seals
+and back-up rings are properly positioned before torquing the
+connection. When installing an elbow fitting into a component, be sure
+that all the threads are completely screwed into the boss. This is to
+make sure that the O-ring packing rides in the undercut, and not on the
+threads. To prevent an elbow fitting from turning while its lock-nut is
+being torqued, hold it with a second wrench. To make a stress-free
+installation, be sure that all elbow-to-pipe connections are correctly
+aligned before torquing the B-nuts. Do not use pointed, sharp-edged, or
+steel tools to remove or install O-ring packing, back-up rings, and
+seals. Damage may occur. Never reinstall used O-ring packing or seals.
+Once they have been compressed, they will never regain their original
+shape again. Before torquing a B-nut, be sure that the tube fits
+squarely into the fitting. Never force or bend a tube to make it fit.
+Metal tubes don't stretch. If the piece seems shorter upon
+reinstallation or after a component change, something is wrong. Stop!
+Think! And investigate the problem before you proceed. Make sure that
+tubes are not forced into clamps or line blocks. A stressed installation
+will lead to a cracked tube at the nearest fitting or B-nut. And, you
+can bet it won't be
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+long before it happens. If clamps or line blocks are removed so a tube
+or component can be replaced, be sure that they are reinstalled again.
+Tubes that are not properly supported will vibrate. Vibration is the
+greatest enemy of a hydraulic system. It causes tubes to crack, and
+connections at fittings to loosen up and leak. When repairs are
+finished, always bleed the system, and leak check your work. We, the
+mechanics, have control of torquing. The lack of proper torquing is the
+single greatest cause of leaks. Those calibrated elbows are notorious
+for being out of calibration. Use a torque wrench.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 118 of 120
+FOR TRAINING PURPOSES ONLY
+PREVENTING HYDRAULIC LEAKS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 119 of 120
+FOR TRAINING PURPOSES ONLY
+Training Manual Airbus A318/319/ A320/A321 (CFM56 & V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 120 of 120

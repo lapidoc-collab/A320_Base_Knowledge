@@ -1,0 +1,1600 @@
+Airbus A318/A319/A320/A321 (CFM56 & V2500) B1+B2 Technical Training
+Manual
+ATA 21 -- Air Conditioning Airframe Systems
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more. Contact us Tel: +44(0) 1565 653745 Email:
+admin@catts.org.uk Web: www.catts.org.uk Online Training:
+catts.learnupon.com/store
+ATA Chapters Required in this Training Manual AIRFRAME SYSTEMS ATA 21
+Air Conditioning
+ATA 21A
+Air Supply
+ATA 21B
+Pressurisation
+ATA 21C
+Safety and Warning Devices
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+Training Manual Airbus A318/A319/ A320/A321 (CFM56 & V2500) ATA 21
+Airframe Systems; Air Conditioning Level 3
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING GENERAL Air Conditioning System Component Location (2)
+. . . . . . . . . . . . . . . 2 Air Conditioning System Control &
+Indicating (2) . . . . . . . . . . . . . . 28
+ZONE TEMPERATURE CONTROL System Presentation (2) . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . 30 Pack Presentation (2) .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32 Flow Control & Pack Components D/O (3) . . . . . . . . . . . . . . .
+. . . . . 34 Pack Sensors Description/Operation (3) . . . . . . . . . .
+. . . . . . . . . . . . 60 Cockpit & Cabin Components D/O (3) . . . . .
+. . . . . . . . . . . . . . . . . . 62 Zone Temperature Control
+Interfaces (3) . . . . . . . . . . . . . . . . . . . . . . 68 Emergency
+Ram Air Inlet D/O (3) . . . . . . . . . . . . . . . . . . . . . . . . .
+. . 72
+PRESSURIZATION System Presentation (3) . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . 74 System Control Interfaces (3) . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80 System
+Monitoring Interfaces (3) . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . 88
+GENERAL VENTILATION System Design Presentation (2) . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . 90
+AVIONICS VENTILATION System Description and Operation (3) . . . . . . .
+. . . . . . . . . . . . . . . . . 92 System Interfaces (3) . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100
+FWD CARGO COMPT VENTILATION/HEATING (option) System Controls
+Presentation (3) . . . . . . . . . . . . . . . . . . . . . . . . . . .
+108
+AFT CARGO COMPT VENTILATION/HEATING (option) System Controls
+Presentation (3) . . . . . . . . . . . . . . . . . . . . . . . . . . .
+112 Air Conditioning System Line Maintenance (2) . . . . . . . . . . . .
+. . . 116 Air Conditioning System Operation, Control & Indicating (3) .
+. . . 124
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 5 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW The air
+conditioning system main function is to keep the air in the pressurized
+fuselage compartments at the correct pressure and temperature. In
+details, this system provides the following functions: - cabin
+temperature control, - pressurization control, - avionics ventilation, -
+cargo compartment ventilation & heating (optional).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 6 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 7 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) For the zones in which
+warmer temperatures are necessary, the ACSC sends a signal to the
+related TRIM AIR VALVE to open. Hot air mixes with the Mixer Unit
+discharge air and the temperature increases.
+SYSTEM OVERVIEW (continued) CABIN TEMPERATURE CONTROL The Single Aisle
+family has two air conditioning packs installed in the wing root area,
+forward of the landing gear bay. The packs supply conditioned air to the
+cabin for air conditioning, ventilation and pressurization. The primary
+component of each pack assembly is the air cycle machine. Hot air from
+the pneumatic system is supplied to the pack through the pack Flow
+Control Valve (FCV). The FCV adjusts the flow rate through the pack and
+is the pack shut-off valve. During normal operation, the Air
+Conditioning System Controller (ACSC) calculates the flow mass demand
+and sets the flow control valve in the necessary reference position. The
+pack temperature control system controls the pack outlet temperature and
+sets its maximum and minimum limits. The system includes two ACSCs. Each
+ACSC controls one pack. To control the pack outlet temperature, the ACSC
+modulates the BYPASS VALVE and the RAM-AIR INLET doors. The packs supply
+the mixer unit. Three separate aircraft zones are supplied from the
+mixer unit: - cockpit, - forward cabin, - aft cabin. Two cabin
+recirculation fans are installed to reduce the bleed air demand and
+therefore save fuel. These fans establish a recirculation flow of air
+from the cabin zones to the mixer unit. In normal operation, there are
+no ECAM indications associated with the cabin fans. The ACSC controls
+and monitors the temperature regulation system for the cabin zones. On
+the overhead AIR COND panel, the flight crew selects the desired
+individual compartment temperature. The hot air system for cabin
+temperature control has a trim air Pressure Regulating Valve (PRV) and
+trim air valves controlled by the ACSC.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 8 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - CABIN TEMPERATURE CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 9 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW
+(continued) PRESSURIZATION CONTROL The pressurization system on the
+Single Aisle family normally operates automatically to adjust the cabin
+altitude and rate of climb to ensure maximum passenger comfort and
+safety. The pressurized areas are: - the cockpit, - the avionics bay, -
+the cabin, - the cargo compartments. The concept of the system is
+simple. Air is supplied from the air conditioning packs to the
+pressurized areas. An outflow valve is used to adjust the quantity of
+air that is released from the pressurized cabin. Automatic control of
+the outflow valve is provided by two Cabin Pressure Controllers (CPCs).
+Each CPC controls one electric motor on the outflow valve assembly. The
+CPCs interface with other aircraft computers to optimize the
+pressurization / depressurization schedule. There are two automatic
+pressurization systems. Each CPC and its electric motor make up one
+system. Only one system operates at a time with the other system acting
+as backup in case of a failure. The system in command will alternate
+each flight. A third motor is installed for manual operation of the
+outflow valve in case both automatic systems fail. To protect the
+fuselage against excessive cabin differential pressure, safety valves
+are installed on the rear pressure bulkhead. The safety valves also
+protect against negative differential pressure. The Residual Pressure
+Control Unit (R PCU) prevents residual pressure in the cabin and takes
+over the control of the outflow valve automatically. To do this, it
+supplies power directly to the manual motor of the outflow valve.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 10 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - PRESSURIZATION CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 11 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW
+(continued) AVIONICS VENTILATION The avionics ventilation system
+supplies cooling air to the avionics equipment. This includes the
+equipment in the avionics compartment, the flight deck instruments and
+the circuit breaker panels. A blower fan and an extraction fan supply
+the air through the avionics equipment. NOTE: Note: These fans operate
+continuously while the aircraft electrical system is supplied. The
+Avionics Equipment Ventilation Computer (AEVC) controls the fans and the
+configuration of the skin valves in the avionics ventilation system
+based on flight / ground logic and fuselage skin temperature. There are
+3 configurations for the skin air inlet and outlet valves: - open
+circuit: the two valves are open (on ground only), - closed circuit: the
+two valves are closed (in flight or if there is low external air
+temperature on ground). The air temperature is decreased in the skin
+heater exchanger. The skin heat exchanger is a chamber which lets the
+air be in contact with the fuselage skin during flight, - intermediate
+circuit: the inlet is closed and the outlet is open, but not fully.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 12 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - AVIONICS VENTILATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 13 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW
+(continued) CARGO VENTILATION AND HEATING As an option on the Airbus
+single aisle family, the forward and aft cargo compartments can have a
+ventilation system. A heating system can also be installed in these two
+compartments or only one of them. The heating system will only be
+installed together with a ventilation system. The operation is
+equivalent for the two compartments, thus we will only look at the
+forward cargo compartment as an example. Air from the main cabin is
+supplied into the cargo compartment by the extract fan or by
+differential pressure in flight (FWD Cargo Compartment only). After its
+circulation through the compartment, the air is discharged overboard.
+The operation of the two isolation valves and the extract fan is
+controlled automatically by the cargo Ventilation Controller (VC). One
+VC can control one cargo compartment or the two of them. For the heating
+of the cargo compartment, the pilots select the desired compartment temp
+and hot bleed air is mixed with the air coming from the main cabin to
+increase the temperature if necessary. The supply of hot air is
+controlled by the Cargo Heating Controller. Each heated compartment has
+a dedicated Cargo Heating Controller. There is NO direct air
+conditioning supply to the cargo compartments. The pilots cannot add
+"cold" air to the compartments.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 14 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - CARGO VENTILATION AND HEATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 15 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW
+(continued) CONDITIONED SERVICE AIR SYSTEM The Fuel Tank Inerting System
+(FTIS) includes two sub-systems: - The Conditioned Service Air System
+(CSAS) ATA21, - The Inert Gas Generation System (IGGS) ATA47. The CSAS
+gets hot air from the bleed air system and decreases the air temperature
+to a level compatible with the IGGS sub-system. The CSAS includes: - The
+Conditioned service air system Controller Unit (CCU), which does the
+system control and health monitoring BITE and has interfaces with the
+FWS and CFDS, - A CSAS isolation valve, which is a protection of the
+system if there is low pressure, over pressure or over temperature, - A
+heat exchanger, which decreases the air temperature.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 16 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - CONDITIONED SERVICE AIR SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 17 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION AIR
+CONDITIONNING SYSTEM The left and right packs are in the air
+conditioning bay. The air conditioning bay is in the unpressurized belly
+fairing, forward of the wheel well on the lower fuselage. The belly
+fairing has inlets for pack and compartment cooling. The packs supply
+air to the mixer unit. The mixer unit is installed at the rear of the
+forward cargo compartment. It mixes air from the packs and re-circulated
+air from the cabin before distribution to each zone.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 18 of 129
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - AIR CONDITIONNING SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 19 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+(continued) PRESSURIZATION SYSTEM Pressurization is done by a dual gate
+type outflow valve. The outflow valve is operated by three electrical
+motors: two for the automatic mode and one for the manual mode. Two
+safety valves are installed on the pressure bulkhead at the rear of the
+cabin. The RPCU is installed on the bottom right-hand side of the
+avionics compartment 90VU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 20 of 129
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - PRESSURIZATION SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 21 of 129
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - PRESSURIZATION SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 22 of 129
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 23 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+(continued) VENTILATION SYSTEM The skin air inlet valve is on the LH
+side of the fuselage. The skin air outlet valve is on the RH side of the
+fuselage. A small auxiliary flap will open for the intermediate circuit
+configuration. This is the not-fully-open position. It will also open
+for smoke removal in flight. The two skin valves have a manual override
+and deactivation device.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 24 of 129
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - VENTILATION SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 25 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+(continued) FWD CARGO VENTILATION AND HEATING SYSTEM The isolation
+valves and extract fan of the forward cargo compartment ventilation
+system are behind the compartment sidewall panels. Grills give
+protection to the air inlets and outlets.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 26 of 129
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - FWD CARGO VENTILATION AND HEATING SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 27 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+(continued) AFT CARGO VENTILATION AND HEATING SYSTEM In the aft cargo
+compartment, an isolation valve and extract fan are installed behind the
+compartment rear wall and the inlet isolation valve behind the left
+sidewall lining.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 28 of 129
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - AFT CARGO VENTILATION AND HEATING SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 29 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION
+(continued) CONDITIONED SERVICE AIR SYSTEM The Conditioned Service Air
+System is installed on the left hand side of the aircraft belly fairing
+next to pack no.1.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 30 of 129
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - CONDITIONED SERVICE AIR SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 31 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM CONTROL & INDICATING (2) LOCATE
+CONTROL/INDICATING IN COCKPIT AIR CONDITIONING SUB-SYSTEMS CABIN
+PRESSURIZATION SYSTEM VENTILATION SUB-SYSTEMS EMERGENCY CONTROL -
+DITCHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 32 of 129
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 33 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM PRESENTATION (2) BASIC PRINCIPLE
+AIR DISTRIBUTION
+The flow of hot air from the air bleed system is regulated before it
+enters the packs in order to be temperature regulated. Hot air pressure
+is maintained above the cabin pressure, which lets the hot airflow join
+the pack air supply when necessary. Part of the cabin air is
+recirculated to decrease air supply demand.
+The conditioned air is distributed to three main zones: - cockpit, -
+forward cabin, - aft cabin. Normally, the mixer unit lets the cockpit be
+supplied from pack 1 and FWD and aft cabins from pack 2.
+PACK UNITS The airflow from the air bleed system is regulated by two
+pack Flow Control Valves (FCVs). Two independent packs then supply air
+with a regulated temperature to the mixer unit. Both packs supply air at
+the same temperature.
+LAV AND GALY VENTILATION The LAVatory and GALleY ventilation system uses
+air from the cabin zones. A fan extracts this air through the outflow
+valve. NOTE: Note: The LAV and GALY ventilation system is also used to
+ventilate the cabin zone temperature sensors.
+MIXER UNIT The mixer unit mixes air with a regulated temperature from
+the packs with part of the cabin air supplied by the recirculation fans.
+The mixer unit can also receive conditioned air from an LP ground
+connection or fresh outside air from the emergency ram air inlet. The
+emergency ram air inlet supplies outside fresh air for ventilation of
+the A/C in emergency conditions when there is loss of both packs or
+smoke removal.
+ACSC The Air Conditioning System Controller (ACSC) does: - temperature
+regulation in accordance with demand, - flow control and monitoring in
+accordance with flow control demand.
+TRIM AIR PRV Hot air tapped upstream of the packs supplies the trim air
+valves through a trim air Pressure Regulating Valve (PRV). This valve
+regulates the downstream pressure 4 psi above the cabin pressure.
+HOT TRIM AIR A trim air valve associated with each zone optimizes the
+temperature by adding hot air, if necessary, to the air from the mixer
+unit.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 34 of 129
+FOR TRAINING PURPOSES ONLY
+BASIC PRINCIPLE ... ACSC
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 35 of 129
+FOR TRAINING PURPOSES ONLY
+PACK PRESENTATION (2) PACK FCV Each pack Flow Control Valve (FCV) is
+pneumatically actuated and electrically controlled. The flow regulation
+is done by a torque motor under the control of the Air Conditioning
+System Controller (ACSC). If the pack compressor outlet temperature is
+\> 215°C (419°F), the FCV starts to reduce the flow. A compressor outlet
+temperature \> 260°C (500°F) results in a pack overheat warning.
+the exchangers. To increase cooling, the ram air inlet flap opens more
+and the BYP valve closes more. To increase heating, the ram air inlet
+flap closes more and the BYP valve opens more. During take-off and
+landing, the ram air inlet flap is closed to prevent ingestion of
+foreign objects.
+NOTE: Note: Part of the hot air, downstream of the pack FCV, is sent to
+the trim air Pressure Regulating Valve (PRV). Each pack FCV is
+automatically closed during either a same side engine start sequence or
+an opposite side engine start sequence, if the crossbleed valve is
+detected open. It reopens 30 seconds after the end of any engine start
+sequence.
+EXCHANGERS - COMPRESSOR Bleed air is ducted to the primary heat
+exchanger, then to the compressor. The air is cooled in the main heat
+exchanger. It then goes through the reheater, the condenser and the
+water extractor in order to remove water particles from the air entering
+the turbine.
+TURBINE The air expands in the turbine section, which results in a very
+low turbine discharge air temperature. The turbine drives the compressor
+and the cooling air fan.
+RAM AIR INLET FLAP AND BYP VALVE The BYPass valve and the ram air inlet
+flap are simultaneously controlled by the air conditioning system
+controller. The BYP valve is operated by an electro-mechanical actuator
+to modulate the pack discharge temperature by adding hot air. The ram
+air inlet flap modulates the airflow through
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 36 of 129
+FOR TRAINING PURPOSES ONLY
+PACK FCV ... RAM AIR INLET FLAP AND BYP VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 37 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) OZONE CONVERTER High-pressure,
+high-temperature air from the bleed system is supplied to the pack Flow
+Control Unit (FCU) through the OZONE CONVERTER, which is used for
+catalytic removal of ozone from the hot bleed air supplied to the pack.
+FLOW CONTROL UNIT GENERAL The FCU includes the Flow Control Valve (FCV).
+The FCV is an electro-pneumatic butterfly valve that does the primary
+functions given below: - control of the mass flow of bleed air that goes
+into the pack, - isolation of the pack from the bleed air supply (crew
+selection, engine fire, ditching, or engine start), - Air Cycle Machine
+(ACM) overheat and low pressure start-up protection controlled by the
+Air Conditioning System Controllers (ACSCs). ACSC 1 controls the FCU for
+pack 1 and ACSC 2 controls the FCU for pack 2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 38 of 129
+FOR TRAINING PURPOSES ONLY
+OZONE CONVERTER & FLOW CONTROL UNIT GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 39 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) FLOW CONTROL UNIT Each FCU
+includes the FCV, 2 solenoids, one torque motor, one position sensor and
+2 pressure sensors. The FCU operates in MAIN or BACK-UP mode, controlled
+by the ACSC through the solenoids. The functions of the components
+are: - Solenoid 1 controls the ON/OFF (isolation) function. When this
+solenoid is energized, the FCV is open and regulates when bleed air
+pressure is available. - Solenoid 2 controls the MAIN or BACK-UP
+operation. When this solenoid is de-energized, the FCV operates in MAIN
+mode. The solenoid is energized for BACK-UP operation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 40 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL UNIT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 41 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) MAIN OPERATING MODE In the main
+operating mode, the FCV position is modulated for each of the conditions
+given below: - changing flow demands, - control priorities (take-off,
+landing, pack start, etc.), - failures and pack overheat conditions. The
+flow regulation is a function of the torque motor controlled by the
+related ACSC compared with the flow setting on panel 30VU. The ACSC uses
+the signal from the DIFFERENTIAL PRESS SENSOR to determine the air flow
+that goes through the pack. ACSC 1 only does the air flow calculation.
+The signal is then sent to ACSC 2 for the flow control of pack 2. In
+some special aircraft configurations, the air flow is set to a specified
+value. These default settings are: HIGH FLOW: - during pack operation
+with the APU bleed air supply, - during single pack operation. LOW
+FLOW: - during take-off and landing. The PACK INLET PRESSURE SENSOR is
+used to calculate the bleed air necessary for the pack operation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 42 of 129
+FOR TRAINING PURPOSES ONLY
+MAIN OPERATING MODE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 43 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) BACK-UP OPERATING MODE If there
+is a malfunction of an FCU component (e.g. Flow sensor, Torque Motor or
+Pressure Sensor), the ACSC energizes the second solenoid and the pack
+operates in back-up mode. In back-up mode, a downstream pressure
+regulator controls the FCV flow.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 44 of 129
+FOR TRAINING PURPOSES ONLY
+BACK-UP OPERATING MODE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 45 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) PRIMARY HEAT EXCHANGER AND
+COMPRESSOR To prevent too high a temperature, the PRIMary HEAT EXCHanGeR
+is used to decrease the temperature of the hot bleed air before it goes
+into the ACM compressor. The primary heat exchanger is an air-to-air
+heat exchanger type and the cooling medium used is external ram air. The
+compressor increases the air pressure and thus increases the energy of
+the air. At the same time, the air temperature increases again.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 46 of 129
+FOR TRAINING PURPOSES ONLY
+PRIMARY HEAT EXCHANGER AND COMPRESSOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 47 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) MAIN HEAT EXCHANGER The MAIN HEAT
+EXCHGR decreases the temperature of the high pressurized air that comes
+from the ACM compressor.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 48 of 129
+FOR TRAINING PURPOSES ONLY
+MAIN HEAT EXCHANGER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 49 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) CONDENSER The condenser is an
+air-to-air heat exchanger type and is used to decrease the air
+temperature below the dew point. The humidity contained in the air will
+condensate and make water droplets. This is necessary to extract the
+humidity from the air.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 50 of 129
+FOR TRAINING PURPOSES ONLY
+CONDENSER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 51 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) WATER EXTRACTOR AND INJECTOR The
+air from the condenser is sent through the WATER EXTRACTOR. Guide vanes
+will supply this air at high speed and centrifugal forces will extract
+the water from the air flow. The extracted water is injected into the
+ram air duct through the WATER INJECTOR. This increases the cooling
+efficiency of the primary and main heat exchangers. This is usually done
+only on ground or in low altitudes.
+REHEATER The air, which then contains almost no water, goes to the
+REHEATER. The REHEATER uses warm air from the main heat exchanger outlet
+to increase again the temperature of the cold air that comes from the
+water extractor. This is necessary to vaporize the last remaining water
+droplets before the air is sent to the ACM turbine and to prevent damage
+to the turbine.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 52 of 129
+FOR TRAINING PURPOSES ONLY
+WATER EXTRACTOR AND INJECTOR & REHEATER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 53 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) AIR CYCLE MACHINE TURBINE The ACM
+turbine converts high pressurized air into rotation and thus operates
+the ACM with its compressor and the ACM fan. The result is a fast
+decrease of the air pressure and air temperature to below 0°C (-50°C as
+maximum negative temperature).
+PACK DISCHARGE TEMPERATURE SENSOR AND CHECK VALVE The cold air flows
+through the condenser again. This cold airflow is used to decrease the
+temperature of the warm air to below the dew point before the air goes
+into the water extractor. Downstream of the condenser, the ACSC uses the
+PACK DISCHARGE TEMPerature SENSOR to monitor the pack outlet
+temperature. The sensor is used for indication on the ECAM COND page. A
+pack overheat warning will start at a temperature of more than 88°C. The
+PACK CHECK VALVE, which is downstream of the condenser, stops leakage of
+air from the distribution system when the FCV is closed. The check valve
+is attached to the pressure bulkhead of the forward fuselage.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 54 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CYCLE MACHINE TURBINE & PACK DISCHARGE TEMPERATURE SENSOR AND CHECK
+VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 55 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) WATER EXTRACTOR TEMPERATURE
+SENSOR The ACSC monitors the value from the WATER EXTRACTOR TEMP SENSOR
+to modulate the pack outlet temperature.
+PACK TEMPERATURE CONTROL AND BYPASS VALVE In relation to the input made
+by the pilots from panel 30VU and the related temperature selector, the
+ACSC compares the specified temperature with the sensed pack
+temperature. To adjust the temperature, the ACSC sends an electrical
+signal to the stepper motor of the Bypass Valve (BYP VLV). When
+controlled to a more open position, the valve bypasses hot air from the
+ACM compressor inlet around the ACM to the turbine outlet and thus
+increases the outlet temperature of the pack. This temperature control
+is used for short term and for a fast pack response.
+RAM AIR ACTUATOR For long term pack temperature control, the ACSC
+modulates the ram air cooling flow through the heat exchangers. To do
+this, it controls the position of the RAM AIR ACTUATOR and thus the
+position of the ram air inlet flap. The position of the ram air inlet
+flap is monitored by the SPEED AND DIRECTION SENSOR attached to the
+actuator. In some special aircraft configurations (take-off and
+landing), the ram air flap is controlled to the fully closed position to
+prevent dirt ingestion from the nose landing gear.
+ACM FAN During aircraft operation on ground, the ACM FAN is used to
+supply cooling air around the primary and the main heat exchangers. In
+flight with ram air available, the fan will be bypassed to prevent a
+negative effect on the ACM operation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 56 of 129
+FOR TRAINING PURPOSES ONLY
+WATER EXTRACTOR TEMPERATURE SENSOR ... ACM FAN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 57 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) PACK DISCHARGE PRESSURE SENSOR
+The ACSC uses the PACK DISCHARGE PRESS SENSOR to compare the cabin
+pressure with the turbine outlet pressure. If the difference between
+these two pressure values is more than a specified limit, then there can
+be icing at the condenser This causes the ACSC to command the bypass
+valve (BYP VLV) to a more open position and hot air flows directly into
+the turbine outlet airflow. This hot air will melt the ice at the
+condenser, which causes the pack discharge pressure to get back to a
+normal value. When the pressure values are below the activation
+threshold, the bypass valve goes back to the normal temperature
+regulating position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 58 of 129
+FOR TRAINING PURPOSES ONLY
+PACK DISCHARGE PRESSURE SENSOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 59 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) PACK OVERHEAT DETECTION To
+prevent a pack overheat, the ACSC monitors the COMPRESSOR DISCHARGE TEMP
+SENSOR. The ACSC will send a signal to the RAM AIR INLET ACTUATOR if the
+temperature increases to more than 180°C. This will cause an increase of
+the cooling airflow around the heat exchangers and an overheat condition
+will be prevented. If there is no positive effect on the compressor
+outlet temperature, the ACSC will send a signal to the torque motor of
+the FCV to control it to a more closed position. This will decrease the
+hot air supply into the pack. At a temperature of 260°C and with the
+aircraft on ground, the ACSC will close the FCV and send a signal to the
+panel 30VU. This signal causes the FAULT light in the related PACK
+pushbutton switch to come on. In flight, the FCV remains open. An ECAM
+warning will start.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 60 of 129
+FOR TRAINING PURPOSES ONLY
+PACK OVERHEAT DETECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 61 of 129
+FOR TRAINING PURPOSES ONLY
+FLOW CONTROL & PACK COMPONENTS D/O (3) MAINTENANCE The Centralized Fault
+Display Interface Unit (CFDIU) is only connected to the ACSC 2. All BITE
+data of ACSC 1 will be transmitted to ACSC 2 first before it goes to the
+CFDIU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 62 of 129
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 63 of 129
+FOR TRAINING PURPOSES ONLY
+PACK SENSORS DESCRIPTION/OPERATION (3) pressure sensor is mounted on the
+bulkhead between the air conditioning bay and the pressurized cabin. It
+is connected to the corresponding ACSC.
+PACK INLET PRESSURE SENSOR The pack inlet pressure sensor signals a pack
+inlet pressure drop to the Air Conditioning System Controller (ACSC). It
+is used to determine the appropriate BYPass valve position. When the
+pack inlet pressure is low, the BYP valve is controlled to a more open
+position in order to decrease the Differential Pressure (DELTA P) of the
+air conditioning pack. At the same time, the ram air inlet flap is
+controlled to a more open position to compensate for the decreased
+efficiency of the turbine/compressor cycle. Also, when engines are idle,
+if the cooling demand cannot be satisfied, the engine idle setting can
+be changed by a thrust demand.
+WATER EXTRACT TEMPERATURE SENSOR
+DELTA P SENSOR
+The pack discharge temperature sensor signals the pack outlet
+temperature to the ACSC for ECAM display. The pack outlet temperature
+sensor also gives pack overheat warning indications if the pack outlet
+temperature exceeds 88°C (190°F).
+A DELTA P sensor measures a differential pressure at the Flow Control
+Valve (FCV) inlet. This DELTA P, which is equivalent to the airflow, is
+converted into an electrical signal and sent to the ACSC. It is used for
+ECAM display and FCV control.
+The water extract temperature sensor signals the water extractor
+temperature for the pack outlet temperature control. The pack
+temperature sensor has two thermistors: one sensing element is connected
+to lane 1 and the other to lane 2 of the related ACSC. They are used to
+modulate the pack outlet temperature.
+PACK DISCHARGE TEMPERATURE SENSOR
+COMPRESSOR DISCHARGE TEMPERATURE SENSOR The compressor discharge
+temperature sensor signals the compressor outlet temperature to the ACSC
+for pack temperature control and overheat detection. Pack temperature
+control: - up to 180°C (385°F): normal operation, - 180°C to 220°C
+(428°F): the ram air inlet flap opens more in order to increase the RAM
+airflow. The pack FAULT light comes on in if there is pack overheat of
+260°C (500°F). If the A/C is on ground, automatic FCV closure occurs.
+PACK DISCHARGE PRESSURE SENSOR The pack discharge pressure sensor
+measures the pressure difference between turbine outlet and cabin
+underfloor pressure. The pack discharge
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 64 of 129
+FOR TRAINING PURPOSES ONLY
+PACK INLET PRESSURE SENSOR ... PACK DISCHARGE TEMPERATURE SENSOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 65 of 129
+FOR TRAINING PURPOSES ONLY
+COCKPIT & CABIN COMPONENTS D/O (3) MIXER UNIT The mixer unit mixes air
+from packs and recirculated air from the cabin before distribution to
+each zone. The mixer unit, installed under the cabin floor, uses cabin
+air, which has entered the underfloor area and has been drawn through
+recirculation filters by recirculation fans. This air is mixed with
+conditioned air from the packs. The quantity of cabin air mixed with
+conditioned air varies from 37% to 51% (the cabin fans operate at a
+constant speed, but the airflow from the Pack Flow Control Valve (FCV)
+can vary.)
+TEMPERATURE SENSORS There are two mixer unit temperature sensors, one on
+either side of the mixer unit. They give the actual temperature of the
+mixer unit to the Air Conditioning System Controllers (ASCSs). The
+cockpit mixer unit temperature sensor is connected to the ACSC 1 and the
+cabin mixer unit to the ACSC 2. Each mixer unit temperature sensor has
+two thermistors, one connected to lane 1 and the other to the second
+lane of the ACSC.
+MIXER UNIT FLAP The mixer unit flap ensures sufficient flight deck air
+supply if pack 1 is selected off. An electrically operated mixer unit
+flap is installed to ensure that sufficient fresh air is delivered to
+the cockpit in case of pack 1 failure.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 66 of 129
+FOR TRAINING PURPOSES ONLY
+MIXER UNIT ... MIXER UNIT FLAP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 67 of 129
+FOR TRAINING PURPOSES ONLY
+COCKPIT & CABIN COMPONENTS D/O (3) AIR CONDITIONING SYSTEM CONTROLLERS
+During normal or abnormal operation the cockpit and cabin system is
+controlled by the two ACSCs. Cabin zones demanding a higher temperature
+than that which is available from the mixer unit receive additional hot
+trim-air added by the trim air valve. The trim air valves are operated
+by ACSC 1 for the cockpit and ACSC 2 for the FWD and aft cabin zones.
+TRIM AIR PRV The trim air Pressure Regulating Valve (PRV) is
+pneumatically operated and electrically controlled by a solenoid. The
+solenoid controls the ON/OFF function. The trim air PRV regulates the
+pressure of the air supplied to the trim air valves, 4 psi above the
+cabin pressure. The ON/OFF function solenoid de-energizes when the HOT
+AIR P/B is set to OFF or when the temperature of any duct is above 88°C
+(190°F). This closes the valve.
+HOT AIR PRESSURE SWITCH Due to a malfunction of the trim air PRV, the
+hot air pressure switch signals overpressure to ACSCs 1 and 2 for ECAM
+display and the Centralized Fault Display System (CFDS) and monitoring.
+If pressure in the system is 6.5 psi greater than the cabin pressure,
+ACSC 1 sends a fault signal to ECAM. This signal stays until the
+pressure falls below 5 psi.
+TRIM AIR VALVES The trim air valves lets the zone temperature be
+adjusted by modulating the hot airflow added to air from the mixer unit.
+The trim air valves close when the trim air PRV closes. The butterfly of
+the trim air valves is controlled by a stepper motor. The trim air valve
+position is determined using the step-counting principle.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 68 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM CONTROLLERS ... TRIM AIR VALVES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 69 of 129
+FOR TRAINING PURPOSES ONLY
+COCKPIT & CABIN COMPONENTS D/O (3) DUCT TEMPERATURE SENSORS Each duct
+temperature sensor detects duct temperature for the related zone
+temperature control, indication and overheat detection to the ACSC. Each
+duct temperature sensor has two thermistors, one connected to lane 1 and
+the other to the second lane of the ACSC. Each thermistor does control,
+indication and overheat detection 88°C (190°F). In case of overheat in
+one of the three supply ducts (temperature above 88°C or 190°F), the
+ACSCs close the trim air PRV and all Trim Air Valves (TAV)
+automatically.
+ZONE TEMPERATURE SENSORS Each zone sensor detects the related zone
+temperature for zone temperature control and indication on ECAM display.
+Each zone temperature sensor has two thermistors, one connected to ACSC
+1 and the other to ACSC 2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 70 of 129
+FOR TRAINING PURPOSES ONLY
+DUCT TEMPERATURE SENSORS & ZONE TEMPERATURE SENSORS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 71 of 129
+FOR TRAINING PURPOSES ONLY
+ZONE TEMPERATURE CONTROL INTERFACES (3) GENERAL
+ECB
+The function of the Air Conditioning System Controller (ACSC) is to
+communicate with other systems via hardware interfaces.
+The ACSC sends data to the Electronic Control Box (ECB) and receives an
+APU bleed valve open discrete. The ACSC sends to the ECB the increase of
+APU flow used for increased bleed airflow. When the ECB sends a signal
+to the ACSC, the APU bleed valve open discrete is used for flow demand
+calculation.
+SDAC System data information is transmitted to the System Data
+Acquisition Concentrator (SDAC) via ARINC buses for system monitoring.
+The system data information is used for warning and display. These data
+are temperature, valve position and others.
+EIU The ACSC sends data to both Engine Interface Units (EIUs). Each EIU
+sends one discrete to the ACSC. EIUs 1 and 2 send to the ACSC: - the
+take-off thrust used for pack ram air inlet closure, - the High Pressure
+(HP) fuel valve position used for bleed demand circulation and for
+engine start sequence, so that the pack Flow Control Valves (FCVs) are
+controlled to close during engine start. The ACSC sends to EIUs 1 and
+2: - the engine power increase used for bleed airflow increase, - the
+bleed and the anti-ice status used for thrust limit calculation.
+CPC The Cabin Pressure Controller (CPC) 1 or 2 (depending who is in
+control) sends data to the ACSC for zone and pack temperature control.
+The A/C altitude is used for zone temperature compensation and pack
+water extractor outlet temperature limitation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+FDIMU The ACSCs send system main status data to the Flight Data
+Interface and Management Unit (FDIMU) for maintenance monitoring
+functions. The ACSC sends to the FDIMU: - the trim-air Pressure
+Regulating Valve (PRV) position, - pack flow, water extractor and pack
+compressor discharge temperatures, BYPass valve and ram air inlet flap
+positions.
+CFDIU ACSC 2 sends BITE data to the Centralized Fault Display Interface
+Unit (CFDIU) for system monitoring. The BITE data is used for
+temperature control system monitoring. Only the ASCS 2 is connected to
+the CFDIU. Therefore all BITE data from/to ACSC 1 are transmitted
+through the ACSC 2.
+AIR CONDITIONING SYSTEM CONTROLLERS The ACSCs mainly receive temperature
+and flow demands, CFDIU control signals and send back maintenance data
+signals. The ACSCs also receive a signal from the DITCHING P/B to close
+both pack FCVs if there is a ditching. ACSC 1 and 2 receive a signal
+from the engine FIRE P/B, to close the related pack FCV in case of
+engine fire. The Cabin Intercommunication Data System (CIDS) Director 1
+sends a data signal for ACSC 1, and the CIDS Director 2 sends a signal
+for ACSC 2 for
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 72 of 129
+FOR TRAINING PURPOSES ONLY
+temperature regulation (+ or - 2.5°C) from the Flight Attendant Panel
+(FAP).
+FAN PARAMETERS The ACSCs receive discrete signals from recirculation and
+toilet fans for monitoring. The lavatory and galley extraction and the
+cabin recirculation fan operation are used for monitoring and
+transmission to the SDACs and CFDIU.
+ANTI-ICE AND PNEUMATIC PARAMETERS Anti-ice and pneumatic parameters are
+used to detect faults and to make sure that the status of the bleed air
+system is transmitted to the CFDIU and EIUs. The valve positions, low
+and high pressure, are used for anti-ice system fault detection for the
+CFDIU and thrust limit calculation for the EIUs.
+LGCIU 2 Landing Gear Control and Interface Unit (LGCIU) 2 sends a
+ground/flight signal to both ACSCs for pack air inlet flap operation.
+The ground/flight signal is used for pack ram air inlet flap closure
+during take-off and landing phases.
+BSCU The Braking/Steering Control Unit (BSCU) sends a wheel signal to
+both ACSCs for pack ram air inlet flap operation. The wheel speed is
+used for pack ram air inlet flap closure during take-off and landing
+phases.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 73 of 129
+FOR TRAINING PURPOSES ONLY
+GENERAL ... BSCU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 74 of 129
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 75 of 129
+FOR TRAINING PURPOSES ONLY
+EMERGENCY RAM AIR INLET D/O (3) GENERAL The A/C has one emergency ram
+air inlet flap located at the lower LH side of the fuselage, sharing the
+same duct with the LP ground connection.
+EMERGENCY RAM AIR INLET FLAP OPERATION In case of failure of both packs
+in flight or a smoke removal in flight, an emergency ram air inlet flap
+can be opened for A/C ventilation. In case of smoke removal or loss of
+both packs, the RAM AIR P/B must be set to ON. When set to ON, and if
+DITCHING is not selected, the emergency ram air inlet flap opens. The
+flap, installed between the LP GND connection and ram air inlet, closes
+one side of the Y-duct when air is supplied from the other side. The
+check valve stays closed. The A/C must descend to less than 10000 ft.
+When the cabin differential pressure is less than 1 psi, the Cabin
+Pressure Controller in control half opens the outflow valve. The air
+then goes through the check valve to the mixing unit.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 76 of 129
+FOR TRAINING PURPOSES ONLY
+GENERAL & EMERGENCY RAM AIR INLET FLAP OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 77 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM PRESENTATION (3) CABIN PRESSURE ALTITUDE ENVELOPE The cabin
+altitude is limited to 8000 ft with a DELTA P of 8.06 psi for an A/C
+altitude of 39000 ft. If cabin altitude increases: - at 9550 ft, the
+MASTER WARN comes on, - at 11300 ft, passenger signs are activated. In
+the outflow valve, a safety device closes the valve when the cabin
+altitude reaches 15000 ft. Under normal conditions, the LanDing field
+ELEVation selector is selected in the AUTO position enabling the CPCs to
+use the landing field elevation data from the FMGS. In all other cases
+the LDG ELEV selector signal overrides the FMGS data (semi-automatic
+operation). A DITCHING pushbutton switch closes the outflow valve in
+ditching configuration.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 78 of 129
+FOR TRAINING PURPOSES ONLY
+CABIN PRESSURE ALTITUDE ENVELOPE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 79 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM PRESENTATION (3) CABIN PRESSURE CONTROLLERS There are two
+interchangeable controllers, which are identified as Cabin Pressure
+Controller (CPC) 1 and CPC 2 by means of pin programming. Each
+controller has an automatic and manual part which are functionally and
+electronically independent of each other. One controller operates the
+system at a time according to flight profile data and A/C
+configurations. The second controller is in active stand-by with
+automatic changeover after each flight or in case of failure of the
+active one. The CPCs inputs are: - flight profile data: Flight
+Management and Guidance System (FMGS), Air Data/Inertial Reference
+System (ADIRS), Centralized Fault Display System (CFDS), - A/C
+configurations: Engine Interface Unit (EIU), Landing Gear Control and
+Interface Unit (LGCIU), Environmental Control System (ECS). The CPCs
+outputs data for indicating and monitoring are: Flight Warning Computer
+(FWC), System Data Acquisition Concentrator (SDAC), CFDS, ECS, Aircraft
+Integrated Data System (AIDS). When manual mode is used, the manual part
+of controller 1 operates only as a back-up indication circuit processing
+outputs for indicating and monitoring. CPC 1 manual part outputs for
+monitoring and indicating are: FWC and SDAC. CPC 2 manual part is not
+used.
+OUTFLOW VALVE In automatic mode, the outflow valve is controlled by the
+operating controller. The outflow valve is of the double flap and motor
+driven type. In automatic operation, the outflow valve is operated by
+electronics module 1 or module 2 depending on the operating
+controller: - electronics module 1 is controlled by controller 1,
+controller 1 plus motor 1 are linked to system 1, - electronics module 2
+is controlled by controller 2, controller 2 plus motor 2 are linked to
+system 2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+Two electronic actuators interface with the controllers. A pressure
+switch, which only operates in automatic mode, is installed in each
+electronic actuator. It closes the applicable outflow valve in case of
+cabin altitude above 15000 ft. Motor 3 is controlled from the CABIN
+PRESSure panel by the MANual Vertical/Speed ConTroL toggle switch when
+manual mode is selected on the MODE SELection P/B. The manual motor is
+used in case of failure of systems 1 and 2. The outflow valve position
+monitoring is based on a triple potentiometer principle. Potentiometer
+1(2) generates a feedback signal, sent to CPC 1(2) through electronic
+actuator 1(2). It is used for indication and initialization functions in
+automatic operation. Potentiometer 3 generates a feedback signal, sent
+straight to the CPC 1 manual backup part. It is used as indication
+function in manual operation only.
+SAFETY VALVES The safety valves prevent excessive positive and negative
+differential pressure (DELTA P) in the fuselage. They are installed on
+the aft pressure bulkhead above the A/C flotation line. The safety
+valves are poppet-type pneumatic valves. They operate independently.
+RPCU The RPCU interfaces with the CPCs and takes over the control of the
+outflow valves automatically if the outflow valve is not in the fully
+open position when the aircraft is on ground. This is to prevent any
+door violent opening in case of residual cabin pressure. The control of
+the Outflow Valve (OFV) by the Residual Pressure Control System (RPCU)
+is done through the MOT 3, when the following situation is detected: -
+both main landing gears are compressed, or one main landing gear is
+compressed and the Parking Brake is set to ON, and - both Master
+Switches are in OFF or speed is below 100 knots AND
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 80 of 129
+FOR TRAINING PURPOSES ONLY
+-   outflow valve is not fully open, and
+-   cabin pressurization system is in manual mode or both CPCs are
+    inoperative. In these cases, the OFV is driven to the fully open
+    position by the RPCU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 81 of 129
+FOR TRAINING PURPOSES ONLY
+CABIN PRESSURE CONTROLLERS ... RPCU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 82 of 129
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 83 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM CONTROL INTERFACES (3) EIU Each Engine Interface Unit (EIU) sends
+a thrust lever angle associated with an N2 signal to both controllers to
+initiate the pre-pressurization and the pressurization sequences. The
+signals are: - Thrust lever angle in Takeoff (TO) position, - MAXimum
+CONTinuous or FLeXible detent, - N2 at or above idle, used for
+pre-pressurization and pressurization sequences.
+LGCIU Each Landing Gear Control and Interface Unit (LGCIU) sends a
+flight/ground signal to both controllers to initiate pre-pressurization,
+pressurization and depressurization sequences. The ground/flight signal
+is used for pre-pressurization, pressurization, depressurization
+sequences and system transfer.
+ADIRU
+MOTORS A discrete signal from the active controller will select the
+corresponding motor and enable signal, while outflow valve positioning
+and monitoring signals are transmitted by RS 422 buses. The signals in
+AUTO MODE are: - "enable signal" to motor in control, - outflow valve
+positioning and monitoring. In MANUAL MODE, the feedback position from
+motor 3 is sent to controller 1. The Residual Pressure Control Unit (R
+PCU) controls the residual pressure in the cabin and takes over the
+control of the outflow valve automatically by providing power directly
+to the manual motor (motor 3).
+CONTROLLER 1/CONTROLLER 2
+Each Air Data/Inertial Reference Unit (ADIRU) sends the static pressure
+and the barometric correction signals to both controllers for pressure
+control. These signals are: - Static pressure, - BARO (barometric)
+correction, - ADIRU validity, used for all sequences and priority
+selection. ADIRU 1, 2, 3 sends signals to controller 1 and ADIRU 2, 1, 3
+sends signals to controller 2.
+FMGC Each Flight Management and Guidance Computer (FMGC) sends cruise
+flight level and landing field elevation data to both controllers.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+The signals are: - Cruise flight level, - Landing field elevation, used
+for pressurization profile.
+Discrete signals between both controllers ensure controller transfer.
+The system 1 or 2 active signal is used for controller transfer.
+AIR COND PANEL AND CABIN PRESS PANEL The position of the pressure panel
+switches and emergency RAM AIR switch is transmitted to both
+controllers. The CABIN PRESSurization panel signals are: - ditching, -
+landing field elevation selection, - manual mode selection, used for
+manual operation. The AIR CONDitioning panel signal is the emergency ram
+air inlet selection, used for outflow valve half opening.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 84 of 129
+FOR TRAINING PURPOSES ONLY
+PRESS PANEL/MOTOR 3 Motor 3 is controlled by a discrete signal directly
+sent by the CABIN PRESS panel. This signal is used for manual mode.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 85 of 129
+FOR TRAINING PURPOSES ONLY
+EIU ... PRESS PANEL/MOTOR 3
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 86 of 129
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 87 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM CONTROL INTERFACES (3) RPCU INTERFACES The Residual Pressure
+Control Unit (RPCU) has the following Interfaces: - Engine Interface
+Units (EIUs) send the position of the related Engine Master Switch (ON /
+OFF), - Landing Gear Control / Interface Units (LGCIUs) send the signal
+for the LH / RH main landing gear compressed condition - Air Data
+Inertial Reference Units (ADIRUs) send aircraft speed below or above 100
+knots, - Parking Brake Control Relay sends the signal Parking Brake set
+to ON or OFF These inputs determine the A/C condition at gate and are
+used to satisfy RPCU control logics The Residual Pressure Control Unit
+(RPCU) has other interfaces: - MODE SEL P/B on the CABIN PRESS panel
+25VU detects if the cabin pressure control system is in manual mode -
+Cabin Pressure Controller 1 (CPC) signals if the CPC 1 is operative or
+inoperative - Outflow Valve (OFV) position of the potentiometer 3 (sent
+to the MANual part of CPC 1) detects if the OFV is 100% open or not -
+Cabin Pressure Controller 2 (CPC) signals if the CPC 2 is operative or
+inoperative These inputs determine if the RPCU needs to control the OFV
+to the fully open position. Therefore the RPCU sends a direct signal to
+MOTOR 3 to open the OFV. The RPCU sends a discrete signal to the CFDIU
+for fault information (ok or not ok), which leads to a class 3 fault
+indication.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 88 of 129
+FOR TRAINING PURPOSES ONLY
+RPCU INTERFACES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 89 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM CONTROL INTERFACES (3) CABIN ALTITUDE INDICATION AUTO MODE The
+calculation of the cabin altitude in the AUTO mode is done differently
+in relation to the aircraft altitude: - If the aircraft altitude is
+higher than 5000 ft above take-off or landing fields, the cabin altitude
+is calculated to the standard atmosphere. - If the aircraft altitude is
+lower than 5000 ft above take-off or landing fields, the cabin altitude
+is calculated to the true altitude above sea level with the barometric
+correction from the Air Data Inertial Reference System (ADIRS).
+MANUAL MODE The calculation of the cabin altitude in the MANual mode is
+done in the Display Management Computer (DMC) to standard atmosphere.
+The Cabin Pressure Control System (CPCS) manual backup circuit supplies
+a cabin pressure value to the SDAC. Thus, there can be a small
+difference in the cabin altitude values between the AUTO and MAN modes
+if the aircraft altitude is higher than 5000 ft above take-off or
+landing fields. There can be a difference between the cabin altitude
+values due to the barometric conditions (weather) if the aircraft
+altitude is lower than 5000 ft above take-off or landing fields.
+The active CPC uses the auto-motor to control the outflow valve to the
+requested position. It also supplies data for indication on the
+Electronic Instrumentation System (EIS). Only one CPC operates the
+system at a time, while the other system is in hot standby. The change
+of control from one CPC to the other is fully automatic after each
+flight, on landing. The CPCs will also change in flight if there is a
+failure of one of the control systems.
+MANUAL OPERATION The MAN V/S toggle switch controls the manual motor of
+the outflow valve when the MAN SEL switch is selected to MAN. These
+controls are installed in the cockpit, on the CABIN PRESS overhead
+panel. In manual mode, the backup channel of the CPC in position no. 1
+is used. It has a pressure sensor to start the excess cabin altitude
+warning and pressure outputs for the indication on the EIS. If the MAN
+Part of CPC1 is active, the data for indication on EIS come from the
+ADIRUs and the SDAC.
+PRESSURIZATION CONTROL SYSTEM AUTOMATIC OPERATION The system has two
+identical, independent, automatic systems. Each system has a CPC, which
+controls the pressure through a flap-type outflow valve. In the
+automatic operation, the CPCs use the data from the Flight Management
+and Guidance System (FMGS) and the ADIRS.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 90 of 129
+FOR TRAINING PURPOSES ONLY
+CABIN ALTITUDE INDICATION & PRESSURIZATION CONTROL SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 91 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM MONITORING INTERFACES (3) FWC
+CABIN PRESS PANEL/SDAC
+In case of excessive cabin altitude, the active controller sends a
+discrete signal to both Flight Warning Computers (FWCs) for level 3
+warnings. This warning is generated if cabin altitude exceeds 9550ft.
+A manual mode selection signal is sent from the pressure panel to both
+SDACs. The MANual MODE SEL signal is used for ECAM display.
+NOTE: Note: Each manual part is a separate, electrically supplied part.
+SDAC
+SAFETY VALVES/SDAC The safety valve position signals are sent to both
+SDAC. The safety valve position signal is used for ECAM display.
+Both controllers send ARINC and discrete signals to the System Data
+Acquisition Concentrator (SDAC). When the system is in automatic mode,
+ARINC and discrete signals are used for monitoring and warning
+indications. In manual mode, 3 analog signals are provided from the
+manual part of CPC1 only.
+CFDIU Both controllers send BITE data to the Centralized Fault Display
+Interface Unit (CFDIU) via ARINC buses. This data is sent continuously
+or on request. The signal is a BITE data, used for Centralized Fault
+Display System (CFDS) monitoring.
+CIDS In case of excessive cabin altitude, the pressure controllers send
+a discrete signal to the Cabin Intercommunication Data System (CIDS).
+The cabin altitude exceeding 11300 ft signal is used for passenger
+signs.
+CABIN PRESS PANEL In case of failure of both automatic systems, the
+controllers send a discrete signal to the pressure panel for FAULT light
+illumination.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 92 of 129
+FOR TRAINING PURPOSES ONLY
+FWC ... SAFETY VALVES/SDAC
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 93 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM DESIGN PRESENTATION (2) AVIONICS The avionics ventilation system
+ensures a proper ventilation of the electrical equipment. Air is taken
+from different sources depending on the A/C configuration and ambient
+conditions. Ventilation air is blown to the equipment by a blower fan
+and extracted by an extraction fan. The cockpit temperature sensor for
+the temperature control system is connected to the extraction part of
+the avionics ventilation.
+LAVatories and galleys The lavatory (LAV) and galleys (GALY) ventilation
+system is used to remove unpleasant odors before they enter the cabin.
+Ventilation air is supplied from cabin distribution ducts and discharged
+overboard via the outflow valve by an extraction fan. The FWD and AFT
+cabin zones temperature sensors are connected to the lavatory and galley
+extraction system.
+CARGO The FWD and aft cargo compartments are ventilated by cabin ambient
+air coming from the cabin zones through openings in the cabin floor
+behind the sidewall panels. The FWD cargo compartment is ventilated by
+means of an extraction fan or by differential pressure. The aft cargo
+compartment is ventilated by means of an extraction fan only. NOTE:
+Note: The ventilation system is optional and independent for each
+compartment.
+CONTrollers The Avionics Equipment Ventilation Computer (AEVC) ensures
+control and monitoring of the AVNCS ventilation system. The cargo
+ventilation controller (CONT) controls and monitors the isolation valves
+and the extraction fan of the cargo ventilation system.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 94 of 129
+FOR TRAINING PURPOSES ONLY
+AVIONICS ... CONTROLLERS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 95 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM DESCRIPTION AND OPERATION (3) GENERAL The system is automatically
+controlled by the Avionics Equipment Ventilation Computer (AEVC) and no
+crew action is required. The AEVC will change the system configuration
+depending on whether the A/C is on ground or in flight and on A/C skin
+temperature. NOTE: The BLOWER and EXTRACT P/Bs must be in AUTO position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 96 of 129
+FOR TRAINING PURPOSES ONLY
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 97 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM DESCRIPTION AND OPERATION (3) OPEN CIRCUIT CONFIGURATION In open
+circuit configuration ambient air, drawn through the skin air inlet
+valve by the blower fan, is blown into the system. The air, after
+cooling the avionics equipment, is drawn by the extraction fan directly
+overboard. The open circuit configuration allows avionics equipment to
+be cooled with ambient air under certain conditions. (On ground and skin
+temperature above 12°C (53,6°F) increasing, or above 9°C (48,2° F)
+decreasing). NOTE: The skin air inlet and outlet valves are fully open.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 98 of 129
+FOR TRAINING PURPOSES ONLY
+OPEN CIRCUIT CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 99 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM DESCRIPTION AND OPERATION (3) CLOSED CIRCUIT CONFIGURATION In
+closed circuit configuration, the extracted avionics equipment air goes
+through the skin exchanger isolation valve into the skin heat exchanger
+to be cooled. Then this air is blown into the avionics equipment again.
+The skin exchanger inlet bypass valve is controlled by the AEVC in
+accordance to the system configuration to discharge the air under the
+FWD cargo compartment. The skin exchanger outlet bypass valve opens in
+order to decrease the noise level in the avionics bay.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 100 of 129
+FOR TRAINING PURPOSES ONLY
+CLOSED CIRCUIT CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 101 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM DESCRIPTION AND OPERATION (3) PARTIALLY OPEN CIRCUIT
+CONFIGURATION In partially open circuit configuration, the system is
+almost like in closed configuration, part of the extracted air is
+expelled overboard. NOTE: The skin air outlet valve is an electrically
+operated single flap valve with a smaller flap built into it. This
+smaller flap is opened in flight or on ground with takeoff power
+selected, when the skin temperature is above 35°C (95,0°F). It returns
+to the closed position when the skin temperature decreases below 31°C
+(87,8°F).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 102 of 129
+FOR TRAINING PURPOSES ONLY
+PARTIALLY OPEN CIRCUIT CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 103 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM INTERFACES (3) LGCIU
+SKIN AIR VALVEs/SDAC
+Landing Gear Control and Interface Units (LGCIUs) 1 and 2 send a signal
+to the Avionics Equipment Ventilation Computer (AEVC) for ventilation
+system control. The ground/flight signal is used for system control.
+The skin air valves position signals are sent to both System Data
+Acquisition Concentrators (SDACs) for system display and for skin valve
+fault warning. The skin valve position feedback signal is used for
+system display and valve position disagree warning in flight.
+EIU Engine Interface Units (EIUs) 1 and 2 send the takeoff thrust signal
+to the AEVC for ventilation system control. The thrust lever set to
+takeoff and a N2 above idle signal is used for system control.
+MONITORING Valves, sensors, fans and switches are monitored by the AEVC.
+Additionally failure status is displayed on the ECAM and control panels.
+CFDIU The AEVC sends BITE data to the Centralized Fault Display
+Interface Unit (CFDIU) via an ARINC bus. Test of the system is done by
+sending a test demand discrete signal to the AEVC. The signals BITE data
+via an ARINC bus and the MCDU test demand via a discrete are used for
+avionics equipment ventilation system monitoring.
+CONTROLLER AEVC/SDAC The AEVC monitors the skin air valves position, the
+conditioned air inlet valve and the exchanger inlet bypass valve
+position. In case of valve position disagree or loss of power supply of
+the AEVC, the AEVC sends an avionics system fault signal to both SDACs.
+The avionics system fault signal is used for valve position disagree
+warning on ground or loss of power supply of the AEVC.
+SKIN TEMPERATURE SENSOR The skin temperature sensor signals the skin
+temperature to the computer for configuration control.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 104 of 129
+FOR TRAINING PURPOSES ONLY
+LGCIU ... MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 105 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM INTERFACES (3) BLOWING PRESSURE SWITCHES AND DUCT TEMPERATURE
+SENSOR The blowing pressure switches and the duct temperature sensor
+signal a low flow and a high duct temperature to the controller to both
+SDACs and to the BLOWER P/B. On the ground, the ADIRU and AVNCS VENT
+lights come on amber on the external power receptacle accompanied by the
+horn activation. LP Delta P = 0.025 psi (1.73 hPa) signal or high duct
+temperature 62°C (144°F) signal, are used for fault and ventilation
+ground warnings located on the external power receptacle.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 106 of 129
+FOR TRAINING PURPOSES ONLY
+BLOWING PRESSURE SWITCHES AND DUCT TEMPERATURE SENSOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 107 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM INTERFACES (3) EXTRACT PRESSURE SWITCH The extract pressure
+switch signals a low flow to the controller to both SDACs and to the
+EXTRACT P/B. On the ground, the ADIRU and AVNCS VENT lights come on
+amber on the external power receptacle accompanied by the horn
+activation. The extract LP is used for fault and ventilation ground
+warnings located on the external power receptacle.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 108 of 129
+FOR TRAINING PURPOSES ONLY
+EXTRACT PRESSURE SWITCH
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 109 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM INTERFACES (3) SMOKE DETECTOR The smoke detector signals smoke to
+the controller, to both VENTILATION P/Bs and to the GEN 1 LINE P/B. The
+smoke detected is used for smoke warning.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 110 of 129
+FOR TRAINING PURPOSES ONLY
+SMOKE DETECTOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 111 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM CONTROLS PRESENTATION (3) SYSTEM INTRODUCTION Air from the main
+cabin is drawn down into the cargo compartment by the extract fan or by
+differential pressure in flight. After circulating through the
+compartment, the air is discharged overboard. The operation of the two
+isolation valves and the extract fan is controlled automatically by the
+cargo Ventilation Controller (VC). One VC is able to control either or
+both compartments. For the heating of the cargo compartment, the pilots
+select the desired compartment temp and hot bleed air is mixed with the
+air coming from the main cabin to increase the temperature if necessary.
+The supply of hot air is controlled by the Cargo Heating Controller.
+Note that there is NO direct air conditioning supply to the cargo
+compartments. The pilots cannot add "cold" air to the compartments. On
+the cockpit overhead panel, the CARGO HEAT panel contains the controls
+associated with cargo ventilation and heating. Again, based on the
+customer options, several variations may be found: ventilation in either
+one compartment or both, or ventilation and heating in one compartment
+or both. For each ventilated cargo compartment there is an ISOLATION
+VALVE P/B switch that controls the isolation valves. In the auto
+position the cargo VC will automatically open and close the isolation
+valves.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 112 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM INTRODUCTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 113 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM CONTROLS PRESENTATION (3) FWD ISOL VALVE P/B The FWD ISOLation
+VALVE P/B controls the isolation valves and the extraction fan through
+the ventilation controller. When it is pressed in, the cargo ventilation
+controller will start the extraction fan, if both valves are fully open
+and Differential Pressure (DELTA P) is no more than 1psi. When it is set
+to OFF or if smoke is detected or the DITCHING P/BSW is ON, the
+isolation valves are closed and the extraction fan stops.
+TEMPERATURE SELECTOR The temperature rotary selector gives the desired
+temperature to the heating controller, which controls the trim air valve
+to add hot air to cabin ambient air, if necessary. The selector
+temperature range is between 5ºC (41ºF) and 26ºC (79ºF), with 16ºC
+(60ºF) at the 12 o'clock position.
+HOT AIR P/B The HOT AIR P/BSW is used to control the cockpit and cabin
+hot air Pressure Regulating Valve (PRV). When it is set to OFF, the
+valve is closed. NOTE: Note: In case of duct temperature above 88ºC
+(190ºF), the heating controller controls the HOT AIR PRV to close.
+CARGO SMOKE In case of cargo smoke detected, the cargo ventilation
+controller will automatically close the related isolation valves. For
+each heated compartment, the temperature selectors signal the associated
+Cargo Heating Controller to move the trim air valves to adjust the
+temperature of the air entering the compartment.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 114 of 129
+FOR TRAINING PURPOSES ONLY
+FWD ISOL VALVE P/B ... CARGO SMOKE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 115 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM CONTROLS PRESENTATION (3) SYSTEM INTRODUCTION Air from the main
+cabin is drawn down into the cargo compartment by the extract fan or by
+differential pressure in flight. After circulating through the
+compartment, the air is discharged overboard. The operation of the two
+isolation valves and the extract fan is controlled automatically by the
+cargo Ventilation Controller (VC). One VC is able to control either or
+both compartments. For the heating of the cargo compartment, the pilots
+select the desired compartment temp and hot bleed air is mixed with the
+air coming from the main cabin to increase the temperature if necessary.
+The supply of hot air is controlled by the Cargo Heating Controller.
+Each heated compartment has a dedicated Cargo Heating Controller. Note
+that there is NO direct air conditioning supply to the cargo
+compartments. The pilots cannot add "cold" air to the compartments. On
+the cockpit overhead panel, the CARGO HEAT panel contains the controls
+associated with cargo ventilation and heating. Again, based on the
+customer options, several variations may be found: ventilation in either
+one compartment or both, or ventilation and heating in one compartment
+or both. For each ventilated cargo compartment there is an ISOLATION
+VALVE P/B switch that controls the isolation valves. In the auto
+position the cargo VC will automatically open and close the isolation
+valves.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 116 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM INTRODUCTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 117 of 129
+FOR TRAINING PURPOSES ONLY
+SYSTEM CONTROLS PRESENTATION (3) AFT ISOL VALVE P/B The AFT ISOLation
+VALVE P/B controls the isolation valves and the extraction fan through
+the ventilation controller. When it is pressed, the cargo ventilation
+controller will start the extract fan, only if both isolation valves are
+fully open. When it is set to OFF or if smoke is detected, the isolation
+valves are closed and the extract fan stops.
+TEMPERATURE SELECTOR The temperature rotary selector gives the desired
+temperature to the heating controller, which controls the trim air valve
+to add hot air to cabin ambient air, if necessary. The selector
+temperature range is between 5°C (41°F) and 26°C (79°F) with 16°C (60°F)
+at the 12 o'clock position.
+HOT AIR P/B The HOT AIR P/BSW is used to control the cargo hot air
+Pressure Regulating Valve (PRV). When it is set to OFF, the valve is
+closed. The task of such pressure-regulating valve is to reduce the
+bleed pressure to 4 psi above the cabin pressure. It acts as a shut-off
+valve. NOTE: Note: In case of duct temperature above 88°C (190°F), the
+heating controller controls the cargo hot air PRV to close.
+CARGO SMOKE In case of cargo smoke detected, the cargo ventilation
+controller will automatically close the related isolation valves. For
+each heated compartment, the temperature selectors signal the associated
+Cargo Heating Controller to move the trim air valves to adjust the
+temperature of the air entering the compartment.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 118 of 129
+FOR TRAINING PURPOSES ONLY
+AFT ISOL VALVE P/B ... CARGO SMOKE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 119 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM LINE MAINTENANCE (2) MEL/DEACTIVATION Per the
+Minimum Equipment List (MEL), the following deactivation procedures may
+be performed to dispatch the aircraft with air conditioning and
+ventilation problems.
+PACK FLOW CONTROL VALVE The aircraft may be dispatched per MEL with the
+pack Flow Control Valve (FCV) failed. With the valve secured in the
+CLOSED position, single pack operations are limited to 31,500 / 35,400 /
+37,000 ft. (depending on aircraft/engine combination). Deactivation
+procedure: - no pneumatic supply to the air conditioning system, -
+remove access panel on belly fairing, - set pack pushbutton switch
+OFF, - remove the blanking cap from the position (A), - make sure that
+the forked valve position indicator lever is at the CLOSED position, -
+install the blanking cap between the forks of the valve position lever
+and on screwed boss (B), - safety the blanking cap with
+corrosion-resistant steel lockwire 0.8mm.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 120 of 129
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION - PACK FLOW CONTROL VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 121 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM LINE MAINTENANCE (2) MEL/DEACTIVATION
+(continued) AVIONICS VENTILATION SKIN AIR OUTLET VALVE In case of
+failure, the Skin Air Outlet Valve may be deactivated in the
+PARTIAL-OPEN position for dispatch per the MEL. The PARTIAL-OPEN
+position is when the main flap of the valve is closed and the auxiliary
+flap is OPEN. This will allow for smoke removal in case of avionics
+smoke in flight. The valve is equipped with a handle which is used to
+crank the valve open or closed. When the Skin Air Outlet Valve is
+deactivated PARTIALLY OPEN, the Skin Exchanger Isolation Valve must be
+deactivated into the OPEN position. The Skin Exchanger Isolation Valve
+is located in the avionics compartment. The valve is equipped with a
+manual lever/position indicator which may be used to put the valve in
+the OPEN position. Procedure: - push latch to release the handle from
+the valve, - pull the handle to engage the splines, - set the
+Deactivation switch to OFF, - turn the handle clockwise until the main
+flap is closed and the auxiliary flap is OPEN, - stow and latch the
+handle, - disconnect the electrical connector of the Skin Exchanger
+Isolation Valve and move the manual override handle to the OPEN
+position, - perform AEVC BITE.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 122 of 129
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION - AVIONICS VENTILATION SKIN AIR OUTLET VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 123 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM LINE MAINTENANCE (2) MEL/DEACTIVATION
+(continued) AVIONICS VENTILATION SKIN AIR INLET VALVE In case of
+failure, the Skin Air Inlet Valve may be deactivated in the CLOSED
+position for dispatch per the MEL. The valve is equipped with a handle
+which is used to crank the valve open or closed. When the Skin Air Inlet
+Valve is deactivated CLOSED, the Conditioned Air Inlet Valve must be
+deactivated to the OPEN position. This allows supplemental cooling from
+the cockpit air conditioning supply for the avionics equipment when the
+normal supply is affected. The conditioned air inlet valve is located in
+the avionics compartment. The valve is equipped with a manual
+lever/position indicator which may be used to put the valve in the OPEN
+position. Deactivation procedure: - push latch to release the handle
+from the valve, - pull the handle to engage the splines, - set the
+Deactivation switch to OFF, - turn the handle counter-clockwise until
+the flap is closed, - stow and latch the handle, - remove the electrical
+connector from the Conditioned Air Inlet Valve and move the manual
+override handle to the OPEN position, - perform AEVC BITE.
+AVIONICS VENTILATION CONDITIONED AIR INLET VALVE In addition to the Skin
+Air Inlet Valve deactivation, other ventilation system deactivation
+tasks also include deactivation of the Conditioned Air Inlet Valve in
+the OPEN position. These affected components are: - the blower fan, -
+the extract fan, - the ventilation filter.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 124 of 129
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION - AVIONICS VENTILATION SKIN AIR INLET VALVE & AVIONICS
+VENTILATION CONDITIONED AIR INLET VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 125 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM LINE MAINTENANCE (2) MAINTENANCE TIPS When the
+aircraft is on the ground with the electrical systems powered, the
+avionics ventilation system is normally in the OPEN configuration. In
+this configuration, the ventilation BLOWER fan pulls air in from the
+open Skin Air Inlet Valve on the LH side of the fuselage. The air is
+circulated through the ventilation system and then the EXTRACTION fan
+discharges the air overboard through the open Skin Air Outlet Valve. If
+maintenance is being performed on the aircraft in heavy rain conditions
+with the ventilation system in the OPEN configuration, the blower fan
+may draw water into the ventilation system and subsequently, into the
+aircraft computers. To prevent water ingestion, the ventilation system
+should be put in the CLOSED configuration by selecting the EXTRACT
+pushbutton to OverRriDe (OVRD) on the VENTILATION panel. For additional
+cooling in the CLOSED configuration, select the packs ON. If the Skin
+Air INLET or OUTLET valve fails on the ground and no replacement part is
+available, either valve may be manually operated to the OPEN position.
+This will allow cooling for the avionics equipment if the aircraft is
+powered for maintenance operations. Before flight, the failed valve must
+be deactivated in the proper configuration.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 126 of 129
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE TIPS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 127 of 129
+FOR TRAINING PURPOSES ONLY
+AIR CONDITIONING SYSTEM OPERATION, CONTROL & INDICATING (3) AIR
+CONDITIONING SUB-SYSTEMS PACK 1 OVERHEAT CABIN / COCKPIT DUCT OVERHEAT
+VENTILATION SUB-SYSTEMS VENT EXTRACT FAULT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 128 of 129
+FOR TRAINING PURPOSES ONLY
+Training Manual Airbus A318/319/ A320/A321 (CFM56 & V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 129 of 129

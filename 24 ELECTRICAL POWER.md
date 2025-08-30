@@ -1,0 +1,2418 @@
+Airbus A318/A319/A320/A321 (CFM56 & V2500) B1+B2 Technical Training
+Manual
+ATA 24 - Electrical Power Airframe Systems
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store Issue 012 -
+Revision 01 - Dated 04/04/2025 1 of 255
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store Issue 012 -
+Revision 01 - Dated 04/04/2025 2 of 255
+ATA Chapters Required in this Training Manual AIRFRAME SYSTEMS ATA 24
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+Electrical Power
+CATTS Ltd
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store Issue 012 -
+Revision 01 - Dated 04/04/2025 3 of 255
+Training Manual Airbus A318/A319/ A320/A321 (CFM56 & V2500) ATA 24
+Airframe Systems; Electrical Power Level 3
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 4 of 255
+ELECTRICAL POWER GENERAL System Diagram Description (2) . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . 2 Electrical System & Circuit
+Identification (2) . . . . . . . . . . . . . . . . . . 16 Electrical
+Power System Control & Indicating (2) . . . . . . . . . . . . . . . 24
+ELECTRICAL POWER GENERATION SYSTEM
+Static Inverter Description/Operation (3) . . . . . . . . . . . . . . .
+. . . . . . 168 AC Essential BUS Switching (3) . . . . . . . . . . . . .
+. . . . . . . . . . . . . . 180 Fuel Pumps ELEC PWR Supply in Smoke
+CONFIG (3) . . . . . . . . 190 AC/DC Sheddable Bus Supply (3) . . . . .
+. . . . . . . . . . . . . . . . . . . . . 200
+AC AND DC LOAD DISTRIBUTION Refueling on Battery (3) . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . 208
+IDG Cooling System (3) . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . 26 IDG Monitoring (2) . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . 28 IDG Drive Part D/O (3)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+IDG Generator Part D/O (3) . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . 34 AC Main Generation D/O (3) . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . 44 GCU D/O (3) . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52 AC
+Auxiliary Generation General Description (2) . . . . . . . . . . . . . .
+. 60 AC Auxiliary Generation D/O (3) . . . . . . . . . . . . . . . . . .
+. . . . . . . . . 62 External Power Supply General Description (2) . . .
+. . . . . . . . . . . . . 70 External Power Supply D/O (3) . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . 74 GAPCU D/O (3) . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+AC/DC Ground Service Distribution D/O (3) . . . . . . . . . . . . . . .
+. . . 82 Bus Tie Logic D/O (3) . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . 90 Galley Supply D/O (3) . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . 102 AC Generation
+Interfaces (3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. 114
+DC GENERATION DC Main Generation D/O (3) . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . 216 DC Normal/Essential Generation SWTG D/O
+(3) . . . . . . . . . . . . . . 218 DC Normal/Essential Generation SWTG
+ELEC (3) . . . . . . . . . . . . 224 Transformer Rectifier D/O (3) . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . 230 Battery System
+D/O (3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . 240 Battery Charge Limiter D/O (3) . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . 244 Electrical Power System Operation, Control &
+Indicating (3) . . . . . 250
+MAINTENANCE PRACTICE Electrical Power System Line Maintenance (2) . . .
+. . . . . . . . . . . . . 116 IDG Removal and Installation (3) . . . . .
+. . . . . . . . . . . . . . . . . . . . . 124
+AC EMERGENCY GENERATION AC Emergency Generation D/O (3) . . . . . . . .
+. . . . . . . . . . . . . . . . . 128 EMER Electrical Power Logic
+Description (3) . . . . . . . . . . . . . . . . 134 RAT Activation (3) .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. 142 CSM/G GCU D/O (3) . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . 152 CSM/G Operational Test Electrical Circuit
+(3) . . . . . . . . . . . . . . . . 164
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 5 of 255
+SYSTEM DIAGRAM DESCRIPTION (2) - 115/200 volts, three phase, - 400 Hz, -
+5 kVA.
+MAIN AC GENERATION ENGINE GENERATORS
+AC TRANSFER
+The aircraft electrical system is supplied by two engine driven
+GENerators regulated in speed by integrated drives. GEN 1 is driven by
+engine 1. GEN 2 is driven by engine 2. Engine generators characteristics
+are: - 115/200 volts, three phase, - 400 Hz, - 90 kVA.
+APU GENERATOR A third AC generator driven by the APU can replace one or
+both main engine generators throughout the flight envelope. APU GEN
+characteristics are: - 115/200 volts, three phase, - 400 Hz, - 90 kVA.
+The AC transfer circuit enables AC BUS to be supplied by any generator
+or external power, via the Bus Tie Contactors (BTCs). Generators are
+never connected in parallel on the same bus. The two normal buses (AC
+BUS 1 & AC BUS 2) are supplied by the available suppliers in the
+following priority: - 1: onside generator (IDG), - 2: external Power, -
+3: APU GEN, - 4: offside generator.
+AC DISTRIBUTION AC BUS 1/2 Each engine generator supplies its related AC
+BUS.
+EXTERNAL POWER
+AC ESS BUS
+A ground EXTernal PoWeR connector enables all bus bars to be supplied.
+External power characteristics are: - 115/200 volts, three phase, - 400
+Hz, - 90 kVA minimum.
+The AC ESSential BUS is normally supplied by AC BUS 1 or by AC BUS 2 if
+AC BUS 1 fails.
+AC ESS SHED BUS The AC ESS SHEDdable BUS is supplied by the AC ESS BUS.
+115/26V AUTO TRANSFORMER
+EMERGENCY GENERATOR An AC EMERgency GEN is driven by the Ram Air Turbine
+(RAT) hydraulic circuit. It automatically provides emergency power in
+case of failure of all main aircraft generators. Emergency generator
+characteristics are:
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+A 115 volts to 26 volts single-phase autotransformer supplying a normal
+26 volts 400 hertz sub-busbar is connected to each main busbar and to
+the AC ESS BUS.
+Issue 012 - Revision 01 - Dated 04/04/2025 6 of 255
+- 115 volts, single phase, - 400 Hz.
+DC GENERATION DC generation is accomplished by Transformer Rectifiers
+(TRs) 1 and 2. All TR characteristics are: - maximum output of 200 A, -
+28V DC. One essential TR unit replaces a faulty main TR to power the DC
+ESS BUS.
+GROUND/FLIGHT BUSES AC and DC GrouND/FLighT BUSes are normally supplied
+by the aircraft network, or directly by the external power unit,
+upstream of the External Power Contactor (EPC), without energizing the
+whole aircraft network.
+GALLEYS
+DC DISTRIBUTION
+The main and secondary electrical circuits of the galleys are supplied
+by AC BUS 1 and 2. The main electrical circuits are shed in single
+generator operation.
+DC BUS 1/2 DC BUS 1 and DC BUS 2 are supplied by their related TR.
+DC BAT BUS The DC BATtery BUS is supplied by DC BUS 1 or by DC BUS 2 if
+DC BUS 1 fails. Batteries can also supply the DC BAT BUS.
+DC ESS BUS The DC ESS BUS is supplied by the DC BAT BUS. In an
+emergency, it is supplied either by battery 2 or by the essential TR.
+DC ESS SHED BUS The DC ESS SHED BUS is supplied by the DC ESS BUS.
+BATTERIES Two batteries can be connected to the DC BAT BUS. Each battery
+has its own bus, HOT BUS 1 and HOT BUS 2. They are permanently supplied.
+The battery capacity is 23 Ah with a nominal voltage of 24V DC.
+STATIC INVERTER On batteries only, the STATic INVerter connected to
+battery 1 supplies the AC STAT INV BUS. Static inverter characteristics
+are:
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 7 of 255
+NOTE Component FIN numbers shown next to each item for reference
+MAIN AC GENERATION ... GALLEYS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 8 of 255
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 9 of 255
+SYSTEM DIAGRAM DESCRIPTION (2) MAIN ELEC CONFIGURATIONS GROUND SUPPLY On
+ground, the complete circuit may be supplied by the external power unit
+or by the APU generator.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 10 of 255
+MAIN ELEC CONFIGURATIONS - GROUND SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 11 of 255
+SYSTEM DIAGRAM DESCRIPTION (2) MAIN ELEC CONFIGURATIONS (continued)
+NORMAL FLIGHT CONFIGURATION In normal flight configuration, each
+generator supplies its own distribution network via its Generator Line
+Contactor (GLC). The two generators are never electrically coupled.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 12 of 255
+MAIN ELEC CONFIGURATIONS - NORMAL FLIGHT CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 13 of 255
+SYSTEM DIAGRAM DESCRIPTION (2) MAIN ELEC CONFIGURATIONS (continued)
+GROUND SERVICES For ground service only, the AC and the DC GND FLT BUSes
+can be supplied independently from the normal circuit.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 14 of 255
+MAIN ELEC CONFIGURATIONS - GROUND SERVICES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 15 of 255
+SYSTEM DIAGRAM DESCRIPTION (2) MAIN ELEC CONFIGURATIONS (continued) LOSS
+OF MAIN GENERATORS In flight, in case of total loss of all the main
+generators, and before the emergency generator connection, battery 1
+will supply the AC ESS BUS, via the STAT INV and battery 2 will supply
+the DC ESS BUS. This is a transient configuration, during RAT extension
+or no emergency generator available. When its parameters are correct and
+the speed is more than 100 knots, the emergency generator comes on line
+and supplies the AC and DC ESS BUSes, and the AC and DC ESS SHED BUSes.
+When the speed is lower than 100 knots, the emergency generator is
+deactivated. The batteries supply the AC and DC ESS BUSes. The DC BAT
+BUS is recovered. When the speed drops below 50 knots, the AC ESS BUS
+disconnects from the static inverter.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 16 of 255
+MAIN ELEC CONFIGURATIONS - LOSS OF MAIN GENERATORS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 17 of 255
+MAIN ELEC CONFIGURATIONS - LOSS OF MAIN GENERATORS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 18 of 255
+MAIN ELEC CONFIGURATIONS - LOSS OF MAIN GENERATORS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 19 of 255
+ELECTRICAL SYSTEM & CIRCUIT IDENTIFICATION (2) - 6PP: direct current
+service busbar (DC SVCE BUS).
+SYSTEM IDENTIFICATION An alphanumeric reference code is used to identify
+systems, circuits and components. The first letter of the reference code
+is used for system identification. A system is a set of circuits which
+fulfills a main function. All components not specifically related to a
+circuit are identified by the letter V. The second letter defines the
+type of component.
+CIRCUIT IDENTIFICATION The second letter of the reference code is used
+for circuit identification in the system. A circuit is a series of
+components with or without wiring, used for a specific function in a
+given system. All components not specifically related to a circuit are
+identified by the letter V. The second letter defines the type of
+component. Mechanical and electrical/electro-mechanical components are
+identified with the letter M in place of the second circuit letter for
+real mechanical equipment. Four more characters, left justified and
+without non-significant zero, are used to identify symmetrical or
+multiple installations. Example: 1CC1 for Flight Augmentation Computer
+(FAC) 1, 1CC2 for FAC 2.
+SUB-BUSBAR IDENTIFICATION The sub-busbars are identified in the same way
+as the main busbar, but with three identification digits: - the first is
+identical to the number of the corresponding main busbar, - the two
+following digits are the sub-busbar numbers. Example: - 401XP is the
+first sub-busbar of the AC ESS BUS, - 601PP is the first sub-busbar of
+the SERVICE BUS. It should be noted that for the AC network, the
+thirties are used for the 26V-400 Hz distribution. Example: 103XP, are
+sub-busbar of the main busbar 1XP, but 131XP is the 26V-400 Hz
+distribution sub-busbar.
+MAIN BUSBAR IDENTIFICATION The main busbars are identified using: - a
+sequence number, - letters XP for AC busbars and PP for DC busbars, - a
+phase letter when applicable. The first number (1 or 2 or 3...)
+indicates the busbar number. The letters XP or PP indicate the
+corresponding power form. XP for alternating Current and PP for Direct
+Current. Example: - 1XP: main alternating current busbar 1(MAIN AC BUS
+1), - 1PP: main direct current busbar 1 (MAIN DC BUS 1), - 1XP-A: MAIN
+AC BUS 1 phase A,
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 20 of 255
+SYSTEM IDENTIFICATION ... SUB-BUSBAR IDENTIFICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 21 of 255
+ELECTRICAL SYSTEM & CIRCUIT IDENTIFICATION (2) ARINC BUS IDENTIFICATION
+ARINC 429 buses are numbered from 7.000 to 7.999 with the ATA 100 prefix
+of the corresponding system. An ARINC 429 BUS shielded cable consists of
+two wires: one coloured in blue and one coloured in red.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 22 of 255
+ARINC BUS IDENTIFICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 23 of 255
+ELECTRICAL SYSTEM & CIRCUIT IDENTIFICATION (2) VIRTUAL BUSBAR
+IDENTIFICATION Some circuit breakers do not have their supply on the
+busbars of the aircraft distribution network. They are directly
+connected to the power source. In schematic representations, this supply
+appears as a virtual busbar and identified as follows: - a channel
+number, - letters IW for virtual busbars followed by XP for AC busbars
+or PP for DC busbars. Example: 1IWXP channel 1 of AC virtual busbar.
+1IWPP channel 1 of DC virtual busbar. Channel 1: consists of: -
+1XP-101XP-103XP-110XP-131XP, - 1PP-101PP-103PP, - 3PP-301PP, -
+701PP-703PP, - 702PP-704PP, - 901XP. Channel 2: consists of: -
+2XP-202XP-204XP-210XP-212XP, - 214XP-216XP-231XP, -
+2PP-202PP-204PP-206PP-208PP, - 501PP-502PP, - 601PP-602PP. Channel 4:
+for essential channel, it consists of: - 401XP-431XP, - 801XP, -
+401PP, - 801PP.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 24 of 255
+VIRTUAL BUSBAR IDENTIFICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 25 of 255
+ELECTRICAL SYSTEM & CIRCUIT IDENTIFICATION (2) CONNECTOR IDENTIFICATION
+Connections to components are identified by a suffix letter or two for
+multiple connection parts following the circuit identification.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 26 of 255
+CONNECTOR IDENTIFICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 27 of 255
+ELECTRICAL POWER SYSTEM CONTROL & INDICATING (2) ELEC PWR DISTRIBUTION
+and PRIORITIES TR Reset, EMER GEN and ATA Review
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 28 of 255
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 29 of 255
+IDG COOLING SYSTEM (3) GENERAL
+TEMPERATURE AND PRESSURE MONITORING
+The Integrated Drive Generator (IDG) oil cooling system consists of \[
+an IDG oil cooler, which is part of the engine fuel/oil heat management
+system. The IDG oil cooler is connected to the IDG by \[ two oil
+connections (in and out).
+Temperature sensors sense the IDG oil inlet and oil outlet temperatures.
+The Generator Control Unit (GCU) monitors the oil outlet sensor for
+indication on the ECAM and for advisory and overheat
+detection/indication. The GCU compares the oil in and oil out
+temperature to determine the IDG internal temperature rise. From this
+data, the GCU can determine if there is an internal IDG problem or an
+external cooling problem. An open circuit of the IDG oil outlet
+temperature sensor is a class 3 fault, and no flight deck effects are
+presented. The GCU will automatically provide the IDG oil inlet
+temperature plus a nominal temperature offset and display it as the oil
+outlet temperature on the ECAM ELEC page. \[ A pressure switch senses
+low IDG oil charge pressure. The switch is monitored by the GCU for the
+low oil pressure fault warning.
+OPERATION PRINCIPLE A scavenge pump in the IDG pumps the oil through the
+\[ scavenge filter and the IDG oil cooler. The engine heat management
+system regulates the fuel flow through the IDG oil cooler to cool the
+IDG oil. A \[ charge pump provides regulated cooled oil supply pressure
+to \[ the generator and other users. The purpose of the IDG oil cooler
+bypass valve is to protect the IDG oil from overcooling. Note that the
+cooler bypass valve is not part of the engine fuel/oil heat management
+system.
+COLD CONDITIONS In cold conditions (oil temp \<40°C), the oil pressure
+increases due to high oil viscosity, then \[ the cooler bypass valve
+opens to bypass the IDG oil cooler. When IDG oil temperature is between
+40°C and 70°C, \[ the valve is in the regulating position. This position
+mixes uncooled oil from the IDG and cooled oil from the IDG Oil Cooler
+and returns it to the IDG.
+FILTER CLOGGED A clogged filter indication is provided by a local visual
+\[ Delta Pressure pop-out Indicator (DPI). In case of clogging filter
+condition, \[ the visual indicator pops out. The DPI reset can be done
+in some conditions and associated with maintenance procedures. When the
+filter is clogged, \[ the relief valve opens.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 30 of 255
+GENERAL ... TEMPERATURE AND PRESSURE MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 31 of 255
+IDG MONITORING (2) Do not push the disconnect switch if the engine speed
+is less than idle. The engine must be stopped for IDG reconnection.
+OIL TEMPERATURE MONITORING Integrated Drive Generator (IDG) oil
+temperature sensors monitor the input and the output oil temperature. If
+a high difference between the input and the output temperature is
+detected, a status message is sent to the ECAM. The difference is called
+a temperature rise. The normal IDG oil inlet temperature is between 40°C
+to 105°C. When the oil outlet temperature reaches 142°C, an advisory
+mode is available on the lower ECAM. If the oil outlet temperature is
+equal to or more than 185°C the master caution is triggered, and a
+manual disconnection is written on the ECAM. If the oil outlet
+temperature is more than 200°C the IDG is automatically disconnected.
+OIL PRESSURE MONITORING A pressure switch operates in case of oil low
+pressure (lower than 140 psi) not caused by underspeed.
+THERMAL IDG DISCONNECTION If the IDG disconnection is not performed at
+185°C, the temperature will increase and at 200°C an automatic thermal
+disconnection should occur to protect the IDG. A warning message is sent
+to the ECAM system and a BITE MESSAGE (THERMAL DISCONNECT) is sent to
+the CFDS. If this thermal disconnection fails, the message "THERMAL
+DISC. FAILED" is sent to the CFDS and a warning message is sent to the
+ECAM system. Note: After a thermal disconnection, the IDG must be
+replaced. The class 2 message "IDG OIL DELTA TEMP" is generated by the
+system BITE. If there is no difference between the input and the output
+temperature, the class 2 message "IDG COOLER" is generated by the system
+BITE. In both cases, the "AC GEN MAINTENANCE STATUS" is displayed on the
+ECAM STATUS page.
+TEMPERATURE AND PRESSURE INDICATION The oil outlet temperature is
+displayed on the ECAM System Display. In case of high oil outlet
+temperature or oil low pressure, the following warnings are triggered: -
+MASTER CAUTION light, - Single chime, - The message "ELEC IDG 1(2) OIL
+OVHT or ELEC IDG 1(2) OIL LO PR" is displayed on the EWD, - The FAULT
+legend on the corresponding IDG P/BSW comes on amber. The IDG must be
+disconnected immediately by: - Opening the safety guard, - Pushing the
+IDG P/BSW for a maximum of 3 seconds. Note: Disconnection is only
+possible if the related engine is running above underspeed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 32 of 255
+OIL TEMPERATURE MONITORING ... THERMAL IDG DISCONNECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 33 of 255
+IDG DRIVE PART D/O (3) Generator (PMG) frequency to determine the
+generator frequency. Note that the PMG is mounted on the IDG
+differential output gear. The PMG frequency signal is compared with a
+GCU internal frequency reference. The difference, between the actual PMG
+frequency and the frequency reference, \[ creates an error signal in the
+servovalve control loop circuitry. The frequency error signal is then
+used to control the servovalve current flow via the SVR. The servovalve
+works by porting oil to an hydraulic control cylinder which determines
+the position of \[ a variable displacement hydraulic unit. Depending on
+the error signal, the servovalve ports more or less oil to the cylinder
+to maintain the desired \[ generator frequency (IDG output speed). As
+IDG speed (thus PMG frequency) decreases below the reference frequency
+setpoint, the servovalve supplies current increases, resulting in an IDG
+output speed increase. During normal operation, the SVR is closed to
+allow current flow in the servovalve control loop. Under certain channel
+failure conditions, the SVR is opened to make sure that the servovalve
+drive current from the GCU is completely removed.
+GENERAL The Integrated Drive Generator (IDG) consists of a \[ Constant
+Speed Drive (CSD) and an \[ AC generator mounted side by side in a
+single housing. \[ The CSD components convert a variable input speed to
+a constant output speed. The CSD portion of the IDG is a hydromechanical
+device that adds to or subtracts from the variable input speed of the
+engine gearbox. The CSD performs this operation by controlled
+differential action to maintain the constant output speed required to
+drive the AC generator. The IDG is cooled and lubricated by the oil
+circulation system. \[ The oil is cooled by an external mounted IDG oil
+cooler.
+IDG DRIVE CONTROL The Constant Speed Drive converts the variable input
+speed \[ provided by the engine gearbox to the constant \[ output speed
+through the CSD hydromechanical components.
+IDG SPEED CONTROL
+ENGINE SPEED SENSING
+The Generator Control Unit (GCU) performs the output speed control for
+the IDG via the servovalve control loop whenever several conditions are
+met: - \[ The GCU is powered-up, - \[ Engine input speed to the IDG is
+sufficient for speed control to begin, - No failure is present in the
+channel to trip the servovalve control circuit.
+The FADEC provides the GCU with the corresponding engine speed
+information, which is also used for the underspeed protections.
+SERVOVALVE CONTROL LOOP The servovalve control loop is composed of a
+hydraulic servovalve in the IDG and control circuitry in the \[ GCU
+which includes the ServoValve Relay (SVR). The output speed control is
+performed as follows: the GCU control circuit monitors \[ the Permanent
+Magnet
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+OIL TEMPERATURE SENSING There are two oil temperature sensors in the
+IDG: - \[ One on the IDG oil inlet port, - \[ One on the IDG oil outlet
+port. Both sensors are thermistors. The GCU uses the sensor signals to
+determine oil inlet, oil outlet and rise temperature for IDG protection.
+The temperature information is also sent to the ECAM. If oil outlet
+temperature is above 185°C, \[ the FAULT legend comes on amber on the
+IDG pushbutton.
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 34 of 255
+delta pRESSURE indicator (dpi)
+FIRE SWITCH
+The scavenge filter is fitted with an oil filter \[ Differential
+Pressure Indicator (DPI). If the delta pressure across the scavenge
+filter is 50 ± 8 psi, the \[ DPI (pop-out) shows the clogged position.
+In that case, the IDG should be serviced.
+In case of engine fire, if the related fire switch is pressed in, a 28V
+DC signal is sent to the corresponding GCU, which shuts down its IDG. In
+such a case, the reset of the GCU is not required.
+OIL PRESSURE SWITCH A Low Oil Pressure (LOP) switch located in the IDG
+charge oil circuit provides a signal to the GCU when IDG charge oil
+pressure is less than 140 psi. In low oil pressure condition, not caused
+by underspeed, \[ the IDG pushbutton FAULT legend comes on amber and an
+ECAM warning is triggered.
+IDG DISCONNECTION The IDG P/B FAULT legend comes on if the IDG oil
+pressure is less than 140 psi or if the IDG oil outlet temperature is
+above 185°C. In both conditions, the IDG must immediately be
+disconnected! IDG disconnection is achieved by \[ a solenoid activated
+clutch. It must be performed, via the IDG switch if the \[ IDG
+pushbutton FAULT legend is on. If the temperature reaches 200°C, \[ a
+solder fuse melts and automatically releases the disconnect mechanism to
+open the IDG disconnect clutch. When the IDG pushbutton is depressed and
+no underspeed is detected, \[ a 28V DC signal is sent to the
+disconnection solenoid which will \[ open the clutch. In case of low oil
+pressure due to underspeed, the FAULT legend remains off. In underspeed
+condition, it is not possible to disconnect the IDG. After a thermal
+disconnection, the IDG must be changed. IDG reset must be performed on
+the ground with the engine shutdown, by pulling the \[ reset ring
+mounted on the IDG casing.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 35 of 255
+GENERAL ... FIRE SWITCH
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 36 of 255
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 37 of 255
+IDG GENERATOR PART D/O (3) GENERATOR EXCITER STAGE
+GENERAL The AC generator portion of the Integrated Drive Generator (IDG)
+is a three-phase, brushless, spray oil cooled unit. The generator rotor
+consists of an exciter rotor, a diode rectifier assembly, and a two-pole
+main field rotor. The exciter rotor and main field rotor are mounted on
+a common shaft supported by a roller bearing set at the drive end and a
+ball bearing set at the opposite end. The Permanent Magnet Generator
+(PMG) rotor is mounted on the outputting gear of the differential
+assembly. The main generator stator, exciter stator, PMG stator and
+generator Current Transformer (CT) are mounted in the IDG housing.
+The exciter stage of the generator consists of a three-phase winding
+rotor which is located on the main generator rotor shaft. The stator
+windings and a full wave bridge rectifier (rotating diode rectifier) are
+also located on the rotor shaft. As it rotates, the exciter stage
+converts a DC field voltage to an AC voltage. The AC voltage is
+rectified by the rotating diode rectifier and is supplied to the main
+generator rotor.
+MAIN GENERATOR The main generator consists of a two-pole rotor and a
+three-phase winding stator. As the rotor rotates, the DC field induces
+an AC voltage in the stator windings.
+PERMANENT MAGNET GENERATOR (PMG)
+CURRENT TRANSFORMER
+The PMG consists of a 16-pole permanent magnet rotor and a three-winding
+stator. As the engine is running, the PMG rotor induces an AC voltage in
+the windings of the PMG stator. At normal operation speed, the output
+from the PMG is: - 3 phases - 1681,3 Hz - 110 VAC. The output of the PMG
+is supplied to the Generator Control Unit (GCU) which uses it for the
+following functions: - The GCU transforms and rectifies the voltage via
+a Transformer Rectifier (TR) to 28V DC for the internal power supply. -
+The GCU sends the PMG voltage via the Generator Control Relay (GCR) to
+the voltage and frequency regulation circuit where it is rectified and
+applied to the exciter field for voltage regulation. The PMG frequency
+is also used to monitor the generator frequency (for the IDG drive
+control).
+Current Transformers (CTs) monitor the 3-phase feeder cables, from the
+Generator to the GLC. The GCUs use the CT outputs for protection
+functions (differential current, overcurrent, overload). One CT is
+located inside the IDG and the other is just before the GLC. They are
+called the 3-Hole Current Transformers. From the engine pylon to the
+forward cargo compartment, each feeder cable is split into two, so that
+there are now two cables per phase (total 6). Another CT, located in the
+forward cargo compartment, monitors the 6-feeder cables. It is called
+the 6-Hole Current Transformer. The GCU monitors its current output for
+open cable protection.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+UNDERSPEED Each GCU receives engine speed data from the Full Authority
+Digital Engine Control (FADEC) via an ARINC 429 bus. These data are used
+for the underspeed set point, various other controls and protections and
+BITE functions. If these data are not available, the GCU uses the PMG
+frequency to determine the input speed of the generator.
+Issue 012 - Revision 01 - Dated 04/04/2025 38 of 255
+With the engine speed below the underspeed set point, the relay 7XT is
+energized and inhibits an IDG disconnection.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 39 of 255
+GENERAL - PERMANENT MAGNET GENERATOR (PMG) ... UNDERSPEED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 40 of 255
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 41 of 255
+IDG GENERATOR PART D/O (3) GENERATOR P/BSW The GEN P/BSW on the overhead
+ELEC panel is used to connect or disconnect the generator and to reset
+the GCU. When the GEN P/BSW is pressed in (on position) and the
+generator is not connected, the GEN COMMAND circuit is supplied,
+enabling the closure of the GCR to excite the generator. If all
+generator parameters are correct, the Power Ready Relay (PRR) closes and
+connects power to the Generator Line Contactor (GLC) via the GLC AUX
+RELAY. The GLC opens or closes to connect 115V AC to the network
+according to priority rules and the network supply status.
+The FAULT legend comes on amber if during operation any parameter is
+incorrect. At this time the GCR, PRR and the GLC all open. The SVR will
+also open if FAULT is frequency related. Additionally, the FAULT light
+comes on in the following cases: - The related engine is shutdown or the
+generator is not connected - If the GLC has failed open (STUCK OPEN)
+When the GEN P/BSW is released out (off position), the OFF legend
+appears in white. The GCR opens (if not already open) to de-energize the
+generator field and the GLC opens. In addition, the computer reset
+circuit is supplied to reset the GCU.
+POINT OF REGULATION The Point Of Regulation (POR) is located between the
+3-hole CT and the GLC. It takes in to account the generator feeder
+impedance (voltage drop of 1 to 2V AC). The GCU monitors the
+three-generator phase voltages at the POR for: - Voltage regulation
+control, - Over and undervoltage protection, - Incorrect Phase Sequence
+protection.
+VOLTAGE REGULATION The GCU monitors the POR in order to keep the voltage
+at nominal value (115V AC) at this point. The principle of operation of
+the voltage regulator is by modulation of the voltage through the
+exciter field. The output from the PMG is connected via the GCR to the
+excitation and regulation control module, where it is converted into DC
+voltage and applied to the exciter field. The voltage frequency
+regulation module senses the average of the three phases at the POR and
+compares it against a reference voltage. If a difference exists, the
+voltage regulator adjusts the exciter field current as needed to keep a
+constant voltage at the POR.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 42 of 255
+GENERATOR P/BSW - POINT OF REGULATION & VOLTAGE REGULATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 43 of 255
+GENERATOR P/BSW - POINT OF REGULATION & VOLTAGE REGULATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 44 of 255
+GENERATOR P/BSW - POINT OF REGULATION & VOLTAGE REGULATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 45 of 255
+IDG GENERATOR PART D/O (3) IDG P/BSW The IDG P/BSW is used for manual
+disconnection of the IDG from the engine gearbox. If the internal FAULT
+legend in the IDG P/BSW comes on, the IDG must immediately be
+disconnected by raising the IDG P/BSW guard and pushing the switch. When
+the IDG P/BSW is pushed, the FAULT legend goes out. With the engine
+stopped, the IDG cannot be manually disconnected. An underspeed
+condition, generated by the GCU, inhibits the disconnection. Notice that
+for a static test of the IDG disconnect mechanism, the circuit breaker
+2XU1 must be pulled to simulate a running engine 1 and no underspeed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 46 of 255
+IDG P/BSW
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 47 of 255
+AC MAIN GENERATION D/O (3) IDG Two identical Integrated Drive Generators
+(IDGs) are used to supply the main AC network. Each IDG is a two-pole
+high-speed (24 000 rpm) brushless spray oil cooled unit. It comprises
+the drive part and the generator part in a common housing. The generator
+part has a Permanent Magnet Generator (PMG), an exciter generator with
+rotating diodes and the main generator. Each IDG is controlled and
+monitored by its own Generator Control Unit (GCU).
+The OFF legend comes on when the P/BSW is released out. After a fault
+detection (tripping of the generator), cycling the GEN 1(2) switch
+OFF/ON resets the GCU.
+GEN 1 LINE P/BSW In SMOKE configuration (red smoke light on) an
+activation of this P/BSW opens the GLC but the generator stays energized
+to supply directly the fuel pumps 1 LH and 1 RH side (the OFF legend
+indicates, the P/BSW position). Notice that during the AVIONICS SMOKE
+procedure (GEN 1 LINE P/BSW OFF), the related generator FAULT light
+remains off.
+GCU
+GLC/BTC CONTROL AND MONITORING
+Each Generator Control Unit (GCU) is supplied by the PMG from its
+related IDG and, as a back-up, through the battery bus 301PP. The
+related engine under speed information is given by the Full Authority
+Digital Engine Control (FADEC). The main functions of the GCU are: -
+control of the field excitation via the Generator Control Relay (GCR), -
+voltage regulation via the Excitation Control and Regulation module, -
+speed regulation through the ServoValve Relay (SVR), - control of the
+Generator Line Contactor (GLC) via the Power Ready Relay (PRR), the Bus
+Tie Contactor (BTC) and the AUX RELAY 1, - control and protection of the
+IDG and the network.
+The GLC and the BTC are under control of the related GCU and the Bus Tie
+Logic. If all parameters are correct, the GLC connects the generator to
+its own bus bar. The BTC connects the generator to the transfer line or
+another power source to the bus bar (with generator off) depending on
+the priority logic.
+GENERATOR P/BSW The generator P/BSW is used to connect or disconnect the
+generator output to or from the bus bar, and to reset the GCU. The FAULT
+legend comes on when the P/BSW is pressed in and the related engine is
+shutdown or during operation if any parameter is not correct. The fault
+information is sent via the SDACs to the ECAM.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 48 of 255
+IDG ... GLC/BTC CONTROL AND MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 49 of 255
+AC MAIN GENERATION D/O (3) INTERFACES The GCU interfaces with: - The
+engine fire pushbutton switch. When pushed in, the generator is
+de-energized. - Both SDACs for the ECAM monitoring. - The CFDIU through
+the GAPCU (BITE type 1 data to CFDIU) - The FADEC which gives the engine
+speed information.
+OPERATION In normal operation all internal relays of the GCU are
+energized. Through the energized contacts of the PRR, the de-energized
+contact of the BTC and the energized contacts of the AUX relay, the
+Generator Line Contactor (GLC) is then energized. The de-energized state
+of the BTC makes sure that there is no supply to the BUS before the
+Generator takes over the supply.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 50 of 255
+INTERFACES & OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 51 of 255
+AC MAIN GENERATION D/O (3) OPERATION (continued) GEN FAULT If the GEN
+pushbutton is in the "on" position and the PRR of the GCU is not
+energized, the fault light on the GEN pushbutton comes on by a ground
+due to the pushbutton position. The PRR is de-energized, among other
+reasons, when the voltage and frequency are not in tolerance. If the
+engine is not started, there is no regulation possible for both voltage
+and frequency. Therefore, the FAULT lighting is normal when the engine
+is not running.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 52 of 255
+OPERATION - GEN FAULT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 53 of 255
+AC MAIN GENERATION D/O (3) OPERATION (continued) GEN 1 LINE OFF If the
+GEN 1 LINE pushbutton is released, the OFF legend comes on and the
+supply voltage to the AUX relay is interrupted. Since the contacts of
+the AUX relay now are in the de-energized position, the supply voltage
+to the GLC relay is interrupted. However, the Generator is still
+regulated and functioning normally to allow direct supply from the
+Generator to the electrically driven fuel pumps in both wings.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 54 of 255
+OPERATION - GEN 1 LINE OFF
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 55 of 255
+GCU D/O (3) GENERAL
+FREQUENCY REGULATION
+The Generator Control Unit (GCU) 1 and 2 are identical and
+interchangeable. Pin programming provides the GCU with the following
+information: - the aircraft type, - the GCU position, - the current
+limit for voltage regulation, - the load limit. The main functions of
+the GCU are: - regulation of the generator voltage, - regulation of the
+generator frequency, - regulation of the generator speed (ServoValve
+(SV) control), - control and protection of the network and the
+generator, - interface with System Data Acquisition Concentrator (SDACs)
+for the ECAM, - interface with Full Authority Digital Engine Control
+(FADEC) for engine speed, - interface with Centralized Fault Display
+System (CFDS) via the Ground and Auxiliary Power Control Unit (GAPCU).
+The Integrated Drive Generator (IDG) frequency is regulated by a
+servovalve in the IDG and the servovalve control circuit in the GCU (via
+the SV relay). The PMG frequency is compared with a GCU internal
+reference frequency. The difference generates a control current to drive
+the servovalve to produce the right output frequency.
+CONTROL AND PROTECTION The GCU control and protection functions are
+mainly performed by 3 internal relays: - the GCR controls the generator
+excitation, - the Power Ready Relay (PRR) controls the GLC, - the SV
+relay controls the IDG speed. If a protection function is triggered, the
+GCR, the PRR and, in some cases the SV relay, are de-energized.
+VOLTAGE REGULATION The voltage regulation is achieved by regulating the
+current through the exciter field. The voltage is kept at a nominal
+value (115V AC) at the Point Of Regulation (POR). The POR is located at
+the end of the generator feeder upstream of the Generator Line Contactor
+(GLC). The output from the Permanent Magnet Generator (PMG) is connected
+via the Generator Control Relay (GCR) to the excitation and regulation
+control module for frequency monitoring use.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+UNDERSPEED Engine speed information provided by FADEC is used to sense
+the IDG input speed. When engine speed falls below the underspeed
+threshold the PRR trips and the excitation is biased off due to
+underfrequency. In case of an absent FADEC speed signal to the GCU, a
+back-up signal is provided by the engine master switch to inform the GCU
+logic that the engine will shut down. Note: in case of detected
+underspeed (e.g. engine shut down) no reset action via the GEN P/BSW is
+required.
+OVERVOLTAGE The GCU performs an overvoltage protection function. If the
+highest individual phase at POR reaches 130 ± 1.5 volts, the PRR and the
+GCR are tripped. The higher the voltage, the faster the relays trip.
+Issue 012 - Revision 01 - Dated 04/04/2025 56 of 255
+OVERFREQUENCY The GCU performs an overfrequency protection function. If
+the frequency is above 435 ± 1Hz, for at least 4 seconds, the GCU trips
+the PRR and the GCR. If the frequency is above 452 Hz, for at least 160
+milliseconds, the GCU trips the PRR, the GCR and also the SV relay.
+OVERLOAD / OVERCURRENT The IDG Current Transformers (CTs) provide
+current sensing information to the GCU. This information is used to
+determine generator load for overload, overcurrent, phase imbalance
+(delta) and also Differential Current Protection. In case of overload,
+the GCU sends signals to the SDAC for an ECAM message and to the FAULT
+light on the GALY & CAB P/BSW. If an IDG fails, the Bus Tie Contactors
+(BTCs) close and some galleys loads are automatically shed. GCUs monitor
+BTC status and determine if overcurrent protection (BTC lockout) should
+be inhibited. If the galleys are not automatically shed the BTC lockout
+is inhibited, to allow the GALY & CAB P/BSW to be selected OFF.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 57 of 255
+GENERAL ... CONTROL AND PROTECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 58 of 255
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 59 of 255
+GCU D/O (3) ENGINE FIRE AND OPEN FEEDER CABLE PROTECTION The feeder
+cables are duplicated from the engine pylon to the forward cargo
+compartment. A 6 hole CT monitors each cable. If an open cable is
+detected, or if the ENG FIRE P/BSW is released out, the GCU trips the
+GCR and the PRR. The GLC opens after the PRR trips.
+DIFFERENTIAL CURRENT PROTECTION The Differential Protection is based on
+the comparison of each phase of the Line 3-hole CT and the CTs in the
+IDG. If a differential current flow is above 50 ± 10A for at least 60
+milliseconds, the PRR and GCR are tripped. Note: the Differential
+Protection circuit reset is done via the GEN P/BSW, but it is limited to
+two attempts. After correcting the fault a cold reset must be performed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 60 of 255
+ENGINE FIRE AND OPEN FEEDER CABLE PROTECTION & DIFFERENTIAL CURRENT
+PROTECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 61 of 255
+GCU D/O (3) PROTECTION FUNCTION SUMMARY The Generator Control P/BSW has
+ON and OFF/RESET functions. Switch all power off and then on again to
+reset the fault logic; this is called a cold reset. Most fault
+protections allow two reset attempts and then the reset function is
+inhibited.
+BITE The GCU is a type 1 computer. Its BITE detects and isolates active
+and passive failures. The BITE consists of two sections: - Operational
+BITE, - Maintenance BITE. After generator tripping, the operational BITE
+identifies the protection, analyses the conditions and determines the
+fault origin. The maintenance BITE completes the operational BITE and
+performs a self-test of the GCU to provide an indication of system
+integrity. Faults are kept in the Non Volatile Memory (NVM). The GCU
+BITE communicates with the CFDS via the GAPCU (type 1 system).
+INTERFACE Each GCU is interfaced to both SDACs to transmit system
+failure or caution data to the ECAM. The Landing Gear Control and
+Interface unit (LGCIU) 1 provides ground/flight information to the GCU
+(BITE).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 62 of 255
+PROTECTION FUNCTION SUMMARY ... INTERFACE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 63 of 255
+AC AUXILIARY GENERATION GENERAL DESCRIPTION (2) APU GENERATOR The APU
+generator is not interchangeable with the Integrated Drive Generators
+(IDGs). It is driven at a constant speed by the APU and can be connected
+to the electrical network. It can supply the entire electrical network
+if no other power sources are available.
+APU GENERATOR CONTROL The APU Generator control module is part of the
+Ground and Auxiliary Power Control Unit (GAPCU). The main functions of
+the module are: - voltage regulation, - frequency monitoring, - APU
+Generator Line Contactor (GLC) control in accordance with the bus tie
+logic, - control and Protection, - \[ Interface with System Data
+Acquisition Concentrators (SDACs), - Built-In Test Equipment (BITE)
+function. The BITE messages are sent to the CFDIU.
+CONTROL, INDICATION AND DISTRIBUTION The APU generator is controlled by
+a P/BSW located on the overhead ELEC panel and has two lights: white OFF
+and amber FAULT. The APU GEN is connected to the network via the APU GLC
+and the Bus Tie Contactors (BTCs).
+APU GEN OIL TEMPERATURE SENSOR A temperature sensor is located on the
+APU generator oil outlet port. A high oil temperature leads to an
+immediate automatic shut down of the APU via the Electronic Control Box
+(ECB).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 64 of 255
+APU GENERATOR ... APU GEN OIL TEMPERATURE SENSOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 65 of 255
+AC AUXILIARY GENERATION D/O (3) APU GENERATOR
+APU GEN CONTROL AND MONITORING
+The APU generator can supply all or part of the normal network,
+depending on the priority logic given by the bus tie logic. The APU
+generator is a two-pole high speed (24 000 rpm) brushless spray oil
+cooled generator. Speed regulation is made by the APU engine without a
+Constant Speed Drive (CSD); it is not interchangeable with the
+Integrated Drive Generators (IDGs).The APU generator is cooled and
+lubricated by the APU oil. An oil temperature bulb is installed on the
+APU generator oil outlet part. The bulb is directly connected to the APU
+\[ Electronic Control Box (ECB). In case of oil temperature above 185°C,
+the ECB commands an immediate \[ shutdown of the APU.
+The APU generator switch is used to connect or disconnect the APU
+generator and to reset the GAPCU. - The FAULT legend only comes on if
+the switch is pressed in, the APU is running (\>95%), and one parameter
+is not correct. - The OFF legend comes on when the switch is released
+out. After a fault detection (tripping of the generator), the GAPCU must
+be reset by setting the switch to OFF and back to ON. The APU Generator
+Line Contactor (GLC) is under control of the GAPCU and the bus tie
+logic. If all generator parameters are correct, the AGLC connects the
+generator to \[ the transfer line. The connection to the busbars depends
+on the priority logic and the network supply status (BTCs and GLCs).
+APU GEN CONTROL MODULE (GAPCU) The APU Generator Control Module is part
+of the Ground and Auxiliary Power Control Unit (GAPCU). The GAPCU
+controls both the APU generator and the EXT PWR. The power for the GAPCU
+is supplied by: - the APU Permanent Magnet Generator (PMG), - the EXT
+PWR, - the BATtery BUS as a back-up supply. The control module main
+functions are: - control of the field excitation through the Generator
+Control Relay (GCR), - voltage regulation, - control of the APU
+Generator Line Contactor (GLC) through the Power Ready Relay (PRR) in
+conjunction with the bus tie logic, - control and protection of the APU
+generator and the network. The GAPCU has an interface with the SDAC and
+to the CFDIU. APU ECB carries out the speed regulation. At 95% rpm, the
+ECB sends an APU ready signal to the GAPCU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+TRANSFER CIRCUIT The transfer circuit has a \[ transfer line and the two
+\[ BTCs. This circuit lets the power sources (GEN 1, 2, APU, External
+Power) supply all or half of the network according to the priority and
+the bus tie logic. The bus tie logic gives information about the network
+supply status. This information is used for: - Non parallel operation, -
+Supply priority, - Transfer circuit control.
+APU GEN FEEDER CABLES The feeder cables are routed through the cabin
+ceiling to the rear C/B panel in the cockpit where they are sent through
+a \[ 3-hole current transformer before connection to the APU GLC. \[ The
+Current Transformer (CT) gives differential current protection.
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 66 of 255
+OPERATION The purpose of this paragraph is to describe the operation of
+the APU with or without GEN1.
+ONLY APU RUNNING With the APU running and the APU GEN pushbutton in the
+ON position, the connection to the transfer network is only possible if
+one or both of the IDG Generators are offline and the External
+electrical power not connected. Two sets of contacts from the
+de-energized EPC AUX relay and the contacts from the de-energized EPC
+make sure that the APU GLC voltage supply is interrupted even if the PRR
+of the APU Generator GCU is energized. If the EPC AUX and the EPC are
+de-energized (no ground electrical power) the contacts of the IDG's GLCs
+and the BTCs will then determine if the APU GLC will be energized. If
+the IDG's GLCs are de-energized and the BTCs are energized, the APU GLC
+is then energized and the APU generator supplies the transfer network.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 67 of 255
+APU GENERATOR ... OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 68 of 255
+APU GENERATOR ... OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 69 of 255
+AC AUXILIARY GENERATION D/O (3) OPERATION (continued) APU AND GEN2
+RUNNING If the EPC AUX and the EPC are de-energized (no ground
+electrical power) and GLC 1 and BTC 2 are de-energized, the APU GLC is
+energized. The APU Generator now supplies AC Bus 1 through the transfer
+network, but not AC Bus 2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 70 of 255
+OPERATION - APU AND GEN2 RUNNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 71 of 255
+AC AUXILIARY GENERATION D/O (3) OPERATION (continued) APU AND GEN1
+RUNNING If the EPC AUX and the EPC are de-energized (no ground
+electrical power) and GLC 2 and BTC 1 are de-energized, the APU GLC is
+energized. The APU Generator now supplies AC Bus 2 through the transfer
+network, but not AC Bus 1.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 72 of 255
+OPERATION - APU AND GEN1 RUNNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 73 of 255
+EXTERNAL POWER SUPPLY GENERAL DESCRIPTION (2) EXTERNAL POWER SUPPLY The
+aircraft network can be supplied by a Ground Power Unit (GPU) connected
+to the external power (EXT PWR) receptacle located forward of the nose
+landing gear well.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 74 of 255
+EXTERNAL POWER SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 75 of 255
+EXTERNAL POWER SUPPLY GENERAL DESCRIPTION (2) EXTERNAL POWER CONTROL
+NORMAL PARAMETERS If the external power parameters are correct, \[ the
+indicator lights on the external power panel and the AVAILable light on
+the EXT PWR P/BSW come on. \[ The power parameters are monitored by the
+Ground and Auxiliary Power Control Unit (GAPCU) which activates the
+indicator lights. \[ With such indications the ground cart can supply
+the aircraft network. When the EXT PWR P/BSW is pushed, \[ the ON blue
+legend illuminates and the GAPCU closes the \[ External Power Contactor
+(EPC) to supply the aircraft electrical network. \[ The Bus Tie
+Contactors (BTCs) 1 and 2 close if no engine driven generator is on
+line. The blue ON light, in the EXT PWR P/BSW, indicates that the EPC is
+closed.
+ABNORMAL PARAMETERS If any external power parameter is not correct, the
+indicator lights stay off. The external power cannot be connected to the
+aircraft network.
+ENVIRONMENTAL PRECAUTIONS Avoid use of the APU if APU BLEED air is not
+necessary. Turn-off unused ground service equipment (GPU, Air
+conditioning cart, etc...) if no work is being done or nobody is present
+on the aircraft.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 76 of 255
+EXTERNAL POWER CONTROL - NORMAL PARAMETERS ... ENVIRONMENTAL PRECAUTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 77 of 255
+EXTERNAL POWER SUPPLY D/O (3) OPERATION
+GENERAL The Ground Power Unit (GPU) supplies the Transfer Circuit
+through the External Power Contactor (EPC).A Ground and Auxiliary Power
+Control Unit (GAPCU) controls and protects the connection and
+disconnection of the GPU and the APU generator to the network.
+GROUND POWER CONTROL & MONITORING
+EXT PWR NOT IN USE (AVAILABLE) When the Maintenance Bus switch is
+selected to ON, the Not In Use legend comes off on the External
+Electrical power panel and the GPU then supplies the A/C service buses.
+The AVAIL legend remains on, on the 35VU.
+DESCRIPTION The 115V AC, 400 Hz, 3 phase output of the GPU is connected
+to the aircraft network through the EPC and Bus Tie Contactors
+(BTCs).The GAPCU monitors permanently the quality of the delivered
+ground power. The monitoring and control of the connection and
+disconnection is made by two internal relays. The Interlock Monitoring
+Relay (IMR) and the Power Ready Relay (PRR). At least one faulty
+parameter opens both relays.
+PRR AND IMR POWER SUPPLY The IMR is energized when: - The interlock
+voltage is more than 13V DC, less than 42V DC and less than 60V AC. -
+All control and protection parameters are valid. The PRR is energized
+when: - The external power interlock is valid, - And all parameters are
+correct. The annunciators NOT IN USE and AVAILABLE located on the
+external power panel are ON.
+SHORT CIRCUIT PROTECTION (PTC) If a short circuit occurs on the PRR
+output line sensed by the Positive Temperature Coefficient (PTC) sensor,
+the red PTC TRIP LED on the front face of the GAPCU comes on and a BITE
+message is sent to the Centralized Fault Display System (CFDS).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 78 of 255
+GENERAL ... OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 79 of 255
+EXTERNAL POWER SUPPLY D/O (3) OPERATION (continued) EXT PWR IN USE (ON)
+When the External Power (EXT PWR) P/B switch is pressed (momentary
+switch action), the flip flop sends a ground signal to the solenoid of
+the EPC auxiliary relay 5XG. The relay connects power from 1000XG to the
+GLC/BTC logic. Depending on the supply status the logic will authorize
+the closure of the EPC. At the External Power panel: - The NOT IN USE
+light will extinguish, - The AVAIL light remains ON. On the EXT PWR
+switch in the cockpit: - The AVAIL light extinguishes, - The ON light
+comes ON.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 80 of 255
+OPERATION - EXT PWR IN USE (ON)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 81 of 255
+GAPCU D/O (3) MONITORING
+GENERAL The Ground and Auxiliary Power Control Unit (GAPCU) controls the
+APU Generator (GEN) and the External Power System. The APU Generator
+Line Contactor (GLC), the External Power Contactor (EPC) and their
+related Auxiliary Relays can only close when the correct conditions
+exist. They are opened manually or automatically, by the control and
+protection circuits. The GAPCU also performs BITE analysis and
+communication, and interfaces with other systems: - Generator Control
+Units (GCUs), - APU Electronic Control Box (ECB), - Centralized Fault
+Display Interface Unit (CFDIU), - System Data Acquisition Concentrators
+(SDACs), - Landing Gear Control and Interface Unit (LGCIU) 1.
+POWER SUPPLY The GAPCU internal power supply module can be supplied by
+the external power or the APU GEN via internal Transformer/Rectifiers
+(TRs). The supply module also has a back up supply from the BAT BUS.
+EXT PWR CONTROL The GAPCU performs the following functions for the
+external power control and BITE: - monitoring, - interlock function, -
+External Power Contactor (EPC) control, - protection, - BITE function, -
+communication and interface.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+The GAPCU permanently monitors the quality of the external power supply.
+A faulty parameter automatically disconnects the external power from the
+transfer line opening the Power Ready Relay (PRR) to open the EPC, and
+Interlock Monitoring Relay (IMR) to trip the ground cart. In some GAPCU
+failure conditions, the back-up card can control the PRR, so that the
+external power can still be connected to the aircraft. In these cases,
+after a "cold reset" the PRR closes and the external power is supplied
+to the aircraft with limited protection. In that case, no bite function
+is available.
+EPC CONTROL The closed PRR provides 28V DC to the solenoid of the EPC
+AUX relay (5XG). The AUX relay is responsible for opening and closing of
+the main contactor (EPC). The EPC AUX relay is also responsible for the
+priority switching, i.e. the External Power over the APU GEN. When the
+EXT PWR P/BSW is pressed the FLIP/FLOP provides a fixed ground signal to
+close the EPC AUX relay. Depending on the network supply status, the EPC
+AUX relay connects power via the de-energized APU GLC, to the EPC. The
+EPC then connects the GPU to the transfer line. When the EXT PWR P/BSW
+is pressed again, the FLIP/FLOP removes the ground so that the AUX relay
+and EPC open.
+PROTECTION The GAPCU performs the following protection functions for the
+external power: - over and under voltage, - over and under frequency, -
+over current, - overload, - EXT PWR interlock, - Incorrect Phase
+Sequence (IPS), - open cable or open/short circuit,
+Issue 012 - Revision 01 - Dated 04/04/2025 82 of 255
+- EPC failure. The Over Voltage (OV) protection is accomplished by
+monitoring the highest phase voltage at the Point Of Reference (POR). An
+OV condition exists when the highest phase voltage exceeds 130 +/- 1,5V
+AC. After an inverse delay, the IMR, PRR and EPC are tripped. The Under
+Voltage (UV) is sensed in the same way as OV. An UV condition exists
+when the lowest phase voltage is less than 101,5 +/1,5V AC. After a 4,5
+second time delay max, the PRR, IMR and EPC are tripped. An over current
+on the wiring between the PRR and the aircraft bus (1000XG) will change
+the status of the Positive Temperature Coefficient (PTC) sensor (high
+impedance). The sensor then provides a signal to switch on the red PTC
+LED on the front face of the GAPCU and sends a BITE message to the
+Centralized Fault Display System (CFDS). The PTC and the PTC LED are
+only supplied if the EXT PWR remains connected to the receptacle
+(i.e. PRR is still closed). The LED is not a "latched" status signal.
+Thus, if a short circuit does exist, and the LED is illuminated, it will
+go off as soon as the external power is removed from the receptacle.
+(tripping of the generator), the control and must be reset by setting
+the P/BSW to OFF and back to on.
+APU GLC CONTROL AND MONITORING The APU GLC is under control of the APU
+GLC AUX relay and the GLC/BTC logic. If all APU GEN parameters are
+correct, the APU GLC connects the APU GEN power to the transfer line.
+overheat protection An oil temperature bulb is installed on the APU GEN
+oil outlet port. The bulb is directly connected to the APU ECB. In case
+of oil temperature above 185°C, the ECB commands an immediate shutdown
+of the APU.
+COMMUNICATION AND INTERFACE The GAPCU is connected with the GCUs, the
+CFDIU and the SDACs.
+WITH THE GCU The GAPCU communicates with the two GCUs via MIL-STD 1553
+links.
+WITH THE CFDIU
+APU GEN CONTROL
+The GAPCU is the CFDS interface for the enhanced Electrical Power
+Generation System (EPGS). The GAPCU communicates with the CFDIU via
+ARINC 429 links. During normal mode of transmission, the GAPCU
+continuously sends its own and the two GCUs fault data, to the CFDIU.
+The main functions are: - control of the field excitation through the
+Generator Control Relay (GCR), - voltage regulation, - control of the
+APU GLC through the PRR in conjunction with the BTC/GLC logic, - control
+and protection of the APU GEN and the network.
+WITH THE SDAC The GAPCU continuously communicates with the SDACs via
+ARINC 429 links. The SDACs provide system data and fault data to the
+ECAM.
+APU P/BSW The APU GEN P/BSW is used to connect or disconnect the APU GEN
+and to reset the APU GEN control part. After a fault detection
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 83 of 255
+INTERFACE WITH LGCIU 1 The GAPCU receives a flight/ground discrete
+signal from LGCIU 1. It enables communication in interactive mode
+between the GCU and the GAPCU and the CFDIU, when the aircraft is on
+ground.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 84 of 255
+GENERAL ... COMMUNICATION AND INTERFACE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 85 of 255
+AC/DC GROUND SERVICE DISTRIBUTION D/O (3) EXT PWR P/B ON With the
+EXTernal PoWeR available and the EXT PWR P/B on, the whole aircraft
+electrical network is supplied including the AC and DC GrouND/FLighT
+buses. The MAINTenance BUS switch (5XX) is off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 86 of 255
+EXT PWR P/B ON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 87 of 255
+AC/DC GROUND SERVICE DISTRIBUTION D/O (3) MAINT BUS SW ON EXT PWR is
+available but not on (14PU and 12XN open) and the MAINT BUS switch
+switched to ON. \[ AC BUS 2 and 202XP are not energized, so \[ relay 7XX
+is de-energized and supplies \[ relay 14XX via relay 14PU and relay 12XX
+via relay 12XN. With these two relays energized, \[ the DC GND/FLT bus
+(6PP) is supplied via Transformer Rectifier (TR) 2 and the \[ AC GND/FLT
+buses (212XP, 216XP and 214XP) via 12XX and 14XX.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 88 of 255
+MAINT BUS SW ON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 89 of 255
+AC/DC GROUND SERVICE DISTRIBUTION D/O (3) TR2 FAILURE WITH EXT PWR ON If
+TR2 fails \[ the GND/FLT buses are automatically supplied from TR1 via
+\[ DC BUS 1, battery BUS and DC BUS 2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 90 of 255
+TR2 FAILURE WITH EXT PWR ON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 91 of 255
+AC/DC GROUND SERVICE DISTRIBUTION D/O (3) TR2 FAILURE WITH MAINT BUS SW
+ON If the GND/FLT buses are supplied (MAINT BUS switch on) and \[ TR2
+has an internal overheat (T\>172°C) \[ the MAINT BUS switch trips off
+because relay 6XX is de-energized. Thus, relays 12XX and 14XX are also
+de-energized so there is no power supply to any of the AC and DC GND/FLT
+buses.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 92 of 255
+TR2 FAILURE WITH MAINT BUS SW ON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 93 of 255
+BUS TIE LOGIC D/O (3) GENERAL The Bus Tie Logic is responsible for the
+following tasks: - No parallel operation of two power sources on the
+transfer line or busbars. - Automatic power transfer in case of a supply
+failure. - The priority of Power Sources to supply the AC BUSES. The
+order of these priorities is: 1- On side Integrated Drive Generator
+(IDG) to own busbars, the IDG 1 to AC BUS 1 and the IDG 2 to AC BUS 2.
+2- External Power (EXT PWR). 3- APU Generator (APU GEN). 4- Opposite IDG
+(IDG 1 to AC BUS 1 and 2 or IDG 2 to AC BUS 2 and 1). The Bus Tie Push
+Button Switch (PB/Sw) is used to control the Bus Tie Contactors (BTCs)
+of the AC Buses only. DC Bus Tie Logic and DC BTC control is independent
+of the AC Logic and automatic.
+BATTERIES CONNECTED With battery power only, the BTCs are closed because
+all the other contactors and auxiliary relays are open. The BTC power
+supply is from the BAT BUS. When APU GEN or EXT PWR are available, the
+BTC power supply is provided by the Ground and Auxiliary Power Control
+Unit (GAPCU). Note: The BTC ground path is provided by the related
+Generator Control Unit (GCU). This is a protection against Over Current.
+It inhibits an automatic transfer to a network fault, by inhibiting the
+BTC close logic (BTC lockout).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 94 of 255
+GENERAL & BATTERIES CONNECTED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 95 of 255
+BUS TIE LOGIC D/O (3) APU GEN SUPPLY When the APU GEN is the only power
+source, Bus Tie Contactor (BTC) 1 and 2 close to supply the entire AC
+power network. The APU Generator Line Contactor (AGLC) is closed,
+because GLC 1, GLC 2 and the External Power Contactor (EPC) are open
+(priority logic).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 96 of 255
+APU GEN SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 97 of 255
+BUS TIE LOGIC D/O (3) APU GEN AND GEN 1 SUPPLY With APU GEN and GEN 1
+supplying the network, BTC 1 should be open to avoid parallel operation
+with GEN 1 and the APU GEN. BTC 2 should be closed to connect the APU
+Generator to AC BUS 2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 98 of 255
+APU GEN AND GEN 1 SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 99 of 255
+BUS TIE LOGIC D/O (3) EXT PWR ON ONLY With only EXT PWR on, both BTCs
+should be closed to supply AC BUS 1+2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 100 of 255
+EXT PWR ON ONLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 101 of 255
+BUS TIE LOGIC D/O (3) GEN 2 ONLY With IDG 2 only operation, both BTCs
+should be closed. IDG 2 supplies its own busbar and via the closed BTCs
+also AC BUS 1.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 102 of 255
+GEN 2 ONLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 103 of 255
+BUS TIE LOGIC D/O (3) NORMAL OPERATION In normal operation, both BTCs
+stay open. IDG 1 supplies AC BUS 1 and IDG 2 supplies AC BUS 2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 104 of 255
+NORMAL OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 105 of 255
+GALLEY SUPPLY D/O (3) GENERAL The galleys are electrically supplied by
+the AC normal busbars. Note that extra cabin system load buses can be
+added. The power supply is controlled from the GALleY & CABin and
+COMMERCIAL P/BSWs, connected in series. NOTE: The maximum load for all
+galleys depends on the aircraft.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 106 of 255
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 107 of 255
+GALLEY SUPPLY D/O (3) GALY & CAB AND COMMERCIAL P/BSW If either the GALY
+& CAB P/BSW or the COMMERCIAL P/BSW is off, all galley power is removed.
+If the COMMERCIAL P/BSW is pressed in and the GALY & CAB P/BSW is off,
+all galley power is removed but the commercial buses are still supplied.
+Related messages are sent to the ECAM. The GALY & CAB P/BSW amber legend
+comes on if a generator overload is detected.
+OPERATION With the GALY & CAB and COMMERCIAL P/BSWs on and normal
+electrical configuration, relays 5XA, 6XA and 9XA control the galley
+feeder contactors and all galley buses are supplied. NOTE: On A321
+aircraft, an additional relay 11XA controls the galley feeder contactor
+5MC.
+IN FLIGHT WITH BOTH GENERATORS In flight or on the ground, with both
+engine driven generators running, you can supply all feeders with power.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 108 of 255
+GALY & CAB AND COMMERCIAL P/BSW & OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 109 of 255
+GALLEY SUPPLY D/O (3) OPERATION (continued) IN FLIGHT WITH ONE GENERATOR
+ONLY In flight and with one AC generator online, the primary galley
+power supply is automatically shed. In single generator operation both
+Bus Tie Contactors (BTCs) energize thus de-energizing relay(s) 6XA (and
+11XA for A321) which accomplishes the shedding action.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 110 of 255
+OPERATION - IN FLIGHT WITH ONE GENERATOR ONLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 111 of 255
+GALLEY SUPPLY D/O (3) OPERATION (continued) GROUND CONFIGURATION On
+ground primary galley power can be supplied from the APU generator only.
+On ground primary galley power can be supplied from external power only.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 112 of 255
+OPERATION - GROUND CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 113 of 255
+OPERATION - GROUND CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 114 of 255
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 115 of 255
+GALLEY SUPPLY D/O (3) LOAD MONITORING The GALY & CAB P/BSW FAULT light
+comes on if a Generator Control Unit (GCU) detects an IDG overload or
+the GAPCU detects an APU generator overload. An IDG overload does not
+automatically shed galley power, but an ECAM message is triggered.
+Switch off the galley power manually to unload the generator. On the
+ground, an APU generator overload automatically sheds all the galley
+power.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 116 of 255
+LOAD MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 117 of 255
+AC GENERATION INTERFACES (3) COMMUNICATION The Ground and Auxiliary
+Power Control Unit (GAPCU) is the interface between the Generator
+Control Unit (GCU) 1 and 2 and the Centralized Fault Display Interface
+Unit (CFDIU).
+GCU/GAPCU The GAPCU receives fault data from GCU 1 and 2, on MIL-STD
+1553 data links. It transmits the GCU fault data and its own fault data,
+to the CFDIU, on an ARINC 429 data bus. For BITE and TEST, the GAPCU and
+the GCUs can be individually interrogated from the MCDU. The interface
+is always through the CFDIU and the GAPCU.
+GAPCU/CFDIU The GAPCU transmits the fault message in clear english
+language to the CFDIU by ARINC 429 input/output buses (Type 1). The
+maintenance test can be performed only on ground with engine shut down.
+It is initiated either: - Automatically at each GAPCU power-up. - Or
+manually from the MCDU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 118 of 255
+COMMUNICATION ... GAPCU/CFDIU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 119 of 255
+ELECTRICAL POWER SYSTEM LINE MAINTENANCE (2) SERVICING CHECK OF THE OIL
+LEVEL AND FILTER DPI Each engine (HP rotor) drives its related
+Integrated Drive Generator (IDG) through the accessory gearbox. The
+drive speed varies according to the engine rating. The IDG internal
+gearing, converts the variable gearbox frequency to a stable 400 Hz. The
+IDG supplies a 115 V AC, 3-phase, and 400 Hz AC. At some point,
+servicing will be required of the IDG. In this module you will see a
+video that will demonstrate the correct servicing procedures of the IDG.
+Check the oil level and the filter Differential Pressure Indicator (DPI)
+each 150 Flight Hours (FH) or each time the engine cowls are opened.
+Depending on when the time schedule occurs there might be a reason,
+during transit checks, that you must check the oil level and the filter
+DPI each 150 FH or each time the engine cowls are opened. On each
+engine, use the sight glass that is in the vertical position to do the
+check of the oil level. If it is below the green band or above the
+yellow band, do the oil servicing. Clogged filter indication is provided
+by a visual pop out indicator (the DPI) mounted on the IDG. This
+indicator is installed opposite the drive end of the IDG.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 120 of 255
+SERVICING - CHECK OF THE OIL LEVEL AND FILTER DPI
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 121 of 255
+ELECTRICAL POWER SYSTEM LINE MAINTENANCE (2) FILLING OF THE IDG WITH OIL
+OR ADDITION OF OIL
+SERVICING (continued) OPERATIONAL TEST OF THE IDG DISCONNECT AND
+RECONNECT FUNCTION The IDG will be disconnected in case of: - oil
+overheat (high oil out temperature), - oil pressure drop when not caused
+by drive under speed. The amber FAULT legend of the ELECtrical/IDG1 or 2
+P/BSW comes on, the master warning system is triggered. In this case,
+the IDG must be disconnected manually. For this, the PUSH-TO-DISConnect
+IDG1 (2) safety guarded P/BSW, installed on the panel 35 VU, must be
+pushed. CAUTION: ENGAGE THE IDG DISCONNECT MECHANISM WITH THE DISCONNECT
+RESET RING BEFORE YOU START THE ENGINE. IF NOT, YOU WILL CAUSE DAMAGE TO
+THE GEAR TEETH, AT ENGINE START. YOU CAN DAMAGE THE DISCONNECT SOLENOID
+BECAUSE OF OVERHEATING IF: YOU PUSH THE IDG DISCONNECT P/BSW FOR MORE
+THAN 3 SECONDS. THERE MUST BE AT LEAST 60 SECONDS BETWEEN 2 OPERATIONS
+OF THE SWITCH. On the ELEC control panel, push the IDG 1 (2) P/BSW. On
+the IDG 1 (2), slowly pull out the disconnect reset ring to the full
+limit of travel. If you feel a click while you hold the disconnect reset
+ring, this shows that the disconnect function operates correctly. Let
+the disconnect reset ring go slowly back to the initial position.
+CAUTION: USE ONLY NEW CANS OF OIL WHEN YOU FILL THE IDG WITH OIL OR ADD
+OIL TO THE IDG. THE CONTAMINATION IN THE OIL RAPID DETERIORATION OF THE
+OIL AND WILL DECREASE THE LIFE OF THE IDG. Make the thrust reverser
+unserviceable, Depressurize the IDG case, CAUTION: USE ONLY APPROVED
+TYPES/BRANDS OF LUBRICANTS. DO NOT MIX TYPES/BRANDS OF LUBRICANTS. Fill
+the IDG with filtered oils at a maximum pressure of 35 PSI (2.4131 bar),
+Inspect the oil level before and after the related engine start. Inspect
+the oil level after it becomes stable (5 minutes after running), If the
+oil level is at or near the top of the green band, oil servicing is not
+necessary. If the oil level is below the green band or above the yellow
+band, servicing is necessary.
+NOTE: The IDG disconnection is irreversible in flight. Reconnection of
+the system is then possible only on the ground with engines shut down.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 122 of 255
+SERVICING - OPERATIONAL TEST OF THE IDG DISCONNECT AND RECONNECT
+FUNCTION & FILLING OF THE IDG WITH OIL OR ADDITION OF OIL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 123 of 255
+ELECTRICAL POWER SYSTEM LINE MAINTENANCE (2) SERVICING (continued) IDG
+VIDEO The video shows the servicing of the IDG.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 124 of 255
+SERVICING - IDG VIDEO
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 125 of 255
+ELECTRICAL POWER SYSTEM LINE MAINTENANCE (2) MAINTENANCE TIPS It must be
+mentioned here that the most typical reason for IDG failures are due to
+over servicing. You must pay particular attention to the level of the
+oil in the sight glass. When servicing, leave the drain hose attached
+until only a couple of drops come out.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 126 of 255
+MAINTENANCE TIPS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 127 of 255
+IDG REMOVAL AND INSTALLATION (3) IDG REMOVAL Before removing the IDG the
+engine must be shutdown for at least 5 minutes to prevent burns because
+the oil stays hot for a few minutes. First of all, the IDG must be
+drained and the oil tube disconnected and removed. Also remove the banjo
+couplings and note their initial position, then disconnect the three
+electrical connectors from the IDG. Remove the cover plate of the IDG
+terminal box and disconnect the output cables. Next, place the special
+dolly in position and raise it up to the IDG. When the IDG is on the
+dolly release the Quick Attach/Detach coupling, then pull the IDG
+forward to disengage it. NOTE: Refer to your Aircraft Maintenance Manual
+when performing this operation. This film is made on IAE engine but the
+procedure is similar on CFM and PW engines.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 128 of 255
+IDG REMOVAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 129 of 255
+IDG REMOVAL AND INSTALLATION (3) IDG INSTALLATION Using the dolly, lift
+the IDG up to its position and align the open marks on the Quick
+Attach/Detach coupling. When the IDG is engaged tighten the coupling
+sufficiently to secure it, then remove the dolly, reconnect the
+electrical connectors and reinstall the oil tubes. NOTE: Refer to your
+Aircraft Maintenance Manual when performing this operation. This film is
+made on IAE engine but the procedure is similar on CFM and PW engines.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 130 of 255
+IDG INSTALLATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 131 of 255
+AC EMERGENCY GENERATION D/O (3) GENERATOR The Constant Speed
+Motor/Generator (CSM/G) has a hydraulic motor, which drives a generator.
+The hydraulic motor is pressurized by the blue hydraulic system through
+an integrated solenoid valve. The hydraulic motor speed is regulated by
+a servo valve. The generator operation principle is identical to that of
+the main or auxiliary generation. The generator output characteristics
+are: - three phase 115/200V AC, - 400 Hz (12000 rpm), - output power: 5
+kVA continuously.
+CSM/G CONTROL UNIT SUPPLY During transient configuration, battery 2 and
+then the Permanent Magnet Generator (PMG) supply the CSM/G control unit
+and the exciter field through a voltage regulation module. The voltage
+regulation module maintains the Point Of Regulation (POR) at a nominal
+voltage value (115V AC).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 132 of 255
+GENERATOR & CSM/G CONTROL UNIT SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 133 of 255
+AC EMERGENCY GENERATION D/O (3) GENERATOR OPERATION CONTROL As the
+emergency AC generator parameters are correct, the emergency Generator
+Line Contactor (GLC) is supplied by the CSM/G control unit. The
+emergency AC generator has priority to supply the AC and DC ESSential
+BUSes: contactors 3XC1 and 3XC2 are de-energized by relay 12XE. NOTE:
+The diagram shows the system in emergency configuration (relays 1XP &
+2XP de-energized, busbars 4PP & 4XP energized).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 134 of 255
+GENERATOR OPERATION CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 135 of 255
+AC EMERGENCY GENERATION D/O (3) GENERATOR MONITORING The CSM/G operation
+is monitored by a red FAULT light. The FAULT light activation is
+controlled by either Battery Charge Limiter (BCL) 1 or 2. During
+transient configuration, or if the generator is faulty, there is no ESS
+Transformer Rectifier (TR) output, thus the FAULT light comes on.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 136 of 255
+GENERATOR MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 137 of 255
+EMER ELECTRICAL POWER LOGIC DESCRIPTION (3) EMERGENCY GENERATION
+AUTOMATIC OPERATION If AC BUS 1 and 2 are lost above a given airspeed
+(100 kts), the Ram Air Turbine (RAT) will extend automatically. As the
+AC generator is not yet available, the AC ESSential BUS and DC ESS BUS
+are respectively supplied by the STATic INVerter and battery 2. The
+activation of the emergency generator via the blue hydraulic system
+takes place only if the landing gear is not compressed. When the
+emergency generator is available, it supplies the AC ESS BUS and via ESS
+Transformer Rectifier (TR), the DC ESS BUS. As the nose landing gear is
+compressed, the AC ESS BUS and DC ESS BUS are respectively supplied by
+the STAT INV and the battery 2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 138 of 255
+EMERGENCY GENERATION AUTOMATIC OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 139 of 255
+EMER ELECTRICAL POWER LOGIC DESCRIPTION (3) EMERGENCY GENERATION MANUAL
+OPERATION IN FLIGHT If AC BUS 1 and 2 are lost and the RAT does not
+extend, FAULT light comes on red on the EMERgency ELECtrical PoWeR
+panel. The RAT must be manually extended to power the emergency
+generator. This is done by pressing the guarded MANual ON P/BSW on the
+EMER ELEC PWR panel.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 140 of 255
+EMERGENCY GENERATION MANUAL OPERATION IN FLIGHT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 141 of 255
+EMER ELECTRICAL POWER LOGIC DESCRIPTION (3) EMERGENCY GENERATION MANUAL
+OPERATION ON GROUND WARNING: If the MAN ON P/BSW is pressed in, the RAT
+extends, even in cold aircraft configuration.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 142 of 255
+EMERGENCY GENERATION MANUAL OPERATION ON GROUND
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 143 of 255
+EMER ELECTRICAL POWER LOGIC DESCRIPTION (3) EMERGENCY GENERATION TEST
+The emergency generator operational test is carried out to check the
+emergency generator parameters and the corresponding network supply. For
+test purposes the blue hydraulic system must be pressurized thanks to
+the BLUE PUMP OVerRiDe P/BSW and the EMER GEN TEST P/BSW must be held
+pressed in. As the emergency generator is connected, the generator
+parameters have to be checked on the ECAM display.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 144 of 255
+EMERGENCY GENERATION TEST
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 145 of 255
+RAT ACTIVATION (3) AUTOMATIC ACTIVATION When one of the two main AC
+buses is supplied, relay 17XE or 18XE is energized. This prevents an
+automatic deployment of the Ram Air Turbine (RAT). In flight, when there
+is a total failure of the two AC main buses and when the aircraft speed
+is higher than 100 kts, the two relays 17XE and 18XE are de-energized,
+which supplies relay 20XE with +28VDC from the hot battery bus 703PP.
+Relay 20XE is then energized after 1 second.and +28VDC are supplied from
+the Hot Battery Bus to the RAT solenoid 1 and the Constant Speed Motor
+Generator (CSM/G) Generator Control Unit (GCU) through the de-energized
+contacts of relay 22XE. The RAT extends automatically. The Constant
+Speed Motor/Generator (CSM/G) control unit activates the CSM/G solenoid
+valve and uses battery 2 for the supply voltage. The generator starts to
+operate. After 6 seconds, relay 22XE closes its contacts. The RAT
+solenoid 1 is de-energized and the control supply voltage of the CSM/G
+solenoid valve is switched from Battery 2 to the Permanent Magnet
+Generator (PMG) of the CSM/G.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 146 of 255
+AUTOMATIC ACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 147 of 255
+AUTOMATIC ACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 148 of 255
+AUTOMATIC ACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 149 of 255
+AUTOMATIC ACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 150 of 255
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 151 of 255
+RAT ACTIVATION (3) MANUAL ACTIVATION When the MANual ON P/BSW is
+pressed, RAT solenoid 2 is energized by battery 2 and the RAT extends.
+In addition, the CSM/G control unit activates the CSM/G solenoid valve
+using battery 2 and the generator starts running. When the MAN ON P/BSW
+is released out, RAT solenoid 2 is de-energized. The CSM/G solenoid
+valve is supplied by PMG. NOTE: The RAT manual activation function is
+only used in case of CSM/G automatic control logic failure. The diagram
+shows the system with MAN ON P/BSW still pressed in. (RAT solenoid 2
+still energized, generator starts running)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 152 of 255
+MANUAL ACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 153 of 255
+RAT ACTIVATION (3) MANUAL ACTIVATION FROM HYDRAULIC PANEL The RAT MAN ON
+P/BSW on the blue hydraulic panel enables the extension of the RAT for
+hydraulic power supply only. Solenoid 1 is supplied by HOT BAT BUS 1.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 154 of 255
+MANUAL ACTIVATION FROM HYDRAULIC PANEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 155 of 255
+CSM/G GCU D/O (3) GENERATOR CONTROL The automatic control logic being
+set, the Generator Control Unit (GCU) internal 28V DC bus is supplied by
+battery 2 through relay K3. Relay K1 is then energized, allowing the
+solenoid control valve to be supplied by the internal bus (still on
+battery 2). Relay K3 is held closed by the GCU internal supply via relay
+K2 and the time delay-opening transistor. When the emergency generator
+parameters are correct (voltage and frequency above voltage and
+frequency threshold), or after 10 s equal to the Constant Speed
+Motor/Generator (CSM/G) start sequence, relay K2 closes. The Generator
+Line Contactor (GLC) closes and relay K3 is de-energized, allowing the
+solenoid control valve power supply change over from battery 2 to the
+Permanent Magnet Generator (PMG). The CSM/G can also be started manually
+via the MANual ON P/BSW.
+NOTE: The diagram shows the system in normal configuration (K3
+de-energized, solenoid control valve supplied by PMG).
+SPEED REGULATION The speed regulation module of the control unit
+electrically controls the servo-valve, which regulates the hydraulic
+motor speed. The GCU maintains the CSM/G at constant speed by: -
+monitoring the frequency of the PMG, - and comparing it with a quartz
+crystal controlled reference. The resulting error signal is then used to
+control the CSM/G servo-valve to a more open or close position.
+VOLTAGE REGULATION The PMG supplies the exciter field through a voltage
+regulation module. The GCU maintains the CSM/G output voltage constant
+by monitoring the voltage at the Point Of Regulation (POR). The output
+voltage is compared to 115V AC reference and used as an operational
+error to regulate the field current.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 156 of 255
+GENERATOR CONTROL ... VOLTAGE REGULATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 157 of 255
+CSM/G GCU D/O (3) GENERATOR MONITORING The protection module protects
+the network and the generator by controlling the related GLC, the
+generator field current and the solenoid control valve. The protections
+are the following: - over/under voltage, - over/under frequency, -
+shorted PMG, - fast over speed shutdown. When a failure is detected,
+relay K1 opens to de-energize the solenoid control valve: The generator
+stops operating. The MAN ON P/BSW must be pressed in to reset the
+protection module and to recover the solenoid control valve power
+supply. NOTE: The diagram shows the system after fault detection, and
+before the generator stops (solenoid control valve de-energized). The
+MAN ON P/BSW is not pressed in yet.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 158 of 255
+GENERATOR MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 159 of 255
+CSM/G GCU D/O (3) OPERATION When the emergency generator is operating
+(frequency and voltage in tolerance) and supplying the ESSential bus
+network, it will do so as long as the A/C remains above 100kts and the
+main L/G is not compressed. In emergency power condition (AC buses not
+powered, A/C in flight, and Airspeed greater than 100kts) the automatic
+control logic being set, the Generator Control Unit (GCU) internal 28V
+DC bus is supplied by battery 2 through relay K3. Relay K1 is then
+energized, allowing the solenoid control valve to be supplied by the
+internal bus (still on battery 2). Relay K3 is held closed by the GCU
+internal supply via relay K2 and the time delay-opening transistor. The
+emergency generator stops as soon as the airspeed is below 100kts and
+the A/C is on ground. At 100kts a ground is removed from relay 3PH thus
+allowing for a discrete to be supplied to the CSM/G CU as soon as the
+Main L/G compresses. After a 400ms delay the GCU de-energizes relay K2
+and K1, which in turn causes the EMER GLC to de-energize, and the
+stoppage of the servo control of the generator respectively. When the
+EMERgency GENerator test pushbutton 16XE is pressed in, relay 3PH
+energizes simulating a loss of AC BUS 1 and AC BUS 2 and a speed higher
+than 100 kts. The generator then comes online supplying the ESSential
+bus network until 16XE is released.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 160 of 255
+OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 161 of 255
+OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 162 of 255
+OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 163 of 255
+OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 164 of 255
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 165 of 255
+CSM/G GCU D/O (3) BITE The CSM/G GCU gives a type 3 BITE system. The
+CSM/G GCU is linked to the Centralized Fault Display Interface Unit
+(CFDIU) by two discrete links (type 3 system) and has a simplified and
+limited interactive dialog. Tests can be launched from the GCU EMER page
+on the MCDU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 166 of 255
+BITE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 167 of 255
+CSM/G OPERATIONAL TEST ELECTRICAL CIRCUIT (3) TEST PUSHBUTTON DEPRESSED
+relays 3PH simulates flight condition -Relay 16XE simulates aircraft
+speed above 100 knots -Relay 20XE and 30 XE are temporized relays -Relay
+22XE controls the csm/g electro valve supply All those relays are
+supplied with 28 VDC from the batteries closing their respective
+contacts and AC buses 1 and 2 not supplied. This then causes the
+emergency generator to come online. The emergency generator will supply
+the ESSential buses (DC ESSential bus through the ESS TR). The ESSential
+shed buses are de-energized through relay 21XE NOTE: The blue hydraulic
+system must be pressurized; AC BUS 1 and 2 must be supplied. Ram Air
+Turbine (RAT) extension is inhibited by relay 30XE if 23XE is released
+before 22XE closes. The diagram shows the system with EMER GEN TEST
+P/BSW pressed in, before relay 22XE time delay elapsed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 168 of 255
+TEST PUSHBUTTON DEPRESSED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 169 of 255
+CSM/G OPERATIONAL TEST ELECTRICAL CIRCUIT (3) TEST PUSHBUTTON RELEASED
+OUT When the EMERgency GENerator TEST P/BSW is released, relays 16XE,
+20XE, 21XE and 22XE all de-energize returning the A/C electrical power
+distribution network to normal. Relay 30XE contacts remain in the
+energized state (time delay open) for several seconds to ensure that the
+RAT solenoid does not activate a RAT extension. Relay 3PH contacts then
+send the Landing Gear compressed discrete to the EMERgency GENerator
+(GCU) that initiates a generator stop.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 170 of 255
+TEST PUSHBUTTON RELEASED OUT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 171 of 255
+STATIC INVERTER DESCRIPTION/OPERATION (3) GENERAL A STATic INVerter
+transforms the direct current from battery 1 into a single-phase
+alternating current. The STAT INV characteristics are: - 1 kVA nominal
+power, - 115V AC, 400 Hz, single phase. The STAT INV is used in the
+following cases: - APU start (supply of fuel pump), - engine start on
+battery (ignition), - emergency configuration.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 172 of 255
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 173 of 255
+STATIC INVERTER DESCRIPTION/OPERATION (3) EMERGENCY CONFIGURATION
+AIRSPEED ABOVE 100 KTS In this configuration the Constant Speed
+Motor/Generator (CSM/G) supplies the AC ESSential BUS and DC ESS BUS
+through the ESS Transformer Rectifier (TR) unit. The STAT INV is not
+electrically supplied.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 174 of 255
+EMERGENCY CONFIGURATION - AIRSPEED ABOVE 100 KTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 175 of 255
+STATIC INVERTER DESCRIPTION/OPERATION (3) EMERGENCY CONFIGURATION
+(continued) AIRSPEED BETWEEN 50 AND 100 KTS In this configuration the
+emergency generator is no longer connected to the aircraft network. The
+AC ESS BUS is supplied by the STAT INV, which is supplied from
+battery 1. On the other hand, the DC ESS BUS is directly supplied by
+battery 2. The AC STAT INV BUS is also supplied by the STAT INV. This
+bus is used for the APU fuel pump supply. The AC and DC SHEDdable ESS
+BUS are no longer supplied.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 176 of 255
+EMERGENCY CONFIGURATION - AIRSPEED BETWEEN 50 AND 100 KTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 177 of 255
+STATIC INVERTER DESCRIPTION/OPERATION (3) EMERGENCY CONFIGURATION
+(continued) AIRSPEED BELOW 50 KTS In this configuration the AC ESS BUS
+is no longer connected to the STAT INV. The DC ESS BUS and the AC STAT
+INV BUS remain supplied.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 178 of 255
+EMERGENCY CONFIGURATION - AIRSPEED BELOW 50 KTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 179 of 255
+STATIC INVERTER DESCRIPTION/OPERATION (3) MONITORING STAT INV faults are
+signaled to the Battery Charge Limiter (BCL). The BCL memorizes the
+faults as class 1 failures, which will be displayed on the ECAM upper
+display when the aircraft electrical network is supplied. The following
+STAT INV parameters are monitored: - overheat, - output/input over
+voltage, - input under voltage.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 180 of 255
+MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 181 of 255
+STATIC INVERTER DESCRIPTION/OPERATION (3) TEST To perform the STAT INV
+test, the EMERgency GENerator TEST P/BSW is pressed in. This simulates
+an aircraft speed above 50 kts. The STAT INV parameters have to be
+checked on the ECAM display.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 182 of 255
+TEST
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 183 of 255
+AC ESSENTIAL BUS SWITCHING (3) NORMAL CONFIGURATION In normal
+configuration, the aircraft electrical network is normally supplied and
+the AC ESSential BUS is directly connected to AC BUS 1. Contactor 3XC1
+is energized under several conditions: - AC BUS 1 is supplied, - 3XC2 is
+in de-energized position, - 12XE and 2XE not energized (EMER GEN not
+operative), - AC ESS FEED P/BSW (11XC) in normal position (pressed in).
+The status of AC ESS BUS SWITCHING contactors (3XC1 and 3XC2), the
+position of the AC ESS FEED P/BSW (11XC) and the AC source supplying the
+AC ESS network are sent to the SDACs for display on the AC ELEC ECAM
+page.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 184 of 255
+NORMAL CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 185 of 255
+AC ESSENTIAL BUS SWITCHING (3) AC BUS 1 LOSS AUTO SWITCHING FUNCTION
+Automatic switching is done in flight and on ground if the AC ESS FEED
+P/BSW (11XC) is pressed in (normal position). As soon as AC BUS 1 is not
+supplied, the following events occur (provided AC BUS 2 is supplied): -
+3XC1 is de-energized and 20XN1 provides ground to 17XC through 20 XN2, -
+after 3 seconds (17 XC time delay ), 3XC2 is energized. The AC ESS
+network is recovered automatically from AC BUS 2. NOTE: During the time
+delay of 3 seconds, there is a possibility of manual switching by the
+flight crew. If Airspeed \> 50 kts (from ADIRU1), 7XB is energized. 17XC
+is self-grounded through 20XN2, 7XB, and 11XC. If the AC BUS 1 is
+recovered, AC ESS BUS remains on AC BUS 2. If the AC ESS FEED P/BSW 11XC
+is cycled (released out and pushed back in), AC ESS BUS will switch back
+to the AC BUS 1. If Airspeed \< 50 KTS, 7XB is de-energized. So, if the
+AC BUS 1 is recovered, AC ESS BUS will automatically switch back to the
+AC BUS 1.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 186 of 255
+AC BUS 1 LOSS - AUTO SWITCHING FUNCTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 187 of 255
+AC ESSENTIAL BUS SWITCHING (3) AC BUS 1 LOSS (continued) AUTO SWITCHING
+FAULT In case of automatic switching failure (17 XC failure for
+instance), AC ESS BUS is no longer supplied. 3XH provides a ground. The
+FAULT legend on the AC ESS FEED P/BSW (11XC) comes on. The AC ESS FEED
+P/BSW has to be released out to do a manual switching.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 188 of 255
+AC BUS 1 LOSS - AUTO SWITCHING FAULT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 189 of 255
+AC ESSENTIAL BUS SWITCHING (3) AC BUS 1 LOSS (continued) MANUAL
+SWITCHING When the AC ESS FEED P/BSW is released out. The following
+events occur: - ALTN legend comes on white, - 3XC2 is energized, - the
+AC ESS BUS is recovered from AC BUS 2, - 3XH opens, - the FAULT legend
+on the AC ESS FEED P/BSW goes off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 190 of 255
+AC BUS 1 LOSS - MANUAL SWITCHING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 191 of 255
+AC ESSENTIAL BUS SWITCHING (3) AC BUS 1 AND 2 LOSS In this
+configuration, the AC emergency generator is connected to the AC ESS
+BUS. The ESS Transformer Rectifier (TR) is supplied. NOTE: The timer
+33XE avoids the closure of the contactor 15XE1 in case of an electric
+transfer and closes it only in emergency configuration.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 192 of 255
+AC BUS 1 AND 2 LOSS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 193 of 255
+FUEL PUMPS ELEC PWR SUPPLY IN SMOKE CONFIG (3) NORMAL ELECTRICAL SUPPLY
+Here is the normal electrical supply of the wing fuel pumps. Left pump 1
+and right pump 1 are supplied by AC BUS 1.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 194 of 255
+NORMAL ELECTRICAL SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 195 of 255
+FUEL PUMPS ELEC PWR SUPPLY IN SMOKE CONFIG (3) SMOKE WARNING If an
+avionics smoke warning occurs and smoke is confirmed, GENerator 1 LINE
+SMOKE P/BSW light comes on amber on the EMERgency ELECtrical PoWeR
+panel. In this case, several actions have to be taken by the cockpit
+crew concerning mainly the ventilation and communication systems. If the
+smoke warning remains 5 min after actions on the ventilation and
+communication systems, the avionics smoke procedure displayed on
+ECAM/EWD has to be applied.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 196 of 255
+SMOKE WARNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 197 of 255
+FUEL PUMPS ELEC PWR SUPPLY IN SMOKE CONFIG (3) EMER ELEC GEN 1 LINE OFF
+In this case, Generator Line Contactor (GLC) 1 opens. Generator 1
+remains energized and supplies one fuel pump in each wing tank. AC BUS 1
+is supplied by generator 2 through Bus Tie Contactors (BTCs).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 198 of 255
+EMER ELEC GEN 1 LINE OFF
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 199 of 255
+FUEL PUMPS ELEC PWR SUPPLY IN SMOKE CONFIG (3) EMER ELEC PWR MAN ON In
+this case, the Ram Air Turbine (RAT) is extended and the emergency
+generator is connected to the aircraft network by its control unit, when
+the parameters are correct. The emergency generator then supplies the AC
+ESSential BUS and DC ESS BUS through ESS Transformer Rectifier (TR).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 200 of 255
+EMER ELEC PWR MAN ON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 201 of 255
+FUEL PUMPS ELEC PWR SUPPLY IN SMOKE CONFIG (3) GEN 2 OFF When the
+emergency generator is available, the generator 2 P/BSW must be set to
+OFF. NOTE: Before L/G extension, GEN 2 and EMER ELEC GEN 1 LINE P/BSW
+must be set to ON.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 202 of 255
+GEN 2 OFF
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 203 of 255
+AC/DC SHEDDABLE BUS SUPPLY (3) NORMAL CONFIGURATION The AC and DC
+ESSential BUSes supply the AC and DC ESS SHEDdable BUS through the
+control relays 8XH and 8PH. The open or closed position of the relays
+8XH and 8PH changes in relation to the network supply status. NOTE: The
+sub-busbar 802PP is shed if the Constant Speed Motor/Generator (CSM/G)
+is on line and if the forward landing gear is not in the up-locked
+position.
+EMERGENCY CONFIGURATION If there is an electrical emergency
+configuration and the Constant Speed Motor Generator (CSM/G) fails, the
+essential network operates with battery power only. Battery 2 supplies
+the DC ESS BUS and battery 1 supplies the STATic INVerter (STAT INV),
+which supplies the AC ESS BUS. In this condition, the AC and DC SHED BUS
+are not supplied because relays 8XH and 8PH are open due to the fact
+that BATtery ONLY relays 2XB and 6XB are energized. NOTE: The AC and DC
+ESS SHED BUS are also shed during an EMERgency GENerator TEST, because
+relays 16XE and 21XE are energized.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 204 of 255
+NORMAL CONFIGURATION & EMERGENCY CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 205 of 255
+AC/DC SHEDDABLE BUS SUPPLY (3) GALY & CAB SYS AND COMMERCIAL LOAD In
+normal supply configuration (GALleY & CABin and COMMERCIAL P/BSWs pushed
+in), all the galleys and the cabin and commercial sub-busbars are
+supplied. When the GALY & CAB P/BSW is set to OFF (OFF legend on) all
+the galleys and the cabin system sub-busbars (218XP, 220XP,and 210PP,
+212PP) are OFF. When the COMMERCIAL P/BSW is set to OFF (OFF legend on)
+all the galleys and all the sub-busbars are off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 206 of 255
+GALY & CAB SYS AND COMMERCIAL LOAD
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 207 of 255
+AC/DC SHEDDABLE BUS SUPPLY (3) GALY & CAB SYS AND COMMERCIAL LOAD
+(continued) TR1 or 2 LOSS GALY & CAB and COMMERCIAL P/BSWs are in normal
+supply configuration. When Transformer Rectifier (TR) 1 or 2 is lost,
+relay 1PC2 is energized and the DC sub-busbars 210PP and 212PP are not
+supplied.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 208 of 255
+GALY & CAB SYS AND COMMERCIAL LOAD - TR1 OR 2 LOSS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 209 of 255
+AC/DC SHEDDABLE BUS SUPPLY (3) GALY & CAB SYS AND COMMERCIAL LOAD
+(continued) IDG1 or 2 LOSS When Integrated Drive Generator (IDG) 1 or 2
+is lost, Bus Tie Contactor (BTC) 1 and 2 are closed and relay 10XA is
+de-energized, this sheds the cabin-related sub-buses. If the APU GEN is
+lost due to an overload on the ground, all galleys and cabin-related
+sub-buses are off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 210 of 255
+GALY & CAB SYS AND COMMERCIAL LOAD - IDG1 OR 2 LOSS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 211 of 255
+REFUELING ON BATTERY (3) GENERAL The refueling electrical network is
+supplied by busbars 501PP and 502PP. It is supplied as soon as the
+refuel door located on the fuselage below the right wing is opened. Two
+supplies are then possible: - 28V DC SerViCE BUS 601PP, supplied from
+normal network or via MAINTenance BUS switch, - HOT BUS 701PP if no
+other power is available.
+GROUND SERVICE CONFIGURATION With the services buses supplied, the
+refuel buses are supplied directly and automatically from the DC service
+as soon as the refuel panel door is opened. If the services buses are
+not supplied, the refuel buses are supplied from the Hot Bus through
+relays 5PR, 8PR, 11PR and 12PR as soon as the refuel panel door is open
+and the BATT Power switch is moved to the ON position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 212 of 255
+GENERAL & GROUND SERVICE CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 213 of 255
+GENERAL & GROUND SERVICE CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 214 of 255
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 215 of 255
+REFUELING ON BATTERY (3) BATTERY ONLY CONFIGURATION After releasing the
+BATT Power Switch, relay 12PR will close after 10 minutes. During these
+10 minutes the 12PR keeps the relays 5PR, 8PR, and 11PR energized.
+During ten minutes (time delay in the 12 PR relay), the operator may
+select any position on the mode select switch 3QU. If the refuel buses
+are being supplied from the battery hot bus, the operator has 10 minutes
+from initial power-on in which to select "Refuel or Defuel/XFR". After
+10 minutes from initial power-on, the contacts in relay 12PR will move
+to the energized position. If the Mode Select switch is in the "OFF"
+position the power supply from the batteries will be disconnected
+automatically. If the operator does not switch off the refueling system,
+the relay 12PR will cut off battery power supply to the refuel buses.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 216 of 255
+BATTERY ONLY CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 217 of 255
+BATTERY ONLY CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 218 of 255
+BATTERY ONLY CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 219 of 255
+DC MAIN GENERATION D/O (3) tr
+bcL functions
+There are three identical Transformer Rectifiers (TRs): TR 1, TR 2 and
+ESSential TR, each with 200 A output current in continuous operation.
+Each TR converts the three phase AC into 28V DC.
+Each BCL controls its battery contactor. The BCLs are identical and
+interchangeable. The battery contactors are controlled in order to: -
+ensure automatic battery connection for charging, - protect the battery
+against thermal runaway and short-circuit, - prevent complete
+discharging when the aircraft is on the ground.
+batteries There are two identical nickel-cadmium batteries of 20 cells
+each. If the battery voltage is below 26.5V DC, when no other electrical
+source is available, a charging cycle is needed by setting the BATtery
+P/B to ON and supplying the DC normal network to permit changing. The
+nominal capacity of each battery is 23 Ah.
+distribution TR 1, powered from AC BUS 1, supplies DC BUS 1 and DC BAT
+BUS. TR 2, powered from AC BUS 2, supplies DC BUS 2. The ESS TR is
+either supplied from the AC ESS BUS or the EMERgency GENerator. It can
+supply the DC ESS BUS and the DC SHEDdable ESS BUS when required. The
+two batteries are connected to the DC BAT BUS. BAT 1 can also supply the
+STATic INVerter and BAT 2 can supply the DC ESS BUS.
+tr operation The TRs start to operate as soon as they are supplied by
+the associated AC busbar. Automatic switching is provided in case of TR
+1 or TR 2 failure to guarantee power supply to all affected DC busbars.
+battery operation BAT 1 and BAT 2 are charged from DC BAT BUS through
+contactors. These contactors are controlled by the Battery Charge
+Limiters (BCLs).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 220 of 255
+TR ... BCL FUNCTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 221 of 255
+DC NORMAL/ESSENTIAL GENERATION SWTG D/O (3) normal configuration In
+normal configuration, Transformer Rectifier (TR) 1 supplies successively
+DC BUS 1, DC BATtery BUS, DC ESSential BUS and DC ESS SHEDdable BUS. TR
+2 supplies only DC BUS 2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 222 of 255
+NORMAL CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 223 of 255
+DC NORMAL/ESSENTIAL GENERATION SWTG D/O (3) tr 1 loss If TR 1 fails, TR
+2 automatically supplies DC BAT BUS and DC BUS 1 through DC BUS 2. The
+DC ESS BUS supply is automatically transferred from DC BAT BUS to AC ESS
+BUS through the ESS TR.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 224 of 255
+TR 1 LOSS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 225 of 255
+DC NORMAL/ESSENTIAL GENERATION SWTG D/O (3) TR 2 loss If TR 2 fails, TR
+1 automatically supplies DC BUS 2 through DC BUS 1 and DC BAT BUS. The
+DC ESS BUS supply is automatically transferred from DC BAT BUS to AC ESS
+BUS through the ESS TR.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 226 of 255
+TR 2 LOSS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 227 of 255
+DC NORMAL/ESSENTIAL GENERATION SWTG ELEC (3) normal configuration These
+circuits control the supply of DC normal busbars and DC ESSential BUS.
+They enable: - their normal supply in normal flight configuration, -
+automatic transfer in some failure conditions. In normal configuration,
+AC BUS 1 and AC BUS 2 are supplied, so their respective control relays
+20XN1 and 20XN2 are closed. In addition, Transformer Rectifiers (TRs) 1
+and 2 being operational, their respective line contactors 5PU1 and 5PU2
+are closed. This enables DC sub-busbar 103PP to supply the DC BUS 1
+contactor 1PC1. Its closure allows the connection between DC BUS 1 and
+DC BATtery BUS.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 228 of 255
+NORMAL CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 229 of 255
+DC NORMAL/ESSENTIAL GENERATION SWTG ELEC (3) tr 1 or tr 2 loss In case
+of TR 1 loss, as shown on the graphic, the TR 1 line contactor 5PU1
+opens and DC BUS 1 contactor 1PC1 is no longer supplied by sub-busbar
+103PP. In the same time, the TR 1 FAULT CoNTactOR 1PU1 closes allowing
+the DC sub-busbar 202PP to supply relay 8PC1. AC BUS control relays
+20XN1 and 20XN2 still being closed, DC BUS contactors 1PC1 and 1PC2 are
+now supplied by sub-busbar 202PP and close. DC BUS 1, DC BAT BUS and DC
+BUS 2 are then connected together.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 230 of 255
+TR 1 OR TR 2 LOSS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 231 of 255
+DC NORMAL/ESSENTIAL GENERATION SWTG ELEC (3) LOSS OF DC ESS SUPPLY In
+the event of a DC ESS BUS supply failure, loss of TR1 or 1PC1 or 4PC,
+the DC ESS BUS supply is recovered from the ESS TR. The fault
+information is received by the System Data Acquisition Concentrator
+(SDAC), which will initiate the display of the DC BUS TIE class 2
+failure message on the ECAM status page.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 232 of 255
+LOSS OF DC ESS SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 233 of 255
+TRANSFORMER RECTIFIER D/O (3) GENERAL Three identical Transformer
+Rectifiers (TRs) are fitted on the aircraft. They operate as soon as
+they are supplied. The TRs are supplied with three phase 115V AC/400 Hz,
+the DC output voltage for each TR is 28V DC at 200 A. Each TR controls
+its contactor via an internal logic.
+TR PROTECTION Each TR control logic consists of an overheat protection
+and a minimum current flow detection to isolate the distribution circuit
+from the TR.
+TR 1 NORMAL CONFIGURATION As soon as AC BUS 1 is supplied, the TR 1
+output is delivered to the DC BUS 1 through TR contactor (5PU1), which
+is energized when no TR protection is active. The protection module is
+supplied by DC sub-busbar 204PP. To reset the TR, the TR ReSeT P/BSW
+15PU has to be pushed. The TR current, voltage as well as the TR
+contactor position indications are sent to the ECAM system via System
+Data Acquisition Concentrator (SDAC) 1 and 2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 234 of 255
+GENERAL ... TR 1 NORMAL CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 235 of 255
+TRANSFORMER RECTIFIER D/O (3) TR 1 ABNORMAL CONFIGURATION In the event
+of a TR 1 fault detection, the DC BUS 1 control contactor (5PU1) is no
+longer energized. The fault signal is sent to the ECAM system, the
+Centralized Fault Display Interface Unit (CFDIU) and the DC normal
+generation switching system (1PC1 & 1PC2).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 236 of 255
+TR 1 ABNORMAL CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 237 of 255
+TRANSFORMER RECTIFIER D/O (3) TR 1 RESET CONFIGURATION When the fault
+disappears, the TR remains deactivated. Reset action is necessary for TR
+reactivation. The TR protection reset is possible either from MCDU via
+CFDIU or from the guarded toggle switch located in the battery
+compartment.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 238 of 255
+TR 1 RESET CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 239 of 255
+TRANSFORMER RECTIFIER D/O (3) TR 2 OPERATION The operation of TR 2 is
+identical to that of TR 1. When AC and DC GrouND FLighT buses are only
+supplied by EXTernal PoWeR, the TR 2 minimum current detection system is
+inhibited. The contactor AC & DC GND SerViCE SupPLY 14XX is controlled
+by the MAINTenance BUS switch (5XX) on the panel 2000VU set to the ON
+position, to be in maintenance configuration.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 240 of 255
+TR 2 OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 241 of 255
+TRANSFORMER RECTIFIER D/O (3) ESSENTIAL TR OPERATION The ESSential TR
+operation is identical to that of TR 1 and TR 2. ESS TR fault signal is
+sent to Flight Warning Computer (FWC) 1 and 2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 242 of 255
+ESSENTIAL TR OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 243 of 255
+BATTERY SYSTEM D/O (3) GENERAL The battery system is composed of two
+batteries, which are mainly used to start the APU and supply AC and DC
+essential network in emergency configuration. Each battery is associated
+to one Battery Charge Limiter (BCL). The BCL ensures battery charge and
+battery protection by controlling the battery contactor.
+BATTERY DESCRIPTION The two batteries are identical and interchangeable.
+Each battery is ventilated by two ducts. The differential pressure
+between the cabin and the outside is used to provide battery
+ventilation. Each battery has 20 Nickel-Cadmium cells in a stainless
+steel case. Each battery has a nominal voltage of 24V DC and a nominal
+capacity of 23 Ah.
+BATTERY CONTROL Each battery is associated to a BCL, which is controlled
+by the corresponding BATtery P/BSW. When the BAT P/BSW is pressed-in
+(AUTO position), the BCL controls the battery coupling/uncoupling. When
+released-out, the battery is uncoupled from the network and the white
+OFF light comes on. NOTE: In flight, in normal configuration, the
+batteries are isolated from the network by its respective BCL.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 244 of 255
+GENERAL ... BATTERY CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 245 of 255
+BATTERY SYSTEM D/O (3) INDICATING/MONITORING Battery parameters such as
+voltage and current are displayed by the ECAM. Warnings also appears on
+the ECAM. The voltmeters, located on the main ELECtrical control panel,
+give battery voltage indication (HOT BUS) even in cold aircraft
+configuration. The BCLs monitor the charge of the batteries. In the
+event of battery thermal runaway or internal short-circuit, the battery
+is isolated, the amber FAULT light comes on and the ECAM system is
+activated. System failures and BITE data are sent to the Centralized
+Fault Display System (CFDS).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 246 of 255
+INDICATING/MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 247 of 255
+BATTERY CHARGE LIMITER D/O (3) GENERAL The two Battery Charge Limiters
+(BCLs) are identical and interchangeable. Pin programming determines the
+position of the BCL and the aircraft type.
+PURPOSE The main function of the BCL is to control the battery contactor
+and BATtery FAULT warning. Also, BCL 1 and BCL 2 control the EMERgency
+GENerator FAULT warning. The battery contactor control includes the
+following functions: - protection of the battery against thermal runaway
+or short circuit, - ensuring battery charging, - preventing complete
+discharge, - ensuring integrity of the HOT BUS, - assisting the APU
+starting. NOTE: BCL 1 and 2 also ensure battery power supply to part of
+the network during transient configuration or on ground when no normal
+power is available.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 248 of 255
+GENERAL & PURPOSE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 249 of 255
+BATTERY CHARGE LIMITER D/O (3) BATTERY CHARGE (BAT P/BSW PRESSED IN)
+When battery voltage is lower than 26.5V DC and BAT BUS voltage is
+higher than 27V DC (checked by the acquisition module), the battery is
+connected via contactor 6PB1. When the charge current sensed by the
+battery shunt is less than 4 A decreasing for 10 s on ground or 30 min
+in flight or following APU start, the battery is fully charged, the
+contactor opens and the battery charge stops.
+HOT BUS PROTECTION In order to maintain the HOT BUS supply, the
+contactor 6PB1 opens under these conditions: - discharge current greater
+than 100 A for 300 ms, - discharge current greater than 400 A for 5 ms.
+THERMAL RUNAWAY OR SHORT CIRCUIT PROTECTION If the charge current is
+above 10 A and increasing by more than 0.375 A per minute or the charge
+current is greater than 150 A for 90 s, the contactor 6PB1 opens. The
+short circuit hardware protection detects the malfunction of the battery
+and stops the supply of the BCL.
+COMPLETE DISCHARGE PROTECTION On ground, when the battery voltage is
+lower than 23V DC for 15 s, the BCL supply contactor opens
+automatically.
+EMERGENCY CONFIGURATION The batteries are connected to the BAT BUS after
+landing in emergency configuration. The battery contactors 6PB1 and 6PB2
+are closed by BCLs when the aircraft speed is lower than 100 kts.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 250 of 255
+BATTERY CHARGE (BAT P/BSW PRESSED IN) ... EMERGENCY CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 251 of 255
+BATTERY CHARGE LIMITER D/O (3) APU START The APU can be started by the
+batteries alone or by the normal supply. When the APU start sequence is
+initiated by setting the APU MASTER SWitch to ON, batteries are
+connected to 28V DC BAT BUS in order to withstand the high APU starter
+motor demand. When the APU start sequence is complete (50% N1), relay
+6KD closes to interrupt the APU START signal. In flight, in electrical
+emergency configuration, the APU start sequence is locked out during 45
+s or until the Constant Speed Motor/Generator (CSM/G) is connected to
+the network.
+EMER GEN FAULT CONTROL In emergency configuration, if the CSM/G is
+inoperative or during transient configuration, the RAT & EMER GEN FAULT
+legend on the EMER ELECtrical PoWeR panel comes on, controlled by BCL 1
+and 2.
+BAT FAULT CONTROL In case of thermal runaway or short circuit, the FAULT
+legend of the BAT P/BSW comes on. An amber message and the ELEC page are
+displayed on the ECAM, the MASTER CAUTion lights come on and the Single
+Chime (SC) sounds. NOTE: The 5V DC for the OFF light are delivered via
+15PB and 17PB resistors.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 252 of 255
+APU START ... BAT FAULT CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 253 of 255
+ELECTRICAL POWER SYSTEM OPERATION, CONTROL & INDICATING (3) IDG
+DISCONNECTION and RAT EXTENSION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 254 of 255
+Training Manual Airbus A318/319/ A320/A321 (CFM56 & V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS Ltd
+Issue 012 - Revision 01 - Dated 04/04/2025 255 of 255

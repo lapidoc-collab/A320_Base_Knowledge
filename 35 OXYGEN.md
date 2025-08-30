@@ -1,0 +1,1208 @@
+Airbus A318/A319/A320/A321 (CFM56 & V2500) B1+B2 Technical Training
+Manual
+ATA 35 -- Oxygen Airframe Systems
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more. Contact us Tel: +44(0) 1565 653745 Email:
+admin@catts.org.uk Web: www.catts.org.uk Online Training:
+catts.learnupon.com/store
+ATA Chapters Required in this Training Manual AIRFRAME SYSTEMS ATA 35
+Oxygen
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+Training Ma Manual Airbus A318/319/ A320/A321 (CFM56 & V2500) ATA 35
+Airframe Systems; Oxygen Level 3
+FOR TRAINING PURPOSES ONLY
+OXYGEN GENERAL Oxygen System Component Location (2) . . . . . . . . . .
+. . . . . . . . . . . . 2 Oxygen Safety in Aircraft Maintenance
+Environment (2) . . . . . . . . . 16
+CREW OXYGEN Crew Oxygen Mask Utilization/Stowage/Tests (2) . . . . . . .
+. . . . . . . 54
+PASSENGER OXYGEN Passenger Oxygen Unit D/O (3) . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . 62 Passenger Gaseous Oxygen SYS D/O
+(option) (3) . . . . . . . . . . . . . . 64
+PORTABLE OXYGEN Crew Portable Oxygen System D/O (3) . . . . . . . . . .
+. . . . . . . . . . . . . 94 Cabin Portable Oxygen Equipment D/O (3) . .
+. . . . . . . . . . . . . . . . 100
+MAINTENANCE PRACTICE Oxygen System Line Maintenance (2) . . . . . . . .
+. . . . . . . . . . . . . . . 106
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 5 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW The oxygen system
+includes: - the crew system, - the passenger system, - the portable
+system. Crew Oxygen System: The flight crew oxygen system supplies
+oxygen to the flight crew. It is used if there is a loss of cabin
+pressurization or smoke or dangerous gases in the cockpit. The oxygen is
+supplied by a high-pressure oxygen cylinder to quick-donning masks in
+the cockpit. Passenger Oxygen System: The passenger and cabin attendant
+oxygen system is supplied by chemical oxygen generator units that are in
+the cabin, the cabin attendant stations, the lavatories and the galleys.
+There are two types of chemical generators that supply oxygen for 15
+minutes or 22 minutes. Portable Oxygen System: The portable oxygen
+system supplies oxygen to the passengers, the cabin attendants and the
+flight crew if an emergency occurs and for first aid treatment. The
+Portable Breathing Equipment (PBE) supplies breathing means and eye
+protection to the flight crew members and the cabin attendants. It lets
+them move freely to extinguish a fire. The high-pressure portable
+cylinder includes continuous-flow type masks and supplies first aid
+oxygen to the passengers.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 6 of 107
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 7 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW (continued) FLIGHT
+CREW OXYGEN SYSTEM The flight crew oxygen is supplied from a
+high-pressure oxygen cylinder at a pressure of 127.5 bar (1.850 psig).
+This cylinder can be isolated for maintenance by a manual ON/OFF valve.
+A direct-reading pressure gage gives an indication of the cylinder
+pressure, independently of the open or closed position of the manual
+valve. The cylinder is installed in a cradle with two quick-release
+clamps in the L/H avionics compartment. A pressure regulator transmitter
+assembly is directly connected to the cylinder. It includes a
+high-pressure stage with an integrated pressure transducer for ECAM
+indication and a low-pressure stage. The pressure regulator regulates
+the low pressure at 4.48 to 6.48 bar (65 to 94 psig). A supply valve
+opens or closes the crew oxygen supply. The CREW SUPPLY P/B on the
+oxygen panel controls the supply valve. High-pressure and low-pressure
+protection is done by safety devices that include a high-pressure safety
+outlet and a low-pressure safety outlet. The high-pressure safety outlet
+is a frangible disk type. The low-pressure safety outlet is a pressure
+relief valve. Rupture of the frangible disk is set at a cylinder
+pressure of 2500 to 2775 psig. The pressure relief valve sets the limit
+of the low-pressure oxygen supply to 175 psig. An overboard green
+discharge indicator is connected to the high-pressure safety outlet and
+to the low-pressure safety outlet. If there is overpressure, the green
+disk blows out and a yellow indicator comes into view to show that the
+cylinder was discharged or the pressure relief valve is open.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+A pressure switch and a test port are connected to the distribution
+manifold. The pressure switch operates when the oxygen supply pressure
+decreases to 3.45 plus or minus 0.35 bar (50 plus or minus 5 psig) and
+transmits a warning signal REGUL LO PR to the ECAM/DOOR/OXY page. The
+optional filling connector makes it possible to fill the oxygen cylinder
+without removal of the cylinder from the aircraft. On the lower ECAM DU,
+on the DOOR/OXY page, the oxygen pressure in a cylinder with a capacity
+of 77 cubic feet is shown as follows: (a) \< 400 psig, in amber. (b) 400
+psig, in green. The indication flashes in green when the pressure is
+less than 800 psig and the DOOR/OXY page comes into view automatically.
+(c) An amber half-frame comes into view when the oxygen pressure is less
+than 1500 psig. For a cylinder with a capacity of 115 cubic feet: (d) \<
+300 psig, in amber. (e) 300 psig, in green. The indication flashes in
+green when the pressure is less than 600 psig and the DOOR/OXY page
+comes into view automatically. (f) An amber half-frame comes into view
+when the oxygen pressure is less than 1000 psig. If the oxygen pressure
+decreases to less than the minimum operating pressure of 3.45 plus or
+minus 0.35 bar (50 plus or minus 5 psig), the indication REGUL LO PR is
+shown in amber on the DOOR/OXY page. The mask assembly and the stowage
+box are installed adjacent to each crew member seat. The stowage box
+contains the mask. When the mask is pulled out of the box, a supply
+valve installed in the stowage box opens and lets oxygen flow to the
+mask.
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 8 of 107
+FOR TRAINING PURPOSES ONLY
+To use the mask, squeeze the red clips. This will inflate the mask
+harness. Bring the mask in position and release the red clips. When the
+red clips are released, the oxygen flow to the harness stops and the
+oxygen that remains in the harness is released into the atmosphere. The
+mask is then ready to be used.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 9 of 107
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - FLIGHT CREW OXYGEN SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 10 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW (continued)
+PASSENGER OXYGEN SYSTEM The masks fall automatically when the cabin
+altitude is higher than 14,000 feet or manually when a crew member
+pushes the MASK MANual ON pushbutton. A taped message is transmitted on
+the passenger address system. The passenger SYStem ON indicator light
+comes on white when the passenger oxygen system is electrically
+supplied. A reset is available to rearm the electrical system after mask
+re-stowage. The door can be opened manually with a release tool if there
+is a failure of the container door opening system. When the TiMeR RESET
+pushbutton is pushed, the ON white light of the TMR RESET pushbutton
+comes on. The indicator light SYS ON goes off and the taped announcement
+stops. On the ground, used chemical oxygen units must be replaced and
+all masks must be re-stowed. The system is reset when the TMR RESET
+pushbutton is pushed momentarily on the maintenance panel. Manually
+operated door stops are installed on the container doors. These stops
+are used to do an operational test of the mask release system. In the
+test position, because of the stops, the doors will not open fully and
+the masks will not fall out of the container.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 11 of 107
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - PASSENGER OXYGEN SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 12 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW (continued) CREW
+PORTABLE OXYGEN SYSTEM The crew oxygen bottle pressure is shown on the
+bottle direct-reading gage. When the needle is in the FULL range of the
+gage, the pressure is correct. If the pressure is incorrect, it is
+necessary to replace the portable oxygen bottle. The PBE is
+vacuum-packed in a transport/storage container. The container includes
+two indications, which are used for preflight inspection: - A good
+condition indicator (related to the PBE type, e.g. green operational,
+red - not operational), - A tamper seal (in position - operational,
+broken - not operational).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 13 of 107
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - CREW PORTABLE OXYGEN SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 14 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION The cockpit crew
+oxygen system is in the forward area of the aircraft on the LH side. The
+Passenger and cabin crew oxygen containers are above the seats in the
+hatracks, the lavatories, the galleys and the cabin attendant stations.
+The portable oxygen cylinders and the smoke hoods are in the cockpit and
+in the cabin near the cabin attendant station.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 15 of 107
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 16 of 107
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 17 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) OXYGEN PROPERTIES
+The air is made of 21% oxygen, 78% nitrogen and 1% other gases. The
+gaseous oxygen is colorless, odorless and tasteless. The gaseous oxygen
+is not flammable, but supports combustion. The gaseous oxygen is heavier
+than air and can accumulate in low lying areas. The oxygen reacts to
+most metals and organic material. The reactivity varies with the type of
+material: - The reaction can be slow and can cause for example steel
+oxidation commonly called rust, - The reaction can be fast when the
+oxygen is in contact with petroleum product, and can cause fire or
+explosion.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 18 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN PROPERTIES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 19 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN PROPERTIES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 20 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) AIRCRAFT OXYGEN
+SYSTEMS At high altitude, the pressurization (ATA 21) system maintains a
+sufficient air pressure, thus oxygen partial pressure, in the aircraft.
+In case of aircraft depressurization the oxygen systems (ATA35) supply
+sufficient oxygen partial pressure to the crew and passengers until the
+aircraft gets at lower altitude (10000ft). A lot of those systems use
+bottle of highly pressurized oxygen.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 21 of 107
+FOR TRAINING PURPOSES ONLY
+AIRCRAFT OXYGEN SYSTEMS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 22 of 107
+FOR TRAINING PURPOSES ONLY
+AIRCRAFT OXYGEN SYSTEMS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 23 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) THE FIRE TRIANGLE
+If one of these elements is missing, no fire / explosion can occur: -
+Oxygen, - Combustible material and, - An ignition source, are put
+together, fire can start and keep on going.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 24 of 107
+FOR TRAINING PURPOSES ONLY
+THE FIRE TRIANGLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 25 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) THE FIRE TRIANGLE
+(continued) IGNITION SOURCES The ignition sources are (examples): - Raw
+flame (from cigarettes), - Incandescent particles (from grinding during
+structure repairing...), - Electrical overheating (from electrical
+engines, bad contact), - Electrical discharge (static electricity, short
+circuit, mobile-phone operation, lightning during thunderstorm...), -
+Oxygen overheating due to either too high pressure or, quick opening or
+closure of oxygen valves (sudden pressurization) or impact on the oxygen
+bottle (molecules agitation), - Traces of hydrocarbon (petroleum
+product) mixed with pure oxygen.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 26 of 107
+FOR TRAINING PURPOSES ONLY
+THE FIRE TRIANGLE - IGNITION SOURCES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 27 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) THE FIRE TRIANGLE
+(continued) OXYGEN ENRICHED ATMOSPHERE An atmosphere is considered as an
+oxygen-enriched atmosphere when the oxygen percentage is 24% and above.
+In comparison to a fire in the air, a fire in an oxygen-enriched
+atmosphere will be characterized by: - High in intensity, - Higher in
+temperature and, - Higher in thermal power. Pure oxygen at high pressure
+will react violently with materials such as oil, grease, textiles and
+rubber, and will get powerfully in fire. In most cases, a fire that
+occurs in an atmosphere full of oxygen cannot be extinguished as long as
+the cause of fire has not been isolated.
+FIRST AID Persons getting on fire in an atmosphere full of oxygen cannot
+get help directly by a person entering the area. The rescuer takes also
+the risk to get on fire. The victim must be sprayed of water and carried
+outside in free air as soon as possible. The first aid care must be
+applied immediately and if possible in a specialized care unit for badly
+burned person.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 28 of 107
+FOR TRAINING PURPOSES ONLY
+THE FIRE TRIANGLE - OXYGEN ENRICHED ATMOSPHERE & FIRST AID
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 29 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) THE FIRE TRIANGLE
+(continued) DANGERS LINKED TO PRESSURIZED GAS The oxygen is stowed in
+cylinders at very high-pressure: 1850psi at 21°C, 130kg/cm2. Such a high
+pressure is potentially dangerous. Any crack in the pressure wall of
+pressurized gas system causes a violent eruption of gas through the
+crack. The result can be a high or even violent explosion. For example,
+if a valve brakes off a high-pressure cylinder, the container becomes an
+unguided missile. That is the reason why the oxygen cylinders and
+pressure reducers must be tested at regular intervals (hydrostatic test
+every 3 - 5 years depending on applicable standard / special permit).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 30 of 107
+FOR TRAINING PURPOSES ONLY
+THE FIRE TRIANGLE - DANGERS LINKED TO PRESSURIZED GAS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 31 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) LEAK IN CONFINED
+AREA In Flight the stowage compartments of oxygen bottle are naturally
+ventilated through the cabin ventilation system (air flow from DADO
+panel to outflow valve). On the ground, when the aircraft is parked not
+powered (dead aircraft), these ventilations are not effective any more.
+The oxygen bottle and the distribution lines are installed in confined
+area. In the case of oxygen leak, the percentage of oxygen in the air
+will be higher.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 32 of 107
+FOR TRAINING PURPOSES ONLY
+LEAK IN CONFINED AREA
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 33 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) LEAK IN CONFINED
+AREA (continued) OXYGEN DETECTOR The oxygen enrichment is not detected
+by human senses. An oxygen detector can be used before to get inside an
+area filled of oxygen. If there is too high oxygen concentration in this
+area, do not go into this area and ventilate.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 34 of 107
+FOR TRAINING PURPOSES ONLY
+LEAK IN CONFINED AREA - OXYGEN DETECTOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 35 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) LEAK IN CONFINED
+AREA (continued) CLOTHES, SKIN AND EQUIPMENT Clothing, skin and
+equipment must be free of oil or grease. Clothes and hair tend to absorb
+oxygen. Consequently, a person in an area where the air is filled with
+oxygen will keep a high concentration of oxygen. This oxygen stays on
+for some time. This person must avoid any source of ignition for 15
+minutes, smoking for example.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 36 of 107
+FOR TRAINING PURPOSES ONLY
+LEAK IN CONFINED AREA - CLOTHES, SKIN AND EQUIPMENT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 37 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) SAFETY PRECAUTIONS
+Make sure that you use the correct Airbus documentations corresponding
+to the aircraft (task in AMM, PN in IPC, SB...). Carefully obey the
+maintenance procedure instructions. If you do not obey these
+instructions, you can cause a fire or an explosion. Prevent all
+maintenance procedures nearer than 5m (16.4ft) from the working area of
+the aircraft. Stop all refueling, and all repairs on fuel and hydraulic
+systems. Stop all procedures that use flammable material such as
+cleaning and de-icing material. Stop all operations that cause heat and
+flame (For example: drilling holes...).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 38 of 107
+FOR TRAINING PURPOSES ONLY
+SAFETY PRECAUTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 39 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) SAFETY PRECAUTIONS
+(continued) DURING OXYGEN SERVICING Put a warning notice in the cockpit,
+the work area and the cabin to tell persons not to operate electrical
+switches during the oxygen filling procedure. Electrostatically ground
+the aircraft and also electrostatically bond the oxygen charging
+equipment to the aircraft. If a thunderstorm can occur, immediately stop
+all oxygen filling operations. Stop the filling procedure immediately if
+the pressures in each oxygen cylinder do not increase smoothly and at
+the same time. Only use aviator's breathing oxygen as defined by Airbus.
+Keep all hydrocarbons (fuels, corrosion protection compounds,
+lubricants, etc.) away from all sources of oxygen. Oxygen becomes
+explosive when it touches hydrocarbons. Open the hand-valves of the
+oxygen cylinder very slowly and turn them to the fully open position. In
+the case the hand-valves are not fully open before flight, the data of
+the oxygen pressure on the corresponding ECAM page will not be correct.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 40 of 107
+FOR TRAINING PURPOSES ONLY
+SAFETY PRECAUTIONS - DURING OXYGEN SERVICING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 41 of 107
+FOR TRAINING PURPOSES ONLY
+SAFETY PRECAUTIONS - DURING OXYGEN SERVICING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 42 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) SAFETY PRECAUTIONS
+(continued) OXYGEN COMPONENTS REMOVAL AND INSTALLATION Make sure that
+the ground support equipment is approved for the oxygen system.
+Equipment that is not approved can cause contamination of the system and
+injury. Always work with clean clothes and tools. Keep your hands clean
+(possibly, wear gloves in cotton). Do not touch connection ends and
+interior of oxygen components with bare hands, because skin oil and
+bacteria are a source of contamination. The area around the oxygen
+components must always be cleaned with approved cleaner before and after
+any work done on the system. Any tool, rag, cloth, or equipment that is
+not clean and free of oil traces must not be used or stay in the area
+around the oxygen components. Make sure that all oxygen cylinder valves
+are closed. Due to possible residual pressure in the line, disconnect
+the connectors carefully. Put dry, clean, metal or plastic plugs on all
+pipes or units removed temporarily. Put each pipe or unit in a sealed
+vinyl bag. Unwanted material in the oxygen system could damage the
+system or cause explosion if oil ingress.
+Make sure that the flexible hoses are not twisted or pulled tight. If
+the hoses are twisted or pulled tight the connections will break and
+cause a leak. Torque the connection at the right value given by the
+maintenance manual. Open and close the spring-loaded clamps carefully to
+prevent damage to the electrical harness near the oxygen cylinders.
+WARNING: NEVER USE STANDARD OIL TO LUBRICATE THE CONNECTOR THREAD (risk
+of explosion). ONLY LUBRICANTS and thread compounds SPECIFICALLY
+APPROVED FOR OXYGEN must be used. Some unit/assembly are heavy. Support
+the unit/assembly carefully to prevent injury to persons and damage.
+During disconnection/reconnection of an oxygen line connector use two
+wrenches: one for the nut and one for the counter nut to avoid force
+onto the material (risk of rupture and leakage).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 43 of 107
+FOR TRAINING PURPOSES ONLY
+SAFETY PRECAUTIONS - OXYGEN COMPONENTS REMOVAL AND INSTALLATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 44 of 107
+FOR TRAINING PURPOSES ONLY
+SAFETY PRECAUTIONS - OXYGEN COMPONENTS REMOVAL AND INSTALLATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 45 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) SAFETY PRECAUTIONS
+(continued) LEAK DETECTION Make sure that the leak detector products and
+test equipment are approved for the oxygen system. Equipment or products
+that are not approved can cause contamination of the system and injury
+to personnel (fire, explosion). Make sure that the items in the
+"fixtures, tools, and test and support equipment" paragraph are
+applicable to your aircraft. Refer to the applicable task and subtasks.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 46 of 107
+FOR TRAINING PURPOSES ONLY
+SAFETY PRECAUTIONS - LEAK DETECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 47 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) SAFETY PRECAUTIONS
+(continued) OXYGEN SPECIFIC USE Oxygen must be used only for oxygen
+system servicing. Never use oxygen for other purposes such as tire or
+accumulator inflation, blowing of dust...
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 48 of 107
+FOR TRAINING PURPOSES ONLY
+SAFETY PRECAUTIONS - OXYGEN SPECIFIC USE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 49 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SAFETY IN AIRCRAFT MAINTENANCE ENVIRONMENT (2) SAFETY PRECAUTIONS
+(continued) OXYGEN TRANSPORTATION Oxygen cylinders or oxygen chemical
+generators are classified as dangerous material. As a result, their
+transportation by aircraft is restricted and must comply with specific
+regulations of International Air Transport Association (IATA).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 50 of 107
+FOR TRAINING PURPOSES ONLY
+SAFETY PRECAUTIONS - OXYGEN TRANSPORTATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 51 of 107
+FOR TRAINING PURPOSES ONLY
+CREW OXYGEN MASK UTILIZATION/STOWAGE/TESTS (2) UTILIZATION The mask
+assembly and the stowage box are installed adjacent to each crewmember
+seat. The stowage box which contains the mask, also controls the flow of
+oxygen when the mask is pulled out of the box. To use the mask, squeeze
+the red clips, which will inflate the mask harness; releasing the red
+clips will stop oxygen flow to the harness and vent the oxygen remaining
+in the harness to the atmosphere. Oxygen flow is indicated by the
+blinker showing yellow and an OXY ON flag, which appears on the left
+door when closed. The mask regulator provides either normal or pure
+oxygen by means of a Normal/100% selector. In the Normal position, the
+user breathes a mixture of cabin air and oxygen. When the selector is in
+the 100% position, the user will breathe pure oxygen. When the emergency
+rotation knob is rotated, the mask regulator supplies 100% of oxygen at
+a permanent positive pressure, independent of the position of the
+normal/100% selector. To take the mask off, the harness has to be
+inflated. This is done by operating the red clips.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 52 of 107
+FOR TRAINING PURPOSES ONLY
+UTILIZATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 53 of 107
+FOR TRAINING PURPOSES ONLY
+CREW OXYGEN MASK UTILIZATION/STOWAGE/TESTS (2) STOWAGE Proper stowing of
+the mask is essential for quick and efficient donning of the mask. Open
+the stowage box flap doors, and position the flexible hose correctly.
+Engage the mask assembly, regulator on top. Close the left flap door
+carefully while pushing the reset test slider to retract the OXY ON
+flag. At the end of the restowing operation, do the: IN SITU TESTING.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 54 of 107
+FOR TRAINING PURPOSES ONLY
+STOWAGE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 55 of 107
+FOR TRAINING PURPOSES ONLY
+CREW OXYGEN MASK UTILIZATION/STOWAGE/TESTS (2) TESTS Push the reset test
+slider. The blinker turns yellow and goes black again showing that the
+regulator is leak tight. Press the harness inflation control. The
+blinker turns yellow and goes black again showing that the harness is
+leak tight. The on demand system is tested by pressing the emergency
+rotation knob.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 56 of 107
+FOR TRAINING PURPOSES ONLY
+TESTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 57 of 107
+FOR TRAINING PURPOSES ONLY
+TESTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 58 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER OXYGEN UNIT D/O (3) MASK OPERATION As soon as the emergency
+oxygen container doors open, the masks fall out. They are hung on
+lanyards within the reach of users. When the first user pulls the mask
+towards his face, the release pin starts the chemical generation. Oxygen
+flows through the flexible supply hoses to all masks of the container.
+Each flow indicator shows a green stripe.
+CHEMICAL OXYGEN GENERATION The chemical generator uses the basic
+principal of thermal decomposition of sodium chlorate. A thermal
+indicator shows the generator condition. According to the generator
+type, there can be two different indicators: 1- Black: the oxygen
+generator has been burned out. - Yellow: the oxygen generator is new. 2-
+Blue: the oxygen generator has been burned out. - Pink: the oxygen
+generator is new. The chlorate core is fitted in a stainless steel
+housing.
+GENERATOR OPERATION By pulling the release pin of the starter assembly
+the spring loaded firing pin will hit the percussion cap. The heat
+produced in the percussion cap will then activate the starting powder of
+the generator.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 59 of 107
+FOR TRAINING PURPOSES ONLY
+MASK OPERATION ... GENERATOR OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 60 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) GENERAL SYSTEM DESCRIPTION
+The passenger gaseous oxygen system supplies oxygen to each oxygen
+container in case of an emergency. The rate of the oxygen flow depends
+on the altitude. The oxygen supply starts automatically at a cabin
+pressure equivalent to an altitude exceeding 14.000 ft (4.265 m) and
+stops when the cabin pressure drops below a pressure equivalent to
+10.000 ft (3.050 m). The system can than be re-started if the aircraft
+has to climb to clear another obstacle. The gaseous oxygen system has no
+characteristic flight profile. Since the flow is greater with the
+altitude, the lower the flight is done the longer the oxygen supply
+lasts. High-pressure oxygen is stored in oxygen cylinder assemblies
+installed behind sidewall linings RH in the bulk cargo compartment. The
+standard system has 6 oxygen cylinders. Up to 8 oxygen cylinders can be
+installed on airline request. When the system is operated, low-pressure
+oxygen from the pressure regulators is supplied to the two Main
+Distribution Lines (MDLs). One line is installed below the cabin floor
+along the LH side of the aircraft. The other line is installed above the
+cabin ceiling. Riser Lines (RLs) are connected to the MDLs to supply
+oxygen to the hat rack lines. The hat rack lines supply oxygen to the
+oxygen containers.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 61 of 107
+FOR TRAINING PURPOSES ONLY
+GENERAL SYSTEM DESCRIPTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 62 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) THERMAL COMPENSATORS
+PASSENGER OXYGEN SYSTEM STORAGE OXYGEN CYLINDER ASSEMBLY The
+high-pressure oxygen cylinder is made of carbon fibres wrapped around an
+aluminium inner liner. It has the capacity of 3310 liter (116.9 cuft) at
+a pressure of 127.5 bar (1850 psig). The cylinder head valve assembly is
+made of: - a slow-opening Shutoff Valve (SOV) with an integrated reed
+switch sensor for closed/open identification, - a direct-reading
+pressure gage, - a high-pressure safety outlet with a burst disc, - an
+inlet/outlet port. To protect the cylinder from overpressure, the oxygen
+cylinder has a high-pressure safety outlet with a burst disc. The burst
+disc will rupture at a pressure of 169 bar (2451 psig) at a temperature
+of 71 °C (160 °F) and 191 bar (2770 psig) at a temperature of 21 °C
+(70°F).
+OVERBOARD DISCHARGE INDICATOR The overboard discharge indicator makes a
+continuous surface with the outside skin of the aircraft. It has a
+fluorescent green burst disk and a yellow housing. The burst disk of
+each oxygen cylinder and the safety outlet of the pressure relief valve
+are connected via the overboard discharge line with the overboard
+discharge indicator. In case of overpressure in the higher part or in
+the intermediate pressure part, the green burst disk is blown out and a
+reflective yellow area of the discharge indicator is shown.
+OXYGEN PRESSURE REDUCER The oxygen pressure reducer transmitter assembly
+is directly connected to the inlet/outlet port of the oxygen cylinder
+assembly and reduces the cylinder pressure to the intermediate pressure
+of 7.6 ± 0.7 bar (110 ± 10 psig). The outlet of the oxygen pressure
+reducer is connected with the intermediate pressure line.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+The thermal compensators prevent dangerous increases of temperature
+during replenishment of oxygen cylinder. They are installed in the
+high-pressure line (fill line) immediately in front of the pressure
+reducers.
+TEMPERATURE TRANSDUCER The temperature transducer measures the ambient
+temperature in the installation area of oxygen cylinders and generates a
+related electrical signal sent to the Quantity Calculation and Control
+Unit (QCCU) for the computation.
+PRESSURE RELIEF VALVE A pressure relief valve is installed between the
+intermediate pressure line and the overboard discharge line. It is a
+double redundant safety valve. The inlet port of the pressure relief
+valve is connected with the intermediate pressure line. If the pressure
+in the intermediate pressure line exceeds 9.7 ± 0.7 bar (140 ± 10 psig),
+the valves will open. The overpressure can then discharge via the
+overboard discharge line. The relief valve closes when the pressure
+decreases below 8.3 bar (120 psig). For redundancy functions, two valves
+are arranged in series to prevent system pressure loss if one valve
+fails to close. Two serial valve devices are arranged in parallel.
+OXYGEN FILLING PORT The oxygen filling port enables the connection of an
+oxygen ground filling equipment for cylinders replenishing. The oxygen
+filling port has: - a flow restrictor to make sure safe pressure
+rises, - a filter to prevent contamination of the system, - an external
+cap with a safety chain.
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 63 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER OXYGEN SYSTEM STORAGE - OXYGEN CYLINDER ASSEMBLY ... OXYGEN
+FILLING PORT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 64 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) PASSENGER OXYGEN SYSTEM
+DISTRIBUTION GENERAL The oxygen distribution lines enable the supply of
+the oxygen from the oxygen cylinders in the bulk cargo compartment to
+the cabin. The low-pressure oxygen is supplied to the two MDLs. At the
+FR47/51, the MDL is split in two: One line is installed below the cabin
+floor along the LH side of the aircraft and the other line is installed
+above the cabin ceiling. The two MDL are joined again at FR 26. The area
+where the MDLs are doubled is the engine burst area. Riser lines are
+connected to the MDL's at approximately every 4 fuselage frames to
+supply oxygen to the hatrack supply lines and to the oxygen containers.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 65 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER OXYGEN SYSTEM DISTRIBUTION - GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 66 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) PASSENGER OXYGEN SYSTEM
+DISTRIBUTION (continued) INTERMEDIATE LINE LOW PRESSURE SWITCH The
+low-pressure switch is installed in the intermediate pressure line
+between the pressure reducers and the oxygen regulators. If the pressure
+in the intermediate pressure line is not sufficient, the low-pressure
+switch generates a warning signal on the Passenger Oxygen Indication
+Panel (POXIP) in the cockpit overhead panel. The decreasing pressure is
+6.9 bar (100 psi) and the increasing pressure is 5.5 ± 0.7 bar (80±10
+psi).
+The cap of the test port installed in the oxygen distribution system
+downstream of the oxygen regulators has a bleed/vent function. Together
+with the bleed/vent valve it allows a sufficient equalization of
+pressure between the oxygen distribution system and the cabin pressure.
+This prevents the 'SYS ON' indicator light to come on accidentally when
+the cabin altitude pressure changes.
+PRESSURE OXYGEN REGULATORS Two redundant Pressure Oxygen Regulators
+(PORs) are installed in the intermediate pressure line. Each regulator
+operates the system independently from the other. The POR integrates a
+motor driven SOV. At first the POR integrated motor driven SOV is fully
+opened for approximately 6-9 seconds to surge the MDL. After the
+surging, the POR measures the ambient pressure (determining cabin
+altitude) and the pressure in the MDL just downstream of the POR through
+integrated pressure sensors. The POR compares the pressure in the MDL to
+the required pressure (depending on cabin altitude) using analogue
+circuits. The motor driven SOV moves to the position necessary to obtain
+the correct pressure in the MDL thus supplying the correct flow to the
+oxygen masks.
+TEST PORTS The system has three test ports. One is installed in the
+intermediate pressure line and the other two are installed in the
+low-pressure distribution network. These test ports are used for the
+connection of test tool for leakage, pressure tests, system function,
+and pressure release of the distribution network.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 67 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER OXYGEN SYSTEM DISTRIBUTION - INTERMEDIATE LINE LOW PRESSURE
+SWITCH ... TEST PORTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 68 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) PASSENGER OXYGEN SYSTEM
+DISTRIBUTION (continued) BLEED/VENT VALVE The bleed vent valve is
+installed at the most FWD point of MDL located in the ceiling. After
+system activation, the valve opens for approximately 15 to 25 seconds to
+let the air/oxygen mixture contained in the distribution network be
+released out of the MDLs and the system is purged. The bleed vent valve
+contains an orifice, which lets a small amount of oxygen escape from the
+distribution system. The bleed vent valve also contains a filter
+protecting the oxygen system from contamination.
+MDL SHUTOFF VALVES The system has two MDLs SOVs, which are pneumatically
+controlled. One MDL SOV is installed in the ceiling MDL just AFT of the
+rim release area. The other MDL SOV is installed in the under floor MDL
+just AFT of the rim release area. During normal system operation both
+MDL SOVs are open in flow direction. There are also RL SOVs installed in
+the engine burst area and the rim release area. They are installed
+immediately after the connection with the main supply line. In normal
+operation, the riser line SOVs are open. If a riser line is damaged, the
+riser line SOV closes automatically.
+RL CHECK VALVES The system has two check valves installed. One check
+valve is installed in the ceiling MDL just FWD of the engine burst area.
+The other check valve is installed in the under floor MDL just FWD of
+the engine burst area. In normal operation, the check valves are open.
+When a main line is damaged due to uncontained engine rotor failure or
+rim release, the check valve closes.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 69 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER OXYGEN SYSTEM DISTRIBUTION - BLEED/VENT VALVE ... RL CHECK
+VALVES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 70 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) SYSTEM ACTIVATION AND
+RESET AUTOMATIC MODE When the cabin pressure decreases to a pressure
+equivalent to 14.000 ft + 250/-750 ft (4.265 m) the altitude switch
+closes. This starts the automatic operation of the oxygen system. The
+Pressure Oxygen Regulators (PORs) open fully to purge the Main
+Distribution Line (MDL), measure the cabin altitude of the A/C and the
+pressure in the distribution network. The POR adjusts the pressure in
+the distribution line to the required oxygen pressure in order to obtain
+the correct flow. The POR does not require any software.
+MANUAL MODE If the altitude SW fails, the MASK MANual ON P/B can be
+pushed at any time to start the operation of the oxygen system. The MASK
+MAN ON P/B sends a signal to open the PORs. POR operation is the same as
+in automatic mode.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 71 of 107
+FOR TRAINING PURPOSES ONLY
+SYSTEM ACTIVATION AND RESET - AUTOMATIC MODE & MANUAL MODE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 72 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) SYSTEM ACTIVATION AND
+RESET (continued) SYSTEM OPERATION After system activation in either
+Automatic or Manual mode, the bleed/vent valve first bleeds the
+remaining air in the lines and then closes to let the system fill with
+oxygen. The SYStem ON light comes on as soon as one POR is open. An
+emergency announcement is transmitted over the passenger address system.
+The oxygen masks container doors open pneumatically and the masks fall.
+Oxygen only flows to the masks, which are pulled down.
+RESET The OXYGEN TiMeR RESET P/BSW is used to reset the electrical
+circuit after the system operation. When the OXYGEN TMR RESET P/BSW is
+pushed and the cabin altitude is less than 10000 ft, the oxygen
+regulators will close and the SYS ON indication will turn off when the
+pressure in the distribution system decreases below 4,5 ± 0,5 kPa (0,045
+± 0,005 bar).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 73 of 107
+FOR TRAINING PURPOSES ONLY
+SYSTEM ACTIVATION AND RESET - SYSTEM OPERATION & RESET
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 74 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) ENGINE BURST / RIM RELEASE
+PROTECTION DAMAGE TO MAIN DISTRIBUTION LINE In case of damage to a part
+of the MDL due to engine burst failure or rim release, the surge flow in
+the damaged MDL part will induce the SOV in the damaged part of the MDL
+to close. The reverse flow check valve on the damaged part of the MDL
+will also close in order to seal the damaged area. The surge pressure
+increases and when the door latch actuation pressure (1.5 bar - 3.0 bar)
+is reached, the doors of the oxygen container assemblies supplied by the
+undamaged part of the MDL will be released.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 75 of 107
+FOR TRAINING PURPOSES ONLY
+ENGINE BURST / RIM RELEASE PROTECTION - DAMAGE TO MAIN DISTRIBUTION LINE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 76 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) ENGINE BURST / RIM RELEASE
+PROTECTION (continued) DAMAGE TO RISER LINE In case of damage to a RL
+due to engine burst failure or rim release, the surge flow in the
+damaged RL part will induce the SOV in the RL to close. The surge
+pressure increases and when the door latch actuation pressure (1.5 bar -
+3.0 bar) is reached, the doors of the oxygen container will be released
+(except the doors of the oxygen containers in the damaged RL).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 77 of 107
+FOR TRAINING PURPOSES ONLY
+ENGINE BURST / RIM RELEASE PROTECTION - DAMAGE TO RISER LINE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 78 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) PASSENGER OXYGEN CONTAINER
+ASSEMBLIES There are different oxygen container assemblies for the
+different installation places in the aircraft cabin. These assemblies
+are different in length and width. Each type of container can have
+different numbers of masks. For each mask, there is a flow restrictor
+and a SOV activated automatically by a lanyard. To carry out the
+interface requirements of the aircraft the following different oxygen
+container types are required: - type I installed in the overhead stowage
+PSU channels to supply 2 to 4 persons with oxygen (LH and RH
+container), - type II installed in sidewalls, ceilings, lavatories and
+galleys to supply 2 persons with oxygen. An oxygen container assembly is
+mainly composed of: - a container housing, - a container door (spring
+loaded for type II, type I not spring loaded), - a door stop/test button
+device, - an inlet port inclusive filter, - a pneumatic door latch
+including a lever for manual opening, - a manifold with individual
+outlets having SOV integrated for each mask connection, - an oxygen mask
+assembly, - a flow indicator for each oxygen mask, - a distribution tube
+from inlet port to manifold and to the pneumatic door latch, - a lanyard
+to activate the flow to each individual mask.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 79 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER OXYGEN CONTAINER ASSEMBLIES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 80 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) CONTROL & INDICATION
+GENERAL Altitude Pressure Switch The altitude switch, which is installed
+in the avionics compartment, starts the automatic operation of the
+passenger oxygen system. It sends a signal to open the oxygen
+regulators, which supply low-pressure oxygen to the oxygen distribution
+system. In case of high altitude airfield operation option, the altitude
+switch has two settings: - the first setting closes, if the pressure
+falls to a value equivalent to 14000 +250/ -750 ft. (4267.12 +76,2/
+-228,6 m), - the second setting closes, if the pressure falls to a value
+equivalent to 16000 +250/ -750 ft. (4876.71 +76,2/ -228,6 m).
+-   the electrical circuit is set to the normal condition,
+-   the oxygen regulators close. In this case the ON light comes on and
+    stays on for 5 seconds. It does not go off if the electrical circuit
+    for the oxygen system does not reset to the correct condition.
+NOTE: If high altitude airfield operation is required, the system can be
+adapted by using a dual altitude pressure switch and by adapting the
+activation circuit. Oxygen Control Panel On the oxygen control panel,
+the MASK MAN ON P/BSW allows the crew to activate the oxygen system as a
+backup and override the altitude pressure switch. The oxygen regulators
+stay open even if the MASK MAN ON P/BSW is released. When the OPEN
+relays do not operate, it is necessary to hold the MASK MAN ON P/BSW for
+1 second to open the oxygen regulators. A safety guard is installed over
+the MASK MAN ON P/BSW to prevent accidental operation of the system. The
+SYS ON indicator light on the overhead panel comes on when at least one
+pressure oxygen regulator is open. When the pressure in the system
+decreases the SYS ON indicator light goes off. TMR RESET P/B The TMR
+RESET P/BSW is installed on the maintenance panel and is used to reset
+the controls after the system operation. When the TMR RESET P/BSW is
+pushed:
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 81 of 107
+FOR TRAINING PURPOSES ONLY
+CONTROL & INDICATION - GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 82 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) In this case the oxygen
+cylinders are empty which leads to a NO GO if there are passengers on
+board.
+CONTROL & INDICATION (continued) PASSENGER OXYGEN INDICATION PANEL The
+monitoring of the gaseous oxygen system has indications and warnings,
+which are displayed to the cockpit crew on the Passenger Oxygen
+Indication Panel (POXIP) and by a white PASSENGER SYS ON light. As
+additional attention getters, separate lights are placed next to the
+cylinder pressure display. These lights will be switched on, in case the
+cylinder pressure decreases below some values. Maintenance messages
+cannot be recorded automatically, since no maintenance computer will be
+installed. Failures requiring maintenance activity will have to be noted
+by the flight crew, some failure messages will be displayed on the
+Quantity Calculation and Control Unit (QCCU) itself. Indication of
+Filling Pressure Depending on the actual value of the analogue input
+from the QCCU, there are 4 different cases: CASE 1: Fill Pressure 1600
+PSI Pressure value indication displayed in BLACK / WHITE. In this case
+the required system performance is available. CASE 2: 1600 PSI \> Fill
+Pressure 200 PSI Pressure value indication displayed in BLACK / WHITE.
+CHECK light on in AMBER. In this case the crew must refer to the Flight
+Crew Operating Manual (FCOM) to determine the remaining system
+performance (descent profile) depending on the number of passengers and
+the flight plan. CASE 3: Fill Pressure \< 200 PSI Pressure value
+indication displayed in BLACK / WHITE. CHECK light on in AMBER. LO light
+on in AMBER.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CASE 4: Fill Pressure not available or out of range Pressure value
+indication replaced by "- -" in BLACK / WHITE (class 1 failure). The
+crew must refer to the Master Minimum Equipment List (MMEL) to determine
+the procedures and actions to accomplish when operating with the
+pressure indication inoperative. In this case, the oxygen pressure has
+to be checked by direct reading before each flight. Indication of
+Failures QCCU, Pressure and Temperature Transducer Failure of QCCU
+and/or Pressure Transducer and/or Temperature transducer. Pressure value
+indication are replaced by "--" in BLACK / WHITE. Indication by a light
+on the QCCU itself. The crew must refer to the MMEL to determine the
+procedures and actions to accomplish when operating with the pressure
+indication inoperative. In this case, the oxygen pressure has to be
+checked by direct reading before each flight. Hand Valves on Oxygen
+Cylinder One or more hand valves of the passenger oxygen cylinders are
+closed. Flight phase inhibition 3-9 required using "engine running"
+signal. CYLINDER FAULT light on in AMBER (class 1 failure). System
+Pressure Intermediate Line The failure is shown if the system activated
+mode and stand by mode: System pressure downstream of pressure reducers
+is too low or in case of low pressure switch failure. REGUL LO PR light
+ON in AMBER (class 1 failure). Pressure Oxygen Regulator
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 83 of 107
+FOR TRAINING PURPOSES ONLY
+System stand by mode: One or both pressure oxygen regulators are not
+fully closed. - REGUL SYS1 and/or REGUL SYS2 light on in AMBER (class 1
+failure). - SYS ON light on System activated and system stand by mode:
+One or both pressure regulators have a power loss. - REGUL SYS1 and/or
+REGUL SYS2 light on in AMBER (class 1 failure). System activated mode:
+One or both pressure regulators are closed. - REGUL SYS1 and/or REGUL
+SYS2 light on in AMBER (class 1 failure). Circuit Breaker The failure is
+when the circuit breaker for regulator is not activated: REGUL SYS1
+and/or REGUL SYS2 light on in AMBER (class 1 failure).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 84 of 107
+FOR TRAINING PURPOSES ONLY
+CONTROL & INDICATION - PASSENGER OXYGEN INDICATION PANEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 85 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) CONTROL & INDICATION
+(continued) QCCU The QCCU monitors the oxygen pressure in the installed
+oxygen cylinders. The QCCU receives signals from: - the pressure
+transmitters integrated in each pressure reducer, - the temperature
+transducer. The QCCU sends a signal of the arithmetic average pressure
+of the installed oxygen cylinders to the fill panel indicator (non
+temperature compensated) and a temperature adjusted pressure to the
+POXIP. The QCCU also sends a signal to the POXIP if: - the QCCU does not
+operate, - the signal from the temperature transducer is out of range, -
+the signals from the pressure transducers are out of range. A "- -"
+instead of a pressure value will be displayed on the POXIP and the
+respective fault indication on the front of QCCU comes on. QCCU Test The
+QCCU test is done via the TEST P/B located on its front face. Before
+pushing this TEST P/B, turn the two switches on the QCCU until the
+correct number of oxygen cylinders installed in the aircraft comes on,
+on the QCCU display. If there is no QCCU indication, the TEST P/B can be
+pushed: - the COMPUTER, TEMPERATURE and PRESSURE indicators come on, -
+the QCCU displays the "88" indication. After 3 seconds: - the COMPUTER,
+TEMPERATURE and PRESSURE indicators go off, - the QCCU displays the
+number of selected oxygen cylinders. After 12 seconds, the number of
+selected oxygen cylinders on the QCCU display goes off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 86 of 107
+FOR TRAINING PURPOSES ONLY
+CONTROL & INDICATION - QCCU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 87 of 107
+FOR TRAINING PURPOSES ONLY
+PASSENGER GASEOUS OXYGEN SYS D/O (OPTION) (3) SERVICING FILLING
+Refilling of the cylinders is accomplished via the oxygen filling port.
+This port is installed on the oxygen fill panel and enables connection
+of an external oxygen source for replenishing of the oxygen cylinders.
+The correct filling pressure depends on the outside and the cargo
+compartment temperatures, and can be determined by the use of the
+aircraft placards. To check the correct fill pressure, you have to
+calculate the average pressure in the replenished oxygen cylinders. Make
+sure that the pressure on the fill panel pressure indicator is the same
+as the calculated average pressure in the oxygen cylinders. During
+filling, an increase in temperature in each cylinder is limited by a
+thermal compensator. The QCCU monitors the fill pressure in the
+cylinders and the pressure indication is displayed on the POXIP and on
+the indicator fill panel.
+TEST PORT The three test ports enable the maintenance crew to increase
+and decrease the pressure in the oxygen system during a functional check
+of the system. The first test port, which is installed in the
+intermediate line before the oxygen regulators, is used for different
+tests and checks of the oxygen system. The second test port, which is
+installed in the oxygen distribution system downstream of the oxygen
+regulators, is used for different tests and checks of the oxygen
+distribution system. The third test port, which is installed in the
+oxygen distribution system downstream of the check valves, lets you
+decrease the pressure of the supply lines downstream of the check
+valves. Before the depressurization of the system, it is necessary to
+close the manual SOVs of the oxygen cylinders.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 88 of 107
+FOR TRAINING PURPOSES ONLY
+SERVICING - FILLING & TEST PORT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 89 of 107
+FOR TRAINING PURPOSES ONLY
+CREW PORTABLE OXYGEN SYSTEM D/O (3) GENERAL The portable breathing
+equipment (PBE) provides eyes protection and supplies oxygen to the crew
+member in case of emergency: fire, or an emission of smoke or noxious
+gases. The PBE allows freedom of movement to extinguish a fire.
+LOCATION The PBE is vacuum-packed in a transport/storage container. A
+PBE container is installed in the cockpit. PBEs for cabin crew are
+installed in cabin.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 90 of 107
+FOR TRAINING PURPOSES ONLY
+GENERAL & LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 91 of 107
+FOR TRAINING PURPOSES ONLY
+CREW PORTABLE OXYGEN SYSTEM D/O (3) DESCRIPTION The container is
+installed with a tamper seal and a serviceability indicator for the
+preflight inspection; the serviceability indicator is broken after
+opening the box. NOTE: According to the supplier, another indicator is
+available which shows a yellow indicator if the container has not been
+opened. The protective breathing hood works with a closed breathing
+circuit. The system is activated by a starter via a lanyard. The expired
+air will be regenerated, enriched with oxygen, and inhaled again. The
+oxygen is generated in exothermic chemical reaction between the
+potassium peroxide (KO2), the humidity, and the carbon dioxide (CO2) in
+the expired air; this reaction releases heat. The protective breathing
+equipment is composed of three main parts: A hood with: - the neck seal
+at the level of the neck, - the straps attached to the hood maintain the
+inner mask around the back of the user head, - a relief valve in the
+hood, which keeps the overpressure in the hood at a comfortable level.
+An inner mask installed with: - an anti-suffocation valve, operated by a
+higher breathing resistance. The user can inhale through this valve from
+the volume between head and hood, - a speech transmitter is located in
+front of the oronasal mask. A KO2 cartridge has: - an attached breathing
+bag installed with a volume-controlled relief valve, - a starter
+activated by a lanyard, - a fold tube (or breathing hose) connected to
+the oronasal mask, - a belt, which holds the cartridge on the hood.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 92 of 107
+FOR TRAINING PURPOSES ONLY
+DESCRIPTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 93 of 107
+FOR TRAINING PURPOSES ONLY
+CREW PORTABLE OXYGEN SYSTEM D/O (3) OPERATION The PBE is stored under a
+vacuum in a specially designed bag. The bag is mounted inside a box in
+such a way that, after opening the box, the hood is removed and the
+vacuum protection is automatically opened with a single movement. The
+hood is fire resistant.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 94 of 107
+FOR TRAINING PURPOSES ONLY
+OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 95 of 107
+FOR TRAINING PURPOSES ONLY
+CABIN PORTABLE OXYGEN EQUIPMENT D/O (3) BOTTLE The oxygen source is a
+high-pressure cylinder. The high-pressure cylinders are installed in
+brackets with quick-release clamps.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 96 of 107
+FOR TRAINING PURPOSES ONLY
+BOTTLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 97 of 107
+FOR TRAINING PURPOSES ONLY
+CABIN PORTABLE OXYGEN EQUIPMENT D/O (3) FIRST AID MASK The
+continuous-flow first aid oxygen mask supplies oxygen for therapeutic
+purposes. The flexible supply hose connects the mask to the calibrated
+continuous-flow outlet of the bottle.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 98 of 107
+FOR TRAINING PURPOSES ONLY
+FIRST AID MASK
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 99 of 107
+FOR TRAINING PURPOSES ONLY
+CABIN PORTABLE OXYGEN EQUIPMENT D/O (3) PORTABLE BREATHING EQUIPMENT The
+Portable Breathing Equipment gives breathing means and eyes protection
+for one user in case of: fire, or emission of smoke and/or noxious
+gases. It lets the user move freely.The Portable Breathing Equipment
+container is installed with a good-condition indicator and a tamper seal
+for the pre-flight inspection. The annular container in the hood, full
+of compressed oxygen, releases the amount of oxygen that the user needs.
+The gas circulation is generated when the user breathes in and out.
+Cockpit Portable Breathing Equipment container can be optionally
+installed in the cabin.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 100 of 107
+FOR TRAINING PURPOSES ONLY
+PORTABLE BREATHING EQUIPMENT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 101 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SYSTEM LINE MAINTENANCE (2) DAILY CHECK During the daily check
+the external walk around will include the visual check of the crew
+oxygen cylinder overpressure (Green) discharge disc to be sure that it
+is not missing. The ECAM DOOR/OXY page shows the crew oxygen pressure
+indication. If the pressure is less than 1500 PSI for a 77 cuft bottle,
+an amber half frame (advisory) is shown for information. For a 115 cuft
+bottle, the threshold is 1000 PSI. In this case, check the AMM. This is
+to see if the minimum oxygen pressure available to the flight crew is
+within the permitted limits. Refer to the minimum flight crew oxygen
+pressure chart and find the minimum pressure according to the ambient
+temperature and the number of crew members. If the pressure is less than
+the minimum flight crew oxygen pressure the oxygen cylinder must be
+changed. Push the reset test slider, the blinker turns yellow and goes
+back to black again showing that the regulator is leak tight. Press the
+harness inflation control, the blinker turns yellow and goes back to
+black again showing that the harness is leak tight. Pressing the
+emergency rotation knob tests the on demand system. The microphone is
+tested by activating the loudspeakers, the interphone, and by pressing
+the emergency rotation knob. When the tests are completed, make sure
+that the NORMAL / 100% selector is locked in the 100% position, and the
+reset slider returns to the UP position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 102 of 107
+FOR TRAINING PURPOSES ONLY
+DAILY CHECK
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 103 of 107
+FOR TRAINING PURPOSES ONLY
+DAILY CHECK
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 104 of 107
+FOR TRAINING PURPOSES ONLY
+OXYGEN SYSTEM LINE MAINTENANCE (2) MAINTENANCE TIPS CREW OXYGEN MASK
+STOWING Proper stowing of the mask is essential for quick and efficient
+donning of the mask. Open the stowage box flap doors and position the
+flexible hose correctly. Engage the mask assembly with the regulator on
+top. Close the left flap door carefully while pushing the reset test
+slider to retract the OXY ON flag. At the end of the re stowing
+operation, do the IN SITU TEST.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 105 of 107
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE TIPS - CREW OXYGEN MASK STOWING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 106 of 107
+FOR TRAINING PURPOSES ONLY
+Training Manual Airbus A318/319/ A320/A321 (CFM56 & V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 107 of 107

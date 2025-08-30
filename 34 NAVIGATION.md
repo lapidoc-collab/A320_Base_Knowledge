@@ -1,0 +1,2430 @@
+Airbus A318/A319/A320/A321 (CFM56 & V2500) B1+B2 Technical Training
+Manual
+ATA 34 -- Navigation Airframe Systems
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more. Contact us Tel: +44(0) 1565 653745 Email:
+admin@catts.org.uk Web: www.catts.org.uk Online Training:
+catts.learnupon.com/store
+ATA Chapters Required in this Training Manual AIRFRAME SYSTEMS ATA 34
+Navigation
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+Training Ma Manual Airbus A318/319/ A320/A321 (CFM56 & V2500) ATA 34
+Airframe Systems; Navigation Level 3
+FOR TRAINING PURPOSES ONLY
+NAVIGATION GENERAL
+GROUND PROXIMITY WARNING SYSTEM (EGPWS)
+Navigation System Control & Indicating (2) . . . . . . . . . . . . . . .
+. . . . . 2 Radio Navigation Frequency Selection (3) . . . . . . . . . .
+. . . . . . . . . . . 4
+EGPWS Presentation (2) . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . 134 EGPWS Description/Operation (3) . . . . . . . . . .
+. . . . . . . . . . . . . . . 140 EGPWS Modes (3) . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . 148
+AIR DATA/INERTIAL REFERENCE SYSTEM (ADIRS) ADIRS Principle (2) . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 Air
+Data Probes Presentation (2) . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . 22 ADIRS Switching (2) . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . 28 ADIRS Alignment through MCDU (2)
+. . . . . . . . . . . . . . . . . . . . . . . 32
+INTEGRATED STBY INSTRUMENT SYSTEM (ISIS) ISIS D/O (3) . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+ISIS Interfaces (3) . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . 58 ISIS BITE and Test (3) . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+DISTANCE MEASURING EQUIPMENT (DME) SYSTEM DME System Presentation (2) .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . 168 DME
+Description/Operation (3) . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . 174
+AIR TRAFFIC CONTROL (ATC) SYSTEM ATC System Presentation (2) . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . 176 ATC
+Description/Operation (3) . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . 184
+AUTOMATIC DIRECTION FINDER (ADF) SYSTEM
+MULTI MODE RECEIVER (MMR) SYSTEM
+ADF System Presentation (2) . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . 188 ADF Description/Operation (3) . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . 194
+MMR System Presentation (2) . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . 66 MMR System Description/Operation (3) . . . . . . . .
+. . . . . . . . . . . . . . 80
+VOR/MARKERS SYSTEM
+WEATHER RADAR(WXR)& PREDICTIVE WINDSHEAR(PWS)
+VOR/MKR System Presentation (2) . . . . . . . . . . . . . . . . . . . .
+. . . . 196 VOR/MKR Description/Operation (3) . . . . . . . . . . . . .
+. . . . . . . . . . 212 Navigation System Operation, Control &
+Indicating (3) . . . . . . . . . 214
+WXR/PWS System Presentation (2) . . . . . . . . . . . . . . . . . . . .
+. . . . . 86 WXR/PWS Description/Operation (3) . . . . . . . . . . . . .
+. . . . . . . . . . . 98 WXR/PWS Operational Precautions (2) . . . . . .
+. . . . . . . . . . . . . . . 104
+RADIO ALTIMETER (RA) SYSTEM Radio Altimeter System Presentation (2) . .
+. . . . . . . . . . . . . . . . . . . 106 Radio Altimeter
+Description/Operation (3) . . . . . . . . . . . . . . . . . . . 116
+TRAFFIC COLLISION AVOIDANCE SYSTEM (TCAS) TCAS Presentation (2) . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 118 TCAS
+Description/Operation (3) . . . . . . . . . . . . . . . . . . . . . . .
+. . . . 130
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 5 of 209
+FOR TRAINING PURPOSES ONLY
+NAVIGATION SYSTEM CONTROL & INDICATING (2) ADIRS, EFIS and RADIO NAV
+ISIS and STBY COMPASS ATC/TCAS, WXR RADAR and EGPWS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 6 of 209
+FOR TRAINING PURPOSES ONLY
+RADIO NAVIGATION FREQUENCY SELECTION (3) VOR 1 SELECTION THROUGH MCDU To
+get the RADIO NAV page on the MCDU, the RADio NAVigation key must be
+selected. When the Flight Management and Guidance Computer (FMGC) auto
+tunes the NAV receivers, the identifier, frequency and course (VOR only)
+are shown in small font on the MCDU. The desired VOR 1 beacon indication
+(AGN shown as example) can be manually inserted using MCDU keys. Then,
+the selection must be transferred to VOR 1 using the corresponding line
+select key, identifier will now be shown in big font. The related
+frequency, found in the database is also displayed and tuned; the course
+will now blank (between two brackets). The course is also inserted using
+MCDU line keys (307 shown as example). The selection must be transferred
+to CRS 1 using the corresponding line select key. When indications on
+the MCDU are manually entered, they are displayed in big font.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 7 of 209
+FOR TRAINING PURPOSES ONLY
+VOR 1 SELECTION THROUGH MCDU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 8 of 209
+FOR TRAINING PURPOSES ONLY
+RADIO NAVIGATION FREQUENCY SELECTION (3) VOR 2 SELECTION THROUGH RMP
+This procedure is used as a backup operation only in case of failure of
+both FMGCs, or failure of the MCDUs. Only the Radio Management Panel
+(RMP) 2 allows the tuning of F/O side receivers. To activate the RMP
+navigation keys, the guarded NAV key must be open and selected. The MCDU
+RADIO NAV page is blocked and all tuning indications disappear. Then the
+VOR key must be selected and a new VOR frequency can be tuned (114.8 MHz
+shown as example). Selecting the transfer green key activates the new
+frequency. The VOR operates on the just entered frequency but uses the
+previous course. A new VOR course value must be entered (307 shown as
+example) using the frequency selector knobs on the RMP. Selecting the
+transfer green key prepares the RMP for a new VOR selection.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 9 of 209
+FOR TRAINING PURPOSES ONLY
+VOR 2 SELECTION THROUGH RMP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 10 of 209
+FOR TRAINING PURPOSES ONLY
+RADIO NAVIGATION FREQUENCY SELECTION (3) ADF 1 SELECTION THROUGH RMP
+Only RMP 1 allows the tuning of CAPT side receivers. To activate the RMP
+navigation keys, the guarded NAV key must be open and selected. Then the
+Automatic Direction Finder (ADF) key must be selected, and a new ADF
+frequency can be tuned (406.5 kHz) using the frequency selectors knobs
+on the RMP 1. Selecting the transfer green key activates the new
+frequency. It is possible to check the Morse identification of the radio
+navigation stations using the ADF 1 knob on the Audio Control Panel
+(ACP). When pressed, the related Morse signal can be heard and the audio
+level can be adjusted by rotating the knob.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 11 of 209
+FOR TRAINING PURPOSES ONLY
+ADF 1 SELECTION THROUGH RMP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 12 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS PRINCIPLE (2) GENERAL The Air Data/Inertial Reference Unit (ADIRU)
+comprises an Air Data Reference (ADR) system and an Inertial Reference
+(IR) system, both included in a single unit. The ADIRU uses inputs from
+external sensors: Angle Of Attack (AOA), Total Air Temperature (TAT),
+and Air Data Module (ADM). The ADIRUs are interfaced with the Air
+Data/Inertial Reference System (ADIRS) Mode Selector Unit (MSU).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 13 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 14 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS PRINCIPLE (2) ADM FUNCTIONAL DESCRIPTION The ADM has a
+microcomputer which processes an ARINC signal according to the discrete
+inputs and to the digitized pressure.
+ADM INPUTS The ADM inputs are one pressure input and several discrete
+inputs. The ADMs are identical and fully interchangeable. The discrete
+inputs determine the ADM location and the type of pressure data (Pitot
+or static) provided to the ADR. The power supply for the ADM is a 13.5V
+DC supply from the associated ADIRU.
+ADM OUTPUTS The ADM output is an ARINC bus, which gives digital pressure
+information, type of pressure, ADM identification and BITE status to the
+ADIRU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 15 of 209
+FOR TRAINING PURPOSES ONLY
+ADM FUNCTIONAL DESCRIPTION ... ADM OUTPUTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 16 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS PRINCIPLE (2) IR STRAPDOWN In a strapdown Inertial Reference
+System (IRS) the gyros and the accelerometers are solidly attached to
+the aircraft structure. The strapdown laser gyro supplies directly
+accelerations and angular speeds.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 17 of 209
+FOR TRAINING PURPOSES ONLY
+IR STRAPDOWN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 18 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS PRINCIPLE (2) RING LASER GYRO The three ring Light Amplification
+Stimulated Emission of Radiation (LASER) gyros, one for each rotation
+axis, give inertial rotation data and are composed of two opposite LASER
+beams in a ring. At rest, the two beams get to the sensor with the same
+frequency. An aircraft rotation creates a difference of frequencies
+between the two beams. The frequency difference is measured by optical
+means providing an analog output, which is sent to an analog/digital
+converter. After computation this output will provide rotation
+information.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 19 of 209
+FOR TRAINING PURPOSES ONLY
+RING LASER GYRO
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 20 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS PRINCIPLE (2) ACCELEROMETER Three accelerometers, one for each
+axis, provide linear accelerations. The acceleration signal is sent to
+an analog/digital converter. The digitized signal is then sent to a
+processor, which uses this signal to compute the velocity and the
+position.
+IR COMPUTATION Each ADIRU computes the LASER gyro and the accelerometer
+outputs to provide IR data to users.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 21 of 209
+FOR TRAINING PURPOSES ONLY
+ACCELEROMETER & IR COMPUTATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 22 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS PRINCIPLE (2) COMPONENT LOCATION The 3 ADIRUs are in the aft
+avionics compartment forward of the 80VU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 23 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 24 of 209
+FOR TRAINING PURPOSES ONLY
+AIR DATA PROBES PRESENTATION (2) STANDARD CONFIGURATION PITOT PROBES
+Three Pitot probes provide total pressure to three Air Data Modules
+(ADMs), which convert this pressure into digital format: ARINC 429.
+ARINC words are then sent to the corresponding Air Data/Inertial
+Reference Unit (ADIRU).
+STATIC PORTS Six static ports provide static pressure to five ADMs,
+which convert this pressure into digital format: ARINC 429. The two
+standby static ports provide an average pressure directly to the standby
+instruments, and to ADR 3 through a single ADM.
+AOA SENSORS Each ADIRU receives Angle-Of-Attack (AOA) information from
+its corresponding AOA sensor. The AOA sensors are also called Alpha
+probes.
+TAT SENSORS The three ADIRUs receive Total Air Temperature (TAT)
+information from two TAT sensors. NOTE: The two TAT sensors are composed
+of two sensing elements. ADIRU 3 receives the TAT from TAT sensor 1 one
+only.
+WATER DRAIN The probes are installed in such a way that their pressure
+lines do not require a water drain, except for that of the standby
+static ports.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 25 of 209
+FOR TRAINING PURPOSES ONLY
+STANDARD CONFIGURATION - PITOT PROBES ... WATER DRAIN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 26 of 209
+FOR TRAINING PURPOSES ONLY
+AIR DATA PROBES PRESENTATION (2) OPTIONAL CONFIGURATION CLASSIC STANDBY
+INSTRUMENTS The classic standby instruments (Altimeter, Air speed
+indicator and horizon) can be installed instead of ISIS. The standby
+Pitot probe supplies the standby AirSpeed Indicator (ASI) directly and
+the Air Data Reference (ADR) 3 through its related ADM.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 27 of 209
+FOR TRAINING PURPOSES ONLY
+OPTIONAL CONFIGURATION - CLASSIC STANDBY INSTRUMENTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 28 of 209
+FOR TRAINING PURPOSES ONLY
+AIR DATA PROBES PRESENTATION (2) ADM PNEUMATIC CONNECTION To connect the
+ADM quick-disconnect coupling, make sure that you can see the blue ring
+on the coupling and pull it to make sure that it is correctly attached.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 29 of 209
+FOR TRAINING PURPOSES ONLY
+ADM PNEUMATIC CONNECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 30 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS SWITCHING (2) GENERAL The Air Data/Inertial Reference System
+(ADIRS) is composed of three Air Data Inertial Reference Units (ADIRUs).
+PRINCIPLE Various instruments and systems receive data from the ADIRS
+for inertial and air data display: - the PFDs, - the NDs, - the ECAM
+SD, - the Digital Distance and Radio Magnetic Indicator (DDRMI). The
+ADIRUs transmit air data, attitude and navigation parameters to various
+user systems. As an example, the ADIRS provides: - barometric altitude
+data to the Air Traffic Control (ATC) system for mode C and S, - data to
+the Flight Augmentation Computers (FACs) for computation of various
+characteristic speeds, - data to the Weather Radar (WXR) system for
+antenna attitude stabilization. Basically, ADIRU 1 is associated with
+systems 1 and the DDRMI, ADIRU 2 with systems 2, and ADIRU 3 is in
+standby. ADIRU 3 can substitute either system, for this purpose it has
+interfaces with the three Display Management Computers (DMCs). If an Air
+Data Reference (ADR) or an Inertial Reference (IR) fails, the AIR DATA
+or ATTitude HeaDinG selectors enable the crew to use ADR 3 or IR 3. The
+manual switching is mainly performed to recover displays. The computers
+select their inputs according to the switching for consistency of
+computation and display. NOTE: The ADIRU data sent to the ECAM SD are
+Static Air Temperature (SAT), Total Air Temperature (TAT) and
+International Standard Atmosphere (ISA).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 31 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL & PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 32 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS SWITCHING (2) SWITCHING EXAMPLE Here is an example of ADIRS
+switching with IR 1 and ADR 2 failed in order to see the effects on the
+schematic.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 33 of 209
+FOR TRAINING PURPOSES ONLY
+SWITCHING EXAMPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 34 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS ALIGNMENT THROUGH MCDU (2) GENERAL The Air Data and Inertial
+Reference System (ADIRS) has three identical Air Data and Inertial
+Reference Units (ADIRUs), one ADIRS Mode Selector Unit (ADIRS MSU) and a
+number of sensors. The ADIRUs receive information from the sensors to
+compute air and internal laser gyros and the accelerometers to compute
+inertial data. This data is displayed to the crew and sent to the MCDU
+and other A/C systems. The sensors also send data to the Integrated
+Standby Instrument System (ISIS) for standby display.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 35 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 36 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS ALIGNMENT THROUGH MCDU (2) ADIRS - ALIGNMENT BATTERIES TEST NOTE:
+Note: There is no specific ADIRS battery.
+ALIGNMENT OF THE IRS The Flight Management Guidance and Envelope System
+(FMGES) uses the reference point coordinates of the departure airport to
+align the Inertial Reference System (IRS). It automatically finds these
+coordinates in the database after the operator enters a company route or
+an origin-destination city pair and pushes the ALIGN IRS key on the
+MCDU. The operator can manually adjust these coordinates to the gate
+position. The time necessary for a full alignment is 10 minutes. It is
+necessary to do a specific alignment procedure between 73°and 82° north
+or south (refer to FCOM documentation). The alignment procedure is not
+possible at more than 82° north or south.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 37 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS - ALIGNMENT - BATTERIES TEST & ALIGNMENT OF THE IRS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 38 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS ALIGNMENT THROUGH MCDU (2) ADIRS - ALIGNMENT (continued) AUTOMATIC
+ALIGNMENT BY GPS (OPTION) With the latest ADIRUs, an optional automatic
+alignment by GPS position is possible. With this initialization by GPS,
+no operator action is necessary. Less than 1 minute after the ADIRS is
+set to NAV, the INIT page displays the GPS position, but does not
+display the ALIGN IRS prompt message. The time necessary for a full
+alignment will be between 5 and 10 minutes in relation to the local
+latitude and a maximum of 17 minutes between 73° and 82° north or south.
+If the operator enters a company route or an origin-destination city
+pair, the INIT page displays the departure airport reference-point
+coordinates, and the IRS ALIGN prompt message comes into view. If the
+prompt key is not pushed, the ADIRS will be aligned on the GPS position.
+If the prompt key is pushed, the ADIRS will be aligned on the reference
+point coordinates of the departure airport. The operator can also use
+the MCDU latitude and longitude keys of the INIT page to change the
+given aircraft position. This will cause the ALIGN IRS prompt key to
+come into view. This prompt key must then be pushed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 39 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS - ALIGNMENT - AUTOMATIC ALIGNMENT BY GPS (OPTION)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 40 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS ALIGNMENT THROUGH MCDU (2) ADIRS - ALIGNMENT (continued) FAST
+REALIGNMENT During transit or en-route stops with short ground times,
+the flight crew can do a fast realignment with the selector, which must
+be turned from NAV to OFF and then back to NAV in less than 5 seconds.
+The Inertial Reference (IR) starts a 30-second realignment with existing
+attitude, heading angles and velocities set to zero. NOTE: Note: The
+ALIGN IRS prompt will come into view and must be pushed to do the
+alignment. With the optional automatic alignment by GPS, the procedure
+is the same but no pilot entry is necessary (no action necessary on the
+ALIGN IRS prompt).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 41 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS - ALIGNMENT - FAST REALIGNMENT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 42 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS ALIGNMENT THROUGH MCDU (2) INTERRUPTION DURING ALIGNMENT EXCESSIVE
+MOTION If taxiing or towing causes a step input that is more than a
+specified threshold, alignment or fast realignment is stopped and then
+the ADIRUs start a 10-minute alignment again. Step input threshold: 0.5
+ft/s, 30 seconds after the detection of movement, and if no other
+movement occurs, a 10-minute alignment starts.
+NOTE: Note: If the test is done two times, one after the other, and the
+test results are not correct, the IRS detects a fault situation
+(indications on MSU and EWD). If this occurs, set the ADIRUs to OFF,
+wait for 20 seconds and try to do a full alignment again.
+NOTE: Note: It is not necessary to re-initialize the position if already
+entered.
+TEST OF STORED POSITION When the initial position is entered, the ADIRUs
+do a check to find if this position is within a threshold of the
+computed position, which was stored at the last ADIRU shutdown. If not,
+an MCDU message "REALIGN IRS" is displayed to enter the present
+position. Test threshold: 1° for latitude and longitude during
+alignment, 0.5° during fast realignment. NOTE: Note: If the result of
+the test for the new position is not correct, the system waits for
+another position entry. If the same position (out of the threshold) is
+entered two times, the ADIRUs accept it as a deliberate choice.
+TEST OF COMPUTED LATITUDE At the end of the alignment, the ADIRUs do a
+check to find if the entered latitude is within a threshold of the
+self-computed latitude. If not, an MCDU message "REALIGN IRS" is
+displayed to enter the present position. When a new position is entered,
+the IRS alignment is necessary. If the test result is correct for this
+position, the alignment is completed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 43 of 209
+FOR TRAINING PURPOSES ONLY
+INTERRUPTION DURING ALIGNMENT - EXCESSIVE MOTION ... TEST OF COMPUTED
+LATITUDE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 44 of 209
+FOR TRAINING PURPOSES ONLY
+ADIRS ALIGNMENT THROUGH MCDU (2) MAINTENANCE TIPS In some conditions, if
+you do not know the airport point coordinates, a long time can be
+necessary for the alignment of the ADIRS and for the maintenance task
+(for example, if the GPS is not available and you are not at your usual
+airport). To find easily the local data for longitude and latitude (to
+align the ADIRS), you can print out the Post Flight Report (PFR). On the
+PFR header, you usually find the origin-destination city pair. Enter the
+4 letters of the destination city, via the MCDU scratchpad line, in the
+"FROM" and "TO" fields of the INIT page, e.g. "KFJK/KJFK". Then push the
+ALIGN IRS prompt key.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 45 of 209
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE TIPS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 46 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS D/O (3) GENERAL The Integrated Standby Instrument System (ISIS) is
+a combined standby altimeter, horizon indicator and AirSpeed Indicator
+(ASI). It displays the following information: - airspeed, - mach
+number, - pitch and roll angles, - altitude in feet, - Glide Slope (G/S)
+and LOCalizer deviations. - BAROmetric reference in hectopascals (hPa).
+Optionally, it displays: - metric altitude, - magnetic heading, - BARO
+correction in inches of mercury in addition to the BARO correction in
+hectopascals. A light sensor on the ISIS front face automatically
+controls the display brightness. As soon as the ISIS is energized, it
+shows the initialization display for 90 s. This display has four yellow
+boxes indicating ATTitude, SPeeD, ALTitude and INIT 90 s.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 47 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 48 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS D/O (3) STANDBY AIRSPEED INDICATOR FUNCTION The standby airspeed
+indicator function measures the pitot/static pressure differential from
+the standby air data system and gives the airspeed indication in knots
+(kts). The airspeed indicator is shown vertically with a linear scale
+from 0 to 520 kts. This scale moves up and down in front of a fixed
+yellow triangle indicating the A/C actual airspeed. When the airspeed
+data is not valid, the airspeed scale is replaced by a red SPD flag.
+When the mach number is above 0.5, it is shown in green in the left
+bottom part of the display area, just below the speed scale. In case of
+failure, a red M flag is shown instead of the mach number.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 49 of 209
+FOR TRAINING PURPOSES ONLY
+STANDBY AIRSPEED INDICATOR FUNCTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 50 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS D/O (3) STANDBY ALTIMETER FUNCTION The standby altimeter indication
+is supplied with static pressure by the standby air data system to
+indicate the barometric altitude of the aircraft in feet (ft). The
+altitude indicator is shown vertically with a linear scale from - 2.000
+to + 50.000 ft. This altitude scale moves up and down behind a window
+with a yellow border indicating the A/C actual altitude value in green
+digits. When the altitude data is not valid, the altitude scale is
+replaced by a red ALT flag. If the altitude is NEGative, the NEG
+indication is shown in white near the digital read-out. The range is -
+2.000 to 0 ft. Optionally the metric altitude is shown in the right top
+part of the display in addition to the altitude in feet. The metric
+altitude indication is shown in green by means of the digital read-out
+surrounded in yellow. The cyan letter M is written next to the altitude
+value. In case of negative altitude, the NEG indication is shown in
+white in front of the metric altitude value.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 51 of 209
+FOR TRAINING PURPOSES ONLY
+STANDBY ALTIMETER FUNCTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 52 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS D/O (3) REFERENCE BAROMETRIC PRESSURE INDICATION Pushing the BARO
+reference selector knob in the bottom right corner of the indicator lets
+the crew select the standard BARO pressure. STD is shown in cyan below
+the attitude display in the bottom center of the display. Pushing it
+again makes the selection of the QNH (sea level atmospheric pressure)
+BARO reference in hectopascals. The selected BARO correction value is
+shown in cyan in place of STD. Rotating the BARO selector knob sets the
+corrected value in the range from 745 to 1100 hPa. Optionally the BARO
+correction value can be shown in inches of mercury (in.Hg). It is shown
+in cyan, in addition to the BARO correction value in hectopascal. The
+BARO selector knob is used for the display and the adjustment of the
+reference BARO correction in the range from 22 to 32.48 in.Hg.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 53 of 209
+FOR TRAINING PURPOSES ONLY
+REFERENCE BAROMETRIC PRESSURE INDICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 54 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS D/O (3) STANDBY HORIZON The A/C symbol is in black and outlined in
+yellow. It gives a fixed reference for the moving pitch scale and roll
+indication. The basic A/C symbol can be optionally replaced by the V-bar
+symbol when the related pin-program discrete is grounded. Pitch angles
+are shown with reference to the fixed A/C symbol. At angles greater than
+30 degrees nose up or down, red large arrow heads indicate an excessive
+attitude and the direction to follow in order to reduce the pitch angle.
+Roll angle is shown with reference to a fixed roll scale and yellow
+triangle as index. The scale has white marks at 10, 20, 30, 45 and 60
+degrees on either side of the zero position, which is indicated by a
+small black triangle with white outline, it is the roll indicator. As
+the A/C rolls left and right, the roll angle indicator moves across the
+fixed scale. A trapezoidal index, which can move beneath the roll
+indicator, represents the A/C lateral acceleration (sideslip). In case
+of failure of the pitch or roll information, the attitude display is
+replaced by a red ATT flag. The optional magnetic heading display is a
+moving white scale against a fixed yellow triangle as reference. In case
+of failure of the magnetic heading information, the magnetic heading
+display is replaced by a red HDG flag.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 55 of 209
+FOR TRAINING PURPOSES ONLY
+STANDBY HORIZON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 56 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS D/O (3) LS AND BUGS FUNCTION When the Landing System P/B located on
+the right top part of the indicator is pushed the G/S and the LOC scales
+come into view. In case of failure of the G/S or LOC information, the
+related display is replaced by a red G/S or LOC flag. Pushing the BUGS
+P/B shows the BUGS display. This display is used to program
+characteristic speeds and altitudes displayed on the related speed and
+altitude scales. Pushing the BARO selector knob de-activates a bug and
+the OFF indication is shown next to the de-activated bug. Pushing it
+again re-activates the bug. Rotating the BARO selector knob sets the
+required bug value. Pushing the (-) P/B enables to move down to the next
+bug and the (+) P/B to move up to the previous bug. The ReSeT P/B is
+used to reset the attitude values during stabilized flight (no pitch or
+roll angles and with stabilized speed). It is also used in the different
+menus, as a "return" function.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 57 of 209
+FOR TRAINING PURPOSES ONLY
+LS AND BUGS FUNCTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 58 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS D/O (3) ISIS MENUS The ISIS indicator is able to display
+maintenance data when the BUGS and LS P/Bs are pushed simultaneously at
+least 2 s. In this case, a menu with two items is shown on screen: TESTS
+and OTHER DATA. The P/Bs adjacent to these items give access to the
+related menus. The OTHER DATA menu is made of two items: LRU IDENT and
+ENGINEERING DATA. When the (+) P/B next to the LRU IDENT item is pushed,
+the display shows the: - ISIS Part Number (PN) and the Serial Number
+(SN), - A/C configuration (active options), - functional time counter
+(operating hours). When the (-) P/B next to ENGINEERING DATA is pushed,
+the display shows the: - ATA reference and time, - component
+identification and Functional Item Number (FIN), - failure code data. If
+there is more than one data page, pushing the (+) or (-) P/Bs enables to
+go to the next or previous data pages. Pushing the RST P/B enables to
+return to the previous menu page. Pushing the RST P/B several times
+restores the operational display. The TESTS menu gives access to the
+FUNCTIONAL TEST and DISPLAY TEST. NOTE: The ISIS has an internal
+flight/ground logic, which manages the BITE function and prevents
+maintenance mode activation in flight. The test is inhibited when the
+Calibrated Air Speed (CAS) is greater than 60 kts.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 59 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS MENUS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 60 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS INTERFACES (3) OUTPUTS
+CONNECTORS DESCRIPTION On the back of the Integrated Standby Instrument
+System (ISIS) there are two pressure connections and one electrical
+connector. To avoid "cross connection" the pressure connectors are keyed
+and color-coded: Red for total pressure and yellow for static pressure.
+The electrical connector is for power supply, pin programming and
+systems interface. The normal power supply is 28V DC from the DC
+ESSential BUS. If DC ESS BUS is not available, a back-up of 28V DC is
+automatically supplied from the HOT BATtery BUS if airspeed is greater
+than 50 kts.
+All the data received and computed by the ISIS is sent to the Flight
+Data Interface and Management Unit (FDIMU) through one ARINC 429
+high-speed bus for inertial data transmission and one low-speed bus for
+anemometric data transmission. One discrete output is used for
+fault/healthy indication. In case of a fatal failure of the ISIS the red
+message OUT OF ORDER associated with the related fault code is shown.
+PERIPHERALS INPUTS The ISIS receives data from several systems. Via
+ARINC 429 buses the ISIS is connected to: - the Instrument Landing
+System (ILS) or Multi-Mode Receiver (MMR) for localizer and glide slope
+signals, - the Air Data/Inertial Reference Unit (ADIRU) 1 and 3 for the
+reception of the optional magnetic heading data. An ARINC 429 input is
+reserved as system provision (not shown). Through discrete inputs the
+ISIS receives signals: - from the ATTitude HeaDinG selector switch on
+the SWITCHING panel for selection of active ADIRU 1 (normal mode) or 3
+(alternate mode), - for the display of the optional reference BAROmetric
+pressure in inches of mercury in addition to the reference BARO in
+hectopascals, - for the display of the optional altitude value in meter
+in addition to the altitude value in feet, - which enable to change the
+basic aircraft symbol by the V-bars symbol as an option, - for the ISIS
+indicator face tilting (4 discretes), - for parity control of all the
+discretes.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 61 of 209
+FOR TRAINING PURPOSES ONLY
+CONNECTORS DESCRIPTION & PERIPHERALS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 62 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS BITE AND TEST (3) ISIS BITE TEST JOB SET-UP Put the A/C in
+maintenance configuration: - energize the A/C electrical circuits, - do
+the Air Data/Inertial Reference System (ADIRS) start procedure, - open,
+safety and tag the NAVigation/STandBY/INSTrument C/B on the overhead C/B
+panel 49VU, - remove the safety clip and the tag and close the
+NAV/STBY/INST C/B. On the Integrated Standby Instrument System (ISIS)
+indicator, make sure that: - the INIT 90 s indication comes into view, -
+the functions page comes into view.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 63 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS BITE TEST - JOB SET-UP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 64 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS BITE AND TEST (3) ISIS BITE TEST (continued) PROCEDURE On the
+center instrument panel 401VU, on the ISIS indicator: - push the BUGS
+and the LS P/Bs at the same time and hold them pushed for more than 2
+s, - push the P/B adjacent to the TESTS indication, - push the P/B
+adjacent to the FUNCTIONAL TEST (110s) indication. At the end of the
+test, the TEST OK indication comes into view, NOTE: Do not move the A/C
+during the alignment period of this test (110 s). - push the ReSeT P/B
+until the previous menu page comes into view.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 65 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS BITE TEST - PROCEDURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 66 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS BITE AND TEST (3) ISIS BITE TEST (continued) CLOSE-UP Put the A/C
+back to its initial configuration: Do the ADIRS stop procedure and
+de-energize the A/C electrical circuits.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 67 of 209
+FOR TRAINING PURPOSES ONLY
+ISIS BITE TEST - CLOSE-UP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 68 of 209
+FOR TRAINING PURPOSES ONLY
+MMR SYSTEM PRESENTATION (2) GENERAL The Multi-Mode Receiver (MMR) system
+is a navigation sensor with 3 internal receivers: MMR = ILS + GPS.
+ILS PRINCIPLE The function of the ILS is to supply to the crew and
+airborne system users, signals transmitted by ground stations. A descent
+axis is determined by the intersection of a Localizer beam (LOC) and a
+Glide Slope beam (G/S) created by these ground stations at known
+frequencies. The ILS can measure and display angular deviations and it
+also receives the Morse audio signal, which identifies the ILS ground
+stations.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 69 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL & ILS PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 70 of 209
+FOR TRAINING PURPOSES ONLY
+MMR SYSTEM PRESENTATION (2) GPS PRINCIPLE The NAV System Time And
+Ranging (STAR) GPS is a worldwide navigation radio aid which uses
+satellite signals to provide accurate navigation information. The
+architecture of the system is composed of 3 parts called segments: -
+spatial segment, - control segment, - user segment.
+SPATIAL SEGMENT The spatial segment is composed of a constellation of 24
+satellites. These satellites are arranged in six separate orbital planes
+of four satellites each on a circular orbit. These orbits have the
+following characteristics: - 55° inclination to the Equator, - an
+altitude of approximately 20.200 km with an orbital period of 12
+sidereal hours. These satellites give: - the satellite position
+(ephemeris of the constellation), - the constellation data (almanach), -
+the atmospheric corrections.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 71 of 209
+FOR TRAINING PURPOSES ONLY
+GPS PRINCIPLE - SPATIAL SEGMENT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 72 of 209
+FOR TRAINING PURPOSES ONLY
+MMR SYSTEM PRESENTATION (2) GPS PRINCIPLE (continued) CONTROL SEGMENT
+The control segment is composed of four monitor stations and one master
+control station which track the satellites, compute the ephemeris,
+correct the clock and control the navigation parameters and transmit
+them to the GPS users. The four monitor stations are located at: -
+Kwajalein (Marshall islands in Pacific ocean), - Hawaii (Pacific
+ocean), - Ascencion Island (Atlantic ocean), - Diego Garcia (Indian
+ocean). The master control station is located at Colorado Springs (USA).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 73 of 209
+FOR TRAINING PURPOSES ONLY
+GPS PRINCIPLE - CONTROL SEGMENT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 74 of 209
+FOR TRAINING PURPOSES ONLY
+MMR SYSTEM PRESENTATION (2) GPS PRINCIPLE (continued) USER SEGMENT The
+principle of GPS position computation is based on the measurement of
+transmission time of the GPS signals broadcast by at least four
+satellites. This segment is constituted by the GPS receiver and
+allows: - signal acquisition, - distance calculation, - navigation
+computation (Satellite choice, positioning, propagation corrections), -
+detection and isolation of failed satellites. NOTE: When GPS mode is
+active, no VOR/DME/ADF data is used for navigation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 75 of 209
+FOR TRAINING PURPOSES ONLY
+GPS PRINCIPLE - USER SEGMENT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 76 of 209
+FOR TRAINING PURPOSES ONLY
+MMR SYSTEM PRESENTATION (2) COMPONENTS The components are one dual LOC
+antenna, one dual G/S antenna, two GPS antennas and two MMR units. The
+MMR system interfaces with: - PFDs and NDs for display, - EFIS control
+unit for display and ILS control, - Flight Management and Guidance
+Computers (FMGCs), for ILS auto-tuning and GPS position, - MCDUs for ILS
+manual tuning, - CAPT and F/O Radio Management Panels (RMPs) for ILS
+back-up tuning, - Audio Control Panels (ACPs) for ILS audio signal, -
+Air Data/Inertial Reference Units (ADIRUs) for GP-IRS hybrid position
+computation. The Multi-mode Receivers are in the forward avionics bay
+90VU. The Multi-mode Receiver antennas are installed on the upper
+fuselage for the GPS function and in the radome for the G/S and LOC dual
+antennas.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 77 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 78 of 209
+FOR TRAINING PURPOSES ONLY
+MMR SYSTEM PRESENTATION (2) ILS INDICATING The ILS data appears on the
+PFD as soon as the LS P/BSW on the EFIS control panel has been pressed
+in, and on the ND when ROSE/LS mode has been selected. ILS information
+is displayed in magenta. The ILS 1 information is displayed on PFD 1 and
+ND 2. The ILS 2 information is displayed on PFD 2 and ND 1.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 79 of 209
+FOR TRAINING PURPOSES ONLY
+ILS INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 80 of 209
+FOR TRAINING PURPOSES ONLY
+MMR SYSTEM PRESENTATION (2) GPS INDICATING The GPS data is displayed on
+the MCDUs and on the NDs. The GPS data on MCDU GPS MONITOR page are: -
+GPS POSITION which gives the aircraft latitude and longitude, - TTRK,
+which gives the aircraft true track, - GPS ALT which gives the aircraft
+GPS altitude, - MERIT for the figure of Merit in meters, - GS, which
+gives the aircraft ground speed value, - MODE/SAT, which indicates the
+number of satellites tracked and the mode used. GPS message on ND gives
+information on the availability of the GPS primary navigation function.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 81 of 209
+FOR TRAINING PURPOSES ONLY
+GPS INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 82 of 209
+FOR TRAINING PURPOSES ONLY
+MMR SYSTEM DESCRIPTION/OPERATION (3) (GPS 2) by means of the ATT HDG
+selector switch (13FP) to preserve side 1/side 2 segregation (GPS
+1/ADIRU 1/FMGC 1 and GPS 2/ADIRU 3/FMGC 2 architecture). In case of
+failure of two ADIRUs, the two FMGCs use only the operative ADIRU. This
+ADIRU receives data from its own side GPS (e.g. ADIRU 1. GPS 1).
+GENERAL The Multi-Mode Receiver (MMR) system includes: - 2 MMR units, -
+1 dual Glide Slope (G/S) antenna, - 1 dual Localizer (LOC) antenna, - 2
+GPS antennas.
+MANUAL TUNING
+ILS FUNCTION
+From each MCDU both MMR units can be manually tuned through their onside
+FMGC.
+AUTO TUNING In normal operation, the GPS 1 data are used by the Air
+Data/Inertial Reference Units (ADIRUs) 1 and 3; the GPS 2 data by the
+ADIRU 2. In order to reduce GPS initialization time, the GPS 1 (2)
+receives data from the ADIRU 1(2). The Inertial Reference (IR) portion
+of the ADIRU 1(2) gives to the FMGC 1(2): - pure IR data, - pure GPS
+data (in this case the ADIRU operates as a relay), - hybrid GPIR data.
+The FMGC 1(2) uses the hybrid GPIR 1(2) data for position fixing
+functions. The pure GPS data are used for display on the MCDU 1 and 2.
+In case of one GPS failure, the three ADIRUs automatically select the
+only operative GPS to compute hybrid GPIR data. In case of one ADIRU 1
+failure, the FMGC 1 uses ADIRU 3/GPS 1 data. In case of one ADIRU 2
+failure, the FMGC 2 uses ADIRU 3/GPS 2 data. The primary source of ADIRU
+3 being the GPS 1, it is necessary to select the secondary input port of
+the ADIRU 3
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+NOTE: To return to the auto-tuning mode, the manual mode has to be
+cleared.
+BACK-UP TUNING In case of failure of both FMGCs, a back-up tuning is
+provided by RMP 1 and 2. Either RMP controls both MMR units, if NAV mode
+is activated by selecting NAV key on RMP 1 and 2. In this mode, the RMP
+1 can control the MMR 2 through the RMP 2, which can control the MMR 1
+through the RMP 1. NOTE: RMP 3 is not used for navaids tuning. In
+emergency electrical configuration only RMP 1 is supplied.
+ANTENNAS The dual G/S and dual LOC antennas are common to both MMR
+units. Each antenna has two independent connectors, for each MMR units.
+GPS FUNCTION
+CATTS LTD
+GPS OPERATION The GPS function is achieved by two stand-alone satellite
+navigation sensors using the US GPS satellites constellation. The GPS
+primary
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 83 of 209
+FOR TRAINING PURPOSES ONLY
+function is to track the Radio Frequency (RF) signals received from the
+satellites, to compute its own position and to provide the GPS data to
+the FMGCs through the three ADIRUs. Receiver Autonomous Integrity
+Monitoring (RAIM) or Autonomous Integrity Monitoring Extrapolation
+(AIME) provides integrity and availability of this data. The GPS
+function provides three-dimensional aircraft position, velocities and
+exact time used for hybrid computations by the three ADIRUs. In case of
+failure of one GPS function, the ADIRU automatically selects the only
+operative GPS function to compute hybrid GP-IRS data.
+NOTE: As long as GPS/IRS mode is active, radio updating DME/DME or
+VOR/DME is not allowed.
+LGCIU Each Landing Gear Control and Interface Unit (LGCIU) sends a
+ground/flight discrete signal, which is used by the receiver BITE module
+to count the MMR internal flight legs.
+ANTENNAS The GPS antenna is an L-band active antenna, with an integrated
+preamplifier and filter, providing an omni-directional upper hemispheric
+coverage. The GPS antenna operates at a frequency of 1575.42 MHz called
+L1. A second frequency of 1227.6 MHz, called L2, is used to estimate the
+propagation error of L1 and to suppress it.
+ADIRU To reduce initialization time, MMR unit 1 and 2 receive position
+data (latitude, longitude), time and date from the associated ADIRU. In
+case of failure of ADIRU 2 the primary source of ADIRU 3 being GPS 1, it
+is necessary to select the second input port of ADIRU 3 (GPS 2) by means
+of the ATTitude/HeaDinG selector knob on the SWITCHING panel to preserve
+the side 1/side 2 segregation: - MMR 1 provides data to FMGC 1 through
+ADIRU 1, - MMR 2 provides data to FMGC 2 through ADIRU 3.
+FMGC The Inertial Reference (IR) portion of ADIRU 1 or 2 provides FMGC 1
+or 2 with pure IR data, pure GPS data and hybrid GP-IRS data for
+position fixing. The FMGC position is a mix of the hybrid GPS/Inertial
+Reference System (IRS) position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 84 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL ... LGCIU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 85 of 209
+FOR TRAINING PURPOSES ONLY
+MMR SYSTEM DESCRIPTION/OPERATION (3) CFDIU The Centralized Fault Display
+Interface Unit (CFDIU) enables tests and trouble shooting to be carried
+out on the MMR system using the MCDU. The test can be done only on
+ground.
+USERS The MMR data is sent to the FMGCs for aircraft guidance during
+take off, approach and landing phases. The MMR data is also sent to the
+ECAM for warnings. The MMR 1 data is send to the Enhanced Ground
+Proximity Warning System (EGPWS) for mode 5 computation (descent below
+G/S). NOTE: A discrete signal sent by the FMGC inhibits any frequency
+change in the MMR unit when LAND mode is armed below 700 ft.
+INDICATING The ILS 1 data is sent, through the Display Management
+Computers (DMCs), to the CAPT PFD and F/O ND and the ILS 2 data is sent
+to the F/O PFD and CAPT ND. An audio signal is also processed by the MMR
+unit (ILS part) and sent to the Audio Management Unit (AMU) so that it
+can be heard by the crew. Pure GPS data is available for display on the
+GPS MONITOR page of the MCDUs. Operational messages may also be
+displayed on the NDs.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 86 of 209
+FOR TRAINING PURPOSES ONLY
+CFDIU ... INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 87 of 209
+FOR TRAINING PURPOSES ONLY
+WXR/PWS SYSTEM PRESENTATION (2) GENERAL The airborne Weather Radar (WXR)
+and Predictive WindShear system (PWS) detects and localizes atmospheric
+wet disturbances and windshear events in the area scanned by the
+antenna.
+WXR PRINCIPLE The WXR helps the pilots to avoid these areas and the
+related turbulences by determining their range and bearing. It can also
+be used for ground mapping. The radar emits microwave pulses through a
+directive antenna, which receives the return signals that are the
+echoes. The distance is determined by the time necessary for the echoes
+to come back. The azimuth is given by the antenna position when the echo
+is received.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 88 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL & WXR PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 89 of 209
+FOR TRAINING PURPOSES ONLY
+WXR/PWS SYSTEM PRESENTATION (2) PWS PRINCIPLE A windshear event is a
+sudden change of wind speed and/or direction over a small distance
+caused by downwards and/or upwards movement of the air. The most
+critical moment for the aircraft is near the ground level during the
+approach or in take-off. The PWS function detects the windshear event if
+measurable precipitation occurs during the event.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 90 of 209
+FOR TRAINING PURPOSES ONLY
+PWS PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 91 of 209
+FOR TRAINING PURPOSES ONLY
+WXR/PWS SYSTEM PRESENTATION (2) COMPONENTS The primary components are: -
+a weather radar transceiver, - a weather transceiver mounting tray, - a
+dual weather radar control unit, - a single weather antenna drive, - a
+weather radar antenna, - a weather radar transmitter/receiver. NOTE: The
+weather radar image is shown independently on the CAPT and F/O
+Navigation Displays (ND). The NDs are connected to the three Display
+Management Computers (DMC) and to the CAPT and F/O EFIS control panels
+of the Flight Control Unit (FCU).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 92 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 93 of 209
+FOR TRAINING PURPOSES ONLY
+WXR/PWS SYSTEM PRESENTATION (2) WXR INDICATING RDR-4000 has a new
+3D-Buffer technology, in which antenna scanning is not related to
+Navigation Display (ND). The system will continuously scan the
+atmosphere in front of the aircraft from 0 to 60,000 ft. In automatic
+mode, RDR-4000 sends data about all detected weather cells to the ND.
+The cells that are not in the vertical flight path of the aircraft
+(called OFF PATH weather cells) are shown on the ND with hatched colors.
+The cells that are in the vertical flight path of the aircraft (called
+ON PATH cells) are shown in solid colors. The pilots can also select an
+altitude layer that will be extracted and displayed on the ND. This is
+the constant elevation mode that is used for weather cell analysis. When
+the system starts, a delay of 30 seconds is necessary before the 3D
+buffer is filled. There is a new display OFF mode which removes weather
+echo from the ND while the system scans the atmosphere and updates its
+3D buffer. The weather radar image is shown independently on the CAPT
+and F/O NDs. The ND also shows mode messages related to the mode CAPT
+and F/O selection on the control panel (the CAPT mode selection is shown
+on the CAPT ND, the F/O selection is shown on the F/O ND). The colors
+used to show the disturbance intensity are: - black, green, yellow and
+red to show different precipitation rates, - magenta to show the
+turbulence areas (maximum 40 NM).
+PWS INDICATING The predictive windshear indications and warning/caution
+alerts are shown on the CAPT and F/O PFDs and NDs. The windshear
+phenomenon is indicated by an icon superimposed on the radar image in
+the different EFIS modes, ARC and ROSE except in PLAN mode.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 94 of 209
+FOR TRAINING PURPOSES ONLY
+WXR INDICATING & PWS INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 95 of 209
+FOR TRAINING PURPOSES ONLY
+WXR/PWS SYSTEM PRESENTATION (2) COMPONENT LOCATION The WXR computer is
+in the forward avionics compartment forward of the 90VU. The WXR antenna
+is installed in the radome.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 96 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 97 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 98 of 209
+FOR TRAINING PURPOSES ONLY
+WXR/PWS DESCRIPTION/OPERATION (3) between the transceiver and the
+antenna, via a wave-guide. The antenna scans a 180° sector in azimuth
+and has a tilt coverage of + or - 15°. An internal circuit of the
+transceiver fulfils the antenna stabilization. The stabilization data
+is: Pitch and roll angles, selected tilt, antenna azimuth and elevation
+angle.
+GENERAL (SINGLE INSTALLATION) The Weather Radar (WXR) and Predictive
+WindShear (PWS) System is composed of: - 1 control panel, - 1 WXR
+transceiver (XCVR), - 1 antenna assembly, - 1 wave-guide.
+SYSTEM INTERFACES
+NOTE: The PWS installation is optional.
+SYSTEM DESCRIPTION CONTROL UNIT The control unit gives the modes of
+operation, antenna tilt and gain of the receiver digitized information,
+via an ARINC 429 bus. An ON/OFF discrete fulfils the energization of the
+transceiver, which in turn supplies the control unit and the antenna
+assembly.
+WXR XCVR The WXR XCVR uses the principle of radio echoing to detect the
+level of precipitation, the ground map, and the principle of Doppler
+effect to detect the turbulence areas. The transceiver operates in
+X-Band frequency at 9345 MHz. It digitizes the video signals on two
+ARINC 453 data buses connected to the Display Management Computers
+(DMCs) for display on the NDs. The PWS function also uses the principle
+of Doppler effect to detect windshear events. Horizontal and vertical
+wind velocity and aircraft true airspeed are the different windshear
+components for the determination of the windshear threshold.
+ADIRU The WXR receives, from Air Data/Inertial Reference Units (ADIRUs)
+1or 3, pitch and roll data, for the stabilization and control of the
+antenna, and ground speed for Doppler mode correction. The ADIRU, which
+provides data, is selected by means of the ATTittude/HeaDinG selector
+switch. The PWS function receives data from ADIRU 1or 3 for velocity
+calculations: - true airspeed, - altitude (or corrected altitude), -
+east/west and north/south velocity ground speeds, - track angle, - true
+heading, - and magnetic heading.
+LGCIU The Landing Gear Control Interface Unit (LGCIU) sends
+ground/flight and landing gear extended information to the transceiver.
+This discrete signal is used by the receiver BITE module to count the
+flight legs. The landing gear extended signal is used to determine if
+the A/C is taking-off or landing to generate the aural warning
+message: - GO AROUND, WINDSHEAR AHEAD in approach, - Or WINDSHEAR AHEAD,
+WINDSHEAR AHEAD at take-off.
+ANTENNA ASSEMBLY
+CFDIU
+The WXR antenna is energized and controlled in azimuth and elevation by
+the WXR XCVR. The radio frequency signals are exchanged
+The MCDUs let the system be tested via the Centralized Fault Display
+Interface Unit (CFDIU). The test is only available on ground. During
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 99 of 209
+FOR TRAINING PURPOSES ONLY
+NOTE: As an option of weather radar, the auto-tilt function allows
+optimization of the weather detection to minimize ground clutter, and
+optimization of data correlation with radars returns to maximize ground
+clutter contrast.
+the test, the antenna carries out an elevation and an azimuth scanning
+sequence.
+QUALIFIERS A AND B SIGNALS (IF PWS INSTALLED) Two types of qualifier
+inputs are required to enable automatic activation of the windshear
+function. - Qualifier type A: 2 qualifiers are used (QA1 and QA2).
+Provided by the Air Traffic Control (ATC)/Traffic Collision Avoidance
+System (TCAS) control unit, which indicates the position of the
+AUTO/ON/STBY switch. Qualifier A is valid when AUTO or ON is selected. -
+Qualifier type B: 2 qualifiers are used (QB1 and QB2). Provided by the
+Engine Interface Unit (EIU) 1 and 2, which indicate a normal engine oil
+pressure. Qualifier B is valid when the engine is running (high oil
+pressure). The windshear function is automatically activated below 2300
+ft RA and one of each qualifier A and one of each qualifier B have to be
+valid.
+RA (IF PWS INSTALLED) The RA gives the altitude information through an
+ARINC 429 bus. This data is used for automatic activation, together with
+the two (A & B) qualifiers, of the windshear function.
+AUDIO INHIBIT SIGNALS (IF PWS INSTALLED) These discretes are used to
+indicate whether the aural alert output has to be active or not. - PWS
+aural alerts (discrete input) are inhibited by the reactive windshear
+and stall warning from the Flight Warning Computers (FWCs), - PWS
+discrete output is used to inhibit aural alerts generated by TCAS or
+Enhanced Ground Proximity Warning System (EGPWS) or other FWC warnings.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+AUDIO MIXING BOX (IF PWS INSTALLED) An analog audio output transmits the
+aural alert windshear to an audio mixing box connected to loudspeakers.
+EGPWS The EGPWS receives PWS alerts from the radar hazard bus to
+determine the priorities. Alert priorities are: - WXR/PWS warning, -
+WXR/PWS caution, - Ground Proximity Warning System (GPWS) terrain
+warning, - GPWS terrain caution.
+INDICATING The WXR XCVR is connected to the DMCs by means of two ARINC
+453 buses. Each data bus wiring is terminated at one end by a low
+inductance resistor (68 ohms) to avoid a signal return. The WXR image is
+shown on the CAPT and F/O NDs when ROSE or ARC mode is selected on the
+EFIS control panel. The windshear events are shown on the CAPT and F/O
+NDs and all visual alerts on the CAPT and F/O PFDs for caution or
+warning alert (Advisory is only shown on NDs). NOTE: When both EFIS
+control panels are in PLAN mode, the WXR/PWS transceiver is
+de-energized.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 100 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL (SINGLE INSTALLATION) ... INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 101 of 209
+FOR TRAINING PURPOSES ONLY
+WXR/PWS DESCRIPTION/OPERATION (3) WXR/PWS DUAL INSTALLATION (OPTION)
+Optionally the WXR/PWS system is installed in its dual configuration. It
+is composed of: - 1 control panel, - 2 WXR XCVRs, - 1 antenna
+assembly, - 1 wave-guide, - 1 wave-guide switch.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 102 of 209
+FOR TRAINING PURPOSES ONLY
+WXR/PWS DUAL INSTALLATION (OPTION)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 103 of 209
+FOR TRAINING PURPOSES ONLY
+WXR/PWS OPERATIONAL PRECAUTIONS (2) SPECIAL PRECAUTIONS Some special
+precautions must be taken before using the Weather Radar (WXR) system on
+ground in MAP, WX or WINDSHEAR mode. - the dangerous zone forward of the
+aircraft must be free of metallic obstacles such as hangars or aircraft,
+within 5 m in an arc of + or - 90º on either side of the aircraft
+centerline, - make sure that nobody is within a distance of 1.5 m from
+the antenna, in an arc of + or - 135º on either side of the aircraft
+centerline, - the system must not be operated during the refueling of
+the aircraft or during any refueling operation within 100 m. Note:
+Although the power radiated by the system is low, the above written
+safety precautions should be observed for obvious routine reasons
+(behavior with respect to other types of radar systems). To avoid
+radiating danger, and nuisance aural alerts the WINDSHEAR AUTO/OFF
+selector switch must be selected OFF independently of the radar selector
+switch.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 104 of 209
+FOR TRAINING PURPOSES ONLY
+SPECIAL PRECAUTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 105 of 209
+FOR TRAINING PURPOSES ONLY
+RADIO ALTIMETER SYSTEM PRESENTATION (2) PRINCIPLE The Radio Altimeter
+(RA) system calculates the height of the aircraft above the terrain
+during initial climb, approach and landing phases. The RA can therefore
+operate over non-flat ground surface. The principle of the RA is to
+transmit a frequency-modulated signal, from the aircraft to the ground,
+and to receive the ground reflected signal after a certain delay. The
+time between the transmission and the reception of the RA signal is
+proportional to the A/C height.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 106 of 209
+FOR TRAINING PURPOSES ONLY
+PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 107 of 209
+FOR TRAINING PURPOSES ONLY
+RADIO ALTIMETER SYSTEM PRESENTATION (2) COMPONENTS The components are
+two transceivers, two fans, two transmission antennas and two reception
+antennas. The RA system is also connected to the DMCs for display on the
+PFDs.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 108 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 109 of 209
+FOR TRAINING PURPOSES ONLY
+RADIO ALTIMETER SYSTEM PRESENTATION (2) INDICATING The A/C height data
+is displayed on the PFDs for heights less than or equal to 2.500 ft. The
+altitude is also shown by means of: - a red ribbon next to the altitude
+scale (below 500 ft), - a ground line rising on to the pitch down area
+(below 300 ft).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 110 of 209
+FOR TRAINING PURPOSES ONLY
+INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 111 of 209
+FOR TRAINING PURPOSES ONLY
+RADIO ALTIMETER SYSTEM PRESENTATION (2) COMPONENT LOCATION The RAs are
+installed in the aft cargo compartment. The RA antennas are installed on
+the lower portion of the fuselage aft of the main landing gear.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 112 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 113 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 114 of 209
+FOR TRAINING PURPOSES ONLY
+RADIO ALTIMETER DESCRIPTION/OPERATION (3) GENERAL
+USERS
+The RA system is made of two independent systems and has: - two
+transceivers with associated mounts and fans, - two transmission
+antennas, - two reception antennas.
+The RA information is sent to various systems through ARINC 429 buses.
+The system users are: - Enhanced Ground Proximity Warning System (EGPWS)
+for terrain warnings, - Flight Management and Guidance Computers (FMGCs)
+for processing data, - Flight Warning Computers (FWCs) for call out
+indications and warnings, - ELevator Aileron Computers (ELACs) for
+integration into various flight parameters.
+TRANSCEIVER The RA transceiver measures the radio height of the aircraft
+in relation to the ground. The transceiver operates in a frequency range
+of 4.200 to 4.400 MHz.
+EIU
+ANTENNA The RA system includes two identical transmission and reception
+antennas. The operating range of the antenna according to the aircraft
+attitude is limited to + or - 30° for pitch and roll.
+FAN
+LGCIU
+Each RA transceiver is cooled by an associated fan, attached under the
+transceiver mount. A capacitor is mounted on the fan case in order to
+suppress the parasites.
+INDICATING
+The Landing Gear Control and Interface Unit (LGCIU) provides the
+flight/ground information, which is used by the transceiver BITE module
+to count the flight legs.
+CFDIU
+In normal operation, RA 1 provides the radio height to the CAPT PFD and
+RA 2 to the F/O PFD through the Display Management Computers (DMCs). In
+case of one transceiver failure the DMC automatically switches to the
+other one. The radio height information appears on the PFDs when less
+than or equal to 2.500 ft.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+The Engine Interface Unit (EIU) 1(2) sends a ground discrete to the RA
+1(2) to inhibit the test on ground when the associated engine N2 rating
+(high-pressure compressor rotational speed) is greater than minimum idle
+rating.
+The MCDUs allow the systems to be tested via the Centralized Fault
+Display Interface Unit (CFDIU). The tests are only available on ground.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 115 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL ... CFDIU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 116 of 209
+FOR TRAINING PURPOSES ONLY
+TCAS PRESENTATION (2) RA VOLUME
+PRINCIPLE The Traffic and Collision Avoidance System (TCAS) is a system
+whose function is to detect and display aircrafts in the immediate
+vicinity and to provide the flight crew with indications to avoid these
+intruders. The Traffic and Terrain Collision Avoidance System (T2CAS) is
+an optional system, which ensures the same functions as the TCAS.
+When the intruder represents a collision threat, the TCAS (or T2CAS)
+triggers an aural and visual alarm known as Resolution Advisory (RA),
+which informs the crew about avoidance maneuvers.
+NOTE: The TCAS II provides indications to avoid these intruders by
+changing the flight path in the vertical plane only. The TCAS detects
+the Air Traffic Control (ATC) system or TCAS equipped aircraft and
+maintains surveillance within a range determined by its sensivity. To
+evaluate threat potential of other aircraft the system divides the space
+around aircraft into 4 volumes.
+OTHER TRAFFIC VOLUME The other traffic volume is the first volume
+providing the presence and the progress of an intruder. The aircraft
+detected in this zone does not represent a collision threat.
+PROXIMATE TRAFFIC VOLUME The proximate traffic volume is defined by a
+given volume around the TCAS (or T2CAS) equipped aircraft. The aircraft
+detected in this zone does not represent a collision threat, but is
+declared in vicinity.
+TA VOLUME When the intruder is relatively near but does not represent an
+immediate threat, the TCAS (or T2CAS) provides aural and visual
+information known as Traffic Advisory (TA). The TCAS (or T2CAS) aural
+messages can be inhibited depending on higher priority aural messages.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 117 of 209
+FOR TRAINING PURPOSES ONLY
+PRINCIPLE - OTHER TRAFFIC VOLUME ... RA VOLUME
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 118 of 209
+FOR TRAINING PURPOSES ONLY
+TCAS PRESENTATION (2) ADS-B APPLICATIONS (OPTION) The TCAS can also
+receive and compute passive surveillance Automatic Dependent
+Surveillance-Broadcast (ADS-B or extended squitters) from the Enhanced
+Surveillance (EHS) transponders. This function is activated through pin
+programming.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 119 of 209
+FOR TRAINING PURPOSES ONLY
+ADS-B APPLICATIONS (OPTION)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 120 of 209
+FOR TRAINING PURPOSES ONLY
+TCAS PRESENTATION (2) COMPONENTS The TCAS (or T2CAS) components are two
+antennas, one TCAS II computer (or T2CAS computer) and one TCAS/ATC
+control panel. NOTE: The TCAS/ATC control panel shown here after is
+given as example. It may differ according to the aircraft configuration.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 121 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 122 of 209
+FOR TRAINING PURPOSES ONLY
+TCAS PRESENTATION (2) INDICATING The TCAS (or T2CAS) indications appear
+on the PFDs and the NDs. The visual resolution and TA indications are
+associated with aural indications such as "TRAFFIC, TRAFFIC", "CLIMB,
+CLIMB"... The TCAS displays only the most threatening intruders.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 123 of 209
+FOR TRAINING PURPOSES ONLY
+INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 124 of 209
+FOR TRAINING PURPOSES ONLY
+TCAS PRESENTATION (2) COMPONENT LOCATION The radio navigation receiver
+antennae are installed on the upper and lower fuselage. The TCAS or
+T2CAS computers are installed in the avionics compartment.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 125 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 126 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 127 of 209
+FOR TRAINING PURPOSES ONLY
+TCAS DESCRIPTION/OPERATION (3) GENERAL
+COMPUTER
+The Traffic alert and Collision Avoidance System (TCAS) includes: - 1
+control unit common with Air Traffic Control (ATC) system, - 1
+computer, - 2 antennas (1 top and 1 bottom).
+The TCAS computer ensures two main functions: - a transmission/reception
+function for intruder acquisition, - a processing function for operation
+control: Digital, discrete and analog types interfaces, intruder
+trajectory computation and tracking, visual and aural alert commands.
+NOTE: As an option, the Traffic alert and Collision Avoidance System
+(TCAS) part of the Traffic and Terrain Collision Avoidance System
+(T2CAS) can replace the TCAS.
+ANTENNA The TCAS (or TCAS part of theT2CAS if installed) directional
+antennas provide azimuth information on aircraft located within the TCAS
+(or T2CAS-TCAS) surveillance range. They transmit at 1.030 MHz and
+receive at 1.090 MHz. The phase and amplitude of the received signal
+depend on the direction of the signal source, which permits the relative
+bearing of the transmitting aircraft to be determined.
+SUPPRESSOR The TCAS (or T2CAS-TCAS if installed), ATC, and the Distance
+Measurement Equipment (DME) operate in the same frequency range. A
+suppressor signal is transmitted, via a coaxial, by the operating system
+to inhibit the other systems and to prevent simultaneous transmission.
+CONTROL PANEL The operating modes of the TCAS (or T2CAS-TCAS if
+installed) are selected on a common ATC/TCAS control panel. The TCAS (or
+T2CAS-TCAS if installed) information is transmitted to the TCAS (or
+T2CAS) computer via the ATC transponder.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+ATC The operative ATC mode S transponder transmits response to ATC
+ground station interrogations and data to the TCAS: Barometric altitude,
+TCAS mode from control panel, TCAS broadcast messages. The Mode S
+transponder permits communication between the TCAS and a TCAS equipped
+and detected aircraft through the communication link function for
+exchanging coordination messages.
+RADIO ALTIMETER The RA transceivers provide radio height used as
+reference to determine the computation sensitivity level and trigger the
+inhibit orders. The radio height is used in the 0 to 2.500 ft range.
+ADIRU The Inertial Reference (IR) part of the Air Data/Inertial
+Reference Unit (ADIRU) provides the magnetic heading and the pitch and
+roll attitude information to the TCAS (or T2CAS) computer. NOTE: The
+barometric altitude is transmitted via the ATC transponder.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 128 of 209
+FOR TRAINING PURPOSES ONLY
+CFDIU The Centralized Fault Display Interface Unit (CFDIU) allows
+testing and trouble-shooting of the TCAS (or T2CAS if installed) through
+the MCDU. The tests are only available on ground.
+LGCIU The Landing Gear Control and Interface Unit (LGCIU) provides a
+flight/ground signal used by the BITE module for flight leg counting. It
+provides also a landing gear extended signal for TCAS (or T2CAS)
+operation.
+-   all traffic/threat traffic display,
+-   ground display mode (TA mode),
+-   number of intruders displayed (8 maximum),
+-   aircraft altitude limit (48.000 ft).
+DATA LOADER It will be possible to load software data into the TCAS (or
+T2CAS) computer by means of a data loader. The remote loading capability
+is linked by 2 ARINC 429 low speed buses to a dedicated connector in the
+aircraft.
+INDICATING Visual indications are presented on the NDs and PFDs. The NDs
+present the location of intruders in the traffic area. The PFDs present
+the avoidance maneuver indications on the vertical speed scale. The
+Flight Warning Computers (FWCs) monitor the validity of the information.
+Synthesized voice announcements generated by the TCAS (or T2CAS)
+computer and broadcast by the loudspeakers accompany the visual
+indications.
+INHIBITION Various discrete signals are used for inhibition by equipment
+with higher priority than the TCAS (or T2CAS). These priorities are: -
+Stall, - WindShear, - Predictive WindShear (PWS), - Enhanced Ground
+Proximity Warning System (EGPWS) messages.
+PIN PROGRAMMING Some pin programs define the operating mode of the TCAS
+(or T2CAS). Operating mode: - audio level output,
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 129 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL ... DATA LOADER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 130 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS PRESENTATION (2) GENERAL The Enhanced Ground Proximity Warning
+System (EGPWS) is built over the current Ground Proximity Warning System
+(GPWS). EGPWS = GPWS + "ENHANCED" functions. As an option, the Traffic
+and Terrain Collision Avoidance System (T2CAS) can be installed instead
+of the EGPWS. The T2CAS includes partitioned modular functions for both
+Traffic Collision Avoidance System (TCAS) and Terrain Awareness and
+Warning System (TAWS) functions. The TAWS part of T2CAS carries out the
+same functions as the EGPWS.
+-   basic GPWS functions (Modes 1 to 5), mainly based on Radio Altitude,
+-   predictive modes: Collision Prediction and Alerting (CPA) function
+    and Terrain Hazard Display (THD) function, which gives
+    forward-looking terrain avoidance and premature descent alert
+    functions.
+PRINCIPLE The purpose of the EGPWS is to help prevent accidents caused
+by Controlled Flight Into Terrain (CFIT). When the limits of an alerting
+envelope are exceeded, aural alert messages, visual annunciations and
+displays are generated. The basic GPWS modes generate aural and visual
+warnings that correspond to an aircraft behavior when the alert envelope
+is penetrated. The "ENHANCED" functions added to the basic GPWS modes
+are: - Terrain Clearance Floor (TCF): Increases the terrain clearance
+envelope around the airport runway. NOTE: With the optional geometric
+altitude function, the EGPWS can operate reliably in extreme local
+pressure or temperature variations from standard. - Terrain Awareness
+alerting and Display (TAD): Includes a terrain database to predict
+conflict between flight path and terrain and to display the conflicting
+terrain. NOTE: The EGPWS can also include an obstacle database in which
+are recorded the man-made obstacles. They are treated as terrain. The
+alerting functions integrated in the T2CAS-TAWS part are:
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 131 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL & PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 132 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS PRESENTATION (2) COMPONENTS The system comprises an Enhanced
+Ground Proximity Warning Computer (EGPWC) (or T2CAS), a GPWS control
+panel, two warning lights and two TERRain ON ND mode P/BSWs. The EGPWS
+(T2CAS-TAWS) is connected to various navigation systems: - weather radar
+(WXR), - RA, - Air Data/Inertial Reference System (ADIRS), - ILS, - and
+so on... It processes the navigation data and generates alarms. The
+T2CAS is made of a single Line Replaceable Unit (LRU). Controls of the
+T2CAS are similar to the EGPWS ones.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 133 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 134 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS PRESENTATION (2) INDICATING The basic GPWS modes generate visual
+warnings through associated lights and synthetic warnings through the
+loudspeakers. The "ENHANCED" GPWS functions allow the terrain hazards to
+be displayed on the NDs. Optionally, the NDs can also display the
+obstacle hazards as well as highest and lowest elevations known as peaks
+mode. The EGPWS and the T2CAS have very similar principles (same layer
+colorations). Both systems provide an anticipated background display in
+descent (approximately 30 sec). NOTE: The T2CAS has one specific
+feature, which is the AVOID TERRAIN display. This unique warning is
+provided to immediately notify the crew that the normal recovery will
+not work.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 135 of 209
+FOR TRAINING PURPOSES ONLY
+INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 136 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS DESCRIPTION/OPERATION (3) GENERAL The Enhanced Ground Proximity
+Warning System (EGPWS) has: - 1 Enhanced Ground Proximity Warning
+Computer (EGPWC), - 2 PULL UP/GPWS P/BSWs with integral lights, - 1 GPWS
+control panel, - 2 TERRain ON ND P/BSWs. As an option, the Terrain
+Awareness and Warning system (TAWS) part of the Traffic and Terrain
+Collision Avoidance System (T2CAS) can replace the EGPWS. The T2CAS
+computer is a single Line replaceable Unit (LRU) for both Traffic
+Collision Avoidance System (TCAS) and TAWS functions. All cockpit
+hardware interfaces (lights, P/BSWs) for the T2CAS-TAWS remain identical
+to the EGPWS. The interfaces are also identical for the TAWS peripheral
+systems.
+DIGITAL INPUTS The EGPWS receives ARINC 429 data inputs from the
+navigation sensors in order to monitor the aircraft position with
+respect to the terrain and provide audio and visual warnings when in
+hazardous situation.
+DIGITAL OUTPUTS An ARINC 429 transmitter provides a maintenance output
+data bus. This output bus is used by the Centralized Fault Display
+Interface Unit (CFDIU) for maintenance purposes and by the Aircraft
+Integrated Data System (AIDS) for the Data Management Unit (DMU), part
+of the Flight Data Interface and Management Unit (FDIMU).
+ENHANCED FUNCTIONS The EGPWC outputs a display of terrain data in ARINC
+453 data bus format to the Display Management Computers (DMCs). The
+terrain data is displayed on the NDs automatically instead of the radar
+image when a terrain caution or warning is detected or any time by using
+the TERR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+ON ND P/BSWs. The EGPWS receives the Predictive WindShear (PWS) alerts
+from the weather radar hazard bus to determine the priority. The PWS has
+priority over EGPWS modes. The EGPWC uses preferably GPS position, then
+IRS latitude and longitude data as valid position source and, if these
+positions are downgraded, then FMS position will be used. Two
+architectures are available to receive GPS data. The first one uses the
+ADIRS connection as GPS data are transmitted via the IR1 bus, and the
+second one will use a direct connection between EGPWC and MMR1 if ADIRU1
+is not able to transmit GPS data.
+EGPWS CONTROLS Various P/BSWs let the crew control the actions of the
+EGPWS. When pressed in, on the GPWS control panel: - the TERR P/BSW with
+the white OFF legend, inhibits the Terrain Awareness Display (TAD) and
+the Terrain Clearance Floor (TCF) modes, - the SYStem P/BSW with the
+white OFF legend, inhibits all the GPWS warnings (mode 1 to 5), - the
+Glide/Slope MODE P/BSW with the white OFF legend, inhibits the G/S mode
+(mode 5), - the FLAP MODE P/BSW with the white OFF legend, inhibits flap
+abnormal condition input (mode 4) and generates the green "GPWS FLAP
+MODE OFF" memo on the left memo area of the EWD, - the LanDinG FLAP 3
+P/BSW with the white ON legend selects the landing FLAP 3 position and
+generates the green "GPWS FLAP 3" memo on the right memo area of the
+EWD. When pressed in, the PULL UP GPWS P/BSW on the instrument panels
+has two functions: - it sends a ground signal to trigger the self test
+sequence, - it cancels the G/S aural and visual warnings when triggered.
+When the TERR ON ND P/BSW is pressed in, on the center instrument panel,
+the green ON legend comes on to indicate that terrain data is shown on
+the ND.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 137 of 209
+FOR TRAINING PURPOSES ONLY
+AURAL WARNINGS
+LGCIU
+The audio output is used to broadcast aural warning messages, which
+identify the activated mode. When the EMERgency CANCel key on the ECAM
+Control Panel (ECP) is pressed, an audio suppression signal is sent to
+the EGPWC in order to momentarily cancel the EGPWS warnings.
+The Landing Gear Control and Interface Unit (LGCIU) sends a
+flight/ground discrete signal to the EGPWC BITE to count the flight
+legs. This discrete is also used for Mode 4: Unsafe terrain clearance.
+VISUAL WARNINGS In hazardous flight configurations or system failures,
+the EGPWC sends discretes for the lighting of warning legends. Five
+discretes control the warning legends: - one for red PULL UP legends,
+comes on red when the second boundary of Mode 1 is penetrated or when
+Mode 2, or any TAD or TCF alert is activated, - one for amber GPWS
+legends, comes on amber when any other mode is activated. - two monitor
+outputs for the amber FAULT legends on the SYS and TERR P/BSWs of the
+GPWS control panel. These discretes are also sent to the System Data
+Acquisition Concentrators (SDACs) to generate the ECAM "GPWS FAULT" and
+"GPWS TERR DET FAULT" warning messages, - one monitor output for the
+availability of the terrain mode. In case of Flight Management System
+(FMS) low accuracy a green TERR STBY is sent through the SDACs to the
+right memo area of the EWD.
+FWC The Flight Warning Computers (FWCs) send a discrete to the EGPWC to
+inhibit all warnings when a stall or windshear warning is triggered. The
+EGPWC sends two discretes to the FWCs and the Traffic alert and
+Collision Avoidance System (TCAS) in order to inhibit auto call out and
+low speed warnings and change TCAS mode from Resolution Advisory (RA) to
+Traffic Advisory (TA) when the PULL UP or GPWS warnings are in progress.
+These discretes are also used by the Digital Flight Data Recorder
+(DFDR).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 138 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL ... LGCIU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 139 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS DESCRIPTION/OPERATION (3) T2CAS The following alerting function
+are integrated in the T2CAS-TAWS part: - basic GPWS functions (Modes 1
+to 5), mainly based on Radio Altitude, - predictive modes: Collision
+Prediction and Alerting (CPA) function and Terrain Hazard Display (THD)
+function, which provides a forward-looking terrain avoidance and
+premature descent alert functions. NOTE: The basic GPWS modes 1 and 2
+are automatically inhibited when CPA and THD functions are operating.
+Optionally, an automatic deactivation of predictive function upon
+navigation high/low accuracy criteria can be activated, if the TAWS
+logic uses the Flight Management System (FMS) 1 lateral position. When
+this option is activated, the predictive mode is deactivated if the
+navigation accuracy is low. The green "TERR STBY" ECAM memo is displayed
+and mode 1 and 2 are reactivated. The Ground Collision Avoidance Module
+(GCAM) ensures a very low rate of nuisance alerts to keep the crew
+confident in the generated alerts. It addresses some specific situations
+such as situations of normal aircraft operation according to procedures
+at altitudes significantly below the surrounding local terrain height
+(approaches in steep valleys). If GCAM predicts that the A/C can not
+climb over the terrain with sufficient safety margin: - the aural "AVOID
+TERRAIN" warning is triggered, - visual black crosses are displayed in
+the solid red on the ND. NOTE: The T2CAS is not compatible with the
+weather radar autotilt function for ground clutter suppression.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 140 of 209
+FOR TRAINING PURPOSES ONLY
+T2CAS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 141 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS DESCRIPTION/OPERATION (3) RUNWAY AWARENESS AND ADVISORY SYSTEM
+(OPTIONAL) In addition, the Runway Awareness and Advisory System (RAAS)
+is an optional software enhancement hosted in the EGPWS Unit. The RAAS
+uses GPS position data and the EGPWS Database to provide aural
+advisories for flight crew awareness during ground operations and on
+approach to landing to avoid runway incursions or collisions. The RAAS
+operates automatically without any action required from the flight crew.
+An EGPWS self test can verify the availability of this function. RAAS
+aural advisory priority: - Approaching Runway In Air (Opt), -
+Approaching Short Runway In Air (Opt), - On Runway (std), - Insufficient
+Runway Length On Ground (Opt), - Approaching Runway On Ground (Std), -
+Taxiway Take Off (opt), - Extended Holding (Opt), - Runway End (Opt).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 142 of 209
+FOR TRAINING PURPOSES ONLY
+RUNWAY AWARENESS AND ADVISORY SYSTEM (OPTIONAL)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 143 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS MODES (3) GENERAL The Enhanced Ground Proximity Warning System
+(EGPWS) (or T2CAS-TAWS if installed) computes and compares the aircraft
+behavior with a predetermined envelope.
+WARNING MODES When the warning envelope is penetrated, visual and aural
+warnings are generated. The aural messages are broadcast through the
+cockpit loudspeakers and visual warnings are indicated by the PULL UP
+Ground Proximity Warning System P/BSWs lights. A terrain image is
+displayed on the NDs. A number of airports through the world have
+approaches or departures, which are not entirely compatible with the
+standard GPWS operation. These airports are identified in the database,
+the GPWS recognizes them and modifies the profile and triggers the
+warning in accordance.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 144 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL & WARNING MODES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 145 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS MODES (3) MODE 1 Mode 1 provides an alert warning for high descent
+rates into terrain and for rapidly increasing sink rates near the runway
+when landing. \[ Mode 1 has two boundaries. Penetration of the first
+boundary generates a repeated "SINK RATE" aural alert and causes both
+GPWS lights to come on. Penetration of the second boundary generates a
+repetitive "PULL UP" aural alert and causes both PULL UP lights to come
+on.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 146 of 209
+FOR TRAINING PURPOSES ONLY
+MODE 1
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 147 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS MODES (3) MODE 2 Mode 2 provides a warning based on the radio
+height and on how rapidly the radio height decreases. It has two areas
+of application known as mode 2A and 2B. - 2A: Flaps not in landing
+configuration, and aircraft not on the glide slope beam. Penetration of
+the boundary causes the GPWS lights to come on, and generates the
+repeated aural alert: "TERRAIN". After "TERRAIN" has sounded twice, the
+warning switches to "PULL UP", repeated continually until the aircraft
+leaves the warning envelope. In addition, the PULL UP lights come on.
+After the aircraft leaves the boundary, the PULL UP lights stay on and
+the "TERRAIN" aural message persists. These alerts stop when the
+aircraft increases either the barometric or inertial altitude by 300
+feet. - 2B: Flaps in landing configuration. Lowering the flaps to the
+landing position automatically switches GPWS to mode 2B. In this case
+lower boundary varies between 200 feet and 600 feet depending on
+altitude rate. In ILS approach (glide slope deviation \<± 2 dots) the
+lower boundary is fixed at 30 feet. When the aircraft enters the
+envelope, the alert is the same as for mode 2A. When gear and flaps are
+in the landing configuration, the aural message is "TERRAIN" only and is
+not followed by "PULL UP" if the aircraft remains in the envelope. When
+the enhanced GPWS functions and the optional geometric altitude function
+are of high integrity, the upper operational limit is reduced.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 148 of 209
+FOR TRAINING PURPOSES ONLY
+MODE 2
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 149 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS MODES (3) MODE 3 Mode 3 provides a warning for excessive altitude
+loss after take-off, climb or during a go-around. GPWS lights come on
+and the "DON'T SINK" aural alert sounds repeatedly. This mode is based
+on radio height, altitude (inertial, barometric or computed altitude)
+and altitude rate (Inertial Vertical Speed (IVS) computed altitude rate
+or barometric altitude rate).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 150 of 209
+FOR TRAINING PURPOSES ONLY
+MODE 3
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 151 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS MODES (3) MODE 4 Mode 4 generates three type of voice warnings
+based on the radio height, computed airspeed and aircraft configuration.
+"TOO LOW TERRAIN" is broadcast when the aircraft is below 1.000 ft with
+landing gear retracted and/or flaps not in landing configuration. "TOO
+LOW GEAR or TOO LOW FLAPS" are broadcast depending on the aircraft
+configuration: gear up or down, flaps extended or retracted, aircraft
+speed in relation to the radio height. NOTE: The "TOO LOW GEAR" message
+has priority over the "TOO LOW FLAPS" message. When the enhanced GPWS
+functions and the optional geometric altitude function are of high
+integrity, the upper operational limit is reduced.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 152 of 209
+FOR TRAINING PURPOSES ONLY
+MODE 4
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 153 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS MODES (3) MODE 5 Mode 5 provides warnings when the aircraft flight
+path descends below the G/S beam during ILS approaches. The loudness of
+the "GLIDE SLOPE" voice message and the repetition rate are increased
+when closing to the ground.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 154 of 209
+FOR TRAINING PURPOSES ONLY
+MODE 5
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 155 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS MODES (3) TAD (JAA & FAA) When a terrain threat forward of the
+aircraft path is detected, with respect to the aircraft position and the
+local terrain database, caution and warning alerts are triggered. When
+the envelope boundaries are met the following alerts are generated: -
+terrain caution alert: "TERRAIN AHEAD" is broadcast for Joint Aviation
+Authorities (JAA) regulations or "CAUTION TERRAIN, CAUTION TERRAIN" for
+Federal Aviation Administration (FAA) regulations, - terrain warning
+alert: "TERRAIN AHEAD, PULL UP" is broadcast for JAA regulations or
+"TERRAIN, TERRAIN, PULL UP" for FAA regulations. When the optional
+obstacle function is activated the EGPWS can also generate the following
+alerts: - obstacle caution alert: "OBSTACLE AHEAD" is broadcast for JAA
+regulations or "CAUTION OBSTACLE" for FAA regulations, - obstacle
+warning alert: "OBSTACLE AHEAD, PULL UP" is broadcast for JAA
+regulations or "OBSTACLE, OBSTACLE, PULL UP" for FAA regulations. These
+alerts are completed by a terrain image on the NDs: - red area for
+warnings, - yellow area for cautions. As an option, the peaks function
+allows the display of the absolute terrain with the highest and lowest
+elevations.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 156 of 209
+FOR TRAINING PURPOSES ONLY
+TAD (JAA & FAA)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 157 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS MODES (3) TCF The Terrain Clearance Floor (TCF) is an increasing
+terrain clearance envelope around the airport runway to provide
+protection against Controlled Flight Into Terrain (CFIT). The TCF alert
+function complements the existing Mode 4. When TCF alert envelope is
+penetrated "TOO LOW TERRAIN" is broadcast. It is based on current
+aircraft position, nearest runway center point position and RA.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 158 of 209
+FOR TRAINING PURPOSES ONLY
+TCF
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 159 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS MODES (3) EGPWS/T2CAS DIFFERENCES The EGPWS and T2CAS have
+different philosophies. The EGPWS keeps all modes active but
+desensitizes nuisance prone modes function of the predictive mode (TAD)
+integrity and aircraft location (through envelope modulation). The T2CAS
+inhibits mode 2 when the Collision Prediction and Alerting (CPA) is in
+normal operation and the CPA altitude crosscheck is correct. The EGPWS
+sensor includes a vertical margin (terrain floor) function of Vz and
+Runway proximity. This margin is directly applied on the terrain cells
+for T2CAS. The EGPWS and T2CAS both use a caution and a warning sensors
+projected in a terrain database. EGPWS assumed that the A/C could climb
+6° all the time. The T2CAS takes into account real time aircraft climb
+capability to give an alert with guaranteed safety margins. If this
+safety margins is not sufficient, the AVOID TERRAIN alert is triggered
+to indicate to the pilot that a turn maneuver is recommended in addition
+to the PULL UP warning. The EGPWS and the T2CAS have very similar
+display principles (same layer colorations). Both systems have an
+anticipated background display in descent (approximately 30 sec). The
+T2CAS has one specific feature, which is the AVOID TERRAIN display.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 160 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS/T2CAS DIFFERENCES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 161 of 209
+FOR TRAINING PURPOSES ONLY
+EGPWS/T2CAS DIFFERENCES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 162 of 209
+FOR TRAINING PURPOSES ONLY
+DME SYSTEM PRESENTATION (2) PRINCIPLE The Distance Measuring Equipment
+(DME) provides digital readout of the aircraft slant range distance from
+a selected ground station. The system generates interrogation pulses
+from an onboard interrogator and sends them to a selected ground
+station. After a 50 microseconds delay, the ground station replies. The
+interrogator determines the distance in nautical miles between the
+station and the aircraft. The interrogator detects the Morse audio
+signal, which identifies the ground station.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 163 of 209
+FOR TRAINING PURPOSES ONLY
+PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 164 of 209
+FOR TRAINING PURPOSES ONLY
+DME SYSTEM PRESENTATION (2) COMPONENT LOCATION The components are two
+antennas and two interrogators. The DME system is also connected to: -
+PFDs, NDs and optional Digital Distance and Radio Magnetic Indicator
+(DDRMI) for display, - EFIS control panels for display control, - Flight
+Management and Guidance Computers (FMGCs) for automatic and manual
+tuning, - CAPT and F/O Radio Management Panels (RMPs) for back-up tuning
+and, - Audio Control Panels (ACPs) for DME audio signal. The
+radio-navigation receiver antennas are installed on the lower fuselage.
+Two DME interrogators are installed in the avionics bay.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 165 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 166 of 209
+FOR TRAINING PURPOSES ONLY
+DME SYSTEM PRESENTATION (2) INDICATING The DME distance is shown on the
+PFD if the ILS display is selected via LS P/B and on the ND if the
+ADF/VOR selector is set to VOR. The DME distance is also shown on the
+two windows of the optional DDRMI.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 167 of 209
+FOR TRAINING PURPOSES ONLY
+INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 168 of 209
+FOR TRAINING PURPOSES ONLY
+DME DESCRIPTION/OPERATION (3) GENERAL
+SUPPRESSOR
+The DME system includes: - 2 DME interrogators and, - 2 DME antennas.
+The DME, the Air Traffic Control (ATC) and the Traffic Alert and
+Collision Avoidance System (TCAS) operate in the same frequency range. A
+suppressor coaxial between the ATC transponders, the TCAS and DME
+interrogators is necessary to prevent simultaneous transmission and to
+interrupt reception of the other systems.
+AUTO TUNING In normal operation each Flight Management and Guidance
+Computer (FMGC) automatically tunes its ownside DME interrogator through
+its ownside Radio Management Panel (RMP) via port A. With failure of one
+FMGC the other FMGC can control the DME interrogators, one directly, the
+other through its RMP. When the FMGC fails, the DME receives a discrete
+signal through the RMP to automatically select port B.
+AMU
+MANUAL TUNING
+LGCIU
+From each MCDU both DMEs can be manually tuned through their ownside
+FMGC (via port A).
+Each Landing Gear Control and Interface Unit (LGCIU) sends a discrete
+signal to the associated DME interrogator. This is a ground/flight
+information used by the receiver BITE module to count the flight legs.
+BACK-UP TUNING
+INDICATING
+In case of dual FMGC failure the RMPs enable back-up tuning.
+ANTENNA The DME antenna transmits the DME interrogation and receives the
+reply from the selected ground station. The DME antenna operates within
+the low band from 962 MHz to 1213 MHz (1041 to 1150 MHz for
+interrogation and 962 to 1213 MHz for reply).
+USERS
+The DME audio signals are transmitted to the Audio Management Unit (AMU)
+and then dispatched to the headsets and/or loudspeakers. The pilot can
+adjust the volume of the DME ground station by pressing the VOR P/B on
+the Audio Control Panel (ACP) or the LS P/B in case of collocated
+ILS/DME (if LS mode is selected on EFIS control panel).
+DME data is sent to the NDs and the PFDs through the Display Management
+Computers (DMCs) and directly to the optional Digital Distance and Radio
+Magnetic Indicator (DDRMI).
+CFDIU The MCDUs allow the systems to be tested and trouble shooting to
+be performed via the Centralized Fault Display Interface Unit (CFDIU).
+The tests are only available on ground.
+The DME data is sent to the FMGCs for radio distance computation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 169 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL ... CFDIU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 170 of 209
+FOR TRAINING PURPOSES ONLY
+ATC SYSTEM PRESENTATION (2) PRINCIPLE The Air Traffic Control (ATC)
+transponder is an integral part of the Air Traffic Control Radar Beacon
+(ATCRB) system. The transponder is interrogated by radar pulses received
+from the ground station. It automatically replies by a series of pulses.
+These reply pulses are coded to supply: - aircraft identification (Mode
+A), - automatic altitude reporting (Mode C) and, - selective calling and
+transmission of flight data of the aircraft on the ground controller's
+radar scope. These replies enable the controller to distinguish the
+aircraft and to maintain effective ground surveillance of the air
+traffic. The ATC transponder (Mode S) also responds to interrogations
+from aircraft equipped with a Traffic Alert and Collision Avoidance
+System (TCAS). NOTE: As an option, the Traffic and Terrain Collision
+Avoidance System (T2CAS) can replace the TCAS.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 171 of 209
+FOR TRAINING PURPOSES ONLY
+PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 172 of 209
+FOR TRAINING PURPOSES ONLY
+ATC SYSTEM PRESENTATION (2) TRANSPONDER BASIC PRINCIPLES REVIEW The
+Elementary Surveillance (ELS) is used for a basic communication between
+the Secondary Surveillance Radar (SSR) of the Air Traffic Control (ATC)
+ground station and the on-board ATC Transponder. There are 2
+frequencies: 1030 Mhz for SSR radar interrogation and 1090 Mhz for
+Transponder modulated by pulses for 3 modes: - Mode A :
+identification, - Mode C : Coded Barometric Altitude referenced to
+Standard Altitude (1013 Hpa) giving Flight Level, - Mode S : Data Link -
+Used for TCAS, selective interrogation, and elementary surveillance.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 173 of 209
+FOR TRAINING PURPOSES ONLY
+TRANSPONDER BASIC PRINCIPLES REVIEW
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 174 of 209
+FOR TRAINING PURPOSES ONLY
+ATC SYSTEM PRESENTATION (2) ENHANCED SURVEILLANCE (EHS) AND ADS-B
+DESCRIPTION (OPTIONS) Enhanced surveillance parameters are transmitted
+to ATC in the same way as ELS. The mode S interrogation will request the
+enhanced surveillance parameters and the transponder will transmit them
+if the option is applied. The specific parameters related to the
+enhanced surveillance are: - selected altitude, - barometric pressure
+setting, - roll angle, - track angle rate, - true track angle, - ground
+speed, - true air speed, - magnetic heading, - indicated airspeed, -
+mach, - barometric altitude rate, - inertial vertical velocity. Extended
+squitters are transmissions from the transponder not requested from ATC
+(unsolicited). The specific parameters related to the extended squitters
+are: - altitude, - longitude, - latitude, - movement, - ground track, -
+flight number, - E/W velocity, - N/S velocity, - vertical rate.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 175 of 209
+FOR TRAINING PURPOSES ONLY
+ENHANCED SURVEILLANCE (EHS) AND ADS-B DESCRIPTION (OPTIONS)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 176 of 209
+FOR TRAINING PURPOSES ONLY
+ATC SYSTEM PRESENTATION (2) COMPONENT LOCATION The components are: - two
+transponders in the avionics bay (80VU), - two top and two bottom
+antennas and, - one ATC/TCAS control panel. In case of hijack, two
+P/BSWs are optionally installed near the captain and first officer
+locations in order to activate emergency functions. Aural and lighted
+warnings are also activated in cabin to notify the cabin crew that the
+cockpit crew will be threatened. NOTE: The ATC/TCAS control panel shown
+here after is given as example. It may differ according to the aircraft
+configuration.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 177 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 178 of 209
+FOR TRAINING PURPOSES ONLY
+ATC DESCRIPTION/OPERATION (3) GENERAL The Air Traffic Control (ATC)
+system includes: - 1 ATC/Traffic Alert and Collision Avoidance System
+(TCAS) control panel (common to both systems), - 2 transponders, - 4
+antennae. NOTE: Two alerting P/BSWs can optionally be installed in the
+cockpit in case of hijack. When the hijack code is transmitted, the two
+P/BSWs come ON. Aural and lighted warnings are also activated in cabin
+to notify the cabin crew that the cockpit crew will be threatened.
+CONTROL PANEL A single ATC/TCAS control panel enables system selection.
+It provides the selected transponder with code and function data and, in
+return, receives status data. The ATC/TCAS control panel converts
+selected mode and selected code data into digital data and transmits
+this data in ARINC 429 format to the selected transponder. In order to
+monitor the ATC transponders and generate alerts by the Flight Warning
+System (FWS), the ATC/TCAS control panel is connected to the System Data
+Acquisition Concentrators (SDACs) by two discretes connections. The
+Landing Gear Control and Interface Units (LGCIUs) provide a
+ground/flight discrete signal to the ATC transponder via the ATC/TCAS
+control panel for BITE purposes.
+TRANSPONDER In normal operation, one ATC transponder operates and the
+other is in standby mode. The operating mode (A, C or S) of the
+transponder is determined by the decoding of the time between the
+interrogation pulses. The main function of the mode S transponder is
+surveillance. Each
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+transponder has its own and unique address coded on 24 bits so that
+every interrogation can be directed to a specific aircraft preventing
+multiple replies. The mode S is also used in collision avoidance (TCAS).
+NOTE: The links between the ATC and the Air Traffic Service Unit (ATSU),
+the Flight Control Unit (FCU) and the Inertial Reference (IR) part of
+the Air Data/Inertial Reference Unit (ADIRU) are optionally installed
+for enhanced surveillance/extended squitters. The links between the MMRs
+are for extended squitters only.
+ANTENNAE The ATC antennae transmit replies to interrogations from the
+ATC ground station. Top and bottom antennas provide the antenna
+diversity features that allow a better radar coverage. The antenna
+operates in the 960 MHz to 1.220 MHz frequency band with an
+interrogation frequency of 1.030 MHz and a reply frequency of 1.090 MHz.
+SUPPRESSOR The ATC, the DME and the TCAS operate in the same frequency
+range. A suppressor signal is transmitted, via a coaxial, by the
+operating system to inhibit the other systems and to prevent
+simultaneous transmission.
+ADIRU ADIRU 1 and ADIRU 2 provide barometric altitude to associated
+transponders for mode C. In case of failure of ADIRU 1 or 2, the pilot
+can switch to ADIRU 3 through the AIR DATA selector switch.
+FMGC The Flight Management and Guidance Computers (FMGCs) provide the
+flight number. This data will be transmitted to an ATC ground station
+after a mode S interrogation.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 179 of 209
+FOR TRAINING PURPOSES ONLY
+CFDIU The Centralized Fault Display Interface Unit (CFDIU) allows
+testing and trouble-shooting of the ATC system through the MCDUs. The
+tests are only available on ground.
+TCAS The TCAS allows individual communications with each TCAS equipped
+aircraft through the Mode S transponder. This enables a coordination of
+avoidance maneuvers by acquisition, at regular intervals, of the
+relative altitude and the separation range. NOTE: As an option, the
+Traffic and Terrain Collision Avoidance System (T2CAS) can replace the
+TCAS.
+CONDITIONS TO TRANSMIT ADS-B PARAMETERS ON AIRBUS A320 FAMILY The
+Automatic Dependant Surveillance-Broadcast (ADS-B) application is hosted
+by the transponder. On Airbus A320 family, there are conditions to
+transmit ADS-B parameters: - an Enhanced Surveillance (EHS) wiring
+provision (basic), - transponders capable of Elementary Surveillance
+(ELS)/EHS/ADS-B (compliant DO-260), - a Multi-Mode Receiver (MMR) from
+any vendor or Global Positioning System Sensor Unit (GPSSU) from
+Honeywell. NOTE: No need of pin programming to activate ADS-B data
+transmission. Need certification for operational use if required by
+regulation. For the retrofit aircraft of the A320 family, an Airbus
+Service Bulletin for ADS-B OUT certification is available: SB 34-1418.
+But, for the forward fit aircraft of the A320 family, the ADS-B OUT
+certification is proposed as an option on production aircraft:
+CN.34.52.117 / 02.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 180 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL ... CONDITIONS TO TRANSMIT ADS-B PARAMETERS ON AIRBUS A320
+FAMILY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 181 of 209
+FOR TRAINING PURPOSES ONLY
+ADF SYSTEM PRESENTATION (2) PRINCIPLE The ADF is a radio navigation aid.
+It provides: - the relative bearing of the aircraft to a selected ground
+station called Non-Directional Beacon (NDB), - an aural identification
+of the ground station. The relative bearing is the angle between the
+aircraft heading and the aircraft/ground station axis. The combination
+of signals, received from two loop antennas and from one
+omni-directional sense antenna, provides bearing information. The ground
+stations operate in a frequency range of 190 kHz to 1.750 kHz. An
+additional Morse signal is provided to identify the selected ground
+station.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 182 of 209
+FOR TRAINING PURPOSES ONLY
+PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 183 of 209
+FOR TRAINING PURPOSES ONLY
+ADF SYSTEM PRESENTATION (2) COMPONENT LOCATION The ADF system has two
+receivers and two antennas. The ADF system is also connected to: - NDs
+and optional Digital Distance and Radio Magnetic Indicator (DDRMI) for
+display, - EFIS control panels for control display, - Flight Management
+and Guidance Computers (FMGCs) for auto-tuning, - MCDUs for manual
+tuning, - CAPT and F/O Radio Management Panels (RMPs) for back-up tuning
+and, - Audio Control Panels (ACPs) for ADF audio signal. The ADF
+radio-navigation receiver antennas are installed on the upper fuselage.
+Two ADF receivers are installed in the avionics bay. NOTE: The ADF 2
+system is optional.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 184 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 185 of 209
+FOR TRAINING PURPOSES ONLY
+ADF SYSTEM PRESENTATION (2) INDICATING The ADF system information can be
+displayed on the NDs and on the optional DDRMI. On the NDs, depending on
+the position of the VOR/ADF selector switch on the EFIS control panel: -
+ADF 1 is represented by a single pointer, - ADF 2 is represented by a
+double pointer. On the optional DDRMI, depending on the position of the
+VOR/ADFselector switch: - ADF 1 is represented by a single pointer, -
+ADF 2 is represented by a double pointer. NOTE: Some DDRMIs are not
+equipped with the ADF capability.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 186 of 209
+FOR TRAINING PURPOSES ONLY
+INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 187 of 209
+FOR TRAINING PURPOSES ONLY
+ADF DESCRIPTION/OPERATION (3) The ADF ground stations operate in a
+frequency range of 190 kHz to 1.750 kHz divided into two parts: - NDB:
+190 kHz to 550 kHz, - standard commercial broadcast AM stations: 550 kHz
+to 1.610 kHz.
+GENERAL The ADF system includes: - 2 identical ADF receivers, - 2
+identical ADF antennas.
+LGCIU
+NOTE: ADF 2 system is optional.
+Each Landing Gear Control and Interface Unit (LGCIU) sends discrete
+signals to the associated ADF receiver. This ground/flight information
+is used by the receiver BITE module to count the flight legs.
+AUTO TUNING In Non-Directional Beacon (NDB) approach each Flight
+Management and Guidance Computer (FMGC) automatically tunes its ownside
+ADF receiver through its ownside Radio Management Panel (RMP). With
+failure of one FMGC, the other FMGC can control the two ADF receivers,
+one directly, the other through its RMP. When the FMGC fails, the ADF
+receives a discrete signal through the RMP to automatically select port
+B.
+INDICATING
+MANUAL TUNING
+NOTE: Some DDRMIs are not equipped with the ADF capability.
+From each MCDU both ADFs can be manually tuned through their ownside
+FMGC.
+CFDIU
+BACK-UP TUNING
+The MCDUs allow the systems to be tested and trouble shooting to be
+performed via the Centralized Fault Display Interface Unit (CFDIU). The
+tests are only available on ground.
+In case of dual FMGC failure, the RMPs enable back-up tuning.
+The ADF data is sent to the NDs through the Display Management Computers
+(DMCs) and directly to the optional Digital Distance and Radio Magnetic
+Indicator (DDRMI). The ADF audio signal is processed by the receiver and
+sent to the Audio Management Unit (AMU) and can be heard by the crew.
+ANTENNAS The ADF antenna provides three signals and consists of one
+sense antenna and two loop antennas called longitudinal antenna and
+lateral antenna. The ADF antenna comprises: - one pre-amplifier, for
+each antenna, supplied by the ADF receiver in +/- 12V DC, - a test loop,
+which enables a self-test.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 188 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL ... CFDIU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 189 of 209
+FOR TRAINING PURPOSES ONLY
+VOR/MKR SYSTEM PRESENTATION (2) VOR PRINCIPLE The VOR system is a
+medium-range radio navigation aid. The VOR system receives, decodes and
+processes bearing information from the omni-directional ground station,
+working in the frequency range of 108 MHz to 117.95 MHz. The ground VOR
+station generates a reference phase signal and a variable phase signal.
+The phase difference between these signals, called bearing, is function
+of the aircraft position with respect to the ground station. The bearing
+is the angle between the magnetic north and the ground station/aircraft
+axis. Furthermore, the VOR station provides a Morse identification,
+which identifies the station.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 190 of 209
+FOR TRAINING PURPOSES ONLY
+VOR PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 191 of 209
+FOR TRAINING PURPOSES ONLY
+VOR/MKR SYSTEM PRESENTATION (2) MKR PRINCIPLE The MKR system is a radio
+navigation aid, which indicates the distance between the aircraft and
+the runway threshold. The MKR system is normally used together with the
+ILS system during an ILS approach.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 192 of 209
+FOR TRAINING PURPOSES ONLY
+MKR PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 193 of 209
+FOR TRAINING PURPOSES ONLY
+VOR/MKR SYSTEM PRESENTATION (2) COMPONENTS The VOR and MKR systems are
+composed of two receivers, one MKR antenna and one dual VOR antenna. The
+VOR/MKR system is also connected to: - NDs, PFDs and optional Digital
+Distance and Radio Magnetic Indicator (DDRMI) for display, - EFIS
+control panels for control display, - Flight Management and Guidance
+Computers (FMGCs) for auto-tuning, - MCDU for manual tuning, - CAPT and
+F/O Radio Management Panels (RMPs) for back-up tuning, - Audio Control
+Panels (ACPs) for VOR/MKR audio signal.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 194 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 195 of 209
+FOR TRAINING PURPOSES ONLY
+VOR/MKR SYSTEM PRESENTATION (2) VOR INDICATING TO A SELECTED COURSE The
+indicators show that the aircraft is flying to the ground station and is
+on the right hand side of the course selected by the pilot.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 196 of 209
+FOR TRAINING PURPOSES ONLY
+VOR INDICATING - TO A SELECTED COURSE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 197 of 209
+FOR TRAINING PURPOSES ONLY
+VOR/MKR SYSTEM PRESENTATION (2) VOR INDICATING (continued) CROSSING A
+SELECTED COURSE The indicators show that the aircraft is flying from the
+ground station and is crossing the course selected by the pilot.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 198 of 209
+FOR TRAINING PURPOSES ONLY
+VOR INDICATING - CROSSING A SELECTED COURSE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 199 of 209
+FOR TRAINING PURPOSES ONLY
+VOR/MKR SYSTEM PRESENTATION (2) VOR INDICATING (continued) FROM A
+SELECTED COURSE The indicators show that the aircraft is flying from the
+ground station and is on the left hand side of the course selected by
+the pilot.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 200 of 209
+FOR TRAINING PURPOSES ONLY
+VOR INDICATING - FROM A SELECTED COURSE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 201 of 209
+FOR TRAINING PURPOSES ONLY
+VOR/MKR SYSTEM PRESENTATION (2) MKR INDICATING When the aircraft
+overflies the MKR, the type of MKR is display on the PFDs in different
+colors, and is indicated by an aural identification.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 202 of 209
+FOR TRAINING PURPOSES ONLY
+MKR INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 203 of 209
+FOR TRAINING PURPOSES ONLY
+VOR/MKR SYSTEM PRESENTATION (2) COMPONENT LOCATION The marker antenna is
+installed on the lower fuselage and the dual VOR antenna at the top of
+the vertical stabilizer. There are two receivers (VOR1 & VOR2) in the
+avionics bay (80VU).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 204 of 209
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 205 of 209
+FOR TRAINING PURPOSES ONLY
+VOR/MKR DESCRIPTION/OPERATION (3) GENERAL
+MKR CONTROL
+The VOR and MKR system includes: - 2 identical VOR/MKR receivers (only 1
+MKR system is installed on aircraft), - 1 dual VOR antenna, - 1 MKR
+antenna.
+The system consists of two identical VOR/MKR receivers but only MKR one
+is operative as it is connected to the MKR antenna. The MKR system
+operates at a fixed frequency and does not need any control.
+VOR AUTO TUNING
+The MKR antenna receives MKR signals when the aircraft flies over the
+MKR beacons. The MKR antenna operates at 75 MHz.
+In normal operation each Flight Management and Guidance Computer (FMGC)
+automatically tunes its ownside VOR receiver through its ownside Radio
+Management Panel (RMP) via port A. With failure of one FMGC, the other
+FMGC can control the two VOR/MKR receivers, one directly, the other
+through its RMP. When the FMGC fails, the VOR receives a discrete signal
+through the RMP to automatically select port B.
+VOR MANUAL TUNING
+MKR ANTENNA
+AMU The pilot can adjust the volume of the VOR ground station and MKR
+beacon identification signals using the VOR and MKR P/Bs on the Audio
+Control Panel (ACP). Selected VOR ground station and MKR beacon
+identification audio signals are transmitted to Audio Management Unit
+(AMU) and then dispatched to the headsets and/or loudspeakers.
+LGCIU
+From each MCDU both VORs can be manually tuned through their ownside
+FMGC.
+VOR BACK-UP TUNING
+Each Landing Gear Control and Interface Unit (LGCIU) sends discrete
+signals to the associated VOR receiver. This ground/flight information
+is used by the receiver BITE module to count the flight legs.
+In case of dual FMGC failure, the RMPs enable back-up tuning.
+INDICATING
+VOR ANTENNA
+VOR data is sent to the NDs through the Display Management Computers
+(DMCs) and directly to the Digital Distance and Radio Magnetic Indicator
+(DDRMI). The MKR data is sent to the PFDs through the DMCs.
+The dual VOR antenna receives the signals coming from the ground
+stations. The VOR antenna operates in the 108 MHz to 117.95 MHz range.
+CFDIU
+VOR USERS The VOR data is sent to the FMGCs for aircraft position
+computation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+The MCDUs allow the systems to be tested and trouble shooting to be
+performed via the Centralized Fault Display Interface Unit (CFDIU). The
+tests are only available on ground.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 206 of 209
+FOR TRAINING PURPOSES ONLY
+GENERAL ... CFDIU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 207 of 209
+FOR TRAINING PURPOSES ONLY
+NAVIGATION SYSTEM OPERATION, CONTROL & INDICATING (3) RA FAILURE ADIRU
+FAILURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 208 of 209
+FOR TRAINING PURPOSES ONLY
+Training Manual Airbus A318/319/ A320/A321 (CFM56 & V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 209 of 209

@@ -1,0 +1,712 @@
+Airbus A318/A319/A320/A321 (CFM56 & V2500) B1+B2 Technical Training
+Manual
+ATA 31 -- Indicating/Recording Systems Airframe Systems
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more. Contact us Tel: +44(0) 1565 653745 Email:
+admin@catts.org.uk Web: www.catts.org.uk Online Training:
+catts.learnupon.com/store
+ATA Chapters Required in this Training Manual AIRFRAME SYSTEMS ATA 31
+Recording Systems
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+Training Ma Manual Airbus A318/319/ A320/A321 (CFM56 & V2500) ATA 31
+Airframe Systems; Recording Systems Level 3
+RECORDING SYSTEMS Recording System Component Location (2) . . . . . . .
+. . . . . . . . . . . . . 2 Recording System Control & Indicating (2) .
+. . . . . . . . . . . . . . . . . . . 8
+UP & DOWN DATA LOADING SYSTEM Up & Down Data Loading System Presentation
+(2) . . . . . . . . . . . . . 10
+DIGITAL FLIGHT DATA RECORDING SYSTEM (DFDRS) DFDRS Description/Operation
+(3) . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 FDIMU
+Interfaces (3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . 16
+A/C INTEGRATED DATA SYSTEM (AIDS-SFIM) Print Report STD Header
+Description (3) . . . . . . . . . . . . . . . . . . . . . 18 Individual
+Print Report Description (3) . . . . . . . . . . . . . . . . . . . . . .
+. 24 AIDS Programming (3) . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . 52
+A/C INTEGRATED DATA SYS (AIDS-TELEDYNE) (option) Print Report STD Header
+Description (3) . . . . . . . . . . . . . . . . . . . . . 58 Individual
+Print Report Description (3) . . . . . . . . . . . . . . . . . . . . . .
+. 64 AIDS Description/Operation (3) . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . 94
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 1
+RECORDING SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW The Flight Data
+Interface and Management Unit (FDIMU) has two primary functions. The
+first is the Flight Data Interface Unit (FDIU) function. To obey the
+mandatory requirements of crash recording, the FDIU acquires and formats
+several important flight parameters and system data before it supplies
+them to the Solid State Flight Data Recorder (SSFDR). The linear
+accelerometer measures the acceleration of the A/C in all three axes.
+The System Data Acquisition Concentrator (SDAC) digitizes the analog
+signal of the linear accelerometer and sends it to the FDIU. For
+maintenance and performance purposes, the optional Quick Access Recorder
+(QAR) records the same parameters as the SSFDR. The operation of the
+SSFDR is automatic. On the overhead panel, there is a GrouND ConTroL
+P/B, which is on the ReCorDeR panel. This P/B lets the SSFDR be supplied
+when the A/C is on ground for preflight checks before engine start or
+for tests and maintenance. On the center pedestal, there is a Digital
+Flight Data Recorder (DFDR) EVENT P/B, which can be used to set an event
+mark on the SSFDR memory.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 2
+SYSTEM OVERVIEW
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 3
+RECORDING SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION The DFDRS and
+AIDS computers are in the aft avionics rack. About the QAR/DAR, there
+are several vendors of optical disk storage media. The recorder is then
+called Optical QAR/DAR (OQAR/ODAR). There is also a version from
+Teledyne that includes a GSM module for data transmission called WQAR
+(Wireless GroundLink QAR). The FDIMU computer is in the aft avionics
+rack. The SSFDR is installed immediately above the Cockpit Voice
+Recorder (CVR), in an unpressurized area of the rear fuselage. The SSFDR
+stores the data of the last 25 hours collected by the FDIU. The SSFDR
+stores these data in a solid state memory which is in a
+crash-and-fire-protected housing. The linear accelerometer is near the
+A/C center of gravity. It sends the accelerations in the 3 axes (pitch,
+roll and yaw) to the DFDRS.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 4
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 5
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 6
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 7
+RECORDING SYSTEM CONTROL & INDICATING (2) RECORDERS and AIDS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 8
+UP & DOWN DATA LOADING SYSTEM PRESENTATION (2) GENERAL The data loading
+system is an interface between the aircraft computers and ground data
+processing equipment used to update software (S/W) and database or to
+retrieve aircraft system data. The data loading system includes: - a
+Data Loading Selector (DLS) to select the computer on which data will be
+loaded, - a Multipurpose Disk Drive Unit (MDDU) to upload or download
+data, - a stowage box with a 42 disk maximum capacity (the Disk Stowage
+is in the left and right sides consoles and can be locked with a key), -
+a Data Loading Routing Box (DLRB) to route the input/output data between
+the disk unit and the target computer. When Portable Data Loader (PDL)
+connectors are installed, ARINC 615A data loading of the Air Traffic
+Service Unit (ATSU) and Air Data Inertial Reference Units (ADIRUs) is
+possible.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 9
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 10
+UP & DOWN DATA LOADING SYSTEM PRESENTATION (2) UP LOADING The aircraft
+system computers use the loading system to update their data base, for
+example the Flight Management and Guidance Computer (FMGC) or to modify
+parts of their operational S/W, for example the ATSU. The Up loading is
+automatically done from a 3.5 inch disk, via an internal logic specific
+to each computer. Power supply plug is installed to enable data loader
+power supply.
+DOWN LOADING The down loading system is used to down load, to a 3.5 inch
+disk, the data recorded by some computers during aircraft operation, for
+example the Data Management Unit (DMU) part of the Flight Data Interface
+and Management Unit (FDIMU). Down loading is done automatically through
+an internal logic specific to each computer.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 11
+UP LOADING & DOWN LOADING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 12
+DFDRS DESCRIPTION/OPERATION (3) FDIMU The Flight Data Interface and
+Management Unit (FDIMU) combines two functions which operate
+independently from each other: the Flight Data Interface Unit (FDIU) and
+the Data Management Unit (DMU). An internal data-bus connects the two
+parts. The FDIU-part receives discrete and digital parameters and
+processes them. The functions of the FDIU-part are: - conversion, -
+comparison, - check and Built-In Test Equipment (BITE). The FDIU-part
+converts the input parameters into a numerical format for: - the Digital
+Flight Data Recorder (DFDR), - the optional Quick Access Recorder (QAR).
+-the Digital AIDS Recorder (DAR) The FDIU-part compares the data that it
+sends with the data recorded by the DFDR. The recorded data is
+transmitted back to the FDIU-part through the playback data bus. For
+PCMCIA recording function, data transmission from the FDIMU part to DMU
+part is given through an internal ARINC 429 data bus. The FDIU-part
+checks the integrity of the mandatory parameters during the flight.
+After the flight, engines shutdown, only the Linear Accelerometer (LA)
+signal check is done. The FDIU-part includes BITE and monitoring
+functions.
+DFDR
+(SDACs). The DFDR energization is controlled through the power interlock
+circuit. The underwater locator beacon installed on the front face of
+the DFDR gives the location of the recorder if the aircraft is immersed
+in water following an accident. The underwater locator beacon has a
+battery, which is activated by both fresh and salt water.
+QAR (OPTIONAL) The QAR stores the same data as the DFDR for on ground
+performance, maintenance or condition monitoring tasks. The data frames
+stored in the QAR are identical to the DFDR data frames. The QAR
+includes BITE functions. The QAR status signals (QAR MEDIA LOW, QAR
+FAIL) are sent to the lamps on its front face and to the CFDIU through
+the FDIU-part. The QAR energization is controlled through the power
+interlock circuit. If installed, the DAR records data in a formatted
+optical disk.
+LINEAR ACCELEROMETER The task of the LA is to measure the acceleration
+of the aircraft in all three axes. The range of measurement is: -
+vertical axis (Z): -3 to +6 g, - longitudinal axis (X): -1 to +1 g, -
+lateral axis (Y): -1 to +1 g. The LA generates an analog signal, which
+is sent to the SDACs. This signal is digitalized and sent to the
+FDIU-part through an ARINC 429 bus.
+The DFDR stores data, which the FDIU-part has collected during the last
+25 hours. The data is recorded in data frames. Each frame contains data
+received during one second. The DFDR includes BITE functions. The DFDR
+status signal is sent to the Centralized Fault Display Interface Unit
+(CFDIU) through the FDIU-part and to the Electronic Centralized Aircraft
+Monitoring (ECAM) through the System Data Acquisition Concentrators
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 13
+FDIMU ... LINEAR ACCELEROMETER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 14
+FDIMU INTERFACES (3) ARINC 429 INPUTS Most information is given to the
+Flight Data Interface and Management Unit (FDIMU) through ARINC 429
+buses. The Flight Data Interface Unit (FDIU) part of the FDIMU receives
+15 ARINC 429 buses 10 of which are shared with Data Management Unit
+(DMU) part. NOTE: The Linear Accelerometer (LA) sends an analog signal
+to the System Data Acquisition Concentrators (SDACs), which digitalizes
+it before to send it to the FDIU-part.
+ARINC 429 OUTPUTS 2 ARINC 429 output buses are supplied. The output bus
+to the Centralized Fault Display Interface Unit (CFDIU) is used for
+maintenance and test of the Digital Flight Data Recording System
+(DFDRS). The output bus to the Multipurpose Disk Drive Unit (MDDU)
+allows to load the application-software of the FDIU-part and DMU-part.
+NOTE: To display the DFDR FAULT message on the ECAM, a DFDR status
+signal is directly sent by the DFDR to the SDACs.
+ARINC 717 OUTPUT The FDIU-part of the FDIMU sends the data to be
+recorded to the DFDR and the optional QAR through ARINC 717 output bus.
+ARINC 717 INPUT To verify the recorded data, the FDIU-part of the FDIMU
+receives the DFDR playback data through ARINC717 input bus.
+PCMCIA INTERFACE A PCMCIA interface is integrated in the FDIMU to upload
+application-software and download Aircraft Integrated Data System (AIDS)
+reports with a notebook computer.
+RS 232
+DISCRETE INPUTS
+To enable the connection of a portable MCDU or a Portable Data Loader
+(PDL), a test connector is installed on the front panel of the FDIMU.
+The interface for maintenance test and program is RS 232.
+54 discrete inputs are given for aircraft identification coding. 5 other
+inputs are given for: - Digital Flight Data Recorder (DFDR) status, -
+event mark, Quick Access Recorder (QAR) FAIL, - QAR MEDIA LOW
+information and, - MDDU selection. NOTE: The QAR is optional.
+DISCRETE OUTPUT 1 discrete output is used by the SDACs to display the
+FDIU FAULT message on the Electronic Centralized Aircraft Monitoring
+(ECAM).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 15
+ARINC 429 INPUTS ... RS 232
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 16
+PRINT REPORT STD HEADER DESCRIPTION (3) GENERAL
+AIRCRAFT AND FLIGHT INFORMATION
+A standard header is printed on each report. It is composed of
+information about the report at the top, information about the aircraft
+and the flight in the middle and general data at the bottom. The header
+data is taken at the time when the respective report is generated.
+Line CC contains the following data: - A/C ID: Aircraft identification
+(tail number), - DATE (month/day), - UTC: Universal Time Coordinated
+(hours/minutes/seconds), - FROM TO: City pair identification, - FLT:
+Flight number. The flight number is defined by up to 8 characters but
+only the last 4 numbers are used. Only numbers are possible and the not
+used positions are filled with zeros. E.g. Flight Management and
+Guidance Computer (FMGC) flight number AI067 is printed out 0067.
+REPORT VALUE PRESENTATION Each data line starts with two identification
+letters. The presentation of the values in the data lines is according
+to: - their sign: Negative values begin with "N" and, for positive
+values, "N" is replaced by "0" or another digit. - their operational
+range without decimal point as listed in the parameter list associated
+to the header and each report (for these lists, refer to Aircraft
+Maintenance Manual (AMM) 31-37-00). E.g.: The operational range of the
+Total Air Temperature (TAT) is from -60.0 to 99.9 °C. Therefore, -32.0
+°C is printed out N320 and +26.5 °C is printed out 0265. In addition, a
+parameter, which is invalid or not updated, is replaced with "\_" or "X"
+characters. NOTE: In this document, as well as in the AMM, generic
+symbols for the value fields are used: - "1" = 0 or 1, - "A" = Any
+character in the range from A. to.Z, - "9" = Any digit in the range from
+0.to.9, - "X" = Any character or digit in the range from A.to.Z or
+0.to.9. E.g.: TAT value is symbolized by "X999".
+REPORT INFORMATION
+GENERAL DATA Lines C1 and CE contain the following data: - PH: Data
+Management Unit (DMU) flight phase, based on flight phase from Flight
+Warning Computer (FWC), - CNT: Counter of the reports previously
+generated (first 3 digits) and previous report number (last 2 digits), -
+CODE: Trigger condition code, - BLEED STATUS, - APU: APU bleed valve
+state, - TAT: Total Air Temperature, - ALT: Standard altitude, - CAS:
+Computed air speed, - MN: Mach number, - GW: Gross Weight, - CG: Center
+of Gravity, - DMU/SW: DMU software (S/W) Part Number (PN).
+TRIGGER CONDITION CODE 3 free programmable lines are available for
+airline specific messages. Another line contains the report name and
+number.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+To identify the trigger condition that caused the generation of a
+report, a numerical code is given: - 1000: Manual selection via MCDU,
+Issue 012 - Revision 001 - Dated 19/03/2025 17
+- 2000: Flight phase dependent manual selection via Aircraft Integrated
+Data System (AIDS) PRINT P/B when programmed by the airline, - 3000:
+Start logic programmed by the airline, - 4000 to 7000: Report triggered
+by a combination of logic conditions (refer to AMM 31-37-00 for the
+detailed trigger logics associated to each report), - 8100 and 8200: Air
+Traffic Service Unit (ATSU) uplink request.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 18
+GENERAL ... GENERAL DATA
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 19
+PRINT REPORT STD HEADER DESCRIPTION (3) GENERAL DATA (continued) BLEED
+STATUS Bleed status is indicated with discrete coded information and
+numerical values. In the discrete coded information, 0 indicates that
+the valve is closed and 1 indicates that the valve is open.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 20
+GENERAL DATA - BLEED STATUS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 21
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) - depending on the DMU, which is
+fitted on your aircraft, the LOAD REPORT \<15\> may not be applicable.
+GENERAL A report is a comprehensive set of data related to a specific
+event (e.g. limit exceedance of engine parameters). The parameters
+contained in the reports are among the parameters provided with an alpha
+call-up (refer to Aircraft Maintenance Manual (AMM) 31-37-00 for the
+detailed parameter list associated to each report). The Data Management
+Unit (DMU) processes up to 23 different types of report: - 13 standard
+reports for basic aircraft, engine and APU monitoring. These reports
+have fixed trigger mechanism, fixed data collection and fixed output
+formatting. Nevertheless, certain constants and limits within fixed
+trigger logics are reprogrammable. Specific trigger conditions can be
+created for each report by means of the Ground Support Equipment
+(GSE). - up to 10 additional reports, numbered from 31 to 40, for
+airline specific investigation and trouble shooting. These reports are
+user programmable with the GSE for trigger conditions, data collection,
+report format and output destination. In addition to the automatic
+trigger logics, all the reports can be manually generated: - via MCDU, -
+via Aircraft Integrated Data System (AIDS) PRINT P/B (according to
+flight phase associations, if programmed), - via Air Traffic Service
+Unit (ATSU) (uplink request). Refer to AMM 31-37-00 for the detailed
+trigger logics associated to each report. A non-volatile memory for
+storage of at least 10 reports per different type of report is provided
+within the DMU. NOTE: S: - in this module, reports \<01\> to \<11\> are
+given for a CFM engine. They may be slightly different to your aircraft
+configuration.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 22
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 23
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) P25 (High Pressure (HP)
+compressor inlet pressure), T5 (Low Pressure (LP) turbine discharge
+temperature).
+ENGINE CRUISE REPORT \<01\> This report is a collection of data over a
+period of time in which the aircraft met the appropriate stability
+criteria. The required stability period is 100 seconds (programmable
+value). Basically, whatever the number of times the stability is
+detected, only one report is generated per flight leg. This report
+contains the data with the best engine quality number (QE) over the
+whole flight leg. If no stability is detected, then a report is
+generated with the following message in its last line: "NO STABLE FRAME
+CONDITION". NOTE: In case of ENGINE DIVERGENCE REPORT \<09\> generated,
+an engine cruise report is also generated when the first stability is
+detected, regardless of quality. The report mainly contains operating
+data of both engines, including vibration data. The report data are
+averages over the required stability period, except: - ESN, EHRS, ERT,
+ECYC: Engine general data (serial number, flight hours, running time,
+cycle), - AP: Autopilot status, - QE: Engine quality number used as
+stability indicator for this report (00: best stability, 99: worst
+stability), - OIQH: Oil consumption from the previous flight, - EVM,
+ECW1, SSEL: Engine vibration status word, engine control word, and
+status of Full Authority Digital Engine Control (FADEC) sensors, - data
+lines V3, V4: Averaged values taken from the last stable descent
+(i.e. descent of the last leg), - data lines V5, V6: Averaged values
+taken from the last stable climb (i.e. climb of the current leg). NOTE:
+For engine health monitoring purposes, 3 additional sensors can be
+optionally connected to the FADEC to permit recording of the following
+parameters: PS13 (fan tip discharge pressure),
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 24
+ENGINE CRUISE REPORT \<01\>
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 25
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) CRUISE PERFORMANCE REPORT \<02\>
+This report is similar to ENGINE CRUISE REPORT \<01\> except that more
+information is provided about the aircraft. The following data is
+added: - QA: Aircraft quality number used as stability indicator for
+this report (00: best stability, 99: worst stability). - WFQ: Inner cell
+fuel quantity, - ELEV: Elevator position, - AOA, SLP: Corrected
+Angle-Of-Attack and side slip angle, - CFPG, CIVV: Last DMU calculated
+flight path acceleration and inertial vertical speed, - ROLL, YAW: Roll
+angle and body axis yaw rate (average), - THDG, LONP, LATP: True
+heading, longitude and latitude positions, - WS, WD: Wind speed and
+direction (average), - FT, FD: Fuel temperature and density (average), -
+Flight controls positions (average). E.g. RSP5: Roll spoiler 5 position.
+NOTE: Data lines X1, X4, X6 are issued from system 1 (e.g. FLAP
+system 1) or left (e.g. left spoiler 5) while data lines X2, X5, X7 are
+issued from system 2 or right. In addition, the trigger logic for this
+report differs a little bit from the logic for ENGINE CRUISE REPORT
+\<01\> and is performed independently (e.g. the required stability
+period can be different).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 26
+CRUISE PERFORMANCE REPORT \<02\>
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 27
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) ENGINE TAKE OFF REPORT \<04\>
+GENERAL This report is generated while in the take off flight phase when
+the sum of the Exhaust Gas Temperature (EGT) for both engines is
+maximum. It is used to check the trend and the stress of the engines
+during take off. Basically, one report is generated per leg
+(programmable frequency). The report mainly contains data of both
+engines, including the maximum EGT (EGTM). The radio height (RALT),
+provided by radio altimeters 1 and 2, is also printed.
+"T/O DELTA N1 SUMMARY" DATA History of the difference between the
+maximum value of N1 (N1MX) and the actual N1 during previous takeoffs is
+provided for both engines. T/O DELTA N1 SUMMARY data is calculated a few
+seconds after entry into the take off flight phase, independently from
+the report trigger.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 28
+ENGINE TAKE OFF REPORT \<04\> - GENERAL & "T/O DELTA N1 SUMMARY" DATA
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 29
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) ENGINE REPORT ON REQUEST \<05\>
+The ENGINE REPORT ON REQUEST is a time series collection of engine
+parameters and is only generated on manual request. Parameters for both
+engines are recorded at 1 second intervals, from 5 seconds before the
+request to 5 seconds after.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 30
+ENGINE REPORT ON REQUEST \<05\>
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 31
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) ENGINE GAS PATH ADVISORY REPORT
+\<06\> GENERAL The engine gas path advisory report is generated by any
+of the following trigger conditions: - stall condition detected on one
+engine, - exceedance of one of the primary engine parameters (EGT, N1,
+N2) detected on one engine, - fuel Shut Off-Valve (SOV) closed in flight
+for at least 4 seconds on one engine. The reason for exceedance is
+displayed (STALL, EGT, N1, N2, SHUT DOWN). Basically, 3 sets of
+parameters for both engines are recorded at 6 seconds intervals before
+the event, 1 set at the event and 5 sets at 5 seconds intervals after
+the event. The length of the pre-event and post-event intervals (Y1 and
+Y2) is programmable. The number of datasets to be generated after the
+event is also programmable (up to 20). Report generation stops when this
+number is reached or when the exceedance parameters are again within
+their limit.
+LIMIT EXCEEDANCE SUMMARY The following data provides a summary on the
+exceedance that occurred: - E: Engine (1 or 2) on which the exceedance
+occurred, - MAX: Maximum value (peak) of the exceeded parameter, - LIM:
+Programmable limit that was exceeded, - REF: N2 at stall detection (for
+all other exceedance, zeros are printed), - TOL: Time over limit during
+report generation, - TTP: Time to peak during report generation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 32
+ENGINE GAS PATH ADVISORY REPORT \<06\> - GENERAL & LIMIT EXCEEDANCE
+SUMMARY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 33
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) ENGINE MECHANICAL ADVISORY
+REPORT \<07\> The ENGINE MECHANICAL ADVISORY REPORT is generated when an
+exceedance of one of the following secondary engine parameters is
+detected on one engine: - engine Oil Inlet Temperature (OIT), - engine
+oil pressure (OIP), - vibrations of the engine Low Pressure (LP) rotor
+(VB1), - vibrations of the engine High Pressure (HP) rotor (VB2). The
+reason for exceedance is displayed (OIT, OIP, VB1, VB2). Basically, 5
+sets of parameters for one engine are recorded at 4 seconds intervals
+before the event, 1 set at the event and 4 sets at 5 seconds intervals
+after the event. The length of the pre-event and post-event intervals
+(Y07.1 and Y07.2) is programmable.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 34
+ENGINE MECHANICAL ADVISORY REPORT \<07\>
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 35
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) ENGINE DIVERGENCE REPORT \<09\>
+This report is generated while in the climb or cruise flight phases
+when, under stabilized conditions, any of the following engine
+divergence conditions is detected: - Exhaust Gas Temperature (EGT)
+divergence exceeding a programmed threshold, - nacelle temperature (TN)
+divergence exceeding a programmed threshold. The reason for divergence
+is displayed (EGT, TN). This report is intended to detect quick
+degradation in engine performance. 3 sets of parameters for both engines
+are recorded at 2 seconds intervals before the event, 1 set at the event
+and 3 sets at 2 seconds intervals after the event. In addition, the
+following data is provided: - E: Divergent engine (1 or 2), - DIV:
+Absolute divergence value of EGT (or TN), - REF: Reference delta value
+of EGT (or TN). Since two engines do not behave with the same
+performance characteristics, it is necessary to establish a reference
+delta for the divergence. DIV = DIFF - REF, DIFF being the actual delta
+value of EGT (or TN) between both engines.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 36
+ENGINE DIVERGENCE REPORT \<09\>
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 37
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) ENGINE START REPORT \<10\> This
+report is generated in case of aborted engine start or EGT exceedance.
+The possible aborted start reasons are: - starter air valve or HP
+Shut-Off Valve (SOV) demand/position disagree, - EGT overtemperature, -
+stall, - no engine light off, - hung start, - illegal start sequence, -
+slow start. When effective, the reason is displayed (SAV, HPSOV, EGT,
+STALL, NO LIGHT OFF, HUNG, START FAIL, SLOW). "EGT" is also displayed in
+case of exceedance. Basically, 3 sets of parameters for one engine are
+recorded at 5 seconds intervals before the event, 1 set at the event and
+3 sets at 2 seconds intervals after the event. The length of the
+pre-event and post-event intervals (Y1 and Y2) is programmable. NOTE:
+The engine start report is also generated (with 7 post-event
+datasets): - every 25 engine cycles (programmable frequency), - every
+flight leg for 5 consecutive flight legs from initialization
+(programmable number, up to 9).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 38
+ENGINE START REPORT \<10\>
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 39
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) ENGINE RUN UP REPORT \<11\> This
+report is primarily generated on manual request. It contains the same
+data as the ENGINE CRUISE REPORT \<01\> plus corrected parameters for
+the ambient temperature. These corrected data are averages over a period
+of 20 seconds as well as most of the other report data (refer to the
+ENGINE CRUISE REPORT \<01\> topic).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 40
+ENGINE RUN UP REPORT \<11\>
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 41
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) APU MAIN ENGINE START/IDLE
+REPORT \<13\> This report is generated once at the beginning of each new
+APU operating hour interval when a main engine is started with the APU.
+The APU operating hour interval is programmable. The report mainly
+contains operating data of the APU: - from each Main Engine Start (MES)
+(lines N1, S1 and N2, S2). If the APU master switch is set to off before
+the second MES is terminated, lines N2 and S2 are filled with zeros, -
+at APU idle (lines N3 and S3). In addition, line V1 contains data from
+the previous APU start.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 42
+APU MAIN ENGINE START/IDLE REPORT \<13\>
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 43
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) APU SHUTDOWN REPORT \<14\> This
+report is generated in case of abnormal APU shutdown. The possible
+shutdown reasons are: - no flame, - reverse flow, - loss of DC power, -
+high oil temperature, - air intake not open, - generator high oil
+temperature, - overtemperature, - sensor failure, - no acceleration, -
+start time exceeded, - overspeed, - Electronic Control Box (ECB)
+failure, - low oil pressure, - loss of speed, - Inlet Guide Vane (IGV)
+failure. When effective, the reason is displayed. Basically, 20 sets of
+APU parameters are recorded at 1 second intervals before the event and 1
+set at the event. The length of the pre-event interval (Y14.1) is
+programmable.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 44
+APU SHUTDOWN REPORT \<14\>
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 45
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) LOAD REPORT \<15\> Basically,
+this report is generated when excessive loads are applied to the
+airframe during landing. The report mainly contains aircraft aerodynamic
+data recorded before, at and after a hard landing. An aircraft bounce
+can also be detected. In that case, additional data lines T1 to T4 are
+also generated.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 46
+LOAD REPORT \<15\>
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 47
+INDIVIDUAL PRINT REPORT DESCRIPTION (3) ENVIRONMENTAL CONTROL SYSTEM
+REPORT \<19\> The environmental control system report is generated when
+there is a malfunction in the air conditioning or pressurization system.
+The reason for report generation is displayed (e.g. EXCESSIVE CABIN
+ALTITUDE). The report contains engine, aircraft and environmental data.
+Basically, up to 19 sets of parameters can be recorded at 15 seconds
+intervals before the event and 1 set at the event. The number of
+pre-event sets as well as the length of the pre-event interval (Y1) are
+programmable. In order to reduce the length of the report, a specific
+procedure is applied for report output: - the first pre-event dataset is
+generated completely as well as the at event dataset, - within the
+intermediate datasets, a line is only generated if the value of an
+included leading parameter has changed. E.g.: Cabin altitude (ZCB) is
+observed for changes in each Vx line and causes the print out of one
+line when the change limit is exceeded (i.e. +/- 100 feet).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 48
+ENVIRONMENTAL CONTROL SYSTEM REPORT \<19\>
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 49
+AIDS PROGRAMMING (3) GENERAL The Data Management Unit (DMU) is
+reprogrammable either with the assistance of the optional Ground Support
+Equipment (GSE) or partially (very limited) through the MCDU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 50
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 51
+AIDS PROGRAMMING (3) GSE The GSE is based on a compatible personal
+computer and is divided into different software (S/W) modules. A major
+module is the programming of the DMU functions. It mainly enables: - the
+adjustment of the standard reports (e.g. report limits), - the addition
+of customer reports (numbered from 31 to 40), - the addition of trigger
+conditions, - the configuration of the Smart Access Recorder (SAR) and
+Digital AIDS Recorder (DAR) recording channels (DAR is optionally
+installed). In particular, the GSE user has the possibility to program
+trigger conditions for: - standard reports (additional conditions), -
+programmable reports, - SAR, - DAR. This programming is made by means of
+logics defined in a specific language. In the example given here, report
+31 is associated to logic 300 and will be triggered when the Exhaust Gas
+Temperature (EGT) of engine 1 is greater than 850 °C for more than 3
+seconds while in cruise flight phase. Once the programming is completed,
+another GSE module generates the associated database
+(i.e. setup/customer database). The database is stored on a floppy disk
+or a Personal Computer Memory Card International Association (PCMCIA)
+disk then transferred to the DMU through a Portable Data Loader (PDL) or
+the optional PCMCIA interface.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 52
+GSE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 53
+AIDS PROGRAMMING (3) MCDU PROGRAMMING MENU Programming with the MCDU is
+possible by pressing the PROGRAMMING line select key on the AIDS MENU
+page. A first page is displayed with the DMU-part of the Flight Data
+Interface and Management Unit (FDIMU) hardware (H/W) and S/W
+references: - P/N is the Part Number of the DMU, - D1 P/N is the Part
+Number of the operational S/W, - the 3 following items of information
+concern the setup/customer database: VVVV is the version number, LLLL is
+the revision level, DDMMYY is the generation date. A password, defined
+with the GSE, is required to access the following programming menus.
+REPORT INHIBIT Inhibition for all the reports of the printing and/or
+linking to the Air Traffic Service Unit (ATSU). The inhibition is
+effective until the next DMU power off.
+REPORT LIMITS Change, in a temporary way, of some report limits that are
+programmable by the GSE. The change is effective for a predefined number
+of days or legs (refer to the VALIDITY field).
+REPORT COUNTERS Setting of the report internal counters at their
+corresponding limit value.
+STATISTIC COUNTERS Initialization and visualization of the engine/APU
+hours and cycles. The DMU resets the engine/APU hours and cycles in case
+of engine/APU change (engine/APU serial number change detection). The
+menu then allows the correct values to be programmed for an engine or
+APU after it has been changed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 54
+MCDU PROGRAMMING MENU - REPORT INHIBIT ... STATISTIC COUNTERS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 55
+AIDS DESCRIPTION/OPERATION (3) GENERAL INTERFACES The Data Management
+Unit (DMU) part of the Flight Data Interface and Management Unit (FDIMU)
+sends data to MCDU 1 and 2 (the 3rd is optional), to the printer and to
+the Centralized Fault Display Interface Unit (CFDIU) through a single
+ARINC 429 data bus. Each one of these responds through a separate data
+bus. NOTE: Only one MCDU can be used at a time for the Aircraft
+Integrated Data System (AIDS). The Aircraft Communication Addressing and
+Reporting System (ACARS) and the Multipurpose Disk Drive Unit (MDDU)(if
+installed) have individual input/output buses.
+DAR INTERFACE BITE and DAR TAPE LOW information is delivered from the
+Digital AIDS Recorder (DAR) to the FDIMU (DMU-part) through discrete
+signals. BITE and DAR TAPE LOW information causes a class 2 message on
+the Electronic Centralized Aircraft Monitoring (ECAM) maintenance status
+("DAR") and two class 2 messages in the Centralized Fault Display System
+(CFDS) (DAR FAULT and DAR TAPE LOW).
+FDIU INTERFACE The Flight Data Interface Unit (FDIU) part of the FDIMU
+sends Digital Flight Data Recorder (DFDR) parameters to the DMU-part of
+the FDIMU through an ARINC 429 bus so that they can be recorded on the
+DAR.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 56
+GENERAL INTERFACES ... FDIU INTERFACE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 57
+AIDS DESCRIPTION/OPERATION (3) SYSTEM INTERFACE The FDIMU (DMU-part)
+receives approximately 13.000 parameters from various A/C systems
+through ARINC 429 data lines. These parameters can be recorded by the
+DAR. NOTE: In addition, spares inputs are provided. Among these ARINC
+429 inputs data lines, some of them are selectable for high or low speed
+from system computers.
+PARAMETER CALL-UP Parameters transmitted on the connected data buses can
+be shown on the MCDU in binary code with the label call-up function. At
+FDIMU delivery, 200 parameters are already defined with alpha call-up
+code and can be shown on the MCDU in engineering units. Approximately
+1.500 parameters can be added to the initial alpha call-up list by
+programming.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 58
+SYSTEM INTERFACE & PARAMETER CALL-UP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 59
+Training Manual Airbus A318/319/ A320/A321 (CFM56 & V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 001 - Dated 19/03/2025 60

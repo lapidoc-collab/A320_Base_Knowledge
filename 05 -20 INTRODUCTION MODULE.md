@@ -1,0 +1,719 @@
+Airbus A318/A319/A320/A321 (CFM56 & V2500) B1+B2 Technical Training
+Manual
+ATA 05\>20 Introduction Module
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more. Contact us Tel: +44(0) 1565 653745 Email:
+admin@catts.org.uk Web: www.catts.org.uk Online Training:
+catts.learnupon.com/store
+ATA Chapters Required in this Training Manual INTRODUCTION MODULE ATA 05
+Time Limits/Maintenance checks
+ATA 06
+Dimensions/ Areas (MTOM, etc.)
+ATA 07
+Lifting and Shoring
+ATA 08
+Levelling and Weighing
+ATA 09
+Towing and Taxiing
+ATA 10
+Parking/Mooring, Storing and Return to Service
+ATA 11
+Placards and Markings
+ATA 12
+Servicing
+ATA 20
+Standard Practices -- only type particular
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+Training Manual Airbus A318/A319/ A320/A321 (CFM56 & V2500) ATA 00-20
+Introduction Module Level 3
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) SCHEDULED MAINTENANCE TASKS & CHECKS in MPD
+This Chapter 05-20-00 "Life Limits and Maintenance Checks" is now
+covered in the Maintenance Planning Document (MPD). The MPD is the
+repository document for all repetitive scheduled maintenance tasks
+declared by Airworthiness Directives (AD/CN), All Operator Telex (AOT),
+Inspection Service Bulletins (ISB), Service Information Letters (SIL),
+and Modifications (MOD/SB) and analyzed under the Maintenance Review
+Board (MRB).
+UN-SCHEDULED MAINTENANCE in AMM Section 05-50-00 This Chapter 05-50-00
+includes the maintenance checks that you must do when a flight crew
+report shows abnormal flight conditions. Such maintenance actions are
+divided into two categories of information: - inspections, - checks.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 5 of 76
+FOR TRAINING PURPOSES ONLY
+SCHEDULED MAINTENANCE TASKS & CHECKS IN MPD & UN-SCHEDULED MAINTENANCE
+IN AMM SECTION 05-50-00
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 6 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) SCHEDULED REPETITIVE REQUIREMENTS THROUGH MPD
+The main objective of the MPD document is to provide maintenance
+planning information necessary for each operator to develop a customized
+maintenance program. MPD reflects all repetitive scheduled maintenance
+tasks declared by AD/CN, AOT, ISB, SIL, and MOD/SB and analyzed under
+the MRB. A typical scheduled repetitive task (Integrated Drive Generator
+(IDG) scavenge filter) is listed with the following data: - the
+threshold interval, source document, cross-references to other manuals
+or documents (Aircraft Maintenance Manual (AMM) and SIL), - Man Hours
+required to accomplish the work, - the applicability in this Envelope
+document. Note the Zonal inspection, requested by C CHECK interval, on
+the tension of the fan cowl latches, the AOT, AMM and SIL
+cross-referenced. Some maintenance tasks have a higher ranking of
+requirement, when the maintenance requirement is identified as: -
+"Airworthiness Limitations Item" (ALI) or "Life limit parts", -
+"Certification Maintenance Requirements" (CMR). The approved document
+MRB REPORT Appendix 1 lists all these airworthiness approved issues, the
+ALIs and CMRs. The MPD details these airworthiness related items in the
+"Time controlled Items" and "Life Limits" sections. It is the
+responsibility of each operator to adjust his own maintenance program in
+accordance with his National Authority.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 7 of 76
+FOR TRAINING PURPOSES ONLY
+SCHEDULED REPETITIVE REQUIREMENTS THROUGH MPD
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 8 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) SA FAMILY PRESENTATION The Single Aisle is
+the most advanced family aircraft in service today, with fly-by-wire
+flight control The A318, A319, A320 and A321 are twin-engine subsonic
+medium range aircraft. The family offers a choice of engines: -
+International Aero Engines and CFM International for the A319, A320 and
+A321. - Pratt & Whitney and CFM International for the A318.
+AIRCRAFT DIMENSIONS - A320 (BASE MODEL) The picture shows the main
+dimensions for the A320. The A318, A319 and A321 have exactly the same
+dimensions except that: - the A318 is 6.12 m (20 ft) shorter, - the A319
+is 3.74 m (12ft 3in) shorter, - the A321 is 6.93 m (22ft 9in) longer.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 9 of 76
+FOR TRAINING PURPOSES ONLY
+AIRCRAFT GENERAL - AIRCRAFT DIMENSIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 10 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) AIRCRAFT FAMILY DIMENSIONS - LENGTH The
+picture shows the main dimensions for the A320. The A318, A319 and A321
+have exactly the same dimensions except that: - the A318 is 6.12 m (20
+ft) shorter, - the A319 is 3.74 m (12ft 3in) shorter, - the A321 is 6.93
+m (22ft 9in) longer.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 11 of 76
+FOR TRAINING PURPOSES ONLY
+AIRCRAFT GENERAL - AIRCRAFT DIMENSIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 12 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) AIRCRAFT FAMILY DIMENSIONS - HEIGHTS DOOR
+HEIGHTS The following picture shows the different door heights.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 13 of 76
+FOR TRAINING PURPOSES ONLY
+AIRCRAFT GENERAL - DOOR HEIGHTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 14 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) ATA CHAPTERS AND SECTION NUMBERS ATA CHAPTERS
+The A/C structure is divided according to the ATA 100 specifications.
+SECTION NUMBERS Each major part of the A/C receives a section number.
+The fuselage section base number is 10. The fuselage is divided into
+various sections for manufacturing reasons.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 15 of 76
+FOR TRAINING PURPOSES ONLY
+ATA CHAPTERS & SECTION NUMBERS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 16 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) SECTION NUMBERS (continued) WING AND TAIL
+PLANE The general wing section base number is 20. The general tail plane
+section base number is 30.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 17 of 76
+FOR TRAINING PURPOSES ONLY
+SECTION NUMBERS - WING AND TAIL PLANE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 18 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) SECTION NUMBERS (continued) ENGINE, LANDING
+GEAR AND BELLY FAIRING The engine section base number is 40. The L/G
+section base number is 50. The general belly fairing section base number
+is 60.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 19 of 76
+FOR TRAINING PURPOSES ONLY
+SECTION NUMBERS - ENGINE, LANDING GEAR AND BELLY FAIRING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 20 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) REFERENCE AXES AND STATION NUMBERS REFERENCE
+AXES The structure elements are installed according to the following
+reference axes. The X axis in the longitudinal direction of the
+fuselage, the Y axis in the direction of the wing span and the Z axis in
+the vertical direction. The cross section P presents a typical fuselage
+section at frame 47. NOTE: Note: The reference (station 0) for all
+structural measurements for the X axis is set at 100 in (254 cm) forward
+of the A/C nose.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 21 of 76
+FOR TRAINING PURPOSES ONLY
+REFERENCE AXES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 22 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) STATION NUMBERS FUSELAGE The STAtion number
+is the distance in centimeters of a cross-section from a reference
+point. The station/frame numbers shown agree with the section
+boundaries.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 23 of 76
+FOR TRAINING PURPOSES ONLY
+STATION NUMBERS - FUSELAGE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 24 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) STATION NUMBERS (continued) VERTICAL
+STABILIZER For the vertical stabilizer the reference station is Z=0 at
+the vertical Z-axis. Due to the fin tip extension, the A318 station
+numbers have changed. The new additional rib 12N is on the STA597.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 25 of 76
+FOR TRAINING PURPOSES ONLY
+STATION NUMBERS - VERTICAL STABILIZER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 26 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) STATION NUMBERS (continued) HORIZONTAL
+STABILIZER, ENGINE AND WING For the horizontal stabilizer the reference
+station is y=0 at the A/C Y axis. For the wings, the reference station
+is the wing reference axis (WY). WY is located at 1868 mm (73.54 in)
+from the A/C X axis. For the engines, station numbers are different
+depending on the version.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 27 of 76
+FOR TRAINING PURPOSES ONLY
+STATION NUMBERS - HORIZONTAL STABILIZER, ENGINE AND WING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 28 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) ZONES NUMBERS There are 8 major zones for the
+A/C. Each major zone is identified by the first digit of a three digits
+number. The even numbers identify the zones on the RH side of the A/C,
+while odd numbers identify the zones on the LH side of the A/C. The
+sub-zone 320 identifies the vertical stabilizer.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 29 of 76
+FOR TRAINING PURPOSES ONLY
+ZONES NUMBERS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 30 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) ZONES NUMBERS (continued) WING (UPPER
+SURFACE) AND HORIZONTAL STABILIZER The 500 numbers identify the LH wing
+zones, while the 600 numbers identify the RH wing zones. The sub-zones
+330 and 340 identify the LH and RH side of the horizontal stabilizer.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 31 of 76
+FOR TRAINING PURPOSES ONLY
+ZONES NUMBERS - WING (UPPER SURFACE) AND HORIZONTAL STABILIZER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 32 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) ZONES NUMBERS (continued) WING (LOWER
+SURFACE), BELLY FAIRING AND LANDING GEAR The sub-zone 710 identifies the
+NLG. The sub-zones 730 and 740 identify the LH and RH MLG. The sub-zone
+190 indicates the belly fairing. 734 and 744 are the MLG door zone
+numbers. Access doors and panels are identified by the number of the
+zone in which the panel is installed followed by a two letter suffix.
+These two letters are used to indicate the doors and panels. The first
+letter indicates which access door or panel it is, starting from the
+reference axis (A=first, B=second, ..., G=seventh, etc...). The second
+letter indicates the access door or panel location: - T=top (upper)
+surface, - B=bottom (lower) surface, - R=right side, - L=left side, -
+Z=internal, - F=floor panel, - W=sidewall panel, - C=ceiling panel. Here
+is an example of access panels on the left wing lower surface.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 33 of 76
+FOR TRAINING PURPOSES ONLY
+ZONES NUMBERS - WING (LOWER SURFACE), BELLY FAIRING AND LANDING GEAR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 34 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) ZONES NUMBERS (continued) NACELLE, PYLON,
+ENGINE The difference between the LH and RH pylon and nacelle is made
+with the ten digits of the zone number 400. The difference between the
+LH side and RH side is identified by the last digit (Tens digit: odd for
+he left and even for the right). Within one engine, an odd zone number
+indicates the LH side and an even zone number indicates the RH side of
+the engine.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 35 of 76
+FOR TRAINING PURPOSES ONLY
+ZONES NUMBERS - NACELLE, PYLON, ENGINE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 36 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) ZONES NUMBERS (continued) DOOR The major zone
+800 identifies the doors.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 37 of 76
+FOR TRAINING PURPOSES ONLY
+ZONES NUMBERS - DOOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 38 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) LIFTING AND SHORING: JACKING - GENERAL Three
+jacking points, when equipped with jacking pads, are used to lift the
+aircraft. The forward point "A" is located forward of the nose landing
+gear. The points "B" are located outboard of the engine pylons. A safety
+stay must be positioned at the rear of the aircraft after jacking to
+stabilize the aircraft. You can lift the aircraft at the forward jacking
+point only, with the wheels of the main landing gear on the ground. When
+the aircraft is weighed on landing gear jacks the following jacking
+points must be used to lift it. - 2 jacking points located in the main
+landing gear, - 1 jacking point located in the nose landing gear.
+LIMITATIONS The open air jacking operation is limited if the wind
+velocity exceeds permissible values which depend on aircraft gross
+weight and center of gravity position. In any condition, the aircraft
+must be pointing upwind.
+The LH, RH and nose jack pad adapters are different and must not be
+interchanged. Those for the A321 are also different from those of the
+other aircraft and must not be interchanged.
+SHORING Shoring is necessary to give support to the wing in order to
+release the loads on the structure when you do major work or
+modifications. The AMM shoring procedure gives the general principle
+only. Use the detailed shoring instructions given in: - SRM 51-51-50,
+when shoring is required for specific Airbus repairs. - ARM 3-28, when
+shoring is required for recovery of the aircraft.
+SHORING OF THE AIRCRAFT
+PRECAUTIONS Before you lift the aircraft, you must be sure that the
+ground safety-locks are in position on the landing gears and the weight
+of fuel is applied equally on the two sides of the aircraft centerline.
+The three jacks must be operated together. When the jacking operation is
+completed, install the safety stay to make the aircraft stable. Do not
+use the safety stay to lift the aircraft. The safety stay must be
+removed for the gear swing.
+First you must lift the aircraft, refer to the AMM 07-11-00. Put SHORES
+in position below the wing front spar and rear spar. For detailed
+instructions refer to the SRM 51-51-00. Make sure that the wing touches
+the shores.
+JACKING POINTS Put jacking pads below the jacking points to apply the
+loads equally. NOTE: It is necessary to use the jack pad adapters when
+the aircraft is put on jacks.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 39 of 76
+FOR TRAINING PURPOSES ONLY
+GENERAL ... JACKING POINTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 40 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) LEVELING AND WEIGHING WEIGHING You can weigh
+the aircraft with: - the aircraft on jacks, - the aircraft on its
+wheels, - the aircraft on landing gear jacks. Load cells on each jack or
+platform scales are used for weighing.
+QUICK LEVELING PROCEDURE WITH THE ADIRU First, follow the Inertial
+Reference (IR) alignment procedure. Then on the MCDU scratchpad the
+alpha call-up code has to be entered: - PTCH for the pitch angle to do a
+check of the longitudinal alignment, - ROLL for the roll angle to do a
+check of the transverse alignment. To start this procedure, first of all
+the aircraft must be lifted. After that, read the pitch and roll angles
+in the MCDU scratchpad. Then operate the hydraulic jack below the wing
+to get the transverse alignment. Then operate the forward hydraulic jack
+to get the longitudinal alignment. When you have done the longitudinal
+alignment, do a check of the transverse alignment.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 41 of 76
+FOR TRAINING PURPOSES ONLY
+LEVELING AND WEIGHING - WEIGHING & QUICK LEVELING PROCEDURE WITH THE
+ADIRU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 42 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) LEVELING AND WEIGHING (continued) QUICK
+LEVELING WITH A SPIRIT LEVEL IN THE FWD CARGO COMPARTMENT (ALTERNATE
+METHOD) The quick leveling with a spirit level is an alternative method
+of leveling while the ADIRUs are not available (no power supplied to the
+aircraft) and no attitude monitors are installed. For this method two
+persons are necessary: - one in the cargo compartment to move the spirit
+level, - another one near the aircraft to operate the jacks. While the
+aircraft is being lifted, put a spirit level on a track: - in the Y
+axis, perpendicular to the tracks, and operate the hydraulic jack below
+the wing to get the transverse alignment, - in the X axis, and operate
+the forward hydraulic jack to get the longitudinal alignment. When you
+have done the longitudinal alignment, do a check of the transverse
+alignment.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 43 of 76
+FOR TRAINING PURPOSES ONLY
+LEVELING AND WEIGHING - QUICK LEVELING WITH A SPIRIT LEVEL IN THE FWD
+CARGO COMPARTMENT (ALTERNATE METHOD)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 44 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) LEVELING AND WEIGHING QUICK LEVELING USING
+THE ATTITUDE MONITOR On older aircraft there was also the attitude
+monitor; To ensure that excessive side loads are not placed on the jacks
+and on the aircraft structure, a quick leveling check must be carried
+out during the jacking operation. The procedure consists in operating
+the jacks of the aircraft to move the bubble to the D4 position in the
+attitude monitor, which is located in the Refuel/Defuel control panel
+recess. The D4 position corresponds to a longitudinal angle of 0 degrees
+and a lateral angle of 0 degrees.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 45 of 76
+FOR TRAINING PURPOSES ONLY
+LEVELING AND WEIGHING - WEIGHING & QUICK LEVELING USING THE ATTITUDE
+MONITOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 46 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) TOWING (continued) TOWING WITH THE NOSE GEAR
+FROM THE FRONT This film describes how to push the A/C rearwards or tow
+the A/C forwards with the nose gear. The A/C may be towed or pushed
+back: - at maximum ramp weight, - with the engines shut down or running
+at idle. To begin the procedure, make sure: - that the safety devices
+are installed on the landing gears (L/G), - the wheel chocks are in
+place, - and check if the parking brake is ON. Do not tow the A/C if the
+dimension H is more than 300 mm (11.8 in). If you do, you can cause
+damage to the internal centering cams of the nose landing gear (NLG).
+Referring to your A/C maintenance manual, make sure that the A/C is
+stable. Let us suppose that this procedure has been correctly done.
+During this procedure, depending on the configuration you are in, the
+A/C needs to be energized either by using the APU, a specific ground
+cart, an engine running, or by using the tractor itself. Let us suppose
+that the A/C is already energized and the EIS start procedure done.
+Outside, on the nose wheel steering deactivation electrical-box, set the
+ground-towing control lever to the towing position and install the pin.
+In the cockpit, - on the upper ECAM page, the "Nose.WHEEL STEERinG
+DISConnected" message comes into view on the memo page. - check on the
+Yellow brake-pressure triple-indicator that the accumulator pressure
+pointer is in the green range. We recommend pressurizing the yellow
+hydraulic system using the yellow electrical pump, thus, the braking
+system will be more efficient and safer. Now, we have to install the tow
+bar.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+CAUTION: Caution: make sure that the tow bar has: - a damping system - a
+calibrated shear pin - two calibrated turn shear pins. This is to
+prevent high loads causing damage to the L/G. Refer to your A/C
+maintenance manual for the calibration of these pins. On the NLG,
+install the tow bar on the tow fitting and connect the tow bar to the
+tractor. CAUTION: Caution: put the parking brake control switch in the
+off position before you tow or push back the A/C. This is to prevent
+high loads causing damage to the NLG. On the Yellow brake-pressure
+triple-indicator, the brakes pressure pointers go down. In the cockpit,
+set the lighting system: - set the exterior light navigation and logo
+switch to ON. - at night, set the interior light dome switch to bright
+and if the anti-collision lighting is necessary for the local airport
+regulations or the airline procedures, set the exterior light beacon
+switch to ON. On the VHF system: - in order to communicate with the
+control tower during towing operations, release out the VHF pushbutton
+switch and select the control tower frequency on the radio management
+panel. - in order to communicate with the ground mechanics, on the audio
+control panel, set the interphone radio switch to the interphone
+position and release out the interphone reception pushbutton. For safety
+reasons, a distance of 3 meters (10 ft) must be kept clear around the
+nose wheels, tow bar and tractor when the aircraft moves. Towing speed
+limitation depends on the position of the passenger/crew and cargo
+doors. For these speed limitations refer to your A/C maintenance manual.
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 47 of 76
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE TIPS - HYDRAULIC FUSES & NOSE WHEEL STEERING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 48 of 76
+FOR TRAINING PURPOSES ONLY
+The maximum permitted steering angle on each side of the A/C centerline
+is 95 degrees. When you use the front fittings to push the A/C rearwards
+with engine at idle this angle is limited to 40 degrees. At this point,
+be sure that all warnings and cautions of your A/C maintenance manual
+procedure and previous precautions are applied. Now, the A/C can be
+towed slowly and smoothly. Two other persons have to monitor the wing
+tips during the towing operation and one person is required in the
+cockpit in order to operate the brakes. When you complete the towing
+operation, make sure that the nose wheels are aligned with the A/C
+centerline. Inform the cockpit to apply the parking brake, and check
+that the parking brake light is ON on the nose wheel steering
+deactivation electrical-box. Put the wheel chocks in position.
+Disconnect the tow bar from the nose gear fittings. On the nose wheel
+steering deactivation electrical-box, remove the safety pin and set the
+ground-towing control lever to the normal position. At the same time, in
+the cockpit, on the ECAM memo display the message "N.WHEEL STEERG DISC"
+disappears. On the lighting system: - reset the exterior light beacon
+and navigation & logo switches to OFF. - reset the interior light dome
+switch to OFF. On the communication system: - cut the cockpit/control
+tower VHF link by pressing in the VHF pushbutton on the radio management
+panel. - reset the interphone radio switch to the neutral position.
+Depressurize the yellow hydraulic system, do the EIS stop procedure and
+de-energize the A/C electrical circuits.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 49 of 76
+FOR TRAINING PURPOSES ONLY
+TOWING - TOWING WITH THE NOSE GEAR FROM THE FRONT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 50 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) TAXIING AND ASSOCIATED PRECAUTIONS TURNING
+RADII The movement of the aircraft with its power on the ground is
+called taxi of the aircraft. During taxi of the aircraft, the minimum
+turning radii must be respected.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 51 of 76
+FOR TRAINING PURPOSES ONLY
+TAXIING AND ASSOCIATED PRECAUTIONS - TURNING RADII
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 52 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) TAXIING AND ASSOCIATED PRECAUTIONS
+(continued) DANGER AREAS Safety precautions must be taken to avoid
+danger from engine suction and exhaust areas. Access to the engine is
+only allowed through the entry corridor. Note that the entry corridor
+must be closed for wind directions greater than 90º. There is no safe
+access corridor when the engine is running above minimum idle. Depending
+on the distance from the running engine and on its power setting, it is
+necessary to wear ear protection and to respect the maximum time
+exposure.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 53 of 76
+FOR TRAINING PURPOSES ONLY
+TAXIING AND ASSOCIATED PRECAUTIONS - DANGER AREAS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 54 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) PARKING AND MOORING This topic covers the
+following subjects of the aircraft: - Parking, - Storage, - Mooring of
+the aircraft. The topic covers the entire Single Aisle Airbus family,
+which includes the A318, A319, A320 and A321 aircraft.
+PARKING The parking aircraft in flight-ready condition procedure for a
+period of not more than 1 month (Ref. AMM 10-10-00) includes reference
+procedures described below: - Periodic ground checks during parking at 7
+and 15 day intervals (Ref. AMM 10-11-00). - Return to operation after
+parking (Ref. AMM 10-11-00), this procedure gives the instructions
+necessary to operate an aircraft again after a parking period of not
+more than 1 month. CAUTION: DURING THIS PROCEDURE: - MAKE SURE THAT THE
+LANDING GEAR GROUND IS SAFETIED, LOCKING DEVICES AND WHEEL CHOCKS ARE IN
+POSITION. - KEEP THE ACCESS PLATFORM AT A SUFFICIENT DISTANCE FROM THE
+AIRCRAFT (IN WIND, SHOCK ABSORBER REBOUND CAN CAUSE MOVEMENT OF THE
+AIRCRAFT).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 55 of 76
+FOR TRAINING PURPOSES ONLY
+PARKING AND MOORING - PARKING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 56 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) PARKING AND MOORING (continued) STORAGE The
+storage procedure for a period of not more than 1 year (Ref. AMM
+10-12-00) includes reference procedures described below: - Periodic
+ground checks during storage at 7 days interval, at 15 days interval, at
+1 month interval and at 3 months and 6 months intervals (Ref. AMM
+10-12-00). - Return to operation after storage (Ref. AMM 10-30-00).
+CAUTION: DURING THIS PROCEDURE: - MAKE SURE THAT THE LANDING GEAR GROUND
+IS SAFETIED, LOCKING DEVICES AND WHEEL CHOCKS ARE IN POSITION. - KEEP
+THE ACCESS PLATFORM AT A SUFFICIENT DISTANCE FROM THE AIRCRAFT (IN WIND,
+SHOCK ABSORBER REBOUND CAN CAUSE MOVEMENT OF THE AIRCRAFT).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 57 of 76
+FOR TRAINING PURPOSES ONLY
+PARKING AND MOORING - STORAGE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 58 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) PARKING AND MOORING (continued) MOORING OF
+THE AIRCRAFT The function of mooring is to prevent damage to the
+aircraft on ground in high wind conditions. For wind speeds less than 50
+kts: - Mooring is not necessary if the aircraft configuration is in the
+limits given in AMM chapter 05-57-00. If the aircraft points into the
+wind and wind speed is: - Between 50 and 70 Kts, moor the aircraft at
+the NLG, - More than 70 Kts, moor the aircraft at the NLG and MLG. If
+the aircraft does not point into the wind or the direction of the wind
+is not stable: - For wind speeds or gusts of more than 50 Kts, moor the
+aircraft at the NLG and the MLG.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 59 of 76
+FOR TRAINING PURPOSES ONLY
+PARKING AND MOORING - MOORING OF THE AIRCRAFT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 60 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) PLACARDS AND MARKINGS The ATA 11 gives the
+location and illustrations of the placards, stencils and markings on the
+A/C (internal or external side). The placards and markings on the A/C
+give the data and instructions related to safety and maintenance. Some
+of these placards and markings are necessary to obey the regulation used
+for the Airbus aircraft type certification (JAR 25). There are
+identified by a flag note as follows: NOTE (1) REQUIRED BY REGULATION.
+This example is extracted from the AMM chapter 11-21-52: Passenger
+Door.s
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 61 of 76
+FOR TRAINING PURPOSES ONLY
+PLACARDS AND MARKINGS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 62 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) SERVICING POINTS The ground service
+connections layout is the same on the AIRBUS A318 and A319.The main
+difference between A320 and A321 servicing point is a second potable
+water draining panel at the center of the A/C on the A320.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 63 of 76
+FOR TRAINING PURPOSES ONLY
+SERVICING POINTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 64 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) STANDARD PRACTICES - FIN PRESENTATION
+Equipment on the A/C is identified by a unique identifier designated the
+Functional Item Number (FIN). Used in numerous manuals, the FIN uniquely
+identifies an item performing a function in an A/C system. The FIN is
+composed of: - a two-letter code indicating to which system and circuit
+the equipment belongs to, - prefix (sequence number) and/or suffixes
+which provide the unique identification for individual items of
+equipment, the prefix indicating the position in the circuit. An item
+performing the same function in the same system throughout the A/C can
+have the same basic FIN with different suffix numbers, (generally odd
+numbers for left hand side, even numbers for right hand side). A
+complete list of system/circuit identifiers is given in the introduction
+of the wiring manuals - Aircraft Schematic Manual (ASM)/Aircraft Wiring
+Manual (AWM). Here is an example of a list of the circuit
+identifications.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 65 of 76
+FOR TRAINING PURPOSES ONLY
+FIN PRESENTATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 66 of 76
+FOR TRAINING PURPOSES ONLY
+FIN PRESENTATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 67 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) FIN PRESENTATION (continued) ELECTRICAL
+EQUIPMENT For electrical equipment (any component with an electrical
+connection), the prefix (sequence number) will be below 5000. Here is an
+example for the electrical and electro-mechanical systems/circuits.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 68 of 76
+FOR TRAINING PURPOSES ONLY
+FIN PRESENTATION - ELECTRICAL EQUIPMENT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 69 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) FIN PRESENTATION (continued) CONNECTORS
+Connectors which are part of an item have the same FIN number as the
+item, with the addition of a letter after the suffix characters.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 70 of 76
+FOR TRAINING PURPOSES ONLY
+FIN PRESENTATION - CONNECTORS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 71 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) FIN PRESENTATION (continued) MECHANICAL
+EQUIPMENT For mechanical equipment (without electrical connection), the
+prefix will be above 5000. Here is an example for the mechanical
+equipment.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 72 of 76
+FOR TRAINING PURPOSES ONLY
+FIN PRESENTATION - MECHANICAL EQUIPMENT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 73 of 76
+FOR TRAINING PURPOSES ONLY
+SA INTRODUCTION MODULE (1) FIN PRESENTATION (continued) FICTITIOUS
+COMPONENTS All components, not specifically related to a circuit, are
+identified by the fictitious circuit letter V. The circuit letter
+defines the type of component. The panels and racks are identified by
+the letters VU or VE.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 74 of 76
+FOR TRAINING PURPOSES ONLY
+FIN PRESENTATION - FICTITIOUS COMPONENTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 75 of 76
+FOR TRAINING PURPOSES ONLY
+Training Manual Airbus A318/319/ A320/A321 (CFM56 & V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 76 of 76
