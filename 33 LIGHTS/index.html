@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>33 LIGHTS - A320 Base Knowledge</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">A320 Base Knowledge</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../02%20AIRCRAFT%20INTRODUCTION/" class="nav-link">02 AIRCRAFT INTRODUCTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../05%20-20%20INTRODUCTION%20MODULE/" class="nav-link">05 -20 INTRODUCTION MODULE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../21%20AIR%20CONDITIONING/" class="nav-link">21 AIR CONDITIONING</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../22%20AUTO%20FLIGHT/" class="nav-link">22 AUTO FLIGHT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../23%20COMMUNICATIONS/" class="nav-link">23 COMMUNICATIONS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../24%20ELECTRICAL%20POWER/" class="nav-link">24 ELECTRICAL POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../25%20EQUIPMENT_FURNISHINGS/" class="nav-link">25 EQUIPMENT FURNISHINGS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../26%20FIRE%20PROTECTION/" class="nav-link">26 FIRE PROTECTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../27a%20E-RUDDER%20PROJECT/" class="nav-link">27a E-RUDDER PROJECT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../27%20FLIGHT%20CONTROLS/" class="nav-link">27 FLIGHT CONTROLS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../28%20FUEL%20%28Metric%20Units%29/" class="nav-link">28 FUEL (Metric Units)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../29%20HYDRAULIC%20POWER/" class="nav-link">29 HYDRAULIC POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../30%20ICE%20%26%20RAIN%20PROTECTION/" class="nav-link">30 ICE & RAIN PROTECTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20INDICATING%20%28Inc%20ATA%2045%20-%20CFDS%29/" class="nav-link">31 INDICATING (Inc ATA 45 - CFDS)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20RECORDING%20SYSTEMS/" class="nav-link">31 RECORDING SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../32%20LANDING%20GEAR/" class="nav-link">32 LANDING GEAR</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">33 LIGHTS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../34%20NAVIGATION/" class="nav-link">34 NAVIGATION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../35%20OXYGEN/" class="nav-link">35 OXYGEN</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../36%20PNEUMATIC/" class="nav-link">36 PNEUMATIC</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../38%20WATER%20%26%20WASTE/" class="nav-link">38 WATER & WASTE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../46%20INFORMATION%20SYSTEMS/" class="nav-link">46 INFORMATION SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../47%20INERT%20GAS%20SYSTEM/" class="nav-link">47 INERT GAS SYSTEM</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../49%20APU/" class="nav-link">49 APU</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../51-57%20STRUCTURE/" class="nav-link">51-57 STRUCTURE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../52%20DOORS/" class="nav-link">52 DOORS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28CFM%2056%29/" class="nav-link">70 POWER PLANT (CFM 56)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28IAE%20V2500%29/" class="nav-link">70 POWER PLANT (IAE V2500)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Airbus%20Abbreviations/" class="nav-link">Airbus Abbreviations</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../IAE%20V2500%20-%20Engine%20Manufacturers%20Notes/" class="nav-link">IAE V2500 - Engine Manufacturers Notes</a>
+                            </li>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">index</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../32%20LANDING%20GEAR/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../34%20NAVIGATION/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+        <ul class="nav flex-column">
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Airbus A318/A319/A320/A321 (CFM56 &amp; V2500) B1+B2 Technical Training
+Manual
+ATA 33 -- Lights Airframe Systems
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more. Contact us Tel: +44(0) 1565 653745 Email:
+admin@catts.org.uk Web: www.catts.org.uk Online Training:
+catts.learnupon.com/store
+ATA Chapters Required in this Training Manual AIRFRAME SYSTEMS ATA 33
+Lights
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+Training Ma Manual Airbus A318/319/ A320/A321 (CFM56 &amp; V2500) ATA 33
+Airframe Systems; Lights Level 3
+FOR TRAINING PURPOSES ONLY
+LIGHTS Lights System Control &amp; Indicating (2) . . . . . . . . . . . . .
+. . . . . . . . . . . 2
+COCKPIT CKPT Annunciator Light Test &amp; Dimming D/O (3) . . . . . . . . .
+. . . . . 4
+CABIN Cabin Lights System Description (3) . . . . . . . . . . . . . . .
+. . . . . . . . . . 14 FAP Cabin Lighting Page (3) . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . 16
+EXTERIOR Exterior Lights D/O (3) . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . 20
+EMERGENCY LIGHTS Seat &amp; Floor Mounted EMER Lights SYS D/O (3) . . . . .
+. . . . . . . . . 36
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 5 of 42
+FOR TRAINING PURPOSES ONLY
+LIGHTS SYSTEM CONTROL &amp; INDICATING (2) LIGHTING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 6 of 42
+FOR TRAINING PURPOSES ONLY
+CKPT ANNUNCIATOR LIGHT TEST &amp; DIMMING D/O (3) SYSTEM DESCRIPTION
+POWER SUPPLY AND ASSOCIATED C/B
+An ANNunciator LighT test is used for the lighting of all ANN LTs
+mounted on the panels and instruments in the cockpit. A relay (relative
+to system) or internal contacts (case of P/BSWs position indication)
+control the lighting of each ANN LT. Four different busbars: - AC1
+supply with 103XP, - AC2 supply with 202XP, - 115 VAC STATic INVerter
+bus with 901XP, - ESSential supply with 801XP, supply the ANN LTs with 5
+VAC-400 Hz through the transformers. In the case of emergency supply
+only busbar 901XP is serviceable.
+The power supply is composed of: - busbar 103XP (AC1) which supplies
+transformer 37LP through the circuit breaker 26LP located on the circuit
+breaker panel 122VU, - busbar 202XP (AC2) which supplies transformer
+36LP through the circuit breaker 27LP located on the circuit breaker
+panel 122VU, - busbar 801XP supplies transformer 31LP through the
+circuit breaker 29LP located on the overhead panel 49VU, - busbar 801XP
+supplies transformer 35LP through the circuit breaker 29LP and the
+busbar 901XP supplies emergency through the circuit breaker 28LP located
+on the circuit breaker panel 122VU, - busbar 206PP supplies the ANN LT
+test relay coils.
+TRANSFORMERS
+COCKPIT ANN LT SWITCH
+There are four transformers; each is supplied with 115 V-400 Hz. Each
+one is connected to a different busbar. They supply: - 5 VAC-400 Hz for
+the ANN LTs installed on the overhead panel and on the instrument
+panel, - 6.3 V voltage (full wave rectified) to supply the AUTO LAND,
+MASTER WARNING and CAUTION lights and Audio Control Panels (ACPs). The
+secondary winding of each transformer has: - 7 outputs of 5 VAC each
+mounted in parallel; each one is protected by a delayed action fuse set
+at 4 A, - 2 outputs of 6.3 V each protected by the same type of fuse.
+The primary winding of each transformer has two inputs to get the
+correct dimming level (DIMmed position). If the 115 V supply is switched
+over to either input we obtain at the secondary winding: - the 5 VAC
+(BRighT position) or 3 VAC (DIM position), - the 6.3 VAC (BRT position)
+or 4.3 VAC (DIM position) for rectified voltages.
+A switch with 3 positions (DIM, BRT, TEST) is located on the overhead
+control and indicating panel 25VU. The crew uses this switch to dim the
+cockpit annunciator lights or to test their operation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+ANN LT TEST AND INTERFACE BOARDS They are located in the avionics
+compartment in the annunciator light test unit 70VU: - 4 are related to
+the ANN LTs supplied by the AC1 system, - 3 are related to the ANN LTs
+supplied by the AC2 generation, - 7 are related to the ANN LTs supplied
+by the ESS generation. Each board comprises: - 2 relays supplied by
+busbar 206PP with 28 VDC through circuit breaker 30LP located on the
+rear circuit breaker panel 122VU. These 2 relays are used for the ANN LT
+tests when the switch 33LP is in the TEST position, - 10 relays supplied
+by the various A/C systems with 28 VDC. They supply the ANN LT with 5
+VAC whereas the system data are supplied with 28 VDC
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 7 of 42
+FOR TRAINING PURPOSES ONLY
+FOUR-STAGES RELAY They are located in the relay box 103VU. They are used
+for the test of the equipment annunciator lights (high intensity) or of
+other annunciator lights (ON - OFF). The busbar 206PP supplies 28 VDC to
+the coil of these relays through the circuit breaker 30LP located on the
+rear circuit breaker panel 122VU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 8 of 42
+FOR TRAINING PURPOSES ONLY
+SYSTEM DESCRIPTION - TRANSFORMERS ... FOUR-STAGES RELAY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 9 of 42
+FOR TRAINING PURPOSES ONLY
+CKPT ANNUNCIATOR LIGHT TEST &amp; DIMMING D/O (3) SYSTEM OPERATION The
+cockpit ANN LT SW is mainly used to test all the ANN LTs in the cockpit
+or to dim the ANN LTs in night conditions.
+ANN LT SW IN BRT POSITION In this position, the lighting of the ANN LT
+is activated: - either if the relative system failed, - or if there is
+an action on the relative P/BSW (OFF position).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 10 of 42
+FOR TRAINING PURPOSES ONLY
+SYSTEM OPERATION - ANN LT SW IN BRT POSITION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 11 of 42
+FOR TRAINING PURPOSES ONLY
+CKPT ANNUNCIATOR LIGHT TEST &amp; DIMMING D/O (3) SYSTEM OPERATION
+(continued) ANN LT SW IN TEST POSITION In this position, the bus 206PP
+activates the internal coil of the interface board. So cockpit ANN LTs
+are powered on all cockpit panels.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 12 of 42
+FOR TRAINING PURPOSES ONLY
+SYSTEM OPERATION - ANN LT SW IN TEST POSITION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 13 of 42
+FOR TRAINING PURPOSES ONLY
+CKPT ANNUNCIATOR LIGHT TEST &amp; DIMMING D/O (3) SYSTEM OPERATION
+(continued) ANN LT SW IN DIM POSITION In this position, four-stages
+relays are activated and modify the transformer voltage output in order
+to dim the brightness of cockpit ANN LTs. The lighting of the ANN LT is
+activated: - either if the relative system failed, - or if there is an
+action on the relative P/BSW (OFF position).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 14 of 42
+FOR TRAINING PURPOSES ONLY
+SYSTEM OPERATION - ANN LT SW IN DIM POSITION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 15 of 42
+FOR TRAINING PURPOSES ONLY
+CABIN LIGHTS SYSTEM DESCRIPTION (3) GENERAL
+PASSENGER READING LIGHTS
+The cabin lights are controlled through the Cabin Intercommunication
+Data System (CIDS), which includes the Flight Attendant Panel (FAP), two
+directors (DIRs) one active, one in standby, and Decoder/Encoder Units
+(DEUs). Some DEUs are used for the light system, they are called type
+"A" DEUs. Signals from the FAP are processed by the DIRs to control the
+cabin lights. The DIRs transmit these signals to each DEU.
+The passenger reading lights can be controlled with buttons on the
+Passengers Service Unit (PSU) and through the FAP. The reading lights
+are not adjustable because the Light Emitting Diode (LED) light
+diffusion angle is sufficient. Reading lights are supplied by the active
+CIDS DIR via DEUs A and Passenger Interface and Supply Adapters (PISAs)
+installed in the Passenger Service Units (PSUs). The test of the
+passenger reading lights can be done either via the MCDU of from the
+FAP.
+CABIN GENERAL LIGHTS The related DEUs control the cabin fluorescent
+lamps according to the selection on the FAP. The FAP controls the DEUs
+via the CIDS DIRs to give brightness (BRT) levels which are: 100% BRT,
+50% BRT (Dimming 1), 10% BRT (Dimming 2) or different lighting scenarios
+with brightness levels between 100% to 5% for their related window
+and/or ceiling lights. The cabin fluorescent lamps have Advanced
+Integrated Ballast Units (AIBUs). The ballast units receive FAP commands
+via CIDS DIRs and DEUs A for brightness level control. This is according
+to different lighting scenarios programmed in the Cabin Assignment
+Module (CAM) flash card. The ballast units are designed to get a
+continuous dimming from 100% to 5% light BRT level. There is one reading
+light for each passenger seat.
+ENTRY LIGHTS The related DEUs control the entry fluorescent lamps
+according to the FAP selection. The FAP controls the DEUs via the CIDS
+DIRs in order to give BRT levels (100%, 50% or 10%).
+ATTENDANT WORK LIGHTS The attendant work lights are controlled by
+buttons in the attendant area or the FAP. The attendant work lights have
+a LED technology, and are supplied by the active CIDS DIR via DEUs A and
+stand alone PISAs. The test of the attendant work lights can be done
+either via the MCDU or from the FAP. NOTE: Note: The Mean Time Between
+Failure (MTBF) of LED reading lights is 100,000 flight hours. Thus,
+there is no replacement procedure apart from replacing the complete
+light assembly. Cabin signs must be replaced if three or more LEDs have
+failed (de-graded performance). If a full failure of the FAP and/or CIDS
+occurs or cabin decompression occurs, the entrance lighting comes on
+automatically to 100% BRT level.
+NOTE: If the engines are running and the cockpit door is open, the CIDS
+directors signal the DEU of the left forward entry light to set the
+intensity to 10%.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 16 of 42
+FOR TRAINING PURPOSES ONLY
+GENERAL ... ATTENDANT WORK LIGHTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 17 of 42
+FOR TRAINING PURPOSES ONLY
+FAP CABIN LIGHTING PAGE (3) GENERAL The Flight Attendant Panel (FAP) is
+the main user interface with the Cabin Intercommunication Data System
+(CIDS). It programs, monitors and indicates the status of the CIDS and
+related cabin systems. The following system pages are available by
+pressing the FAP system keys or the respective aircraft symbols on the
+screen: - AUDIO page, - CABIN LIGHTING page, - DOORS/SLIDES page, -
+CABIN TEMPERATURE page, - WATER/WASTE page.
+STANDARD CABIN LIGHTING CONTROL Select Lights key on the FAP tool bar,
+to display the CABIN LIGHTING page. This page shows an aircraft symbol
+with the ENTRY and CLASS lighting zones. The ENTRY 1 and/or ENTRY 4
+controls and display keys are used for the selection of FWD and aft
+entrance areas lighting, BRighTness (100%), DIMming 1 (50%), and DIM2
+(10%). The cutting-up of the cabin is possible into 1, 2 or 3
+independent zones (selection of 1 zone is standard, and optional for 2
+and 3 zones) such as FIRST CLASS, BUSINESS CLASS and TOURIST CLASS. To
+control these zones, controls and displays are available with three
+levels of lighting, BRT, DIM1 and DIM2. The Main On/Off key is used to
+switch ON/OFF cabin zone and entrance areas lighting with 100%
+intensity, this function is only available on ground. The AISLE key is
+used to switch ON/OFF the ceiling lighting, and the WinDOw key to switch
+ON/OFF the windows lighting. Additional functions are Reading/Light Set
+(on) and R/L Reset (off). An automatic DIM of the FWD entrance area is
+activated if the cockpit door is opened and the engines are running. In
+case of cabin decompression, the passenger compartment lighting
+automatically switches to full brightness (100%).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 18 of 42
+FOR TRAINING PURPOSES ONLY
+GENERAL &amp; STANDARD CABIN LIGHTING CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 19 of 42
+FOR TRAINING PURPOSES ONLY
+FAP CABIN LIGHTING PAGE (3) SCENARIO BASED LIGHTING CONTROL (OPTIONAL)
+This function is used for the control of the cabin lighting through
+pre-programmed scenarios. The CIDS gives up to 6 pre-programmed lighting
+scenarios defined in NIGHT and DAY modes for the entire cabin and/or per
+cabin zone. As an example, these scenarios can be used for the different
+cabin services (e.g. Wake up, Sleep, Video, Dinner,...) or flight phases
+(e.g. Boarding, Take/Off, Landing,...). All these scenarios are assigned
+in the Cabin Assignment Module (CAM). The GENERAL CABIN SETTINGS keys
+are used for the cabin lighting ON/OFF control and cabin lighting
+settings, the selections can be applied to individual class zones by
+selecting the class Select key. Continuous dimming for each cabin zone
+is possible by using "+" or "-" keys on the FAP CABIN LIGHTING page. The
+MAINTenance key is for lavatory light full brightness.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 20 of 42
+FOR TRAINING PURPOSES ONLY
+SCENARIO BASED LIGHTING CONTROL (OPTIONAL)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 21 of 42
+FOR TRAINING PURPOSES ONLY
+EXTERIOR LIGHTS D/O (3) NAVIGATION LIGHTS The navigation lights have two
+systems, which operate independently. Each system can supply one set of
+navigation lights (RH wingtip, LH wingtip and tail cone). An integrated
+transformer for the wingtips and an external transformer for the tail
+cone are connected to each lamp. The navigation lights are controlled by
+a three-position NAVigation &amp; LOGO switch (OFF/1/2). - 1: turns on the
+logo lights and the first set of navigation lights, - 2: turns on the
+logo lights and the second set of navigation lights, - OFF: all lights
+are off. NOTE: On the next slide, NAV 1 configuration is selected by NAV
+&amp; LOGO switch, set to the 1 position. The LED wingtip light assemblies
+include a Near End Of Life (NEOL) function to indicate when the light is
+near the end of its useful life. The NEOL indication is a blue LED which
+flashes.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 22 of 42
+FOR TRAINING PURPOSES ONLY
+NAVIGATION LIGHTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 23 of 42
+FOR TRAINING PURPOSES ONLY
+EXTERIOR LIGHTS D/O (3) LANDING LIGHTS One landing light underneath each
+wing can be extended at all A/C speeds. Each landing light has an
+independent extension/retraction and lighting circuit. Each landing
+light is controlled by a three-position LAND switch (ON/OFF/RETRACT): -
+ON, extends the left (or right) landing light, which comes on
+automatically when fully extended, - OFF, shut off landing light but
+leaves it extended, - RETRACT, retracts the landing light and shuts it
+off. When the landing lights are extended, the "LAND LT" memo message is
+displayed on the EWD.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 24 of 42
+FOR TRAINING PURPOSES ONLY
+LANDING LIGHTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 25 of 42
+FOR TRAINING PURPOSES ONLY
+EXTERIOR LIGHTS D/O (3) RUNWAY TURN-OFF LIGHTS Two runway turn-off
+lights are installed on the NLG. The RunWaY TURN OFF SW controls the
+runway turn-off lights: - ON: Both lights are on, only if the NLG is
+downlocked, - OFF: Both lights are off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 26 of 42
+FOR TRAINING PURPOSES ONLY
+RUNWAY TURN-OFF LIGHTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 27 of 42
+FOR TRAINING PURPOSES ONLY
+EXTERIOR LIGHTS D/O (3) TAXI AND TAKE-OFF LIGHTS The taxi and takeoff
+lights are installed on the NLG, in a fixed position. The taxi and
+takeoff lights are controlled by the three position NOSE selector: -
+T.O: taxi and takeoff lights are on if the NLG is downlocked, - TAXI:
+taxi light is on if the NLG is downlocked, - OFF: all lights are off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 28 of 42
+FOR TRAINING PURPOSES ONLY
+TAXI AND TAKE-OFF LIGHTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 29 of 42
+FOR TRAINING PURPOSES ONLY
+EXTERIOR LIGHTS D/O (3) LOGO LIGHTS The logo lights are installed in the
+upper surface of each Trimmable Horizontal Stabilizer (THS) to
+illuminate the company logo on the vertical stabilizer if the main gear
+struts are compressed or the flaps are extended at least 15°. The logo
+lights are controlled together with the navigation lights by the NAV &amp;
+LOGO SW (OFF/1/2): - 1: turns on the logo lights and the first set of
+navigation lights, - 2: turns on the logo lights and the second set of
+navigation lights, - OFF: all lights are off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 30 of 42
+FOR TRAINING PURPOSES ONLY
+LOGO LIGHTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 31 of 42
+FOR TRAINING PURPOSES ONLY
+EXTERIOR LIGHTS D/O (3) BEACON LIGHTS Two beacon lights supply
+high-intensity red flashing light on the top and at the bottom of the
+aircraft fuselage. The beacon lights operate alternately in
+synchronization with the strobe lights. They are supplied and controlled
+through their related Power Supply Unit (PSU), if the BEACON SW (ON/OFF)
+is ON.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 32 of 42
+FOR TRAINING PURPOSES ONLY
+BEACON LIGHTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 33 of 42
+FOR TRAINING PURPOSES ONLY
+EXTERIOR LIGHTS D/O (3) STROBE LIGHTS Three strobe lights are installed
+at each wing tip and at tail cone. They are synchronized and operate
+alternatively with the beacon lights. They are supplied and controlled
+through their related PSU according to the STROBE switch position
+(ON/AUTO/OFF): - ON: the strobe lights flash white, - AUTO: the strobe
+lights come on automatically when the main gear strut is not
+compressed, - OFF: the strobe lights are off. The "STROBE LT OFF" ECAM
+memo message is displayed if the strobe lights are set to OFF and
+aircraft in flight. NOTE: The Power Supply Unit for the tail cone strobe
+light is located in the THS compartment. If the A/C is equipped with
+sharklets (optional), the strobe light assemblies include a NEOL
+function to indicate when the light is near the end of its useful life.
+The NEOL indication is a blue LED which flashes.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 34 of 42
+FOR TRAINING PURPOSES ONLY
+STROBE LIGHTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 35 of 42
+FOR TRAINING PURPOSES ONLY
+EXTERIOR LIGHTS D/O (3) WING AND ENGINE SCAN LIGHTS Two wing and engine
+scan lights are installed: one on each side of the fuselage. These
+lights light the leading edge of the wing and the engine air intake to
+show if ice is accumulating there. The WING switch (ON/OFF) controls
+these lights.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 36 of 42
+FOR TRAINING PURPOSES ONLY
+WING AND ENGINE SCAN LIGHTS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 37 of 42
+FOR TRAINING PURPOSES ONLY
+SEAT &amp; FLOOR MOUNTED EMER LIGHTS SYS D/O (3) GENERAL The emergency
+lighting system supplies lighting in case of failure of the main
+lighting system or during emergency conditions. The Emergency Power
+Supply Units (EPSUs) supply all these different lights. The emergency
+lights have 6V DC Light Emitting Diodes (LEDs), except for lavatory
+auxiliary lights (28V DC LEDs). The external emergency lights such as
+over-wing and escape slide use bulbs technology.
+ELECTRICAL SUPPLY The EPSUs are supplied with 28V DC from the ESSential
+SHEDdable BUS for operation and 115V AC from the NORMal BUS voltage
+sensing.
+EPSU The EPSUs supply the following lights: - exit signs lights, - cabin
+emergency lights, - seat mounted emergency lights and exit location
+lights, - wall mounted emergency exit location light, - wall mounted
+exit marking sign, - wall mounted emergency exit, - wall mounted
+emergency light, - escape slide lights, - over-wing emergency lights, -
+lavatory auxiliary lights, - and escape hatch-handle lights. The EPSUs
+also monitor the correct voltage of the AC and DC buses. The EPSUs
+convert 28V DC into 6V DC to operate their associated lights. An
+internal 6V DC battery in each EPSU is charged continuously when the ESS
+SHED BUS is energized and the system is not activated.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 38 of 42
+FOR TRAINING PURPOSES ONLY
+GENERAL ... EPSU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 39 of 42
+FOR TRAINING PURPOSES ONLY
+SEAT &amp; FLOOR MOUNTED EMER LIGHTS SYS D/O (3) The cabin emergency lights,
+the exit signs, the escape hatch-handle lights and the seat mounted
+lights come on. The 28V DC/6V DC converters of the EPSUs supply these
+loads as long as the 28V DC ESS SHED BUS is available. If the 28V DC
+SHED ESS BUS voltage falls below 16V, the EPSUs internal batteries
+continue to supply the loads for at least 10 minutes. The batteries are
+no longer charged.
+OPERATION The EMERgency EXIT LighT switch on the overhead panel controls
+the emergency lighting system. The EMER EXIT LT switch has three
+positions: OFF, ARMed and ON. Each of these positions sends a discrete
+ground signal to the EPSUs.
+OTHER CASES
+OFF POSITION
+Independently of the switch positions, the integral lights in the
+respective escape slides come on when the passenger/crew doors or the
+emergency exit doors are opened with the escape slides armed. When the
+emergency exit hatches are open and the slides are released, the
+respective over-wing emergency lights and the integral lights in the
+respective escape slide come on. In the event of excessive cabin
+depressurization, the exit marking signs and the exit location signs
+automatically come on.
+The system is supplied when the busbars 103XP and 801PP are energized.
+With the EMER EXIT LT switch and the EMER pushbutton switch on the FAP
+in the OFF positions, the power supply units control-line OFF is
+grounded, All lights and signs are off and the battery in each power
+supply unit is on charge. The EMER EXIT LT OFF annunciator lights come
+on. NOTE: Note: The EXIT signs and the emergency escape hatch-handle
+lights come on with EMER EXIT LT switch OFF, when the NO SMOKING switch
+is in the ON position or in AUTO position with landing gear extended, or
+in option, when the EXIT switch is in the ON position or in AUTO
+position with landing gear extended.
+ARM POSITION In the ARM position the EMER EXIT LT OFF annunciator light
+goes off. When the 115V AC NORM BUS voltage is not available, the cabin
+emergency lighting and the FPEEPMS light come on. The power is supplied
+from the 28V DC/6V DC converter in the related EPSU. When the 28V DC ESS
+SHED BUS voltage is not available, the batteries of all EPSUs supply the
+emergency lighting system for at least 10 minutes. The batteries are no
+longer charged.
+TEST Each EPSU has a test circuit which tests the condition of the
+battery unit, the logic unit and the related loads. If a fault is
+detected it is reported to CIDS. An EPSU SYStem TEST can be triggered
+from MCDU or CFDS Emulation on FAP. The EPSU BATtery CAPacity TEST can
+only be triggered from MCDU. The duration of this test is around 3
+hours. An individual test on each EPSU must be carried out when the
+tests through MCDU or CFDS Emulation on FAP fail. This isolated test
+starts when you push the TEST P/B on the EPSU
+ON POSITION In the ON position the emergency lighting system comes on,
+as if the EMERgency P/B on the Flight Attendant Panel (FAP) was pushed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 40 of 42
+FOR TRAINING PURPOSES ONLY
+OPERATION &amp; TEST
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 41 of 42
+FOR TRAINING PURPOSES ONLY
+Training Manual Airbus A318/319/ A320/A321 (CFM56 &amp; V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 42 of 42</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

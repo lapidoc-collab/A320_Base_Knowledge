@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>38 WATER & WASTE - A320 Base Knowledge</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">A320 Base Knowledge</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../02%20AIRCRAFT%20INTRODUCTION/" class="nav-link">02 AIRCRAFT INTRODUCTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../05%20-20%20INTRODUCTION%20MODULE/" class="nav-link">05 -20 INTRODUCTION MODULE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../21%20AIR%20CONDITIONING/" class="nav-link">21 AIR CONDITIONING</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../22%20AUTO%20FLIGHT/" class="nav-link">22 AUTO FLIGHT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../23%20COMMUNICATIONS/" class="nav-link">23 COMMUNICATIONS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../24%20ELECTRICAL%20POWER/" class="nav-link">24 ELECTRICAL POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../25%20EQUIPMENT_FURNISHINGS/" class="nav-link">25 EQUIPMENT FURNISHINGS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../26%20FIRE%20PROTECTION/" class="nav-link">26 FIRE PROTECTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../27a%20E-RUDDER%20PROJECT/" class="nav-link">27a E-RUDDER PROJECT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../27%20FLIGHT%20CONTROLS/" class="nav-link">27 FLIGHT CONTROLS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../28%20FUEL%20%28Metric%20Units%29/" class="nav-link">28 FUEL (Metric Units)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../29%20HYDRAULIC%20POWER/" class="nav-link">29 HYDRAULIC POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../30%20ICE%20%26%20RAIN%20PROTECTION/" class="nav-link">30 ICE & RAIN PROTECTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20INDICATING%20%28Inc%20ATA%2045%20-%20CFDS%29/" class="nav-link">31 INDICATING (Inc ATA 45 - CFDS)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20RECORDING%20SYSTEMS/" class="nav-link">31 RECORDING SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../32%20LANDING%20GEAR/" class="nav-link">32 LANDING GEAR</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../33%20LIGHTS/" class="nav-link">33 LIGHTS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../34%20NAVIGATION/" class="nav-link">34 NAVIGATION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../35%20OXYGEN/" class="nav-link">35 OXYGEN</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../36%20PNEUMATIC/" class="nav-link">36 PNEUMATIC</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">38 WATER & WASTE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../46%20INFORMATION%20SYSTEMS/" class="nav-link">46 INFORMATION SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../47%20INERT%20GAS%20SYSTEM/" class="nav-link">47 INERT GAS SYSTEM</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../49%20APU/" class="nav-link">49 APU</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../51-57%20STRUCTURE/" class="nav-link">51-57 STRUCTURE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../52%20DOORS/" class="nav-link">52 DOORS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28CFM%2056%29/" class="nav-link">70 POWER PLANT (CFM 56)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28IAE%20V2500%29/" class="nav-link">70 POWER PLANT (IAE V2500)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Airbus%20Abbreviations/" class="nav-link">Airbus Abbreviations</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../IAE%20V2500%20-%20Engine%20Manufacturers%20Notes/" class="nav-link">IAE V2500 - Engine Manufacturers Notes</a>
+                            </li>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">index</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../36%20PNEUMATIC/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../46%20INFORMATION%20SYSTEMS/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+        <ul class="nav flex-column">
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Airbus A318/A319/A320/A321 (CFM56 &amp; V2500) B1+B2 Technical Training
+Manual
+ATA 38 -- Water/Waste Airframe Systems
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more. Contact us Tel: +44(0) 1565 653745 Email:
+admin@catts.org.uk Web: www.catts.org.uk Online Training:
+catts.learnupon.com/store
+ATA Chapters Required in this Training Manual AIRFRAME SYSTEMS ATA 38
+Water/Waste
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+Training Ma Manual Airbus A318/319/ A320/A321 (CFM56 &amp; V2500) ATA 38
+Airframe Systems; Water/Waste Level 3
+FOR TRAINING PURPOSES ONLY
+WATER &amp; WASTE GENERAL Water/Waste System Component Location (2) . . . .
+. . . . . . . . . . . . . . 2
+POTABLE WATER (A320) Potable Water System D/O (3) . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . 22 Potable Water System Controls &amp;
+Indicating (2) . . . . . . . . . . . . . . . . 42
+POTABLE WATER (A318/A319/A321) Potable Water System D/O (3) . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . 48 Potable Water System
+Controls &amp; Indicating (2) . . . . . . . . . . . . . . . . 66
+WASTE WATER Waste Water System D/O (2) . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . 72
+TOILET Toilet System Principle (2) . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . 74 Toilet System Description (3) . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . 76 Toilet System
+Controls &amp; Indicating (2) . . . . . . . . . . . . . . . . . . . . . . 80
+Toilet System Monitoring (3) . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . 84
+MAINTENANCE PRACTICE Potable Water SYS Servicing (A320) (2) . . . . . .
+. . . . . . . . . . . . . . . . 86 Potable Water SYS Servicing
+(A318/319/321) (2) . . . . . . . . . . . . . . . 94 Toilet System
+Servicing (2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . 102 Water/Waste System Line Maintenance (2) . . . . . . . . . . . .
+. . . . . . . 104
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 5 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW The water and
+waste system consist of three subsystems: - potable water system, -
+waste water system, - toilet system.
+WATER FLUID STORAGE (A318 / A319 / A321) The potable water tank is
+installed in the pressurized LH underfloor area rear of the aft cargo
+compartment. An indication system monitors the water quantities.
+POTABLE WATER SYSTEM The potable water system supplies water from the
+water tank through a distribution system to the user. The water is
+supplied to water faucets in the galleys and lavatories. The system also
+supplies water to the water heaters and vacuum toilet units.
+Mechanically or electrically operated valves control the supply of the
+potable water system. Compressed air is used to pressurize the system to
+supply water from the tank to the necessary service locations. The air
+pressure is supplied from the bleed air system in normal configuration
+or a ground pressure connection for maintenance. An air compressor can
+be installed as an option. Each lavatory can be isolated from the
+potable water distribution system through a manual shut-off valve.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 6 of 112
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - WATER FLUID STORAGE (A318 / A319 / A321) &amp; POTABLE
+WATER SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 7 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW (continued)
+WATER FLUID STORAGE (A320) For the A320 only, the location of the
+potable water tank is aft of the forward cargo compartment.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 8 of 112
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - WATER FLUID STORAGE (A320)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 9 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW (continued)
+POTABLE WATER HEATING, ICE PROTECTION AND WINTERIZATION PROTECTION One
+water heater is installed in each lavatory and in each galley. Water
+pipes, where icing conditions can occur are insulated and heated by tape
+electrical heaters. The heating elements are controlled automatically by
+two anti ice control units installed in the cargo compartments. The
+potable water service panel heating is installed to prevent ice
+formation in the potable water servicing panel in icing conditions.
+Optionally the fill/drain nipple as well as the overflow nipple are
+electrically heated to prevent ice formation of the remaining water in
+the fill/drain nipple and overflow nipple which could cause a blockage
+or damage to the nipples. A thermostat controls the potable water
+service panel heating. In winter conditions, the potable water system
+must be drained during night stops.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 10 of 112
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - POTABLE WATER HEATING, ICE PROTECTION AND
+WINTERIZATION PROTECTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 11 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW (continued)
+POTABLE WATER CONTROL AND INDICATING (FAP) The water and waste
+indications are displayed on the Flight Attendant Panel (FAP). On the
+FAP, the quantity indication is displayed automatically as soon as the
+service panel is open, or when the Water/Waste key on the FAP is
+selected. As an option, the filling quantity can be selected (25%, 50%,
+75% and 100%).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 12 of 112
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - POTABLE WATER CONTROL AND INDICATING (FAP)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 13 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW (continued)
+POTABLE WATER CONTROL AND INDICATING (SERVICE PANEL) There is only one
+control handle to fill or drain the water tank. It is located on the
+water service panel. One forward drain valve is electrically controlled
+when the fill/drain control handle is set to the drain position. On the
+A320, the overflow valve opens electrically when the fill/drain control
+handle is set to the drain or fill position. On the servicing panel, the
+indicator gives the water quantity. One green light indicates that the
+forward drain valve is open and one green light indicates that the tank
+is full.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 14 of 112
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - POTABLE WATER CONTROL AND INDICATING (SERVICE PANEL)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 15 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW (continued)
+WASTE WATER SYSTEM The waste water system drains the used water from the
+lavatory washbasins and the galley sinks. The waste water is discarded
+overboard outside through the drain valve and the drain mast. The two
+drain masts have integrated electrical heating elements to prevent ice
+formation in flight and during cold weather.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 16 of 112
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - WASTE WATER SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 17 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM COMPONENT LOCATION (2) TOILET SYSTEM CONTROL AND
+INDICATING
+SYSTEM OVERVIEW (continued) TOILET SYSTEM The toilet system gives
+sanitary facilities for the passengers and crews. The system is a
+differential pressure toilet system and uses potable water for flushing.
+TOILET SYSTEM FLUSHING OPERATION The system uses potable water from the
+aircraft pressurized water system to flush the toilet. A flush valve
+opens to remove waste from the toilet bowl to an under floor waste
+holding tank. At high altitude, the differential pressure between the
+cabin and the atmospheres is sufficient to move the waste from the
+toilet bowl into the waste holding tank. At low altitude or on ground, a
+vacuum generator starts to give the necessary differential pressure in
+the waste system to move the waste from the bowl to the tank. The Vacuum
+System Controller Function (VSCF), integrated in the Cabin
+Intercommunication Data System (CIDS), controls the flushing system
+operation and stops the operation when the waste servicing panel is
+open. When the tank is full, the liquid level sensor stops the system
+operation.
+The vacuum toilet system is connected to the CIDS. The CIDS controls and
+monitors the system functions and the related electric components. A
+Flush Control Unit (FCU) per toilet controls the rinse and flush cycle
+as soon as the flush SW is pressed. The system uses potable water from
+the potable water system to rinse the toilet bowl. When the waste
+holding tank is full, a signal is sent to the CIDS, which shuts down the
+toilet systems. The FAP displays the waste tank quantity stored in the
+waste holding tank when the Water/Waste key on the FAP is selected.
+TOILET SYSTEM WASTE DISPOSAL The waste holding tank is installed on the
+right of the aircraft under the floor behind the bulk cargo compartment.
+The tank includes a water separator, a liquid level transmitter, a
+liquid level sensor, a waste drain valve and two rinse line connections.
+TOILET SYSTEM WASTE TANK HEATING (OPTIONAL) The waste holding tank can
+be insulated. The lines between the tank and the service panel with the
+waste drain valve can be insulated and heated.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 18 of 112
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - TOILET SYSTEM ... TOILET SYSTEM CONTROL AND INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 19 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION The waste
+holding tank is installed in the aft fuselage on the RH side. The VSCF
+integrated in the CIDS is installed in the avionics compartment.
+A320 The A320 potable water tank is installed in the lower RH fuselage
+behind the forward cargo compartment.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 20 of 112
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - A320
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 21 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION (continued)
+A318/A319/A321 The A318, A319 and A321 potable water tank is installed
+in the lower LH aft fuselage beside the waste holding tank.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 22 of 112
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - A318/A319/A321
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 23 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM COMPONENT LOCATION (2) SERVICE PANEL LOCATION The
+potable water service panel is installed in the rear lower fuselage on
+the LH side. It is used to fill and drain the potable water tank. The
+A320 has two drain panels, installed in the lower part of the fuselage.
+The A318, A319 and A321 have one drain panel, installed in the lower
+part of the fuselage. The toilet service panel is installed in the rear
+lower fuselage on the RH side.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 24 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICE PANEL LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 25 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM D/O (3) STORAGE
+INDICATING
+The potable water is stored in one tank installed in the pressurized
+underfloor area of the right hand fuselage, aft of the forward cargo
+compartment. The potable water tank has a capacity of 200 l (53 US gal).
+The quantity indication system indicates how much water is available in
+the potable water tank. The quantity transmitter transmits the signal to
+the indicator on the water service panel. It also sends the information
+to a Decoder/Encoder Unit (DEU) B, which in turn interfaces with the
+active Cabin Intercommunication Data System (CIDS) director to display
+on the Flight Attendant Panel (FAP) the water tank contents in
+percentage of volume. The TANK FULL light on the service panel comes on
+when the tank is full.
+PRESSURIZATION Pressurization of the system enables water supply from
+the tank to the necessary service location. Compressed air is tapped
+from the cross feed line of the engine or APU bleed air. On ground, when
+the bleed air system is not available, the ground air pressure supply
+system is used. If installed, the air compressor will supply air when
+bleed is not available. During servicing, the overflow valve is used to
+depressurize the potable water tank.
+DISTRIBUTION Potable water from the water tank is supplied through a
+system of distribution lines, which are routed below the passenger
+compartment floor. A part of the forward distribution line goes through
+a hose for added protection of the avionics equipment. The potable water
+distribution lines are insulated and electrically heated to prevent ice
+formation in and around the lines. Each lavatory and each galley have an
+individual and manual shutoff valve.
+FILLING The Filling is achieved through a fill/drain valve operated by
+the fill/drain control handle on the potable water service panel. The
+fill/drain control handle simultaneously opens the electrically
+motorized overflow valve for venting. The quantity transmitter sends a
+tank-full signal to close the fill/drain valve automatically. Manual
+operation is possible via control handles dedicated to each valve.
+Maximum permissible pressure to fill the potable water tank is 50 psi
+(3.4 bars). CAUTION: WITHOUT ELECTRICAL POWER YOU MUST OPEN THE OVERFLOW
+VALVE MANUALLY PRIOR TO THE FILLING TO PREVENT WATER SPILLAGE IN THE
+CABIN.
+HEATING A water heater is installed under the wash basin inside the
+sanitary unit cabinet. If the quantity transmitter detects a low level
+into the water tank, it cuts the electrical supply of the water heater.
+A thermostat allows the water temperature to be maintained between 45 °C
+(113 °F) and 48 °C (118,4 °F). An over temperature safety device
+protects the heating element.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 26 of 112
+FOR TRAINING PURPOSES ONLY
+STORAGE ... FILLING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 27 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM D/O (3) FILLING (continued) OPERATION The tank is
+empty, all valves are closed and there are no indicator lights. The
+panel door opens, so the system is electrically powered and the FAP
+water indication page is automatically called. If installed the air
+compressor will be stopped. The Fill/Drain control handle is positioned
+to the fill position and pulled out. The Fill/Drain valve is
+mechanically opened. The Fill position switch is actived. The Fill
+position switch sends an electrical signal which will open the overflow
+valve. The overflow valve light comes ON when the valve is in the open
+position. From a ground service cart we'll fill the water tank: - the
+system takes on water and tank slowly fills up, - also the cabin water
+system is supplied, - FAP water indication increases. The tank is full
+now so the tank sensor will trigger the "Green Tank Full Light" in
+service panel, the Fill/Drain valve returns to closed, also the overflow
+valve will close and the overflow valve light will go OFF when the valve
+is closed again.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 28 of 112
+FOR TRAINING PURPOSES ONLY
+FILLING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 29 of 112
+FOR TRAINING PURPOSES ONLY
+FILLING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 30 of 112
+FOR TRAINING PURPOSES ONLY
+FILLING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 31 of 112
+FOR TRAINING PURPOSES ONLY
+FILLING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 32 of 112
+FOR TRAINING PURPOSES ONLY
+FILLING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 33 of 112
+FOR TRAINING PURPOSES ONLY
+FILLING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 34 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM D/O (3) DRAINING The draining operation is achieved
+through the fill/drain valve and three motorized valves, two drain
+valves and the overflow valve. Their opening and closing is controlled
+via electrical signals from the manual operated control handle. All
+valves can also be operated via their related control handle, if no
+electrical power is available.
+All valves will close and all lights in the service panel will go off
+when the valves are closed again. The potable water service panel is
+closed so the door limit switch will cut the power. The FAP water
+indication page disappears and if installed, the air compressor starts
+again.
+OPERATION For the draining of the potable water tank in this case: - the
+tank is full, - the aircraft is electrically supplied. But the draining
+can be done from every level. The panel door opens, so the system is
+electrically powered and the FAP water indication page is automatically
+called. The Fill/Drain control handle is positioned to the drain
+position and pulled out. The Fill/Drain valve is mechanically opened.
+The drain position switch is activated. From the drain position switch
+an electrical signal will open the overflow valve, the tank drain valve
+and the FWD drain valve. In the service panel the "Green FWD Drain Valve
+Open Light", the "Tank Drain Valve Light", and the "Green Overflow Valve
+Light" come on. Due to the opening of all valves, the system will be
+drained. Most of the water will come from the tank drain and only a
+small amount from fill/drain and FWD drain valve. In the service panel
+the "Tank Full Light" goes off. The water quantity in the tank and the
+FAP water indication decrease. The tank is empty now, the tank sensor
+will trigger, so the water heater goes to off. The Fill/Drain control
+handle is pushed to valve closed position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 35 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 36 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 37 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 38 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 39 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 40 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 41 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 42 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 43 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM CONTROLS &amp; INDICATING (2) TANK DRAIN VALVE LIGHT
+GENERAL The potable water controls and indicating includes the display
+on the Flight Attendant Panel (FAP) and three panels located at the
+bottom of the aircraft fuselage.
+The tank drain valve light comes on when the tank drain valve is open.
+The light has a lamp press to test facility.
+OVERFLOW VALVE LIGHT The overflow valve light comes on when the overflow
+valve is open. The light has a lamp press to test facility.
+POTABLE WATER SERVICE PANEL The potable water service panel is installed
+in the rear left hand side of the fuselage.
+DOOR MICROSWITCH The door microswitch isolates the indicating system
+when the potable water service panel is closed. When the door is open,
+the electric motor of the compressor is stopped (if installed). The
+water and waste page on the FAP will be shown automatically as soon as
+the service panel door opened.
+QUANTITY INDICATOR The quantity indicator gives the level of the water
+in the potable water tank.
+FILL/DRAIN CONTROL HANDLE The fill/drain control handle is used to
+select a filling or draining operation.
+FORWARD DRAIN VALVE OPEN LIGHT The forward drain valve open light comes
+on when the forward drain valve is open. The light has a lamp press to
+test facility.
+TANK FULL LIGHT The tank full light comes on when the water tank is
+full. The light has a lamp press to test facility.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 44 of 112
+FOR TRAINING PURPOSES ONLY
+GENERAL &amp; POTABLE WATER SERVICE PANEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 45 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM CONTROLS &amp; INDICATING (2) WATER DRAIN PANELS The
+forward drain panel and the drain/overflow panel are located in the
+lower part of the forward fuselage. The drain control handles are used
+to manually operate the drain valves.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 46 of 112
+FOR TRAINING PURPOSES ONLY
+WATER DRAIN PANELS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 47 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM CONTROLS &amp; INDICATING (2) FAP The FAP is located in
+the forward section of the cabin. The FAP displays the potable WATER
+QUANTITY stored in the potable water tank when the potable water service
+door is open or the WATER/WASTE page is selected on the FAP.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 48 of 112
+FOR TRAINING PURPOSES ONLY
+FAP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 49 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM D/O (3) STORAGE
+INDICATING
+The potable water tank with a capacity of 200 l (53 US gal) is installed
+in the pressurized LH under floor area behind the bulk cargo
+compartment.
+The quantity indication system indicates how much water is available in
+the potable water tank. The quantity transmitter transmits the signal to
+the indicator on the water service panel. It also sends the information
+to a Decoder/Encoder Unit (DEU) B, which in turn interfaces with the
+active Cabin Intercommunication Data System (CIDS) director to display
+on the Flight Attendant Panel (FAP) the water tank contents in
+percentage of volume. The TANK FULL light on the service panel comes on
+when the tank is full.
+PRESSURIZATION Compressed air is used to pressurize the system in order
+to supply water from the tank to the necessary service locations. The
+compressed air is tapped from the cross feed-line of the engine or APU
+bleed air and is connected to the water tank air inlet. On ground, when
+the bleed air system is not available, the ground air pressure supply
+system is used. If installed, an optional compressor is used for the
+pressurization in case of bleed air decrease.
+DISTRIBUTION Potable water from the water tank is supplied through a
+system of distribution lines, which are routed below the passenger
+compartment floor. A part of the forward distribution line goes through
+a hose for added protection of the avionics equipment. The potable water
+distribution lines are insulated and electrically heated to prevent ice
+formation in and around the lines. Each lavatory and each galley have an
+individual and manual shutoff valve.
+SERVICING The Servicing of the potable water system can be done with or
+without electrical power. With electrical power, the single fill/drain
+control handle mechanically operates the fill/overflow drain valve and
+electrically controls the forward drain valve. Without electrical power,
+the valves are individually operated by cables. The draining operation
+is accomplished by opening the fill/overflow drain valve and the forward
+drain valve. The filling operation is accomplished by opening the
+fill/overflow drain valve and closing the forward drain valve. When the
+tank is full, the quantity transmitter sends a signal to close the
+fill/overflow drain valve automatically.
+HEATING In each lavatory, a water heater is installed under the wash
+basin. If the quantity transmitter detects a low level into the water
+tank, it cuts the electrical supply of the water heater. A thermostat
+maintains the water temperature between 45°C (113°F) and 51.7°C (125°F).
+An over temperature safety device protects the heating element.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 50 of 112
+FOR TRAINING PURPOSES ONLY
+STORAGE ... SERVICING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 51 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM D/O (3) SERVICING (continued) SYSTEM FILLING The
+tank is empty, all valves are closed and there are no indicator lights.
+The panel door opens, so the system is electrically powered and the FAP
+water indication page is automatically called. The Fill/Drain/Overflow
+control handle is positioned to the fill position and pulled out. The
+Fill/Drain/Overflow valve is mechanically opened. From a ground service
+cart we'll fill the water tank: - the system takes on water and tank
+slowly fills up, - also the cabin water system is supplied, - FAP water
+indication increases. The tank is full now so the tank sensor will
+trigger the "Green Tank Full Light" in service panel and the
+Fill/Drain/Overflow valve returns to closed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 52 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM FILLING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 53 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM FILLING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 54 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM FILLING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 55 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM FILLING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 56 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM FILLING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 57 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM D/O (3) The FAP water indication page disappears
+and the air compressor will start as soon as the panel door is closed
+again.
+SERVICING (continued) SYSTEM DRAINING For the draining of the potable
+water tank in this case: - the tank is full, - the aircraft is
+electrically supplied. But the draining can be done from every level.
+The panel door opens, so the system is electrically powered and the FAP
+water indication page is automatically called. The tank full light comes
+on. The Fill/Drain/Overflow control handle is positioned to the drain
+position and pulled out. The Fill/Drain/Overflow valve is mechanically
+opened. The drain position switch is activated. From the drain position
+switch an electrical signal will open the FWD drain valve. In the
+service panel the "Green FWD Drain Valve Open Light" comes on. Due to
+the opening of all valves, the system will be drained. Most of the water
+will come from the tank drain and only a small amount from the FWD drain
+valve. In the service panel the "Tank Full Light" goes off. The water
+quantity in the tank and in the FAP water indication decreases. The tank
+is empty now, the tank sensor will trigger, so the water heater goes to
+off. The Fill/Drain/Overflow control handle is pushed to valve closed
+position. The FWD drain valve will close and all lights in the service
+panel will be off. The potable water service panel is closed so the door
+limit switch will cut the power.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 58 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM DRAINING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 59 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM DRAINING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 60 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM DRAINING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 61 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM DRAINING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 62 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM DRAINING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 63 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM DRAINING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 64 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM DRAINING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 65 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - SYSTEM DRAINING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 66 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM CONTROLS &amp; INDICATING (2) GENERAL The potable water
+controls and indicating includes the display on the Flight Attendant
+Panel (FAP) and two panels located at the bottom of the aircraft
+fuselage.
+POTABLE WATER SERVICE PANEL The potable water service panel is installed
+in the rear left hand side of the fuselage.
+DOOR MICROSWITCH The door microswitch isolates the indicating system
+when the potable water service panel is closed. When the door is open,
+the electric motor of the compressor is stopped (if installed). The
+water and waste page comes on automatically on the FAP when the service
+panel door is opened.
+QUANTITY INDICATOR The quantity indicator gives the level of the water
+in the potable water tank.
+FILL/DRAIN CONTROL HANDLE The fill/drain control handle is used to
+select a filling or draining operation.
+FORWARD DRAIN VALVE OPEN LIGHT The forward drain valve open light comes
+on when the forward drain valve is open. The light has a lamp press to
+test facility.
+TANK FULL LIGHT The tank full light comes on when the water tank is
+full. The light has a press to test facility.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 67 of 112
+FOR TRAINING PURPOSES ONLY
+GENERAL &amp; POTABLE WATER SERVICE PANEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 68 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM CONTROLS &amp; INDICATING (2) FORWARD WATER DRAIN PANEL
+The forward water drain panel is located on the A/C center line of the
+lower fuselage. The drain control handle is used to manually operate the
+forward drain valve.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 69 of 112
+FOR TRAINING PURPOSES ONLY
+FORWARD WATER DRAIN PANEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 70 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYSTEM CONTROLS &amp; INDICATING (2) FAP The FAP is located in
+the forward section of the cabin. The FAP displays the potable WATER
+QUANTITY stored in the potable water tank when the Water/Waste key on
+the FAP is selected. A tank symbol with a scale shows the liquid level
+as a percentage. The service door OPEN information, delivered by the
+door microswitch located on the potable water service panel, is sent to
+the FAP through a Decoder/Encoder Unit (DEU) B and the active Cabin
+Intercommunication Data System (CIDS) director to energize the water
+quantity indicating system.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 71 of 112
+FOR TRAINING PURPOSES ONLY
+FAP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 72 of 112
+FOR TRAINING PURPOSES ONLY
+WASTE WATER SYSTEM D/O (2) GENERAL The waste water drain system discards
+the waste water from the lavatory wash basins and from the galley sinks.
+DRAIN ASSEMBLY Each lavatory wash basin has a drain assembly with a
+valve actuated by a control knob and a cable. NOTE: The control knob is
+operated by the lavatory user.
+DRAIN VALVE Each drain valve opens only when a certain amount of water
+is collected. This prevents a permanent loss of cabin air pressurization
+through the drain lines.
+DRAIN MAST In flight, differential pressure between the cabin and the
+drain mast outlet discards the waste water. On ground, gravity discards
+the waste water. The drain masts are electrically heated to prevent ice
+formation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 73 of 112
+FOR TRAINING PURPOSES ONLY
+GENERAL ... DRAIN MAST
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 74 of 112
+FOR TRAINING PURPOSES ONLY
+TOILET SYSTEM PRINCIPLE (2) GENERAL Potable water from the aircraft
+pressurized potable water system is used to flush the toilet bowl.
+Differential pressure between the cabin and the atmosphere moves the
+waste from the toilet bowl to the waste holding tank. This difference of
+pressure can be caused by the vacuum generator or by aircraft
+pressurization.
+RINSE/FLUSH CONTROL A flush control unit per toilet controls the time
+and sequence of the toilet operation during the flushing cycle.
+VACUUM CONTROL A vacuum generator is connected to the aircraft power
+circuit through the motor starting relay. As soon as a FLUSH switch is
+pressed, the flush control unit sends an electrical signal, through the
+connected Decoder/Encoder Unit (DEU) B to the Cabin Intercommunication
+Data System (CIDS) directors, which activates the motor starting relay
+according to the altitude. The Cabin Pressure Controller (CPC) supplies
+altitude data to CIDS via the System Data Acquisition Concentrator
+(SDAC). At high altitude, the CPC stops the electrical supply of the
+vacuum generator, the differential pressure between the cabin and the
+atmosphere being sufficient to move the waste from the toilet bowl to
+the waste holding tank. At low altitude or on ground, the vacuum
+generator generates the necessary differential pressure.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 75 of 112
+FOR TRAINING PURPOSES ONLY
+GENERAL ... VACUUM CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 76 of 112
+FOR TRAINING PURPOSES ONLY
+TOILET SYSTEM DESCRIPTION (3) door limit switch signal in flight to keep
+the system operational if the service panel door is open in flight.
+GENERAL The toilet system removes waste from the toilet bowl through a
+vacuum drain to an underfloor waste holding tank. The vacuum toilet
+system is connected to the Cabin Intercommunication Data System (CIDS),
+which controls and monitors the system function and the related electric
+components. The system uses potable water from the potable water system
+to flush the toilet.
+FLUSHING When the FLUSH switch is pressed, the flush control unit
+initiates the flush sequence. The vacuum generator starts to operate and
+after 1.6 seconds the water valve opens for 1.7 seconds. Then, the flush
+valve, controlled by the flush control unit, opens for 4 seconds to
+evacuate the waste material through differential pressure.
+VACUUM As soon as the FLUSH switch is pressed, the flush control unit
+sends an electrical signal to the CIDS (via the connected
+Decoder/Encoder Unit (DEU) B), which operates the vacuum generator for
+approximately 15 seconds. The vacuum generator creates the necessary
+differential pressure between the cabin and the waste holding tank to
+move the waste from the toilet bowl. The vacuum generator is
+activated: - on ground, - during climb when the differential pressure is
+less than 246 mbar, - during descent when the differential pressure is
+less than 203 mbar. The different pressure information is supplied by
+the Cabin Pressure Controller (CPC) via the System Data Acquisition
+Concentrator (SDAC). NOTE: The landing gear signal is used as a back- up
+in case the SDAC can not deliver altitude/ diff. press information. It
+overrides the
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+STORAGE The waste holding tank is installed on the right hand side of
+the aircraft under the floor between FRame 65 and FR 68. The tank has a
+capacity of 170 l (44.9 US gal). The tank has: - a water separator, - a
+liquid level transmitter (hydrostatic pressure), - a liquid level sensor
+(ultrasonic type), - waste inlets, - a waste outlet, - two rinse
+nozzles.
+CONTROL/MONITORING The waste system data is received by DEUs B and sent
+to the CIDS directors (DIRs). This system is controlled and monitored by
+the Vacuum System Controller (VSC) function, which is integrated inside
+the CIDS DIRs. The CIDS DIRs also report the vacuum toilet system
+failures to the Centralized Fault Display System (CFDS).
+INDICATING The waste holding tank is equipped with a liquid level
+transmitter and a liquid level sensor. When the tank is full, a signal
+is sent to the CIDS DIRs through the DEU B,on Middle Line databus, which
+shuts down the toilet systems. The signal is also sent to the Flight
+Attendant Panel (FAP) through the DIRs and a "WASTE TANK NOT EMPTY-CHECK
+LEVEL GROUND SERVICE REQUIRED" message is displayed.
+SERVICING The waste holding tank is serviced from a service panel, which
+is located on the right of the lower fuselage between FR 65 and FR 66.
+It has:
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 77 of 112
+FOR TRAINING PURPOSES ONLY
+-   a drain connection,
+-   a rinse/flush connection,
+-   a waste drain valve control handle,
+-   a limit switch. During servicing, the flush control units are
+    automatically de-activated. Thus, toilet use is inhibited during
+    servicing. The waste drain control handle mechanically operates the
+    drain valve.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 78 of 112
+FOR TRAINING PURPOSES ONLY
+GENERAL ... SERVICING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 79 of 112
+FOR TRAINING PURPOSES ONLY
+TOILET SYSTEM CONTROLS &amp; INDICATING (2) GENERAL The toilet system
+controls and indicating include the waste quantity indication on the
+Flight Attendant Panel (FAP).
+TOILET SERVICE PANEL The toilet service panel is installed in the rear
+right hand side of the fuselage between FRame 65 and FR66.
+DOOR LIMIT SWITCH On ground, when the toilet service panel door is open,
+the Cabin Intercommunication Data System (CIDS) stops all toilet
+operations through the Decoder/Encoder Unit (DEU) B and flush signals
+are inhibited.
+DRAIN CONTROL HANDLE During ground service, the drain control handle
+located at the service panel is used for the waste holding tank
+draining.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 80 of 112
+FOR TRAINING PURPOSES ONLY
+GENERAL &amp; TOILET SERVICE PANEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 81 of 112
+FOR TRAINING PURPOSES ONLY
+TOILET SYSTEM CONTROLS &amp; INDICATING (2) FAP WATER/WASTE PAGE The FAP is
+located in the forward section of the cabin. The FAP WATER/WASTE page
+appears by selecting the dedicated key on the tool bar. It can also
+appear automatically when the service door is open or when there is a
+fault in the system. This page gives information about the water and
+waste system. Fault, system and inoperative messages for the vacuum
+lavatories are also indicated on the FAP.
+WASTE QUANTITY The FAP displays the waste quantity stored in the waste
+holding tank. A waste tank symbol displays the filling level in
+percentage.
+LAVATORY On the aircraft symbol, the location of the lavatory is shown
+either activated with a grey square or de-activated with an amber square
+and its associated name. A lavatory is de-activated when the flush
+control unit is inoperative. An amber cross is displayed on the square
+in case of no communication with the flush control unit.
+STATUS AND FAULT MESSAGES Status and fault messages of the water and
+waste system are displayed on a dedicated window. NOTE: On ground, when
+the toilet service panel is open the "VACUUM SYSTEM DISABLED-GROUND
+SERVICING" message comes on.
+RESET WARNING A RESET WARNing button is used in case of flush valve
+failure. All visual warnings are reset by this same button (Area Call
+Panel, Attendant Indication Panel and lavatory call light).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 82 of 112
+FOR TRAINING PURPOSES ONLY
+FAP WATER/WASTE PAGE - WASTE QUANTITY ... RESET WARNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 83 of 112
+FOR TRAINING PURPOSES ONLY
+TOILET SYSTEM MONITORING (3) GENERAL The toilet system is monitored by
+the Vacuum System Controller (VSC) function, which is integrated inside
+the Cabin Intercommunication Data System (CIDS) director (DIR). During
+aircraft power-up on ground and during flight, the system external
+circuits of the vacuum toilet system are monitored continuously.
+FLUSH CONTROL UNIT The BITE in each flush control unit monitors the
+water valve, the flush valve and the internal control circuitry. If a
+fault is detected, it is transmitted through the Decoder/Encoder Unit
+(DEU) B to DIR 1 and 2 of the CIDS.
+symbol to indicate if a lavatory is inoperative or if the whole toilet
+system is inoperative. Examples of messages list box: - VACUUM SYSTEM
+DISABLED-WASTE TANK FULL: If the LLS and the LLT do not operate, the
+system will not operate, - VACUUM SYSTEM DISABLED-GROUND SERVICING: When
+the limit switch on the waste service panel indicates OPEN panel and the
+aircraft is on ground: A CAUTion amber button, located in the upper left
+corner of the touchscreen, comes on and flashes when CIDS receives a
+message which cannot be shown immediately.
+VSC FUNCTION The VSC functions integrated inside the CIDS DIRs are: -
+system control and monitoring, - fault reporting. The DIR calculates and
+transmits signals to the Flight Attendant Panel (FAP) to indicate the
+waste tank level and to report system defects. The DEU B transmits
+system defects to the DIR through the middle line data bus. The DIR
+memorizes the defect signals and send them to the Centralized Fault
+Display System (CFDS) for ground maintenance and inspection. NOTE: Each
+toilet assembly is connected to a DEU B.
+FAP WATER/WASTE PAGE INDICATING The FAP WATER/WASTE page gives
+information about water and waste. The waste tank level is displayed on
+this page. Fault, system and inoperative messages can also be displayed
+in the list box and on the A/C
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 84 of 112
+FOR TRAINING PURPOSES ONLY
+GENERAL ... FAP WATER/WASTE PAGE INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 85 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYS SERVICING (A320) (2) FILLING WITH ELECTRICAL POWER
+First open the Potable Water Service Panel and the light from the
+quantity indicator comes on. On the Flight Attendant Panel you will see
+the text "GROUND SERVICE DOOR OPEN" is shown. Remove the potable water
+fill and drain port cap. Connect the fill hose to the potable water fill
+and drain port. Turn the fill and drain control handle to the " FILL"
+position and pull it out. Check that the "OVERFLOW VALVE OPEN" light
+comes on. If it doesn't illuminate, check the light and the overflow
+valve function. Start the pump on the service vehicle. The quantity
+indicator shows that the system is taking on water. When the tank is
+full, the "FULL LIGHT" comes on and the handle returns automatically to
+its NORMAL position. Check that the "OVERFLOW VALVE OPEN" light goes
+off. Disconnect the fill hose from the potable water fill and drain
+port. Clean and dry the fill and drain port. Put the cap on the potable
+fill and drain port. Clean and dry the service panel and the adjacent
+area. Close the service panel and clean it. On the Flight Attendant
+Panel (WATER AND WASTE PAGE) you can check the water quantity, make sure
+that text message: "WATER SERVICE DOOR OPEN" is not shown any more.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 86 of 112
+FOR TRAINING PURPOSES ONLY
+FILLING WITH ELECTRICAL POWER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 87 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYS SERVICING (A320) (2) FILLING WITHOUT ELECTRICAL POWER
+Open the Potable Water Service Panel, there is no light and no
+indication on the gage. Open the potable water fill and drain port. Open
+the tank drain access panel and open the overflow valve handle to the
+open position. Connect the fill hose to the potable water fill and drain
+port. Turn the fill and drain control handle to the fill position and
+pull it out. Start the pump on the service vehicle. The quantity
+indicator will show no change in water quantity. When the tank is full,
+water will flow out from the tank overflow port. Stop the pump on the
+service vehicle and push the fill and drain control handle in and turn
+it to the normal position. NOTE: The Handle does not return to the
+normal position automatically. Disconnect the fill hose from the potable
+water fill and drain port. Close the tank overflow valve with the
+handle. Clean and dry the fill and drain port. Put the cap on the
+potable water fill and drain port. Clean and dry the service panel area
+and the tank drain panel area. Close the tank drain and the service
+panel and check for leaks, because leaks are not permitted.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 88 of 112
+FOR TRAINING PURPOSES ONLY
+FILLING WITHOUT ELECTRICAL POWER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 89 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYS SERVICING (A320) (2) DRAINING WITH ELECTRICAL POWER
+Open the Potable Water Service Panel, the indication on the gage is
+illuminated. On the Flight Attendant Panel you will see the text "GROUND
+SERVICE DOOR OPEN" is shown. Remove the cap of the potable water fill
+and drain port. Turn the fill and drain control handle to the drain
+position and pull it out. Check that the following control lights come
+on: The forward drain valve, tank drain valve, and the overflow valve.
+Water will flow from all three ports, but the main quantity will come
+from the tank drain port. The water should be collected in a container.
+The quantity indicator will show the decreasing water level. When the
+tank is completely empty, push the control handle in and turn it to the
+normal position. NOTE: The handle does not return to the normal position
+automatically. All three indicators lights go off again. Clean and dry
+the fill and drain port. Put the cap on the potable water fill and drain
+port. Clean and dry the panel areas. Close the Potable Water Service
+Panel and clean it. On the Flight Attendant Panel (WATER AND WASTE PAGE)
+you can check the water quantity, make sure that text message: "WATER
+SERVICE DOOR OPEN" is not shown any more.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 90 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING WITH ELECTRICAL POWER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 91 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYS SERVICING (A320) (2) DRAINING WITHOUT ELECTRICAL POWER
+Open the Potable Water Service Panel, no indication will be shown on the
+gage. Remove the cap of the potable water fill and drain port. Turn the
+fill and drain control handle to the drain position and pull it out.
+Open the tank drain panel, to operate the tank overflow valve handle,
+and the tank drain valve control handle to the open position. Open the
+forward drain panel and operate the drain valve control handle to the
+open position. Water will flow from all three ports, but the main
+quantity will come from the tank drain port. The water should be
+collected in a container. The quantity indicator will not show the
+decreasing water level. When the tank is completely empty, push the fill
+drain control handle in and turn it to the normal position. NOTE: The
+handle does not return to the normal position automatically. Clean and
+dry the fill and drain port. Put the cap on the potable water fill drain
+port. Clean and dry the panel areas. Close all three panels and clean
+them.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 92 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING WITHOUT ELECTRICAL POWER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 93 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYS SERVICING (A318/319/321) (2) FILLING WITH ELECTRICAL
+POWER First open the potable water panel and the light from the quantity
+indicator comes on. NOTE: On the Flight Attendant Panel you will see the
+text "GROUND SERVICE DOOR OPEN" is shown. Remove the potable water fill
+and drain port cap. Connect the fill hose to the potable water fill and
+drain port. Turn the fill and drain control handle to the " FILL"
+position and pull it out. The quantity indicator shows that the system
+is taking on water. When the "TANK FULL LIGHT" comes on the fill and
+drain control handle will automatically return to the NORMAL Position.
+Disconnect the fill hose from the potable water fill and drain port.
+Clean and dry the fill and drain port. Put the cap on the potable fill
+and drain port. Clean and dry the service panel and the adjacent area.
+Close the service panel and clean it. On the Flight Attendant Panel
+(WATER AND WASTE PAGE) you can check the water quantity, make sure that
+text message: "WATER SERVICE DOOR OPEN" is not shown any more.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 94 of 112
+FOR TRAINING PURPOSES ONLY
+FILLING WITH ELECTRICAL POWER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 95 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYS SERVICING (A318/319/321) (2) FILLING WITHOUT
+ELECTRICAL POWER Open the potable water panel, there is no light and no
+indication on the gage. Open the potable water fill and drain port.
+Connect the fill hose to the potable water fill and drain port. Turn the
+fill and drain control handle to the fill position and pull it out. The
+quantity indicator will show no change in water quantity. When the tank
+is full, water will flow out from the potable water overflow port. Push
+the control handle in and turn it to the normal position. NOTE: The
+handle does not return to the normal position automatically. Disconnect
+the fill hose from the potable water fill and drain port. Clean and dry
+the fill and drain port. Put the cap on the potable water fill and drain
+port. Clean and dry the service panel area. Close the service panel and
+clean it.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 96 of 112
+FOR TRAINING PURPOSES ONLY
+FILLING WITHOUT ELECTRICAL POWER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 97 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYS SERVICING (A318/319/321) (2) DRAINING WITH ELECTRICAL
+POWER First open the potable water panel and the light from the quantity
+indicator comes on. NOTE: On the FAP the water and waste page will be
+shown with the text message: WATER SERVICE DOOR OPEN. Remove the cap
+from the potable water fill and drain port. Turn the Fill and Drain
+Handle to the drain position and pull it out. The forward drain valve
+light comes on and the water flows out of the potable water fill and
+drain port as well as from the forward drain panel. When the water is
+completely drained, you have to manually close the drain valve. By
+pushing in the handle and turn it back to the normal position. The
+forward drain valve light goes off again. Clean and dry the fill and
+drain port. Put the cap on the potable water fill and drain port. In
+cold weather conditions, the drain valves should remain open to prevent
+damage to the potable water system. Clean and dry the service panel and
+the adjacent area. Close the service panel and clean it.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 98 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING WITH ELECTRICAL POWER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 99 of 112
+FOR TRAINING PURPOSES ONLY
+POTABLE WATER SYS SERVICING (A318/319/321) (2) DRAINING WITHOUT
+ELECTRICAL POWER Open the Potable Water Service Panel, no indication
+will be shown on the gage. Remove the cap of the potable water fill and
+drain port. Turn the fill and drain control handle to the drain position
+and pull it out. Open the forward drain panel and operate the drain
+valve control handle to the open position. Water will flow from the two
+ports, but the main quantity will come from the potable water service
+panel. The water should be collected in a container. The quantity
+indicator will not show the decreasing water level. When the tank is
+completely empty, push the fill drain control handle in and turn it to
+the normal position. NOTE: The handle does not return to the normal
+position automatically. Clean and dry the fill and drain port. Put the
+cap on the potable water fill and drain port. Clean and dry the panel
+areas. Close both panels and clean them.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 100 of 112
+FOR TRAINING PURPOSES ONLY
+DRAINING WITHOUT ELECTRICAL POWER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 101 of 112
+FOR TRAINING PURPOSES ONLY
+TOILET SYSTEM SERVICING (2) SERVICING Open the Waste Service Panel Door,
+and on the FAP the Water/ Waste page will be shown, with the text
+message: "Vacuum System DisabledGround Servicing". Open the cap of the
+waste drain connection. Connect the toilet service vehicle drain hose to
+the waste drain connection. Push the inner flap lever to "open". Move
+the drain valve control-handle to the open position and empty the waste
+tank completely. Close the waste drain valve and connect the flush/ fill
+hose of the toilet service vehicle to the rinse and fill connection.
+Flush the waste tank with approximately 57 L (15.06 Us gal). Then open
+the drain valve and make sure that the fluid has drained completely and
+close the waste drain valve again. Use the toilet service vehicle and
+fill the waste tank with 10L (2.46Usgal) of disinfectant solution or
+water. Switch off the toilet vehicle pump. Remove the flush and the
+drain hose and close the drain cap. NOTE: The inner flap will close and
+lock automatically when you close the outer drain cap. Make sure there
+are no leaks from the waste drain connection, leaks are not permitted.
+Disconnect the flush/ fill hose and let the connection drain completely.
+Close the cap of the fill and rinse connection. Clean and dry the
+service panel area. Close the Waste Service Door. On the Flight
+Attendant Panel make sure that the message box " Vacuum System
+Disabled - Ground Servicing" disappears.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 102 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 103 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM LINE MAINTENANCE (2) SERVICING POTABLE WATER
+SERVICING The potable water system supplies the galleys and toilets with
+water from the tank via a distribution system. The tank is pressurized
+by air either: - from the pneumatic system, - or from a ground cart
+connected to the ground connector, - or optionally from a compressor. On
+the A320 only, two valves are used for filling: - the fill/drain valve,
+this is opened manually and closed electrically, - the overflow valve,
+this is opened and closed electrically. Four valves are used for
+draining: - the fill/drain valve, this is opened and closed manually, -
+the FWD drain valve, tank drain valve and overflow valve, these are
+opened and closed electrically. NOTE: On A320, if there is no electrical
+power all four valves can be manually operated. On A318, A319 and A321,
+one valve is used for filling: - the overflow/fill/drain valve, this is
+opened manually and closed electrically. Two valves are used for
+draining: - the overflow/fill/drain valve, this is manually operated, -
+the FWD drain valve, this is electrically operated. NOTE: On A318, A319
+and A321, if there is no electrical power both valves must be manually
+operated.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 104 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - POTABLE WATER SERVICING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 105 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM LINE MAINTENANCE (2) SERVICING (continued) TOILET
+SYSTEM SERVICING Connect the toilet service vehicle to the toilet
+service panel. Move the drain valve control-handle from the closed to
+the open position. Drain the waste from the toilet tank. Flush the waste
+tank with a maximum of 57 l (15.0576 USgal) of water with a maximum
+pressure of 3.45 bar (50.0380 psi) . NOTE: The time necessary for this
+flushing will be approximately 90 seconds. Drain the water from the
+tank. Fill the toilet tank with 10 l of disinfectant solution. Do not
+discharge products such as oil, fuel, solvent or lubricant in trash
+bins, soil or into the water network (drains, gutters, rain water, waste
+water, etc...) Sort waste fluids and use special waste disposal
+containers.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 106 of 112
+FOR TRAINING PURPOSES ONLY
+SERVICING - TOILET SYSTEM SERVICING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 107 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM LINE MAINTENANCE (2) MEL/DEACTIVATION If the drain
+mast is not heated, the aircraft can be dispatched provided that the
+associated galleys or toilets are not used (toilet door locked and
+placarded "Inoperative'') and their water shut off valves are closed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 108 of 112
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 109 of 112
+FOR TRAINING PURPOSES ONLY
+WATER/WASTE SYSTEM LINE MAINTENANCE (2) MAINTENANCE TIPS POTABLE WATER
+SYSTEM DRAINING IN COLD WEATHER CONDITIONS In cold weather conditions,
+the potable water system must be drained to prevent damage to the system
+by ice. To know if it is necessary to drain the potable water system,
+refer to the water system drain configuration table in the AMM 12-24-38.
+If the bleed air system is off and the external air temperature is below
+0 °C (32 °F), the drain valves must remain open after the potable water
+system is drained to prevent damage to the potable water system. The
+cold weather maintenance procedures for the potable water system are
+given in the AMM 12-31-38.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 110 of 112
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE TIPS - POTABLE WATER SYSTEM DRAINING IN COLD WEATHER
+CONDITIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 111 of 112
+FOR TRAINING PURPOSES ONLY
+Training Manual Airbus A318/319/ A320/A321 (CFM56 &amp; V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 112 of 112</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

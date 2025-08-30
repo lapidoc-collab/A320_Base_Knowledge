@@ -1,0 +1,2346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>49 APU - A320 Base Knowledge</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">A320 Base Knowledge</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../02%20AIRCRAFT%20INTRODUCTION/" class="nav-link">02 AIRCRAFT INTRODUCTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../05%20-20%20INTRODUCTION%20MODULE/" class="nav-link">05 -20 INTRODUCTION MODULE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../21%20AIR%20CONDITIONING/" class="nav-link">21 AIR CONDITIONING</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../22%20AUTO%20FLIGHT/" class="nav-link">22 AUTO FLIGHT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../23%20COMMUNICATIONS/" class="nav-link">23 COMMUNICATIONS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../24%20ELECTRICAL%20POWER/" class="nav-link">24 ELECTRICAL POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../25%20EQUIPMENT_FURNISHINGS/" class="nav-link">25 EQUIPMENT FURNISHINGS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../26%20FIRE%20PROTECTION/" class="nav-link">26 FIRE PROTECTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../27a%20E-RUDDER%20PROJECT/" class="nav-link">27a E-RUDDER PROJECT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../27%20FLIGHT%20CONTROLS/" class="nav-link">27 FLIGHT CONTROLS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../28%20FUEL%20%28Metric%20Units%29/" class="nav-link">28 FUEL (Metric Units)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../29%20HYDRAULIC%20POWER/" class="nav-link">29 HYDRAULIC POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../30%20ICE%20%26%20RAIN%20PROTECTION/" class="nav-link">30 ICE & RAIN PROTECTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20INDICATING%20%28Inc%20ATA%2045%20-%20CFDS%29/" class="nav-link">31 INDICATING (Inc ATA 45 - CFDS)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20RECORDING%20SYSTEMS/" class="nav-link">31 RECORDING SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../32%20LANDING%20GEAR/" class="nav-link">32 LANDING GEAR</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../33%20LIGHTS/" class="nav-link">33 LIGHTS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../34%20NAVIGATION/" class="nav-link">34 NAVIGATION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../35%20OXYGEN/" class="nav-link">35 OXYGEN</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../36%20PNEUMATIC/" class="nav-link">36 PNEUMATIC</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../38%20WATER%20%26%20WASTE/" class="nav-link">38 WATER & WASTE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../46%20INFORMATION%20SYSTEMS/" class="nav-link">46 INFORMATION SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../47%20INERT%20GAS%20SYSTEM/" class="nav-link">47 INERT GAS SYSTEM</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">49 APU</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../51-57%20STRUCTURE/" class="nav-link">51-57 STRUCTURE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../52%20DOORS/" class="nav-link">52 DOORS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28CFM%2056%29/" class="nav-link">70 POWER PLANT (CFM 56)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28IAE%20V2500%29/" class="nav-link">70 POWER PLANT (IAE V2500)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Airbus%20Abbreviations/" class="nav-link">Airbus Abbreviations</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../IAE%20V2500%20-%20Engine%20Manufacturers%20Notes/" class="nav-link">IAE V2500 - Engine Manufacturers Notes</a>
+                            </li>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">index</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../47%20INERT%20GAS%20SYSTEM/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../51-57%20STRUCTURE/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+        <ul class="nav flex-column">
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Airbus A318/A319/A320/A321 (CFM56 &amp; V2500) B1+B2 Technical Training
+Manual
+ATA 49 - APU Turbine Engines
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more. Contact us Tel: +44(0) 1565 653745 Email:
+admin@catts.org.uk Web: www.catts.org.uk Online Training:
+catts.learnupon.com/store
+ATA Chapters Required in this Training Manual TURBINE ENGINES ATA 49
+APU
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+Training Ma Manual Airbus A318/319/ A320/A321 (CFM56 &amp; V2500) ATA 49
+Turbine Engines; APU Level 3
+FOR TRAINING PURPOSES ONLY
+APU GENERAL APU System Component Location (2) . . . . . . . . . . . . .
+. . . . . . . . . . . . 2 APU System Control &amp; Indicating (2) . . . . .
+. . . . . . . . . . . . . . . . . . . 10 APU Installation Presentation
+(2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+HONEYWELL 131-9(A) APU Drain System Presentation (2) . . . . . . . . . .
+. . . . . . . . . . . . . . . . 14 APU Basic Description (3) . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . 16 APU Ignition &amp;
+Starting D/O (3) . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20 APU Fuel System D/O (3) . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . 22 APU Indication System (3) . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . 36 APU Oil System D/O (3) . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44 APU Air
+System D/O (3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . 60 APU System Management D/O (3) . . . . . . . . . . . . . . .
+. . . . . . . . . . . 70 ECB Interfaces (3) . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . 96
+APIC APU Drain System Presentation (2) . . . . . . . . . . . . . . . . .
+. . . . . . . . 100 APU Basic Description (3) . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . 102 APU Ignition &amp; Starting D/O
+(3) . . . . . . . . . . . . . . . . . . . . . . . . . . . 108 APU Fuel
+System D/O (3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . 110 APU Indication System (3) . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . 128 APU Oil System D/O (3) . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . 136 APU Air System D/O (3)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 150
+APU System Management D/O (3) . . . . . . . . . . . . . . . . . . . . .
+. . . . 158 ECB Interfaces (3) . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . 186 APU System Operation, Control &amp;
+Indicating (3) . . . . . . . . . . . . . . 190
+MAINTENANCE PRACTICE COMPT Access Doors Opening &amp; Closing (2) . . . . .
+. . . . . . . . . . . 192 APU System Line Maintenance (2) . . . . . . .
+. . . . . . . . . . . . . . . . . . 200
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 5 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW The Auxiliary Power
+Unit (APU) is a constant speed gas turbine engine. It is located in the
+unpressurized tail cone. The APU is a self-contained unit, which enables
+the aircraft to be independent of external pneumatic and electrical
+power sources. The constant-speed gas turbine engine drives the
+accessory gearbox and a load compressor. The APU provides: - electrical
+power for the aircraft systems, - bleed air for engine starting (MES),
+air conditioning (ECS) and wing anti ice testing on ground (not GTCP
+36-300), - bleed air for air conditioning and pressurization in flight
+until the specified manufacturer limit. The APU is designed to operate
+throughout the entire flight envelope. Electrical power is available
+whenever the APU operates, but bleed air is shut off above the specified
+manufacturer limit. The APU has an air intake flap. The intake flap is
+open when the APU master switch is selected ON and closes when the
+master switch is selected OFF. When open, it provides air to the APU
+inlet for combustion and pneumatic supply.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 6 of 206
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 7 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION The APU is
+installed in the tail section of the fuselage.
+ENGINE VIEW The left and right hand sides of the APIC 3200 APU are
+shown. The left and right hand sides of the Honeywell 131-9 [A] APU
+are shown.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 8 of 206
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - ENGINE VIEW
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 9 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION (continued)
+ELECTRONIC CONTROL BOX (ECB) The ECB is in the aft cargo compartment, RH
+side.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 10 of 206
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - ELECTRONIC CONTROL BOX (ECB)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 11 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION (continued) AIR
+INTAKE FLAP The APU has an air intake flap. The air intake flap opens
+when the APU MASTER SWitch is set to ON and it closes when the MASTER
+SWitch is set to OFF and the APU stops. When open, it supplies air to
+the APU inlet for combustion and pneumatic supply.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 12 of 206
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - AIR INTAKE FLAP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 13 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM CONTROL &amp; INDICATING (2) LOCATE CONTROL/INDICATING IN COCKPIT
+ECB POWERING / APU AVAILABLE APU LOW OIL QUANTITY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 14 of 206
+FOR TRAINING PURPOSES ONLY
+APU INSTALLATION PRESENTATION (2) GENERAL
+ACCESS DOORS
+The Auxiliary Power Unit (APU) is installed in a fireproof COMParTment
+(COMPT) located in the fuselage tail cone.
+Two access doors allow access to the APU COMPT. The access doors on the
+bottom of the tail cone open outwards to allow the APU to be inspected,
+lifted and lowered.
+MOUNTS Seven tie rods attach the APU to the structure brackets on the
+APU COMPT ceiling. These tie rods also connect to the APU three-point
+mounted suspension system. Vibration isolators are installed between the
+APU mount brackets and the tie rods to reduce the transmission of A/C
+vibrations and shocks to the APU. The isolators also prevent the
+transmission of vibrations from the APU to the A/C structure.
+DRAIN SYSTEM A drain system prevents the collection of fluids in the APU
+COMPT. Any fluid that may accumulate in the APU COMPT is delivered to a
+drain mast. Some of the fluids are collected in a drain tank in the APU
+COMPT, which is emptied through the drain mast when the A/C is above 200
+kt.
+AIR INTAKE FLAP The air intake system ducts ambient air to the APU
+plenum chamber. An air intake flap cuts off the air supply when the APU
+does not operate. In case of failure, the air intake flap can be opened
+or closed manually by a manual override device.
+AIR INTAKE DUCT The air intake duct, which is composed of a diffuser and
+elbow, provides correct airflow to the APU plenum. The air intake duct
+is attached to the right access door.
+EXHAUST The exhaust system lets the APU exhaust gas flow into the
+atmosphere and muffles the noise from the exhaust. The exhaust muffler
+thermal insulation protects the A/C structure.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 15 of 206
+FOR TRAINING PURPOSES ONLY
+GENERAL ... DRAIN SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 16 of 206
+FOR TRAINING PURPOSES ONLY
+APU DRAIN SYSTEM PRESENTATION (2) Apu Drain System
+TURBINE PLENUM DRAIN
+A drain system prevents the collection of fluids in the Auxiliary Power
+Unit (APU) system and compartment.
+A turbine plenum drain orifice is provided to drain fuel that may
+accumulate in the combustor following an unsuccessful light-up. The fuel
+is drained directly overboard through the drain mast.
+FUEL CONTROL UNIT/OIL PUMP SEAL DRAIN The fuel and oil pump seal drain
+line is routed via a collector line to the drain tank. This line drains
+fuel or oil leaks.
+INLET GUIDE VANE ACTUATOR DRAIN The Inlet Guide Vane (IGV) actuator
+drain line is routed via the collector line to the drain tank. This line
+drains only fuel leaks.
+GEARBOX VENT The oil reservoir has a connection to the ambient air
+through an air/oil separator. The gear driven air/oil separator is
+connected through a gearbox vent line to the APU exhaust cone.
+SURGE CONTROL VALVE DRAIN The surge control valve fuel is drained into
+the drain tank by the Fuel Control Unit (FCU)/IGV actuator common drain
+line.
+LOAD COMPRESSOR CAVITY DRAIN
+EXHAUST MUFFLER DRAIN The exhaust muffler drain line is routed to the
+drain mast. This drain line collects water or cleaning fluid.
+APU COMPARTMENT DRAIN Water coming from rain or condensate humidity,
+cleaning agents and any oil and fuel in the compartment, due to leaks or
+APU servicing, are drained to the lowest point of the APU door and
+through the drain mast overboard.
+DRAIN TANK For venting and evacuation, the drain tank is connected to
+the drain mast. Airflow across the drain mast creates a vacuum in the
+drain line. The suction effect produced at 200 kts, is sufficient to
+remove the contents of the drain tank. A vent line ventilates the drain
+tank and drain lines. The APU drain lines are connected to the right
+access door drain lines through spring adapter kiss seals.
+To prevent any ingestion of oil in the bleed system the load compressor
+bearing cavities are kept dry by buffering air into the main shaft
+seals. An oil leak witness drain is located aft of the seal to collect
+any oil leakage. The oil is drained directly overboard through the drain
+mast.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 17 of 206
+FOR TRAINING PURPOSES ONLY
+APU DRAIN SYSTEM ... DRAIN TANK
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 18 of 206
+FOR TRAINING PURPOSES ONLY
+APU BASIC DESCRIPTION (3) - a dual alloy second stage rotor, - an
+annular exhaust diffuser.
+GENERAL The Auxiliary Power Unit (APU) is of a modular design. The three
+APU modules are: - the power section, - the load compressor, - the
+accessory drive gearbox.
+ENGINE COMPRESSOR The compressor is of a single stage centrifugal
+compressor design. The main components of the compressor are: - a single
+stage centrifugal impeller, - single stage diffuser vanes, - axial
+de-swirl vanes.
+COMBUSTION CHAMBER The combustion chamber is of a reverse flow annular
+design and is installed inside the turbine plenum. The main parts of the
+combustion chamber are: - the inner combustion chamber shell, - the
+outer combustion chamber shell. The following components are installed
+on the combustion chamber: - an igniter plug, - 10 dual orifice fuel
+nozzles.
+TURBINE
+The load compressor is of a single-stage centrifugal design. It supplies
+bleed air to the pneumatic system. The primary components of the load
+compressor are: - the inlet guide vane assembly, - the load compressor
+impeller, - the load compressor diffuser, - the load compressor scroll.
+The shaft is held with two bearings: one duplex ball bearing in front of
+the load compressor impellor and one roller bearing aft of the
+second-stage turbine. As an option, the duplex ball bearing is made of
+ceramic to make the bearing more resistant to damage caused by debris
+that go into the bearing compartment.
+INLET GUIDE VANES The Inlet Guide Vanes (IGVs) control the amount of
+bleed air flow and pressure from the APU load compressor. The 16 IGVs
+are moved simultaneously by a gear train operated by an actuator. The
+IGV actuator is operated by high-pressure fuel supplied from the Fuel
+Control Unit (FCU). The IGV opening angle depends on the bleed air
+demand for: - Main Engine Start (MES) system, - Environmental Control
+System (ECS).
+ACCESSORY GEARBOX
+The turbine assembly drives the engine compressor, the load compressor
+and the gear train of the Accessory Gearbox (AGB). The two-stage axial
+flow turbine includes: - a cooled first stage nozzle, - inserted first
+stage rotor blades, - an un cooled second stage stator,
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+LOAD COMPRESSOR
+The gearbox transmits the shaft power to the APU accessories and to the
+APU generator, which are installed on the gearbox pads. The gearbox is
+also the oil reservoir for the APU lubrication system. The components
+mounted on the accessory gearbox are: - the starter motor assembly,
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 19 of 206
+FOR TRAINING PURPOSES ONLY
+-   the cooling air fan assembly,
+-   the lubrication unit with the oil pump assembly which drives the
+    FCU,
+-   the AC generator.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 20 of 206
+FOR TRAINING PURPOSES ONLY
+GENERAL ... ACCESSORY GEARBOX
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 21 of 206
+FOR TRAINING PURPOSES ONLY
+APU IGNITION &amp; STARTING D/O (3) STARTER CONTROL During starting, the
+electrical starter causes initial rotation of the Auxiliary Power Unit
+(APU) shaft when it drives the Accessory Gearbox (AGB). When the APU
+speed is around 50%, the Electronic Control Box (ECB) stops the
+electrical supply to the starter by opening the main start contactor.
+The main start contactor 5KA and the backup start contactor 10KA are
+heavy duty contactors that switch electrical current to the starter
+motor. During Ram Air Turbine (RAT) extension, APU starting is inhibited
+by the Battery Charge Limiters (BCL 1 and BCL 2), which prevent
+operation of the main start contactor 5 KA by removing the necessary
+ground signal, to operate the Main Start Contactor, from the MASTER SW.
+IGNITION CONTROL The ignition system causes initial light-off of the
+fuel air mixture. The ignition system includes an ignition box that
+energizes an igniter plug. During starting, the ECB switches the
+ignition to ON between 0% and 60%. When the APU speed drops below 95%
+due to a flame-out, the ECB starts the ignition until the APU reaches
+again 100% of speed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 22 of 206
+FOR TRAINING PURPOSES ONLY
+STARTER CONTROL &amp; IGNITION CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 23 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) GENERAL The fuel system supplies metered fuel to
+sustain combustion. Part of the fuel, as muscle pressure, operates the
+Inlet Guide Vane (IGV) actuator and the surge control valve actuator.
+This system is made of: - Fuel Control Unit (FCU), - fuel schedule, -
+muscle pressure, - fuel shut-off, - flow divider and solenoid valve, -
+fuel supply, - fuel drain, - control, - monitoring.
+CONTROL The ECB controls the fuel system with several parameters. During
+on-speed operation, the ECB uses APU speed, Exhaust Gas Temperature
+(EGT) and aircraft demand signals. During start, it uses speed, EGT, air
+inlet pressure and temperature sensors (P2 and T2). The ECB operates the
+fuel metering valve, the flow divider solenoid valve and the 3-way
+shut-off solenoid valve.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 24 of 206
+FOR TRAINING PURPOSES ONLY
+GENERAL - CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 25 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) FUEL CONTROL UNIT The FCU has six functions: -
+fuel filtering, - pressure increase, - fuel metering, - flow meter
+control, - positive fuel shut-off, - fuel muscle pressure regulation.
+The FCU is made of a LP inlet fuel filter, a High Pressure (HP) fuel
+pump, a pump relief valve, a HP fuel filter, an actuator pressure
+regulator for hydraulic fuel operation, a torque-motor metering valve, a
+resistance temperature device, a delta pressure regulator, a flow-meter
+pressurizing valve, a fuel-shutoff solenoid valve. Fuel filter
+replacement is recommended every 8500 Flight Hours.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 26 of 206
+FOR TRAINING PURPOSES ONLY
+FUEL CONTROL UNIT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 27 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) MUSCLE PRESSURE Additionally fuel muscle
+pressure 250 psig operates the surge control valve actuator for air
+release to the exhaust and the load-compressor IGV actuator. Servo fuel
+return goes back to the pump inlet. From the Actuator Pressure Regulator
+fuel flow continues to the Metering Module and in parallel to the inlet
+of the Differential Pressure Regulation Valve
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 28 of 206
+FOR TRAINING PURPOSES ONLY
+MUSCLE PRESSURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 29 of 206
+FOR TRAINING PURPOSES ONLY
+MUSCLE PRESSURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 30 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) FUEL SCHEDULE The Electronic Control Box (ECB)
+controls the fuel-metering valve through a torque motor. The ECB: -
+schedules fuel flow during start sequence, on-speed operation and
+shutdown sequence, - refers to information on the flowmeter pressurizing
+valve to correct fuel flow and in relation to the fuel temperature
+(resistance-temperature device signal), - modulates the on-speed fuel
+schedule to agree with the aircraft demand for bleed air and electrical
+power.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 31 of 206
+FOR TRAINING PURPOSES ONLY
+FUEL SCHEDULE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 32 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) FUEL SHUT-OFF The ECB controls the fuel 3-way
+solenoid valve for positive fuel shut-off. The valve is controlled open
+during the start sequence and closed during the stop sequence. Fuel goes
+back to the pump inlet.
+FLOW DIVIDER AND SOLENOID VALVE The flow divider supplies fuel in
+sequence to the primary and secondary manifolds. It has a usually open
+fuel solenoid and a check valve. During cold start or high altitude
+operation, the ECB energizes the solenoid valve to close during the
+first 30% speed of the Auxiliary Power Unit (APU) and all fuel flow is
+pushed through the primary nozzles for better engine acceleration.
+FUEL SUPPLY Two fuel manifolds and 10 dual fuel-nozzles supply fuel.
+Each fuel-nozzle has a primary and a secondary fuel orifice. When APU
+start is selected, the primary fuel orifice is supplied and when the
+fuel pressure is more than 125 psig the check valve in the flow divider
+assembly opens to supply the secondary fuel orifice. During on-speed
+operation, the two orifices are supplied.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 33 of 206
+FOR TRAINING PURPOSES ONLY
+FUEL SHUT-OFF ... FUEL SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 34 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) APU SHUTDOWN The 3-Way Shutoff Solenoid Valve is
+brought to the closed position and the fuel is now given back to the
+pump inlet. The fuel is trapped in the line to the Primary and Secondary
+Nozzles. The 2 fuel manifolds are still filled up with remaining fuel.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 35 of 206
+FOR TRAINING PURPOSES ONLY
+APU SHUTDOWN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 36 of 206
+FOR TRAINING PURPOSES ONLY
+APU INDICATION SYSTEM (3) TEMPERATURE INDICATING EGT THERMOCOUPLE The
+Exhaust Gas Temperature (EGT) thermocouples are in the APU exhaust. The
+EGT thermocouple is a chromel-alumel device which has two probes of
+different lengths. The EGT thermocouples supply a voltage in proportion
+to the EGT. This voltage is supplied through a shielded cable to the ECB
+59KD.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 37 of 206
+FOR TRAINING PURPOSES ONLY
+TEMPERATURE INDICATING - EGT THERMOCOUPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 38 of 206
+FOR TRAINING PURPOSES ONLY
+APU INDICATION SYSTEM (3) TEMPERATURE INDICATING (continued) TEMPERATURE
+MONITORING Each thermocouple does the conversion of the thermal energy
+of the APU exhaust gas stream into an electrical voltage. This voltage
+increases in proportion to the EGT. The ECB receives the signals of the
+two thermocouple rakes and makes an evaluation of the average
+temperature value that will be used for processing and indication. If
+there is a difference of 65°C (150 deg.F) between the two signals and an
+APU speed is above 95% of N1, the ECB uses the highest value.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 39 of 206
+FOR TRAINING PURPOSES ONLY
+TEMPERATURE INDICATING - TEMPERATURE MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 40 of 206
+FOR TRAINING PURPOSES ONLY
+APU INDICATION SYSTEM (3) POWER INDICATING SPEED SENSOR One speed sensor
+in installed at the bottom-right side of the gearbox. The speed sensor
+includes: - a magnetically soft-pole piece, - a permanent magnet, - two
+coils. The movement of gear-like teeth on the compressor-turbine shaft
+induces an AC current in the two coils of the speed sensor. The
+frequency of this current is in proportion to the speed at which the APU
+turns.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 41 of 206
+FOR TRAINING PURPOSES ONLY
+POWER INDICATING - SPEED SENSOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 42 of 206
+FOR TRAINING PURPOSES ONLY
+APU INDICATION SYSTEM (3) POWER INDICATING (continued) POWER MONITORING
+The two frequency signals, which are related to the speed at which the
+APU turns, are transmitted to the ECB. By comparison, the ECB makes an
+evaluation of the highest speed signal. The signal is also transmitted
+through an ARINC 429 bus to EIS. The APU SYSTEM page on the lower ECAM
+display unit shows the APU speed in percent.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 43 of 206
+FOR TRAINING PURPOSES ONLY
+POWER INDICATING - POWER MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 44 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) - or the A/C altitude is above 10,000 ft
+(P2\&lt;10,1 psia), - or the APU fuel temperature is below -12.2°C (+10°F).
+The valve is energized open during every APU shutdown between 50% and 7%
+speed.
+GENERAL The oil system of the Auxiliary Power Unit (APU) lubricates and
+decreases the temperature of the power section, load compressor, gearbox
+and AC generator. This system is made of: - storage, - supply, -
+scavenge, - venting, - control, - protection, - monitoring.
+PROTECTION The ECB gives protection to the APU if there is an oil system
+malfunction. The ECB monitors oil pressure and oil temperature. If one
+of the oil parameters is out of limit, the ECB starts an automatic APU
+shutdown without time delay: - gearbox high oil temp threshold: 162.78°C
+(325°F), - oil low pressure: 33 psi. The ECB also stops the APU if a
+delta pressure switch at the scavenge filter or at the lubrication
+filter shows impending filter clogging.
+STORAGE
+MONITORING
+The sump of the APU Accessory Gearbox (AGB) is the oil reservoir. The
+AGB sump contains 6.26 l (1.65 US gal) of oil. The oil reservoir can be
+filled by gravity or by pressure. The AGB has: - an oil fill cap for
+gravity filling, - optional pressure oil servicing with a pressure fill
+and overfill port, - an oil-level sight glass with FULL and ADD marks, -
+a magnetic chip detector and oil drain plug installed at the lowest
+point of the AGB, - an oil heater.
+The oil system is monitored to increase the APU life. The oil sump is
+installed with a low-level switch to show maintenance information in the
+cockpit. When the level is at the "ADD" mark 4.60 l (1.22 US gal), the
+APU can continue to operate for 10 hours maximun. This changes with the
+different operating attitudes of the A/C in flight. A magnetic drain
+plug, put fully in the APU oil, lets the oil drain from the sump and
+attracts ferrous metal particles.
+CONTROL The Electronic Control Box (ECB) only controls the de-oiling
+valve in the oil system. The de-oiling solenoid valve is electrically
+opened during APU start to make sure of cold start conditions and to
+decrease the load on the pressure pump. The solenoid valve is open
+during start-up to 60% RPM when: - the oil sump temperature is below
+-6.7°C (+20°F),
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+OIL HEATER (OPTION) The control of the oil heater is independent of the
+ECB. When the oil temperature is below 16 °C (61 °F) and the APU master
+switch is released out, the heater is supplied with 115VAC. The oil
+heater is switched off when the oil temperature increases above 49°C
+(120 °F) or the master switch is selected ON. The oil heater is an
+option.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 45 of 206
+FOR TRAINING PURPOSES ONLY
+GENERAL &amp; OIL HEATER (OPTION)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 46 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) SUPPLY A three-element gerotor pressure pump
+pulls the oil from the sump. A pressure-regulating valve and
+ultimate-relief valve assembly keeps a constant lube supply pressure for
+oil supply to the engine and generator and prevents over-pressurization
+of the lube system. Pressure-regulated oil goes through a cooler and a
+disposable filter. The bypass valve opens at an oil temperature below
+60°C (140 °F) or when there is a differential pressure between 55 - 60
+psi around the oil cooler. The oil is then sent to the cooling fan
+splines, the APU spline shaft, the APU supporting bearings rear and
+front, the gearbox pinions and the electrical AC generator.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 47 of 206
+FOR TRAINING PURPOSES ONLY
+SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 48 of 206
+FOR TRAINING PURPOSES ONLY
+SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 49 of 206
+FOR TRAINING PURPOSES ONLY
+SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 50 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) SCAVENGE The scavenged oil from the turbine sump
+is returned to the oil reservoir with one scavenge pump. The oil which
+lubricates the gears, the starter clutch and bearings of the gearbox, is
+returned to the reservoir by gravity. The scavenged oil from the
+generator sump is returned to the oil reservoir with one scavenge pump.
+The generator scavenge oil is filtered from the generator scavenge
+oil-filter and then supplied to the oil reservoir. This makes sure that
+no contaminated oil returns from the generator to the oil reservoir.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 51 of 206
+FOR TRAINING PURPOSES ONLY
+SCAVENGE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 52 of 206
+FOR TRAINING PURPOSES ONLY
+SCAVENGE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 53 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) VENTING The oil from the generator is sent
+against the gearbox wall; this removes the air, that is mixed with the
+oil. An air/oil separator removes the oil particles from the gearbox
+air. This oil-free air is released in the APU exhaust.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 54 of 206
+FOR TRAINING PURPOSES ONLY
+VENTING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 55 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) DE-OILING SOLENOID The only component of the oil
+system controlled by the Electronic Control Box (ECB) is the de-oiling
+valve.
+DURING COLD START During the cold start condition; the oil has a high
+viscosity. The de-oiling solenoid valve reduces the oil pressure pump
+load during the APU start by allowing air to enter the inlet of the oil
+supply pump. The solenoid valve is open during start up to 60% rpm when
+the oil sump temperature is below -6.7 deg.C (+19.94 deg.F) or the
+aircraft altitude is more than 20,000 ft or the fuel temperature is
+below -12.2 deg.C (+10.04 deg.F).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 56 of 206
+FOR TRAINING PURPOSES ONLY
+DE-OILING SOLENOID - DURING COLD START
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 57 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) DE-OILING SOLENOID (continued) DURING SHUT DOWN
+During the APU shutdown, the de-oiling solenoid valve prevents the
+coking of the oil remaining in the bearing chambers. Therefore the ECB
+opens the de-oiling solenoid valve during shut down between 55% - 7%.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 58 of 206
+FOR TRAINING PURPOSES ONLY
+DE-OILING SOLENOID - DURING SHUT DOWN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 59 of 206
+FOR TRAINING PURPOSES ONLY
+APU AIR SYSTEM D/O (3) GENERAL The Auxiliary Power Unit (APU) load
+compressor supplies the APU bleed air. The quantity changes with the
+different bleed air demands of the pneumatic system. This system
+includes: - bleed supply, - bleed control, - surge protection, - oil
+cooling, - compartment cooling, - oil vent, - control, - monitoring.
+BLEED SUPPLY Bleed air supply to the A/C pneumatic system is controlled
+by a load control valve. The pneumatically-actuated CLOSE/OPEN butterfly
+valve, which allows or stops the bleed airflow from the APU to the A/C
+users, is controlled by the Electronic Control Box (ECB) and opens when
+the APU BLEED P/BSW is set to the ON position. The "APU BLEED" P/B sends
+"ON" signal to the ECB via the Bleed Monitoring Computer (BMC).
+BLEED CONTROL The quantity of air necessary to the aircraft bleed users
+is controlled by the opening angle of the load compressor Inlet Guide
+Vanes (IGVs). The IGVs are moved by a fuel-powered actuator
+(IGC-Actuator). Pressurized fuel is supplied by the internal pressure
+regulator part of the APU Fuel Control Unit.
+SURGE PROTECTION
+is hydraulically operated for accurate and fast operation. The hydraulic
+fluid is high pressure fuel from the Fuel Control Unit (FCU) with
+approximately 250 psig.
+OIL COOLING A gearbox-driven fan draws air from the inlet plenum and
+forces it to pass through the oil cooler. After leaving the oil cooler,
+the air is discharged overboard.
+COMPARTMENT COOLING Air supplied by the fan, driven by one of the gears
+of the gearbox, is also used for APU compartment cooling. Cooling air
+flows through the outlets located on the cooling fan outlet duct.
+Natural convection ventilates the APU compartment through a vent grill
+in the upper left area of the compartment when the APU is not in
+operation.
+OIL VENT The gearbox is vented to the APU exhaust. The air is bled after
+an air/oil separator action.
+CONTROL The ECB controls the air system using several parameters from
+the following components installed on the APU: - APU inlet pressure (P2)
+and temperature (T2) sensors, - load compressor discharge pressure
+sensor (PT) and differential pressure sensor (DP), - command and
+feedback signals from the actuators and the valves (IGV actuator, Load
+Control Valve and Surge Control Valve), - A/C demands: Main Engine Start
+(MES) and Environmental Control System (ECS).
+Load compressor surge protection is ensured by a surge control valve,
+which discharges the excess of air in the exhaust. The surge control
+valve
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 60 of 206
+FOR TRAINING PURPOSES ONLY
+MONITORING To help maintenance and troubleshooting, the load control
+valve and the surge control valve are equipped with visual position
+indicators. The ECB receives feed back signals about the position of the
+IGVs, the load control valve and the surge control valve.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 61 of 206
+FOR TRAINING PURPOSES ONLY
+GENERAL ... MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 62 of 206
+FOR TRAINING PURPOSES ONLY
+APU AIR SYSTEM D/O (3) APU RUNNING AT 99% BLEED PUSH BUTTON ON After the
+APU Bleed P/B is pushed, the blue ON light in the P/B comes on and a
+signal is sent to the two BMCs and to the ECB to open the Load Control
+Valve (LCV). The LCV Solenoid will be energized to let the LCV open and
+to let bleed air flow into the supply duct of the Aircraft pneumatic
+system. To make sure a pressure build-up occurs in the Aircraft Bleed
+supply duct, the ECB commands the Surge Control Valve (SCV) to the
+closed position and then to modulate to prevent surge conditions. The
+LCV (through a micro-switch) and the SCV (with an LVDT) send valve
+position feed back to the ECB.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 63 of 206
+FOR TRAINING PURPOSES ONLY
+APU RUNNING AT 99% - BLEED PUSH BUTTON ON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 64 of 206
+FOR TRAINING PURPOSES ONLY
+APU AIR SYSTEM D/O (3) APU RUNNING AT 99% (continued) BLEED AND PACK P/B
+PRESSED The ECB receives a demand signal from the ECS Control Computer
+after the Pack P/B on the Cockpit overhead panel is pushed in. The ECB,
+due to this input signal, sends a retract command signal to the
+IGV-Actuator to drive the Inlet Guide Vanes into a more open position.
+This will let more air from the APU Inlet Plenum go through the IGVs
+into the Load Compressor Housing. To make sure the necessary bleed air
+mass flows from the APU to the ECS, the ECB commands the SCV to the
+fully closed position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 65 of 206
+FOR TRAINING PURPOSES ONLY
+APU RUNNING AT 99% - BLEED AND PACK P/B PRESSED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 66 of 206
+FOR TRAINING PURPOSES ONLY
+APU AIR SYSTEM D/O (3) APU RUNNING AT 100% After the Engine Master
+Switch is moved to the ON position, the ECB receives a Main Engine Start
+(MES) boost signal to increase the bleed pressure for engine start. The
+ECB commands the IGV Actuator to the maximum retracted position to drive
+the IGVs to the fully open position. The SCV receives the command signal
+from the ECB to modulate and discharge a certain mass of air into the
+APU exhaust. When the engine start is completed, the MES signal is no
+longer valid and the ECB commands the IGV actuator and the SCV to the
+required position for bleed supply to the ECS.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 67 of 206
+FOR TRAINING PURPOSES ONLY
+APU RUNNING AT 100%
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 68 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU START SEQUENCE Auxiliary Power Unit
+(APU) normal operation, starting and shutdown, are initiated from the
+APU control panel but controlled and monitored by the ECB. Following
+conditions will be controlled and monitored: - APU start, - APU
+on-speed, - APU normal shutdown, - APU protective shutdown, - APU
+emergency shutdown. When the MASTER SWitch P/B is set to ON: - the ON
+light comes on, - the Electronic Control Box (ECB) is energized, - the
+ECB starts the power-up test, - the ECB exchanges data with the Data
+Memory Module, - the APU LP valve opens, - the APU fuel pump is
+energized if fuel system pressure is low, - the APU air intake flap
+opens, - the ECAM APU page comes into view. When the START P/B is set to
+ON: - the ON legend comes on, - the ECB energizes the back-up start
+contactor and the start contactor when these conditions are present: air
+intake flap open, power-up test complete, data exchange between data
+memory module and ECB complete, - the contactors energize the starter
+motor and causes the APU main shaft to start to turn, - the igniter is
+energized, - the de-oil valve opens with the oil/fuel temperature and
+altitude.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 69 of 206
+FOR TRAINING PURPOSES ONLY
+APU START SEQUENCE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 70 of 206
+FOR TRAINING PURPOSES ONLY
+APU START SEQUENCE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 71 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU ACCELERATION SEQUENCE APU AT 7% RPM At
+7% speed: - the ECB opens the fuel solenoid valve and combustion
+occurs, - the Inlet Guide Vanes (IGVs) close.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 72 of 206
+FOR TRAINING PURPOSES ONLY
+APU ACCELERATION SEQUENCE - APU AT 7% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 73 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU ACCELERATION SEQUENCE (continued) APU
+AT 50% RPM At 50% speed: - the ECB de-energizes the start contactor,
+above 20,000 ft at 58%, and causes the starter motor to stop and
+continues to increase the speed of the APU automatically, - the ECB
+de-energizes the back-up start contactor.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 74 of 206
+FOR TRAINING PURPOSES ONLY
+APU ACCELERATION SEQUENCE - APU AT 50% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 75 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU ACCELERATION SEQUENCE (continued) APU
+AT 60% RPM At 60% speed: - the ECB de-energizes the ignition unit, - the
+ECB de-energizes the de-oil solenoid, if it is open.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 76 of 206
+FOR TRAINING PURPOSES ONLY
+APU ACCELERATION SEQUENCE - APU AT 60% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 77 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU ACCELERATION SEQUENCE (continued) APU
+AT 95% RPM At 95% speed: - the IGVs move to 22 degrees' open position to
+prevent overheating, - the ECB controls and monitors the APU
+automatically, - the ON light in the START P/BSW goes off, - the green
+AVAIL legend in the START P/BSW comes on, - the APU generator can
+operate and APU bleed be switched to ON.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 78 of 206
+FOR TRAINING PURPOSES ONLY
+APU ACCELERATION SEQUENCE - APU AT 95% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 79 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU ACCELERATION SEQUENCE (continued) APU
+AT 100% RPM At steady state speed, an on-speed governor loop controls
+the fuel flow to the APU. The ECB stabilizes the APU speed at 100%.
+However, if the APU supplies the air conditioning system on a normal day
+and while the aircraft is on the ground the speed is reduced to 99% for
+fuel saving reasons.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 80 of 206
+FOR TRAINING PURPOSES ONLY
+APU ACCELERATION SEQUENCE - APU AT 100% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 81 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU ON-SPEED When the APU generator
+operates, the generator output parameters come into view on the ECAM
+system page. When the APU bleed is switched to ON, bleed parameters are
+displayed on the ECAM system page. The ECB opens the Load Control Valve
+in accordance to the Bleed Monitoring Computer (BMC) signal coming from
+the APU Bleed P/B.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 82 of 206
+FOR TRAINING PURPOSES ONLY
+APU ON-SPEED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 83 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU NORMAL SHUTDOWN When the MASTER SW is
+OFF, the ECB closes the IGVs to the minimum position of 15°, the load
+control valve closes if it is open, the surge control valve opens and
+the cool-down cycle of the APU starts. The cool-down cycle lets the APU
+operate for 60 seconds at a low stabilized temperature. It starts when
+the ECB receives the closed signal from the load control valve. If the
+load control valve was not in the open position, the APU shuts down
+immediately. During every normal shutdown the ECB tests its overspeed
+protection circuit by simulating an overspeed condition, which causes
+the 3-way shut-off solenoid in the Fuel Control Unit to close, and
+thereby starts the APU roll-down. It is possible to command an APU
+re-start during the shutdown sequence. APU speed must be below 7% before
+the starter motor is re-engaged.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 84 of 206
+FOR TRAINING PURPOSES ONLY
+APU NORMAL SHUTDOWN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 85 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU NORMAL SHUTDOWN (continued) APU AT 95%
+RPM At 95% speed, APU "AVAIL" lights go off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 86 of 206
+FOR TRAINING PURPOSES ONLY
+APU NORMAL SHUTDOWN - APU AT 95% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 87 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU NORMAL SHUTDOWN (continued) APU AT 50%
+RPM At 50% speed, the de-oil solenoid valve opens to decrease drag
+during the next start.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 88 of 206
+FOR TRAINING PURPOSES ONLY
+APU NORMAL SHUTDOWN - APU AT 50% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 89 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU NORMAL SHUTDOWN (continued) APU BELOW
+7% RPM At and below 7% speed: - the de-oil solenoid closes, - the APU
+fuel LP valve closes, - the data memory module is updated, - the air
+intake closes. The ECB de-energizes itself when the air intake has
+reached the fully closed position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 90 of 206
+FOR TRAINING PURPOSES ONLY
+APU NORMAL SHUTDOWN - APU BELOW 7% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 91 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) APU PROTECTIVE SHUTDOWN When the ECB is
+energized, it controls the APU starting and operating phases. If an
+abnormal parameter is found, it starts an immediate shutdown without
+time delay, even if the APU bleed air is in use. The ECB protective
+shutdown parameters are: - overspeed, - ECB failure, - underspeed, -
+overtemperature, - loss of speed, - sensor failure: thermocouples, low
+oil level and Low Oil Pressure (LOP) switch failure, - no flame, - flap
+not open, - High Oil Temperature (HOT), - LOP, - no speed, - inlet
+overheat, - no acceleration, - clogged oil filter, - main power stop.
+APU EMERGENCY SHUTDOWN The ECB starts an emergency shutdown when the APU
+FIRE P/B, in the cockpit, is released out or when the APU SHUT OFF P/B,
+on the external power receptacle panel, is pushed. The ECB starts an
+automatic emergency shutdown when an APU fire is found on ground. The
+APU stops immediately without time delay, even if the APU bleed air
+system is in use.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 92 of 206
+FOR TRAINING PURPOSES ONLY
+APU PROTECTIVE SHUTDOWN &amp; APU EMERGENCY SHUTDOWN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 93 of 206
+FOR TRAINING PURPOSES ONLY
+ECB INTERFACES (3) POWER SUPPLY
+LGCIU 1
+One of the A/C batteries at the minimum and the A/C DC network,
+electrically supply the Electronic Control Box (ECB), through the MAIN
+control relay of the Auxiliary Power Unit (APU).
+The ECB receives the aircraft on ground discrete input signal from
+Landing Gear Control and Interface Unit (LGCIU) 1.
+MASTER SWITCH P/B The APU MASTER SWITCH sends a discrete supply or stop
+signal to the ECB. The ECB sends a discrete signal to the FAULT light,
+when an automatic shutdown occurs or if there is an emergency shutdown.
+APU FUEL FEED SYSTEM The ECB receives a discrete signal from the APU low
+fuel pressure switch. It sends a discrete signal to the APU fuel LP
+shut-off valve.
+EIU
+The ECB receives an air intake flap open or closed position signal and
+sends a power output to open or close the air intake flap.
+During engine starts, the ECB receives a Main Engine Start (MES) signal
+from Engine Interface Unit (EIU) 1 or 2. This signal causes the ECB to
+set the Inlet Guide Vanes (IGVs) to the fully open position if APU bleed
+has been selected to ON.
+START P/B
+BMC
+A discrete input signal from the START P/B starts the starting
+sequences. The ECB sends a discrete signal to the ON light during the
+APU start sequence. A discrete output signal to the A/C energizes the
+AVAIL light in the START P/B when the APU speed is above 95%.
+When the APU BLEED P/B is set to ON, Bleed Monitoring Computer (BMC) 1
+or 2 sends a discrete input to the ECB. This controls the APU load
+control valve to open. The BMCs receive a closed-position signal from
+the APU load control valve to monitor the pneumatic system and to show
+ECAM indications.
+AIR INTAKE FLAP
+BACK-UP AND MAIN START CONTACTORS The ECB receives a discrete input from
+the main start contactor and sends discrete outputs to the back-up and
+main start contactors.
+EMERGENCY STOP A discrete input signal from the A/C starts the APU
+emergency shutdown logic after the ECB receives this signal.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+TSO/JAR The ECB receives a discrete input from the TSO/JAR
+configuration-programming pin. This open or ground signal finds if the
+ECB obeys the Technical Standard Order (TSO) or the Joint Aviation
+Requirements (JAR). Concerning the JAR, all System Display (S/D)
+circuits are available in flight. This configuration is the standard
+configuration. For TSO, only emergency, overspeed and loss of speed
+shutdowns, are available in flight.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 94 of 206
+FOR TRAINING PURPOSES ONLY
+ENVIRONMENTAL CONTROL SYSTEM (ECS) The ECB receives, via an ARINC 429
+bus, an input from the Air Conditioning System Controller 1 and 2 (ACSC)
+to control the IGVs position according to the demand. The ECB sends a
+discrete output to the ACSC 1 and 2 to signal that the APU bleed valve
+is en delivery position.
+-   APU operating hours and starts,
+-   APU accumulated hot time,
+-   APU accumulated shutdowns, etc.
+A320/A321 IDENTIFICATION The ECB receives a discrete input from the A/C
+signature PIN PROGramming. This identification pin lets the ECB identify
+A321 applications for functional differences from those of an A320.
+SDAC The ECB sends to System Data Acquisition Concentrators (SDACs) 1
+and 2, through ARINC 429 Data buses, the indications to show on the ECAM
+APU page and shutdown information to start the related warnings.
+CFDS The ECB is a BITE system type-1 computer and connects to the
+Centralized Fault Display System (CFDS) through ARINC 429 data buses.
+DMU PART The Data Management Unit (DMU) part of the Flight Data
+Interface and Management Unit (FDIMU) partially keeps APU lifetime data.
+This information lets you monitor the engine conditions.
+DATA MEMORY MODULE A data memory module installed on the APU inlet
+plenum keeps and interchanges many parameters with the ECB: - APU serial
+number,
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 95 of 206
+FOR TRAINING PURPOSES ONLY
+POWER SUPPLY ... DATA MEMORY MODULE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 96 of 206
+FOR TRAINING PURPOSES ONLY
+APU DRAIN SYSTEM PRESENTATION (2) APU DRAIN SYSTEM
+EXHAUST MUFFLER DRAIN
+A drain system prevents the collection of fluids in the Auxiliary Power
+Unit (APU) system and compartment.
+The exhaust muffler drain line is routed to the drain mast. This drain
+line collects fuel, water or air leaks.
+FCU / OIL PUMP SEAL DRAIN
+COMBUSTOR HOUSING DRAIN
+The Fuel Control Unit (FCU) / oil pump seal drain line is routed via a
+collector line to the drain tank. This line drains fuel or oil leaks.
+The combustion housing drain line is routed to the drain mast. This
+drain line collects unburned fuel from the combustion chamber that may
+be accumulated in the combustor following an unsuccessful light-up.
+BLEED CONTROL VALVE ACTUATOR SEAL DRAIN The bleed control valve actuator
+seal drain line is routed via a collector line to the drain tank. This
+line drains fuel leaks only.
+INLET GUIDE VANE ACTUATOR SEAL DRAIN The Inlet Guide Vane (IGV) actuator
+drain line is routed via a collector line to the drain tank. This line
+drains fuel leaks only.
+DRAIN TANK For venting and evacuation the drain tank is connected to the
+drain mast. Airflow across the drain mast creates a vacuum in the drain
+line. The suction effect produced at 200 kts, is sufficient to remove
+the contents of the drain tank. A vent line ventilates the drain tank
+and drain lines. The APU drain lines are connected to the right access
+door drain lines through spring adapter kiss seals.
+FRONT BEARING SEAL DRAIN Any oil leak from the front bearing seal flows
+to the A/C drain mast.
+START FUEL MANIFOLD PURGE The fuel, which remains in the pilot injectors
+and manifold, is purged to the APU exhaust.
+AIR BYPASS PLENUM DRAIN The air bypass plenum drain line is routed to
+the drain mast. This drain line collects fuel, water or air leaks.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 97 of 206
+FOR TRAINING PURPOSES ONLY
+APU DRAIN SYSTEM ... DRAIN TANK
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 98 of 206
+FOR TRAINING PURPOSES ONLY
+APU BASIC DESCRIPTION (3) GENERAL The Auxiliary Power Unit (APU) is
+installed in the fuselage tail cone. Tie rods attach the unit by a
+three-point mounted suspension system to the structure brackets on the
+compartment ceiling in a fireproof compartment. A pair of access doors
+on the bottom of the tail cone opens outwards to let the APU be lifted
+and lowered.
+AIR INTAKE SYSTEM The air intake system ducts ambient air to the APU
+inlet plenum. The air intake system includes: - a fixed diverter that
+increases ram air recovery for flight operation and also prevents any
+fluids, flowing along the fuselage, from entering the air intake, - an
+air intake with inlet flap, - an air inlet duct.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 99 of 206
+FOR TRAINING PURPOSES ONLY
+GENERAL &amp; AIR INTAKE SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 100 of 206
+FOR TRAINING PURPOSES ONLY
+APU BASIC DESCRIPTION (3) ENGINE CONTROLS
+OIL SYSTEM
+The Electronic Control Box (ECB) controls and monitors the APU
+operation. It is a Full Authority Digital Engine Control (FADEC) type
+computer. The ECB has the following functions: - control of the APU
+start sequence, - monitoring of the APU speed, exhaust gas temperature
+and bleed air supply, - normal stop sequence and automatic or emergency
+shutdown, - failure indication for trouble shooting.
+A wet sump lubrication system cools and lubricates the electrical
+generator, the accessory gearbox and the APU bearings. The system
+components are all located on the gearbox except the oil cooler that is
+located on the APU left hand side.
+ENGINE The APU is a single spool engine based on a modular design
+including a power section, driving a single stage centrifugal load
+compressor and an accessory gearbox. The APU power section has: - a
+single stage centrifugal compressor, - a reverse flow combustion
+chamber, - a two-stage axial flow turbine.
+IGV The Inlet Guide Vanes (IGVs) control the amount of air discharged
+from the APU load compressor. The 24 IGVs are moved simultaneously by a
+gear train operated by an actuator. The IGV system uses fuel as
+hydraulic fluid for the servo valve actuator to control the IGVs through
+the ECB.
+BLEED AND SURGE AIR The bleed and surge air system supplies air to the
+A/C pneumatic system while avoiding load compressor surge. The bleed
+control valve acts as a combined bleed and surge valve, electrically
+controlled by the ECB and fuel operated.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+IGNITION AND STARTING SYSTEM The ignition and starting system rotates
+the engine to a self-sustained speed. It also will start ignition of the
+fuel/air mixture in the engine combustion chamber. The system
+includes: - an electrical starter motor, - an ignition unit, - two
+igniter plugs.
+ACCESSORY GEARBOX The gearbox transmits the shaft power to the APU
+accessories and to the APU generator, which are installed on the gearbox
+pads. The gearbox is also the oil reservoir for the APU lubrication
+system. The components mounted on the accessory gearbox are: - the
+starter motor assembly, - the cooling air fan assembly with the
+Permanent Magnet Generator (PMG), - the Fuel Control Unit (FCU), - the
+AC generator.
+AC GENERATOR The 3 phases AC generator transforms the mechanical power
+into electrical power of 90 KVA to supply the electrical A/C system with
+115V-400Hz.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 101 of 206
+FOR TRAINING PURPOSES ONLY
+ENGINE CONTROLS ... AC GENERATOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 102 of 206
+FOR TRAINING PURPOSES ONLY
+APU BASIC DESCRIPTION (3) FUEL SYSTEM The APU is supplied of fuel from
+either the fuel tank pumps or the APU fuel pump, according to the
+pressure sensed in the APU fuel feed line upstream of the pump. The APU
+fuel system operates automatically and includes: - an APU fuel pump, an
+APU fuel pressure switch, - a LP valve, - a fuel LP switch, - an FCU for
+Fuel Flow (FF) scheduling, - a fuel line vent and drain valve.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 103 of 206
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 104 of 206
+FOR TRAINING PURPOSES ONLY
+APU IGNITION &amp; STARTING D/O (3) STARTER CONTROL The starting system
+operates the Auxiliary Power Unit (APU) rotor through a clutch and
+gearbox. When the APU speed is 55% rpm, the start logic of the
+Electronic Control Box (ECB) stops the supply to the start contactors,
+which stops the starter motor. The timed acceleration loop of the ECB
+causes the APU to increase its speed until it gets to the governed
+speed. During Ram Air Turbine (RAT) extension, APU starting is inhibited
+by the Battery Charge Limiters (BCL 1 and BCL 2). The BCLs remove the
+ground signal necessary to the operation of the Main Start Contactor
+from the MASTER SW, and thus prevent operation of the main start
+contactor 5 KA.
+IGNITION CONTROL The ignition system is used to ignite and maintain
+combustion during the start phase. The ignition system includes: - an
+ignition unit, - two ignition leads, - two igniter plugs. The ignition
+system operates from initial crank up to 55% rpm.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 105 of 206
+FOR TRAINING PURPOSES ONLY
+STARTER CONTROL &amp; IGNITION CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 106 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) GENERAL The fuel system provides metered fuel to
+sustain combustion. Part of the fuel is used as muscle pressure to
+operate the Inlet Guide Vane (IGV) actuator and the bleed control valve
+actuator.
+FCU The Fuel Control Unit (FCU) has five functions: - fuel filtering, -
+pressure increase, - fuel metering, - positive fuel shut-off, - fuel
+muscle pressure regulation. The FCU is composed of a Low Pressure (LP)
+fuel pump, a filter with a filter by-pass valve and a Differential
+Pressure Indicator (DPI), a High Pressure (HP) fuel pump with a pressure
+relief valve, a constant Differential Pressure (DELTA P) valve, a
+pressure regulator for the bleed control valve and the IGV actuators, a
+fuel servovalve, and the 3-way solenoid valve. A FCU drain line purges
+the pump shaft seal.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 107 of 206
+FOR TRAINING PURPOSES ONLY
+GENERAL &amp; FCU
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 108 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) APU START FUEL PRESSURE As the Auxiliary Power
+Unit (APU) is started the fuel coming from the aircraft fuel system
+flows through the Low Pressure (LP) pump, through a filter to the High
+Pressure (HP) pump. If the filter becomes contaminated, the impending
+filter bypass will be indicated by the Differential Pressure Indicator
+(DPI). When the filter is blocked the by-pass valve will open. The HP
+pump has a pressure relief valve to cut off excessive pressure peaks.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 109 of 206
+FOR TRAINING PURPOSES ONLY
+APU START - FUEL PRESSURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 110 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) APU START (continued) ECB FUNCTIONS During the
+APU start, the Electronic Control Box (ECB) energizes the 3-way solenoid
+valve and the Torque Motor (TM) of the fuel servo valve. The fuel,
+pressurized by the HP pump, then flows through the servo valve and
+through the 3-way solenoid valve to the flow divider. The ECB schedules
+fuel flow for start sequence, on speed operation and shutdown sequence.
+The ECB modulates the on-speed fuel schedule to match the A/C demand for
+bleed air and electrical load.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 111 of 206
+FOR TRAINING PURPOSES ONLY
+APU START - ECB FUNCTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 112 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) APU START (continued) FUEL SCHEDULE From the HP
+pump, the fuel also flows to the pressure regulator. The fuel muscle
+pressure is used to operate the bleed control valve actuator, for the
+air delivery to the A/C and the air discharge to the exhaust, and for
+the load compressor IGV actuator. Servo fuel is returned downstream to
+the LP pump outlet and upstream to the fuel filter inlet.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 113 of 206
+FOR TRAINING PURPOSES ONLY
+APU START - FUEL SCHEDULE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 114 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) APU START (continued) DELTA PRESSURE VALVE The
+constant Differential Pressure (DELTA P) valve lets excessive fuel from
+the HP pump flow back to the filter inlet and maintains a constant
+pressure difference across the servo valve.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 115 of 206
+FOR TRAINING PURPOSES ONLY
+APU START - DELTA PRESSURE VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 116 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) APU START (continued) FLOW DIVIDER The flow
+divider and drain valve assembly divides the fuel between the pilot and
+main injectors. During the start sequence, the pilot injector valve
+opens when the fuel pressure reaches 20 psi to initially supply the 3
+pilot fuel injectors. As the fuel pressure increases, the main injector
+valve opens and fuel is supplied to the 6 main fuel injectors. When the
+APU is running, the two valves are in the open position to supply all
+injectors. The ECB controls the fuel system using several parameters.
+During the start sequence, it uses APU speed, Exhaust Gas Temperature
+(EGT), air inlet pressure and temperature. During steady-state operation
+the ECB uses the speed only.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 117 of 206
+FOR TRAINING PURPOSES ONLY
+APU START - FLOW DIVIDER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 118 of 206
+FOR TRAINING PURPOSES ONLY
+APU START - FLOW DIVIDER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 119 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) APU SHUTDOWN FUEL INJECTORS CUT OFF When the APU
+shutdown is initiated, the ECB de-energizes the 3-way solenoid valve for
+positive fuel shut-off. Fuel is returned to the fuel filter inlet. The
+fuel supply to the fuel injectors is cut off.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 120 of 206
+FOR TRAINING PURPOSES ONLY
+APU SHUTDOWN - FUEL INJECTORS CUT OFF
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 121 of 206
+FOR TRAINING PURPOSES ONLY
+APU FUEL SYSTEM D/O (3) APU SHUTDOWN (continued) FUEL DRAIN AND VENT
+VALVE As the fuel pressure decreases in the flow divider and drain valve
+assembly, the two injector valves close. The fuel remaining in the pilot
+injectors is purged to the APU exhaust by combustion chamber pressure.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 122 of 206
+FOR TRAINING PURPOSES ONLY
+APU SHUTDOWN - FUEL DRAIN AND VENT VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 123 of 206
+FOR TRAINING PURPOSES ONLY
+APU INDICATION SYSTEM (3) TEMPERATURE INDICATING EGT THERMOCOUPLE Two
+Exhaust Gas Temperature (EGT) thermocouples are installed in the exhaust
+cone at the turbine discharge. The EGT thermocouple is a chromel-alumel
+device, which has two probes of different lengths. The EGT thermocouples
+supply a voltage in proportion to the EGT. This voltage is supplied
+through a shielded cable to the ECB 59KD. The two thermocouples are
+connected together and each thermocouple is connected to the ECB.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 124 of 206
+FOR TRAINING PURPOSES ONLY
+TEMPERATURE INDICATING - EGT THERMOCOUPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 125 of 206
+FOR TRAINING PURPOSES ONLY
+APU INDICATION SYSTEM (3) TEMPERATURE INDICATING (continued) TEMPERATURE
+MONITORING Each thermocouple does the conversion of the thermal energy
+of the APU exhaust gas stream into an electrical voltage. This voltage
+increases in proportion to the EGT. The ECB receives the signals of the
+two thermocouple rakes and makes an evaluation of the average
+temperature value that will be used for processing and indication.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 126 of 206
+FOR TRAINING PURPOSES ONLY
+TEMPERATURE INDICATING - TEMPERATURE MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 127 of 206
+FOR TRAINING PURPOSES ONLY
+APU INDICATION SYSTEM (3) POWER INDICATING SPEED SENSOR Two speed
+sensors are installed in the gearbox casing. Each of the speed sensors
+is connected to the ECB. The speed sensor has: - a permanent magnet, - a
+pole piece, - a coil, - a housing. The speed sensors give the frequency
+in proportion to the APU speed. A PMG is installed in the cooling fan of
+the accessory cooling system and it is used for back-up overspeed
+protection.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 128 of 206
+FOR TRAINING PURPOSES ONLY
+POWER INDICATING - SPEED SENSOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 129 of 206
+FOR TRAINING PURPOSES ONLY
+APU INDICATION SYSTEM (3) POWER INDICATING (continued) POWER MONITORING
+The speed sensors measure the APU speed and transmit a frequency to the
+ECB. The ECB monitors the power indication during all APU operating
+conditions. The ECB starts the automatic shutdown sequence if there is a
+failure of the two speed sensors. The PMG transmits a speed signal to
+the ECB for back-up overspeed protection and supplies emergency power
+supply for the ECB.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 130 of 206
+FOR TRAINING PURPOSES ONLY
+POWER INDICATING - POWER MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 131 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) GENERAL STORAGE The sump of the Auxiliary Power
+Unit (APU) accessory gearbox is the oil reservoir. The accessory gearbox
+sump contains 5.2 l (1.4 US gal) of oil. On the left hand side of the
+gearbox, a gravity fill port is installed with a scupper to drain
+spilled oil. The gearbox has: - a pressure fill port, - an overflow
+port, - a sight glass.
+PROTECTION The ECB protects the APU in case of oil system malfunction.
+The ECB monitors oil pressure and oil temperature. If one of the oil
+parameters is out of range, the ECB initiates an automatic APU shutdown
+without time delay. - gearbox High Oil Temperature (HOT) threshold:
+135°C (275°F), - AC generator high oil temp: 180°C (356°F), - Low Oil
+Pressure (LOP): 35 psi.
+MONITORING The oil system is monitored to increase the APU life. Lube
+and scavenge filters have visual clogging indicators. The oil sump has a
+low level sensor to show maintenance information in the cockpit. When
+the level is at the "ADD" mark 4l (1 US gal) the APU is able to continue
+running for at least 60 hours. A magnetic drain plug, immersed in the
+APU oil, is used for the oil drainage from the sump and attracts ferrous
+metal particles. Two Differential Pressure (DELTA P) switches, one for
+the scavenge filter and a second one for the pressure filter are use for
+the ECB in case of clogging situation and an APU auto shutdown is
+triggered.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 132 of 206
+FOR TRAINING PURPOSES ONLY
+GENERAL - STORAGE ... MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 133 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) SUPPLY The oil is drawn from the sump and
+pressurized by a vane-type pressure pump. The pressurized oil goes
+through a cooler and a disposable filter. If the pump pressure is too
+high, a pressure relief valve opens and releases oil back to the pump
+inlet. The oil is then directed to the gears and bearings of the
+accessory gearbox, the load compressor front bearing, the power section
+rear bearing and the electrical generator.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 134 of 206
+FOR TRAINING PURPOSES ONLY
+SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 135 of 206
+FOR TRAINING PURPOSES ONLY
+SUPPLY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 136 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) SCAVENGE Oil from the electrical generator and
+the APU rear bearing is returned to the sump by two scavenge pumps. The
+oil from the AC generator returns to the sump through a vane-type
+scavenge pump and a filter. The oil from the APU rear bearing returns to
+the sump through a scavenge pump. Oil from the gearbox pinions and the
+APU front bearing is scavenged by gravity.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 137 of 206
+FOR TRAINING PURPOSES ONLY
+SCAVENGE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 138 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) VENTING The air oil mist from the rear bearing is
+returned to the gearbox housing through an external pipe. An air/oil
+separator removes the oil particles from the gearbox air. This oil-free
+air is discharged in the APU exhaust.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 139 of 206
+FOR TRAINING PURPOSES ONLY
+VENTING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 140 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) DE-OILING SOLENOID FUNCTION The only component of
+the oil system controlled by the Electronic Control Box (ECB) is the
+de-oiling valve.
+DURING START Especially during the cold start condition; the oil has a
+high viscosity. The de-oiling solenoid valve reduces the oil pressure
+pump load at any APU start by allowing air to enter the inlet of the oil
+supply pump. Above 55% APU speed, the ECB de-energizes the solenoid and
+the de-oiling valve closes.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 141 of 206
+FOR TRAINING PURPOSES ONLY
+DE-OILING SOLENOID FUNCTION - DURING START
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 142 of 206
+FOR TRAINING PURPOSES ONLY
+APU OIL SYSTEM D/O (3) DE-OILING SOLENOID FUNCTION (continued) DURING
+SHUT DOWN During the APU shutdown, the de-oiling solenoid valve prevents
+the coking of the oil remaining in the bearing chambers. Therefore the
+ECB opens the de-oiling solenoid valve during shut down between 90% and
+7%
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 143 of 206
+FOR TRAINING PURPOSES ONLY
+DE-OILING SOLENOID FUNCTION - DURING SHUT DOWN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 144 of 206
+FOR TRAINING PURPOSES ONLY
+APU AIR SYSTEM D/O (3) PRESSURIZATION AND OIL VENT
+APU RUNNING AT 100% - BLEED NOT SELECTED Bleed air supply to the A/C
+pneumatic system is controlled by a bleed control valve for delivery
+function. The fuel-operated bleed control valve is a diverter valve:
+either to the A/C system and/or the Auxiliary Power Unit (APU) exhaust.
+Pressurized air enters the gearbox during operation from the front and
+rear bearing seal buffering systems. This air comes from the power
+section compressor. The gearbox is vented to the APU exhaust. The oil
+mist is separated from the vent air by an air-oil separator.
+CONTROL NOTE: the hydraulic fluid is high pressure fuel from the Fuel
+Control Unit pressure regulator part with a pressure of approximately
+250 psig.
+BLEED CONTROL The quantity of air necessary for the aircraft bleed users
+is controlled by the opening angles of the load compressor Inlet Guide
+Vanes (IGVs). The IGVs are moved by a fuel-powered actuator.
+SURGE PROTECTION Load compressor surge protection is done by the bleed
+control valve that discharges the excess of air in the exhaust.
+OIL COOLING A gearbox-driven fan draws air from the inlet plenum and
+forces it to go through the oil cooler. After leaving the oil cooler,
+the air is discharged overboard. The cooling fan incorporates a
+Permanent Magnet Generator (PMG), which supplies a direct current to the
+Electronic Control Box (ECB), if the main supply is interrupted, for a
+maximum of 230ms.
+The ECB controls the air system using several parameters: - signals from
+the APU inlet pressure and temperature sensor, - signals from the load
+compressor discharge pressure sensor and the differential pressure
+sensor, - command and feedback signals from the fuel driven actuators.
+MONITORING The compressor discharge pressure sensor is a unit, which
+contains a static pressure and a differential pressure sensor. It is
+located at the APU air intake plenum. The ECB uses the sensor output
+voltage for the calculation of the compressor air flow and to give the
+APU BLEED pressure indication for the APU page on the lower ECAM display
+unit. To help maintenance and troubleshooting, the bleed control valve
+has a visual position indicator.
+COMPARTMENT COOLING Air supplied by the fan, which is driven by one of
+the gears of the gearbox, is also used for the APU compartment cooling.
+The compartment cooling air is blown through a smaller duct attached to
+the fan discharge tube. Natural convection ventilates the APU
+compartment when the APU is not in operation.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 145 of 206
+FOR TRAINING PURPOSES ONLY
+APU RUNNING AT 100% - BLEED NOT SELECTED - BLEED CONTROL ... MONITORING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 146 of 206
+FOR TRAINING PURPOSES ONLY
+APU AIR SYSTEM D/O (3) APU RUNNING AT 100% - BLEED PUSHBUTTON ON When
+the APU Bleed P/B is pushed, the blue ON light in the P/B comes on and a
+signal is sent to the two BMCs and to the ECB to open the Bleed Control
+Valve (BCV). The BCV servo valve receives a command signal from the ECB
+to let the BCV open the duct for Aircraft Pneumatic System supply and to
+let bleed air flow into the supply duct. To make sure that a pressure
+build-up occurs in the Aircraft Bleed supply duct, the ECB first
+commands the Bleed Control Valve (BCV) to the exhaust duct closed
+position and then modulates the BCV to prevent surge conditions. The BCV
+uses an LVDT for position feedback transmission to the ECB.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 147 of 206
+FOR TRAINING PURPOSES ONLY
+APU RUNNING AT 100% - BLEED PUSHBUTTON ON
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 148 of 206
+FOR TRAINING PURPOSES ONLY
+APU AIR SYSTEM D/O (3) APU RUNNING AT 100% - BLEED AND PACK PUSHBUTTON
+PUSHED The ECB receives a command signal from the ECS Control Computer
+after the Pack P/B is pushed on the Cockpit overhead panel. Because of
+this input signal, the ECB sends an extend command signal to the
+IGV-Actuator to drive the Inlet Guide Vanes into a more open position.
+Because of this, more air from the APU Inlet Plenum will go through the
+IGVs into the Load Compressor Housing. To make sure that the necessary
+bleed air mass flows from the APU to the ECS, the ECB commands the BCV
+to the exhaust duct fully closed position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 149 of 206
+FOR TRAINING PURPOSES ONLY
+APU RUNNING AT 100% - BLEED AND PACK PUSHBUTTON PUSHED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 150 of 206
+FOR TRAINING PURPOSES ONLY
+APU AIR SYSTEM D/O (3) APU RUNNING AT 100% - BLEED AND MES SIGNAL INPUT
+TO ECB When the engines of the aircaft are started, the ECB receives a
+Main Engine Start (MES) boost signal to increase the bleed pressure for
+engine start. The ECB commands the IGV Actuator to the maximum extended
+position to drive the IGVs to the fully open position. The BCV receives
+the command signal from the ECB to modulate and discharge a certain mass
+of air into the APU exhaust. When the engine start sequence is
+completed, the MES signal is no longer applicable and the ECB commands
+the IGV actuator and the BCV to the necessary position for bleed supply
+of the ECS.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 151 of 206
+FOR TRAINING PURPOSES ONLY
+APU RUNNING AT 100% - BLEED AND MES SIGNAL INPUT TO ECB
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 152 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) GENERAL The Auxiliary Power Unit (APU)
+system management and control keeps the APU rotation speed constant to
+obtain a constant AC generator frequency output, protects the power unit
+from over temperature, avoids load compressor surge, controls safe APU
+start and eases the APU maintenance. The APU management system controls
+the following sequences: - power-up state, - watch state, - starting
+state, - steady state, - cool down state, - shutdown sate.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 153 of 206
+FOR TRAINING PURPOSES ONLY
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 154 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) POWER-UP STATE When the APU MASTER SWitch
+is set to ON, the APU fuel Low Pressure (LP) valve opens and the APU
+fuel pump logic is energized. The Electronic Control Box (ECB) controls
+the opening of the air intake flap and initiates a power-up test: - test
+of On Board Replaceable Module (OBRM), Read Only Memory (ROM) checksum,
+Random Access Memory (RAM) read/write, - test of speed circuit, oil
+level, discrete and analog outputs, - on the lower ECAM display unit the
+APU page is shown.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 155 of 206
+FOR TRAINING PURPOSES ONLY
+POWER-UP STATE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 156 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) WATCH AND START PREPARATION STATE After
+completion of the power-up state, the ECB automatically enters the watch
+state. Upon receipt of the start command, provided that there are no
+prohibitive conditions and rotation speed is less than or equal to 7%
+rpm, the ECB enters the start preparation state.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 157 of 206
+FOR TRAINING PURPOSES ONLY
+WATCH AND START PREPARATION STATE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 158 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) STARTING STATE The starting state begins
+when the APU START P/BSW is pressed and continues until APU AVAILable
+light activation.
+START P/B PRESSED + 100 MS When the START P/BSW has been pressed in, the
+ECB initiates the start sequence and energizes the backup start
+contactor. The receipt of a stop signal at any time during the starting
+state leads to a shutdown without any cool down period.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 159 of 206
+FOR TRAINING PURPOSES ONLY
+STARTING STATE - START P/B PRESSED + 100 MS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 160 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) STARTING STATE (continued) BACKUP START
+CONTACTOR SUPPLIED + 1.5 S The components activated by the ECB are: -
+the gearbox de-oiling valve, - the ignition unit, - the main start
+contactor.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 161 of 206
+FOR TRAINING PURPOSES ONLY
+STARTING STATE - BACKUP START CONTACTOR SUPPLIED + 1.5 S
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 162 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) STARTING STATE (continued) ROTATION SPEED
+N &gt; 3% RPM The components activated by the ECB are: - the 3-way
+solenoid valve for the High Pressure (HP) fuel ON/OFF function, - the
+fuel servovalve for the fuel metering function.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 163 of 206
+FOR TRAINING PURPOSES ONLY
+STARTING STATE - ROTATION SPEED N &gt; 3% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 164 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) STARTING STATE (continued) ROTATION SPEED
+N &gt; 5% RPM During starting, fuel flow is controlled under the following
+programs: - begin manifold fill algorithm, - open loop fuel schedule.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 165 of 206
+FOR TRAINING PURPOSES ONLY
+STARTING STATE - ROTATION SPEED N &gt; 5% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 166 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) STARTING STATE (continued) DELTA EGT &gt;
+10°C The initiated acceleration is controlled to 100% rpm.
+ROTATION SPEED N &gt; 55% RPM The ECB de-energizes: - the ignition unit, -
+the gearbox de-oiling valve, - the main start contactor.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 167 of 206
+FOR TRAINING PURPOSES ONLY
+STARTING STATE - DELTA EGT &gt; 10°C &amp; ROTATION SPEED N &gt; 55% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 168 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) STARTING STATE (continued) ROTATION SPEED
+N &gt; 55% RPM + 5 S The backup start contactor is de-energized.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 169 of 206
+FOR TRAINING PURPOSES ONLY
+STARTING STATE - ROTATION SPEED N &gt; 55% RPM + 5 S
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 170 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) STARTING STATE (continued) ROTATION SPEED
+N &gt; 95% RPM The ECB functions are: - surge control and IGV control
+loops activation, - APU AVAIL signal activation, - start in progress
+output de-activation, - steady state speed control loop activation, -
+enter run state.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 171 of 206
+FOR TRAINING PURPOSES ONLY
+STARTING STATE - ROTATION SPEED N &gt; 95% RPM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 172 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) STEADY STATE In steady state the ECB
+controls the speed, the load compressor operation, and monitors the
+Exhaust Gas Temperature (EGT).
+SPEED CONTROL This function keeps the rotation speed of the APU rotating
+assembly constant, whatever the load applied. This is achieved by
+metering the fuel flow, which varies with the air inlet pressure and
+temperature.
+LOAD COMPRESSOR CONTROL This function opens the Inlet Guide Vanes (IGVs)
+according to the bleed air demand from the A/C, ECS or MES. Protection
+against load compressor surge is achieved by controlling and reading the
+position of the bleed control valve, according to the inlet temperature,
+and differential and discharge pressure signals of the load compressor
+(DELTA P/P ratio). If the ECB detects a surge condition, the bleed
+control valve is positioned to discharge air to the exhaust. NOTE: 1: In
+case of failure of the load compressor control, the IGVs are closed and
+the bleed control valve is fully opened to discharge. 2: In case of
+detected reverse flow operation, the APU is automatically shut down by
+the ECB.
+EGT CONTROL This function avoids APU over temperature by controlling the
+Inlet Guide Vane (IGV) position to closed. Thus, the pneumatic load is
+first reduced to give priority to the electrical load. This is achieved
+by controlling the position of the IGVs to the closed position as a
+function of the EGT as long as the over temperature condition is
+present. NOTE: In case of IGV control failure, the IGVs are closed.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 173 of 206
+FOR TRAINING PURPOSES ONLY
+STEADY STATE - SPEED CONTROL ... EGT CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 174 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) COOLDOWN STATE At stop command MASTER SW
+OFF, the pneumatic load is removed, i.e. the IGVs are closed, the bleed
+control valve positioned to discharge, the AC generator may still be
+loaded, then the engine goes into a 120 s cool down cycles. This
+function runs the APU at a low stabilized temperature before normal
+shutdown.
+NORMAL SHUTDOWN An APU normal shutdown is initiated when the MASTER SW
+P/B is released out. If the APU bleed air is not selected, the APU shuts
+down immediately. The normal shutdown signal stops the fuel supply. This
+causes the APU to decelerate. The AVAIL indication goes off and the AC
+generator de-energizes. When the speed is less than 90% rpm, the gearbox
+de-oil solenoid valve opens. When the speed is less than 7% rpm, the air
+intake flap is controlled to fully close and the de-oiling solenoid
+valve is de-energized to close.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 175 of 206
+FOR TRAINING PURPOSES ONLY
+COOLDOWN STATE &amp; NORMAL SHUTDOWN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 176 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) PROTECTIVE SHUTDOWN When the ECB is
+powered, it controls the APU starting and running phases. If an abnormal
+parameter is detected, it initiates an immediate shutdown without time
+delay, even if the APU bleed air system is used. The ECB protective
+shutdown parameters are: - over speed, - over temperature - Low Oil
+Pressure (LOP), - High Oil Temperature (HOT), - start period timer, -
+sensor failure, - air intake flap, - no flame, - reverse flow, - no
+acceleration, - loss of DC power, - ECB failure, - generator HOT - loss
+of speed sensing, - IGV shutdown, - oil filter clogged.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 177 of 206
+FOR TRAINING PURPOSES ONLY
+PROTECTIVE SHUTDOWN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 178 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM MANAGEMENT D/O (3) EMERGENCY SHUTDOWN The ECB initiates an
+emergency shutdown when either the APU FIRE P/B, which is located in the
+cockpit, is released out, or when the APU SHUT OFF pushbutton, which is
+located on the external power receptacle panel, is pressed. The ECB
+receives automatically an emergency shutdown signal when an APU FIRE is
+detected on ground by the APU Fire Detection Unit. The APU shuts down
+immediately without time delay, even if the APU bleed air system is
+used.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 179 of 206
+FOR TRAINING PURPOSES ONLY
+EMERGENCY SHUTDOWN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 180 of 206
+FOR TRAINING PURPOSES ONLY
+ECB INTERFACES (3) POWER SUPPLY
+LGCIU 1
+The Electronic Control Box (ECB) is electrically supplied, through the
+Auxiliary Power Unit (APU) MAIN control relay, by at least one of the
+A/C batteries, the A/C DC network or transiently from the 28 V DC
+Permanent Magnet Generator (PMG).
+The ECB receives the flight/ground discrete input signal from the
+Landing Gear Control and Interface Unit (LGCIU) 1.
+MASTER SWITCH P/B
+The ECB receives a discrete signal from the APU low fuel pressure
+switch. It sends a discrete signal to the APU fuel LP Shut-Off Valve
+(SOV).
+The APU MASTER SWitch sends a discrete supply or stop signal to the ECB.
+The ECB sends a discrete signal to the FAULT light when an automatic or
+emergency shutdown occurs or a power-up test fails.
+APU FUEL FEED SYSTEM
+EIU
+The ECB sends a power output for opening or closing the air intake flap
+and receives an air intake flap open or closed position signal.
+During engine starts, the ECB receives a Main Engine Start (MES) signal
+from Engine Interface Units (EIUs) 1 or 2. This signal causes the ECB to
+position the Inlet Guide Vanes (IGVs) to the fully open position and the
+bleed control valve to modulate in delivery position.
+START P/B
+BMC
+A discrete input signal from the START P/B initiates the starting
+sequences. The ECB sends a discrete signal to the ON light during the
+APU start sequence. A discrete output signal to the A/C energizes the
+AVAIL light in the START P/B when the APU speed is above 95% rpm.
+When the APU bleed P/B is set to ON, Bleed Monitoring Computers (BMCs) 1
+or 2 send a discrete input to the ECB which controls the opening of the
+APU bleed control valve. ECB sends discrete output signal to the BMCs to
+indicate when the BCV is not in the closed position.
+BACK-UP AND MAIN START CONTACTORS
+TSO/JAR
+The ECB sends discrete output signals to the back-up and the main start
+contactors and receives as a feedback a discrete input from the main
+start contactor.
+The ECB receives a discrete input from the A/C signature PIN
+programming. This open or ground signal determines whether the ECB
+follows the Technical Standard Order (TSO) or the Joint Aviation
+Requirements (JAR).
+AIR INTAKE FLAP
+EMERGENCY STOP A discrete input signal from the A/C initiates the APU
+emergency shutdown logic after the ECB has received this signal.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+ENVIRONMENTAL CONTROL SYSTEM (ECS) The ECB receives, via an ARINC 429
+bus, an input from the Air conditioning System Controller 1 and 2 (ACSC)
+to control the IGVs
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 181 of 206
+FOR TRAINING PURPOSES ONLY
+position according to the demand. The ECB sends a discrete output to the
+ACSC 1 and 2 to signal that the APU bleed valve is in delivery position.
+A320/A321 IDENTIFICATION The ECB receives a discrete input from the A/C
+signature PIN programming. This identification PIN lets the ECB identify
+the A321 applications for functional differences from those of an A320.
+GENERATOR OIL TEMPERATURE SENSOR The ECB receives an analog input from
+this sensor which is a component mounted on the AC generator.
+SDAC The ECB sends to the System Data Acquisition Concentrators (SDACs)
+1 and 2, via ARINC 429 data buses, the indications to show on the ECAM
+APU page and shutdown information to trigger the related warnings.
+CFDS The ECB is a BITE type 1 computer and is connected to the
+Centralized Fault Display System (CFDS) via ARINC 429 data buses.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 182 of 206
+FOR TRAINING PURPOSES ONLY
+POWER SUPPLY ... CFDS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 183 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM OPERATION, CONTROL &amp; INDICATING (3) AUTO SHUT-DOWN EMERGENCY
+SHUT-DOWN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 184 of 206
+FOR TRAINING PURPOSES ONLY
+COMPT ACCESS DOORS OPENING &amp; CLOSING (2) WARNING WARNING: DO NOT TOUCH
+THE AUXILIARY POWER UNIT (APU) UNTIL IT IS SUFFICIENTLY COOL TO PREVENT
+BURNS WHEN YOU DO THE MAINTENANCE TASK. MAKE SURE THAT THE THREE QUICK
+RELEASE FASTENERS ON THE APU LEFT ACCESS DOOR ARE CORRECTLY STOWED. THIS
+PREVENTS DAMAGE TO THE SEAL ON THE APU LEFT ACCESS DOOR.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 185 of 206
+FOR TRAINING PURPOSES ONLY
+WARNING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 186 of 206
+FOR TRAINING PURPOSES ONLY
+COMPT ACCESS DOORS OPENING &amp; CLOSING (2) APU ACCESS DOORS OPENING
+PROCEDURE Before working on the APU, some precautions have to be taken
+in the Cockpit : - on the Overhead Panel 25 VU, put a warning notice to
+tell people not to start the APU. - on Panel 121 VU, open, safety and
+tag the Circuit Breakers. To open the APU Access door, start with the
+three latches at the bottom of the door. Push the snapper and pull the
+latch handle to open the three latches. Hold the door and release the
+two latches of the shoot bolts at the both ends of the door. Release the
+door and leave them in the vertical position. Release the pip-pin and
+pull the end of the telescopic strut out until it locks. Push the door
+further open and attach the telescopic strut with the pip-pin to the
+fuselage attach point. Open the other APU access door and release the
+two latches of the shoot bolts at the end of the APU Access. Take the
+handle to move the access door into the vertical position . After that
+push the handle outboard to move the access door in the over center
+position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 187 of 206
+FOR TRAINING PURPOSES ONLY
+APU ACCESS DOORS OPENING PROCEDURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 188 of 206
+FOR TRAINING PURPOSES ONLY
+COMPT ACCESS DOORS OPENING &amp; CLOSING (2) APU ACCESS DOORS CLOSING
+PROCEDURE Push the handle and the control handle outboard and release
+the access door from the over center position. Pull the handle to move
+the access door to the closed position and operate the two shoot-bolt
+latches. Hold the access door and release the pip-pin from the fuselage
+attach point. Push the knurled grip back and move the telescopic strut
+to the closed position. Lock the telescopic strut to the door attach
+point. Close the access door and lock it with the two shoot bolts. At
+the bottom of the doors, lock the three latches. Remove the Safety
+Precaution and the tags from the circuit breakers.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 189 of 206
+FOR TRAINING PURPOSES ONLY
+APU ACCESS DOORS CLOSING PROCEDURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 190 of 206
+FOR TRAINING PURPOSES ONLY
+COMPT ACCESS DOORS OPENING &amp; CLOSING (2) DOOR REMOVAL PRECAUTION
+CAUTION: In the event of door removal, you must secure the right access
+door hold-open device by inserting the locking pin in the locking hole.
+The pin is stowed next to this locking hole.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 191 of 206
+FOR TRAINING PURPOSES ONLY
+DOOR REMOVAL PRECAUTION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 192 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM LINE MAINTENANCE (2) Close and lock the oil filler cap.
+SERVICING APU OIL SERVICING APU oil servicing is accomplished on an
+"as-needed" basis or after scheduled oil quantity checks. The oil
+indicating system shows if the oil quantity is sufficient or if an oil
+servicing is necessary. The oil level information is displayed on the
+EIS and the Multipurpose Control &amp; Display Units (MCDUs) in the cockpit
+on: - the APU page on the lower ECAM display unit (LOW OIL LEVEL
+advisory), - the APU SERVICE DATA page on the MCDU, indicating APU OIL
+Level O.K. or LOW. NOTE: Note: The advisory appears on the ECAM APU page
+when the oil level has reached the ADD mark on the APU oil tank. Airbus
+recommends servicing the APU oil at the next daily maintenance when the
+LOW OIL LEVEL message comes on. With no oil leakage, sufficient oil is
+available to allow a further 10 hours of APU operation. Prior to
+servicing, shut down the APU and open the APU cowl doors. Make sure to
+use the operator approved oil for servicing (operators may select from
+the approved list). The oil may be serviced by the gravity (most common)
+or pressure fill procedure (optional). Gravity procedure: - Open the
+lock and slowly loosen the oil filler cap to release remaining pressure
+from the oil reservoir, - Check sight glass for level, - Slowly add oil
+until the level is at the FULL mark on the sight glass. Pressure fill
+procedure: - Check sight glass for level, - Connect pressure and
+overfill lines to APU gearbox, - Slowly pump oil into the gearbox until
+the level is at the FULL mark on the sight glass.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 193 of 206
+FOR TRAINING PURPOSES ONLY
+SERVICING - APU OIL SERVICING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 194 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM LINE MAINTENANCE (2) SERVICING (continued) APU COWL DOOR
+OPENING &amp; CLOSING The APU cowl doors are secured with three
+quick-release fasteners and four shoot bolts. The quick-release
+fasteners secure the doors together and the shoot bolts secure the doors
+to the aircraft structure. Procedure to open the doors: - Release the
+quick-release fasteners, - Hold the LH door and release the latches of
+the 2 shoot bolts, - Open the door and secure it with the telescopic
+strut, - Hold the RH door and release the latches of the 2 shoot
+bolts, - Open the door and use the control handle to secure the door
+over center. The doors are closed opposite from the opening sequence.
+The RH door is closed and secured first.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 195 of 206
+FOR TRAINING PURPOSES ONLY
+SERVICING - APU COWL DOOR OPENING &amp; CLOSING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 196 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM LINE MAINTENANCE (2) MEL/DEACTIVATION In case of an APU inlet
+actuator failure, the APU may be dispatched per MEL with the inlet OPEN
+or CLOSED. The APU will only be operational with the inlet deactivated
+OPEN (for a maximum of 10 days). The air inlet actuator is equipped with
+a manual drive. In case of failure the manual drive may be used to move
+the inlet to the required position prior to deactivation. There are 2
+different actuators that may be installed. One requires 47 turns of the
+manual drive for one full travel of the inlet. The other requires 87
+turns. Access to the actuator is through an access door near the APU
+inlet on the right hand side of the fuselage. Deactivation procedure: -
+get access to the actuator, - disconnect the actuator electrical
+connector from the fixed connector on the frame and install a blanking
+cap, - use the manual drive to move the inlet to the required position.
+Use a torque wrench to avoid damaging the actuator. If the inlet is
+deactivated CLOSED, no further action is needed other than to placard
+the APU inoperative. If the inlet is deactivated OPEN, the following
+procedure has to be accomplished. When the inlet is in the OPEN
+position, a jumper lead needs to be installed to close the circuit and
+allow the APU to start. Make a dummy connector and paint it red for easy
+identification.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 197 of 206
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 198 of 206
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 199 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM LINE MAINTENANCE (2) MAINTENANCE TIPS The APU fuel supply
+line is equipped with a drain and vent valve which enables the line to
+be purged of air after maintenance. The drain valve is located in the
+APU compartment in the fuel supply line to the fuel control. A switch
+labeled FUEL VENT PUSH is installed on the APU compartment forward
+firewall to allow maintenance to operate the APU fuel pump and purge the
+fuel line from the APU compartment. This switch allows the APU pump to
+operate and the APU Low Pressure fuel valve to open without the APU
+Master Switch ON. A drain valve adapter tool is connected to the drain
+valve. On the front firewall of the APU compartment: - Push and hold the
+FUEL VENT pushbutton switch. At the APU fuel vent and drain valve, a
+continuous flow of fuel indicates that the APU fuel pump is operating
+and the line is purged, - Release the FUEL VENT pushbutton switch. The
+flow of fuel stops when the APU fuel pump stops running, - Disconnect
+the adapter tool.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 200 of 206
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE TIPS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 201 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM LINE MAINTENANCE (2) MAINTENANCE TIPS (continued) APU
+OPERATION WITH COWL DOORS OPEN If it is necessary to operate the APU for
+maintenance with the cowls open, be sure to: - Make sure the doors are
+secured in the Open position, - Be aware of suction at inlet. Small
+items could be ingested, - Make sure that proper fire-fighting equipment
+is available.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 202 of 206
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE TIPS - APU OPERATION WITH COWL DOORS OPEN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 203 of 206
+FOR TRAINING PURPOSES ONLY
+APU SYSTEM LINE MAINTENANCE (2) ENVIRONMENTAL PRECAUTIONS Do not
+discharge products such as oil, fuel, solvent, lubricant either in trash
+bins, soil or into the water network (drains, gutters, rain water, waste
+water, etc...). Sort waste fluids and use specific waste disposal
+containers. Each product must be stored in an appropriate and specific
+cabinet or room such as a fire-resistant and sealed cupboard. Avoid use
+of the APU if APU BLEED air is not necessary. Turn-off unused ground
+service equipment (GPU, Air conditioning cart, etc...) if no work is
+being done or nobody is present on the aircraft.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 204 of 206
+FOR TRAINING PURPOSES ONLY
+ENVIRONMENTAL PRECAUTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 205 of 206
+FOR TRAINING PURPOSES ONLY
+Training Manual Airbus A318/319/ A320/A321 (CFM56 &amp; V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 206 of 206</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
