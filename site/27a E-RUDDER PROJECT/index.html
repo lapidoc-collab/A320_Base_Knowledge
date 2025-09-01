@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>27a E-RUDDER PROJECT - A320 Base Knowledge</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">A320 Base Knowledge</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../02%20AIRCRAFT%20INTRODUCTION/" class="nav-link">02 AIRCRAFT INTRODUCTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../05%20-20%20INTRODUCTION%20MODULE/" class="nav-link">05 -20 INTRODUCTION MODULE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../21%20AIR%20CONDITIONING/" class="nav-link">21 AIR CONDITIONING</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../22%20AUTO%20FLIGHT/" class="nav-link">22 AUTO FLIGHT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../23%20COMMUNICATIONS/" class="nav-link">23 COMMUNICATIONS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../24%20ELECTRICAL%20POWER/" class="nav-link">24 ELECTRICAL POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../25%20EQUIPMENT_FURNISHINGS/" class="nav-link">25 EQUIPMENT FURNISHINGS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../26%20FIRE%20PROTECTION/" class="nav-link">26 FIRE PROTECTION</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">27a E-RUDDER PROJECT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../27%20FLIGHT%20CONTROLS/" class="nav-link">27 FLIGHT CONTROLS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../28%20FUEL%20%28Metric%20Units%29/" class="nav-link">28 FUEL (Metric Units)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../29%20HYDRAULIC%20POWER/" class="nav-link">29 HYDRAULIC POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../30%20ICE%20%26%20RAIN%20PROTECTION/" class="nav-link">30 ICE & RAIN PROTECTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20INDICATING%20%28Inc%20ATA%2045%20-%20CFDS%29/" class="nav-link">31 INDICATING (Inc ATA 45 - CFDS)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20RECORDING%20SYSTEMS/" class="nav-link">31 RECORDING SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../32%20LANDING%20GEAR/" class="nav-link">32 LANDING GEAR</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../33%20LIGHTS/" class="nav-link">33 LIGHTS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../34%20NAVIGATION/" class="nav-link">34 NAVIGATION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../35%20OXYGEN/" class="nav-link">35 OXYGEN</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../36%20PNEUMATIC/" class="nav-link">36 PNEUMATIC</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../38%20WATER%20%26%20WASTE/" class="nav-link">38 WATER & WASTE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../46%20INFORMATION%20SYSTEMS/" class="nav-link">46 INFORMATION SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../47%20INERT%20GAS%20SYSTEM/" class="nav-link">47 INERT GAS SYSTEM</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../49%20APU/" class="nav-link">49 APU</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../51-57%20STRUCTURE/" class="nav-link">51-57 STRUCTURE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../52%20DOORS/" class="nav-link">52 DOORS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28CFM%2056%29/" class="nav-link">70 POWER PLANT (CFM 56)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28IAE%20V2500%29/" class="nav-link">70 POWER PLANT (IAE V2500)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Airbus%20Abbreviations/" class="nav-link">Airbus Abbreviations</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../IAE%20V2500%20-%20Engine%20Manufacturers%20Notes/" class="nav-link">IAE V2500 - Engine Manufacturers Notes</a>
+                            </li>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">index</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../26%20FIRE%20PROTECTION/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../27%20FLIGHT%20CONTROLS/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+        <ul class="nav flex-column">
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>A320fam E-Rudder Short presentation
+JAN 2020
+E-RUDDER PRESENTATION
+• General overview • Equipment information • Impact on aircraft
+documentation • In-service introduction
+2
+1/17/2020
+E-RUDDER PRESENTATION
+• General overview • Equipment information • Impact on aircraft
+documentation • In-service introduction
+3
+1/17/2020
+CEO / NEO BASELINE • Rudder mechanical control
+4
+1/17/2020
+CEO / NEO BASELINE • Primary Flight Control System Architecture : 7
+computers and rudder mechanical control ELAC ELAC 1 2
+5
+1/17/2020
+SEC 1
+SEC 2
+SEC SEC 31 3
+FAC 1
+FAC 2
+E-RUDDER : WHAT CHANGES ?
+6
+1/17/2020
+E-RUDDER ARCHITECTURE • Primary Flight Control System Architecture : 4
+computers and rudder electrical control
+7
+1/17/2020
+E-RUDDER MODIFICATION Deleted equipment Flight Augmentation Computers
+Spoiler &amp; Elevator Computer
+• FAC1 • FAC2 FAC1 - 8 MCU
+FAC2 - 8 MCU
+SEC3 - 8 MCU
+• SEC3 • Yaw Dampers Actuators • Rudder Trim Actuator • RTLU • Rudder
+mechanics &amp; equipments • 1 Rudder position sensor (to FAC) 8
+1/17/2020
+Rudder mechanics &amp; equipments
+E-RUDDER MODIFICATION New equipment • Rudder and Brakes Pedals Unit
+(RBPU) • BCM (Back-up Control Module), BPS (Back-up Power Supply) • 2
+Rudder position sensors (MPP) for ELAC/SEC/BCM
+9
+1/17/2020
+RBPU
+E-RUDDER ADDED VALUE FOR A320FAM OPERATORS • Weight saving -40 kg • Fuel
+saving / fuel efficiency • OI reduction • Maintenance cost reduction
+(MPD task reduction, less components on aircraft) • Rudder trim failure
+no longer impact Auto Pilot availability
+Page 10
+1/17/2020
+E-RUDDER PRESENTATION
+• General overview • Equipment information • Impact on aircraft
+documentation • In-service introduction
+11
+1/17/2020
+E-RUDDER EQUIPMENT Avionics modification  SEC E THALES  Hardware and
+Software modifications
+ ELAC E THALES  Hardware and Software modifications (HW already
+modified for NEO)
+ FMGC  Software adaptation.
+ Other computers: FCDC, FWS, DMC / DU, CFDIU, FDIMU.  Software
+modification.
+Actuation modification  Rudder actuator LIEBHERR  Mechanical actuator
+changed to fly-by-wire actuator inspired from LR enhanced equipment.
+ BCM SAFRAN  LR enhanced BCM re-use with slight modification
+(Gyrometer deletion, single BPS power supply, control law modification)
+ BPS SAFRAN  LR re-use
+ RBPU COLLINS (RATIER)  New equipment
+12
+1/17/2020
+RUDDER ELECTRICAL CONTROL - ARCHITECTURE • FAC deletion
+• Servo-Controls on Rudder
+-   Yaw damping , RTL &amp; Rudder trim function in ELAC
+• ELAC : 1 additional S/C to be controlled per ELAC
+-   FE &amp; FIDS functions in FMGC
+• Mechanical control deletion - Rudder Normal laws in ELAC - Rudder
+Direct law in SEC and BCM
+• SEC : 1 additional S/C to be controlled per SEC • BCM : 2 S/C to be
+controlled + RBPU interface • BPS : LR full re-use • RBPU : rudder and
+brake pedal assy, rudder pedal artificial feeling &amp; rudder trim function
+ELAC 1 SEC 1 S/C 1 BCM
+S/C 2 S/C 3
+SEC 2 RBPU
+ELAC 2 Page 13
+1/17/2020
+E-BAY ARRANGEMENT Rear side
+ELAC1
+SEC1
+SEC2
+80 VU
+90 VU
+• FAC1 &amp; FAC2 deletion • BCM instead of SEC3 • ELAC-SEC additional I/O
+ no computers relocation Page 14
+1/17/2020
+ELAC2
+B C M
+E-RUDDER PRESENTATION
+• General overview • Equipment information • Impact on aircraft
+documentation • In-service introduction
+15
+1/17/2020
+IMPACT ON AIRCRAFT DOCUMENTATION
+16
+Technical data documentation changes
+Flight ops documentation changes
+• • • • • •
+• • • •
+TSM ATA 22 &amp; 27 AMM ATA 22, 27, 29, 31, 34, 23 ASM &amp; AWM : wiring
+schematics IPC MPD SRM
+1/17/2020
+MMEL FCOM QRH AFM
+E-RUDDER PRESENTATION
+• General overview • Equipment information • Impact on aircraft
+documentation • In-service introduction
+17
+1/17/2020
+IN-SERVICE INTRODUCTION • E-rudder will be introduced on A319neo,
+A320neo and A321neo. • First aircraft will be delivered in DEC 2021
+(A320 CFM with MSN TBC) • Then a ramp-up will be done over 2023 to
+finally standardise E-rudder early 2024. • E-rudder will become the
+default standard for A319, A320 and A321 aircraft. • A320CEO will no be
+proposed for eRudder. • E-rudder is not retrofitable.
+18
+1/17/2020
+Thank you</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

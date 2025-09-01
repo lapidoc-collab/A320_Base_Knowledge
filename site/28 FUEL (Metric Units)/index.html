@@ -1,0 +1,3009 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>28 FUEL (Metric Units) - A320 Base Knowledge</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">A320 Base Knowledge</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../02%20AIRCRAFT%20INTRODUCTION/" class="nav-link">02 AIRCRAFT INTRODUCTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../05%20-20%20INTRODUCTION%20MODULE/" class="nav-link">05 -20 INTRODUCTION MODULE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../21%20AIR%20CONDITIONING/" class="nav-link">21 AIR CONDITIONING</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../22%20AUTO%20FLIGHT/" class="nav-link">22 AUTO FLIGHT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../23%20COMMUNICATIONS/" class="nav-link">23 COMMUNICATIONS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../24%20ELECTRICAL%20POWER/" class="nav-link">24 ELECTRICAL POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../25%20EQUIPMENT_FURNISHINGS/" class="nav-link">25 EQUIPMENT FURNISHINGS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../26%20FIRE%20PROTECTION/" class="nav-link">26 FIRE PROTECTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../27a%20E-RUDDER%20PROJECT/" class="nav-link">27a E-RUDDER PROJECT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../27%20FLIGHT%20CONTROLS/" class="nav-link">27 FLIGHT CONTROLS</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">28 FUEL (Metric Units)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../29%20HYDRAULIC%20POWER/" class="nav-link">29 HYDRAULIC POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../30%20ICE%20%26%20RAIN%20PROTECTION/" class="nav-link">30 ICE & RAIN PROTECTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20INDICATING%20%28Inc%20ATA%2045%20-%20CFDS%29/" class="nav-link">31 INDICATING (Inc ATA 45 - CFDS)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20RECORDING%20SYSTEMS/" class="nav-link">31 RECORDING SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../32%20LANDING%20GEAR/" class="nav-link">32 LANDING GEAR</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../33%20LIGHTS/" class="nav-link">33 LIGHTS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../34%20NAVIGATION/" class="nav-link">34 NAVIGATION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../35%20OXYGEN/" class="nav-link">35 OXYGEN</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../36%20PNEUMATIC/" class="nav-link">36 PNEUMATIC</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../38%20WATER%20%26%20WASTE/" class="nav-link">38 WATER & WASTE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../46%20INFORMATION%20SYSTEMS/" class="nav-link">46 INFORMATION SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../47%20INERT%20GAS%20SYSTEM/" class="nav-link">47 INERT GAS SYSTEM</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../49%20APU/" class="nav-link">49 APU</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../51-57%20STRUCTURE/" class="nav-link">51-57 STRUCTURE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../52%20DOORS/" class="nav-link">52 DOORS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28CFM%2056%29/" class="nav-link">70 POWER PLANT (CFM 56)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28IAE%20V2500%29/" class="nav-link">70 POWER PLANT (IAE V2500)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Airbus%20Abbreviations/" class="nav-link">Airbus Abbreviations</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../IAE%20V2500%20-%20Engine%20Manufacturers%20Notes/" class="nav-link">IAE V2500 - Engine Manufacturers Notes</a>
+                            </li>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">index</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../27%20FLIGHT%20CONTROLS/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../29%20HYDRAULIC%20POWER/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+        <ul class="nav flex-column">
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Airbus A318/A319/A320/A321 (CFM56 &amp; V2500) B1+B2 Technical Training
+Manual
+ATA 28 -- Fuel Systems Airframe Systems
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more. Contact us Tel: +44(0) 1565 653745 Email:
+admin@catts.org.uk Web: www.catts.org.uk Online Training:
+catts.learnupon.com/store
+ATA Chapters Required in this Training Manual AIRFRAME SYSTEMS ATA 28
+Fuel Systems
+ATA 28A
+Fuel Systems-Monitoring and Indicating
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+Training Manual Ma Airbus A318/319/ A320/A321 (CFM56 &amp; V2500) ATA 28
+Airframe Systems; Fuel Systems Level 3
+FOR TRAINING PURPOSES ONLY
+FUEL (METRIC UNITS) GENERAL
+ADDITIONAL CENTER TANK (option)
+Fuel System Component Location (2) . . . . . . . . . . . . . . . . . . .
+. . . . . . 2 Fuel System Control &amp; Indicating (2) . . . . . . . . . . .
+. . . . . . . . . . . . . 10
+ACT System Presentation (2) . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . 152 ACT Installation Presentation (2) . . . . . . . . .
+. . . . . . . . . . . . . . . . . . 154 ACT System Controls and
+Indicating (2) . . . . . . . . . . . . . . . . . . . . . 156 ACT System
+D/O (3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . 162 1 ACT to 2 ACTs Differences (3) . . . . . . . . . . . . . .
+. . . . . . . . . . . . . 168 ACT Refuel/Defuel System Presentation (2)
+. . . . . . . . . . . . . . . . . . 180 ACT Refuel/Defuel Control Panel
+(2) . . . . . . . . . . . . . . . . . . . . . . . 182 ACT to CTR TK Fuel
+XFR Operation (3) . . . . . . . . . . . . . . . . . . . . 184
+STORAGE, VENTING AND RECIRCULATION Venting System Description/Operation
+(3) . . . . . . . . . . . . . . . . . . . . 12 Water Drain Valve
+Operation (2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+FUEL DISTRIBUTION Engine Feed System D/O (3) . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . 22 Fuel IDG Cooling System
+Presentation (3) . . . . . . . . . . . . . . . . . . . . 42 Fuel System
+Normal Operation (2) . . . . . . . . . . . . . . . . . . . . . . . . . .
+58 APU Feed System D/O (3) . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . 82
+MAINTENANCE PRACTICE Fuel Tank Safety Procedures (2) . . . . . . . . . .
+. . . . . . . . . . . . . . . . . 190 Fuel System Line Maintenance (2) .
+. . . . . . . . . . . . . . . . . . . . . . . . 230
+REFUEL/DEFUEL Refuel/Defuel Control Panel Presentation (2) . . . . . . .
+. . . . . . . . . . . 92 Cockpit Preselector Presentation (option) (2) .
+. . . . . . . . . . . . . . . . . 94 Refuel/Defuel System D/O (3) . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . 96 Automatic
+Refuel Operation (2) . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . 100
+FUEL INDICATING Fuel Quantity Indicating (3) . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . 108 Fuel Level Sensing (3) . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116 Fuel
+System Operation, Control &amp; Indicating (3) . . . . . . . . . . . . . .
+120
+FUEL SYSTEM (A321/DWHU\$) Fuel Feed System Operation (2) . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . 122 Fuel Quantity Indicating (3)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 134 Fuel
+Level Sensing (3) . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . 140 A321 Fuel Vent system D/O (3) . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . 144 A321 Fuel Recirculation system D/O
+(3) . . . . . . . . . . . . . . . . . . . . . 150
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 5 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW The A318, A319 and
+A320 have the same fuel system design. The fuel tanks are in the center
+fuselage area and the wings. The center tank is a part of the center
+wing box. The wing tanks are divided into inner cells and outer cells.
+To have less structural load on the wings, the fuel in the outer cells
+is not used until the fuel load in the inner cells decreases to a low
+level. Two fuel pumps are installed in the center tank and two other
+fuel pumps are installed in each wing tank inner cell. Fuel is supplied
+to the engines from the center tank first. When the center tank is
+empty, fuel is supplied from the wing inner cells. There is no direct
+feed from the outer cells to the engines. Two inter cell transfer valves
+are used to transfer fuel from the outer cells to the inner cells when
+the fuel quantity gets to the low level. Two engine Low Pressure (LP)
+valves are installed to stop the fuel supply to the engines. The LP
+valve is closed when its related engine stops or when the FIRE
+pushbutton is released. A cross feed valve is used to connect or isolate
+the left and right sides. With this valve, fuel can be supplied to one
+engine or the other from all available fuel pumps. On the ground, the
+cross feed valve is used to transfer fuel from tank to tank. The fuel
+system also supplies fuel to the APU directly from the left side. The
+APU LP valve is installed to stop the fuel supply to the APU. It closes
+when the APU stops or when the APU FIRE pushbutton is released.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 6 of 254
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 7 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM COMPONENT LOCATION (2) SYSTEM OVERVIEW (continued) A321 (+
+Later A320) The A321 fuel tanks are in the center fuselage area and the
+wings. Like the A318/A319/A320, the center tank is part of the center
+wing box but with the difference that the wing tanks are not divided.
+The tanks are simply known as left and right wing tanks. Two fuel pumps
+are installed in each wing tank. Fuel is supplied to the engines from
+the wing tanks only. While the fuel level in the wing decreases, the
+center tank fuel is transferred to the wing tanks until the center tank
+is empty. Transfer valves control the fuel transfer from the center tank
+to the wing tanks. The transfer valves supply pressure for two jet
+pumps. These pumps are installed in the center tank and they transfer
+the fuel from the center tank to the wing tanks. Two engine Low Pressure
+(LP) valves are installed to stop the fuel supply to the engines. The LP
+valve is closed when its related engine stops or when the FIRE
+pushbutton is released. A cross feed valve is used to connect or isolate
+the left and right sides. With this valve, fuel can be supplied to one
+engine or the other from all available fuel pumps. On the ground, the
+cross feed valve is used to transfer fuel from tank to tank. The fuel
+system also supplies fuel to the APU directly from the left side. The
+APU LP valve is installed to stop the fuel supply to the APU. It closes
+when the APU stops or when the APU FIRE pushbutton is released.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 8 of 254
+FOR TRAINING PURPOSES ONLY
+SYSTEM OVERVIEW - A321
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 9 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION The wing fuel feed
+pumps are replaced from the wing lower surface. The center tank pumps
+are replaced through access panels in the belly fairing. The water drain
+valves let you remove water, which could collect in quantities
+sufficient to cause malfunction to the engines. The manual Magnetic
+Level Indicators are used to calculate the tank fuel quantities if a
+failure has an unwanted effect on the Fuel Quantity Indicating System.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 10 of 254
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 11 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM COMPONENT LOCATION (2) COMPONENT LOCATION (continued)
+REFUEL/DEFUEL COUPLING AND REFUEL VALVE The Refuel/Defuel coupling is on
+the lower surface of the RH wing, near the leading edge. The
+Refuel/Defuel coupling shown is the optional one on the LH side. There
+is one refuel valve on each tank. Each of the three refuel valves has a
+manual plunger. When pushed, the plunger holds the valve open if an
+electrical failure of the valve occurs during refueling.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 12 of 254
+FOR TRAINING PURPOSES ONLY
+COMPONENT LOCATION - REFUEL/DEFUEL COUPLING AND REFUEL VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 13 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM CONTROL &amp; INDICATING (2) LOCATE CONTROL/INDICATING IN
+COCKPIT FUEL FEED &amp; TANK QUANTITY FUEL LOW PRESSURE VALVES REFUEL/DEFUEL
+PANEL REFUEL/DEFUEL - TRANSFER OPERATION REVIEW
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 14 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 15 of 254
+FOR TRAINING PURPOSES ONLY
+VENTING SYSTEM DESCRIPTION/OPERATION (3) GENERAL
+OVERPRESSURE PROTECTION
+The fuel tank venting system prevents overstressing of tanks.
+Overpressure protectors are installed in the system to relieve pressure
+in the tanks that might occur through vent blockage or a pressure
+refueling gallery failure. An excess pressure in the outer cell relieves
+fuel into the inner cell via an overpressure protector mounted on rib
+15. An excess pressure in the inner cell or in the vent surge tank
+relieves fuel overboard via an overpressure protector installed on a
+tank access panel. The center tank overpressure protector relieves fuel
+into the left inner cell.
+VENT SURGE TANK Each vent surge tank vents to the atmosphere through a
+NACA type intake connected with a vent duct. Inside the vent duct there
+is a vent protector and a flame arrestor. The function of the vent
+protector is to prevent clogging of the vent duct by ice formation. The
+flame arrestor reduces the risk of a ground fire igniting the fuel
+tanks. Fuel spilled through the vent pipes into the surge tank is
+induced back into the outer cell by a scavenge jet pump using motive
+power from the wing fuel pumps. Be careful when you do work near the
+left-wing surge tank, there is a possible risk of asphyxiation if you
+put your head through the opening of the NACA duct access panel.
+WING TANK VENTING SYSTEM
+VENT FLOAT VALVES Two vent float valves prevent fuel from passing in the
+vent lines during A/C bank maneuvers. The open ends of the ducts and the
+vent float valves, which permit air to vent but not fuel, are positioned
+at the optimum levels for refueling and normal ground/flight maneuvers.
+A vent float valve fitted to the outer side of sealed rib 15 permits air
+to be vented from the outer cell to the inner cell during flight
+maneuvers.
+Each wing tank inner and outer cell vents to the related vent surge
+tank. The vent lines are fitted with a vent float valve. The ducts are
+large enough to make sure that if the pressure refueling shut-off fails,
+excess fuel will be discharged overboard through the NACA intake. A
+rubber check valve installed in the vent line allows any fuel that finds
+its way into the vent lines to drain back into the related tank, where
+it is installed.
+CENTER TANK VENTING SYSTEM The center tank vents into the LH vent surge
+tank. The center tank vent line is a conventional open line, provided
+with a check valve and large enough for airflow. In case of overfueling
+of the center tank most of the fuel flows over to the right wing tank
+through the relief valve. Be careful when you do work near the center
+tank, there is a possible risk of asphyxiation if you put your head
+through the opening of the tank access panels.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 16 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL ... VENT FLOAT VALVES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 17 of 254
+FOR TRAINING PURPOSES ONLY
+VENTING SYSTEM DESCRIPTION/OPERATION (3) VAPOR SEAL The vapor seal is a
+fabric membrane that isolates the Center tank from the air conditioning
+compartment below. Pressurized air from around the mixer unit AFT of the
+FWD cargo flows through the space between the vapor seal and the tank
+bottom to ventilate it.
+DRAIN MAST A system of drains at the rear of the vapor seal conveys
+drainage and ventilating (exhaust) air through a drain mast to
+atmosphere. The drain mast is an aluminum fairing bolted to the
+underside of the fuselage. Such drain mast also receives the possible
+fuel leakage from the shrouded APU fuel supply line
+LEAK MONITOR In the event of fuel flowing from the drain mast, check the
+leak monitor to determine the area of leakage: center tank or APU fuel
+supply line.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 18 of 254
+FOR TRAINING PURPOSES ONLY
+VAPOR SEAL ... LEAK MONITOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 19 of 254
+FOR TRAINING PURPOSES ONLY
+WATER DRAIN VALVE OPERATION (2) GENERAL WARNING: DO NOT GET AIRCRAFT
+FUEL: - IN YOUR MOUTH, - IN YOUR EYES, - ON YOUR SKIN FOR A LONG TIME.
+AIRCRAFT FUEL IS POISONOUS. DO NOT GET YOUR CLOTHES SOAKED WITH FUEL.
+BEFORE YOUR REFUEL OR DEFUEL THE AIRCRAFT YOU MUST MAKE THE AREA AROUND
+IT SAFE. IN THE SAFETY AREA DO NOT: - SMOKE, - MAKE SPARKS OR FIRE, -
+USE ANY EQUIPMENT WHICH IS NOT APPROVED FOR REFUEL/DEFUEL PROCEDURES.
+AIRCRAFT FUEL IS FLAMMABLE. 6 water drain valves are located on the
+Aircraft. 4 on the wings and two on the center tank. WARNING: YOU MUST
+FOLLOW THE FUEL SAFETY PROCEDURES WHEN YOU WORK ON THE FUEL SYSTEM. PUT
+THE SAFETY BARRIERS IN POSITION NOTE: Note: make sure that the fuel
+tanks are filled to a minimum of 10 % of Capacity. This is necessary to
+cover the water drain valve outlet, so that the water drain valves can
+operate satisfactorily.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 20 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 21 of 254
+FOR TRAINING PURPOSES ONLY
+WATER DRAIN VALVE OPERATION (2) DRAIN PROCEDURE WITH THE PURGER A - Push
+the center of the applicable water drain valve with the Purger. B -
+Remove the Purger from the water drain valve and clean the Area. C - Do
+the water Contamination test. D - Pull the Fuel from the Sample in the
+injection. E - When the colour stays yellow, there is no water in the
+test. F - Test with water. G - The colour from the test goes from yellow
+to blue.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 22 of 254
+FOR TRAINING PURPOSES ONLY
+DRAIN PROCEDURE WITH THE PURGER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 23 of 254
+FOR TRAINING PURPOSES ONLY
+WATER DRAIN VALVE OPERATION (2) DRAIN PROCEDURE WITH THE TEST EQUIPMENT
+JET PUMP A - hold the bush and turn the screw to the end of its travel.
+This causes the plunger to open the drain valve and the fuel to flow.
+B - when the fuel flow stops, remove the TEST EQUIPMENT JET PUMP. C -
+remove all the ground support equipment, the maintenance equipment, the
+standard and special tools and all other items. D - make sure that the
+work area is clean and clear of tools and other items.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 24 of 254
+FOR TRAINING PURPOSES ONLY
+DRAIN PROCEDURE WITH THE TEST EQUIPMENT JET PUMP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 25 of 254
+FOR TRAINING PURPOSES ONLY
+ENGINE FEED SYSTEM D/O (3) - a smaller outlet is connected to the
+scavenge jet pumps and the fuel pump pressure switch.
+GENERAL The main fuel pump system supplies fuel from the fuel tanks to
+the engines. Each tank has two centrifugal booster pumps.
+CROSSFEED VALVE The crossfeed valve divides the engine fuel feed system
+into two independent systems. The valve is located in the center tank
+and is usually in the closed position. In this position, it divides the
+main fuel pump system into two parts, one part for each engine. When the
+crossfeed valve is open, either tank can supply fuel to either engine.
+The valve is electrically controlled and operated by two DC motors.
+MAIN FUEL PUMPS The main pumps are driven by a 3-phase 115V AC motor.
+The two pumps in each tank are supplied by different electrical power
+supply bus bars. When it is in operation, each main pump may supply fuel
+to: - its related engine, - the fuel recirculation cooling system, - the
+crossfeed system, - the refuel/defuel system.
+FUEL PUMP CANISTER The canister lets you replace the fuel pump without
+draining fuel. The fuel pump element is located in a canister attached
+to the bottom skin of the wing or the centre wing box, with an inlet
+connected to a fuel strainer. The canister has different outlets: - one
+upper outlet is connected to the engine feed line and contains an
+internal flap-type check valve, - the other upper outlet is connected to
+a sequence valve (for wing tank pumps only),
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 26 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL - CROSSFEED VALVE ... FUEL PUMP CANISTER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 27 of 254
+FOR TRAINING PURPOSES ONLY
+ENGINE FEED SYSTEM D/O (3) CENTER TANK PUMP OPERATION Whenever the
+center tank pumps run, as controlled by A/C logic, the center tank
+supplies the feeding fuel to the engines. When a fuel pump is not in
+operation, the check valves prevent any reverse flow of fuel through the
+pump. The center fuel pump element is located in a canister attached to
+the center tank bottom skin, with a lower inlet connected to a fuel
+strainer.
+AIR RELEASE VALVE The air release valve releases air, trapped in the
+engine fuel feed line, into the wing tank. The air release valve is
+installed at the highest point between the pump and the LP fuel valve.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 28 of 254
+FOR TRAINING PURPOSES ONLY
+CENTER TANK PUMP OPERATION - AIR RELEASE VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 29 of 254
+FOR TRAINING PURPOSES ONLY
+ENGINE FEED SYSTEM D/O (3) LOW PRESSURE (LP) FUEL VALVE The LP fuel
+valve is installed on the wing tank front spar, in the feed line to the
+engine. Each LP fuel valve has an actuator with 2 electric motors. Each
+one of them is supplied by different 28 V DC power sources. The LP fuel
+valve isolates the engine fuel feed supply at engine shutdown,
+i.e. normal procedure, or in case of emergency, i.e. engine fire
+procedure.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 30 of 254
+FOR TRAINING PURPOSES ONLY
+LOW PRESSURE (LP) FUEL VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 31 of 254
+FOR TRAINING PURPOSES ONLY
+ENGINE FEED SYSTEM D/O (3) SCAVENGE JET PUMP OPERATION The scavenge jet
+pump has: a jet pump body a jet adaptor assembly The jet pump body fully
+contains the jet adaptor assembly. The jet pump body has a flange at one
+end for the installation to the tank structure. The jet pump body has
+also three threaded openings: Z is the outlet form the jet pump Y is the
+inlet from the fuel tank X is the inlet from the related fuel pump The
+jet adaptor assembly has: a non-return valve (NRV) a jet nozzle The NRV
+has a spring and a valve assembly. If the related pump is set to off,
+the spring closes the NRV. Thus fuel cannot enter the fuel pump that is
+set to off.
+OPERATION When the related fuel pump is on, fuel goes into the jet pump
+through the inlet X. The fuel flows through the NRV and the jet nozzle.
+The jet nozzle decreases the pressure and increases the velocity of the
+fuel that goes through. This causes a suction force at the inlet Y that
+is connected to a pipe system and therefore connected to the lowest part
+of the tank. The fuel at the inlet Y is moved through the jet pump,
+mixed with the fuel from the inlet X and distributed through the outlet
+Z.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 32 of 254
+FOR TRAINING PURPOSES ONLY
+SCAVENGE JET PUMP OPERATION - OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 33 of 254
+FOR TRAINING PURPOSES ONLY
+ENGINE FEED SYSTEM D/O (3) CENTER TANK PUMP PRESSURE SWITCHES The
+pressure switches monitor the output of the pumps through a pressure
+pipe. If the pressure from the center tank pump decreases to less than 6
+psi (0.41 bars) the pressure switch sends a warning signal to the ECAM
+system. Fuel is first supplied by the center tank pumps and then by the
+wing tank pumps when the center tank is empty. Center tank scavenge jet
+pumps move fuel and water caught in the tank to the related main pump
+inlet.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 34 of 254
+FOR TRAINING PURPOSES ONLY
+CENTER TANK PUMP PRESSURE SWITCHES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 35 of 254
+FOR TRAINING PURPOSES ONLY
+ENGINE FEED SYSTEM D/O (3) WING TANK PUMP OPERATION AND SEQUENCE VALVES
+When all the tanks contain fuel, the center tank is emptied first. The
+wing tank pumps have a sequence valve to make sure that the center tank
+is emptied first. The sequence valve acts as a relief valve and keeps
+the output pressure of a wing tank pump 5 psi lower than that of the
+center tank pump. The pumps in each wing tank are located in the lowest
+area of the inner cell in a collector cell. Seven clack valves at the
+bottom of rib 2 allow the fuel to flow into the collector cell but
+prevent the fuel from flowing back during wing down manoeuvres of the
+aircraft. Thereby the fuel pumps are sufficiently immersed in fuel even
+if the fuel level in the tank is low. Each wing tank collector cell
+has: - two fuel pumps contained in their related canisters, - two fuel
+strainers, - a suction valve, - two check valves.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 36 of 254
+FOR TRAINING PURPOSES ONLY
+WING TANK PUMP OPERATION AND SEQUENCE VALVES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 37 of 254
+FOR TRAINING PURPOSES ONLY
+ENGINE FEED SYSTEM D/O (3) WING TANK PUMP PRESSURE SWITCHES/BYPASS
+SUCTION VALVE The pressure switches monitor the output of the pumps
+through a pressure pipe. If the pressure from the main pump decreases to
+less than 6 psi (0.41 bars) the pressure switch sends a warning signal
+to the ECAM system.
+BYPASS SUCTION VALVE A bypass suction valve is installed on the engine
+feed line, downstream of the main pumps. If both wing tank pumps fail
+with no center tank pump running and the crossfeed valve closed, the
+bypass suction valve lets fuel be sucked from the wing tank by the
+engine fuel pump system and thus engine supply is done by "gravity".
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 38 of 254
+FOR TRAINING PURPOSES ONLY
+WING TANK PUMP PRESSURE SWITCHES/BYPASS SUCTION VALVE - BYPASS SUCTION
+VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 39 of 254
+FOR TRAINING PURPOSES ONLY
+ENGINE FEED SYSTEM D/O (3) WING SCAVENGE JET PUMPS One of the two
+scavenge jet pumps in the outer cells removes fuel out of the vent surge
+tank to the rear intercell transfer valve. A Check valve, in the line
+between the vent surge tank, combined with this jet pump, makes sure
+that fuel cannot enter the vent surge tank via the pump if the wing tank
+pumps are off. The other scavenge jet pump mixes fuel and water within
+the outer cell. Each scavenge jet pump receives its motive fuel pressure
+from the wing tank pumps, if running.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 40 of 254
+FOR TRAINING PURPOSES ONLY
+WING SCAVENGE JET PUMPS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 41 of 254
+FOR TRAINING PURPOSES ONLY
+ENGINE FEED SYSTEM D/O (3) INTERCELL TRANSFER VALVES The outer cell fuel
+flows to the inner cell by gravity through the intercell transfer
+valves, which open when the inner cell fuel quantity decreases to a
+given low level value. Each valve is operated by an electrical motor.
+The intercell transfer valve motor is attached at the rear or front wing
+spar while the valve body is inside the tank at Rib 15. The connection
+between the motor and the valve body is achieved through a rotating
+shaft. When controlled to open the valves are latched open and close
+again on ground during next refueling operation or electrical power up
+of the fuel system.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 42 of 254
+FOR TRAINING PURPOSES ONLY
+INTERCELL TRANSFER VALVES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 43 of 254
+FOR TRAINING PURPOSES ONLY
+ENGINE FEED SYSTEM D/O (3) DFUEL TRANSFER VALVE The defuel transfer
+valve is electrically controlled and operated by one DC motor. The
+control is done through the Refuel / Defuel control panel in the belly
+fairing. The valve can only be controlled to open on ground. When open,
+the valve interconnects the right hand engine supply line with the
+Refuel Gallery and allows fuel transfers and defueling operations. The
+crossfeed valve needs to be controlled to open from the cockpit overhead
+panel, if a connection to the left hand engine supply line is necessary.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 44 of 254
+FOR TRAINING PURPOSES ONLY
+DFUEL TRANSFER VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 45 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL IDG COOLING SYSTEM PRESENTATION (3) B2 SCOPE CAUTION: MODULE TAGGED
+B2 SCOPE. BE AWARE THAT ONLY AVIONICS/ELECTRICAL TOPICS SHOULD BE
+LEARNED FOR A T2 COURSE.
+PRINCIPLE The temperature of the Integrated Drive Generator (IDG) oil is
+decreased by fuel through a recirculation system. Some of the fuel that
+supplies the engines is used to decrease the temperature of the IDG oil.
+A Fuel Return Valve (FRV) lets the hot fuel return to the outer cell.
+The FRV opens at low engine fuel flow if the engine oil temperature is
+more than 90°C (199°F). The return valve mixes the hot fuel with cold
+fuel from the Low Pressure (LP) fuel pump to keep the temperature of the
+returned fuel less than 100°C (212°F). The Fuel Level Sensing Control
+Unit (FLSCU) 1 and the Electronic Control Unit (ECU) 1 control the
+recirculation system in the left wing. FLSCU 2 and ECU 2 control the
+right wing system.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 46 of 254
+FOR TRAINING PURPOSES ONLY
+B2 SCOPE &amp; PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 47 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL IDG COOLING SYSTEM PRESENTATION (3) FUEL RETURN The recirculated
+fuel is sent to the outer cell through a check valve and a
+pressure-holding valve to not let the fuel get to boiling temperature.
+The pressure-holding valve keeps a pressure of 15.5 psi in the return
+line. If the pressure increases, fuel bleeds through the valve into the
+outer cell. The check valve prevents fuel flow from the wing tank to the
+engine when the recirculation system is not in operation. NOTE: Note:
+When the outer cell is full, the fuel overflows into the inner cell
+through a spill pipe.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 48 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL RETURN
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 49 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL IDG COOLING SYSTEM PRESENTATION (3) PUMP LOGIC While fuel is
+supplied from the center tank, the wing tanks stay full and will
+possibly overfill, because the returned fuel is supplied to the wing
+tanks. If this occurs, the center tank pump stops when the inner cell
+gets to the FULL level sensor. The wing tank pumps will supply the fuel
+to the engine until approximately 500 kg (1100 lbs) of fuel are used and
+the UNDERFULL sensor is reached. The logic circuit then starts the
+center tank pump again.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 50 of 254
+FOR TRAINING PURPOSES ONLY
+PUMP LOGIC
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 51 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL IDG COOLING SYSTEM PRESENTATION (3) FRV CLOSURE OVERFLOW The Fuel
+Return Valve (FRV) closes if the center tank pump does not obey the
+logic signals of the full level sensors. This causes the wing tank to
+overflow through the tank ventilation system into the vent surge tank.
+The overflow sensor sends an electrical signal to the FLSCU. The FLSCU
+sends a closure signal to the Electronic Control Unit (ECU) through the
+Engine Interface Unit (EIU). The ECU closes the FRV and stops the fuel
+supply back to the outer cell.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 52 of 254
+FOR TRAINING PURPOSES ONLY
+FRV CLOSURE - OVERFLOW
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 53 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL IDG COOLING SYSTEM PRESENTATION (3) FRV CLOSURE (continued) OUTER
+CELL HIGH TEMPERATURE The FRV closes if the fuel temperature is too high
+in the outer cell, i.e. 52.5°C (126.5°F). Because the returned fuel from
+the engine is hot, the FLSCU prevents an overtemperature in the wing
+tanks. The FLSCU sends a closure signal to the Electronic Control Unit
+(ECU) through the Engine Interface Unit (EIU). The ECU closes the FRV
+and stops the fuel supply back to the outer cell.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 54 of 254
+FOR TRAINING PURPOSES ONLY
+FRV CLOSURE - OUTER CELL HIGH TEMPERATURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 55 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL IDG COOLING SYSTEM PRESENTATION (3) FRV CLOSURE (continued) INNER
+CELL HIGH TEMPERATURE The FRV closes if the fuel temperature is too high
+in the inner cell, i.e. 55°C (131°F). Thus a large volume of
+high-temperature fuel will not go into the inner cell if the intercell
+valve opens. This also keeps the fuel temperature at an acceptable level
+if a tank rupture occurs.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 56 of 254
+FOR TRAINING PURPOSES ONLY
+FRV CLOSURE - INNER CELL HIGH TEMPERATURE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 57 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL IDG COOLING SYSTEM PRESENTATION (3) FRV CLOSURE (continued) PUMP
+PRESSURE LOSS The FRV closes if a fuel pump Low Pressure (LP) is sensed
+by all pump pressure switches of one wing for the related engine when
+the crossfeed valve is closed, or if a fuel pump LP is sensed by all
+pump pressure switches of the two wings when the crossfeed valve is
+open. This is to stop the return fuel flow during engine gravity
+feeding. LP is sensed by the pump LP switch and a signal is sent to the
+FLSCU.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 58 of 254
+FOR TRAINING PURPOSES ONLY
+FRV CLOSURE - PUMP PRESSURE LOSS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 59 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL IDG COOLING SYSTEM PRESENTATION (3) FRV CLOSURE (continued) IDG LOW
+LEVEL The FRV closes when the fuel level in the inner cell decreases to
+the IDG LOW LEVEL sensor at 280 kg (620 lbs). NOTE: Note: When the fuel
+return valve closes, this decreases the quantity of fuel that cannot be
+used.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 60 of 254
+FOR TRAINING PURPOSES ONLY
+FRV CLOSURE - IDG LOW LEVEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 61 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO MODE The A/C is on the ground,
+slats extended and center tank pumps in AUTO MODE. When all tank pump
+P/Bs are pressed, wing tank pumps are running all the time and center
+tank pumps are not running because the slats are extended.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 62 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 63 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO MODE (continued) AT ENGINE START
+AN DURING THE FOLLOWING 2 MINUTES At engine start, the fuel used
+indication is reset. The engine identification number becomes white.
+During the engine start sequence and in the following 2 minutes, the
+center tank pumps run regardless of the slat position. When running,
+center tank pumps have priority for engine supply over wing tank pumps.
+After this delay, center tank pumps stop because slats are still
+extended.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 64 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - AT ENGINE START AN DURING THE FOLLOWING 2 MINUTES
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 65 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO MODE (continued) TAKE OFF The two
+minutes time delay has expired. The CTR TK pumps are stopped. The A/C is
+ready for takeoff.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 66 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - TAKE OFF
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 67 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO MODE (continued) SLATS RETRACTED
+With the slats retracted, the center tank pumps start again.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 68 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - SLATS RETRACTED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 69 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO MODE (continued) IN CRUISE In the
+fuel system of the engine, fuel is also used for oil cooling. Some of
+the hot fuel is then recirculated into the wing tank. As long as the
+center tank pump supplies the engine the recirculated fuel continuously
+fills the wing tank. When the fuel in the wing tank inner cell has
+reached the FULL level, the center tank pump is controlled to stop, and
+is displayed green, cross line on the ECAM. Now the wing tank pumps
+supply the engine until the fuel level in the wing tank has decreased by
+500 kg, and has therefore reached the UNDERFULL level. The center tank
+pump is controlled to run again, and is displayed green, in line on the
+ECAM. Each center tank pump is controlled independently by its adjacent
+wing tank level sensors, i.e. full and underfull.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 70 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - IN CRUISE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 71 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO MODE (continued) CTR TANK LOW
+LEVEL AT CRUISE The A/C is in cruise. We can see the fuel quantity
+indication on the center tank. When the center tank fuel has been used,
+the center tank pumps stop automatically 5 minutes after the center tank
+fuel low level has been reached. The wing tank pumps continue to supply
+the engines.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 72 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - CTR TANK LOW LEVEL AT CRUISE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 73 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO MODE (continued) INNER CELL LOW
+LEVEL We can see the fuel quantity indication on the wing tank. When the
+first inner cell quantity decreases to the LO LVL value, the transfer
+valves open automatically and are latched until the next refueling. The
+outer cell fuel flows to the related side inner cell.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 74 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - INNER CELL LOW LEVEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 75 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO MODE (continued) LANDING After
+landing, when the engines are stopped, the engine identification numbers
+become amber.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 76 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - LANDING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 77 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO FEED FAULT / MANUAL MODE The A/C
+is in cruise. As soon as the Fuel Quantity Indication System detects a
+Fuel Qty in one or both Wing Tanks with less than 5000 KG and more than
+250 KG in the CTR Tank, the FAULT will be indicated by: - Master Caution
+and Single Chime, - EWD "FUEL AUTO FEED FAULT" message, - FAULT light in
+Mode select P/B.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 78 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO FEED FAULT / MANUAL MODE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 79 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO FEED FAULT / MANUAL MODE
+(continued) MANUAL MODE SELECTED When selected the MODE SEL P/B MAN
+light comes on white. The center tank pumps run again.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 80 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO FEED FAULT / MANUAL MODE - MANUAL MODE SELECTED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 81 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO FEED FAULT / MANUAL MODE
+(continued) CENTER TANK EMPTY We can see the fuel quantity indication on
+the center tank, the MASTER CAUT comes on and the aural warning sounds.
+When the center tank is empty, the pump LO press warnings come on as the
+pumps continue to run.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 82 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO FEED FAULT / MANUAL MODE - CENTER TANK EMPTY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 83 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM NORMAL OPERATION (2) AUTO FEED FAULT / MANUAL MODE
+(continued) PUMPS OFF The center tank pump symbols are amber because the
+pumps have been manually selected OFF.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 84 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO FEED FAULT / MANUAL MODE - PUMPS OFF
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 85 of 254
+FOR TRAINING PURPOSES ONLY
+APU FEED SYSTEM D/O (3) two DC motors in the actuator are supplied from
+different 28V DC sources.
+GENERAL
+VALVE OPEN
+The APU fuel supply system comprises a fuel pump, a Low Pressure (LP)
+fuel valve and an actuator on the rear wall of the center tank. The fuel
+supply to the APU is normally from the Left Hand (LH) crossfeed line.
+The APU LP fuel shut-off system has a LP fuel valve that controls the
+supply of fuel to the APU. If an APU fire occurs on ground, the APU
+emergency shutdown system closes the LP fuel valve to stop the flow of
+fuel. When the crossfeed valve is open, either engine feed line, left or
+right, can supply fuel to the APU.
+The valve opens when: - the APU MASTER SWitch is set to ON, - the FUEL
+VENTilation P/BSW in the APU compartment is pressed and held. The FUEL
+VENT P/BSW is used to purge the system during ground maintenance.
+VALVE CLOSE
+APU PUMP
+The valve closes when: - the ECB powers down after APU shutdown, - the
+FUEL VENT P/BSW is released, - the APU FIRE P/BSW on the overhead panel
+released out , - the APU FIRE SHUT-OFF switch on the panel FWD of the
+Nose Landing Gear (NLG) bay is operated, - the fire detection system
+operates on the ground (APU Emergency Shutdown and APU Auto
+extinguishing function).
+The fuel pressure for the APU comes either from the APU fuel pump or the
+engine fuel pumps. For normal operation, the essential bus bar 801XP
+(115V AC) supplies the pump motor. When the bus bar is not energized,
+the static inverter bus bar 901XP (115V AC) supplies the pump motor.
+CANISTERS The canister permits pump replacement even with fuel in the
+tanks or in the APU fuel line. When a pump is removed, the fuel pressure
+closes the canister inlet and outlet.
+PRESSURE SWITCH The pressure switch controls pump operation. The
+pressure in the left crossfeed line operates a micro switch. The APU
+fuel pump stops if the crossfeed line pressure reaches 23.3 psi absolute
+(1.6 bar) and restarts at 21.7 psi (1.5 bar).
+APU LP SHUT-OFF VALVE
+FUEL VENT P/B When the A/C is on ground, it is possible to operate the
+APU fuel pump (single phase 115VAC) to purge the fuel line. The FUEL
+VENT P/BSW on frame (FR) 80 in the APU compartment is used to operate
+the pump and to open the LP fuel valve.
+APU MASTER SWITCH If the APU MASTER SW P/BSW is pressed ON, the APU pump
+will operate if the pump inlet pressure is below 21.7 psi (1.5 bar)
+absolute. This is initiated automatically through the pressure switch.
+The APU LP fuel shut-off valve is used to isolate the APU fuel supply
+line from the left engine feed line, when the APU does not operate. The
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 86 of 254
+FOR TRAINING PURPOSES ONLY
+LINE SHROUD AND DRAIN MAST To prevent leaked fuel from spilling into the
+area of the fuselage (AFT Cargo Compartment, Bilge area, THS
+Compartment), the APU fuel supply line is shrouded. The shroud is
+connected to a Drain Mast which is located AFT of the MLG Doors.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 87 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL ... LINE SHROUD AND DRAIN MAST
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 88 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 89 of 254
+FOR TRAINING PURPOSES ONLY
+APU FEED SYSTEM D/O (3) OPERATION APU MASTER SW OPERATED When the MASTER
+Switch P/B is operated, the blue ON light comes on and the LP Valve
+opens. The pressure switch monitors the fuel pressure in the APU fuel
+feed line and operates the APU fuel pump while the fuel pressure is
+below the threshold.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 90 of 254
+FOR TRAINING PURPOSES ONLY
+OPERATION - APU MASTER SW OPERATED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 91 of 254
+FOR TRAINING PURPOSES ONLY
+APU FEED SYSTEM D/O (3) OPERATION (continued) LH WING TANK PUMP P/B
+OPERATED When one (or more) LH wing-tank pump P/B(s) is (are) operated,
+the white OFF light goes off. The pressure switch monitors the fuel
+pressure in the APU fuel feed line and stops the APU fuel pump while the
+fuel pressure is higher than the threshold.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 92 of 254
+FOR TRAINING PURPOSES ONLY
+OPERATION - LH WING TANK PUMP P/B OPERATED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 93 of 254
+FOR TRAINING PURPOSES ONLY
+APU FEED SYSTEM D/O (3) OPERATION (continued) FUEL VENT P/B OPERATED
+When the fuel vent P/B is pushed and held, the APU LP shut-off valve
+opens and the pressure switch that monitors the fuel pressure operates
+the fuel pump. The APU fuel line is then drained and open to the air for
+a short time.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 94 of 254
+FOR TRAINING PURPOSES ONLY
+OPERATION - FUEL VENT P/B OPERATED
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 95 of 254
+FOR TRAINING PURPOSES ONLY
+REFUEL/DEFUEL CONTROL PANEL PRESENTATION (2) MULTI-TANK INDICATOR
+TEST SWITCH
+The multi-tank indicator displays the quantity of fuel in each wing and
+in the center tank.
+When the TEST switch is set to the HI LVL position, the HI LVL lights
+come on if the high level sensors and their circuits are serviceable. A
+filament test is done when the TEST switch is set to LighTS. All the
+panel lights come on and all quantity indications show 8s.
+HIGH LEVEL LIGHTS A blue HIgh LeVeL light for each tank comes on when
+the associated high level sensor is covered. The related refuel valve
+will close.
+PRESELECTED
+REFUEL VALVE SELECTOR
+When automatic refueling, the fuel quantity taken aboard is governed by
+the setting on the PRESELECTED display.
+There is one refuel valve selector per tank. For an automatic refueling,
+these refuel valves selectors remain in the NORMal position. For the
+defueling, the valves will not open. When the selector is set to OPEN,
+the refuel valve operation depends on the MODE SELECTor position. With
+the MODE SELECT in the REFUEL position, each refuel valve closes when
+the associated high level is reached. When the REFUEL VALVES selector is
+set to the SHUT position, the refuel valve is closed. This is
+independent of the MODE SELECT position.
+ACTUAL
+MODE SELECTOR
+The ACTUAL total quantity indication shows the amount of fuel on board.
+ROCKER SWITCH The desired fuel figure of the pre-selector is obtained by
+tripping the rocker switch to decrease or increase.
+END LIGHT
+With the MODE SELECT at OFF, the refuel valves are closed. When the MODE
+SELECT is set to REFUEL, the refuel valves operate automatically or
+manually depending on the position of the refuel valve selectors. For
+defueling or transfer of fuel the MODE SELECT is set to DEFUEL/XFR. It
+opens the defuel/transfer valve.
+The green END light comes on when automatic refueling is complete. It
+flashes in case of incorrect fuel pre-selection or when automatic refuel
+operation has stopped for any reason other than completion of normal
+operation.
+OPEN LIGHT The amber OPEN light comes on when the MODE SELECT is set to
+DEFUEL/XFR. It confirms the opening of the defuel/transfer valve.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 96 of 254
+FOR TRAINING PURPOSES ONLY
+MULTI-TANK INDICATOR ... END LIGHT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 97 of 254
+FOR TRAINING PURPOSES ONLY
+COCKPIT PRESELECTOR PRESENTATION (OPTION) (2) GENERAL The basic
+refuel/defuel system of the A/C is controlled from the belly fairing
+refuel/defuel control panel.
+OPTIONAL FUEL QUANTITY PRESELECTOR IN FLIGHT COMPARTMENT Optionally, the
+refueling operation can also be controlled from the cockpit via the
+cockpit refuel/defuel control panel. From this preselector, the aircrew
+can set the required quantity of fuel and initiate automatic refueling
+operation. This cancels any fuel quantity set on the belly fairing
+refuel/defuel control panel. When the required fuel quantity is set on
+the cockpit preselector, the ready for refueling light, located on the
+RH wing adjacent to the refuel coupling, comes on. When the PoWeR P/BSW
+is pushed, the ON light comes on, and the refueling circuits are
+energized. The white CocKPiT light also comes on, on the preselector
+panel in the cockpit and on the external refuel/defuel control panel.
+When the high level sensors fail, refueling is stopped and the FAULT
+light on the PWR P/BSW comes on. The refuel valves switches on the belly
+fairing refuel/defuel control panel are in the NORM position and the PWR
+P/BSW pushed. When the ConTroL momentary action P/BSW is pushed, the ON
+light comes on, and refueling is controlled from the cockpit
+preselector. There is no need to operate the external refuel/defuel
+control panel. If the refuel valves switches are not in the NORM
+position on the belly fairing refuel/defuel control panel, the VALVE
+amber light comes on.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 98 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL &amp; OPTIONAL FUEL QUANTITY PRESELECTOR IN FLIGHT COMPARTMENT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 99 of 254
+FOR TRAINING PURPOSES ONLY
+REFUEL/DEFUEL SYSTEM D/O (3) GENERAL
+when energized and a refuel pressure is supplied, opens the valve. The
+refuel gallery is a fuel line that connects all the refuel valves
+together.
+The refuel/defuel system controls the fuel flow into or out of the A/C.
+Automatic refueling, manual refuel, defuel or ground transfer are
+controlled from the refuel/defuel control panel, installed on the belly
+fairing. A refuel/defuel coupling, also installed in the leading edge of
+the wing, is the interface between the refuel/defuel system and the
+external fuel source. Wing tank gravity refueling is possible. To fill
+the fuel tanks to their maximum capacity, the A/C must be level. During
+an automatic refueling, the refueling of each fuel tank is controlled by
+the FQI computer. The main fuel pumps are used to defuel the A/C. The
+defuel/transfer valve and the crossfeed valve must be open.
+SPILL PIPES
+DIFFUSERS The diffusers, installed on refuel lines, diffuse fuel into
+the tanks with minimum turbulence and electrostatic build-up.
+AIR INLET AND DRAIN VALVES
+REFUEL/DEFUEL CONTROL PANEL The primary components on the refuel/defuel
+control panel are: - the control panel, - the fuel quantity
+PreSELector, - the fuel quantity indicator. When the quick release door
+of the refuel/defuel control panel is opened, it operates a micro
+switch, which sends a signal to the FQI computer and connects the 28V DC
+supply to the refuel/defuel electrical circuits.
+REFUEL/DEFUEL COUPLING
+The air inlet valve lets air into the refuel gallery after refueling.
+Thus fuel can drain from the refuel gallery through the fuel drain
+valve. A pipe extends from the air inlet valve to the outboard side of
+rib 21. This pipe makes sure that the air inlet remains above the fuel
+level at all times. This stops the movement of fuel from one wing tank
+to another by gravity. The fuel drain valves are closed by fuel pressure
+in the refuel gallery. When the pressure source is removed, the valve
+opens to allow fuel to drain from the refuel gallery into the wing tank.
+DEFUEL/TRANSFER VALVE
+The refuel/defuel coupling supplies the wing tanks and the center tank.
+When not in use, the coupling is fitted with a pressure-blanking cap.
+The refuel/defuel coupling has a standard 2.5 inch adaptor flange. The
+coupling ring has a breakaway groove around its circumference. This
+prevents damage to the A/C structure if a sideways force is applied.
+The defuel/transfer valve connects the main fuel pump system to the
+refuel gallery. When open, the valve permits the fuel in the main fuel
+pump system to be moved into the refuel gallery. The valve is controlled
+by the MODE SELECT toggle switch on the refuel/defuel control panel.
+PRESSURE RELIEF VALVE
+REFUEL VALVE AND REFUEL GALLERY Each refuel valve, one per tank, is the
+interface between the refuel gallery and the related fuel tank. The
+valve is controlled by a solenoid which,
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+During a refuel operation, the outer cell is filled first. When it is
+full, fuel flows into the inner cell through the spill pipe which
+connects the two cells together.
+The pressure relief valve releases fuel into the RH wing tank if a
+center tank overflow occurs.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 100 of 254
+FOR TRAINING PURPOSES ONLY
+HIGH LEVEL SENSOR One high level sensor is installed in each tank. When
+the high level sensor is immersed in fuel, the Fuel Level Sensing
+Control Unit (FLSCU) receives this state, amplifies this signal to
+control the refuel valve to close.
+OVERWING REFUELING POINTS (OPTIONAL) As an option, each wing tank has an
+overwing refuel point installed in the upper wing surface, to refuel the
+A/C when a pressure refuel source is not available. During an overwing
+refuel, the fuel only goes into the wing tank. It is then necessary to
+do a fuel transfer to get the fuel into the correct fuel-load
+configuration.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 101 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL ... OVERWING REFUELING POINTS (OPTIONAL)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 102 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 103 of 254
+FOR TRAINING PURPOSES ONLY
+AUTOMATIC REFUEL OPERATION (2) PREPARATION Put the Flaps and Slats into
+the 0 position. Fire Fighting Equipment must be located near the
+aircraft. Make sure that the chocks do not touch the tires. Make sure
+that the aircraft and the fuel tanker are grounded correctly. Make sure
+that the coupling of the fuel supply- hose is clean, then connect it to
+the aircraft refuel coupling. NOTE: Note: that the nominal refueling
+pressure is 50 psi per square inch, i.e. 3.45 bar. CAUTION: If, as an
+option, a second refuel/defuel coupling is installed, only one
+refuel/defuel coupling should be used at a time.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 104 of 254
+FOR TRAINING PURPOSES ONLY
+PREPARATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 105 of 254
+FOR TRAINING PURPOSES ONLY
+AUTOMATIC REFUEL OPERATION (2) TEST OF THE REFUEL/DEFUEL CONTROL PANEL
+The refuel/defuel control panel 800VU is located in the RH fuselage
+belly fairing. Open the fuel control Panel. First, start with the Light
+test and push the switch in the light test position. Now all the lights
+must go on. The second test is the high level test. Push the switch in
+the High Level position and all the high level lights must come on. Make
+sure that the Refuel Valves switches are in the Normal Position
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 106 of 254
+FOR TRAINING PURPOSES ONLY
+TEST OF THE REFUEL/DEFUEL CONTROL PANEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 107 of 254
+FOR TRAINING PURPOSES ONLY
+AUTOMATIC REFUEL OPERATION (2) AUTOMATIC REFUELING On the Preselector,
+put the Rocker switch to the increase position and hold it there. When
+the Preselected display shows the necessary fuel load, release the
+Preselected rocker switch. On the refuel/ defuel control panel, put the
+Mode Selector switch in the Refuel position. Start the pump on the fuel
+tanker Unit and make sure that the numbers on the Actual Display
+increase. When the refuel operation is complete, make sure that the End
+light comes on. Stop the pump on the fuel Tanker and put the Mode
+Selector switch to the OFF and guarded Position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 108 of 254
+FOR TRAINING PURPOSES ONLY
+AUTOMATIC REFUELING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 109 of 254
+FOR TRAINING PURPOSES ONLY
+AUTOMATIC REFUEL OPERATION (2) CLOSE-UP Disconnect the Coupling and
+clean the Area.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 110 of 254
+FOR TRAINING PURPOSES ONLY
+CLOSE-UP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 111 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL QUANTITY INDICATING (3) GENERAL The Fuel Quantity Indicating (FQI)
+is a computerized capacitance type system. The system mainly gives: -
+fuel mass/temperature measurement and display, - control of automatic
+aircraft refueling, - system integrity monitoring using BITE, - ARINC
+429 digital data for interface to other systems.
+FQIC The Fuel Quantity Indication Computer (FQIC) does the fuel mass
+calculations and controls the whole system by using various interfaces.
+The FQIC has two identical channels. Each channel calculates the tank
+quantities and monitors the status of the other channel. The healthiest
+channel is in control. If one channel fails, the system operates
+normally, but the ECAM will indicate a failure warning on the upper
+Display Unit (DU) as well as the Centralized Fault Display System (CFDS)
+report will indicate the failure.
+PROBES A set of capacitance probes in each tank sends a signal to the
+computer in relation to the fuel level in the tank. There are 5 probes
+in the center tank and 14 per wing tank. 2 probes are inside the
+optional Additional Center Tank. A single probe failure does not affect
+the system indication. In each tank inner cell, fuel probe No. 2 and in
+each outer cell fuel probe No. 13 have diodes that give the fuel
+temperature to the FQIC for indication on the ECAM system display.
+CAPACITANCE INDEX COMPENSATOR One probe with a Capacitance Index
+Compensator (CIC) is installed inside each tank such that under normal
+operational conditions it is always
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+fully submerged in fuel and thus the permittivity of the fuel can be
+determined. The Capacitance Index Compensator has a capacitance in
+proportion to the dielectric constant of the fuel. The capacitance value
+is a result of the density of the fuel between the plates. The fuel
+density changes with temperature and type of fuel. In the case of
+cadensicons failure, the fuel mass can be calculated from a density
+value as assumed from the dielectric constant value. This standard
+dielectric constant value depends on the type of fuel and fuel
+temperature.
+CADENSICONS The cadensicons give a signal to the computer in proportion
+to the density and the dielectric constant of the fuel held in each
+tank. The fuel mass is calculated from this density value.
+FLSCU The Fuel Level Sensing Control Units (FLSCU) are mainly used: - to
+shut the related refuel valve when the high level is reached in each
+tank, - to start the BITE test of the high level sensors and their
+related circuits, by using the TEST switch on the refuel/defuel control
+panel. High-level sensors in each tank send a signal to the FQIC, via
+the FLSCU. The test is started via the FQIC and the FLSCU. Sensor and
+system status is sent from the FQIC to the CFDS.
+REFUEL/DEFUEL CONTROL PANEL The FQIC sends automatic shut-off indication
+at a preselected refuel quantity. When the MODE SELECT switch on the
+refuel/defuel control panel has been set to the REFUEL position, the
+FQIC first makes sure that it is physically possible to transfer the
+preselected fuel quantity from tank to tank.Throughout the automatic
+refuel operation the FQIC monitors the density of fuel in each tank and
+the distribution of the load.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 112 of 254
+FOR TRAINING PURPOSES ONLY
+MTI
+FMGC
+A Multi Tank Indicator (MTI) displays the fuel quantity in each tank.
+Fuel parameters are sent to the Flight Management and Guidance Computers
+(FMGCs), for navigation computations.
+FWC
+ECAM
+The FWC sends the audible warning and the MASTER CAUT light comes on.
+Total and individual tank fuel mass information is sent to the ECAM for
+display.
+PRESELECTOR The pre-selector shows the pre-selected and actual total
+fuel quantities, as monitored by the computer.
+LGCIU 1 The FQIC receives the left and right L/G compressed information
+from Landing Gear Control and Interface Unit (LGCIU) 1.
+L/G CONTROL LEVER The FQIC receives ground information from the L/G when
+selected DOWN with the aircraft on jacks. This signal is used to supply
+electrical power to the FQIC in this specific configuration.
+ADIRS Acceleration data is received from the Air Data/Inertial Reference
+System (ADIRS) during flight and is used as an alternate source of
+attitude. Normally, effects of attitude, changes in acceleration,
+effective pitch and roll angles, are calculated from the height of fuel
+at each probe and the knowledge of the tank geometry stored in the
+computer memory.
+CFDS ARINC 429 output links transmit BITE information from the computer
+to the CFDS. The CFDS monitors fault conditions and BITE.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 113 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL ... ECAM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 114 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 115 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL QUANTITY INDICATING (3) OPERATIONAL PRINCIPLE In each tank the
+density of the fuel is measured by using a cadensicon, which measures
+only its respective tank. The signals have a continuous 30 seconds time
+average applied to remove fluctuations. If the cadensicon signal is not
+available or invalid (all failed or out of range in water) the
+Capacitance Index Capacitor (CIC) signal is used. One probe has a CIC at
+its lower end. The CIC has a specific function: - to measure the
+dielectric constant, because most of the time it is fully covered by
+remaining fuel in tank. The FQIC uses the dielectric constant to
+calculate the fuel volume in the tanks. The electrical capacitance of
+each probe is proportional to the height of fuel around the probe. One
+CIC probe is positioned in the tank (always fully submerged in fuel
+under normal operational conditions) measuring the permittivity of the
+fuel (K, also called the dielectric). A separate component called
+Cadensicon (on A318, A319 &amp; A320) or, Ultracomp and Dualcomp (on the
+A321) is used to measure the density of the fuel. With fuel height and
+permittivity data, the volume of fuel in the tank (cell) is determined.
+When combined with the fuel density information the mass of fuel is
+calculated by the FQIC.
+NOTE: The ECAM displays the Fuel on Board (FOB) with two amber dashes as
+a degraded display, as long as the accuracy is not degraded beyond 5%.
+NOTE: Non-constant temperature basically changes the Density and
+Permittivity. In normal operation the FQIC calculates the mass of fuel
+with an accuracy of 1%. In back-up operation, if density information is
+lost, once the volume of fuel in the tank (cell) is determined, the fuel
+density is assumed from the Dielectric characteristic (K) as per the
+chart. The "Block FUEL" is calculated by the FQIC, but with a reduced
+accuracy (less than 3% to 4%).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 116 of 254
+FOR TRAINING PURPOSES ONLY
+OPERATIONAL PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 117 of 254
+FOR TRAINING PURPOSES ONLY
+OPERATIONAL PRINCIPLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 118 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 119 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL LEVEL SENSING (3) - generating the wing tank low level warning on
+ECAM when exposed to air for more than 30s.
+B2 SCOPE
+FULL LEVEL
+CAUTION: MODULE TAGGED B2 SCOPE. BE AWARE THAT ONLY AVIONICS/ELECTRICAL
+TOPICS SHOULD BE LEARNED FOR A T2 COURSE.
+A center tank pump will stop when the two FULL LVL sensors in the
+related wing tank are wet. The pump will not operate again until at
+least one UNDERFULL LVL sensor in the related wing tank is dry. The
+related center tank LOW LVL sensor must also be wet for the pump to
+restart.
+GENERAL The aircraft is equipped with two multi-channel Fuel Level
+Sensing Control Units (FLSCU) and a third one, if the Additional Center
+Tank (ACT) is installed. They provide high fuel level sensing, low fuel
+level sensing, full fuel level sensing, underfull fuel level sensing,
+overflow level and temperature sensing. Fuel level and temperature
+sensors feed signals to the multi-channel amplifiers. The FLSCU detect
+and amplify the signals and trigger switching functions in the
+appropriate circuits.
+HIGH LEVEL The FLSCUs use signal conditioning to independently monitor
+the high level sensors. When the high level sensor in the fuel tank
+becomes wet, the FLSCUs will give a output to: -close the related refuel
+valve -cause the related HI LVL light to come on at the refuel panel
+LOW LEVEL A signal is given to the time delay relays when a center tank
+LOW LVL sensor becomes dry. When the LOW LVL sensor has been dry for
+five minutes, the related center tank pump is latched off. 3 low level
+sensors at a fuel level of 750 Kg (1653 lbs) in each wing tank are used
+for: - opening of the Intercell Transfer Valves simultaneously in both
+wing tanks when exposed to air the first time.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+UNDERFULL LEVEL The full and underfull level sensors are installed in
+the wing tanks. The FLSCU use the full and the underfull level sensor
+data to control the automatic operation of the center tank fuel pumps.
+This controls the wing tank fuel level. Data from the full level sensor
+is used to make sure the fuel level (in the wing tank) does not increase
+above the full mark. Data from the underfull level sensor is used to
+make sure that the fuel level (in the wing tank) does not decrease to
+less than 500 kg (1100 lb) below the full mark (with fuel in the center
+tank).
+OVERFLOW LEVEL If the center tank pump fails to stop with inner cell
+full level reached, the overflow sensor sends a signal, via the FLSCU,
+to the Engine Interface Unit (EIU) to close the Fuel Return Valve (FRV).
+TEMPERATURE SENSOR The fuel temperature sensor in the wing tank inner
+cell sends a high fuel signal temperature signal 52.5°C (126.5°F). The
+fuel temperature sensor in the wing tank outer cell sends a high fuel
+signal temperature signal 55°C (131.0°F).
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 120 of 254
+FOR TRAINING PURPOSES ONLY
+IDG SHUT-OFF SENSOR When the IDG shut-off sensor is dry (280 Kg) the
+FLSCU signals the fuel return valve to close. This stops the fuel
+recirculation system, to prevent an increase in the amount of unusable
+fuel in the wing-tank. The IDG shut-off sensors stop the IDG cooling
+when the fuel quantity is less than 280 Kg (616lbs).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 121 of 254
+FOR TRAINING PURPOSES ONLY
+B2 SCOPE ... IDG SHUT-OFF SENSOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 122 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 123 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM OPERATION, CONTROL &amp; INDICATING (3) FUEL AUTO FEED FAULT RH
+MAIN PUMP 1 FAULT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 124 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 125 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL FEED SYSTEM OPERATION (2) AUTO MODE The auto mode will cover the
+following steps: - normal operation, - transfer sequence, - abnormal
+operation, - failure conditions.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 126 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 127 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL FEED SYSTEM OPERATION (2) AUTO MODE (continued) NORMAL OPERATION
+A/C configuration before take-off is: - full load of fuel, - all 4 wing
+pumps ON, - CenTeR TanK (CTR TK) transfer valve P/BSWs ON, - MODE
+SELector P/BSW set to AUTO mode. The center tank transfer valves
+indications are green when in CLOSED position on the ECAM. NOTE: Left
+and right center tank transfer valves control is independent from each
+other. At engine start, the fuel used indication is reset. The engine
+identification number changes color from amber to white at or above
+idle. Engines are supplied directly from the wing tanks.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 128 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - NORMAL OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 129 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL FEED SYSTEM OPERATION (2) AUTO MODE (continued) TRANSFER SEQUENCE
+Each center tank transfer valve is controlled independently by its
+adjacent wing tank level sensors, i.e. full and underfull. When the fuel
+level in one wing has decreased by 200 kg, and has therefore reached the
+underfull level, the center tank transfer valve is controlled to open,
+and is displayed green, in line on the ECAM. Fuel is transferred from
+the center tank to the wing tank. When the full level is reached, the
+transfer valve is controlled to close, and is displayed green, cross
+line on the ECAM. NOTE: This sequence can be initiated on ground
+depending upon the fuel level. The transfer sequence is terminated; the
+center tank transfer valves close when the center tank low level sensors
+are dry and 5 minutes time delay has elapsed. There are four low level
+sensors per wing tank: - two for 1500 kg level, - two for 750 kg level.
+When the fuel level in the wing tanks has decreased and two 1500 kg
+level sensors in a wing are continuously dry for 30 seconds, a MEMO
+message is shown. When the fuel level still decreases and two 750 kg
+low-level sensors in a wing are continuously dry for 30 seconds a low
+fuel level warning is triggered, i.e. single chime, MASTER CAUTion. When
+the engines are stopped, the engine identification numbers become amber.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 130 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - TRANSFER SEQUENCE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 131 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - TRANSFER SEQUENCE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 132 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - TRANSFER SEQUENCE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 133 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL FEED SYSTEM OPERATION (2) AUTO MODE (continued) ABNORMAL OPERATION
+A/C in flight, in case of center tank transfer valves not controlled to
+open, the FAULT light on the MODE SEL P/BSW and the MASTER CAUT come on
+and the single chime sounds.
+FAILURE CONDITIONS The failure conditions are: - failure of the center
+tank transfer valves, - with more than 250 kg fuel left in the center
+tank, with less than 5000 kg fuel in either wing tank. The FUEL page is
+automatically displayed and shows: - center tank transfer valves amber
+crossed, center tank fuel quantity boxed amber, Fuel On Board (FOB)
+boxed amber, - on the EWD an AUTO XFR FAULT message appears and, an
+amber half box is shown around the FOB indication. The crew must set the
+MODE SEL P/BSW to MAN mode.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 134 of 254
+FOR TRAINING PURPOSES ONLY
+AUTO MODE - ABNORMAL OPERATION &amp; FAILURE CONDITIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 135 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL FEED SYSTEM OPERATION (2) MANUAL MODE In manual mode, the center
+tank transfer valves are directly controlled from the respective CTR TK
+P/BSW. The FAULT light in the CTR TK left or right transfer P/BSW comes
+on amber, associated with an ECAM caution in case of related wing tank
+overflow. The related CTR TK L XFR or R XFR P/B switch must be set to
+OFF. After the FAULT light disappears the P/B will be selected and
+remains in that position until the FAULT light appears again. This
+procedure needs to be repeated as long as there is fuel in the Centre
+Tank. After the tank is empty both P/B switches are left in the OFF
+position with the valve symbols indicated in amber on the ECAM FUEL SD.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 136 of 254
+FOR TRAINING PURPOSES ONLY
+MANUAL MODE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 137 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL QUANTITY INDICATING (3) GENERAL
+ULTRACOMP
+The Fuel Quantity Indicating (FQI) is a computerized capacitance type
+system. The system mainly provides: - fuel mass/temperature measurement
+and display, - control of automatic aircraft refueling, - system
+integrity monitoring using BITE, - ARINC 429 digital data for interface
+to other systems.
+The ultracomp has three functions: - variable capacitors value, which
+has the same function as the dualcomp, - a velocimeter measurement
+function, - a temperature sensing function. The FQIC uses all this
+information together with the dual comp to calculate the density of the
+fuel.
+FQIC The Fuel Quantity Indication Computer (FQIC) does the fuel mass
+calculations and controls the whole system by means of various
+interfaces. The FQIC has two identical channels. Each channel calculates
+the tank quantities and monitors the status of the other channel. The
+healthiest channel is in control. If one channel fails, the system
+operates normally, but the ECAM will indicate a failure warning on the
+upper Display Unit (DU) as well as the Centralized Fault Display System
+(CFDS) report will indicate the failure.
+PROBES
+FLSCU The Fuel Level Sensing Control Units (FLSCUs) are mainly used: -
+to shut the related refuel valve when the high level is reached in each
+tank, - to initiate the BITE test of the high level sensors and their
+related circuits, by using the test switch on the refuel/defuel control
+panel. High level sensors in each tank send a signal to the FQIC, via
+the FLSCU. The test is initiated via the FQIC and the FLSCU. Sensor and
+system status are sent from the FQIC to the CFDS.
+REFUEL/DEFUEL CONTROL PANEL
+A set of capacitance probes in each tank sends a signal to the computer
+in relation to the fuel level in the tank. A single probe failure
+doesn't affect the system indication. In each wing tank, a diode is
+attached to fuel probe No. 2 that gives the fuel temperature to the FQIC
+for indication on the ECAM system display.
+The FQIC provides automatic shut-off at a preselected refuel quantity.
+When the MODE SELECT switch on the refuel/defuel control panel has been
+set to the REFUEL position, the FQIC first makes sure that it is
+physically possible to take the preselected fuel quantity into the
+aircraft. Throughout the automatic refuel operation the FQIC monitors
+the density of fuel in each tank and the distribution of the load.
+DUALCOMP
+MTI
+The dualcomp is installed in the fuel tank and operates as a variable
+capacitor. The capacitance value is a result of the density of the fuel
+between the plates. The fuel density changes with temperature and type
+of fuel.
+A Multi Tank Indicator (MTI) displays the fuel quantity in each tank.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 138 of 254
+FOR TRAINING PURPOSES ONLY
+FWC
+ECAM
+The FWC operates the audible warning and causes the MASTER CAUT light to
+come on.
+Total and individual tank fuel mass information is sent to the ECAM for
+display.
+PRESELECTOR The pre-selector shows the pre-selected and actual total
+fuel quantities, as monitored by the computer.
+LGCIU 1 The FQIC receives the left and right L/G compressed information
+from Landing Gear Control and Interface Unit (LGCIU) 1.
+L/G CONTROL LEVER The FQIC receives ground information from the L/G when
+selected DOWN with the aircraft on jacks. This signal is used to give
+electrical supply to the FQIC in this specific configuration.
+ADIRS Acceleration data is received from the Air Data/Inertial Reference
+System (ADIRS) during flight and is used as an alternate source of
+attitude. Normally, effects of attitude, changes in acceleration,
+effective pitch and roll angles, are calculated from the height of fuel
+at each probe and the knowledge of the tank geometry stored in the
+computer memory.
+CFDS ARINC 429 output links transmit BITE information from the computer
+to the CFDS. The CFDS monitors fault conditions and BITE.
+FMGC Fuel parameters are sent to the Flight Management and Guidance
+Computers (FMGCs), for navigation computations.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 139 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL ... ECAM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 140 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 141 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL QUANTITY INDICATING (3) LOCATION There are 5 probes in the center
+tank and 14 per wing tank. 2 probes are located in the optional
+additional center tank.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 142 of 254
+FOR TRAINING PURPOSES ONLY
+LOCATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 143 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL LEVEL SENSING (3)
+CAUTION: MODULE TAGGED B2 SCOPE. BE AWARE THAT ONLY AVIONICS/ELECTRICAL
+TOPICS SHOULD BE LEARNED FOR A T2 COURSE.
+-   2 in each wing for 1500 kg (3307 lbs) fuel level, in case of
+    exposure to air for more than 30 s: low fuel level advisory on the
+    memo page,
+-   2 in each wing for 750 kg (1653 lbs) fuel level, in case of exposure
+    to air for more than 30 s: low fuel level warning on the ECAM.
+    Exposure of the optional ACT low-level sensors causes the fuel FWD
+    transfer to stop.
+GENERAL
+FULL LEVEL
+The aircraft has two multi-channel Fuel Level Sensing Control Units
+(FLSCUs) and a third one, if the Additional Center Tank (ACT) is
+installed. They supply high fuel level sensing, low fuel level sensing,
+full fuel level sensing, underfull fuel level sensing, and overflow
+level and temperature sensing. Fuel level and temperature sensors feed
+signals to the multi-channel amplifiers. The FLSCUs detect and amplify
+the signals and trigger switching functions in the appropriate circuits.
+When the full level is reached in one wing tank, the center transfer
+valve closes to stop fuel transfer operation from the center tank to the
+wing tank until the fuel level in the wing tank reaches the underfull
+level.
+B2 SCOPE
+HIGH LEVEL The high level sensors, when immersed in fuel, command the
+closure of the associated tank refuel valve when the MODE SELECT switch
+is set to the REFUEL position. Wet high-level sensors cause the
+associated: - tank refuel valves to shut, - blue HIGH LEVEL lights to
+come on, on the refuel/defuel control panel. The wet center tank
+high-level sensor causes fuel transfer from the optional ACT to the
+center tank to stop.
+LOW LEVEL The center tank low-level sensors control the automatic
+transfer of fuel from the center tank to the wing tanks. When sensors
+become dry for 5 minutes, the FLSCUs send a close signal to the related
+control valve. 4 low-level sensors are used in each wing tank:
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+UNDERFULL LEVEL When the fuel level in the wing tanks drop to the
+underfull sensors, the center tank transfer valves are controlled to
+open for a fuel transfer operation, provided there is fuel in the center
+tank. The difference between full and underfull level sensors is equal
+to a fuel quantity of 200 kg (440 lbs).
+OVERFLOW LEVEL When full level is reached in the wing tank and overflows
+into the vent surge tank, the overflow sensor sends a signal to the
+Engine Interface Unit (EIU) to close the Fuel Return Valve (FRV).
+TEMPERATURE SENSOR The temperature sensor commands the closure of the
+FRV, when the temperature of the fuel in the wing exceeds the limits
+i.e. 52.5°C (126.5°F).
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 144 of 254
+FOR TRAINING PURPOSES ONLY
+IDG SHUT-OFF SENSOR The FLSCUs signal the Full Authority Digital Engine
+Control (FADEC) to close the FRV. If the fuel level is below 280 kg (616
+lbs), the IDG shut-off sensor stops the IDG cooling.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 145 of 254
+FOR TRAINING PURPOSES ONLY
+B2 SCOPE ... IDG SHUT-OFF SENSOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 146 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 147 of 254
+FOR TRAINING PURPOSES ONLY
+A321 FUEL VENT SYSTEM D/O (3) installed between rib 25 and rib 24. Too
+much pressure in the inner cell or in the vent surge tank causes fuel to
+be released overboard through an overpressure protector installed on a
+tank access panel. The center tank overpressure protector releases fuel
+into the left wing tank.
+GENERAL The fuel tank venting system prevents overstressing of tanks.
+VENT SURGE TANK Each vent surge tank vents to the atmosphere through a
+NACA type intake connected to a vent duct. A vent protector and a flame
+arrestor are in the vent duct. The function of the vent protector is to
+prevent clogging of the vent duct by ice formation. The flame arrestor
+decreases the risk of a ground fire which could cause ignition of the
+fuel tanks. Fuel spilled through the vent pipes into the surge tank is
+put back into the outer cell by a scavenge jet pump that uses motive
+power from the wing fuel pumps.
+VENT FLOAT VALVE This valve will let the air flow between the wing tank
+and the related surge tank to keep an equal pressure. The float valve
+will close when the wing tank is full to prevent fuel spills into the
+surge tank.
+WING TANK VENTING SYSTEM Each wing tank vents to the related vent surge
+tank. The ducts are sufficiently large to make sure that if there is a
+failure of the pressure refueling shut-off system, excess fuel will be
+discharged overboard through the NACA intake. A rubber check valve
+installed in the vent line lets all fuel that goes into the vent lines
+drain back to the related tank.
+CENTER TANK VENTING SYSTEM The center tank vents into the LH vent surge
+tank. The center tank vent line is a standard open line that includes a
+check valve and is sufficiently large for an airflow. If the center tank
+is filled with too much fuel, most of the fuel flows to the right wing
+tank through the relief valve.
+OVERPRESSURE PROTECTION Overpressure protectors are installed in the
+system to release pressure in the tanks that can be caused by a vent
+blockage or a pressure refueling gallery failure. Too much pressure in
+the outer cell causes fuel to be released into the inner cell through an
+overpressure protector
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 148 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL - VENT SURGE TANK ... VENT FLOAT VALVE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 149 of 254
+FOR TRAINING PURPOSES ONLY
+A321 FUEL VENT SYSTEM D/O (3) VENT SURGE TANK LAYOUT A vent surge tank
+is installed in the LH and RH wings between rib 22 and rib 26. The vent
+surge tank is open to the external air through a stack pipe which is
+connected to a NACA duct. The NACA duct is on an access panel at the
+bottom of the vent surge tank. The vent surge tank lets the air flow
+through it in each direction. The vent surge tanks have a capacity of
+190 liters (50 US gal).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 150 of 254
+FOR TRAINING PURPOSES ONLY
+VENT SURGE TANK LAYOUT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 151 of 254
+FOR TRAINING PURPOSES ONLY
+A321 FUEL VENT SYSTEM D/O (3) VENT FLOAT VALVE LAYOUT A vent float valve
+is installed at RIB 22 in each wing tank. The vent float valve includes:
+A body, A stop, A float assembly.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 152 of 254
+FOR TRAINING PURPOSES ONLY
+VENT FLOAT VALVE LAYOUT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 153 of 254
+FOR TRAINING PURPOSES ONLY
+A321 FUEL RECIRCULATION SYSTEM D/O (3) GENERAL The recirculation system
+has for each engine: - A recirculation pipe - A cooling fuel pipe - A
+piccolo tube - A recirculation pressure-holding valve - Three
+recirculation check valves The recirculation pipe connects to the Fuel
+Return Valve (FRV) and the inboard face of rib 16 in the wing tank. Two
+holes at the end of the recirculation pipe let the fuel go into the wing
+tank. The piccolo tube is attached to the end of the recirculation pipe.
+The piccolo tube has six holes that let the fuel go into the wing tank.
+The cooling fuel pipe is attached to the recirculation pipe on the
+outboard face of rib 15. The main fuel pumps move the fuel through the
+cooling fuel pipe.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 154 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 155 of 254
+FOR TRAINING PURPOSES ONLY
+ACT SYSTEM PRESENTATION (2) GENERAL The installation of 6 Additional
+Center Tanks (ACTs) in the aft cargo compartment increases the A319 CJ
+fuel capacity. The fuel capacity is approximately: - 2497 kg (5504lb)
+for ACT 1, 2 or 6, - 1749 kg (3856 lb) for ACT 3 or 4, - 2437 kg (5373
+lb) for ACT 5. The fuel management system has also: - two Fuel Level
+Sensing Control Units (FLSCUs), - one Auxiliary Level Sensor Control
+Unit (ALSCU).
+FEED CONCEPT Fuel is automatically transferred from the ACT to the
+center tank when the fuel level of the center tank decreases.
+MANAGEMENT The different functions of the system are: - fuel level
+sensing, - fuel transfer from ACT to center tank, - refuel/defuel
+control and monitoring, - indications, - warnings, - test. The Auxiliary
+Fuel Management Computer (AFMC) manages refuel operations of the ACT and
+the Fuel Quantity Indication Computer (FQIC) manages wing and center
+tanks refuel operations. FLSCU's 1 and 2 for LH, and RH are used for
+wing and center tank fuel level sensing. ALSCU is used for ACT fuel
+level sensing.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 156 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL ... MANAGEMENT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 157 of 254
+FOR TRAINING PURPOSES ONLY
+ACT INSTALLATION PRESENTATION (2) GENERAL The Additional Center Tanks
+(ACTs) are installed in the aft and FWD cargo compartments.
+INSTALLATION When loaded into the aft / FWD cargo hold through the aft /
+FWD cargo door, the ACT must connect to the systems that follow: -
+refuel/defuel pipe, - vent pipe, - drain system pipes, - air
+pressurization line, - Fuel Quantity Indication (FQI) and level sensing
+systems, - vent and inlet valves power supplies, - impact/heat shield
+wall.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 158 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL &amp; INSTALLATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 159 of 254
+FOR TRAINING PURPOSES ONLY
+ACT SYSTEM CONTROLS AND INDICATING (2) ACT CONTROL PANEL The ACT XFR
+MODE SELECTOR P/BSW is on the cockpit overhead control panel and
+controls the ACT transfer system. For automatic transfer, the ACT MODE
+SELECTOR P/BSW is in the AUTO position. If the necessary conditions are
+met, the control circuit: - closes the vent valve, - opens the air
+shut-off valve, - opens the fuel transfer valve, - opens the fuel inlet
+valve. - energizes the ACT transfer pump. For manual transfer, the ACT
+MODE SELECTOR P/BSW must be pushed in until the MAN legend comes on.
+When the necessary conditions are met, the control circuit: - opens the
+ACT fuel transfer valve, - opens the ACT fuel inlet valve, - energizes
+the ACT transfer pump. The FAULT legend on the ACT MODE SELECTOR P/BSW
+comes on with an ECAM warning if a transfer fault occurs. The FAULT
+legend on the ACT MODE SELECTOR P/BSW comes on with an related ECAM
+warning if during the automatic FWD transfer, any ACT empties before the
+previous ACT is empty. Or, if during the manual transfer mode any of the
+valves are in the incorrect position.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 160 of 254
+FOR TRAINING PURPOSES ONLY
+ACT CONTROL PANEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 161 of 254
+FOR TRAINING PURPOSES ONLY
+ACT SYSTEM CONTROLS AND INDICATING (2) ACT ECAM FUEL PAGE The ACT
+parameters are displayed on the fuel system page of the ECAM display.
+The ACT fuel tanks total quantity is shown inside a grey box. The ACT to
+center tank transfer symbol appears when a fuel transfer is in progress.
+A triangle, normally green, indicates that the ACT fuel transfer is
+started towards the center tank. Some additional indications appear in
+case of failure of the automatic transfer or of the ACT transfer pump.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 162 of 254
+FOR TRAINING PURPOSES ONLY
+ACT ECAM FUEL PAGE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 163 of 254
+FOR TRAINING PURPOSES ONLY
+ACT SYSTEM CONTROLS AND INDICATING (2) ACT REFUEL DEFUEL CONTROL PANEL
+(800VU)-(801VU) The primary components on the refuel/defuel control
+panel are: - the control panel 800VU - the control panel 801VU - the
+fuel quantity preselector - the fuel quantity indicator. The ACT refuel
+valve switches are on the outside refuel/defuel panel and control the
+status of the ACT refuel valve. When in NORM position, automatic
+refueling logic controls the refuel valves. Its status changes with the
+position of the mode selector switch and fuel pressure. When in OPEN
+position, the valve will open with fuel pressure. When in SHUT position,
+the refuel valve status does not change with the position of the mode
+selector switch. The fuel quantity rotary selector switch is on the
+outside refuel/defuel panel and lets the fuel quantity indicator show
+the different fuel quantities. If you select the ACT with the rotary
+selector switch, the indicator will show the fuel quantity of the
+selected ACT. When the system detects a high fuel level in the ACT, the
+HI LVL blue light comes on.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 164 of 254
+FOR TRAINING PURPOSES ONLY
+ACT REFUEL DEFUEL CONTROL PANEL (800VU)-(801VU)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 165 of 254
+FOR TRAINING PURPOSES ONLY
+ACT SYSTEM D/O (3) The check valves prevent the vapor from the ACTs in
+the cabin. The filter cleans the air that goes into the tank.
+GENERAL The Additional Center Tanks (ACTs) are extensions of the center
+tank and are installed in the aft and FWD cargo compartments. ACTs to
+center tank transfer is automatically controlled in flight. Cabin air
+pressure pressurizes the ACTs for the transfer.
+TRANSFER Automatic transfer is the normal mode in flight. If there is
+system failure or flight at low level or on ground, manual transfer mode
+is selectable. The automatic transfer occurs when: - the A/C is in
+flight, - the slats are retracted, - the MODE SELector P/BSW is in the
+AUTO position, - one ACT low level sensor minimum is wet, - the center
+tank fuel level drops to 5000 Kg (11030 lb). When the fuel level reaches
+5750 kg (12700 lb), the transfer stops, until it drops again to 5000 kg
+(11030 lb). These conditions open the fuel inlet valve and the fuel
+transfer valve on the fuel transfer line. For manual transfer, the MODE
+SEL P/BSW must be pushed and the rotary selector set to the ACT that is
+to be transferred. This condition opens the fuel inlet valve, the fuel
+transfer valve and only if the aircraft is on ground, the ACT transfer
+pump is energized. In flight, the cabin pressure will be used to
+transfer the fuel.
+PRESSURIZATION SYSTEM When the automatic fuel MODE SEL transfer is
+selected, the ACT air shutoff valve opens and lets the air pressure from
+the cargo compartment pressurize the ACTs. Fuel is then transferred from
+the ACT to the center tank by pressurization. The pressure-reducing
+valve regulates the ACTs air pressure to around 0.34 bar (5 psi) more
+than ambient air pressure.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 166 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL ... PRESSURIZATION SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 167 of 254
+FOR TRAINING PURPOSES ONLY
+ACT SYSTEM D/O (3) VENT SYSTEM When the automatic fuel MODE SEL transfer
+is selected, the ACT vent valve closes to pressurize the ACTs. If the
+ACT pressure is too high, the overpressure protector depressurizes the
+ACTs through the vent line. The inward pressure-relief valve gives
+protection to the bladder bag from excessive inward pressure during
+descent and emergency descent. The center tank venting system releases
+air of the ACTs to the atmosphere through the shrouded ACT vent line.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 168 of 254
+FOR TRAINING PURPOSES ONLY
+VENT SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 169 of 254
+FOR TRAINING PURPOSES ONLY
+ACT SYSTEM D/O (3) DRAIN SYSTEM A drain line connects the refuel/defuel
+line, the vent line and the space between the ACT bladder tank and the
+ACT structure to the A/C drain mast. If a fuel leak occurs, the fuel
+goes to the atmosphere through the drain line. The drain line has leak
+monitors that can examine if there is a fuel leakage in the ACT system.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 170 of 254
+FOR TRAINING PURPOSES ONLY
+DRAIN SYSTEM
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 171 of 254
+FOR TRAINING PURPOSES ONLY
+1 ACT TO 2 ACTS DIFFERENCES (3) GENERAL The A319 A320 A321 can be
+equipped with a second Additional Center Tank (ACT) called ACT 2
+installed in the aft cargo compartment behind ACT 1. ACT 1 and ACT 2 are
+identical. Each ACT can hold approximately 2349 kg of fuel. The
+refuel/defuel system, the vent system and the pressurization system are
+identical to those fitted on A/C equipped with only one ACT.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 172 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 173 of 254
+FOR TRAINING PURPOSES ONLY
+1 ACT TO 2 ACTS DIFFERENCES (3) CONTROL AND INDICATING When we add an
+ACT in the A/C, the control and indicating change.
+CONTROL The Fuel Quantity Indicator (FQI) SELECT switch has been removed
+from the refuel/defuel panel and has been replaced by two ACT FQIs on
+the Multi Tank Indicator (MTI). A second REFUEL VALVE switch and HIgh
+LeVeL (HI LVL) light have also been added.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 174 of 254
+FOR TRAINING PURPOSES ONLY
+CONTROL AND INDICATING - CONTROL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 175 of 254
+FOR TRAINING PURPOSES ONLY
+1 ACT TO 2 ACTS DIFFERENCES (3) CONTROL AND INDICATING (continued)
+INDICATING The two ACTs are shown on the ECAM FUEL page with their fuel
+quantity.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 176 of 254
+FOR TRAINING PURPOSES ONLY
+CONTROL AND INDICATING - INDICATING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 177 of 254
+FOR TRAINING PURPOSES ONLY
+1 ACT TO 2 ACTS DIFFERENCES (3) FUEL FORWARD TRANSFER Automatic and
+manual fuel forward transfer with two ACTs is carried out in exactly the
+same way as with one ACT except that ACT 2 will be emptied first until
+the ACT 2 low level sensors are dry.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 178 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL FORWARD TRANSFER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 179 of 254
+FOR TRAINING PURPOSES ONLY
+1 ACT TO 2 ACTS DIFFERENCES (3) REFUEL AND DEFUEL In case we put another
+ACT in the A/C, we can see the differences during the refuel and defuel
+operation.
+REFUEL The ACTs are refueled at the same time as the other tanks.
+Depending on the pre-selected fuel quantity, fuel will be added first to
+the wing tanks, then to the center tank, then to ACT 1 and then to ACT
+2.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 180 of 254
+FOR TRAINING PURPOSES ONLY
+REFUEL AND DEFUEL - REFUEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 181 of 254
+FOR TRAINING PURPOSES ONLY
+1 ACT TO 2 ACTS DIFFERENCES (3) REFUEL AND DEFUEL (continued) DEFUEL The
+ACTs are defueled by moving fuel from the ACTs to the center tank. The
+center tank high level sensor must be dry to ensure there is enough
+space in the center tank for fuel from the ACTs.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 182 of 254
+FOR TRAINING PURPOSES ONLY
+REFUEL AND DEFUEL - DEFUEL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 183 of 254
+FOR TRAINING PURPOSES ONLY
+ACT REFUEL/DEFUEL SYSTEM PRESENTATION (2) GENERAL Different procedures
+are used to refuel/defuel A/C. For refueling: - pressure refuel:
+automatic and manual, - overwing refuel: gravity. For defueling: -
+pressure defuel: main pumps operation. In automatic operation, the
+Additional Center Tank (ACT) will only be refueled if the pre-selected
+fuel quantity is greater than the maximum capacity of both the center
+tank and the wing tanks.
+ACT REFUEL VALVE A solenoid controlled refuel valve controls the fuel
+flow into the ACTs. If the refuel valve does not operate correctly, the
+valve can be open using its manual override-button.
+ACT FUEL INLET VALVE Installed in the ACT fuel supply line, the ACT fuel
+inlet valve opens when fuel has to be moved from the ACT to the center
+tank or vice-versa.
+REFUEL RESTRICTOR VALVE Installed in the fuel line inside the ACTs, the
+restrictor valve limits the refuel rate but not the defuel rate of the
+ACTs.
+ACT FUEL TRANSFER VALVE Installed in the fuel line to the center tank,
+the ACT fuel transfer valve opens in case of automatic or manual fuel
+transfer.
+ACT TRANSFER PUMP The ACT transfer pump operates when a manual fuel
+transfer is selected.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 184 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL ... ACT TRANSFER PUMP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 185 of 254
+FOR TRAINING PURPOSES ONLY
+ACT REFUEL/DEFUEL CONTROL PANEL (2) ACT HIGH LEVEL LIGHT The blue
+Additional Center Tank (ACT) HIgh LeVeL (HI LVL) light comes on when the
+high-level sensors are covered. The refuel valve closes.
+ACT REFUEL VALVE SELECTOR When in Normal (NORM) position, the automatic
+refueling logic controls the ACT refuel valve. When in OPEN position,
+the ACT refuel valve opens when the MODE SELECT SWITCH is set to the
+REFUEL POSITION and with fuel pressure. If the MODE SELECT SWITCH is set
+to REFUEL, the ACT refuel valve closes at ACT high level. When in SHUT
+position, the ACT refuel valve closes.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 186 of 254
+FOR TRAINING PURPOSES ONLY
+ACT HIGH LEVEL LIGHT &amp; ACT REFUEL VALVE SELECTOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 187 of 254
+FOR TRAINING PURPOSES ONLY
+ACT TO CTR TK FUEL XFR OPERATION (3) PREPARATION FOR FUEL TRANSFER We
+will present the various tests before the stage of fuel transfer.
+LIGHT TEST To do the light test of the FUEL QTY panel, the TEST selector
+must be set to the Lights (LTS) position: - all the panel lights come
+on, - the fuel-quantity displays show eights.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 188 of 254
+FOR TRAINING PURPOSES ONLY
+PREPARATION FOR FUEL TRANSFER - LIGHT TEST
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 189 of 254
+FOR TRAINING PURPOSES ONLY
+ACT TO CTR TK FUEL XFR OPERATION (3) PREPARATION FOR FUEL TRANSFER
+(continued) HIGH LEVEL TEST To do the high-level light test, the TEST
+selector must be set to the HIgh LeVeL (HI LVL) position: - the state of
+the HI LVL lights changes.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 190 of 254
+FOR TRAINING PURPOSES ONLY
+PREPARATION FOR FUEL TRANSFER - HIGH LEVEL TEST
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 191 of 254
+FOR TRAINING PURPOSES ONLY
+ACT TO CTR TK FUEL XFR OPERATION (3) FUEL TRANSFER WARNING: OBEY THE
+FUEL SAFETY PROCEDURES. NOTE: Make sure that the space in the center
+tank is sufficient to contain the fuel from the Additional Center Tank
+(ACT). If the quantity of fuel to be moved is more than the capacity of
+the center tank: - transfer the fuel in the center tank to the wing
+tanks. - monitor the fuel quantity indications on the ECAM lower DU.
+Stop the movement of fuel when there is sufficient space in the center
+tank. - on the FUEL ACT panel, push in the ACT XFR MODE SELect P/BSW.
+Make sure that the P/BSW MANual light comes on. - on the FUEL ACT panel,
+set the rotary selector switch to the applicable ACT. - on the FUEL ACT
+panel, make sure that the ACT quantity indication decreases. - on the
+FUEL ACT panel, when the applicable ACT quantity indication shows
+zero: - set the ACT rotary selector switch to OFF - release (out) the
+ACT XFR MODE SEL P/BSW. Make sure that the P/BSW MAN light goes out.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 192 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TRANSFER
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 193 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) General After three fuel tank explosions
+in recent decades, which caused 346 deaths, the U.S Department of
+Transportation, Federal Aviation Administration (FAA), started a new
+regulation to get better fuel tank safety. This regulation is related to
+the prevention of ignition sources in fuel tanks of current type
+certificated aircraft. It requires a one-time fuel system safety and
+design review of the aircraft.
+Critical Design Configuration Control Limitations (CDCCL) The FAA issued
+Special Federal Aviation Regulation (SFAR) 88 which gives a detailed
+description of the CDCCL concept. The DGAC requested the SFAR 88 to be
+added to PART 145, PART M and PART 147 to reinforce the application of
+these regulations. This includes: - a conception part related to
+aircraft design characteristics, - a maintenance part. A CDCCL is a
+limitation requirement to keep a critical ignition source prevention
+characteristic of the fuel system design that is necessary to prevent
+the occurrence of a dangerous condition. The function of the CDCCL is to
+give instructions to keep the critical ignition source prevention
+characteristic during a configuration change that can be caused by
+alterations, repairs or maintenance actions. The aircraft manufacturers
+must supply a document to their customers that gives the list of all the
+maintenance tasks related to the CDCCL. For AIRBUS, this document is
+called the Fuel Airworthiness Limitations and it is added to the
+Airworthiness Limitation Section part 5.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 194 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL - CRITICAL DESIGN CONFIGURATION CONTROL LIMITATIONS (CDCCL)
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 195 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) General (continued) Fuel Information and
+Combustion Triangle A fuel tank can be viewed as a confined space where
+under specific conditions of pressure and temperature the ullage (vacant
+tank space) can be made of an evaporated fuel/air mixture known as fuel
+vapor. The liquid fuel does not blow up on its own; explosive conditions
+are created when specific proportions of evaporated fuel, oxygen,
+pressure and temperature are present in the tank ullage; the fuel vapor
+is then defined as flammable. Even if the ullage is flammable, an
+explosion will not occur unless an ignition source of sufficient energy
+exists. The combustion triangle: An Explosion in a "Fuel" environment
+such as aircraft wing tanks can only occur if the 3 following sources
+are reached: - fuel vapors, - air (Oxygen O2), - ignition (Electrical
+short cut, cigarette, etc.). The aircraft fuel system has, by design, a
+number of features that are intended to protect the system from
+inadvertent ignition. The potential sources of ignition considered
+are: - spark generation inside a fuel tank by electrical current
+originated from external sources such as a lightning strike on the
+aircraft, by wiring or equipment electrical faults, - spark/heat
+generation inside a fuel tank caused by friction of moving parts, - fuel
+leakage outside of a fuel tank coming into contact with an ignition
+source. A chart shows the fuel grades used. The flash point is the
+lowest temperature at which the liquid supplies enough vapors mixed with
+ambient air, to make a gas that will ignite with the contact of a
+thermal source, also called flame. At this temperature the combustion
+will not be self sufficient, because you need to reach the ignition
+point.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+If the ignition does not need a flame, we talk about auto-ignition. The
+Auto-Ignition point is the temperature at which a gas or a vapor ignites
+spontaneously in the absence of a thermal source. Do not confuse this
+term with the ignition point (temperature at which the combustion is
+started and can continue).
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 196 of 254
+FOR TRAINING PURPOSES ONLY
+GENERAL - FUEL INFORMATION AND COMBUSTION TRIANGLE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 197 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Fuel System Design Configuration The
+Airbus aircraft fuel systems have, by design, a number of features that
+are intended to protect the system from inadvertent ignition. - Wing /
+Trim Tank Structure: In all the fuel tanks, the material and the large
+number of fasteners on the attachment of the metallic structure used
+make sure that the fuel tank structures are electrically bonded.
+Composite ribs are bonded by means of metallic strips attached to the
+non-metallic structure. All aluminum structural items in the wing, trim
+and centre boxes have a finishing for protection against electrical
+harnesses short-circuit with the structure. The combination of the
+construction and thickness of the tank boundary skins give protection
+against a lightning strike causing ignition (heat). - Fuel Quantity
+Indicating (FQI) Equipment: Probes and sensors installed in tanks have
+low power supply. Electrical connection is done through a terminal
+block. The protective gap between the probes and the tank structure is
+maintained. They are electrically isolated from the structure. - Fuel
+pump: Fuel pumps have safety features to prevent pumps from working in
+an empty fuel tank. The pumps are tested to show that even after a long
+working condition in an "empty fuel tank" the rotating surfaces remain
+lubricated and thus limit the risk of mechanical ignition. Each of the
+pumps is contained within an explosion-proof canister. It comprises a
+pump element contained within and electrically bonded to the canister
+and driven by an electric motor. Electrical connections to all pumps are
+made outside the tank. The moving parts inside the pump are normally
+submerged in fuel so they cannot generate a spark during faulty
+conditions. - Lightning Protection: All equipment installed within any
+fuel tank is bonded to the structure
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+-   Fuel System Wiring: Only when absolutely necessary, wiring is routed
+    inside fuel tanks. This wiring is limited to sensing and monitoring
+    systems, with very low energy carrying requirements, to protect
+    against the occurrence of an ignition source as a result of high
+    energy entering the fuel tank via the wiring. External electrical
+    wiring support clamps make sure, that a cut cable cannot come into
+    contact with the fuel tank boundary or structure in a fuel vapor
+    area. There is a complete segregation between in-tank wiring
+    equipment and fuel calculators from other aircraft system wirings.
+-   Valves: All motor operated valves within the fuel tanks have the
+    actuator located outside the tank wall. The valve mechanisms inside
+    the tank are dual bonded and do not have an ignition hazard.
+-   Pressure Switches: Pump pressure switches are mounted on the tank
+    boundaries. They are separated from the fuel by a diaphragm. The
+    electrical connections are fully sealed and explosion proof.
+-   Fuel Leaks: It is possible for fuel or fuel vapor to leak from a
+    fuel tank into an adjacent area and the accumulated fuel can become
+    hazardous causing ignition. Fuel leaks from the wing and trim tanks
+    go either to the leading or trailing edge cavities or to the
+    outside. Any fuel overflowing from the NACA intake is directed
+    downwards and away from the engines (heat source) via a fuel leak
+    drip strip (angle section) located inboard of the NACA intake. In
+    the leading and trailing edges the equipment is explosion proofed
+    and insulated from the leakage. The APU fuel feed and Trim Tank
+    transfer pipes at the rear fuselage are shrouded so any fuel leakage
+    is drained overboard via the drain mast.
+-   Heat Sources: Wing leading edges contain hot air ducting from the
+    engines to the bleed air and anti icing systems. These pipes are
+    insulated and separated from the tank boundary.
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 198 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM DESIGN CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 199 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM DESIGN CONFIGURATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 200 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 201 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Maintenance Application of CDCCL CDCCL
+items are listed in Airworthiness Limitation Form. CDCCL section 2 of
+Airworthiness Limitation Form.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 202 of 254
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE APPLICATION OF CDCCL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 203 of 254
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE APPLICATION OF CDCCL
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 204 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 205 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Maintenance Application of CDCCL
+(continued) AMM Application A WARNING in the procedures identifies CDCCL
+items. When a procedure identifies a CDCCL item, it is mandatory and
+necessary that you follow the instructions correctly and accurately. Air
+gap between fuel quantity indicating probes and the aircraft structure.
+WARNING: THIS PROCEDURE USES A FUEL SYSTEM ITEM THAT IS IN A CATEGORY
+KNOWN AS A CRITICAL DESIGN CONFIGURATION CONTROL LIMITATION (CDCCL).
+CDCCL IDENTIFIES AN ITEM THAT CAN BE THE SOURCE OF A POSSIBLE FUEL TANK
+IGNITION. YOU MUST KEEP ALL CDCCL ITEMS IN THE APPROVED CONFIGURATION.
+DAMAGE, WEAR OR CHANGES TO A CDCCL ITEM CAN CAUSE A POSSIBLE FUEL TANK
+EXPLOSION. WARNING: THIS INSTRUCTION IS APPLICABLE TO A CRITICAL DESIGN
+CONFIGURATION CONTROL LIMITATION (CDCCL). CAREFULLY OBEY ALL GIVEN
+INSTRUCTIONS WHEN YOU DO THIS STEP. IF YOU DO NOT OBEY THESE
+INSTRUCTIONS, A DANGEROUS CONDITION CAN OCCUR THAT CAN CAUSE A POSSIBLE
+FUEL TANK EXPLOSION.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 206 of 254
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE APPLICATION OF CDCCL - AMM APPLICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 207 of 254
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE APPLICATION OF CDCCL - AMM APPLICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 208 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 209 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Maintenance Application of CDCCL
+(continued) ESPM Application Separation of fuel quantity and level
+indicating system wiring from other wiring.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 210 of 254
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE APPLICATION OF CDCCL - ESPM APPLICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 211 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Maintenance Application of CDCCL
+(continued) AMM Application Direct bonding on items of an equipment
+inside a fuel tank.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 212 of 254
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE APPLICATION OF CDCCL - AMM APPLICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 213 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Maintenance Application of CDCCL
+(continued) CMM Application Safety critical features of fuel pumps:
+these features must be maintained throughout the full life of the fuel
+pump to avoid a possible ignition source by overheating or sparks caused
+by arcing, or friction etc...
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 214 of 254
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE APPLICATION OF CDCCL - CMM APPLICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 215 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Maintenance Application of CDCCL
+(continued) MPD Application Application in Maintenance Planning
+Document.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 216 of 254
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE APPLICATION OF CDCCL - MPD APPLICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 217 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Maintenance Application of CDCCL
+(continued) SB Application Service bulletin applicable on single aisle
+family aircraft.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 218 of 254
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE APPLICATION OF CDCCL - SB APPLICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 219 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Maintenance Application of CDCCL
+(continued) AD Application Extract of the Airworthiness Directive.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 220 of 254
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE APPLICATION OF CDCCL - AD APPLICATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 221 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Safety Precautions Make sure that you
+have the correct fire fighting equipment available. When you have to
+work on a fuel system wiring, you must use test equipment that is
+approved (otherwise, unapproved equipment could cause fire or an
+explosion). Make sure that the lighting in the work area is sufficient
+to work safely. Wear protective goggles or face mask, clothes and gloves
+and avoid wearing metallic clothing (e.g. footwear or a belt with a
+metal buckle) which can cause sparks. In the work area you must not: -
+smoke, - use flames which do not have protection, - operate electrical
+equipment which is not necessary for the task, - pull or move metal
+objects along the ground, - use hearing-aids or battery-operated
+equipment which will cause sparks.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 222 of 254
+FOR TRAINING PURPOSES ONLY
+SAFETY PRECAUTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 223 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Safety Areas And Accessibility Put the
+safety barriers in position and put the warning notices, to tell persons
+not to operate the fuel system, not to refuel the aircraft and not to
+operate the flaps. Defuel the applicable wing tank or do a ground fuel
+transfer. Use the ECAM to make sure that the applicable fuel tank valves
+are closed and drain the remaining fuel Open and safety tag circuit
+breakers for refuel system, refuel panel, applicable fuel valves and
+SFCC (Slat Flap Control Computers). Open the related fuel tanks access
+panels. NOTE: Note: Some of these precautions are the minimum safety
+standard for work in a fuel tank. Local regulations can make other
+safety precautions necessary.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 224 of 254
+FOR TRAINING PURPOSES ONLY
+SAFETY AREAS AND ACCESSIBILITY
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 225 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Tanks Ventilation Vent the tanks with a
+proper venting system (fitted with minimum 1 air inlet &amp; 1 air outlet).
+Check with a combustible gas indicator (after minimum 6 hours of
+ventilation) the tanks fuel gas concentration. The fuel gas
+concentration must be \&lt; 10% of the Lower Explosive Limit (LEL) before
+entering into the tanks. WARNING: You must use a respirator if the
+fuel-gas concentration in the fuel tanks is more than 5% of the Lower
+Explosive Limit (LEL).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 226 of 254
+FOR TRAINING PURPOSES ONLY
+TANKS VENTILATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 227 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Entry Check-List You must complete the
+Pre-Entry Checklist before you do work in a fuel tank. Finally, get
+access to the applicable work area. WARNING: S: - do not touch or push
+against the magnetic level indicators when you are in the fuel tank.
+This will prevent damage to them. - do not touch or push against the FQI
+probes when you are in the fuel tank. This will prevent damage to them
+and their installation. - do not cause damage to the internal structure,
+sealant, electrical cables, or conduits during maintenance.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 228 of 254
+FOR TRAINING PURPOSES ONLY
+ENTRY CHECK-LIST
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 229 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Working Environment NOTE: Note: You may
+have to remove parts of the structure (and equipment) to get access to
+parts of the tank. Use protective mats on the floor of the fuel tank to
+prevent: - damage to the fuel tank structure, - injury to persons, -
+safety all components before you place them inside the fuel tank, - all
+wire locking must be installed/adjusted outside the fuel tank. Use only
+RED tie wraps in the fuel tanks. Use only approved cleaning materials.
+Make sure that all signs of solvents and cleaning agents are removed
+from the equipment/components before they are installed. Put blanking
+caps on all disconnected pipes and openings in components and tanks. Do
+not connect electrical equipment to a power source less than 30 meters
+away, unless the power source has spark-proof connectors. You must obey
+the fuel safety procedures when you do work in a fuel tank. When
+differences occur, you must use the approved precautions of this
+procedure. WARNING: Do not use metallic wire wool in fuel tanks.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 230 of 254
+FOR TRAINING PURPOSES ONLY
+WORKING ENVIRONMENT
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 231 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL TANK SAFETY PROCEDURES (2) Close-Up After completion of a work in a
+fuel tank, personnel must make sure that: - the work area is clear of
+tools, - the work area is clean, - no electrical equipment has been
+damaged and disconnected, - all the fuel system components have a
+correct electrical bonding, - all access panels are back in their
+original position (e.g. rib access panels).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 232 of 254
+FOR TRAINING PURPOSES ONLY
+CLOSE-UP
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 233 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM LINE MAINTENANCE (2) SERVICING Automatic refueling is
+controlled by the Fuel Quantity Indicating Computer (FQIC) and may be
+performed with normal electrical power (External Ground Power or APU) or
+with battery power. With normal power established, opening the access
+panel will power up the refuel control panel automatically. To refuel on
+batteries, select BATT POWER to ON. To start refueling in the automatic
+mode after the refuel panel is powered, follow these steps: - perform
+the Lights (LTS) and High Level (HI. LVL) test. The high level test
+verifies the operation of the high-level protection system, which
+provides protection against overfilling and spillage. - make sure that
+the REFUEL VALVE switches are in the NORM position - set the
+Pre-selector to the required total fuel load - set the MODE SELECT to
+REFUEL There is no refuel valve indicator. The indication that the valve
+is open is an increase in the fuel quantity. When the refueling is
+complete, the END light will illuminate. The PRESELECTED and ACTUAL
+quantities should be equal (± 100 kg.).
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 234 of 254
+FOR TRAINING PURPOSES ONLY
+SERVICING
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 235 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM LINE MAINTENANCE (2) DAILY CHECKS Years of operational
+experience have shown that regular draining of the fuel tank water
+content will prevent many fuel system problems. The Maintenance Planning
+Document (MPD) recommends that operators perform this procedure every 36
+hours (or less). CAUTION: The following task summaries are presented for
+training only and are not supposed to be used to service an aircraft.
+Always use the current Aircraft Maintenance Manual (AMM) as the
+reference and adhere to ALL safety precautions.
+drain valve. If the drain valve leaks, re-seat the valve by pushing up
+and releasing the drain valve. The fuel removed may be tested for water
+content using a test kit.
+ENVIRONMENTAL PRECAUTIONS Do not discharge products such as oil, fuel,
+solvent, lubricant either in trash bins, soil or into the water network
+(drains, gutters, rain water, waste water, etc...). Sort waste fluids
+and use specific waste disposal containers. Each product must be stored
+in an appropriate and specific cabinet or room such as a fire-resistant
+and sealed cupboard.
+DRAIN WATER CONTENT All drains should be operated to insure proper water
+removal from the fuel. There are 2 drains in the center tank, 1 in each
+wing tank inner cell, 1 in each wing tank outer cell (A318/319/320 only)
+and 1 in each vent surge tank. The remote inlet water drain valves in
+the wing cell or wing tank area have a remote inlet, with a short pipe
+connected to it, which goes to the lowest part of the fuel tank. The
+water drain valves in the center tank and the vent surge tanks do not
+have a remote inlet. Thus they only drain their adjacent area. If
+possible, the best time to drain the water from the tanks is prior to
+refueling. If that is not possible, wait one hour after refueling. The
+center tank drain valves are found in the electric hydraulic pump
+compartments just forward of the wheel well in the belly fairing. The
+wing drain valves are accessible on the lower surface of the wing. To
+operate the drain valves, use the PURGER tool and push up on the valve.
+Make sure to drain at least one liter of fuel for proper water removal.
+Adapting pipes are available for the PURGER tools to operate the wing
+drain valves from the ground. When draining is complete remove the
+PURGER tool and insure that there is no leakage at the
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 236 of 254
+FOR TRAINING PURPOSES ONLY
+DAILY CHECKS - DRAIN WATER CONTENT &amp; ENVIRONMENTAL PRECAUTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 237 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM LINE MAINTENANCE (2) DAILY CHECKS (continued) SAFETY
+PRECAUTIONS The Fuel Tank Inerting System (FTIS) gives gases with low
+oxygen content, referred to as Nitrogen Enriched Air (NEA). This NEA
+starts in the ullage space of the center tank and goes to the surge
+tank. There is a possible risk of asphyxiation in the left wing surge
+tank if you put your head through the NACA duct access panel and the
+center tank access panels. Placards are installed in these spaces to
+tell you of this risk.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 238 of 254
+FOR TRAINING PURPOSES ONLY
+DAILY CHECKS - SAFETY PRECAUTIONS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 239 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM LINE MAINTENANCE (2) MEL/DEACTIVATION This section will
+cover two procedures. The first procedure involves a failed refuel
+valve. The aircraft may be dispatched per MEL and refueling of the
+affected tank is accomplished by manual operation of the refuel valve.
+The second procedure is the use of the Magnetic Level Indicators (MLI).
+The MLI's are used to check fuel quantity in the tanks in case of an
+indication malfunction or during refueling with no electrical power.
+system or the MLI's if electrical power is not available (there will be
+slight reduction in tank capacity if the Intercell transfer valves are
+open - see AMM for tank quantities). When the desired quantity is
+reached, release the plunger to close the valve. The most important
+thing to remember is that there is NO High Level protection when
+operating the refuel valve with the manual plunger.
+CAUTION: The following task summaries are only presented for training,
+and are not supposed to be used to service an aircraft. Always use the
+current Aircraft Maintenance Manual (AMM) as the reference and adhere to
+ALL safety precautions.
+MANUAL REFUEL VALVE OPERATION During refueling, the refuel valve
+solenoid is energized and fuel pressure from the tanker/pump unit opens
+the valve. If the solenoid fails or if the electrical control of the
+solenoid fails, the valve may be operated manually by a plunger on the
+valve. There are 3 refuel valves on the aircraft. The center tank valve
+is located in the R/H wheel well on the forward wall (which is actually
+the center tank rear spar). The wing tank refuel valves are located on
+the left and right wing leading edge near the refuel coupling. The
+refuel/Defuel coupling shown is the optional one on the LH side. NOTE:
+Remember: On the A318/A319/A320, during wing refueling all of the fuel
+goes to the outer cell and spills over into the inner cell, so only one
+refuel valve per wing is required. To refuel a tank, PUSH and HOLD the
+manual plunger on the valve. The fuel pressure from the tanker/pump unit
+will open the valve. Be sure to monitor the fuel quantity carefully
+using the normal indication
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 240 of 254
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION - MANUAL REFUEL VALVE OPERATION
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 241 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM LINE MAINTENANCE (2) MEL/DEACTIVATION (continued) USE OF
+MAGNETIC LEVEL INDICATORS Each fuel tank is equipped with one or more
+Magnetic Level Indicators (MLI's). In case of an indication malfunction
+or during refueling without electrical power available, the MLI's may be
+used to check fuel quantity. There is one MLI in the center tank, 4 in
+each wing tank on the A318/319/320 and 3 in each wing on the A321. To
+use the MLI, extend the indicator rod and read the UNITS mark nearest to
+the bottom skin of the wing. Each tank is checked separately. The center
+and outer tanks have a single MLI each. This MLI is enough to determine
+the fuel volume in that tank. The wing tanks have multiple MLI's. To
+determine the wing volume, use the most outboard MLI, which indicates
+fuel in the tank. To check the total fuel quantity on the aircraft
+determine the total in each tank (CTR, INNER, OUTER) and add them
+together.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 242 of 254
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION - USE OF MAGNETIC LEVEL INDICATORS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 243 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM LINE MAINTENANCE (2) Do not let them fall freely. Carefully
+lift the MLI until you feel the magnet engaging. Read and write down the
+value indicated on the MLI.
+MEL/DEACTIVATION (continued) FUEL LEVEL MAGNETIC INDICATOR In case of
+failure of the quantity indicating system the fuel Manual Magnetic
+Indicators (MMIs) must be used to monitor the quantity in the tanks. One
+MMI is installed in the center tank and five in each wing tank. Each MMI
+assembly is made of a MLI rod that can extend out of its MLI housing
+(listed in AMM by MLI reference, or Magnetic Level Indicator). To
+measure the fuel quantity, the magnetic level indicator has to be
+unlocked. To accomplish this, use a screwdriver to push the applicable
+MLI rod and turn it through 90°. Hold and carefully lower the MLI rod
+fully. Then carefully lift the MLI rod until you feel the magnets. Read
+the units mark nearest to the bottom-skin of the wing and write down the
+number. Retract the MLI rod and use a screwdriver to turn through 90°
+the bayonet type lock. The Magnetic Level indicators are a secondary
+direct reading gage to calculate the fuel in the Aircraft tanks, if the
+Fuel quantity indication system is unserviceable. You must follow the
+fuel safety procedures when working with the fuel system. Put the safety
+barriers in the position. The density of the fuel is essential for
+calculating the mass of fuel in the aircraft tanks. Take a fuel sample
+from the aircraft and measure its specific density. On the A321, 3
+magnetic level indicators are installed per wing, and one per center
+tank. The A318, A319, A320 are equipped with 4 Magnetic level indicators
+per wing and one per center tank. Put an access platform below the
+applicable MLI, start outboard. Use a screwdriver to push the applicable
+MLI and turn it to 90° degrees. Hold and lower the MLI fully.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+NOTE: The value on the MLI nearest to the wing bottom skin is the
+relevant one. Insert and lock the MLI as soon as possible to avoid
+damage. Aircraft attitude data is essential for fuel mass calculation.
+Indication of pitch and roll data can be selected through the MCDU in
+the cockpit. Data is provided by the air data inertial reference unit,
+or by the fuel quantity indication computer. Refer to the table in the
+AMM to find the equivalent reference number and letter. Use the
+applicable MLI stick number and the applicable aircraft attitude grid
+square letter to find the correct fuel quantity table in the AMM. Find
+the applicable MLI units number row and the applicable aircraft attitude
+row in the AMM table.Determine the intersection of the applicable rows
+to give the correct volume in the tank. NOTE: Note: Only even number MLI
+units are listed in the tables. For odd numbers, calculate the volume
+between the nearest even number in the AMM table For fuel mass
+calculation the volume has to be multiplied with the density of the
+fuel. V(dm3) x Fuel(kg/dm3)= kg Add together the values for each tank to
+find the total mass of fuel in the aircraft.
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 244 of 254
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION - FUEL LEVEL MAGNETIC INDICATOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 245 of 254
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION - FUEL LEVEL MAGNETIC INDICATOR
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 246 of 254
+FOR TRAINING PURPOSES ONLY
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 247 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM LINE MAINTENANCE (2) MEL/DEACTIVATION (continued) METHODS TO
+DETERMINE A/C ATTITUDE There are 2 methods to determine aircraft pitch
+and roll when using the MLI's to calculate fuel quantity. It is possible
+to use the attitude information generated by the air data system through
+the Air Data Inertial Reference Unit (ADIRU) or by the fuel system
+through the Fuel Quantity Indicating Computer (FQIC), FQIS INPUT
+PARAMETERS page. It is essential to use the correct fuel tables based on
+aircraft attitude. The air data inputs to the ADIRU can be read by using
+the alpha call-up function in the Aircraft Integrated Data System
+(AIDS). With the ADIRU's in the NAV position, select the AIDS menu in
+CFDS. From this menu, select CALL UP PARAM ALPHA. To access roll data
+type ROLL, and to access pitch data type PTCH. After recording the data,
+convert the pitch and roll references given to the equivalent
+grid-square. For example: ADIRU PITCH (-1.0) = 2 ADIRU ROLL (-0.5) = C
+Equivalent Grid-square = C2 The attitude information input to the FQIC
+may be accessed through the CFDS FQIS INPUT PARAMETERS page. The pitch
+and roll data can be used from the ADIRU if the data is available. ADIRU
+data is identified by an 'A' after PITCH or ROLL. After recording the
+data, convert the pitch and roll references in the same manner as the
+ADIRU data above.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 248 of 254
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION - METHODS TO DETERMINE A/C ATTITUDE
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 249 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM LINE MAINTENANCE (2) MEL/DEACTIVATION (continued) FUEL QTY
+USING MLI Using the attitude reference from the ADIRU AIDS menu or from
+FQIC CFDS menu, the MLI number, and MLI reading, find the correct fuel
+table in the AMM and read the fuel volume. The final step is to convert
+the volume to mass. Multiply the volume by the fuel specific gravity.
+For example with the MLI n°5 in the RIGHT wing Attitude reference : C2
+UNITS reading on the MLI : 10 Volume in liters : 850 Sp. Gravity - 0.81
+Fuel mass = 688.5 Kg. NOTE: Only even-numbered MLI units are listed in
+the tables. To calculate the volume of fuel for odd numbers, interpolate
+(divide the difference) between the nearest even numbers in the table.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 250 of 254
+FOR TRAINING PURPOSES ONLY
+MEL/DEACTIVATION - FUEL QTY USING MLI
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 251 of 254
+FOR TRAINING PURPOSES ONLY
+FUEL SYSTEM LINE MAINTENANCE (2) MAINTENANCE TIPS During a walk-around
+inspection, it is important to check the burst disc in the OUTER cell. A
+white cross should be visible on a black background. If it is not
+visible, it may indicate a problem with the tank venting system. When
+aircraft emergency electrical power is used, two wing fuel boost pumps
+will be supplied, one in each wing. For dispatch per the MEL, both of
+these pumps must be operational. According to the AMM, during refueling
+operations bonding is essential, grounding is recommended. Connect a
+bonding cable between the fuel tanker and a grounding point on the
+aircraft, typically on the Nose or Main gear. Connect a grounding cable
+from a grounding point on the aircraft to the ground.
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 252 of 254
+FOR TRAINING PURPOSES ONLY
+MAINTENANCE TIPS
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 253 of 254
+FOR TRAINING PURPOSES ONLY
+Training Manual Airbus A318/319/ A320/A321 (CFM56 &amp; V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 or V2500)
+CATTS LTD
+Issue 012 - Revision 000 - Dated 01/07/2023 Page 254 of 254</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

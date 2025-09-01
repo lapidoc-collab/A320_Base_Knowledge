@@ -1,0 +1,5478 @@
+[]{#titlepage.xhtml}
+<div>
+```{=html}
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" viewbox="0 0 1200 1600" preserveaspectratio="none">
+```
+`<image width="1200" height="1600" xlink:href="cover_image.jpg">`{=html}`</image>`{=html}
+```{=html}
+</svg>
+```
+</div>
+[]{#index_split_000.html}
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) **Airbus A319/A320/A321**
+**(IAE PW1100G)**
+**B1+B2 Technical Training Manual**
+**ATA 70-84 -- (IAE PW1100G)**
+**Turbine Engines**
+**Contact us**
+**Tel: +44(0) 1565 653745**
+**Email: admin@catts.org.uk**
+**Web: www.catts.org.uk**
+**Online Training: catts.learnupon.com/store** EFFECTIVITY:
+A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 5 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) **TRAINING MATERIAL
+DECLARATION**
+These lecture notes are compiled by Civil Aviation Technical Training
+Solutions Ltd (CATTS Ltd).
+Although comprehensive in their detail, they are only intended for use
+with a theoretical course of instruction and do not constitute a
+training programme in their own right. When issued they are as up to
+date as possible however, amendments will NOT be forwarded.
+**THEY ARE FOR STUDY PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS
+OR**
+**MAINTENANCE**
+[**Click here to visit our new**](https://catts.learnupon.com/store)
+[**online training portal for HF,**](https://catts.learnupon.com/store)
+[**SFAR, EWIS and many more.**](https://catts.learnupon.com/store)
+**Contact us**
+**Tel: +44(0) 1565 653745**
+**Email: admin@catts.org.uk**
+**Web: www.catts.org.uk**
+**Online Training: catts.learnupon.com/store** EFFECTIVITY:
+A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 6 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) **ATA Chapters Required in
+this Training Manual** **TURBINE ENGINES**
+**(IAE PW1100G)**
+ATA 70
+INTRO -- Standard Practices -- engines
+ATA 76
+Engine Controls
+ATA 70A
+Constructional arrangement & operation ATA 77
+Engine Indicating Systems
+ATA 70B
+Engine Performance
+ATA 78
+Exhaust
+ATA 71
+Power plant
+ATA 79
+Oil
+ATA 72
+Engine Turbine/Ducted Fan
+ATA 80
+Starting
+ATA 73
+Engine Fuel and Control
+ATA 82
+Water Injections
+ATA 73A
+FADEC
+ATA 83
+Accessory Gear Boxes
+ATA 74
+Ignition
+ATA 84
+Propulsion Augmentation
+ATA 75
+Air
+INTERF.
+CATTS Interfaces -- ATA 24, 26, 36
+**Contact us**
+**Tel: +44(0) 1565 653745**
+**Email: admin@catts.org.uk**
+**Web: www.catts.org.uk**
+**Online Training: catts.learnupon.com/store** EFFECTIVITY:
+A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 7 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) **Training Manual**
+**Airbus**
+**A319/A320/A321**
+**(IAE PW1100G)**
+ATA 70-84
+Turbine Engines
+Level 3
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 8 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **INTRODUCTION**
+The PW1100G engine is an axial flow, dual-rotor, geared fan, variable
+stator, ultra high bypass ratio power plant. The PW1100G engines power
+the A319, A320 and A321 aircraft of the Single Aisle New Engine Option
+(NEO) family. PW1100G engines are available in several thrust ratings.
+The geared turbo fan engine reduces fuel consumption, air pollution and
+noise.
+Each engine comes with a Data Storage Unit (DSU) which is connected onto
+the Electronic Engine Control (EEC). It provides engine parameters, thus
+the possibility of changing the thrust rating.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 9 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) INTRODUCTION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 10 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **INSTALLATION**
+The power plant installation includes the engine, the engine inlet cowl,
+the fan cowls, the thrust reverser assemblies and the exhaust nozzle and
+centerbody.
+The engine is attached to the pylon by forward and aft mounts to
+transmit the engine and thrust loads. The pylon connects the engine to
+the wing structure. The forward engine mount is located on the
+Compressor Intermediate case. The rear engine mount is located on the
+Turbine Exhaust Case.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 11 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) INSTALLATION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 12 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **MODULAR CONCEPT**
+The PW1100G engine assembly modules are:
+\- Fan rotor
+\- Fan and Intermediate Case
+\- Fan Drive Gear System (FDGS)
+\- Low Pressure Compressor (LPC)
+\- Compressor Intermediate Case (CIC)
+\- High Pressure Compressor (HPC)
+\- Gearboxes under engine core
+\- Diffuser and combustor
+\- High Pressure Turbine (HPT)
+\- Turbine Intermediate Case (TIC)
+\- Low Pressure Turbine (LPT)
+\- Turbine Exhaust Case (TEC).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 13 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MODULAR CONCEPT
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 14 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **MODULAR CONCEPT (continued)**
+**LP ROTOR, HP ROTOR AND COMBUSTION CHAMBER**
+The Low Pressure (LP) rotor comprises a fan driven by the FDGS, the Low
+Pressure compressor and the LP shaft, all driven by the LP
+turbine. The speed of the LP rotor is indicated on the ECAM as N1.
+The fan supplies most of the engine thrust. The air produced by the fan
+is known as secondary airflow or bypass airflow.
+To improve the propulsive efficiency and fuel consumption, the FDGS
+reduces the fan speed thanks to reduction gear mechanism.
+The 3-stage Low Pressure (LP) compressor supplies air to the engine
+core. This is primary airflow. The LP compressor rotates at the same
+speed as the 3 stage LP turbine.
+The High Pressure (HP) rotor is made up of 8 stage HP compressor driven
+by two stage HP turbine. The speed of the HP rotor is indicated on the
+ECAM as N2.
+The LP and the HP rotors are supported by roller and ball bearings which
+are lubricated and cooled.
+The annular combustion chamber is installed between the HP
+compressor and HP turbine.
+It has ports for 18 fuel nozzles and 2 igniter plugs.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 15 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MODULAR CONCEPT - LP ROTOR,
+HP ROTOR AND COMBUSTION CHAMBER
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 16 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **MODULAR CONCEPT (continued)**
+**TRANSFER & ACCESSORY GEARBOXES**
+The accessory gearbox is installed under the core engine and is driven
+by the HP rotor through the Angle gearbox.
+The fuel pumps, oil pumps, hydraulic pump, Integrated Drive Generator
+(IDG) and FADEC alternator are all driven by the gearbox.
+During engine starting, the air turbine starter rotates the HP
+compressor through the gearboxes.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 17 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MODULAR CONCEPT - TRANSFER &
+ACCESSORY GEARBOXES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 18 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **PROPULSION CONTROL SYSTEM (PCS)**
+The Propulsion Control System (PCS) regroups the following subsystems:
+\- The FADEC system consists of an Electronic Engine Control (EEC) and a
+Prognostic Health Monitoring Unit (PHMU),
+\- The Engine Interface Unit (EIU).
+In order to increase engine reliability and efficiency, the FADEC gives
+the full range of engine control to achieve steady state and transient
+engine performances when operated in combination with aircraft
+subsystems.
+The EEC controls the operation of the following:
+\- Engine control for thrust setting in Manual and Auto thrust Modes,
+\- Thrust Control Malfunction protection,
+\- Engine airflow control,
+\- Combustor fuel metering valve,
+\- Control and monitoring sensing,
+\- Ignition and starting systems,
+\- Command and monitoring of the thrust reverser system,
+\- Fault detection, isolation, annunciation and transmission to the A/C
+(BITE).
+When the engine is running, power for FADEC operation is supplied by a
+dedicated alternator driven by the gearbox.
+The PHMU interfaces with the EEC. It monitors the Engine vibrations and
+the Oil debris.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 19 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PROPULSION CONTROL SYSTEM
+(PCS)
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 20 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **EIU**
+The EIU is an interface concentrator between the airframe and the
+corresponding engine. Two EIUs are installed in the A/C. EIU-1
+interfaces with Engine 1 and EIU-2 interfaces with Engine 2.
+The main functions of the EIU are:
+\- To concentrate data from cockpit panels and different aircraft
+systems to the associated EEC on each engine,
+\- To ensure the segregation of the two engines,
+\- To give to the airframe the necessary logic and information from
+engine and to other systems (APU, ECS, Bleed Air, Maintenance),
+\- To give to the FADEC system some necessary logic and information from
+systems (example: flight/ground status).
+The Fan Cowl latches of the A320 NEO are monitored by proximity switches
+which send their position signals to the EIU.
+The EIU transfers signals to the FWC for associated cockpit warnings
+based on specific logic conditions.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 21 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) EIU
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 22 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **THRUST REVERSER SYSTEM**
+The flight crew manually selects reverse thrust by lifting the latching
+levers on the throttle control levers. The thrust reverser system
+comprises of 2 translating sleeves, 10 blocker doors with cascade vanes
+per engine.
+The EEC in accordance with the EIU control valves inside the Hydraulic
+Control Unit (HCU) for deploy and stow sequences.
+HCU supplies hydraulic power to operate thrust reverser actuators.
+The SEC computers authorize unlocking of Tertiary Locks.
+For maintenance or dispatch the reverser system can be inhibited.
+Reverse thrust is only available on the ground.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 23 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 24 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 25 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **OIL SYSTEM**
+The oil system comprises of an Oil tank, oil pumps located within the
+Lubrication and Scavenge Oil Pump unit (LSOP), Oil Control Module (OCM),
+filters and heat exchangers.
+The oil is used to lubricate and cool the bearings, the Fan Drive Gear
+System (FDGS), gearboxes and accessories.
+The supply oil, cooled oil and the return oil parameters are monitored
+for ECAM warnings and indications.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 26 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 27 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **IGNITION AND STARTING SYSTEMS**
+The Engine starting system is used for normal engine starts, in-flight
+restarts and ground monitoring.
+The EEC controls the Starter Air Valve (SAV) to supply air to the
+Starter for initial N2 rotation.
+Then the EEC controls the ignition for combustion starting.
+Parameters are displayed on the ECAM during the sequence.
+NOTE:
+Note: The SAV has a manual override function.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 28 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) IGNITION AND STARTING SYSTEMS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 29 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **CONTROL AND INDICATING**
+This section will highlight the control panels and indications for the
+engines.
+**CONTROL PANELS**
+The engines are controlled by throttle control levers which are
+installed on the center pedestal. They can only be moved manually.
+For reverse thrust operation, two latching levers let the throttle
+control levers move rearward into the reverse thrust section.
+The A320 family aircraft normally operate in the auto thrust mode, when
+in flight.
+The autothrust can be disconnected with an instinctive disconnect
+pushbutton (2 red buttons are installed on the outside of the lever).
+This lets the engines be controlled in manual thrust mode.
+The controls for engine starting and shutdown are installed on the
+center pedestal immediately behind the throttle control levers.
+The engine MAN START switches are installed on the overhead panel. These
+switches are used to start an engine during a manual start procedure.
+They are also used during a dry or wet motoring procedure.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 30 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) CONTROL AND INDICATING -
+CONTROL PANELS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 31 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **CONTROL AND INDICATING (continued)**
+**ECAM ENGINE**
+The engine primary parameters are permanently displayed on the upper
+ECAM.
+The engine secondary parameters are presented on the lower ECAM
+ENGINE page when selected or displayed automatically during engine start
+or a fault.
+Some engine parameters are permanently displayed on the CRUISE
+page in flight.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 32 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) CONTROL AND INDICATING - ECAM
+ENGINE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 33 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **MAINTENANCE/TEST FACILITIES**
+On the maintenance panel, the ENG FADEC GND PWR permits to supply the
+FADEC system for maintenance tasks, when the engines are not running.
+The MCDU is used to do PCS tests and for trouble shooting monitored
+components (computers, sensors, actuators).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 34 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MAINTENANCE/TEST FACILITIES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 35 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **SAFETY PRECAUTIONS**
+When you work on aircraft, make sure that you obey all the Aircraft
+Maintenance Manual (AMM) safety procedures.
+This will prevent injury to persons and/or damage to the aircraft. Here
+is an overview of main safety precautions related to the engines.
+Make sure that all engine danger areas are as clear as possible to
+prevent damage to the engine, the aircraft or persons in the area.
+Be careful: The entry corridor will be closed when the engine power is
+above the minimum.
+Make sure that you have fire-fighting equipment available.
+Do not try to stop the fan from turning by hand.
+After engine shutdown, let the oil tank pressure bleed off for a minimum
+of 5 minutes before you remove the tank filler cap. If you do not,
+pressurized oil can flow out of the tank and cause dangerous burns.
+The engine ignition system is an electrical system with high energy. You
+must be careful to prevent electrical shock. Injury or death can occur.
+Do not do maintenance on the ignition system while the engine operates.
+Make sure that the engine shutdown occurred more than 5 minutes ago
+before you continue with the maintenance procedure.
+Make sure that the thrust reverser is deactivated during maintenance. If
+not, the thrust reverser can operate accidentally and cause injury to
+personnel and/or damage to the reverser.
+When opening the engine cowls:
+o Respect the wind limitations and the opening/closing sequence, o
+Always secure cowls with the hold-open rods, o Make sure that the slats
+are retracted and install a warning notice to prevent slat operation.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 36 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SAFETY PRECAUTIONS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 37 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) 70 POWER PLANT PW1100G
+PRESENTATION (1) **STORAGE AND PRESERVATION**
+Storage and preservation procedures must be applied to engines which are
+not operated. The preservation procedures protect the engine against
+corrosion, liquid and debris entering the engine, and atmospheric
+conditions during period of inactivity.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 38 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) STORAGE AND PRESERVATION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 39 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWERPLANT SYSTEM COMPONENT
+LOCATION (2) **SYSTEM OVERVIEW**
+The PW1100G engine is an axial flow, dual-rotor, geared fan, variable
+stator, ultra high bypass ratio power plant.
+The PW1100G engines power the A319, A320 and A321 aircraft of the A320
+NEO family. PW1100G engines are available in several thrust ratings.
+The geared turbo fan engine provides improved fuel efficiency and
+reduces engine noise. It also reduces the CO2 and NOx emissions.
+All the engines are basically the same. The Data Storage Unit (DSU) on
+the Electronic Engine Control (EEC) provides the possibility of changing
+the thrust rating.
+The power plant installation includes the engine, the engine inlet, the
+exhaust, the fan cowls and the reverser assemblies. The pylon connects
+the engine to the wing structure. The engine is attached to the pylon by
+FWD and AFT mounts.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 40 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SYSTEM OVERVIEW
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 41 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWERPLANT SYSTEM COMPONENT
+LOCATION (2) **SYSTEM OVERVIEW (continued)**
+**THRUST REVERSER SYSTEM**
+The thrust reverser system operated from the cockpit consists of 2
+hydraulically operated translating sleeves.
+When the translating sleeve moves aft during deployment, it lifts
+blocker doors that redirect the engine fan airflow.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 42 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SYSTEM OVERVIEW - THRUST
+REVERSER SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 43 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWERPLANT SYSTEM COMPONENT
+LOCATION (2) **COMPONENT LOCATION**
+The engine system components are at the following locations.
+**FADEC**
+The EEC and Prognostics and Health Management Unit (PHMU) are on the RH
+side of the fan case.
+The DSU is onto the top of the EEC on Channel A side and connected to
+the engine case bracket by a lanyard.
+The FADEC Permanent Magnet Alternator (PMA) is on the forward face of
+the main gearbox.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 44 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) COMPONENT LOCATION - FADEC
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 45 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWERPLANT SYSTEM COMPONENT
+LOCATION (2) **COMPONENT LOCATION (continued)**
+**IGNITION & STARTING**
+One ignition exciter box is on the RH side of the engine fan case at 5
+o\'clock.
+The air starter is at 3 o\'clock aft of the main gearbox.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 46 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) COMPONENT LOCATION - IGNITION
+& STARTING
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 47 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWERPLANT SYSTEM COMPONENT
+LOCATION (2) **COMPONENT LOCATION (continued)**
+**FUEL**
+The primary components of the fuel system are on the RH side of the
+engine core.
+The Integrated Fuel Pump and Control (IFPC) is attached with bolts to
+the fuel manifold on the right side of the main gearbox at the 3
+o\'clock position.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 48 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) COMPONENT LOCATION - FUEL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 49 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWERPLANT SYSTEM COMPONENT
+LOCATION (2) **COMPONENT LOCATION (continued)**
+**AIR**
+The next picture shows the compressor airflow control and the turbine
+case cooling systems.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 50 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) COMPONENT LOCATION - AIR
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 51 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWERPLANT SYSTEM COMPONENT
+LOCATION (2) **COMPONENT LOCATION (continued)**
+**OIL**
+The engine oil tank is attached with frangible mounts to the fan case on
+the left hand side of the engine at the 9 o\'clock position.
+The Lubrication and Scavenge Oil Pump (LSOP) is attached to the rear of
+the main gearbox at the 6 o\'clock position.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 52 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) COMPONENT LOCATION - OIL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 53 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWERPLANT SYSTEM COMPONENT
+LOCATION (2) **COMPONENT LOCATION (continued)**
+**THRUST REVERSER**
+Two translating sleeves are hydraulically operated. The Hydraulic
+Control Unit (HCU) is installed on the pylon.
+On the A320NEO PW1100G, the HCU is made of an Isolation Control Unit
+(ICU) and a Directional Control Unit (DCU) attached together.
+Reverser inhibition is possible via a remote lever.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 54 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) COMPONENT LOCATION - THRUST
+REVERSER
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 55 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT DRAIN
+PRESENTATION (2)
+**PYLON & ENGINE DRAINS**
+The drains from the engine and pylon exit the nacelle through a drain
+mast.
+The drains system provides a controlled leak path exit to the 6 o\'clock
+position of the nacelle for hydraulic, oil and fuel systems.
+The drains system is comprised of the upper pylon drains hoses, lower
+drains through the nacelle bifurcation and the scupper drains assembly
+attached to the fan case providing drainage for the oil reservoir.
+At the lower bifurcation, lateral, core and aft support for the 10
+drains tubes is provided through the mid-clamp support attached to the
+Nacelle Anti-Icing (NAI) flag and through the latch beam seal interface.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 56 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PYLON & ENGINE DRAINS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 57 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT DRAIN
+PRESENTATION (2)
+**DRAIN MAST**
+At the 6 o\'clock position an aerodynamic drain mast protrudes below the
+nacelle surface. The drain mast also has exit holes on the sides and
+bottom surface which are identified to enable trouble shooting of the
+leaking components.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 58 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) DRAIN MAST
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 59 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT INSTALLATION D/O
+(3)
+**INLET COWL**
+The inlet cowl is composed of an inner barrel, outer barrel, forward
+bulkhead, aft bulkhead and a nose lip.
+The inner barrel has acoustic liners for noise suppression. It also
+accommodates the T2 probe.
+The outer barrel has a small flush inlet vent scoop located at 12 o\'
+clock position to provide ram air for fan compartment cooling. It also
+has Nacelle Anti Ice Exhaust Ports at the 6 o\' clock position.
+The inner and outer barrels are made of composite material.
+The forward and aft bulkhead provides support and rigidity to the
+structure.
+The inlet lip is made of a single piece aluminium alloy for engine
+anti-ice purpose.
+It includes installation of interphone jack for service interphone.
+For removal and installation, the inlet cowl is attached to the engine
+at the attach ring with 40 bolts.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 60 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) INLET COWL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 61 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT INSTALLATION D/O
+(3)
+**AIR INTAKE FUNCTIONS**
+The main function of the inlet cowl is to guide the airflow into the
+engine inlet and to permit an aerodynamic airflow over the outer surface
+of the engine.
+When the engine anti icing is selected to ON from the cockpit overhead
+panel, hot bleed air from the engine is ducted to the cowl nose lip to
+prevent ice build-up. The hot air enters to the inlet lip through a
+dedicated duct at the 4 o\' clock position in the outer bulkhead. The
+air then exhausts overboard through a flush exit ports at the 6 o\'
+clock position in the outer barrel.
+The outer barrel has an impregnated copper screen layer for protection
+against lightning strike.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 62 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AIR INTAKE FUNCTIONS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 63 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT INSTALLATION D/O
+(3)
+**FAN COWL DOORS**
+There are two fan cowl doors to enclose the fan case and provide
+aerodynamic smoothness around the engine.
+They are attached to the pylon by three hinges with hinge pins.
+The door assembly is latched along the bottom centerline by three
+latches.
+These latches have a mounting mechanism and visual indicators to ensure
+that they are properly secured.
+Proximity sensors are installed on each latch which sends its position
+signal to the Engine Interface Unit (EIU) for generating necessary
+warning.
+The door can be opened manually. Each door is provided with 2 telescopic
+hold open rods, for opening.
+The fan cowl door rests on 4 axial locators, when closed.
+It also has hoist points, for removal and installation.
+Aerodynamic strakes are mounted on the fan cowls to improve aircraft
+performance during manoeuvres.
+Access doors on the LH side fan cowl door facilitates engine oil
+servicing and the Thrust reverser Hydraulic Control Unit (HCU)
+de-activation without opening the fan cowl.
+A vent grill near the 6 o\' clock position permits the air to escape out
+in case of damage of the anti-ice duct. The same is used for draining
+any fluids in and around the fan case.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 64 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FAN COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 65 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT INSTALLATION D/O
+(3)
+**THRUST REVERSER COWL DOORS**
+The thrust reverser cowl doors (or \"C\" Ducts) are in two halves. Each
+half includes one translating sleeves, two actuators, five blockers
+doors and cascades.
+The thrust reverser cowls provide a smooth air flow around the engine
+area and enclose the engine core components, gear boxes and pipelines.
+Each half is supported by 3 hinges at the pylon. The assembly is latched
+along the bottom centerline by seven latches.
+Each half is provided with:
+\- Hoist points to install a handling sling for removal and
+installation,
+\- 1 opening actuator operated externally using a hydraulic hand pump
+for opening the thrust reverser cowl for maintenance
+\- 1 hold open rod mounted on the fan case for opening.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 66 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 67 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT INSTALLATION D/O
+(3)
+**EXHAUST NOZZLE**
+The exhaust nozzle is formed by the center bodies and nozzle assembly.
+The annular passage between the exhaust nozzles and the centerbodies
+provide a smooth exit of the exhaust gas flow.
+The fire seal fingers (turkey feathers) at the top of the exhaust nozzle
+prevents any flame from entering the core compartment area in the event
+of fire.
+The centerbody also accommodates the drain outlet to expel hazardous
+fluids and vapors. These drains are located at the 6 o\' clock position
+on the forward and aft center bodies.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 68 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) EXHAUST NOZZLE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 69 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT INSTALLATION D/O
+(3)
+**ENGINE MOUNTS**
+The engine is mounted to the pylon by the forward and aft mounts. They
+transfer the engine and thrust loads.
+The forward mount assembly bears the engine thrust, vertical and lateral
+loads. The forward mount is attached to the engine at the Compressor
+Intermediate Case at 12 o\' clock position. The forward mount is
+attached to the pylon by the help of four attachment bolts.
+The thrust link assemblies attached to the forward mount take the
+lateral loads. They are attached to the forward mount through a balance
+beam.
+They are attached to the Compressor Intermediate Case at 09:30 and 02:30
+position.
+The aft mount assembly bears the engine vertical and radial loads. It is
+attached to the engine at the Turbine Exhaust Case (TEC) at 12 o\' clock
+position. It is attached to the pylon by four bolts.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 70 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MOUNTS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 71 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**ENGINE CHARACTERISTICS**
+The Airbus A319, A320 and A321 aircrafts are powered by two PW1100G-JM
+turbofan engines.
+This engine can produce a thrust from 22000 lbs (10000 kg) to 33000
+lbs (14900 kg) depending on the aircraft version set by the Data Storage
+Unit (DSU) which is connected to the Electronic Engine Control (EEC).
+The PW1100G-JM is a twin spool Ultra high bypass turbofan engine with
+the Fan Drive Gear System (FDGS) which enables the fan and the Booster
+Compressor to rotate at different speed thus improving engine
+efficiency.
+The bypass ratio of this engine is 12:1.
+**ENGINE CONTROL**
+The engine includes a Full Authority Digital Engine Control (FADEC)
+system consisting of the EEC with two independent channels, sensors,
+actuators and other peripheral components on the engine. The FADEC
+system provides engine control, engine monitoring and help for
+maintenance and trouble shooting.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 72 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE CHARACTERISTICS -
+ENGINE CONTROL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 73 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**ENGINE MODULES**
+The engine rotor comprises of a single stage fan rotor, 3 stage LP
+Compressor, 8 stage HP Compressor, 2 stage HP turbine and 3 stage LP
+turbine. The engine is built on a modular concept.
+The different modules are:
+\- Fan rotor,
+\- Fan case,
+\- FDGS,
+\- Fan Intermediate Case (FIC),
+\- Low Pressure Compressor (LPC),
+\- Compressor Intermediate Case (CIC),
+\- High Pressure Compressor (HPC),
+\- Diffuser and combustor,
+\- High Pressure Turbine (HPT),
+\- Turbine Intermediate Case (TIC),
+\- Low Pressure Turbine (LPT),
+\- Turbine Exhaust Case (TEC),
+\- Angle and Main Gear boxes.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 74 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MODULES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 75 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**ENGINE MODULES (continued)**
+**FAN ROTOR AND FAN CASE**
+The Fan rotor contributes to approximately 90% of the thrust.
+The fan rotor comprises of the fan drive shaft, inlet cone and 20 wide
+chord fan blades. The fan blades are made of aluminium alloy honeycomb
+structure and reinforced by Titanium leading edges.
+The fan rotational speeds being lower helps in reducing rotational loads
+and bird strike fan damage.
+The fan rotates in a clockwise direction as viewed from the aft looking
+forward.
+The inlet cone is made of composite material and is anti-iced with a
+continuous airflow from of the 2.5 compressor stage.
+The fan case provides an annular path for the bypass air flow.
+The case is made of single piece composite material (Kevlar). It holds
+the outer edge of the Fan Exit Guide Vanes (FEGV).
+The inner walls behind the fan blade area are provided with acoustic
+liners for noise reduction.
+A rubberized strip along the fan blade area helps in minimizing the gap
+and prevents contact between the blades and the case.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 76 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MODULES - FAN ROTOR
+AND FAN CASE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 77 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**ENGINE MODULES (continued)**
+**FAN DRIVE GEAR SYSTEM (FDGS) AND FAN**
+**INTERMEDIATE CASE**
+The FDGS allows the fan to be driven by the LP shaft at a lower speed.
+The FDGS is a reduction gear mechanism which comprises of a central sun
+gear and five planetary gears arranged like a star.
+It helps in reducing the fan rotating speed and permits the LPC to
+rotate at a higher speed. This helps in improving engine performance and
+efficiency.
+The ratio of the LPC speed: fan speed is approximately 3:1.
+The LPC rotates in the opposite direction of the fan rotor.
+The FIC supports the FDGS and the bearings No. 1, 1.5 and 2.
+It also supports the inner edge of the Fan Exit Guide Vanes (FEGVs) and
+the support fairings.
+It houses a single stage Variable Inlet Guide Vanes (VIGVs) which direct
+the air to the LP Compressor at the correct angle.
+The VIGV\'s are controlled by the EEC.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 78 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MODULES - FAN DRIVE
+GEAR SYSTEM (FDGS) AND FAN INTERMEDIATE CASE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 79 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**ENGINE MODULES (continued)**
+**LOW PRESSURE COMPRESSOR AND COMPRESSOR**
+**INTERMEDIATE CASE**
+The LPC comprises of 3 stages of axial flow compressor with integrally
+bladed rotor, stators and the case.
+It is connected to the FDGS to the front and the LP turbine shaft
+splines at the rear.
+It rotates counter clockwise viewed from the rear.
+It acts as a super charger to pressurize the air before it enters into
+the HPC.
+It houses the 2.5 stage bleed valve at the rear which releases the air
+during engine operation to prevent surge and stall conditions.
+The forward engine mounts are mounted on the CIC.
+The CIC transmits the engine core airflow from the LPC to the HPC.
+It supports the bearing No.3 and also provides the ports for the 2.5
+stage bleed air flow to join the fan air flow.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 80 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MODULES - LOW PRESSURE
+COMPRESSOR AND COMPRESSOR INTERMEDIATE CASE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 81 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**ENGINE MODULES (continued)**
+**HIGH PRESSURE COMPRESSOR ROTOR**
+The HPC comprises of eight stages axial flow compressor and the shaft
+which are driven by the HP turbine.
+A single stage of Variable Inlet Guide Vane (VIGV) and the first three
+stages of Variable Stator Vanes (VSVs) of the HPC stators ensure a
+smooth entry of air to the HPC. Each stage of the variable stators is
+connected by the unison rings.
+The VIGVs and VSV stator vanes are operated by the primary and secondary
+actuators controlled by the EEC.
+The HP Compressor supplies air from Stage 3 and stage 8 to the aircraft
+systems.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 82 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MODULES - HIGH
+PRESSURE COMPRESSOR ROTOR
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 83 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**ENGINE MODULES (continued)**
+**DIFFUSER AND COMBUSTION CHAMBER ASSEMBLY**
+The unit houses the diffuser, the annular combustion chamber and the
+turbine nozzle assembly. It also provides the brackets for mounting the
+Main Gear Box (MGB).
+The diffuser converts the kinetic energy of the air coming out of the
+HPC into pressure energy before it is fed into the combustion chamber.
+The annular combustion chamber houses 18 fuel nozzles (6 Simplex and 12
+Duplex) and 2 igniter plugs and supports effective combustion of the
+air/fuel mixture.
+The new technology high efficiency design of the combustion chamber also
+helps in reducing CO2 and NOx emissions.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 84 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MODULES - DIFFUSER AND
+COMBUSTION CHAMBER ASSEMBLY
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 85 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**ENGINE MODULES (continued)**
+**HIGH PRESSURE AND LOW PRESSURE TURBINES**
+The HP Turbine is made of two stage axial flow turbine, two stage stator
+and turbine case.
+The HP turbine unit has splines which attaches it to the HP Compressor
+shaft.
+HP Turbine drives the HP Compressor.
+Integrated in the HPT assembly is the TIC which directs the HP
+Turbine airflow to align with the LP Turbine. It supports the n°4
+bearing.
+The LP Turbine module comprises of three stage rotor assembly, LP
+rotor shaft, stators and the turbine case.
+It drives the LP Compressor and the FDGS.
+The HP and LP turbine cases have Active Case Cooling (ACC) cooling
+manifolds around to control blade tip clearance.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 86 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MODULES - HIGH
+PRESSURE AND LOW PRESSURE TURBINES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 87 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**ENGINE MODULES (continued)**
+**TURBINE EXHAUST CASE**
+The TEC permits an exit path for the gas flow coming out of the
+turbines.
+It supports the rear roller bearings 5 and 6.
+The TEC provides the attachment point for the rear engine mount.
+It houses four Exhaust Gas Turbine (EGT) thermocouples.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 88 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MODULES - TURBINE
+EXHAUST CASE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 89 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**ENGINE GEAR BOX**
+The Engine Gear Box (EGB) comprises of two units: the MGB and the Angle
+Gear Box (AGB).
+MGB is attached to the core engine at 4:00 and 9:00.
+It provides the drive to the hydraulic pump, Fuel Pump, Integrated Drive
+Generator (IDG), Permanent Magnet Alternator (PMA) and de-oiler.
+One crank pad to turn the HP rotor is located on the LH rear of the MGB
+and one on the RH forward part of the MGB.
+The Air Starter is mounted on the right side aft of the MGB. During
+engine start the drive is transmitted through the MGB and AGB to drive
+the HP Compressor.
+The AGB is located forward of the MGB in the core engine area.
+The MGB is connected to the AGB through a lay shaft.
+The AGB is connected to the HP rotor by bevel gears and the tower shaft.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 90 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE GEAR BOX
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 91 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**AERODYNAMIC STATIONS AND BOROSCOPIC PORTS**
+Several boroscopic ports are provided for preliminary inspection of the
+gas path without engine disassembly.
+Each stage of the rotor, both compressors and turbines have boroscopic
+ports located at different positions on the engine case.
+Igniter plugs ports are used to inspect the combustion chamber liners,
+fuel nozzles and first stage nozzle guide vanes.
+The main aerodynamic stations are identified in the gas path. Some
+stations have pressure and/or temperature sensors for engine monitoring.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 92 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AERODYNAMIC STATIONS AND
+BOROSCOPIC PORTS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 93 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM D/O (3) (3)
+**ENGINE BEARINGS**
+The engine bearings provide reduce rolling friction and supports the
+rotor axially and radially within the structure.
+It bears the different loads of the rotating shaft.
+There are four bearing compartments containing a total of seven
+bearings. No. 1 and 1.5 are tapered roller bearing and are used to
+support the fan rotor and FDGS.
+No. 2 and 3 are ball bearings and support the front part of LP and HP
+rotor respectively.
+No. 4 is roller bearing and support the rear of N2.
+No.5 and 6 are roller bearing and support the rear of N1 rotor.
+The bearing compartment are lubricated, cooled and cleaned by engine
+oil.
+Bearing compartments are sealed using carbon seals to prevent oil
+leakage.
+There is a total of 4 bearing compartments; they contain: No. 1, 1.5,
+the FDGS and No.2 bearings No. 3 bearing
+No. 4 bearing
+No. 5 and 6 bearings
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 94 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE BEARINGS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 95 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**FUEL DISTRIBUTION**
+The fuel distribution system supplies fuel from tanks to the engines.
+The fuel is metered, filtered and supplied at the pressure and flow rate
+necessary to enable stable engine operations during all the phases. The
+metered Fuel Flow (FF) is sent to the fuel nozzles for combustion, and
+pressurized fuel is supplied to the fuel-operated actuators of the
+engine (e.g. Air valves). The fuel is also heated to prevent ice
+formation and used to cool engine oil and Integrated Drive Generator
+(IDG) oil.
+The distribution system consists of:
+\- The Integrated Fuel Pump and Control (IFPC),
+\- A fuel manifold,
+\- Fuel/Oil Heat Exchangers (FOHEs),
+\- A fuel filter,
+\- Flow Divider Valve (FDV),
+\- Fuel nozzles,
+\- Ecology collector tank,
+\- Return-To-Tank (RTT) valve.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 96 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FUEL DISTRIBUTION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 97 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**FUEL FEED FROM AIRCRAFT**
+When the ENGine MASTER Lever is selected ON, the Low Pressure Shut-Off
+Valve (LPSOV) opens and fuel from the aircraft tanks flows through the
+main fuel supply line to the inlet port of the boost pump in the IFPC.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 98 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FUEL FEED FROM AIRCRAFT
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 99 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**HEAT EXCHANGERS AND FUEL RETURN TO TANK**
+The boost pump sends LP fuel from the engine fuel supply line to the IDG
+FOHE. Fuel flow is used to cool down the IDG oil through the IDG
+FOHE and the engine oil through the engine FOHE. In turn, fuel is heated
+and de-iced.
+Fuel from the engine FOHE is then sent to the fuel filter.
+The Fuel Return-To-Tank (FRTT) module contains the Fuel Return Valve
+(FRV) and the FRTT Temperature sensor.
+The FRV controls fuel to flow back to the aircraft tanks from downstream
+of the IDG FOHE and before it enters the engine FOHE as part of the fuel
+heat management system. The FRV is controlled by the Electronic Engine
+Control (EEC) depending on the fuel temperature.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 100 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) HEAT EXCHANGERS AND FUEL
+RETURN TO TANK
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 101 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) HEAT EXCHANGERS AND FUEL
+RETURN TO TANK
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 102 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**INTEGRATED FUEL PUMP AND CONTROL**
+The IFPC is an electronically controlled unit which integrates the fuel
+metering components and the fuel pumps in a single unit to limit the
+space and the number of external tubes required for the system. The IFPC
+uses dual coil torque motors and solenoids to control hydro-mechanical
+valves in relation to the fuel flow. The Main Gearbox (MGB) turns the
+IFPC input shaft which drives the fuel pump boost-stage, the main fuel
+pump and servo pump.
+**FUEL FILTER AND MAIN PUMP**
+The heated fuel from the engine FOHE is directed through the fuel
+filter. The filter element is a disposable filter located in a housing
+attached on the fuel manifold. The filter is monitored by a differential
+pressure transmitter. The filter housing is fitted with a bypass valve
+in case of filter element clogging. The filter element is a disposable
+25 micron filter.
+The fuel exits the fuel filter and flows to the inlet port of the main
+fuel pump. The main fuel pump is a single-stage gear pump, which
+increases the fuel pressure and sends the pressurized fuel to the Fuel
+Metering Valve (FMV).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 103 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) INTEGRATED FUEL PUMP AND
+CONTROL - FUEL FILTER AND MAIN PUMP
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 104 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**INTEGRATED FUEL PUMP AND CONTROL (continued)** **FUEL METERING VALVE
+AND HIGH PRESSURE**
+**SHUT-OFF VALVE**
+The EEC controls a dual Torque Motor (TM) which positions the FMV in the
+desired position. The close loop monitoring is ensured by the EEC using
+the valve LVDT feedback signals.
+The fuel from the FMV is directed to the High Pressure Shut-Off Valve
+(HPSOV). The fuel pressure at the back side of the HPSOV is controlled
+by the Thrust Control Malfunction (TCM)/Overspeed TM
+and allows the valve to open or close.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 105 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) INTEGRATED FUEL PUMP AND
+CONTROL - FUEL METERING VALVE AND HIGH PRESSURE SHUT-OFF VALVE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 106 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**INTEGRATED FUEL PUMP AND CONTROL (continued)** **PRESSURE REGULATING
+VALVE AND BYPASS**
+**DIRECTIONAL CONTROL VALVE**
+Inside the IFPC, the fuel from the main pump is directed to the FMV
+and to the Pressure Regulating Valve (PRV). The purpose of the PRV
+is to maintain a constant fuel pressure drop across the FMV to ensure
+the correct fuel flow and acceleration for the engine.
+The TCM/Overspeed TM controls the fuel pressure to the back side of the
+PRV to modulate fuel flow between the FMV and the Bypass Directional
+Control Valve (BDCV).
+Pressurized fuel that passes through the PRV is directed to the BDCV.
+The BDCV directs fuel by-passed by the PRV to the engine FOHE
+at low engine power or when the fuel temperature is low to help in
+maintaining the engine oil and fuel within operating limits.
+At high power, the BDCV returns the recirculation flow downstream of the
+FOHE.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 107 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) INTEGRATED FUEL PUMP AND
+CONTROL - PRESSURE REGULATING VALVE AND BYPASS DIRECTIONAL CONTROL VALVE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 108 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) INTEGRATED FUEL PUMP AND
+CONTROL - PRESSURE REGULATING VALVE AND BYPASS DIRECTIONAL CONTROL VALVE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 109 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**INTEGRATED FUEL PUMP AND CONTROL (continued)** **EEC CONTROL**
+The EEC controls the dual TCM/Overspeed TM for HPSOV
+positioning.
+It monitors the valve fully closed position with the two proximity
+switches.
+The EEC also controls the FMV position via a dual channel Torque Motor
+(TM).
+A dual channel Linear Variable Differential Transducer (LVDT) provides
+the FMV position to the EEC.
+For the air system, the EEC controls the fuel-operated actuators with
+dual channel TMs and it monitors their position thanks to LVDT
+position feedbacks.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 110 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) INTEGRATED FUEL PUMP AND
+CONTROL - EEC CONTROL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 111 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**FUEL FLOW TRANSMITTER, FLOW DIVIDER VALVE**
+**AND FUEL NOZZLES**
+The metered fuel from the FMV crosses the HPSOV and flows to the fuel
+flow transmitter.
+The fuel flow transmitter sends the fuel flow rate to the EEC channel A
+and directs fuel to the Flow Divider Valve (FDV).
+The EEC commands the FDV opening during starting to improve fuel
+atomization.
+During engine start, the FDV sends most of fuel to the primary manifold.
+Above idle, the FDV evenly divides metered fuel flow between the primary
+and secondary fuel manifolds.
+At shutdown, the FDV is spring loaded closed to allow primary and
+secondary manifold drainage.
+The FDV is fitted with a metal screen strainer that can be bypassed in
+case of blockage.
+There are 18 fuel nozzles mounted to the outer diffuser case. All the
+nozzles atomize fuel inside the combustor.
+Twelve of them are duplex nozzles featuring both a primary and a
+secondary fuel flow paths while six others are simplex nozzles providing
+only a secondary fuel flow path.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 112 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FUEL FLOW TRANSMITTER, FLOW
+DIVIDER VALVE AND FUEL NOZZLES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 113 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FUEL FLOW TRANSMITTER, FLOW
+DIVIDER VALVE AND FUEL NOZZLES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 114 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FUEL FLOW TRANSMITTER, FLOW
+DIVIDER VALVE AND FUEL NOZZLES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 115 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**SERVO FUEL AND SERVO MINIMUM PRESSURE AND**
+**PUMP SHARING VALVE**
+The servo pump housed in the IFPC is a gear-stage pump which sends
+pressurized fuel to a wash filter. Fine filtered, pressurized fuel from
+the wash filter is supplied to the engine air system actuators where it
+is used as servo and muscle pressure to position the actuator pistons.
+These actuators are:
+\- the Low Pressure Compressor (LPC) Stator Vane Actuator (SVA),
+\- the LPC (2.5) Bleed Valve Actuator (BVA),
+\- the turbine Active Case Cooling (ACC) valve,
+\- and the High-Pressure Compressor (HPC) SVAs (primary and secondary).
+The fuel from the actuators is filtered again before it returns back to
+main pump and servo pump inlet.
+The Servo Minimum Pressure and Pump Sharing Valve is a spring loaded
+valve that provides the five air system actuators with main pump fuel
+pressure when servo pump fuel pressure is not enough during start.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 116 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SERVO FUEL AND SERVO MINIMUM
+PRESSURE AND PUMP SHARING VALVE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 117 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SERVO FUEL AND SERVO MINIMUM
+PRESSURE AND PUMP SHARING VALVE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 118 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**ECOLOGY SYSTEM**
+At engine shutdown, residual fuel in the manifolds downstream of the FDV
+is drained back through the FDV to an ecology collector tank.
+The collected fuel remains in the ecology collector tank until the next
+engine start when the fuel is drawn back into the fuel system.
+During shutdown, the fuel pressure from the IFPC is reduced and the FDV
+closes to prevent fuel from entering the combustor and to drain any fuel
+remaining in both the primary and secondary fuel lines to the ecology
+collector tank.
+The ecology collector tank has enough space to receive fuel from a
+single engine shutdown. The tank has an inlet float valve which closes
+when the tank has reached its maximum capacity. This prevents the tank
+from overfilling and spilling fuel out following an aborted start.
+At next engine start up, the ejector pump draws the fuel from the
+ecology collector tank back to the IFPC boost pump. The tank has an
+outlet float valve which closes when the tank has reached its minimum
+capacity and a check valve to avoid fuel transfer from the suction line.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 119 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ECOLOGY SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 120 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**STARTING**
+**INITIATION**
+During starting, the servo pump fuel pressure is not enough to control
+the air system actuators and to close the Servo Minimum Pressure and
+Pump Sharing Valve. In this position, the Servo Minimum Pressure and
+Pump Sharing Valve directs a portion of pressurized fuel from the main
+pump to the five actuators. The other portion of fuel from the main pump
+is sent to the PRV and to the FMV. The PRV
+opens partly and directs the excess of fuel flow to the BDCV which is
+spring loaded to send it to the engine FOHE.
+The EEC opens the FMV and let the fuel to flow to the HPSOV which also
+opens and sends fuel to the fuel flow transmitter.
+The pressurized fuel opens the FDV. The FDV partly opens and sends most
+of fuel to the primary fuel nozzles.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 121 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) STARTING - INITIATION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 122 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**STARTING (continued)**
+**ACCELERATION**
+As the pumps rotation speed increases with the engine acceleration, the
+fuel pressure also increases. The FMV opens more and as a consequence
+the fuel pressure pushes the BDCV out of its rest position to direct the
+excess fuel flow to the fuel filter.
+The FDV also opens more and evenly divides metered fuel flow between the
+primary and secondary fuel nozzles.
+In parallel, the fuel pressure from the servo pump increases and pushes
+the Servo Minimum Pressure and Pump Sharing Valve, segregating the burn
+flow from the servo fuel.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 123 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) STARTING - ACCELERATION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 124 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**SHUTDOWN**
+**NORMAL SHUTDOWN**
+During a normal engine shutdown, the Master Lever controls the LPSOV to
+close and sends a shutdown signal to the EEC.
+As a consequence, the EEC controls the TCM/overspeed TM that directs
+fuel pressure to the back side of the HPSOV to close it and stop the
+fuel flow to the engine. In the same time, the PRV is controlled fully
+open to bypass the main pump fuel flow away from the FMV to the FOHE.
+In turn when the related fuel pressure drops, the FDV closes to let the
+remaining fuel in the nozzle manifolds to drain in the ecology drain
+tank, and the Servo Minimum Pressure and Pump Sharing Valve reopens.
+After the HPSOV is confirmed closed by the proximity switches, the EEC
+tests the FMV via its TM then closes it.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 125 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SHUTDOWN - NORMAL SHUTDOWN
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 126 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**SHUTDOWN (continued)**
+**ABNORMAL SHUTDOWN**
+The abnormal shutdown is initiated in case of an overspeed (N1 or N2),
+shaft shear (fan, LP or HP) or Thrust Control Malfunction (TCM) event
+detected on ground.
+In such case, the TCM/overspeed TM directs fuel pressure to the back
+side of the HPSOV and of the PRV. This causes the PRV to open and stop
+fuel flow to the FMV, allowing rapid closure of the HPSOV and rapid
+engine shutdown.
+Fuel flow through the PRV is directed to the BDCV and then to the engine
+FOHE.
+This shutoff method is independent from the FMV control.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 127 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SHUTDOWN - ABNORMAL SHUTDOWN
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 128 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE FUEL SYSTEM D/O (3)
+**FUEL INDICATING**
+The engine fuel indicating monitors the system condition and provides
+the system status to the cockpit displays.
+The fuel flow transmitter sends signals to the EEC which enables the
+calculation of the fuel flow to the combustor.
+The fuel flow is a primary engine parameter and is displayed on the EWD
+permanently. The EEC also sends this data for the fuel used computation
+and display on the System Display (SD).
+The Fuel Filter Differential Pressure (FFDP) sensor measures the
+differential pressure across the fuel filter.
+This helps to detect if the filter is partially or totally clogged.
+According to the received value, the EEC will generate various warnings
+on the EWD: ENG X FUEL FILTER DEGRAD or ENG X FUEL
+FILTER CLOG or ENG X FUEL SENSOR FAULT and on the SD: CLOG.
+The IDG Fuel-Oil Heat Exchanger (FOHE) differential pressure sensor is
+used to sense the differential pressure on the fuel side of the FOHE
+and send a signal to the EEC in case of clogging detection. According to
+the status, the EEC will generate various warnings on the EWD: ENG X
+HEAT EXCHANGR CLOG or ENG X FUEL SENSOR FAULT.
+For monitoring and Thermal Management System control by the EEC, the
+fuel temperature is sensed by two dual channel temperature sensors.
+The fuel temperature sensor is used for the control of the heat
+exchangers (Fuel/Oil Heat Exchanger Bypass Valve (FOHEBV)) and BDCV.
+The Fuel Return To Tank (FRTT) temperature sensor is used for the RTTV
+control.
+The engine fuel temperature is not directly displayed in the cockpit
+but, according to the status, the EEC will generate various warnings on
+the EWD: ENG X HOT FUEL or ENG X FUEL HEAT SYS or ENG X
+HEAT SYS DEGRADED or ENG X HEAT SYS FAULT.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 129 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FUEL INDICATING
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 130 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PROPULSION CONTROL SYSTEM
+(PCS) PRINCIPLE (3) **GENERAL**
+The Propulsion Control System (PCS) consists in Engine Interface Unit
+(EIU) and FADEC System which includes Electronic Engine Control (EEC)
+and Prognostics and Health Management Unit (PHMU).
+Each EIU is dedicated to an engine. EIU 1 and 2 are located in the
+aircraft avionics bay 80VU.
+The EEC and PHMU are attached to the engine fan case assembly at 2:30.
+Both EEC & PHMU are vibration-isolated units, which are cooled by
+natural convection.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 131 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) GENERAL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 132 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PROPULSION CONTROL SYSTEM
+(PCS) PRINCIPLE (3) **ENGINE INTERFACE UNIT**
+Each EIU is an interface concentrator between the airframe and the
+corresponding EEC on the engine.
+It ensures the segregation of the 2 engines and aircraft electrical
+power supply to the FADEC.
+It concentrates data from or to the cockpit panels and displays.
+It gives logics and information to or from other aircraft systems as
+Flight/Ground from Landing Gear Control and Interface Unit (LGCIU).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 133 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE INTERFACE UNIT
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 134 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PROPULSION CONTROL SYSTEM
+(PCS) PRINCIPLE (3) **FADEC**
+The FADEC consists in a dual channel EEC with crosstalk and failure
+detection, a PHMU and sensors used for control and monitoring.
+The FADEC system manages the engine thrust and optimizes the
+performance.
+The EEC interfaces with most of the A/C systems through the EIU.
+The FADEC controls the engine parameters displayed in the cockpit.
+The primary parameters (N1, N2, Exhaust Gas Temperature (EGT) and Fuel
+Flow (FF)) are sent by the EEC to the ECAM through Display Management
+Computers (DMCs).
+The engine system page shows secondary parameters: oil quantity,
+pressure and temperature.
+The vibration figures are communicated by the PHMU to the EEC.
+The Flight Warning System (FWS) will gather necessary information
+directly from EEC, EIU, System Data Acquisition Concentrator (SDAC) and
+generates associated messages on Engine/Warning Display (EWD).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 135 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 136 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PROPULSION CONTROL SYSTEM
+(PCS) PRINCIPLE (3) **POWER MANAGEMENT**
+The FADEC provides automatic engine thrust control and thrust parameter
+limit computation.
+The EEC uses air data parameters from Air Data/Inertial Reference System
+(ADIRS) for rating calculations.
+The FADEC manages power according to two thrust modes:
+\- manual mode depending on Throttle Lever Angle (TLA),
+\- autothrust mode depending on autothrust function generated by the
+Auto Flight System (AFS).
+The FADEC also provides two idle mode selections: minimum idle and
+approach idle.
+If the aircraft is on ground and extend the slats the engine will stay
+at minimum idle but in flight it will go to approach idle. The idle can
+also be modulated up to approach idle depending on: Air conditioning
+demand, wing anti-ice demand, engine anti-ice demand and oil temperature
+(for Integrated Drive Generator (IDG) cooling).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 137 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER MANAGEMENT
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 138 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PROPULSION CONTROL SYSTEM
+(PCS) PRINCIPLE (3) **ENGINE LIMIT PROTECTION**
+The FADEC ensures engine integrity protection. It provides overspeed
+protection for N1 and N2 or rotor shaft shear by driving to close the
+Thrust Control Malfunction (TCM)/Overspeed torque motor in the
+Integrated Fuel Pump and Control (IFPC).
+Shaft shear detection logic is only active at high power settings.
+It ensures overheat protection by monitoring EGT, nacelle and EEC
+temperature.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 139 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE LIMIT PROTECTION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 140 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PROPULSION CONTROL SYSTEM
+(PCS) PRINCIPLE (3) **ENGINE SYSTEM CONTROL**
+The FADEC provides optimal engine operation by controlling:
+\- combustor metering valve and fuel flow,
+\- compressor airflow and turbine case cooling,
+\- thermal management (oil cooling, fuel heating),
+\- control and monitoring sensors,
+\- BITE (fault detection, isolation, annunciation and transmission to
+the aircraft),
+\- nacelle anti-ice.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 141 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE SYSTEM CONTROL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 142 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PROPULSION CONTROL SYSTEM
+(PCS) PRINCIPLE (3) **STARTING AND IGNITION CONTROL**
+The FADEC controls the engine start sequence in automatic or manual mode
+when initiated from the control panels.
+It monitors N1, N2, EGT and oil parameters and then can abort or recycle
+an engine start.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 143 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) STARTING AND IGNITION CONTROL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 144 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PROPULSION CONTROL SYSTEM
+(PCS) PRINCIPLE (3) **THRUST REVERSER**
+The FADEC supervises the thrust reverser operation.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 145 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 146 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC ARCHITECTURE (3)
+**ARCHITECTURE**
+**PHMU**
+The PHMU is a single channel component with internal software that The
+FADEC consists in the Electronic Engine Control (EEC), the performs the
+following engine health monitoring functions: Prognostic and Health
+Monitoring Unit (PHMU) and peripherals (sensors
+\- Vibration analysis,
+and output drivers).
+\- Engine trim balance solution computation, **EEC**
+\- Oil Debris Monitoring (ODM),
+\- Auxiliary Oil Pressure (AOP) signal conversion.
+The EEC is a microprocessor controlled digital unit with two It uses
+data provided by several engine sensors and by the EEC and independent
+control channels identified as channel A and B.
+sends back the computed data to the EEC through CAN buses. Two Each
+channel has its own processors, power supply, program memory, connectors
+are used for the data exchange.
+selected input sensors and output drivers.
+In addition to input/output redundancy (for comparison and backup), data
+is sent internally between the two channels by a crosstalk data link.
+Each channel receives inputs from the A/C and FADEC system sources.
+Thus, each channel can monitor and control the operation of the engine
+and transmit engine data to the A/C and to engine subsystem duplicated
+controls (torque motors and solenoids).
+EEC channels A and B are housed in one assembly but are physically
+divided by a two-piece modular design. Each channel module has one
+printed circuit board module, the input/output interconnect modules and
+one pressure sensor.
+Five electrical connectors are used in each channel module to connect
+wiring from the engine, aircraft and nacelle.
+The EEC also has a connector to test the unit and a connector for the
+Data Storage Unit (DSU).
+**DSU**
+The DSU is a data memory plug attached to the engine case bracket by a
+lanyard and connected on the EEC channel A for engine identification and
+rating, engine trim data storage and detected failures storage.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 147 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ARCHITECTURE - EEC \... PHMU
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 148 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC ARCHITECTURE (3)
+**PROCESS**
+Most of the FADEC operations are based on the same principle, they
+respond to a demand from the A/C or from the EEC internal schedules, and
+they take into account input parameters from the A/C and from the engine
+sensors. Most of the sensors and output drivers are duplicated for
+redundancy and segregated to each EEC channel.
+For a control loop, one EEC channel elaborates a single command signal
+sent to an engine subsystem control and it makes sure that its command
+has been followed by monitoring the dual feedback from this engine
+subsystem. The EEC also continuously performs integrity test of its
+control circuits.
+When fully operational, the EEC starts and operates in an Active-Standby
+mode. Under this control scheme, only one channel of the EEC has full
+authority over all engine functions and is identified as the preferred
+channel. The preferred channel is alternated upon every engine shutdown
+for the next engine start.
+If a feedback fault is detected in the preferred channel, the data is
+retrieved from the standby channel via the crosstalk data link.
+If an output driver fault is detected, the EEC switches from
+Active-Standby mode to Active-Active mode. This allows either channel to
+control any of the output drivers independently, regardless of which
+channel is the preferred channel.
+This control mode allows both channels to be engaged simultaneously and
+to manage different engine functions, providing an effective fault
+accommodation strategy. If the crosstalk data link is lost, each channel
+maintains its current controls prior the failure.
+If the engine subsystem control loop is no more possible (by any
+channel), the subsystem control is set to its failsafe position.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 149 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PROCESS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 150 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES (3)
+**GENERAL**
+In order to provide a full range of engine control and monitoring, the
+Propulsion Control System (PCS) exchanges data within its own computers
+(Engine Interface Unit (EIU), Electronic Engine Control (EEC),
+Prognostic and Health Monitoring Unit (PHMU)) and with the other
+aircraft systems computers. The EIU is the main interface with the
+aircraft systems.
+Inputs or outputs are transmitted on a digital, analog or discrete
+format.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 151 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) GENERAL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 152 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES (3)
+\- Manual Engine Start P/B ON
+**PCS INTERFACES**
+\- FADEC Ground Power ON
+\- Bump ON/OFF
+The EIU performs the following bus transfer.
+\- APU Master Switch ON/OFF: for bleed decrement computation.
+EIU digital inputs from:
+From LGCIUs:
+GCU #: for idle modulation based on Integrated Drive Generator (IDG)
+\- LH Landing Gear compressed: for flight/ground status computation.
+load.
+\- RH Landing Gear compressed: for flight/ground status computation.
+DLRB: for EIU dataloading.
+\- Nose Landing Gear (NLG) compressed: for flight/ground status ACSC
+1/2: for bleed decrement computation.
+computation.
+CFDIU: for BITE purposes (Normal Mode and Menu Mode).
+From SECs:
+BMC 1/2: for bleed computation.
+\- Ground Spoiler OUT
+LGCIU 1/2: for flight/ground status computation.
+\- TLA \< -3 deg
+FCU: for Autothrust function and Thrust Control Malfunction (TCM) From
+SFCC:
+protection in flare.
+\- Flaps and Slats lever retracted
+From engine:
+EIU digital outputs to:
+\- FRTTV Selected OFF (EEC)
+ADIRU 1/2: for air data correction.
+\- Low Oil Pressure sensor: for OIL LO PRES warning.
+CFDIU: for BITE purposes (Normal Mode and Menu Mode).
+\- Engine position and type
+DLRB: for EIU dataloading.
+\- Latch Door Monitoring Proximity Switches.
+SDAC 1/2: for engine parameters acquisition.
+FDIMU (ACMS): for condition monitoring and troubleshooting purpose.
+EIU discrete outputs:
+BMC #: for bleed computation
+Fuel HPSOV Closed
+FWC 1/2: for warnings display.
+N2 Not Below Idle
+The EIU performs the following discrete exchange.
+TLA in Take Off Position
+Start Valve Closure
+EIU discrete inputs from:
+APU Boost Command
+From cockpit controls:
+Master Lever Fault Light
+\- Master lever ON/OFF
+Oil Low pressure and Ground
+\- Throttle position (switches): for thrust reverser operation.
+NAI P/B Fault Light
+\- Rotary selector Ignition/Auto/Crank
+Latch Door Monitoring Proximity Switches
+\- Wing De-Ice P/B OFF: for bleed decrement computation.
+The EIU provides the following power supplies.
+\- Nacelle Anti-Ice P/B ON/OFF: for Nacelle Anti-Ice (NAI) control and
+bleed decrement computation.
+EIU power supply outputs to:
+\- Fire handle ON: for engine isolation.
+PHMU (28V DC).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 153 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) Hydraulic pump
+depressurization solenoid (28V DC).
+EEC discrete/analog outputs to:
+EEC channels (28V DC).
+PHMU:
+Igniters (115V AC).
+Nf (ch B), N1 (ch A), N2 (ch A)
+Thrust reverser Valves (28V DC for ICV & DCV).
+Engine subsystems:
+Unless specified differently, signals are dual (from/to both EEC
+channels).
+Control signals
+The EEC performs the following bus transfer.
+EIU:
+EEC digital inputs from:
+FRTTV Selected OFF.
+EIU \# (channel A): for aircraft data exchange.
+ADIRU 1/2: for engine control (alt, TAT, PT, CAS, Mn).
+PHMU: for vibration monitoring and trim balancing.
+EEC digital outputs to:
+EIU #: for engine data exchange.
+FMGC 1/2: for Autothrust function and TCM protection in flare.
+PHMU: for vibration monitoring and trim balancing.
+DMC 1/2/3: for parameters, faults and warnings display.
+FWC 1/2: for warnings display.
+GCU #: for power supply management.
+The EEC performs the following discrete/analog exchange.
+EEC discrete/analog inputs from:
+Cockpit controls:
+Master lever OFF: for shutdown and reset.
+Throttle position (resolvers): for manual and auto thrust control.
+Autothrust disconnect P/B (ch B)
+FADEC Ground Power OFF
+Nacelle Anti-Ice P/B ON/OFF: for NAI control and bleed decrement
+computation.
+FCU:
+Autothrust engagement (ch B)
+SECs:
+TCM ground operation
+Engine:
+Engine sensors and subsystems feedbacks Engine position (ch A).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 154 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PCS INTERFACES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 155 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PCS INTERFACES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 156 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES (3)
+**FADEC INTERFACES**
+Unless specified differently, signals are dual (from/to both EEC
+channels).
+The EEC is the main controller and monitoring device over the engine
+subsystems.
+**AIR SYSTEM**
+For the air system management, the EEC sends and receives the following
+data.
+Compressor Stator Vane Control System:
+\- LPC SVA TM control signal,
+\- HPC master SVA Torque Motor (TM) control signal,
+\- LPC SVA, HPC master and slave SVAs LVDT feedback signal.
+Compressor Bleed Control System:
+\- LPC Bleed Valve Actuator (BVA) TM control signal,
+\- LPC BVA LVDT feedback signal,
+\- HPC BV solenoid control signal,
+\- HPC active and passive bleed pressure sensors.
+Turbine Active Case Cooling Control System:
+\- TACC Valve TM control signal,
+\- TACCV LVDT feedback signal (ch A).
+Buffer/Ventilation Control System:
+\- HPC Buffer Shut Off Valve (SOV) solenoid feedback signal,
+\- Buffer Air Pressure Sensor (BAPS) feedback signal.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 157 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES - AIR SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 158 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES (3)
+**FADEC INTERFACES (continued)**
+**FUEL SYSTEM**
+For the fuel system management, the EEC sends and receives the following
+data.
+Fuel Supply for combustion:
+\- Fuel Metering Valve (FMV) TM control signal,
+\- FMV LVDT feedback signal,
+\- TCM / Overspeed TM control signal,
+\- HP Shut Off Valve proximity switch feedback signal,
+\- Fuel Flow Meter (FFM) control signal (ch A),
+\- Flow Divider Valve (FDV) solenoid control signal,
+\- Fuel Filter Differential Pressure Sensor feedback signal.
+Thermal Management System:
+\- Bypass Direction Control Valve (BDCV) solenoid control signal,
+\- Fuel Temperature sensor feedback signal,
+\- Fuel Return To Tank (FRTT) Valve solenoid control signal,
+\- FRTTV Proximity Switch feedback signal,
+\- FRTT Temperature Sensor feedback signal,
+\- IDG Fuel/Oil Heat Exchanger Differential Pressure Sensor feedback
+signal.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 159 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES - FUEL
+SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 160 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES (3)
+**FADEC INTERFACES (continued)**
+**OIL SYSTEM**
+For the oil system management, the EEC sends and receives the following
+data:
+Oil Supply:
+\- Oil Filter Differential Pressure sensor feedback signal,
+\- Fuel Oil Heat Exchanger Bypass Valve (FOHEBV) TM control signal,
+\- Active Oil Damper Valve (AODV) solenoid control signal,
+\- Variable Oil Reduction Valve (VORV) TM control signal,
+\- VORV LVDT feedback signal.
+Oil Monitoring:
+\- Oil Level (OL) sensor feedback signal (ch B),
+\- Main Oil Pressure (MOP) sensor feedback signal,
+\- Main Oil Temperature (MOT) sensor feedback signal,
+\- Auxiliary Oil Pressure (AOP) sensor feedback signal via PHMU,
+\- Oil Debris Monitoring (ODM) sensor feedback signal (ch A) via PHMU,
+\- Low Oil Pressure (LOP) switch feedback signal to the EIU.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 161 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES - OIL SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 162 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES (3)
+**FADEC INTERFACES (continued)**
+**IGNITION AND STARTING SYSTEMS**
+For the ignition and starting systems management, the EEC sends and
+receives the following data:
+Ignition:
+\- Ignition Exciter control signal (2 pairs).
+Starting:
+\- Starter Air Valve (SAV) solenoid control signal,
+\- Air starter speed sensor feedback signal.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 163 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES - IGNITION
+AND STARTING SYSTEMS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 164 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES (3)
+**FADEC INTERFACES (continued)**
+**NACELLE ANTI-ICE SYSTEM**
+For the Nacelle Anti Ice system management, the EEC sends and receives
+the following data:
+NAI:
+\- Upstream PRSOV solenoid control signal (ch B),
+\- Downstream PRSOV solenoid control signal (ch A),
+\- Upstream pressure sensor feedback signal (ch B),
+\- Downstream pressure sensor feedback signal,
+\- Dual temperature sensor feedback signal.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 165 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES - NACELLE
+ANTI-ICE SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 166 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES (3)
+**FADEC INTERFACES (continued)**
+**THRUST REVERSER SYSTEM**
+For the thrust reverser system management, the EEC sends and receives
+the following data.
+Thrust Reverser:
+\- Isolation Control Valve (ICV) solenoid control signal by EIU and EEC,
+\- ICV pressurized proximity switch feedback signal,
+\- ICV inhibition proximity switch feedback signal,
+\- Directional Control Valve (DCV) solenoid control signal by EIU
+and EEC,
+\- Locking Feedback Actuators primary lock proximity switch feedback
+signal,
+\- Locking Actuators primary lock proximity switch feedback signal,
+\- Locking Feedback Actuators LVDT feedback signal,
+\- Track Locks proximity switch feedback signal.
+NOTE:
+Note: Tertiary Lock Valve (TLV) solenoids are controlled independently
+by SEC.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+[]{#index_split_001.html}
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 167 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES - THRUST
+REVERSER SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 168 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES (3)
+**FADEC INTERFACES (continued)**
+**ENGINE SENSORS**
+For the engine control and monitoring, the EEC receives the following
+data.
+Engine Sensors:
+\- N1 feedback signal,
+\- Nf feedback signal,
+\- N2 feedback signal,
+\- P ambient feedback signal (ch A),
+\- Ps14 feedback signal (ch B),
+\- P2 feedback signal,
+\- P25 feedback signal (ch A),
+\- P3 feedback signal (2 pairs),
+\- T2 feedback signal,
+\- T25 feedback signal (ch A),
+\- T3 feedback signal,
+\- Core Nacelle Temperature feedback signal (ch B),
+\- NAI Temperature feedback signal,
+\- EGT feedback signal (2 pairs),
+\- Forward Vibration feedback signal to PHMU,
+\- Aft Vibration feedback signal to PHMU.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 169 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES - ENGINE
+SENSORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 170 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES (3)
+**FADEC INTERFACES (continued)**
+**COCKPIT CONTROLS**
+For the engine control, the EEC receives the following data.
+Cockpit Controls:
+\- Master Lever position,
+\- Thrust Lever resolver angle,
+\- Auto Thrust (A/THR) Disconnect P/B (ch B),
+\- Flight Control Unit (FCU) A/THR engagement (ch B),
+\- FADEC Ground Power P/B,
+\- NAI P/B.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 171 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC INTERFACES - COCKPIT
+CONTROLS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 172 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC ELECTRICAL PWR SPLY
+CONTROL (3)
+Power is not cut-off if Centralized Fault Display System (CFDS) EEC
+**EEC**
+menus are active or Data Loading going on (software upload/memory dump).
+The Electronic Engine Control (EEC) is electrically supplied by the A/C
+electrical network when high pressure rotor speed (N2) is below 10% or
+NOTE:
+An action on the ENGine FIRE P/B provides EEC power when the dedicated
+Permanent Magnet Alternator (PMA) has failed, and cut-off from the A/C
+network.
+then by its dedicated PMA when N2 is above 10%.
+**MANUAL REPOWERING**
+**AIRCRAFT POWER**
+For maintenance purposes and Multipurpose Control and Display Unit The
+EEC is supplied by the A/C electrical power network when N2
+(MCDU) engine tests, the ENGine FADEC GrouND PoWeR panel is below 10%.
+Each channel is independently supplied by the A/C
+permits FADEC power supply to be restored on the ground with 28V DC
+through the Engine Interface Unit (EIU).
+engines shut down. When the corresponding ENGine FADEC GrouND
+The aircraft 28V DC permits the EEC to: PoWeR P/B is pressed ON the EEC
+recovers its power supply.
+\- automatic ground check of the Full Authority Digital Engine Control
+(FADEC) system when the engine is not running, that is to say FADEC
+NOTE:
+The FADEC is also repowered as soon as the engine start GrouND PoWeR ON
+for interactive tests and data loading, selector is in IGNition/START or
+CRANK position, or the
+\- control starting: MASTER lever ON or mode selector on IGNition MASTER
+lever is selected ON.
+or CRANK, Starter Air Valve (SAV),
+\- control reverser system.
+NOTE:
+The EIU takes its power from the same bus bar as the EEC.
+**PMA SUPPLY**
+As soon as the engine is running above 10% of N2, its PMA directly
+supplies each EEC channel with three-phase AC power. Two transformer
+rectifiers provide 28V DC power supply to channels A and B. Switching
+between the A/C 28V DC supply and the dedicated alternator power
+supplies is done automatically by the EEC.
+**AUTO DEPOWERING**
+The FADEC is automatically depowered on the ground, through the EIU,
+after engine shutdown.
+The EEC automatic depowering occurs on the ground:
+\- 5 min after A/C power-up,
+\- 5 min after engine shutdown.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 173 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) EEC - AIRCRAFT POWER \...
+MANUAL REPOWERING
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 174 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) FADEC ELECTRICAL PWR SPLY
+CONTROL (3)
+**SUBSYSTEMS POWER SUPPLY**
+The Prognostics and Health Management Unit (PHMU) receives aircraft 28V
+DC directly from the aircraft normal DC power bus through the EIU.
+The de-powering conditions are the same as the EEC.
+The Fan cowl door proximity switches are supplied by another bus in 28V
+DC.
+Power is also transferred to the reverser system valves for Directional
+Control and Isolation.
+Each starting igniter is independently supplied with 115V AC.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 175 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SUBSYSTEMS POWER SUPPLY
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 176 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) IGNITION & STARTING SYSTEM
+PRESENTATION (2) **GENERAL**
+**MANUAL START**
+The Ignition system provides the electrical spark needed to start or
+During a manual start, the SAV opens when the engine MANual START
+continue engine combustion. The ignition system is made up of two P/B is
+pressed in, then the ignition system is energized when the MASTER
+independent systems. The Ignition system includes an ignition exciter,
+control lever is set to the ON position.
+two coaxial shield ignition leads and two igniter plugs.
+The Starting system drives the engine High Pressure (HP) rotor at a
+speed NOTE:
+there is no automatic shutdown function or second attempt in high enough
+for a ground or in flight start to be initiated. The start system MANUAL
+START.
+is made up of the electrical Starter Air Valve (SAV) and the pneumatic
+starter. Air bleed is taken from the aircraft pneumatic system for
+engine **CRANKING**
+start (Auxiliary Power Unit (APU) bleed, external pneumatic cart, other
+Engine motoring could be performed for dry cranking or wet cranking
+engine bleed).
+sequences.
+**CONTROL AND INDICATING**
+NOTE:
+during cranking ignition is inhibited.
+The Electronic Engine Control (EEC) controls the ignition during
+**CONTINUOUS IGNITION**
+automatic start and manual start. 115 V AC from aircraft electrical
+system is supplied to the ignition exciter which provides the necessary
+voltage With engine running, continuous ignition can be selected via the
+EEC
+to the igniter plugs to generate the spark for combustion.
+either manually using the rotary selector or automatically by the Full
+The EEC controls the starting through the SAV during automatic start
+Authority Digital Engine Control (FADEC) during specific conditions.
+and manual start.
+The operation of the SAV and of the ignition system is displayed on the
+**SAFETY PRECAUTIONS**
+ENGINE ECAM page.
+Safety precautions have to be taken prior to working in this area.
+**AUTOMATIC START**
+WARNING: THE IGNITION EXCITER PROVIDES HIGH ENERGY
+During an automatic start, the EEC opens the SAV to motor the engine
+PULSES THROUGH THE IGNITION LEADS TO THE 2
+for start. The ignition exciter is then energized when the HP rotor
+speed IGNITERS PLUGS.
+is nominal. The EEC provides full protection during the start sequence.
+When the automatic start is completed, the EEC closes the SAV and cuts
+**MAINTENANCE PRACTICES**
+off the ignition. In case of an incident during the automatic start the
+EEC
+makes a second attempt or aborts the start procedure.
+To increase A/C dispatch reliability, the SAV is equipped with a manual
+override. For this manual operation, the mechanic has to be aware of the
+engine safety zones.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 177 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) GENERAL \... MAINTENANCE
+PRACTICES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 178 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) IGNITION & STARTING SYSTEM
+D/O (ME) (3)
+\- engine bleed from the opposite engine.
+**GENERAL**
+The Electronic Engine Control (EEC) controls and monitors the Starting
+and Ignition systems for engine starting, cranking, and ignition
+selection, on ground and in flight.
+For engine starting, two modes are available; automatic or manual.
+Both modes can be used on ground or in flight but in flight sequence are
+less protective to enhance the restart capability.
+For engine cranking, two sequences can be manually selected: dry or wet.
+The EEC controls the starting and ignition components according to
+cockpit commands and protective logics.
+The main engine parameters to be monitored during starting are displays
+on the E/WD (N1, EGT, N2, Fuel Flow) and on the SD (Oil Press, IGN
+system, Starter Air Valve position and available pneumatic pressure).
+The ignition system is composed of a dual channel ignition exciter
+supplying two spark igniter plugs.
+Each plug and corresponding circuit (identified as system A and system
+B) can be used at the same time or alternately to detect dormant
+failures.
+The EEC controls the ignition by providing command signals to the
+internal relays of the ignition exciter, whereas the EIU supplies 115
+Volt power supply to the ignition exciter.
+The starting system consists of a Starter Air Valve (SAV), air duct and
+an Air Turbine Starter (ATS).
+The SAV is electrically controlled by the EEC and pneumatically
+operated.
+The ATS is attached to the aft of the main gearbox at the 5 o\'clock
+position. It is fitted with a speed sensor which is used for system
+control and monitoring by the EEC.
+The pressurized air supply to the starting components is provided by one
+of the following sources:
+\- Auxiliary Power Unit (APU) bleed,
+\- external pneumatic ground cart,
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 179 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) GENERAL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 180 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) GENERAL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 181 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) IGNITION & STARTING SYSTEM
+D/O (ME) (3) When the engine reaches the minimum fuel pressurization
+speed (18%
+**AUTOMATIC START**
+N2), the EEC activates one igniter and controls the appropriate fuel
+flow to the burner.
+The EEC shall enter the automatic start mode when all of the following
+On the SD ENGINE page, the corresponding spark igniter system (A or
+conditions are true:
+B\) controlled by the EEC comes into view.
+\- the engine is not running, and
+On the E/WD, the FF increases.
+\- the selected rotary selector is set to IGN/START, and Fuel is sent to
+the burner via the Fuel Metering Valve (FMV) and the
+\- the selected ENG MASTER lever is set to ON, and High Pressure Shut
+Off Valve (HPSOV) in the Integrated Fuel Pump and
+\- the ENG MAN START pushbutton is OFF.
+Control (IFPC).
+When the ENG MODE rotary selector is set to IGN/START position, The EEC
+monitors the Exhaust Gas Temperature (EGT) and N2 according FADEC is
+powered up.
+to their schedules to provide the correct fuel flow for a good
+acceleration.
+The ENGINE page is automatically shown on the System Display (SD) When
+N2 reaches 51% N2, the automatic start sequence ends when the page of
+the ECAM system.
+EEC controls the SAV to close and the igniter to OFF.
+The ENGINE page displays the IGN indication, SAV position and bleed The
+engine continues to accelerate and stabilizes at idle speed.
+pressure during this sequence.
+The usual standard parameters are:
+At the same time, the APU bleed demand will increase and the pack
+\- N1 = 19%,
+valves will close.
+\- N2 = 58%,
+As soon as the ENG MASTER lever is set to ON position, the LPSOV
+\- EGT = 440 ºC,
+opens and the automatic starting sequence begins.
+\- FF = 227 kg/h.
+The EEC will automatically control the: If the second engine has to be
+started, the ENG MODE rotary selector
+\- Thrust Control Malfunction (TCM) cutback test, should stay on the
+IGN/START position.
+\- HPC active bleed valve (opening and closing), This will avoid
+activating the continuous ignition on the running engine
+\- Hydraulic pump depressurizing (via EIU) if necessary during in flight
+if the selector is cycled to NORM and again to IGN/START.
+restart,
+When both engines are running, the selector is set back to NORM, the
+\- SAV (opening and closing),
+WHEEL page will appear instead of the ENGINE page if at least one
+\- Igniters (one or two, on and off),
+engine running.
+\- Fuel Flow (FMV and HPSOV opening).
+Automatic start abort:
+First, the EEC energizes the SAV solenoid. This supplies the starter
+with The EEC has the authority to abort a start only on the ground.
+aircraft pneumatic pressure.
+The EEC will abort the start, dry motor the engine for 30 seconds and
+The position of the SAV is confirmed open at the bottom of the ENGINE
+attempt a single start for the following reasons: page thanks to the ATS
+speed sensor feedback.
+\- no light up (EGT low and constant),
+Consequently, the N2 begins to increase.
+\- no N2 acceleration (hung start),
+\- EGT reaches starting limit (impending hot start).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 182 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) NOTE:
+The maximum EGT during start sequence is 700º C.
+The EEC will abort a start, dry motor the engine for 30 seconds and not
+attempt a restart for the following conditions:
+\- Failure of automatic restart,
+\- N1 locked rotor,
+\- EEC unable to command both igniters,
+\- Loss of EGT indication (T5 sensors failed),
+\- EEC unable to control fuel flow.
+The EEC will also abort a start, will not dry motor the engine and will
+not attempt a restart if the starter duty cycle is exceeded.
+Manual start abort:
+The automatic start sequence can be manually aborted by selection of the
+ENG MASTER lever to OFF position.
+This leads to:
+\- SAV closure,
+\- Igniter(s) off,
+\- FMV, LP and HP fuel shut-off valves closure.
+NOTE:
+EEC does not dry motor the engine when an automatic start is manually
+aborted.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 183 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AUTOMATIC START
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 184 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AUTOMATIC START
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 185 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AUTOMATIC START
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 186 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AUTOMATIC START
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 187 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) IGNITION & STARTING SYSTEM
+D/O (ME) (3)
+\- SAV closure,
+**MANUAL START**
+\- igniters off,
+\- FMV and HP fuel shut-off valve closure.
+A manual engine start procedure is included in the EEC engine starting
+logic.
+In the manual start mode, engine starting control is under limited
+authority of the EEC.
+The SAV, fuel, and ignition are controlled from the cockpit via the EEC.
+Bleed air source being available, a manual start sequence is commanded
+by first setting the rotary selector to the IGN/START position to power
+and signal the EEC.
+The ENGINE page appears on the SD page of the ECAM.
+The ENGINE page displays the IGN indication, SAV position and bleed
+pressure during this sequence.
+At the same time, the APU bleed demand will increase and the pack valves
+will close.
+The next action is to engage the ENG MAN START push-button to the ON
+position. This will lead the EEC to open the SAV.
+When N2 is above the minimum fuel pressurization speed (on-ground
+approximately 18% N2), the ENG MASTER lever is set to the ON
+position. The EEC commands fuel flow and both igniters simultaneously.
+The EEC monitors the EGT and N2 according to their schedules to provide
+the correct fuel flow but EGT limit protection is inactive.
+When N2 reaches 51% N2, the manual start sequence automatically ends
+when the EEC controls the SAV to close and the igniters to OFF.
+The engine continues to accelerate and stabilizes at idle speed.
+Manual start abort:
+When a manual engine start has been initiated on ground or in flight, it
+shall be interrupted by either:
+\- de-selecting the ENG MAN START push-button before the ENG
+MASTER lever is commanded ON, or
+\- selecting ENG MASTER lever back to OFF position after it has already
+been selected ON.
+Interruption of a manual start shall result in the following EEC
+commands: EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 188 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MANUAL START
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 189 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MANUAL START
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 190 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MANUAL START
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 191 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MANUAL START
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 192 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) IGNITION & STARTING SYSTEM
+D/O (ME) (3) **CONTINUOUS IGNITION**
+Continuous ignition is manually selected or automatically controlled by
+the FADEC.
+During continuous ignition both igniters are active.
+Manual command:
+Once the engine is running and above idle, the pilot can manually
+command continuous ignition at any time by moving the rotary selector to
+the IGN/START position.
+Following a ground start, the rotary selector must be moved back to NORM
+before continuous ignition can be manually selected by moving it back to
+IGN/START position.
+Continuous ignition shall remain commanded by the EEC until the rotary
+selector is moved back to NORM.
+In the event that data position of the rotary selector sent by Engine
+Interface Unit (EIU) to EEC is not available or invalid, the EEC shall
+use the last valid value of the rotary selector position if the aircraft
+is on ground until a valid configuration is received again.
+Automatic command:
+The EEC automatically commands continuous ignition at the following
+conditions:
+\- If an engine flameout is detected in flight, or during takeoff,
+igniters are kept on for a minimum of 30 seconds after the engine has
+recovered from the flameout and reached idle,
+\- If a surge is detected in flight or during takeoff, igniters are
+powered until 30 seconds after the surge recovers,
+\- If the EEC detects a quick relight (Master Lever cycled from ON to
+OFF and back to ON in flight),
+\- If TCM Cutback is commanded.
+Automatic continuous ignition shall be inhibited if the burner pressure
+(PB) is above 150 psi (the nominal deteriorated igniter quench point) to
+preserve igniter life.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 193 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) CONTINUOUS IGNITION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 194 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) IGNITION & STARTING SYSTEM
+D/O (ME) (3) **ENGINE CRANK**
+**DRY CRANK**
+Cranking function is used to motor the engine on the ground for a short
+time with the use of the starter.
+There are two cranking modes:
+\- dry cranking,
+\- wet cranking.
+The dry cranking procedure is used to motor the engine to remove
+unburned fuel from the combustion chamber or cool down the engine or for
+some fuel or oil leak tests.
+The EEC shall enter the engine dry crank sequence when all of the
+following conditions are true:
+\- the engine is not running and,
+\- the aircraft is on ground and,
+\- the rotary selector is set to CRANK.
+This will power up the EEC and isolate both ignition systems.
+The ENGINE page appears automatically on the ECAM SD.
+When the ENG MAN START P/B is set to ON, the EEC commands the SAV to
+open.
+The dry motoring can be interrupted at any time by pushing the ENG
+MAN START pushbutton to OFF or positioning the ENG MODE
+rotary selector to NORM position.
+The usual starter duty cycle is 3 starter crank cycles or 4 minutes
+maximum of continuous cranking. A 30 minutes cool down period is
+necessary for additional use.
+WARNING: the EEC is able to initiate a start sequence immediately
+following a dry motoring sequence by setting the ENG
+MODE rotary selector to IGN/START position and the ENG MASTER control
+lever to ON position.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 195 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE CRANK - DRY CRANK
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 196 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) IGNITION & STARTING SYSTEM
+D/O (ME) (3) **ENGINE CRANK (continued)**
+**WET CRANK**
+The wet cranking procedure is used to motor the engine for specific fuel
+or oil leak tests.
+The fuel flow is commanded but both ignition systems are isolated.
+The fuel goes through the IFPC to the actuator fuel pressure lines, the
+engine fuel manifolds (primary fuel lines only), and nozzles. Fuel is
+then sprayed in the combustion chamber.
+The first steps of the wet crank sequence are the same as the ones for
+the dry crank:
+\- the engine is not running,
+\- the aircraft is on ground,
+\- the rotary selector is set to CRANK (EEC powered, both ignition
+systems isolated, ENGINE page appears),
+\- the ENG MAN START P/B is set to ON. (SAV opening).
+When N2 speed stabilizes, the ENG MASTER lever is set to the ON
+position to command the fuel flow.
+After 15 seconds, the ENG MASTER lever is set to the OFF position to cut
+the fuel supply.
+The SAV command is maintained 30 seconds to blow all the fuel from the
+engine.
+The wet motoring ends by pushing the ENG MAN START pushbutton to OFF
+or/and positioning the ENG MODE rotary selector to NORM
+position.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 197 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE CRANK - WET CRANK
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 198 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) START FAILURES (ME) (3)
+**AUTO-RESTART**
+The Electronic Engine Computer (EEC) will abort the automatic start, dry
+motor the engine for 30 seconds and attempt a single auto-restart for
+the following reasons:
+\- No light up (Exhaust Gas Temperature (EGT) low and constant),
+\- No N2 acceleration (hung start),
+\- EGT reaches starting limit (impending hot start or surge).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 199 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AUTO-RESTART
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 200 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) START FAILURES (ME) (3)
+**NO LIGHT UP**
+If during an automatic start, the EEC identifies a low EGT:
+\- It shuts down the fuel supply and the selected igniter,
+\- It generates the ECAM alert \"ENG x IGN A(B) FAULT\",
+\- It maintains the Starter Air Valve (SAV) open to clear fuel vapors
+and cool the turbine for 30 seconds,
+\- Then it controls simultaneously the fuel flow and both igniters,
+\- When N2 reaches the starter cutout speed (or the light up is
+confirmed), it switches the igniters off and controls the SAV closure 1
+seconds after (or 1 seconds after the starter duty cycle is exceeded).
+The engine continues to accelerate and stabilizes at idle speed.
+If this auto-restart attempt fails, the start is aborted and the EEC
+will generate the ECAM alerts \"ENG x START FAULT (IGNITION FAULT)\"
+and \"ENG x IGN A+B FAULT\".
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 201 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) NO LIGHT UP
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 202 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) START FAILURES (ME) (3)
+**IMPENDING HOT START**
+If during an automatic start, the EEC identifies an impending hot start,
+it maintains the SAV open, the selected igniter on and controls a fuel
+depulse procedure: it cycles fuel off for 2 seconds and back on for 12
+seconds via the Fuel Metering Valve (FMV) for a maximum of 28 seconds to
+lower EGT below the limit. The EEC will generate the ECAM alert
+\"ENG x START FAULT (HOT START)\".
+If the fault disappears, the starting sequence goes on normally up to
+the engine stabilizes at idle speed.
+If the fault is still present, the EEC shuts down the fuel supply and
+the igniter, performs a dry motor for 30 seconds and attempts a single
+auto-restart.
+If this auto-restart attempt fails, the start is aborted and the EEC
+will generate the ECAM alert \"ENG x START FAULT (EGT OVERLIMIT)\"
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 203 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) IMPENDING HOT START
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 204 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) START FAILURES (ME) (3)
+**STARTER TIME EXCEEDED**
+If during a start or a crank sequence, the EEC identifies an excessive
+starter duty, it will generate the ECAM alert \"ENG x START FAULT
+(STARTER TIME EXCEEDED)\" and abort the automatic sequence.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 205 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) STARTER TIME EXCEEDED
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 206 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AIR SYSTEM
+DESCRIPTION/OPERATION (3)
+**GENERAL**
+The engine air system makes sure that the compressor airflow and turbine
+clearances are controlled.
+The system also deals with the cooling, pressurizing and ventilation
+airflows.
+External and internal tubing is used to achieve the various functions.
+The main air sources are the fan discharge air, Low Pressure Compressor
+(LPC) discharge air, High Pressure Compressor (HPC) 3rd stage air and
+HPC 6th stage air.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 207 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) GENERAL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 208 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AIR SYSTEM
+DESCRIPTION/OPERATION (3)
+**COMPRESSOR AIRFLOW CONTROL**
+The compressor control system optimizes the compressor performance and
+its stability during engine start, transient and reverse thrust
+operations.
+The two subsystems that comprise the compressor control system are the:
+\- Compressor Stator Vane Control System,
+\- Compressor Bleed Control System.
+**STATOR VANE CONTROL SYSTEM**
+The first stage LPC stator vanes and the HPC Inlet Guide Vanes (IGV) and
+the 1st, 2nd and 3rd HPC stages have variable stator vanes.
+The Electronic Engine Control (EEC) controls the vanes positioning to
+adjust the compressor airflow via three Stator Vane Actuators (SVAs) and
+mechanical linkages. Each of the LPC SVA and the primary HPC SVA
+comprises an electrically controlled dual coil torque motor and a fuel
+operated Electro-Hydraulic Servo Valve (EHSV). The secondary HPC SVA is
+a slave of the primary. The three SVA Linear Variable Differential
+Transformers (LVDTs) transmit the piston position to each EEC channel
+individually.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 209 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) COMPRESSOR AIRFLOW CONTROL -
+STATOR VANE CONTROL SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 210 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AIR SYSTEM
+DESCRIPTION/OPERATION (3)
+**COMPRESSOR AIRFLOW CONTROL (continued)** **BLEED CONTROL SYSTEM**
+The compressor bleed control system comprises one LPC Bleed Valve
+Actuator (BVA) and two HPC bleed valves.
+The LPC bleed system is used to control the LPC discharge 3rd stage
+airflow into the fan discharge.
+The EEC modulates the LPC BVA and mechanical linkages accordingly.
+The LPC BVA comprises an electrically controlled dual coil torque motor
+and a fuel operated EHSV.
+The actuator LVDT transmits the piston position to each EEC channel
+individually.
+The HPC bleed system is used to control the HPC 6th stage airflow into
+the core area.
+The system has two ON-OFF HPC bleed valves; one is active, the other
+passive, and both spring-loaded open and pneumatically closed at certain
+engine operating conditions.
+The active valve is EEC controlled closed through the HPC bleed valve
+solenoid thanks to Ps3 pressure.
+The passive valve closes when the pressure inside the HPC is high enough
+to force the spring loaded valve closed.
+Both are monitored by the EEC thanks to two dedicated pressure sensors.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 211 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) COMPRESSOR AIRFLOW CONTROL -
+BLEED CONTROL SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 212 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AIR SYSTEM
+DESCRIPTION/OPERATION (3)
+**TURBINE ACTIVE CASE COOLING SYSTEM**
+The Turbine Active Case Cooling (ACC) system cools and controls the
+expansion of the turbine case to match the radial expansion of the
+rotary parts; this improves the fuel efficiency and extends the turbine
+case life.
+The EEC modulates the turbine ACC air valve to let some fan air flow be
+discharged via manifolds and tubes around the LP and HP turbine cases.
+The turbine ACC air valve comprises an electrically controlled Single
+Stage Servo Valve (SSSV) and a fuel operated actuator that operates the
+butterfly. An LVDT transmits the piston position to the EEC channel A.
+Note:
+The valve is closed during engine start and idle; partially open during
+take off and climb; fully open during cruise.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 213 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) TURBINE ACTIVE CASE COOLING
+SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 214 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AIR SYSTEM
+DESCRIPTION/OPERATION (3)
+**TURBINE COOLING AIR SYSTEM**
+The Turbine Cooling Air (TCA) System is a passive system that provides a
+continuous flow of cooling air inside the turbine cases.
+The system consists of 19 external tubes or jumpers that direct
+calibrated HPC bleed air (3rd and 6th stages) to the followings:
+\- High Pressure Turbine (HPT) 2nd stage vanes,
+\- Inter-stage HPT cavity,
+\- Turbine Intermediate Case (TIC) Stator Vanes, including the inner and
+outer diameter cavities,
+\- Low Pressure Turbine (LPT) case outer cavity and LPT rotor
+inter-stage cavities.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 215 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) TURBINE COOLING AIR SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 216 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AIR SYSTEM
+DESCRIPTION/OPERATION (3)
+**ENGINE BEARING COOLING SYSTEM**
+The engine bearing cooling system provides cooling buffer air to the
+engine main bearing compartments and supplies sealing air to prevent oil
+leakage. It consists of:
+\- the buffer/ventilation system for bearing numbers 1, 1.5, 2, 3, 5 and
+6,
+\- the engine bearing cooling system for bearing number 4.
+**BUFFER / VENTILATION SYSTEM**
+The bearing compartments numbers 1, 1.5, 2, 3, 5 and 6 are cooled and
+pressurized by the HPC 3rd stage through the LP buffer shutoff valve at
+low power or by the 2.5 bleed air valve at high power through the LPC
+check valve.
+The LPC check valve is a passive device that is open until the HPC
+3rd stage pressure delivered by the LP buffer shutoff valve is higher
+than the 2.5 pressure, to prevent a reverse flow.
+The LP buffer shutoff valve is open through the integrated EEC
+controlled HPC buffer shutoff valve solenoid thanks to Ps3 pressure.
+The cooling buffer air is distributed to the bearing compartments via
+external and internal tubing, including LP shaft.
+For monitoring, the Buffer Air Pressure Sensor (BAPS) provides a buffer
+air pressure signal to both EEC channels.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 217 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE BEARING COOLING
+SYSTEM - BUFFER / VENTILATION SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 218 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AIR SYSTEM
+DESCRIPTION/OPERATION (3)
+**ENGINE BEARING COOLING SYSTEM (continued)** **NUMBER 4 BEARING COOLING
+SYSTEM**
+The Buffer Air Heat Exchanger (BAHE) uses station 2.5 bleed air to cool
+HPC 3rd stage air before it is delivered to the number 4 bearing
+housing. The station 2.5 air exits the BAHE and is routed into the fan
+discharge.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 219 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE BEARING COOLING
+SYSTEM - NUMBER 4 BEARING COOLING SYSTEM
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 220 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AIR SYSTEM
+DESCRIPTION/OPERATION (3)
+**COMPARTMENT COOLING**
+The compartment cooling system ensures the ventilation of the fan
+compartment, the core compartment and dedicated components inside the
+core compartment.
+The cooling of the fan compartment is achieved through a passive
+ventilation system. Outside airflow circulates from the top scoop around
+the fan case and exhausts through bottom holes and gabs of the fan
+cowls.
+The cooling of the core compartment is achieved through a passive
+ventilation system. Fan bypass airstream is directed to the nacelle
+core, ignition leads, igniter plugs and Environmental Control System
+(ECS) bleed valves through openings on the inner contour of the thrust
+reverser cowl doors and exhausts through bottom holes and gabs of the
+Inner Fixed Structure (IFS) trailing edge. Additional tubes are
+dedicated for the cooling of the ACC Valve, Starter Air Valve (SAV) and
+the Flow Divider Valve (FDV).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 221 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) COMPARTMENT COOLING
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 222 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THROTTLE CONTROL SYSTEM D/O
+(3)
+**THROTTLE CONTROL LEVER**
+The Throttle control handle comprises: o a throttle control lever which
+incorporates stop devices, autothrust instinctive disconnect pushbutton
+switch o a graduated fixed sector
+o a reverse latching lever.
+The throttle control lever is linked to a mechanical rod. This rod
+drives the input lever of the throttle control artificial feel unit.
+The throttle control lever moves over a range from -20 deg.TLA (Reverser
+Full Throttle stop) to +45 deg.TLA:
+o -20 degrees TLA corresponds to Reverser Full Throttle stop o +45
+degrees TLA corresponds to Forward Full Throttle stop An intermediate
+mechanical stop is set to 0 deg. TLA. This stop is overridden when the
+reverse latching lever is pulled up for selection of the reverse power.
+This stop is reset as soon as the throttle control lever is selected
+back to forward thrust area.
+In the forward thrust area, there are two detent points, the MAX CLIMB
+detent point set to 25 deg.TLA and the MAX CONTINUOUS/FLEX
+TAKE-OFF detent point set to 35 deg.TLA.
+In the reverse thrust throttle range, there is one detent point at - 6
+deg.TLA. This position agrees with the selection of the thrust reverser
+command and the Reverse Idle setting.
+In the middle throttle range (0 deg. To 35 deg.TLA), the autothrust
+function can be active if engaged. This range agrees with the selection
+of MAX CLIMB or MAX CONTINUOUS thrust limit mode (in single operation).
+If the autothrust is not engaged, the engine control is manual.
+In the forward range (35 deg. To 45 deg.TLA), the autothrust function
+cannot be activated (except in alpha floor condition).This range agrees
+with the selection of FLEX TAKE-OFF/MAX TAKE-OFF Mode.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 223 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THROTTLE CONTROL LEVER
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 224 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THROTTLE CONTROL SYSTEM D/O
+(3)
+**THROTTLE CONTROL UNIT**
+A mechanical rod transmits the throttle control lever movement. It
+connects the throttle artificial feel unit to the input lever of the
+throttle control unit. The throttle control unit comprises:
+-An input lever
+-Mechanical stops, which limit the angular range
+-2 resolvers (one resolver per FADEC (ECU/EEC)
+-6 potentiometers installed three by three
+-A device, which drives the resolver and the potentiometer
+-A pin device for rigging the resolver and potentiometers
+-1 switch whose signal is dedicated to the EIU
+-2 output electrical connectors
+The input lever drives two gear sectors assembled face to face. Each
+sector drives itself a set of one resolver and three potentiometers. The
+relationship between the throttle lever angle and throttle resolver
+angle (TRA) IS LINEAR AND 1 DEG.TLA = 1.9 TRA. The accuracy of the
+throttle control unit (error between the input lever position and the
+resolver angle) is 0.5 deg.TRA. The maximum discrepancy between the
+signals generated by two resolvers is 0.25 deg.TRA.
+The TLA resolver operates in two quadrants. The first quadrant is used
+for positive angles and the second quadrant for negative angles. Each
+resolver is dedicated to one FADEC channel (ECU / EEC) and receives its
+electrical excitation current (6 VAC) from the related FADEC channel
+(ECU / EEC)
+The ECU considers a throttle resolver angle value: o less than -47.5
+deg.TRA
+or
+o greater than 98.8 deg.TRA as resolver position signal failure.
+The ECU includes a resolver fault accommodation logic. This logic allows
+engine operation after a failure or a complete loss of the throttle
+resolver position signal.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 225 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THROTTLE CONTROL UNIT
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 226 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THROTTLE CONTROL SYSTEM D/O
+(3)
+**BUMP FUNCTION (PW1100G and IAE ENGINES ONLY)** If an airline requests
+the bump function, this function is selected in the aircraft by guarded
+pushbutton switch with TLA at TOGA position (one on each throttle
+control lever). With this switch, a signal can be sent to the two FADEC
+units at the same time through the Engine Interface Unit (EIU).
+Thrust bump can be used to obtain additional thrust capability during
+takeoff It can be used either with two engines or in single engine
+operation.
+With the throttle levers at TOGA and the Bump P/B pushed, \'B\' appears
+on the right side of the EPR/N1 dial on the EWD.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 227 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) BUMP FUNCTION (PW1100G AND
+IAE ENGINES ONLY) EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 228 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE THRUST MANAGEMENT (3)
+**GENERAL**
+The engine thrust is controlled under the management of the Electronic
+Engine Controller (EEC).
+The engine thrust can be set:
+\- manually from the throttle control lever or,
+\- automatically from the Auto Flight System (AFS).
+The engine thrust parameters are displayed on the ECAM.
+The main thrust monitoring parameter is the N1 speed (LP shaft).
+The main thrust demand parameter is the engine Fuel Flow (FF).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 229 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) GENERAL
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 230 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE THRUST MANAGEMENT (3)
+**THRUST LIMIT MODE**
+The throttle levers are used as thrust limit mode selectors.
+Depending on the throttle lever position, a thrust limit mode is
+selected and appears on the upper ECAM display.
+If the throttle levers are set between two detent points, the upper
+detent will determine the thrust limit mode.
+An additional Soft Go-Around (SGA) mode is available.
+It is automatically selected if during approach, the TOGA detent is set
+and the thrust levers are then moved back to the FLX/MCT detent.
+NOTE:
+Note:
+\- On the ground with the engines running, the displayed N1
+rate limit corresponds to the TO/GA thrust limit whatever the thrust
+lever position is.
+\- On the ground with the engines running and if FLEX mode is selected,
+FLEX N1 is displayed whenever the thrust lever position is between IDLE
+and FLX/MCT.
+**N1 LIMIT**
+For each thrust limit mode selection, an N1 rating limit is computed by
+the EEC according to Thrust Lever Angle (TLA) and the air data
+parameters from the Air Data Inertial and Reference Units (ADIRUs).
+This indication is displayed in green on the upper ECAM display near the
+thrust limit mode indication.
+**PREDICTED N1**
+The predicted N1 is indicated by a blue circle on the N1 indicator and
+corresponds to the value determined by the TLA.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 231 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST LIMIT MODE - N1 LIMIT
+& PREDICTED N1
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 232 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE THRUST MANAGEMENT (3)
+**ACTUAL N1**
+The actual N1 is the actual value given by the N1 speed sensor and is
+used as a reference for the engine thrust control loop.
+This actual N1 is displayed in green on the N1 indicator.
+**N1 COMMAND**
+The N1 command, used to regulate the fuel flow, is: **N1 TARGET**
+In A/THR mode, the FMGCs compute an N1 target according to the AFS
+command, the air data and the engine parameters and send this demand to
+the EECs.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 233 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ACTUAL N1 - N1 COMMAND & N1
+TARGET
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 234 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE THRUST MANAGEMENT (3)
+**AUTOTHRUST CONTROL MODE**
+The A/THR function is engaged manually when the A/THR P/B is selected or
+automatically at take-off power application.
+**AUTOTHRUST ACTIVE**
+When engaged, the A/THR function becomes active when the throttle levers
+are set to CLimb detent after take-off.
+The N1 command is the FMGC N1 target.
+The A/THR function is normally active when the throttle levers are set
+between IDLE and CLimb (including CLimb).
+The A/THR active range is extended to MCT in the case of single engine
+operation.
+When the throttle levers are set between two detent points, the N1
+command is limited by the throttle lever position.
+NOTE:
+Note: In case of Alpha Floor detection, the A/THR function becomes
+active automatically and the N1 target is to TOGA.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 235 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AUTOTHRUST CONTROL MODE -
+AUTOTHRUST ACTIVE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 236 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE THRUST MANAGEMENT (3)
+**AUTOTHRUST CONTROL MODE (continued)** **AUTOTHRUST NOT ACTIVE**
+When engaged, the A/THR function becomes inactive when the throttle
+levers are set above CLimb with both engines running.
+In this case, the N1 command corresponds to the N1 throttle (TLA).
+NOTE:
+Note:
+The A/THR function is inactive above MCT in case of single engine
+operation.
+The A/THR function is disengaged when the throttle levers are set at
+IDLE stop.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 237 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AUTOTHRUST CONTROL MODE -
+AUTOTHRUST NOT ACTIVE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 238 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE THRUST MANAGEMENT (3)
+**AUTOTHRUST CONTROL MODE (continued)** **MANUAL CONTROL MODE**
+The engines are in manual control mode when the A/THR function is not
+engaged, or engaged and not active (throttle levers not in the A/THR
+operating range and no Alpha Floor detected).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 239 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) AUTOTHRUST CONTROL MODE -
+MANUAL CONTROL MODE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 240 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE THRUST MANAGEMENT (3)
+**THRUST CONTROL MALFUNCTION**
+The Thrust Control Malfunction (TCM) is a FADEC protection function
+against un-commanded and uncontrollable excessive power excursion in
+which the normal thrust control becomes inoperative.
+NOTE:
+Note: The FADEC logic uses TCM permission data from FMGCs to FCU to
+automatically reduce engine thrust during flare.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 241 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST CONTROL MALFUNCTION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 242 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MONITORING D/O (3)
+**INDICATING**
+The engine indicating system has sensors that measure some engine
+parameters. These parameters are supplied to the Electronic Engine
+Control (EEC) and / or to the Prognostic and Health Monitoring Unit
+(PHMU) for computation and transmission. They are sent to the Electronic
+Instrument System (EIS) for display on the EWD and on the SD-ENGINE
+Page. In conjunction with inputs from the ADIRS, they are also used to
+control and monitor the engine with the Throttle Lever Angle (TLA)
+position in manual thrust control mode or with the Engine Interface Unit
+(EIU) inputs in auto thrust control mode.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 243 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) INDICATING
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 244 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MONITORING D/O (3)
+**PRIMARY PARAMETERS**
+**ROTATIONAL SPEED PARAMETERS DESCRIPTION**
+The N1 speed sensor is mounted on the rear of the Compressor
+Intermediate Case (CIC) at approximately 4 o\'clock position. The N1
+speed sensor detects the rotational speed of LP rotor assembly. The
+indication is shown in the ECAM EWD by a needle and a N1 digital
+indication display.
+The N2 speed sensor is installed on the right hand side of the Angle
+Gear Box (AGB). The N2 speed sensor detects the rotational speed of the
+HP rotor assembly. The N2 rotational speed is indicated in the ECAM EWD
+by digits.
+The digital display is shown on a grey background during engine start.
+Both the N1 and N2 speed sensors are dual channel magnetic speed sensors
+and transmit the corresponding signals to the EEC for processing and
+monitoring and to the PHMU via the EEC for vibrations computation.
+The N1 and N2 sensors are line replaceable units.
+The Fan Speed (Nf) sensor senses the fan rotor speed and sends it to the
+EEC. There is no indication of Nf on the ECAM.
+The EEC uses the Fan Speed sensor to detect de-coupling of the Fan Shaft
+from the LP shaft (sheared shaft) by comparing the Nf to the N1. The
+PHMU uses the Fan Speed from the EEC in conjunction with Fan Rotor
+vibrations to monitor Fan Rotor vibration and calculate trim balance
+solution for maintenance purposes.
+The Nf sensor is a Line Replaceable Unit (LRU).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 245 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PRIMARY PARAMETERS -
+ROTATIONAL SPEED PARAMETERS DESCRIPTION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 246 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MONITORING D/O (3)
+**PRIMARY PARAMETERS (continued)**
+**EGT PARAMETERS**
+The engine EGT is sensed and averaged by four thermocouple probes (T5
+probes) located around the circumference of the Turbine Exhaust Case
+(TEC). The actual engine EGT is displayed in the ECAM EWD
+by a needle and an EGT digital indication.
+Each probe is a single channel Chromel / Alumel thermocouple. The
+signals from the two T5 probes on the left side of the engine are
+electrically averaged and sent to Channel A of the EEC. The signal from
+the two T5 probes on the right side of the engine are electrically
+averaged and sent to channel B of the EEC.
+The EGT thermocouples are LRUs.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 247 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PRIMARY PARAMETERS - EGT
+PARAMETERS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 248 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MONITORING D/O (3)
+**PRIMARY PARAMETERS (continued)**
+**FUEL PARAMETERS DESCRIPTION**
+The Fuel Flow Meter (FFM) is installed on the intermediate case right
+hand side of the engine core at approximately the 3 o\'clock position.
+The fuel flow and the fuel used are displayed on the ECAM EWD by digital
+indications. The FFM is a magnetic drum and impeller type.
+The fuel used value is computed by the EIS from the fuel flow value sent
+by the EEC. The fuel used for each engine is computed from the engine
+start to the engine shutdown. It is reset to 0 at the next engine start.
+The FFM is an LRU.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 249 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PRIMARY PARAMETERS - FUEL
+PARAMETERS DESCRIPTION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 250 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MONITORING D/O (3)
+**PRIMARY PARAMETERS (continued)**
+**FUEL PARAMETERS DESCRIPTION**
+The fuel filter differential pressure sensor is bolted to the fuel
+manifold which is attached to the Main Gearbox (MGB) at the 3 o\'clock
+position.
+The sensor signal is transmitted by the EEC to the ECAM system to
+generate clogging alerts when the fuel differential pressure across this
+filter exceeds the thresholds. Two indications are available: DEGRAD
+or CLOG.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 251 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) PRIMARY PARAMETERS - FUEL
+PARAMETERS DESCRIPTION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 252 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MONITORING D/O (3)
+The Low Oil Pressure (LOP) switch signals the EIU when the oil
+**SECONDARY PARAMETERS**
+pressure drops below a threshold. It is located on the left hand side of
+the engine on the Oil Control Module (OCM).
+**OIL PARAMETERS DESCRIPTION**
+The Oil Debris Monitoring (ODM) sensor is located on the top front The
+Oil Level (OL) sensor is located in the oil tank. It sends the oil side
+of the oil tank. It sends signals proportional to size and type of
+quantity analog signal to the EEC. The EEC sends the signal for the
+pollution particles to the PHMU. The PHMU monitors the debris display on
+ECAM SD ENGINE page.
+for quantity and identifies whether it is ferrous or non-ferrous debris.
+The Main Oil Pressure (MOP) sensor is located on the left hand side The
+data is transmitted to the EEC for analysis and to generate an of the
+engine on the Oil Control Module (OCM), rear lower side. It ECAM message
+and trend monitoring accordingly. The data is also is a dual channel
+sensor which sends the signal to the EEC for stored in the Data Storage
+Unit (DSU).
+monitoring. EEC sends the signal for display on ECAM SD ENGINE
+page.
+The Main Oil Temperature (MOT) sensor is a dual channel sensor and is
+used to measure the temperature of the scavenge oil returning to the
+tank. This data is monitored by the EEC and is displayed on the ECAM SD
+ENGINE page. The sensor is located on the front face of the OCM.
+In case of abnormal condition, sensors send signals to trigger messages
+on ECAM and / or CFDS.
+An Oil Filter Differential Pressure (OFDP) sensor is installed adjacent
+to the oil pressure filter unit on the Lubrication and Scavenge Oil Pump
+(LSOP) unit. The pressure sensor signal is transmitted by the EEC to the
+ECAM system to generate the main oil filter clogging alerts when the oil
+differential pressure across this filter exceeds the thresholds. Two
+indications are available: DEGRAD or CLOG.
+An Auxiliary Oil Pressure (AOP) sensor is located on the left side of
+the engine, below the Variable Oil Reduction Valve /Journal Oil Shuttle
+Valve (VORV/JOSV). It measures the pressure of oil delivered to the
+journal bearings in the Fan Drive Gear System (FDGS). It sends a signal
+to the EEC, where it is used in conjunction with other oil parameters to
+detect a Fan Drive Gearbox (FDG) auxiliary oil supply malfunction.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 253 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SECONDARY PARAMETERS - OIL
+PARAMETERS DESCRIPTION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 254 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SECONDARY PARAMETERS - OIL
+PARAMETERS DESCRIPTION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 255 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MONITORING D/O (3)
+**SECONDARY PARAMETERS (continued)**
+**VIBRATION PARAMETERS DESCRIPTION**
+The vibration monitoring function within the PHMU uses the two vibration
+sensors to measure the Fan related vibrations (VIB N1) and the Core
+related vibrations (VIB N2), stores this information and sends it to the
+EEC. It is used for ECAM display in the ENGINE SD page.
+It\'s also used for the fan trim balance procedure.
+The PHMU receives Nf, N1 and N2 data from EEC to capture and compute the
+appropriate vibration data.
+The Forward Vibration Sensor is a single channel piezoelectric
+accelerometer, installed at 10 o\'clock on the HP Compressor casing.
+The Aft Vibration Sensor is a single channel piezoelectric
+accelerometer, installed at 3 o\'clock on the LP Turbine casing.
+If the signal from one vibration sensor (either forward or aft vibration
+sensor) is lost during engine operation, the vibration monitoring
+function is still able to provide both vibration signals (N1 and N2) for
+cockpit display. However, the display for the affected sensor will be
+presented in degraded mode.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 256 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SECONDARY PARAMETERS -
+VIBRATION PARAMETERS DESCRIPTION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 257 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MONITORING D/O (3)
+**SECONDARY PARAMETERS (continued)**
+**NACELLLE TEMPERATURE INDICATION**
+The nacelle temperature is monitored by a temperature probe installed in
+the ventilated core compartment.
+The nacelle temperature is displayed on the ECAM ENGINE SD, except
+during starting or cranking sequences where it is replaced by starting
+parameters.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 258 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) SECONDARY PARAMETERS -
+NACELLLE TEMPERATURE INDICATION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 259 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE MONITORING D/O (3)
+**OTHER SENSORS FOR ENGINE CONTROL AND**
+**MONITORING**
+Various sensors are used by the EEC for the engine control and
+monitoring.
+The T2 sensor measures the air inlet temperature for engine rating, Mach
+number calculation and bleed scheduling. It is located in the air inlet
+cowl at 1 o\'clock position.
+The P 2.5/T 2.5 sensor measures the air pressure and temperature
+downstream of the booster at the High Pressure Compressor (HPC) inlet.
+It is located on the Compressor Intermediate Case at 1 o\'clock
+position.
+The Burner Pressure (PB) sensor measures the pressure related to the
+combustion for fuel scheduling, surge recovery, stall detection, idle
+modulation and continuous ignition logic. It is located in the LH side
+Compressor Intermediate case firewall at 11 o\'clock position.
+The T3 sensor measures the compressor discharge temperature for total
+temperature calculation. It is located on the diffuser case, forward of
+the fuel nozzles at 1 o\'clock position.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 260 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OTHER SENSORS FOR ENGINE
+CONTROL AND MONITORING
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 261 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER D/O (3)
+**THRUST REVERSER SYSTEM LAYOUT**
+The thrust reverser system is of the aerodynamic blockage type.
+For each engine, it consists of two translating sleeves, ten blocker
+doors and cascade vanes to redirect fan discharge airflow.
+Each system is pressurized by its dedicated hydraulic power source:
+\- the green hydraulic pressure for engine 1,
+\- and the yellow one for engine 2.
+Each system is made of one Hydraulic Control Unit (HCU) including an
+Isolation Control Valve (ICV) and a Directional Control Valve (DCV), two
+worm drive actuators per side, locking and monitoring devices.
+To avoid inadvertent deployment, the system operates under multiple and
+independent commands and it comprises several lines of defense: primary
+locks in each actuator and one tertiary lock at the bottom of each
+translating sleeve.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 262 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER SYSTEM LAYOUT
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 263 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER D/O (3)
+jack heads to release the actuators internal primary locks and command
+**DEPLOY SEQUENCE**
+the translating sleeves deployment.
+5-Above 85 % of travel, the EEC commands the engine to accelerate The
+EEC confirms the engine is running. The thrust reversers are stowed,
+from reverse idle to max reverse thrust. Maximum allowable thrust is
+locked and not inhibited.
+defined as a function of sleeve travel and TLA.
+In these conditions:
+At 95% of travel, the actuators engage their integral snubbing devices,
+\- the ICV, DCV, Track Lock Valves (TLV) are de-energized to prevent
+thus decreasing their extension speed before the full opening.
+pressurization,
+The TLV, ICV and DCV remain supplied to maintain the translating
+\- the 6 proximity sensors indicate locked, sleeves fully deployed by
+hydraulic pressure.
+\- the ICV pressure switch indicates a low pressure,
+\- both LVDTs indicate a stowed condition,
+\- the HCU inhibition lever proximity sensor indicates a non-inhibited
+condition.
+When the thrust-reverser lever is set to the deploy position, the
+following sequence occurs.
+1-As soon as the Spoiler Elevator Computers (SECs) receive the signal
+from the TCU potentiometers (Throttle Lever Angle (TLA) \< -3°), and
+from the Radio Altimeter (RA) (altitude \< 6 ft), they control the
+powering of the TLVs to open. In this position, the TLVs are ready to
+let the hydraulic pressure release the Track Lock (TL) when the ICV will
+be controlled open.
+2-When the Engine Interface Unit (EIU) receives the signals from the
+Throttle Control Unit (TCU) switch (TLA \< -3.8°) and from the Landing
+Gear Control and Interface Units (LGCIUs) (aircraft on ground), it
+controls the closure of internal relays involved in the ICV and DCV
+powering.
+3-When the Electronic Engine Control (EEC) receives the signals from the
+TCU resolvers (TLA \< -4.3°), it closes an internal relay to power the
+ICV to open. The pressure is sent to the actuators rod chambers to
+perform an overstow and to the TLs to release the latches.
+4- When the EEC receives the signals from the TCU resolvers (TLA \<
+-4.8°) provided the TLs are confirmed unlocked, it closes an internal
+relay to power the DCV to open. The pressure is sent to the actuators
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 264 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) DEPLOY SEQUENCE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 265 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) DEPLOY SEQUENCE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 266 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) DEPLOY SEQUENCE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 267 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) DEPLOY SEQUENCE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 268 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) DEPLOY SEQUENCE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 269 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) DEPLOY SEQUENCE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 270 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER D/O (3)
+**STOW SEQUENCE**
+When the thrust-reverser lever is set to the stow position, the
+following sequence occurs.
+1-When the EEC receives the signals from the TCU resolvers (TLA \>
+-4.8°), it de-energizes the DCV. The pressure is sent only to the
+actuators rod chambers to stow the translating sleeves until the
+actuators internal primary locks are re-engaged.
+2-15 seconds after the SECs receive the signals from the TCU
+potentiometers (TLA \> -2°), they de-energize the TLVs to re-engage the
+TLs.
+3-15 seconds after the stow sequence is completed, the EEC de-energizes
+the ICV. Then the EIU opens its internal relays to isolate the ICV and
+DCV powering.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 271 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) STOW SEQUENCE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 272 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) STOW SEQUENCE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 273 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) STOW SEQUENCE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 274 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER D/O (3)
+**GROUND ASSISTED STOW SEQUENCE (GASS)** The EEC shall initiate a thrust
+reverser GASS operation on ground only in order to lock the thrust
+reverser system in the following two cases:
+\- at least one primary lock is detected unlock after the normal stow
+sequence is completed (operational case),
+\- if at least one primary lock is detected unlock after the engine
+start (maintenance case).
+The GASS shall be initiated by energizing the ICV for 5 seconds when all
+the following conditions are fulfilled:
+\- the aircraft is on ground,
+\- the throttle is in forward thrust region and less than CL position,
+\- no stow sequence is being commanded,
+\- within 15s after engine transition to idle following an engine start,
+\- one or two primary locks of any translating sleeve are seen unlocked,
+\- the sleeve positions (left and right) are less than 5% of travel,
+\- the thrust reverser is not inhibited,
+\- 28V DC power is available.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 275 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) GROUND ASSISTED STOW SEQUENCE
+(GASS)
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 276 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL SYSTEM D/O (3)
+**OIL SYSTEM LAYOUT**
+The oil system:
+\- Lubricates the engine bearings, Angle Gearbox (AGB), Main Gearbox
+(MGB) and Fan Drive Gear System (FDGS) with filtered, non-pressure
+regulated oil,
+\- Regulates the temperature of the engine oil with the Air/Oil Heat
+Exchanger (AOHE), engine fuel with the Fuel/Oil Heat Exchanger (FOHE),
+Integrated Drive Generator (IDG) oil with IDG Oil/Oil Heat Exchanger
+(IDGOOHE),
+\- Scavenges the hot lubrication oil back to the tank,
+\- Vents overboard the excess of sealing air from the bearing
+compartments.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 277 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL SYSTEM LAYOUT
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 278 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL SYSTEM D/O (3)
+**OIL SUPPLY**
+Oil flows from the pressurized oil tank to the lube pump in the
+Lubrication and Scavenge Oil Pump (LSOP).
+The pressurized oil is directed to the main oil filter and to the Oil
+Control Module (OCM). The main part of the filtered oil flows to the
+Fuel/Oil Heat Exchanger Bypass Valve (FOHEBV) which modulates the oil
+flow between the AOHE and the FOHE. The oil flow that is directed to the
+AOHE also flows through the IDGOOHE.
+The FOHEBV is electrically controlled and monitored by the Electronic
+Engine Control (EEC) according to fuel temperature.
+Oil from the heat exchangers is sent via the OCM to the No. 3, 4, 5, 6
+bearings and to the AGB and MGB.
+Oil is also sent to the Variable Oil Reduction Valve (VORV) / Journal
+Oil Shuttle Valve (JOSV) which modulates the flow of oil to the No. 1,
+1.5, 2 and Fan Drive Gear System (FDGS) based on engine power settings.
+The VORV is electrically controlled and monitored by the EEC to bypass
+part of the oil flow to the front bearings at low power setting.
+The JOSV is a mechanical device that keeps a continuous supply of oil to
+the fan drive journal bearings from the main oil supply in normal
+condition or from the auxiliary oil supply in windmill or zero or
+negative gravity conditions.
+Nozzles in the main bearing compartments and gearboxes supply the oil to
+the different bearings, gears, seals, and accessory drive splines. Last
+chance strainers are provided at the entrance to the compartments to
+protect the oil nozzles from debris introduced to the oil system
+downstream of the main oil filter.
+The other part of the filtered oil is sent through the Active Oil Damper
+Valve (AODV) to the No. 3 bearing damper for N2 vibration control.
+The AODV is electrically controlled by the EEC to supply oil to the
+damper during starting and acceleration and shut it off at high power.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 279 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL SUPPLY
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 280 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL SUPPLY
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 281 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL SUPPLY
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 282 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL SYSTEM D/O (3)
+**OIL SCAVENGE AND VENTING**
+The engine oil scavenge system is used to return the hot lubrication oil
+to the tank through the LSOP.
+The LSOP has six scavenge pumps that are used to pull scavenge oil from
+the:
+\- No. 1, 1.5, 2 bearing and FDGS,
+\- No. 3 bearing compartment,
+\- No. 4 bearing compartment,
+\- No. 5 and 6 bearing compartment,
+\- MGB,
+\- AGB.
+Six magnetic chip collectors, installed upstream of the scavenge pumps,
+catch ferrous metal particles.
+The scavenge pumps send the scavenge oil to the oil tank through the Oil
+Debris Monitor (ODM) and the deaerator.
+The ODM senses the size and quantity of ferrous and non-ferrous
+particles in the scavenge oil system and the corresponding signal is
+processed by the Prognostic Health Monitoring Unit (PHMU).
+The engine oil breather system is used to remove sealing air from the
+bearing compartments, separate the air from the oil, and vent it
+overboard.
+In the tank, the deaerator is a static component that separates the air
+that is mixed with the scavenged oil. Part of the air is used to
+pressurize the tank and the excess is sent to the centrifugal deoiler.
+The deoiler is mechanically connected and driven by the MGB and receives
+the air/oil mist internally from the MGB, from the tank by the breather
+line and from the No. 3 bearing compartment by a dedicated breather vent
+tube.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 283 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL SCAVENGE AND VENTING
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 284 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL SCAVENGE AND VENTING
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 285 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL SYSTEM D/O (3)
+It measures the pressure on the oil supply line and sends the signals
+**OIL MONITORING AND INDICATING**
+to both EEC channels.
+The oil monitoring and indicating system comprises: **LOW OIL PRESSURE
+INDICATING**
+\- Oil Level (OL) indicating,
+The low oil pressure switch is installed on OCM.
+\- Oil Debris Monitoring (ODM),
+It detects low oil pressure condition on the oil supply line and sends
+\- Main Oil Temperature (MOT) indicating, the signals to the Engine
+Interface Unit (EIU).
+\- Main Oil Pressure (MOP) indicating,
+\- Low Oil Pressure (LOP) indicating,
+**OIL FILTER DIFFERENTIAL PRESSURE**
+\- Oil Filter Differential Pressure (OFDP), The oil filter differential
+pressure sensor is installed on the OCM,
+\- Auxiliary Oil Pressure (AOP) indicating.
+adjacent to the oil filter.
+The differential pressure signal is sent to both EEC channels.
+**OIL LEVEL INDICATING**
+When the differential pressure across the filter is more than the The
+oil level sensor is installed on the top of the oil tank.
+specified limit, a maintenance signal is generated.
+It is of the magnetic float and reed switch type. The signal
+proportional When the differential pressure across the primary oil
+filter element is to the oil level is sent to the EEC channel B.
+too much, the filter bypass valve will open.
+**OIL DEBRIS MONITORING**
+The pressurized oil then will go directly to the secondary filter and an
+oil filter bypass signal is also generated.
+The Oil Debris Monitoring (ODM) sensor is installed between the main oil
+scavenge line and the deaerator in the oil tank.
+**AUXILIARY OIL PRESSURE INDICATING**
+It detects any type of pollution that crossed its electromagnetic field.
+The dual auxiliary oil pressure sensor is installed on the VORV /
+The signal corresponding to the ferrous and non-ferrous debris is JOSV
+assembly.
+processed by the PHMU. The PHMU calculates the number of particles It
+measures the pressure of the auxiliary oil supply for the journal in a
+given time period and sends it to the EEC channel A.
+bearings of the FDGS and sends it to both EEC channels to detect The EEC
+compares the data to predefined values and generates a failures in the
+JOSV or the oil auxiliary pump.
+maintenance signal.
+**MAIN OIL TEMPERATURE INDICATING**
+The dual oil temperature sensor is installed on the OCM.
+It measures the scavenge oil temperature in the scavenge oil line and
+sends the signals to both EEC channels.
+**MAIN OIL PRESSURE INDICATING**
+The dual main oil pressure sensor is installed on OCM.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 286 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL MONITORING AND
+INDICATING - OIL LEVEL INDICATING \... AUXILIARY OIL PRESSURE INDICATING
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 287 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING & CLOSING OF ENGINE
+COWL DOORS (2) TO THE FAN COWL, WING LEADING EDGE SLATS
+**OPENING OF THE ENGINE FAN COWL DOORS**
+AND WING CAN OCCUR.
+On the engine, unlock and open the three latches: Before working on the
+engine, safety precautions have to be taken.
+Push the fan cowl door latch triggers to release the AFT latch, CENTER
+WARNING: KEEP PERSONNEL AND EQUIPMENT CLEAR OF THE
+latch and the FWD latch on the bottom of the left fan cowl door.
+FAN COWL DOORS WHEN THE HOLD OPEN RODS
+Pull down in sequence each handle (first the AFT then the CENTER then
+ARE NOT LOCKED. THE COWL DOORS CAN CLOSE
+the FWD) to open the three latches.
+QUICKLY AND INJURY TO PERSONS OR DAMAGE
+Move the latches away from the three latch keepers.
+TO EQUIPMENT CAN OCCUR.
+NOTE:
+The push-open devices on the fan cowl doors will push the DO NOT ATTEMPT
+TO OPEN THE FAN COWL DOORS
+doors apart after you release the last latch.
+IF THE WIND SPEED IS HIGHER THAN 96 KM/H (60
+Push the fan cowl door latch trigger to release the side latch on the
+right MPH).
+fan cowl door (3 o\'clock position).
+BE CAREFUL IF YOU OPEN A FAN COWL DOOR
+Pull the handle to release the right fan cowl from the inlet cowl.
+WHEN THE WIND SPEED IS 40 KM/H (25 MPH) OR
+Manually lift and hold the left fan cowl door at the lower edge.
+MORE. IF THE WIND MOVES THE FAN COWL DOOR, Lift the left fan cowl door
+until the telescoping Hold Open Rod (HOR) INJURY TO PERSONS AND/OR
+DAMAGE TO THE
+correctly engages and locks into position (green band visible).
+ENGINE CAN OCCUR.
+Make sure that the telescoping HOR is at the correct length.
+In the cockpit, make sure that the ENG MODE rotary selector is in the
+Remove, lock and attach the fixed HOR to the bracket on the engine.
+NORM position.
+Slowly lower the left fan cowl door until the fixed HOR and the Make
+sure that the ENG MASTER 1(2) lever was in the OFF position telescoping
+HOR hold the weight of the door.
+not less than five minutes before you do this procedure.
+Put WARNING NOTICE(S) in position to tell persons not to operate the
+CAUTION: BE CAREFUL IF YOU LIFT THE FAN COWL DOOR
+ENG MODE rotary selector and the ENG MASTER 1(2) lever.
+MORE THAN 52 DEGREES FROM THE VERTICAL.
+On the ENG section of maintenance panel 50VU, make sure that the ON
+DAMAGE TO THE FAN COWL DOOR OR PYLON CAN
+legend of the FADEC GND PWR 1(2) pushbutton switch is off.
+OCCUR.
+Put WARNING NOTICE(S) in position to tell persons not to energize If
+required, repeat this procedure for the other fan cowl door.
+FADEC 1(2).
+Make an entry in the logbook.
+Make sure that the slats are retracted.
+Put WARNING NOTICE(S) in the cockpit to tell persons not to move the
+slat control lever.
+CAUTION: DO NOT OPEN THE FAN COWL IF THE WING
+LEADING EDGE SLATS ARE EXTENDED. DAMAGE
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 288 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING OF THE ENGINE FAN
+COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 289 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING OF THE ENGINE FAN
+COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 290 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING OF THE ENGINE FAN
+COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 291 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING & CLOSING OF ENGINE
+COWL DOORS (2) **OPENING OF THE ENGINE THRUST REVERSER COWL**
+NOTE:
+The DOS actuator will retract until the compressive lock in the
+**DOORS**
+actuator engages.
+Do the deactivation of the thrust reverser system for maintenance as per
+WARNING: DO NOT MOVE BETWEEN THE ENGINE AND THE
+the AMM.
+OPEN THRUST REVERSER DOOR UNTIL THE
+COMPRESSIVE LOCK IN THE DOS ACTUATOR IS
+WARNING: DO NOT KEEP OPEN A THRUST REVERSER DOOR
+ENGAGED. THE THRUST REVERSER DOOR IS
+WHEN THE WIND SPEED IS 83.5 KM/H (51.6 MPH) HEAVY. IT WILL CLOSE QUICKLY
+IF THE DOS
+OR MORE. IF THE WIND MOVES THE THRUST
+ACTUATOR FAILS. THIS CAN CAUSE INJURIES TO
+REVERSER DOOR, INJURY TO PERSONS AND/OR
+PERSONNEL AND DAMAGE TO EQUIPMENT.
+DAMAGE TO EQUIPMENT CAN OCCUR.
+Release and extend the hold open rod.
+BE CAREFUL IF YOU OPEN OR CLOSE A THRUST
+Adjust it as necessary and attach it to the HOR support bracket on the
+REVERSER DOOR WHEN THE WIND SPEED IS 37
+fan case. Make sure it is locked (green band visible).
+KM/H (23 MPH) OR MORE. IF THE WIND MOVES THE
+If necessary, repeat the sequence to open the right Thrust Reverser
+Cowl.
+THRUST REVERSER DOOR, INJURY TO PERSONS
+AND/OR DAMAGE TO EQUIPMENT CAN OCCUR.
+NOTE:
+Do not open the left and right thrust-reverser cowl-doors at the same
+time. Thrust-reverser cowl-doors must be opened one after the other.
+If necessary, engage the closure assist assembly.
+NOTE:
+The closure assist assembly only helps to open or close the L1A and L1B
+latches. It is not necessary to use the closure assist assembly if you
+can open and close these latches without it.
+On the Thrust Reverser Cowl, push the latch trigger to release and open
+the latches in sequence: L5, L4, L3, Bifurcation Latching System (BLS),
+L2, L1A and L1B.
+Connect the hand pump flexible hose to the quick disconnect fitting of
+the Door Opening System (DOS) actuator and operate it until the DOS
+actuator opens the left thrust reverser door to 45 degrees.
+Manually release the pressure from the DOS actuator.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 292 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING OF THE ENGINE THRUST
+REVERSER COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 293 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING OF THE ENGINE THRUST
+REVERSER COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 294 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING OF THE ENGINE THRUST
+REVERSER COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 295 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING OF THE ENGINE THRUST
+REVERSER COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 296 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING OF THE ENGINE THRUST
+REVERSER COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 297 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING & CLOSING OF ENGINE
+COWL DOORS (2)
+\- Stow the closure assist assembly in its storage position.
+**CLOSING OF THE ENGINE THRUST REVERSER COWL**
+When you engage the L1A and L1B latches, if the force you measure is
+**DOORS**
+not between 17.8 daN (40 lbf) and 22.2 daN (50 lbf), adjust the thrust
+reverser doors.
+Pay attention of the warnings and cautions mentioned for Fan and Thrust
+Close the remaining thrust reverser door latches in the sequence that
+Reverser cowls opening.
+follows: L1A, L1B, 2, BLS, 3, 4 and 5.
+Make sure that you did the deactivation of the thrust reverser system
+for If the force you measure is not between 17.8 daN (40 lbf) and 22.2
+daN
+maintenance.
+(50 lbf), adjust the thrust reverser doors.
+Make sure that the work area is clean and clear of tool(s) and other
+items.
+NOTE:
+Do not close the thrust-reverser cowl-doors at the same time.
+Reactivate the T/R.
+Thrust-reverser cowl-doors must be closed one after the other.
+Connect the hand pump flexible hose to the quick disconnect fitting of
+the DOS actuator and operate it until the DOS actuator opens the left
+thrust reverser door to be able to release the HOR from its support
+bracket on the fan case.
+Adjust the length of the HOR as necessary and attach it to the HOR stow
+bracket on the left thrust reverser door.
+Operate the hand pump until the DOS actuator is fully extended, the
+compressive lock in the actuator disengages, and the pressure relief
+valve in the actuator is open. Manually release the pressure from the
+DOS
+actuator to close the pressure relief valve.
+NOTE:
+The DOS actuator will retract at a constant speed until the thrust
+reverser door closes.
+Disconnect the hand pump flexible hose.
+Repeat the same sequence to close the right thrust reverser door.
+If necessary, engage the closure assist assembly:
+\- Move it out of the stow bracket.
+\- Adjust the length until the end fitting can be attached to the
+closure assist hook on the right thrust reverser door.
+\- Engage it in the closure assist hook.
+\- Turn the body of the closure assist assembly with a WRENCH to pull
+the two thrust reverser doors together until you can engage the L1A and
+L1B latches at the bottom of the doors.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 298 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) CLOSING OF THE ENGINE THRUST
+REVERSER COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 299 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) CLOSING OF THE ENGINE THRUST
+REVERSER COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 300 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OPENING & CLOSING OF ENGINE
+COWL DOORS (2) Engage the hook on the CENTER latch with the related
+latch keeper.
+**CLOSING OF THE ENGINE FAN COWL DOORS**
+Close the CENTER latch until it is flush with the door surface and
+locked into position.
+Manually lift and hold the left fan cowl door at the lower edge so that
+Engage the hook on the AFT latch with the related latch keeper.
+the weight is not on the HOR and telescoping HOR.
+Close the AFT latch until it is flush with the door surface and locked
+into Disconnect the fixed HOR from the engine bracket and attach it to
+the position.
+stow bracket on the left fan cowl door.
+Make sure that the force to close each latch is between 8.9 daN (20 lbf)
+Manually lift the left fan cowl door until the telescoping HOR extends
+and 13.3 daN (30 lbf). If not, adjust the fan cowl latches.
+sufficiently so that you can turn the release collar.
+Make sure that the distance between the left and right fan cowl doors is
+Turn the collar and pull it up to unlock the telescoping HOR.
+between 1.5 mm (0.060 in.) and 4.5 mm (0.180 in.). If not adjust the fan
+NOTE:
+When the telescoping HOR is unlocked, you will no longer see cowl
+latches.
+a green band adjacent to the release collar. You will see a red The
+proximity sensors installed on each latch detect improper latching band
+adjacent to the release collar.
+and trigger an ECAM indication.
+Slowly lower the left fan cowl door until it is on the bottom. Perform
+the same steps to lower the right fan cowl door.
+Push the right fan cowl door until it is against the inlet cowl.
+Make sure that the axial locators on the right fan cowl door engage the
+locator clips on the inlet cowl.
+Close the side latch on the right fan cowl door until the latch is flush
+with the door surface and locked into position.
+Make sure that the latch engages with the inlet cowl.
+Push the left fan cowl door against the right fan cowl door.
+Make sure that the alignment pins go into the holes adjacent to the FWD,
+CENTER and AFT latches.
+Make sure that the axial locators on the left fan cowl door engage the
+locator clips on the inlet cowl.
+NOTE:
+The push-open devices on the fan cowl doors will push the doors as you
+close them.
+Once the side latch on the right fan cowl door is latched and flush with
+the cowl, engage the hook on the FWD latch with the related latch
+keeper.
+Close the FWD latch until it is flush with the door surface and locked
+into position.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 301 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) CLOSING OF THE ENGINE FAN
+COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 302 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) CLOSING OF THE ENGINE FAN
+COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 303 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) CLOSING OF THE ENGINE FAN
+COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 304 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) CLOSING OF THE ENGINE FAN
+COWL DOORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 305 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER HANDLING (3)
+**THRUST REVERSER DEACTIVATION AND LOCKOUT**
+Thrust reverser deactivation for ground maintenance:
+\- Apply the applicable safety precautions.
+\- Open the oil tank access-door on the left fan cowl door.
+\- Turn the lever on the inhibit cable handle assembly to the inhibited
+position and secure it with the lockout pin.
+Thrust reverser deactivation for flight:
+\- Apply the applicable safety precautions.
+\- Do the Thrust Reverser deactivation for ground maintenance.
+\- Install the translating sleeve lockout pins in the latch beam.
+\- Check for the Thrust Reverser deactivation warning on the EWD.
+\- Make the corresponding entry in the logbook and put a warning notice
+in the cockpit.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 306 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER DEACTIVATION
+AND LOCKOUT
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 307 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) THRUST REVERSER HANDLING (3)
+**MANUAL OPERATION OF THE THRUST REVERSER**
+**TRANSLATING SLEEVES**
+Manual extention of the thrust reverser translating sleeves:
+\- Apply the applicable safety precautions.
+\- Open the fan cowl doors.
+\- Do the deactivation of the thrust reverser system for maintenance.
+\- Do the deactivation of the Thrust Reverser Actuation System (TRAS)
+locking feedback actuator for the applicable thrust reverser half.
+\- Do the deactivation of the TRAS locking actuator for the applicable
+thrust reverser half.
+\- Do the deactivation of the TRAS track lock for the applicable thrust
+reverser half.
+\- Manually extend the applicable translating sleeve by unlocking the
+Manual Drive Unit (MDU) and turning it with a square drive tool.
+Manual retraction of the thrust reverser translating sleeves:
+\- Perform the steps in the opposite order.
+\- Do the operational test of the thrust reverser with the MCDU.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 308 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MANUAL OPERATION OF THE
+THRUST REVERSER TRANSLATING SLEEVES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 309 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MANUAL OPERATION OF THE
+THRUST REVERSER TRANSLATING SLEEVES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 310 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MANUAL OPERATION OF THE
+THRUST REVERSER TRANSLATING SLEEVES
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 311 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT SYSTEM LINE
+MAINTENANCE (2) **ENGINE OIL SERVICING**
+CAUTION: Caution: The engine should be shut down for at least 5
+minutes prior to oil servicing. This allows the residual pressure in the
+oil tank to decrease. If you open the filler cap when there is pressure
+in the tank the hot oil can spray out and burn you.
+NOTE:
+No te: If possible, the engine oil should be checked and serviced within
+15 to 120 minutes after engine shutdown.
+Note: If the engine has been shutdown for more than 2 hours, Procedure
+to open the filler cap:
+\- open the door on the left fan cowl,
+\- check oil level on the sight gage on the oil tank,
+\- raise filler cap handle to vertical (unlocked position),
+\- turn the oil filler cap counterclockwise and lift to remove,
+\- add approved oil as necessary up to the FULL mark on the sight gage,
+\- install oil filler cap - make sure to LOCK the cap.
+\- To refit the filler cap:
+Inspect the cap and tank spout for condition. Locate the cap in the
+opening with the handle in the vertical position (making sure you do not
+trap the retaining lanyard under the cap). Once engaged, turn the handle
+clockwise to lock the cap in place. When the cap is then engaged and
+locked\* press the handle and lower the handle until it lies flat, and
+is no longer in the vertical position. Inspect the cap to ensure it is
+sitting evenly flat all around and that there is no obvious
+misalignment.
+Clear up any debris, and wipe any excess oil from the cap. Close and
+lock the servicing door in the cowling and ensure you complete any
+technical paperwork required as to the quantity of oil uplifted.
+\*Note:- A little vertical tug of the cap assembly upwards provides a
+positive confirmation that the cap is engaged and locked EFFECTIVITY:
+A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 312 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) ENGINE OIL SERVICING
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 313 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT SYSTEM LINE
+MAINTENANCE (2) **OIL DEBRIS MONITOR (ODM)**
+An Oil Debris Monitor (ODM) is used to sense the size and quantity of
+ferrous and non-ferrous metal in the scavenge oil system. It is an
+in-line sensor installed between the main oil scavenge line and the
+de-aerator in the oil tank assembly.
+When the ODM detects metallic debris in the engine lubrication system,
+it signals the Prognostics and Health Management Unit (PHMU) which
+processes to the Engine Electronic Controller (EEC); then the Engine
+Interface Unit (EIU) generates appropriate maintenance message.
+The ODM is a Line Replaceable Unit (LRU).
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 314 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL DEBRIS MONITOR (ODM)
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 315 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT SYSTEM LINE
+MAINTENANCE (2) **OIL DEBRIS MONITOR (ODM) (continued)** **CHIP
+COLLECTORS**
+The engine oil scavenge system has six magnetic chip collectors which
+catch ferrous metal particles that might exist in the scavenge and
+supply oil:
+The No. 4 bearing magnetic chip collector is located in the No. 4
+bearing oil scavenge line.
+The Angle Gearbox (AGB), Main Gearbox (MGB), No. 1, 1.5 and 2
+Bearing and Fan Drive Gear System (FDGS), No. 3 bearing, and No.
+5 and 6 bearing magnetic chip collectors are located on the lubrication
+and scavenge oil pump, at the 6 o\'clock position.
+The six chip collectors are bayonet-type plugs, they are LRUs.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 316 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) OIL DEBRIS MONITOR (ODM) -
+CHIP COLLECTORS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 317 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT SYSTEM LINE
+MAINTENANCE (2) **MEL / DEACTIVATION**
+**START VALVE MANUAL OPERATION**
+In case of an electrical failure of the Start Air Valve (SAV), the SAV
+can be operated manually to start the engine.
+The aircraft may be dispatched per MEL with the valve INOP closed.
+\- First establish the communications with the cockpit (Interphone jack
+on engine inlet cowl),
+\- then on command from the cockpit, insert a 3/8\" square drive
+extension into the manual wrench socket located on the RH thrust
+reverser inner-fixed-structure at 3 O\'clock.
+\- turn the valve shaft, this opens the butterfly valve.
+WARNING: STAY AWAY FROM THE DANGER AREAS AT THE
+FRONT AND THE SIDES OF THE ENGINE DURING
+OPERATION. THE SUCTION IS SUFFICIENT AT
+THE AIR INTAKE COWL TO PULL A PERSON INTO
+(IN PART OR FULLY) THE ENGINE. THIS CAN
+KILL A PERSON OR CAUSE A BAD INJURY.
+The valve will close when the shaft is released. The SAV is an LRU.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 318 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MEL / DEACTIVATION - START
+VALVE MANUAL OPERATION
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 319 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) POWER PLANT SYSTEM LINE
+MAINTENANCE (2) **MAINTENANCE TIPS**
+For IDG servicing the left thrust reverser cowl-door has to be opened as
+the IDG installation change to core mounted area.
+The IDG has two new additional sensors (oil level sensor and oil filter
+DPI) providing warnings IDG OIL LVL, IDG FILTER CLOG, which permit to
+increase the periodic inspection interval.
+Follow the General Warnings and Cautions, related Safety Data and
+Standard Precautions for Maintenance Procedures.
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 320 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MAINTENANCE TIPS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 321 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) MAINTENANCE TIPS
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 322 of 323
+AIRBUS A319/A320/A321 (IAE PW1100G) FROM
+A318/A319/A320/A321 (CFM56) or (IAE V2500) **END**
+EFFECTIVITY: A319/A320/A321
+ATA 70-84
+Issue 002 - Revision 01 - Date 15/04/2025
+(IAE PW1100G)
+POWER PLANT
+Page 323 of 323
+[]{#index_split_001.html#outline}
+[]{#index_split_002.html}
+# Document Outline {#index_split_002.html#calibre_pb_0 .calibre4}
+-   [AIRBUS A319/A320/A321 (IAE PW1100G) ENGINE
+    70\>84](#index_split_000.html#p1)
+    -   [TRAINING MATERIAL DECLARATION](#index_split_000.html#p2)
+    -   [ATA CHAPTERS COVERED](#index_split_000.html#p3)
+    -   [TRAINING MANUAL FRONT COVER](#index_split_000.html#p4)
+    -   [IAE PW1100G ENGINE](#index_split_000.html#p5)
+        -   [GENERAL](#index_split_000.html#p5)
+            -   [70 Power Plant PW1100G Presentation
+                (1)](#index_split_000.html#p5)
+                -   [INTRODUCTION](#index_split_000.html#p5)
+                -   [INSTALLATION](#index_split_000.html#p7)
+                -   [MODULAR CONCEPT](#index_split_000.html#p9)
+                    -   [LP ROTOR, HP ROTOR AND COMBUSTION
+                        CHAMBER](#index_split_000.html#p11)
+                    -   [TRANSFER & ACCESSORY
+                        GEARBOXES](#index_split_000.html#p13)
+                -   [PROPULSION CONTROL SYSTEM
+                    (PCS)](#index_split_000.html#p15)
+                -   [EIU](#index_split_000.html#p17)
+                -   [THRUST REVERSER SYSTEM](#index_split_000.html#p19)
+                -   [OIL SYSTEM](#index_split_000.html#p22)
+                -   [IGNITION AND STARTING
+                    SYSTEMS](#index_split_000.html#p24)
+                -   [CONTROL AND INDICATING](#index_split_000.html#p26)
+                    -   [CONTROL PANELS](#index_split_000.html#p26)
+                    -   [ECAM ENGINE](#index_split_000.html#p28)
+                -   [MAINTENANCE/TEST
+                    FACILITIES](#index_split_000.html#p30)
+                -   [SAFETY PRECAUTIONS](#index_split_000.html#p32)
+                -   [STORAGE AND
+                    PRESERVATION](#index_split_000.html#p34)
+            -   [Powerplant System Component Location
+                (2)](#index_split_000.html#p36)
+                -   [SYSTEM OVERVIEW](#index_split_000.html#p36)
+                    -   [THRUST REVERSER
+                        SYSTEM](#index_split_000.html#p38)
+                -   [COMPONENT LOCATION](#index_split_000.html#p40)
+                    -   [FADEC](#index_split_000.html#p40)
+                    -   [IGNITION & STARTING](#index_split_000.html#p42)
+                    -   [FUEL](#index_split_000.html#p44)
+                    -   [AIR](#index_split_000.html#p46)
+                    -   [OIL](#index_split_000.html#p48)
+                    -   [THRUST REVERSER](#index_split_000.html#p50)
+            -   Engine System Control & Indicating (2)
+                -   LOCATE CONTROL/INDICATING IN COCKPIT
+                -   FADEC POWERING / ENGINE CONTROLS
+            -   [Power Plant Drain Presentation
+                (2)](#index_split_000.html#p52)
+                -   [PYLON & ENGINE DRAINS](#index_split_000.html#p52)
+                -   [DRAIN MAST](#index_split_000.html#p54)
+            -   [Power Plant Installation D/O
+                (3)](#index_split_000.html#p56)
+                -   [INLET COWL](#index_split_000.html#p56)
+                -   [AIR INTAKE FUNCTIONS](#index_split_000.html#p58)
+                -   [FAN COWL DOORS](#index_split_000.html#p60)
+                -   [THRUST REVERSER COWL
+                    DOORS](#index_split_000.html#p62)
+                -   [EXHAUST NOZZLE](#index_split_000.html#p64)
+                -   [ENGINE MOUNTS](#index_split_000.html#p66)
+        -   [ENGINE](#index_split_000.html#p68)
+            -   [Engine System D/O (3) (3)](#index_split_000.html#p68)
+                -   [ENGINE CHARACTERISTICS](#index_split_000.html#p68)
+                    -   [ENGINE CONTROL](#index_split_000.html#p68)
+                -   [ENGINE MODULES](#index_split_000.html#p70)
+                    -   [FAN ROTOR AND FAN
+                        CASE](#index_split_000.html#p72)
+                    -   [FAN DRIVE GEAR SYSTEM (FDGS) AND FAN
+                        INTERMEDIATE CASE](#index_split_000.html#p74)
+                    -   [LOW PRESSURE COMPRESSOR AND COMPRESSOR
+                        INTERMEDIATE CASE](#index_split_000.html#p76)
+                    -   [HIGH PRESSURE COMPRESSOR
+                        ROTOR](#index_split_000.html#p78)
+                    -   [DIFFUSER AND COMBUSTION CHAMBER
+                        ASSEMBLY](#index_split_000.html#p80)
+                    -   [HIGH PRESSURE AND LOW PRESSURE
+                        TURBINES](#index_split_000.html#p82)
+                    -   [TURBINE EXHAUST
+                        CASE](#index_split_000.html#p84)
+                -   [ENGINE GEAR BOX](#index_split_000.html#p86)
+                -   [AERODYNAMIC STATIONS AND BOROSCOPIC
+                    PORTS](#index_split_000.html#p88)
+                -   [ENGINE BEARINGS](#index_split_000.html#p90)
+        -   [FUEL](#index_split_000.html#p92)
+            -   [Engine Fuel System D/O (3)](#index_split_000.html#p92)
+                -   [FUEL DISTRIBUTION](#index_split_000.html#p92)
+                -   [FUEL FEED FROM AIRCRAFT](#index_split_000.html#p94)
+                -   [HEAT EXCHANGERS AND FUEL RETURN TO
+                    TANK](#index_split_000.html#p96)
+                -   [INTEGRATED FUEL PUMP AND
+                    CONTROL](#index_split_000.html#p99)
+                    -   [FUEL FILTER AND MAIN
+                        PUMP](#index_split_000.html#p99)
+                    -   [FUEL METERING VALVE AND HIGH PRESSURE SHUT-OFF
+                        VALVE](#index_split_000.html#p101)
+                    -   [PRESSURE REGULATING VALVE AND BYPASS
+                        DIRECTIONAL CONTROL
+                        VALVE](#index_split_000.html#p103)
+                    -   [EEC CONTROL](#index_split_000.html#p106)
+                -   [FUEL FLOW TRANSMITTER, FLOW DIVIDER VALVE AND FUEL
+                    NOZZLES](#index_split_000.html#p108)
+                -   [SERVO FUEL AND SERVO MINIMUM PRESSURE AND PUMP
+                    SHARING VALVE](#index_split_000.html#p112)
+                -   [ECOLOGY SYSTEM](#index_split_000.html#p115)
+                -   [STARTING](#index_split_000.html#p117)
+                    -   [INITIATION](#index_split_000.html#p117)
+                    -   [ACCELERATION](#index_split_000.html#p119)
+                -   [SHUTDOWN](#index_split_000.html#p121)
+                    -   [NORMAL SHUTDOWN](#index_split_000.html#p121)
+                    -   [ABNORMAL SHUTDOWN](#index_split_000.html#p123)
+                -   [FUEL INDICATING](#index_split_000.html#p125)
+        -   [FADEC](#index_split_000.html#p127)
+            -   [Propulsion Control System (PCS) Principle
+                (3)](#index_split_000.html#p127)
+                -   [GENERAL](#index_split_000.html#p127)
+                -   [ENGINE INTERFACE UNIT](#index_split_000.html#p129)
+                -   [FADEC](#index_split_000.html#p131)
+                -   [POWER MANAGEMENT](#index_split_000.html#p133)
+                -   [ENGINE LIMIT
+                    PROTECTION](#index_split_000.html#p135)
+                -   [ENGINE SYSTEM CONTROL](#index_split_000.html#p137)
+                -   [STARTING AND IGNITION
+                    CONTROL](#index_split_000.html#p139)
+                -   [THRUST REVERSER](#index_split_000.html#p141)
+            -   [FADEC Architecture (3)](#index_split_000.html#p143)
+                -   [ARCHITECTURE](#index_split_000.html#p143)
+                    -   [EEC](#index_split_000.html#p143)
+                    -   [DSU](#index_split_000.html#p143)
+                    -   [PHMU](#index_split_000.html#p143)
+                -   [PROCESS](#index_split_000.html#p145)
+            -   [FADEC Interfaces (3)](#index_split_000.html#p147)
+                -   [GENERAL](#index_split_000.html#p147)
+                -   [PCS INTERFACES](#index_split_000.html#p149)
+                -   [FADEC INTERFACES](#index_split_000.html#p153)
+                    -   [AIR SYSTEM](#index_split_000.html#p153)
+                    -   [FUEL SYSTEM](#index_split_000.html#p155)
+                    -   [OIL SYSTEM](#index_split_000.html#p157)
+                    -   [IGNITION AND STARTING
+                        SYSTEMS](#index_split_000.html#p159)
+                    -   [NACELLE ANTI-ICE
+                        SYSTEM](#index_split_000.html#p161)
+                    -   [THRUST REVERSER
+                        SYSTEM](#index_split_000.html#p163)
+                    -   [ENGINE SENSORS](#index_split_001.html#p165)
+                    -   [COCKPIT CONTROLS](#index_split_001.html#p167)
+            -   [FADEC Electrical PWR SPLY Control
+                (3)](#index_split_001.html#p169)
+                -   [EEC](#index_split_001.html#p169)
+                    -   [AIRCRAFT POWER](#index_split_001.html#p169)
+                    -   [PMA SUPPLY](#index_split_001.html#p169)
+                    -   [AUTO DEPOWERING](#index_split_001.html#p169)
+                    -   [MANUAL REPOWERING](#index_split_001.html#p169)
+                -   [SUBSYSTEMS POWER
+                    SUPPLY](#index_split_001.html#p171)
+        -   [IGNITION AND STARTING](#index_split_001.html#p173)
+            -   [Ignition & Starting System Presentation
+                (2)](#index_split_001.html#p173)
+                -   [GENERAL](#index_split_001.html#p173)
+                -   [CONTROL AND INDICATING](#index_split_001.html#p173)
+                -   [AUTOMATIC START](#index_split_001.html#p173)
+                -   [MANUAL START](#index_split_001.html#p173)
+                -   [CRANKING](#index_split_001.html#p173)
+                -   [CONTINUOUS IGNITION](#index_split_001.html#p173)
+                -   [SAFETY PRECAUTIONS](#index_split_001.html#p173)
+                -   [MAINTENANCE PRACTICES](#index_split_001.html#p173)
+            -   [Ignition & Starting System D/O (Metric)
+                (3)](#index_split_001.html#p175)
+                -   [GENERAL](#index_split_001.html#p175)
+                -   [AUTOMATIC START](#index_split_001.html#p178)
+                -   [MANUAL START](#index_split_001.html#p184)
+                -   [CONTINUOUS IGNITION](#index_split_001.html#p189)
+                -   [ENGINE CRANK](#index_split_001.html#p191)
+                    -   [DRY CRANK](#index_split_001.html#p191)
+                    -   [WET CRANK](#index_split_001.html#p193)
+            -   [Start Failures (Metric)
+                (3)](#index_split_001.html#p195)
+                -   [AUTO-RESTART](#index_split_001.html#p195)
+                -   [NO LIGHT UP](#index_split_001.html#p197)
+                -   [IMPENDING HOT START](#index_split_001.html#p199)
+                -   [STARTER TIME EXCEEDED](#index_split_001.html#p201)
+        -   [AIR](#index_split_001.html#p203)
+            -   [Air System Description/Operation
+                (3)](#index_split_001.html#p203)
+                -   [GENERAL](#index_split_001.html#p203)
+                -   [COMPRESSOR AIRFLOW
+                    CONTROL](#index_split_001.html#p205)
+                    -   [STATOR VANE CONTROL
+                        SYSTEM](#index_split_001.html#p205)
+                    -   [BLEED CONTROL
+                        SYSTEM](#index_split_001.html#p207)
+                -   [TURBINE ACTIVE CASE COOLING
+                    SYSTEM](#index_split_001.html#p209)
+                -   [TURBINE COOLING AIR
+                    SYSTEM](#index_split_001.html#p211)
+                -   [ENGINE BEARING COOLING
+                    SYSTEM](#index_split_001.html#p213)
+                    -   [BUFFER / VENTILATION
+                        SYSTEM](#index_split_001.html#p213)
+                    -   [NUMBER 4 BEARING COOLING
+                        SYSTEM](#index_split_001.html#p215)
+                -   [COMPARTMENT COOLING](#index_split_001.html#p217)
+        -   [ENGINE CONTROLS](#index_split_001.html#p219)
+            -   [Throttle Control System D/O
+                (3)](#index_split_001.html#p219)
+                -   [THROTTLE CONTROL LEVER](#index_split_001.html#p219)
+                -   [THROTTLE CONTROL UNIT](#index_split_001.html#p221)
+                -   [BUMP FUNCTION (PW1100G and IAE ENGINES
+                    ONLY)](#index_split_001.html#p223)
+            -   [Engine Thrust Management
+                (3)](#index_split_001.html#p225)
+                -   [GENERAL](#index_split_001.html#p225)
+                -   [THRUST LIMIT MODE](#index_split_001.html#p227)
+                    -   [N1 LIMIT](#index_split_001.html#p227)
+                    -   [PREDICTED N1](#index_split_001.html#p227)
+                -   [ACTUAL N1](#index_split_001.html#p229)
+                    -   [N1 COMMAND](#index_split_001.html#p229)
+                    -   [N1 TARGET](#index_split_001.html#p229)
+                -   [AUTOTHRUST CONTROL
+                    MODE](#index_split_001.html#p231)
+                    -   [AUTOTHRUST ACTIVE](#index_split_001.html#p231)
+                    -   [AUTOTHRUST NOT
+                        ACTIVE](#index_split_001.html#p233)
+                    -   [MANUAL CONTROL
+                        MODE](#index_split_001.html#p235)
+                -   [THRUST CONTROL
+                    MALFUNCTION](#index_split_001.html#p237)
+        -   [ENGINE INDICATING](#index_split_001.html#p239)
+            -   [Engine Monitoring D/O (3)](#index_split_001.html#p239)
+                -   [INDICATING](#index_split_001.html#p239)
+                -   [PRIMARY PARAMETERS](#index_split_001.html#p241)
+                    -   [ROTATIONAL SPEED PARAMETERS
+                        DESCRIPTION](#index_split_001.html#p241)
+                    -   [EGT PARAMETERS](#index_split_001.html#p243)
+                    -   [FUEL PARAMETERS
+                        DESCRIPTION](#index_split_001.html#p245)
+                    -   [FUEL PARAMETERS
+                        DESCRIPTION](#index_split_001.html#p247)
+                -   [SECONDARY PARAMETERS](#index_split_001.html#p249)
+                    -   [OIL PARAMETERS
+                        DESCRIPTION](#index_split_001.html#p249)
+                    -   [VIBRATION PARAMETERS
+                        DESCRIPTION](#index_split_001.html#p252)
+                    -   [NACELLLE TEMPERATURE
+                        INDICATION](#index_split_001.html#p254)
+                -   [OTHER SENSORS FOR ENGINE CONTROL AND
+                    MONITORING](#index_split_001.html#p256)
+        -   [EXHAUST - THRUST REVERSER](#index_split_001.html#p258)
+            -   [Thrust Reverser D/O (3)](#index_split_001.html#p258)
+                -   [THRUST REVERSER SYSTEM
+                    LAYOUT](#index_split_001.html#p258)
+                -   [DEPLOY SEQUENCE](#index_split_001.html#p260)
+                -   [STOW SEQUENCE](#index_split_001.html#p267)
+                -   [GROUND ASSISTED STOW SEQUENCE
+                    (GASS)](#index_split_001.html#p271)
+        -   [OIL](#index_split_001.html#p273)
+            -   [Oil System D/O (3)](#index_split_001.html#p273)
+                -   [OIL SYSTEM LAYOUT](#index_split_001.html#p273)
+                -   [OIL SUPPLY](#index_split_001.html#p275)
+                -   [OIL SCAVENGE AND
+                    VENTING](#index_split_001.html#p279)
+                -   [OIL MONITORING AND
+                    INDICATING](#index_split_001.html#p282)
+                    -   [OIL LEVEL
+                        INDICATING](#index_split_001.html#p282)
+                    -   [OIL DEBRIS
+                        MONITORING](#index_split_001.html#p282)
+                    -   [MAIN OIL TEMPERATURE
+                        INDICATING](#index_split_001.html#p282)
+                    -   [MAIN OIL PRESSURE
+                        INDICATING](#index_split_001.html#p282)
+                    -   [LOW OIL PRESSURE
+                        INDICATING](#index_split_001.html#p282)
+                    -   [OIL FILTER DIFFERENTIAL
+                        PRESSURE](#index_split_001.html#p282)
+                    -   [AUXILIARY OIL PRESSURE
+                        INDICATING](#index_split_001.html#p282)
+        -   [MAINTENANCE PRACTICE](#index_split_001.html#p284)
+            -   [Opening & Closing of Engine Cowl Doors
+                (2)](#index_split_001.html#p284)
+                -   [OPENING OF THE ENGINE FAN COWL
+                    DOORS](#index_split_001.html#p284)
+                -   [OPENING OF THE ENGINE THRUST REVERSER COWL
+                    DOORS](#index_split_001.html#p288)
+                -   [CLOSING OF THE ENGINE THRUST REVERSER COWL
+                    DOORS](#index_split_001.html#p294)
+                -   [CLOSING OF THE ENGINE FAN COWL
+                    DOORS](#index_split_001.html#p297)
+            -   [Thrust Reverser Handling
+                (3)](#index_split_001.html#p302)
+                -   [THRUST REVERSER DEACTIVATION AND
+                    LOCKOUT](#index_split_001.html#p302)
+                -   [MANUAL OPERATION OF THE THRUST REVERSER TRANSLATING
+                    SLEEVES](#index_split_001.html#p304)
+            -   [Power Plant System Line Maintenance
+                (2)](#index_split_001.html#p308)
+                -   [ENGINE OIL SERVICING](#index_split_001.html#p308)
+                -   [OIL DEBRIS MONITOR
+                    (ODM)](#index_split_001.html#p310)
+                    -   [CHIP COLLECTORS](#index_split_001.html#p312)
+                -   [MEL / DEACTIVATION](#index_split_001.html#p314)
+                    -   [START VALVE MANUAL
+                        OPERATION](#index_split_001.html#p314)
+                -   [MAINTENANCE TIPS](#index_split_001.html#p316)
+        -   [END PAGE](#index_split_001.html#p319)
+```{=html}
+</p>
+```

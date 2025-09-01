@@ -1,0 +1,2336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>22 AUTO FLIGHT - A320 Base Knowledge</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">A320 Base Knowledge</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../02%20AIRCRAFT%20INTRODUCTION/" class="nav-link">02 AIRCRAFT INTRODUCTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../05%20-20%20INTRODUCTION%20MODULE/" class="nav-link">05 -20 INTRODUCTION MODULE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../21%20AIR%20CONDITIONING/" class="nav-link">21 AIR CONDITIONING</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">22 AUTO FLIGHT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../23%20COMMUNICATIONS/" class="nav-link">23 COMMUNICATIONS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../24%20ELECTRICAL%20POWER/" class="nav-link">24 ELECTRICAL POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../25%20EQUIPMENT_FURNISHINGS/" class="nav-link">25 EQUIPMENT FURNISHINGS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../26%20FIRE%20PROTECTION/" class="nav-link">26 FIRE PROTECTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../27a%20E-RUDDER%20PROJECT/" class="nav-link">27a E-RUDDER PROJECT</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../27%20FLIGHT%20CONTROLS/" class="nav-link">27 FLIGHT CONTROLS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../28%20FUEL%20%28Metric%20Units%29/" class="nav-link">28 FUEL (Metric Units)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../29%20HYDRAULIC%20POWER/" class="nav-link">29 HYDRAULIC POWER</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../30%20ICE%20%26%20RAIN%20PROTECTION/" class="nav-link">30 ICE & RAIN PROTECTION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20INDICATING%20%28Inc%20ATA%2045%20-%20CFDS%29/" class="nav-link">31 INDICATING (Inc ATA 45 - CFDS)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../31%20RECORDING%20SYSTEMS/" class="nav-link">31 RECORDING SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../32%20LANDING%20GEAR/" class="nav-link">32 LANDING GEAR</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../33%20LIGHTS/" class="nav-link">33 LIGHTS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../34%20NAVIGATION/" class="nav-link">34 NAVIGATION</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../35%20OXYGEN/" class="nav-link">35 OXYGEN</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../36%20PNEUMATIC/" class="nav-link">36 PNEUMATIC</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../38%20WATER%20%26%20WASTE/" class="nav-link">38 WATER & WASTE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../46%20INFORMATION%20SYSTEMS/" class="nav-link">46 INFORMATION SYSTEMS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../47%20INERT%20GAS%20SYSTEM/" class="nav-link">47 INERT GAS SYSTEM</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../49%20APU/" class="nav-link">49 APU</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../51-57%20STRUCTURE/" class="nav-link">51-57 STRUCTURE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../52%20DOORS/" class="nav-link">52 DOORS</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28CFM%2056%29/" class="nav-link">70 POWER PLANT (CFM 56)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../70%20POWER%20PLANT%20%28IAE%20V2500%29/" class="nav-link">70 POWER PLANT (IAE V2500)</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Airbus%20Abbreviations/" class="nav-link">Airbus Abbreviations</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../IAE%20V2500%20-%20Engine%20Manufacturers%20Notes/" class="nav-link">IAE V2500 - Engine Manufacturers Notes</a>
+                            </li>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">index</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../21%20AIR%20CONDITIONING/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../23%20COMMUNICATIONS/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+        <ul class="nav flex-column">
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Airbus A318/A319/A320/A321 (CFM56 &amp; V2500) B1+B2 Technical Training
+Manual
+ATA 22 - Autoflight Airframe Systems
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
+Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
+comprehensive in their detail, they are only intended for use with a
+theoretical course of instruction and do not constitute a training
+programme in their own right. When issued they are as up to date as
+possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
+PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
+Click here to visit our new online training portal for HF, SFAR, EWIS
+and many more. Contact us Tel: +44(0) 1565 653745 Email:
+admin@catts.org.uk Web: www.catts.org.uk Online Training:
+catts.learnupon.com/store
+ATA Chapters Required in this Training Manual AIRFRAME SYSTEMS ATA 22
+Autoflight
+Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
+www.catts.org.uk Online Training: catts.learnupon.com/store
+Training Manual Ma Airbus A318/319/ A320/A321 (CFM56 &amp; V2500) ATA 22
+Airframe Systems; Autoflight Level 3
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 4 of 142
+AUTO FLIGHT GENERAL Automatic Flight System Presentation (2) . . . . . .
+. . . . . . . . . . . . . . . . 2 FAC General (2) . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 FMGC
+General (2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . 12 Autopilot Presentation (2) . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . 16 Flight Director
+Presentation (2) . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. 18 Autothrust Presentation (2) . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . 22 Auto Flight System Control &amp; Indicating (2) .
+. . . . . . . . . . . . . . . . . 24 Automatic Flight SYS Maintenance
+System D/O (3) . . . . . . . . . . . . 26
+FLIGHT AUGMENTATION Yaw Axis Control D/O (3) . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . 32 FAC Engagement D/O (3) . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42 Yaw Damper
+Function D/O (3) . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. 44 Flight Envelope Protection D/O (3) . . . . . . . . . . . . . . . .
+. . . . . . . . . . 48
+FLIGHT GUIDANCE Flight Guidance Autothrust D/O (3) . . . . . . . . . . .
+. . . . . . . . . . . . . . . 56 Flight Guidance Priority Logic (3) . .
+. . . . . . . . . . . . . . . . . . . . . . . . . 64
+FLIGHT MANAGEMENT Flight Management Priority Logic (3) . . . . . . . . .
+. . . . . . . . . . . . . . . 74 Flight Planning D/O (3) . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . 78 Navigation
+Back-Up D/O (option) (3) . . . . . . . . . . . . . . . . . . . . . . . .
+82 Auto Flight System Operation, Control &amp; Indicating (3) . . . . . . .
+. . 86
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 5 of 142
+AUTOMATIC FLIGHT SYSTEM DESIGN PHILOSOPHY (2) GENERAL
+FLY BY WIRE
+The Automatic Flight System (AFS) calculates orders to automatically
+control the flight controls and the engines. It computes orders and
+sends them to the Electrical Flight Control System (EFCS) and to the
+Full Authority Digital Engine Control (FADEC) to control flying surfaces
+and engines. When the AFS is not active, the above-mentioned components
+are controlled by the same systems but orders are generated by specific
+devices: side sticks and thrust levers.
+If the pilot moves the side stick when the AFS is active, it disengages
+the autopilot. Back to manual flight, when the sidestick is released,
+the EFCS maintains the actual aircraft attitude.
+NAVIGATION A fundamental function of the AFS is to calculate the
+aircraft position. To compute the aircraft position, the system uses
+several aircraft sensors, which give useful information for this
+purpose.
+SYSTEM DESIGN To meet the necessary reliability, the AFS is built around
+4 computers. There are two interchangeable Flight Management and
+Guidance Computers (FMGCs) and two interchangeable Flight Augmentation
+Computers (FACs). It is a FAIL OPERATIVE system. Each FMGC and FAC has a
+command part and a monitor part to be FAIL PASSIVE.
+FLIGHT PLAN The AFS has several flight plans predetermined by the
+airline in its memory. A flight plan describes a complete flight from
+departure to arrival; it gives vertical information and all intermediate
+waypoints. The plan can be displayed on the EFIS or on the Multipurpose
+Control &amp; Display Units (MCDU).
+OPERATION There are several ways to use the AFS but the normal and
+recommended one is to use it to follow the flight plan automatically.
+Knowing the position of the aircraft and the flight plan chosen by the
+pilot, the system is able to compute the orders sent to the flying
+surfaces and the engines so that the aircraft follows the flight plan.
+The pilot has an important monitoring role. NOTE: During AFS operation,
+side sticks and thrust levers do not move automatically.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 6 of 142
+GENERAL ... SYSTEM DESIGN
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 7 of 142
+AUTOMATIC FLIGHT SYSTEM PRESENTATION (2) GENERAL The Automatic Flight
+System (AFS) gives pilots functions that reduce their workload and
+improve safety and regularity of the flight. The AFS is designed
+around: - 2 Flight Management and Guidance Computers (FMGCs), - 2 Flight
+Augmentation Computers (FACs), - 2 Multipurpose Control and Display
+Units (MCDUs), - 1 Flight Control Unit (FCU).
+CONTROLS The FCU and the MCDUs let the pilots control the functions of
+the FMGCs. The FAC engagement P/BSWs and the RUDder TRIM control panel
+are connected to the FACs. The MCDUs are used for long-term control of
+the aircraft and do the interface between the crew and the FMGC allowing
+the management of the flight. The FCU is used for short-term control of
+the aircraft and is the interface required for transmission of engine
+data from the FMGC to the Full Authority Digital Engine Control (FADEC).
+NOTE: The FAC includes an interface between the AFS and the Centralized
+Fault Display System (CFDS) called Fault Isolation and Detection System
+(FIDS).
+OTHER SYSTEMS The AFS is connected to the majority of the aircraft
+systems. Examples of AFS data exchanges: - reception of the aircraft
+altitude and attitude from the Air Data/Inertial Reference System
+(ADIRS), - transmission of autopilot orders to the ELevator and Aileron
+Computers (ELACs).
+FMGC There are two interchangeable FMGCs. Each FMGC is made of two
+parts: the Flight Management (FM) part and the Flight Guidance (FG)
+part. The FM part gives the functions related to flight plan definition,
+revision and monitoring and the FG part gives the functions related to
+the aircraft control.
+FAC There are two interchangeable FACs. The basic functions of the FACs
+are the rudder control and the flight envelope protection.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 8 of 142
+GENERAL ... OTHER SYSTEMS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 9 of 142
+AUTOMATIC FLIGHT SYSTEM PRESENTATION (2) COMPONENT LOCATION The AFS
+computers are located in the aft avionics rack (80VU).
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 10 of 142
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 11 of 142
+FAC GENERAL (2) FUNCTIONS The basic functions of the Flight Augmentation
+Computer (FAC) are: - yaw damper, - rudder trim, - rudder travel
+limitation, - flight envelope protection, - Fault Isolation and
+Detection System (FIDS).
+YAW DAMPER The yaw damper has four functions and controls the rudder via
+yaw damper actuators. Upon Flight Management and Guidance Computer
+(FMGC), ELevator Aileron Computer (ELAC) or FAC orders, the yaw damper
+provides: - dutch roll damping, - turn coordination in cruise, - engine
+failure compensation in auto flight, - yaw guidance order execution.
+RUDDER TRIM The rudder trim orders come from the RUDder TRIM selector,
+or from the FMGC to control the rudder via the rudder trim actuator. The
+rudder trim gives: - the manual trim with RUD TRIM selector, - auto trim
+on yaw axis and the generation of engine failure recovery function when
+the autopilot is engaged.
+RUDDER TRAVEL LIMITATION The rudder travel limiting unit limits the
+deflection of the rudder according to the aircraft speed. The rudder
+travel limiting function: - limits the deflection for structure
+integrity,
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+-   prevents excessive deflections which would penalize the aircraft
+    performance. Aircraft speed information is given by the Air
+    Data/Inertial Reference Units (ADIRUs).
+FLIGHT ENVELOPE PROTECTION For flight envelope protection, the FAC
+computes the various characteristic speeds for aircraft operation, the
+low energy warning, the excessive Angle-Of-Attack (AOA) and wind shear
+detections. The characteristic speeds are computed using data from the
+ADIRU, the Landing Gear Control Interface Unit (LGCIU), the FMGC, and
+the Slat Flap Control Computer (SFCC). Then, they are displayed on the
+PFDs. The alpha floor (excessive AOA) and wind shear detections are sent
+to the FMGCs. The low energy warning computation is sent to the Flight
+Warning Computers (FWCs) which generate an aural warning: "SPEED, SPEED,
+SPEED".
+FIDS For maintenance purposes, the FIDS centralizes the failure
+information from the various BITE of the AFS computers and provides an
+interface between these BITEs and the Centralized Fault Display
+Interface Unit (CFDIU). The FIDS function is only active in FAC 1.
+CONTROLS Each FAC receives inputs from its related P/BSW, the RUD TRIM
+selector and the RUD TRIM RESET P/B. The RUD TRIM selector deflects the
+rudder. The RESET P/B returns the rudder to the neutral position.
+DISPLAYS Some of the data computed by the FAC is displayed: - the
+characteristic speeds are displayed on the speed scale of the PFDs.
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 12 of 142
+- the rudder trim position is displayed on the F/CTL ECAM page and on
+the RUD TRIM control panel. The red WINDSHEAR indication is displayed in
+the center of both PFDs.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 13 of 142
+FUNCTIONS ... DISPLAYS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 14 of 142
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 15 of 142
+FAC GENERAL (2) COMPONENT LOCATION The FAC computers, FAC (1, 2), are
+located in the aft avionics rack (80VU).
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 16 of 142
+COMPONENT LOCATION
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 17 of 142
+FMGC GENERAL (2) MANAGEMENT
+CONTROLS GENERAL
+GENERAL
+The Flight Management and Guidance Computer (FMGC) functions, Flight
+Management (FM) and Flight Guidance (FG), are mainly controlled from the
+Multipurpose Control and Display Units (MCDUs) and the Flight Control
+Unit (FCU). Typical actions are: - before departure, on the MCDUs, the
+pilots select the flight plan which will be followed later on by the
+aircraft. - in flight, on the FCU, the pilots can engage the AP and can
+modify different flight parameters leading to an immediate change in the
+control of the aircraft.
+The FM part mainly gives the flight plan selection with its lateral and
+vertical functions. The FM part gives the navigation, performance
+optimization, radio navigation tuning and information display
+management. Data computed by the FM part is occasionally used by the FG
+part.
+MCDU
+LATERAL FUNCTIONS
+Basically, the MCDUs give the long-term interface between the crew and
+the FMGCs. The MCDUs show, for example: - the introduction or the
+definition, the modification and the display of flight plans, - the
+display, the selection and the modification of the parameters associated
+with the FM functions, - the selection of specific functions.
+The main lateral functions are: - aircraft position determination, -
+Inertial Reference System (IRS) alignment through the MCDU, - automatic
+or manual (through MCDU) selection of VOR, DME, ILS, ADF frequencies, -
+guidance computation along the lateral flight plan. A navigation
+database supplies all necessary information to build a flight plan;
+however pilots can enter other data using the MCDU.
+FCU
+VERTICAL FUNCTIONS
+Basically, the FCU gives the short-term interface between the crew and
+the FMGCs. For example, the FCU can be used for: - the engagement of the
+AP, Flight Director (FD) and A/THR functions, - the selection of
+required guidance modes (e.g. heading hold), - the selection of various
+flight parameters (e.g. heading value).
+The main vertical functions are: - optimized speed computation; the
+resulting target speed being used as reference for guidance functions, -
+performance predictions as time, fuel, altitude, wind at various points
+of the flight, - guidance computation along the vertical flight plan. A
+performance database supplies necessary data; however pilots have to
+enter other data using the MCDU.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+FLIGHT PLAN A flight plan contains the various elements and constraints
+of the route the aircraft must fly along from take-off to landing. A
+flight plan can be selected, built-up, modified and monitored through
+the MCDU.
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 18 of 142
+DISPLAYS
+GUIDANCE GENERAL
+GENERAL
+The FG part gives the AP, FD and A/THR functions. These functions work
+according to modes generally chosen on the FCU. The normal way to
+operate the aircraft is to use the management part as reference source
+for the guidance part.
+Various displays are used to present Flight Management and Guidance
+System (FMGS) data and information. The main displays presenting flight
+management and guidance information are: - the MCDUs (display part), -
+the FCU (display Part), - the PFDs, - the NDs, - the ECAM/EWD and ECAM
+STATUS pages.
+AP The AP function calculates the signals for the flight controls in
+order to follow the selected modes. The AP controls the pitch, roll and
+yaw axis according to the selected modes. Example of AP mode: Altitude
+hold.
+MCDU The MCDUs display all data related to the management part. Example:
+Identification of the successive waypoints of the flight plan.
+FD The FD displays the guidance commands on both PFDs, allowing the
+pilots to fly the aircraft manually according to the FMGC demands. Two
+cases have to be considered: AP not engaged: - the FD function displays
+symbols on the PFD which gives orders to the pilot to maintain the
+desired parameter(s). In this case, the pilot follows these orders by
+acting on the flight controls. AP engaged: - the FD function displays
+symbols on the PFDs representing the AP orders to be monitored by the
+pilot.
+A/THR The A/THR function calculates the signal necessary for engine
+control in order to follow a given mode. Example of A/THR mode:
+Acquisition and holding of a speed or a Mach number.
+FCU The FCU is also considered as a display as it includes indication
+lights and Liquid Crystal Display (LCD) windows. The FCU includes: -
+lights giving mode indications, - LCD windows showing reference
+parameters. Example: During a climb with AP, the altitude window
+displays the altitude the aircraft is going to capture.
+PFD The PFDs mainly display the FD symbols and the status of guidance
+functions and their modes. They also display reference parameters.
+Example: The target speed value is represented by a symbol on the speed
+scale of the PFD.
+ND The NDs mainly display the flight plan and various navigation data.
+Example: Airports or waypoints around the present position of the
+aircraft.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 19 of 142
+ECAM The ECAM/EWD page presents warning messages related to the function
+or computer failures. The ECAM STATUS page displays the landing
+capabilities.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 20 of 142
+CONTROLS ... DISPLAYS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 21 of 142
+AUTOPILOT PRESENTATION (2) GENERAL
+TAKE-OFF
+The AP is engaged from the Flight Control Unit (FCU) by the related
+pushbuttons. AP engagement is indicated by the illumination of the AP 1
+P/BSW or/and the AP 2 P/BSW (Three green bars) and by the white "AP1",
+"AP2" or "AP1+ 2" indication on the top right corner of each PFD. The AP
+guidance modes are selected from the FCU or the Flight Management and
+Guidance Computers (FMGCs). The AP function is a loop where, after a
+comparison between real and reference parameters, the FMGC computes
+orders, which are sent to the flight controls. The loop is closed by
+real values coming from sensors and given by other systems (e.g. ADIRS)
+to the FMGCs. When the AP is engaged, the load thresholds on the rudder
+pedals and the side sticks are increased. If a pedal or side stick load
+threshold is overridden, the AP disengages.
+The AP can be engaged in flight, provided the aircraft has been airborne
+for at least 5 seconds.
+MODES
+If the airfield is equipped with ILS installations, the AP can perform a
+complete landing with approach, flare and roll out. A second AP can be
+engaged (AP 1 active, AP 2 in standby).
+There are lateral modes and vertical modes. Basically, one of each is
+chosen by the pilot or by the system. The AP being engaged, one lateral
+mode and one vertical mode are simultaneously active. According to
+flight phases, the lateral mode controls: - the ailerons via the
+ELevator Aileron Computers (ELACs), - the spoilers via the ELACs and the
+Spoiler Elevator Computers (SECs), - the rudder via the Flight
+Augmentation Computers (FACs), - the nose wheel via the ELACs and the
+Braking/Steering Control Unit (BSCU). The vertical mode controls the
+elevators and the THS via the ELACs.
+GROUND
+CRUISE In cruise, only one AP can be engaged at a time, priority given
+to the last engaged. Engaging the second AP disengages the first one.
+The ailerons and the spoilers execute the orders of lateral modes; the
+elevators and the THS execute the orders of vertical modes. NOTE: The
+rudder is controlled not by the AP but directly by the FACs.
+LANDING
+NOTE: The rudder is controlled by the AP via the FACs. During roll out,
+the AP gives steering orders to the rudder and the nose wheel. These
+orders depend on the aircraft speed. Aileron and spoiler AP orders are
+null. The THS is reset to 0.5 nose up. NOTE: The spoilers are directly
+controlled by the SECs as airbrakes. During roll out, at low speed
+(about 60 knots), the pilot normally disengages the AP by pressing a
+takeover pushbutton located on the side stick.
+For maintenance purposes, the AP can be engaged on ground with both
+engines shut down. Hydraulic power is not required. When an engine is
+started, the AP disengages.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 22 of 142
+GENERAL ... LANDING
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 23 of 142
+FLIGHT DIRECTOR PRESENTATION (2) ENGAGEMENT The Flight Director (FD)
+functions are engaged automatically as soon as the system is
+electrically supplied and logic conditions are fulfilled. FD engagement
+is indicated on the Flight Control Unit (FCU) by the FD P/BSW green bars
+and on the top right of each PFD. 1FD2 indication is displayed on each
+PFD to show that FD1 is engaged on the CAPT side and FD2 is engaged on
+the F/O side.
+and PFD 2 for the F/O FD P/BSW. If a lit FD P/BSW is pressed, the green
+bars go off. Pressing the P/BSW again puts the green bars on again. A
+non lit FD P/BSW means that no FD symbols can be displayed on the
+corresponding PFD. -FD2 is displayed on each PFD to show that no FD
+symbols can be displayed on PFD 1 and FD 2 is engaged on the F/O side.
+NOTE: On ground, as long as no AP/FD mode is active, there are no FD
+symbols on the PFDs.
+PRINCIPLE The FD displays the Flight Management and Guidance Computer
+(FMGC) guidance commands on both PFDs. In manual flight, the FD displays
+guidance orders to help the pilots to apply commands on the controls in
+order to follow the optimum flight path, which would be ordered by the
+AP if it was engaged. When the AP is engaged, the FD helps the FMGC
+demands to be checked. The FD modes are the same as the AP modes and are
+selected the same way. The FMGCs calculate AP/FD orders which are
+transformed into symbols by the Display Management Computers (DMCs).
+There are two types of symbols: the FD bars, the Flight Path Director
+(FPD) and Flight Path Vector (FPV) symbols. The central HeaDinG-Vertical
+Speed (HDG-V/S)/TRacK-Flight Path Angle (TRK-FPA) P/BSW on the FCU makes
+the pilots switch between these two types of symbols.
+FD PUSHBUTTONS Upon FCU power up, in go around, or when losing the AP
+during the roll out phase of the landing, the three green bars of the FD
+P/BSWs come on automatically. A lit FD P/BSW means that the FD symbols
+can be displayed on the corresponding PFD: PFD 1 for the CAPT FD P/BSW
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 24 of 142
+ENGAGEMENT ... FD PUSHBUTTONS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 25 of 142
+FLIGHT DIRECTOR PRESENTATION (2) in terms of current track and FPA
+actually being flown. The FPV symbol position is computed by the Air
+Data Inertial Reference System (ADIRS).
+FD BARS The FD bars can be displayed provided HDG-V/S is selected on the
+FCU. HDG-V/S is automatically selected at system power up.
+NOTE: The yaw bar is identical to the FD bar case and appears with the
+same conditions.
+NOTE: At certain system configuration changes, the FMGCs send a command
+to the DMCs to make the FD bars flash for 10 seconds. AP/FD modes are
+correctly followed when the FD bars are centered on the fixed aircraft
+model of the PFDs. There are three FD bars: - the pitch bar, - the roll
+bar, - and the yaw bar. The horizontal pitch bar can be displayed if a
+vertical mode is active except during the roll out phase of the landing.
+The vertical roll bar can be displayed if a lateral mode is active.
+Below 30 feet RA at take-off when a LOCalizer (LOC) signal is available
+and during landing, the roll bar is replaced by a yaw bar index. This
+bar is then centered when it is just below the central yellow square.
+FPD/FPV SYMBOLS The FPD and the FPV symbols can be displayed provided
+TRK-FPA is selected on the FCU. NOTE: At certain system configuration
+changes, the FMGCs send a command to the DMCs to make the FPD and FPV
+symbols flash for 10 seconds. AP/FD modes are correctly followed when
+the FPD and FPV symbols are superimposed. The FPD symbol supplies
+command signals to intercept and fly the lateral and vertical flight
+path as defined by the FMGCs. The FPD symbol is removed if no guidance
+mode is provided by the FMGCs. The FPV symbol represents lateral and
+vertical flight path information
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 26 of 142
+FD BARS &amp; FPD/FPV SYMBOLS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 27 of 142
+AUTOTHRUST PRESENTATION (2) AUTOTHRUST FUNCTION The A/THR function sends
+a computed thrust command (thrust target) to the Full Authority Digital
+Engine Control (FADEC) for automatic engine control. The A/THR functions
+are: - acquisition and holding of a speed or a Mach number, -
+acquisition and holding of a thrust, - reduction of the thrust to idle
+during descent and during flare in final approach, - protection against
+excessive Angle-Of-Attack (AOA) called alpha-floor protection, by
+ordering a maximum thrust when an alpha-floor detection signal is
+received from the Flight Augmentation Computers (FACs).
+AUTOTHRUST LOOP PRINCIPLE To get the A/THR function, the thrust target
+computed by the Flight Management and Guidance Computers (FMGCs) is
+chosen by the Flight Control Unit (FCU). Then each FCU processor sends,
+along its own bus, the thrust target to the FADEC via the Engine
+Interface Units (EIUs).
+When A/THR is engaged: - the FCU A/THR P/BSW is lit, - the engagement
+status is displayed on the Flight Mode Annunciator (FMA). When engaged,
+the A/THR can be active or not depending on the position of the thrust
+levers. When engaged and not active, the thrust control is manual. The
+thrust is commanded according to the position of the thrust levers. When
+engaged and active, the thrust control is automatic. The thrust is
+commanded according to the A/THR computed thrust target.
+AUTOTHRUST DISCONNECTION A/THR disengagement can be manual or automatic.
+A/THR is manually disconnected: - either by pressing the A/THR
+instinctive disconnect switch on any thrust lever, - or by setting all
+thrust levers to idle position, - or through the dedicated FCU P/BSW,
+A/THR is automatically disconnected in case of failure detection.
+AUTOTHRUST ENGAGEMENT The engagement of the A/THR function can be manual
+or automatic. The A/THR is engaged manually by pressing the A/THR P/BSW
+on the FCU. This is inhibited below 100 feet RA, with engines running.
+The A/THR is engaged automatically: - when the AP/Flight Director (FD)
+is engaged in Take-Off (TO) or Go Around (GA) modes, - or in flight,
+when the alpha-floor is detected; this is inhibited below 100 feet RA
+except during the 15 seconds following the lift-off. NOTE: To
+effectively have A/THR on the engines, the engagement of the A/THR is
+confirmed by a logic of activation in the FADEC.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 28 of 142
+AUTOTHRUST FUNCTION ... AUTOTHRUST DISCONNECTION
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 29 of 142
+AUTO FLIGHT SYSTEM CONTROL &amp; INDICATING (2) LOCATE CONTROL/INDICATING IN
+THE COCKPIT FCU/MCDU/ECP SIDE STICKS/THRUST LEVERS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 30 of 142
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 31 of 142
+AUTOMATIC FLIGHT SYS CONTROL &amp; INDICATING (1) FCU The Flight Control
+Unit (FCU) is installed on the glareshield. The FCU front face includes
+an Automatic Flight System (AFS) control panel between two EFIS control
+panels. The AFS control panel activates and displays the engagement of
+APs and A/THR. The selection for guidance modes and flight parameters is
+also done on the AFS control panel. NOTE: The EXPEDite P/BSW can be
+optionally removed from the AFS control panel. The two EFIS control
+panels control and display, for each EFIS side, the PFD and ND
+functions: respectively barometric and Flight Director (FD) conditions,
+and ND modes.
+MCDU Two Multipurpose Control and Display Units (MCDUs) are located on
+the center pedestal. The MCDU is the primary entry/display interface
+between the pilot and the Flight Management (FM) part of the Flight
+Management and Guidance Computer (FMGC). On the MCDU, the system control
+parameters and flight plans can be inserted, and is used for subsequent
+modifications and revisions. The MCDU displays information regarding
+flight progress and aircraft performances for monitoring and review by
+the flight crew.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 32 of 142
+FCU &amp; MCDU
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 33 of 142
+AUTOMATIC FLIGHT SYS CONTROL &amp; INDICATING (1) ND The two NDs are located
+on the main instrument panel. The ND is built from: - flight plan
+data, - data selected via the FCU, - aircraft present position, - wind
+speed/direction, - ground speed/track.
+PFD The two PFDs are located on the main instrument panel. The Flight
+Mode Annunciator (FMA) is the top part of the PFD. Each PFD displays: -
+AP, FD &amp; A/THR engagement status on the FMA, - AP, FD &amp; A/THR
+armed/engaged modes on the FMA, - FD orders, - Flight Augmentation
+Computer (FAC) characteristic speeds on the speed scale.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 34 of 142
+ND &amp; PFD
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 35 of 142
+22 AUTO FLIGHT SYSTEM PRESENTATION (1) CONTROL AND INDICATING
+(continued) PRIMARY FLIGHT DISPLAY As the main guidance instrument, the
+PFD displays various speeds and reference parameters used for short term
+flight guidance. The Flight Mode Annunciator (FMA) is the top part of
+the PFD and indicates: - the AP, FD and A/THR engagement status, - the
+AP/FD and A/THR modes, - the landing category.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 36 of 142
+CONTROL AND INDICATING - PRIMARY FLIGHT DISPLAY
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 37 of 142
+AUTOMATIC FLIGHT SYS CONTROL &amp; INDICATING (1) THRUST LEVERS The thrust
+levers are located on the center pedestal. The thrust levers are used to
+engage the Take-Off/Go-Around (TOGA) modes and the A/THR. Two A/THR
+instinctive disconnect P/Bs located on the thrust levers are used to
+disengage the A/THR function.
+SIDE STICKS The CAPT and F/O side sticks are respectively located on the
+CAPT lateral panel and F/O lateral panel. The AP is disengaged when the
+take over priority P/B on the side stick is pressed or when a force
+above a certain threshold is applied on the side stick.
+RUDDER PEDALS The rudder pedals are installed in the CAPT and F/O
+positions. Rudder pedals override disconnects the AP.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 38 of 142
+THRUST LEVERS ... RUDDER PEDALS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 39 of 142
+22 AUTO FLIGHT SYSTEM PRESENTATION (1) CONTROL AND INDICATING
+(continued) FLIGHT CONTROL PANELS On the two flight control (FLT CTL)
+panels, installed on the overhead panel, there is a pushbutton to
+respectively disengage FAC 1 and 2.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 40 of 142
+CONTROL AND INDICATING - FLIGHT CONTROL PANELS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 41 of 142
+AUTOMATIC FLIGHT SYS CONTROL &amp; INDICATING (1) RESETS The FMGC, FAC, FCU
+and MCDU resets are possible in the cockpit. Depending on the computer
+(1 or 2), the circuit breakers are located either on the overhead
+circuit breakers panel 49VU or on the rear circuit breakers panel 121VU.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 42 of 142
+RESETS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 43 of 142
+AUTOMATIC FLIGHT SYS CONTROL &amp; INDICATING (1) RMP The Radio Management
+Panels (RMPs) are located on the center pedestal near MCDU1 and 2. The
+RMPS are used for navaid standby selection.
+EWD/SD The EWD and the SD are located on the main instrument panel. The
+EWD displays AFS warning messages. The SD displays AFS information such
+as inoperative systems on the STATUS page or landing capabilities
+availability.
+ATTENTION GETTERS The attention getters are located on the glareshield
+panel on the CAPT and F/O sides. The MASTER CAUTion and/or the MASTER
+WARNing are activated when an AFS disconnection occurs. The AUTOLAND
+warning is activated when a problem occurs during final approach in
+automatic landing.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 44 of 142
+RMP ... ATTENTION GETTERS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 45 of 142
+AUTOMATIC FLIGHT SYS MAINTENANCE SYSTEM D/O (3) GENERAL
+BITE
+The Auto Flight System (AFS) is a type 1 system, ables to maintain a
+two-way communication with the Centralized Fault Display Interface Unit
+(CFDIU). The line maintenance of the AFS is based on the use of the
+Fault Isolation and Detection System (FIDS) active in the Flight
+Augmentation Computer (FAC) 1 and of the BITEs located in the various
+AFS computers. Access to the fault data is made through the Multipurpose
+Control and Display Units (MCDUs) via the CFDIU. Like for other systems,
+the CFDIU works in NORMAL mode and MENU mode (See ATA 31-CFDS).
+According to its internal architecture, each AFS Line Replaceable Unit
+(LRU) has one or several BITEs. The basic purpose of a BITE is to
+detect, isolate, memorize failures, the Flight Control Unit (FCU) and
+MCDU BITEs only perform the detection task. The failure detection is
+triggered by specific events listed in the maintenance manual. Example
+of Flight Guidance (FG) CoMmanD (CMD) triggering event: ILS own failure.
+The failure localization corresponds to an analysis processed to
+identify the source of the failure.
+FIDS The FIDS is a card physically located in each FAC. Both FACs are
+interchangeable, but only the FAC 1 FIDS is active due to the side 1
+signal. The FIDS is used as a system BITE to concentrate maintenance
+information. The FIDS is linked in acquisition and reception to the
+CFDIU and is connected to the BITEs of the various AFS computers. It
+receives commands from the CFDIU, interprets these commands and
+transfers them, if applicable, to the various BITEs concerned. It
+receives malfunction reports from the BITEs, manages these reports, and,
+if applicable, consolidates the BITE diagnosis (occurrence,
+correlation...) and generates a fault message, which is sent to the
+CFDIU. NOTE: If the FIDS fails, the BITEs continue to work and the
+results can be read in the shop or after FAC 1 change. The NORMAL mode
+function is the same as in other systems. In addition to the usual
+system report functions, the MENU mode gives access to GROUND SCAN, AFS
+TEST and LAND TEST.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+FAC/FM/FG BITE As the FAC and FG have a BITE in the CMD and the MONitor
+(MON) sides, the fault analysis is generally made on each side and a
+synthesis is made on the CMD side. Each BITE memorizes the result of the
+analysis, the failure context, the flight leg number, the time and date
+of each given failure. Then the BITE sends the result of the analysis,
+with a maximum of two suspected LRUs in the order of probability, to the
+FIDS.
+FCU BITE Each FCU BITE computes the maintenance status of its related
+part and permanently sends this maintenance data to the FG CMD part.
+MCDU BITE The MCDU does the tests on its processor, memory and display
+unit. If a failure is found by the MCDU BITE: - the FAIL annunciator
+comes on and the display is blank, - the MCDU FAIL output discrete is
+set and sent to the FM part and then to FG 1 and FG 2 CMD parts through
+the crosstalk bus.
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 46 of 142
+GENERAL ... MCDU BITE
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 47 of 142
+AUTOMATIC FLIGHT SYS MAINTENANCE SYSTEM D/O (3) GROUND SCAN The GROUND
+REPORT function displays failures recorded in the ground area of the
+FIDS memory. The PRESENT FAILURE SCAN function is used to isolate
+failures present when the function is selected. The manufacturer for
+development purposes uses the PROGRAM page.
+AFS TEST An AFS TEST is done: - to check an AFS LRU before removal, - to
+check an AFS LRU after installation, - to get trouble shooting data
+(even if the test is OK).
+LAND TEST The LAND TEST gives the test availability of the LANDing mode
+and equipment required to obtain CATegory 3. There are several
+successive pages in which actions, checks and answers are requested from
+maintenance.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 48 of 142
+GROUND SCAN ... LAND TEST
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 49 of 142
+AUTOMATIC FLIGHT SYS MAINTENANCE SYSTEM D/O (3) SAFETY TESTS After long
+term power interruption, computers and control units of the AFS do the
+safety tests also called power-up tests. These tests are only done on
+ground, except for the FCU, which can make safety tests on ground or in
+flight. During these tests, no action should be done on the system. If a
+unit does not pass the safety test, it is declared failed and unusable
+and an ECAM message is displayed on the STATUS page. NOTE: The
+recommended conditions to do the safety test are: . aircraft on ground,
+engines stopped, hydraulic power (green/yellow) for FAC only, . pull the
+C/B of the involved computer (both C/Bs for FCU), . wait 15 seconds (7
+minutes for FCU), and then push the C/B of the involved computer, . wait
+1 minute for safety test execution.
+PROCEDURE This AFS maintenance procedure has to be followed in the event
+of a pilot report concerning the AFS.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 50 of 142
+SAFETY TESTS &amp; PROCEDURE
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 51 of 142
+YAW AXIS CONTROL D/O (3) YAW DAMPER
+RUDDER TRAVEL LIMITATION
+When the AP is not engaged, the ELevator Aileron Computer (ELAC)
+calculates the yaw damper order with the normal law. The yaw damper
+order calculated by the ELAC provides turn coordination; dutch roll
+damping and engine failure compensation. If both ELACs fail, only the
+dutch roll damping (alternate law) is computed by the Flight
+Augmentation Computer (FAC) using the Air Data Inertial Reference System
+(ADIRS) data. When the AP is engaged, the FAC calculates the yaw damper
+order except in LANDing mode where it is computed by the Flight
+Management and Guidance Computer (FMGC). When the AP is engaged: - dutch
+roll damping law is given by the FAC using ADIRS data. - engine failure
+compensation fast law is given by the FAC using the ADIRS data in
+Take-Off/Go-Around (TOGA) or RunWaY modes only. - turn coordination law
+computes the yaw order to the FMGC roll order. In LAND mode, the FMGC
+yaw order controls the yaw damper actuators via the FAC.
+The rudder travel limitation is computed by the FAC and sent to the
+rudder travel limiting unit. The FAC rudder travel limiting law computes
+this limit using the calibrated airspeed (Vc) given by the ADIRS.
+OPERATION ELAC NORMAL LAW This schematic represents the ELAC normal law.
+RUDDER TRIM The RUDder TRIM selector via the FAC controls the rudder
+trim in manual mode. In the rudder trim auto mode, the FAC computes the
+engine failure compensation and the turn coordination. When the AP is
+engaged: - the turn coordination law computes the yaw orders related to
+the FMGC roll order. Signals are simultaneously sent to the rudder trim
+actuator and the yaw damper actuators. - the engine failure compensation
+slow law orders are sent to the rudder trim actuator.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 52 of 142
+YAW DAMPER ... OPERATION
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 53 of 142
+YAW AXIS CONTROL D/O (3) OPERATION (continued) ELAC FAILED ALT LAW This
+schematic represents the ELAC failed ALT law. If necessary, the ELAC
+must operate in degraded law on the roll axis. In degraded mode
+indicated by the ELAC, the FAC computes the yaw damper function and
+generates a simplified law of Dutch roll damping (alternate law).
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 54 of 142
+OPERATION - ELAC FAILED ALT LAW
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 55 of 142
+YAW AXIS CONTROL D/O (3) OPERATION (continued) AP ENGAGED CRUISE This
+schematic represents the AP engaged cruise. As soon as the AP is
+engaged, the yaw damper operates in the mode given below: - Dutch roll
+damping - Turn coordination to reduce the sideslip in turn as a product
+of the roll order from the FMGC. Additionally, for the rudder trim
+operation in automatic mode the autopilot has priority thus, the manual
+pilot trim is not possible in AP engaged configuration. The order for
+rudder trim deflection is a product of the turn coordination and (in the
+event of an engine failure) engine fail compensation. The AP also
+provides signals which validate the detection of engine failure as a
+function of the engine rating. In all cases the rudder trim deflection
+is always indicated on the rudder trim control panel.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 56 of 142
+OPERATION - AP ENGAGED CRUISE
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 57 of 142
+YAW AXIS CONTROL D/O (3) OPERATION (continued) AP ENGAGED ENGINE COMP
+TOGA/RWY MODE This schematic represents the AP engaged engine comp
+TOGA/RWY mode. As stated priviously stated, as soon as the AP is
+engaged, the yaw damper operates in the mode given below: - Dutch roll
+damping - Turn coordination to reduce the sideslip in turn as a product
+of the roll order from the FMGC. In TOGA/RWY mode the yaw damper will
+now include engine failure compensation in the event of an engine
+failure. This mode provides lateral guidance function, at takeoff, on
+the runway centerline by means of the LOC beam and by following an
+optimum longitudinal flight path after rotation. This mode is
+available: - for the FD during takeoff run and in flight - for the AP 5
+seconds after lift-off. The mode is engaged when the pilot selects the
+takeoff thrust by positioning the throttle control levers beyond the
+MCT/FLX TO gate.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 58 of 142
+OPERATION - AP ENGAGED ENGINE COMP TOGA/RWY MODE
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 59 of 142
+YAW AXIS CONTROL D/O (3) OPERATION (continued) AP ENGAGED LAND MODE This
+schematic represents the AP engaged LAND mode. With the autopilot
+engaged and the Land Mode activated, Dutch roll damping and Turn
+coordination are inhibited and yaw damping is accomplished directly from
+the FMGC yaw guidance order.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 60 of 142
+OPERATION - AP ENGAGED LAND MODE
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 61 of 142
+FAC ENGAGEMENT D/O (3) NORMAL CONFIGURATION
+TEMPORARY POWER LOSS
+In normal configuration, when the Flight Augmentation Computer (FAC)
+P/BSW is pressed in, the FAULT and OFF lights are off, provided the
+internal monitoring channels are in good condition and the engagement
+request is present. When the FAC P/BSW is released out, the FAC is
+disengaged and the white OFF light comes on.
+If a temporary power loss occurs, the FAULT light comes on with a
+message on the ECAM. In flight, only the reset is possible by using the
+FAC P/BSW.
+NOTE: The FAC cannot be engaged on ground after power up during the 30
+second test. The amber FAULT light flashes.
+FAC NOT ENERGIZED OR NOT installed If the FAC is not energized and the
+P/BSW is pressed in, the FAULT light is on with an amber message on the
+ECAM.
+SUBFUNCTION FAULT If one or several yaw axis control functions fail,
+only the amber message appears on the ECAM. The FAULT light remains OFF.
+If one or more of the following functions fail: - yaw damper, - rudder
+trim, - rudder travel limitation. Only the amber message appears on the
+ECAM display unit. The FAC remains engaged.
+COMPUTER FAULT When the computer itself fails, the FAC is disengaged and
+the FAULT light comes on with a message on the ECAM. In this case, a FAC
+reset must be attempted following the ECAM procedure. NOTE: On ground
+with engines shut down, the reset is automatic when the fault
+disappears.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 62 of 142
+NORMAL CONFIGURATION ... TEMPORARY POWER LOSS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 63 of 142
+YAW DAMPER FUNCTION D/O (3) COMPONENTS
+AUTO MODE
+There are two yaw dampers. In normal operation, both are engaged but
+only one is active. Yaw damper 1 has priority. The yaw damper function
+is achieved by: - 2 electro-hydraulic actuators with an external
+centering element. Each actuator comprises 1 jack, 1 Linear Variable
+Differential Transducer (LVDT), 2 solenoid valves, 2 selector valves, 1
+pressure switch and 1 Servo Valve (SV). - 2 Flight Augmentation
+Computers (FACs). - 2 Rotary Variable Differential Transducers (RVDTs).
+In AUTOmatic mode, the FAC computes the dutch roll damping in clean
+configuration, the engine failure compensation in Takeoff/Go-Around
+(TOGA) and RunWaY modes. The turn coordination law is computed by using
+roll orders from the Flight Management and Guidance Computer (FMGC).
+GENERAL
+In manual mode, the AP is not engaged and the ELevator Aileron Computer
+(ELAC) sends to the FAC: - the turn coordination, - the dutch roll
+damping, - the engine failure compensation yaw orders.
+MANUAL ALTERNATE After a dual ELAC failure, turn coordination and engine
+failure compensation are lost. Only a simplified alternate law of dutch
+roll damping is computed by the FAC.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+When the LANDing mode is engaged, the yaw order is computed directly by
+the FMGC.
+POWER LOOP
+Yaw damper 1 and 2 operate with the changeover logic. The yaw damper
+actuator does not move the rudder pedals. The yaw damper function
+operates as follows: - order is computed by the laws and sent to the
+rudder via the related yaw damper actuator. - yaw damper actuator 1 is
+powered by the green hydraulic system. - yaw damper actuator 2 is
+powered by the yellow hydraulic system.
+MANUAL MODE
+LAND MODE
+The yaw damper laws control the SV, and the changeover logic controls
+the two solenoids S1 and S2, which in turn control the selector valves
+(H). S1 and S2 when powered, move the internal hydraulic parts to a
+position, which makes it possible for the SV to operate the output jack.
+If one of the selector valves fails or the signal from the FAC 1 fails,
+the hydraulic Press switch sends a fail signal to the changeover logic,
+which then transfer the operation to YD 2. The feedback in the power
+loop is given by an LVDT for the command side and a RVDT for the monitor
+side. In case of dual yaw damper loss, a centering spring rod moves the
+rudder to the neutral position.
+MONITORING At power up, the yaw damper function safety tests are
+initiated. The continuity between the standby yaw damper and its SV is
+tested. The computation is monitored by the comparators between command
+and monitor part. The ELAC, FMGC and Air Data/Inertial Reference System
+(ADIRS) peripheral inputs are always monitored. The power loop is
+monitored by a comparator between the yaw order and the rudder position
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 64 of 142
+feedback. In flight, the hydraulic pressures are monitored by the FAC.
+The LVDTs and the RVDTs are always monitored.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 65 of 142
+COMPONENTS ... MONITORING
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 66 of 142
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 67 of 142
+FLIGHT ENVELOPE PROTECTION D/O (3) GENERAL The function of the Flight
+Augmentation Computer (FAC) is independent of the FAC engagement P/BSW.
+This function gives: - characteristic speeds on the PFDs through the
+Display Management Computers (DMCs), - the speed limits to the Flight
+Management and Guidance Computers (FMGCs) for autoflight, - the
+alpha-floor detection to the FMGCs for A/THR engagement, if it is not
+engaged, - low energy awareness. The FAC also computes the weight and
+the center of gravity.
+SPEED COMPUTATION DISPLAY The speeds computed by the FAC are sent to the
+PFD and the speed limits to the FMGCs. In normal operation, FAC 1 data
+are displayed on the CAPT PFD and the FAC 2 data on the F/O PFD. If a
+parameter or the computer fails, the associated PFD is automatically
+switched to the opposite FAC by the DMC. If the air data source used by
+the FAC is different from the data source used by the DMC for speed
+display, the message ADR DISAGREE appears on the ECAM.
+SPEED COMPUTATION Aerodynamic laws and the aircraft configuration
+parameters are used for the characteristic speed computation. The
+computation principle is based on the fact that most of the speed data
+are a function of the aircraft weight. In flight, the FAC computes the
+weight with the Air Data/Inertial Reference System (ADIRS), FMGC and
+Slat Flap Control Computer (SFCC) parameters and then, from the weight,
+it computes the characteristic speeds and the Center of Gravity (CG). On
+the ground, the FAC uses the weight given by the FMGC.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 68 of 142
+GENERAL ... SPEED COMPUTATION
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 69 of 142
+FLIGHT ENVELOPE PROTECTION D/O (3) ALPHA-FLOOR AND WINDSHEAR PROTECTION
+Alpha-floor detection and windshear protection are computed by the FAC
+or the ELevator Aileron Computer (ELAC) and sent to the FMGC. This
+function is a protection of the aircraft against excessive
+Angle-Of-Attack (AOA). The FAC compares the aircraft AOA (alpha) with
+the predetermined threshold (function of the slat/flap configuration).
+This threshold is decreased if windshear occurs. NOTE: If a windshear
+condition is detected, the red WINDSHEAR message is displayed on the PFD
+and the audio warning "WINDSHEAR, WINDSHEAR, WINDSHEAR" starts. If this
+threshold is exceeded, the FAC sends a signal to the FMGC to engage the
+A/THR function and apply full thrust. If the aircraft is in clean
+configuration, the windshear compensation function is not available. The
+ELAC will start the alpha-floor protection if one of these conditions
+occurs: - alpha protection condition and side stick deflection &gt; 14
+degrees, - pitch angle &gt; 25 degrees and side stick deflection &gt; 14
+degrees. If there is a failure of the two ADIRS, the alpha-floor
+detection does not operate.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 70 of 142
+ALPHA-FLOOR AND WINDSHEAR PROTECTION
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 71 of 142
+FLIGHT ENVELOPE PROTECTION D/O (3) LOW ENERGY AWARENESS The energy
+awareness is a software device which gives the crew an audio warning.
+This warning tells the crew that it is necessary to increase the thrust
+to get back a positive flight path angle through pitch control. The
+audio warning, "SPEED SPEED SPEED", starts before alpha-floor in
+relation to the AOA, to the configuration deceleration rate and to the
+flight path angle. It is inhibited when RA is greater than 2000 ft or
+when alpha-floor is active or when the aircraft is in clean
+configuration.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 72 of 142
+LOW ENERGY AWARENESS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 73 of 142
+FLIGHT ENVELOPE PROTECTION D/O (3) TAIL STRIKE PROTECTION (A320/A321) To
+decrease the risk of tail strike at landing, a new audio warning,
+"PITCH-PITCH", is added on A320 and A321 aircraft. This protection
+function is activated by PIN-Programming on the Flight Augmentation
+Computers (FACs). On the PFD, below 400 ft, a Vbar symbol is displayed
+on the pitch attitude scale. It shows the maximum pitch attitude that
+must not be exceeded during landing to prevent a tail strike.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 74 of 142
+TAIL STRIKE PROTECTION (A320/A321)
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 75 of 142
+FLIGHT ENVELOPE DATA ON PFD D/O (3) SPEED PROTECTION The green overspeed
+protection symbol indicates the speed at which overspeed protection
+becomes active. SPEED PROTECTION = (VMO + 6 kts / MMO + 0.01).
+SPEED TREND The yellow pointer starts from the speed symbol. The end of
+this arrow gives the speed value, which will be attained in 10 seconds
+if the acceleration or deceleration remains constant. This arrow appears
+only when greater than 2 kts and is removed when less than 1 kt. It is
+also removed in case of failure of the Flight Augmentation Computers
+(FACs).
+TARGET AIRSPEED This symbol is either magenta or cyan and gives the
+target airspeed value or the airspeed corresponding to the Mach number.
+The target airspeed value is the value computed by the Flight Management
+and Guidance Computer (FMGC) in managed speed mode (magenta) or manually
+entered on Flight Control Unit (FCU) for selected speed mode (cyan). The
+target speed is a magenta double bar when associated with the ECONomy
+speed range. Otherwise it is a magenta or cyan triangle. When out of
+speed scale, the target speed value is displayed in numeric form below
+or above the speed scale.
+ECON SPEED RANGE In descent mode, with the ECON mode, the selected speed
+symbol is replaced by two magenta half triangles on EIS 1 or by two
+magenta thick lines on EIS 2: upper and lower limits calculated by the
+FMGC. They indicate the range of descent speed: +20 kts and -20 kts or
+Vmin or VLS whichever is higher.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 76 of 142
+ECON SPEED RANGE
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 77 of 142
+FLIGHT ENVELOPE DATA ON PFD D/O (3) MINIMUM SELECTABLE SPEED (VLS)
+VSW
+It is defined by the top of an amber strip along the speed scale and
+computed by the FACs. The VLS corresponds to 1.13 Vs during take-off or
+following touch and go. It becomes 1.23 Vs as soon as any flap or slat
+selection is made. It remains at this value until landing. Above 20000
+ft, VLS is corrected for Mach effect to maintain 0.2 g buffet margin.
+VLS information is inhibited from touch down up to 10 seconds after
+lift-off.
+The top of a red and black strip along the speed scale defines the Stall
+Warning Speed (VSW). It represents the speed corresponding to the stall
+warning. VSW information is inhibited from touch down up to five seconds
+after lift-off. The FACs computes the VSW in pitch alternate or pitch
+direct law.
+ALPHA PROTECTION SPEED The top of a black and amber strip along the
+speed scale defines the alpha protection speed. It represents the speed
+corresponding to the Angle-Of-Attack (AOA) at which alpha protection
+becomes active. The FACs compute this speed in pitch normal law.
+ALPHA MAX SPEED The top of a red strip along the speed scale defines the
+alpha max speed. It represents the speed corresponding to the maximum
+AOA that may be reached in pitch normal law. The FACs computes this
+speed in pitch normal law.
+VMAX It is defined by the lower end of a red and black strip along the
+speed scale and determined by the FACs. Vmax represents the lowest of
+the following values: - VMO (maximum operating speed) or the speed
+corresponding to MMO (Maximum Operating Mach), - VLE (maximum landing
+gear extended speed), - VFE (maximum flap extended speed).
+DECISION SPEED (V1) The decision speed V1 is shown by a cyan symbol. The
+crew through the Multipurpose Control and Display Unit (MCDU) manually
+inserts the decision speed. When out of indication range, it is
+digitally shown on the upper part of the scale. It is removed after
+lift-off.
+MINIMUM FLAP RETRACTION SPEED This speed is represented by a green -F
+symbol. It is available when the flap selector is in position 3 or 2. It
+is computed by the FACs.
+MINIMUM SLAT RETRACTION SPEED This speed is represented by a green -S
+symbol. It is available when the flap selector is in position 1. It is
+computed by the FACs.
+VFE NEXT Two amber dashes show the predicted VFE at the next flap/slat
+position. It is given by the FACs and only displayed when the aircraft
+altitude is below 15000 ft.
+GREEN DOT This is the engine out operating speed in clean configuration.
+It is displayed in flight only by a green dot. It represents the speed
+corresponding to the best lift to drag ratio.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 78 of 142
+GREEN DOT
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 79 of 142
+FAC WARNINGS (3) GENERAL
+WINDSHEAR DET FAULT
+All warnings in this lesson are generated by Flight Warning Computer
+(FWC) logics, except for the Flight Augmentation Computer (FAC) P/BSW
+amber FAULT light, which is controlled by the FAC itself.
+When the windshear detection function is inoperative, the aural warning
+sounds, the MASTER CAUTion comes on and the failure is shown amber on
+the EWD page.
+NOTE: -The phases of the flight phase inhibition schematic are FWC
+phases, not Flight Management (FM) phases. -The status page is obtained
+by pressing CLeaR or STatuS keys of the ECAM control panel. It does not
+appear automatically after warning activation.
+FAC 1+2 FAULT
+LOW ENERGY WARNING The aircraft energy level is a function of current
+speed, acceleration rate and flight path angle. When it becomes lower
+than a threshold, under which the thrust shall be increased, an audio
+"Speed-Speed-Speed" message is triggered every five seconds. This aural
+warning indicates that, with the current thrust, it is not possible to
+recover a positive flight path angle through pitch control. Thrust must
+be then increased until warning disappearance or alpha floor is
+triggered. This warning is available between 100 ft and 2000 ft out of
+alpha floor conditions.
+WINDSHEAR DETECTION The FACs achieve the windshear detection function
+independently of the ON/OFF selection of the overhead panel FAC P/BSW.
+The FACs trigger a red warning whenever windshear conditions are
+encountered. The warning triggers: - an aural warning, WINDSHEAR,
+repeated three times, - a WINDSHEAR red message displayed in the center
+of both PFDs (15 seconds mini).
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+In case of FAC 1 and FAC 2 fault, the MASTER CAUT comes on, the aural
+warning sounds, both FAC P/BSW FAULT lights come on amber and the "SPD
+LIM" red warning is displayed on the speed scale of the PFD. The failure
+is shown amber on the ECAM displays. The "OFF THEN ON" action performed
+on a FAC P/BSW resets the computer if the fault disappears. An action on
+the MASTER CAUT P/B cancels the MASTER CAUT light. If this fault occurs
+on ground with engines shut down, the reset is automatic when the fault
+disappears.
+FAC 1(2) FAULT In case of FAC 1 or FAC 2 fault, the master caution comes
+on; the aural waning sounds and the related FAC P/BSW FAULT light comes
+on amber. The failure is shown amber on the displays. The "OFF THEN ON"
+action performed on the FAC resets the computer if the fault disappears.
+An action on the MASTER CAUT P/B resets the MASTER CAUT light.
+RUD TRV LIM SYS FAULT In case of total rudder travel limitation system
+failure, the MASTER CAUT comes on; the aural warning sounds and the
+failure is shown amber on the displays. The "OFF THEN ON" action done on
+the FAC P/BSW resets the computer if the failure disappears.
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 80 of 142
+RUD TRV LIM 1(2) FAULT In case of rudder travel limitation 1 or 2
+failure, an amber indication appears on the displays. No reset action is
+needed in case of one rudder travel limitation failure, as the rudder
+travel limitation function is not affected by a single rudder travel
+limitation failure.
+RUD TRIM SYS FAULT In case of total rudder trim system failure, the
+MASTER CAUT comes on, the aural warning sounds and the failure is shown
+amber on the displays.
+RUD TRIM 1(2) FAULT In case of rudder trim 1 or 2 fault, an amber
+indication appears on the displays. No reset action is needed in case of
+one rudder trim fault, as the rudder trim function is not affected by a
+single rudder trim failure.
+YAW DAMPER SYS FAULT In case of total yaw damper system failure; the
+MASTER CAUT comes on, the aural warning sounds and the failure is shown
+amber on the displays. The "OFF THEN ON" action done on the FAC
+pushbuttons resets the computer if the failure disappears.
+YAW DAMPER 1(2) FAULT In case of yaw damper 1 or 2 failure, an amber
+indication appears on the displays. No reset action is needed in case of
+failure of one yaw damper.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 81 of 142
+YAW DAMPER 1(2) FAULT
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 82 of 142
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 83 of 142
+FLIGHT GUIDANCE AUTOTHRUST D/O (3) GENERAL
+A/THR DISENGAGED
+The A/THR function can be manually engaged from the dedicated P/BSW on
+the Flight Control Unit (FCU) or automatically when some conditions are
+fulfilled.
+When the A/THR function is disengaged: - the thrust levers control the
+engines, - on the FCU, the A/THR P/BSW light is off, - the Flight Mode
+Annunciator (FMA) displays neither the A/THR engagement status nor the
+A/THR modes.
+THRUST LEVERS The thrust levers are manually operated and electrically
+connected to the Full Authority Digital Engine Controls (FADECs). NOTE:
+The thrust levers never move automatically. Each lever has 3 sectors
+defined by detents and stops. The thrust levers can be moved on a sector
+which includes specific positions: - rear sector: for idle reverse up to
+max reverse. - center section: 0: corresponds to an idle thrust, CL:
+corresponds to a climb thrust. - forward section: FLX/MCT: corresponds
+to a FLeXible take-off thrust or a Maximum Continuous Thrust after an
+engine failure, TOGA: corresponds to a maximum Takeoff/Go Around thrust.
+The FADECs compute the thrust limit, which depends on the position of
+the thrust levers. If both thrust levers are in the same detent, the
+thrust limit corresponds to this detent. If both levers are not in the
+same detent, the thrust limit corresponds to the next higher detent. The
+Flight Management and Guidance Computers (FMGCs) select the highest
+thrust limits of the FADEC 1 and FADEC 2 for thrust target computation.
+A/THR FUNCTION LOGIC The A/THR function can be ENGAGED or DISENGAGED.
+When it is engaged, it can be ACTIVE or NOT ACTIVE.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+A/THR ENGAGED AND ACTIVE When the A/THR function is engaged, A/THR is
+active if: - at least, one thrust lever is between the CL detent
+(included) and the 0 stop (included), and, at the most, one thrust lever
+is between the FLX/MCT detent and the CL detent, and there is no engine
+in FLX TO mode, - or the alpha-floor protection is active independently
+of the thrust lever positions. NOTE: In case of one engine failure, the
+A/THR activation zone is between the FLX/MCT detent and the 0 stop,
+instead of the CL detent, and the 0 stop. Because the A/THR function is
+active: - the A/THR system controls the engines, - on the FCU, the A/THR
+P/BSW light is on, - the FMA displays the A/THR engagement status in
+white and the A/THR mode.
+A/THR ENGAGED AND NOT ACTIVE When the A/THR function is engaged, A/THR
+is not active if: At least one thrust lever is above the FLX/MCT detent,
+or both thrust levers are above the CL detent, or at least one engine is
+in FLX TO mode, with the alpha-floor protection not active. Because the
+A/THR function is not active: - the thrust levers control the engines as
+long as a thrust lever is outside the A/THR active area,
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 84 of 142
+- the A/THR P/BSW light is on, - the FMA displays the A/THR engagement
+status in cyan and the MANual THRust rating in white, surrounded with an
+amber box.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 85 of 142
+GENERAL ... A/THR FUNCTION LOGIC
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 86 of 142
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 87 of 142
+FLIGHT GUIDANCE AUTOTHRUST D/O (3) MODES
+ALPHA-FLOOR PROTECTION
+The A/THR function computes a thrust target according to modes and their
+related reference parameters. The reference can be: - a speed or a mach
+number; in this case, the source is either the FCU for a value chosen by
+the pilot, or the FMGC itself, - a thrust; in that case, the sources
+are: The FADECs which compute the thrust limit when the A/THR is not
+active. The FMGC itself within the thrust limit always computed by the
+FADECs when the A/THR is active. The A/THR modes are SPEED/MACH, THR,
+RETARD, which can be overpassed by the alpha-floor protection.
+The A/THR function protects against an excessive Angle-Of-Attack (AOA).
+Each Flight Augmentation computer (FAC) detects the alpha-floor signal.
+In case of excessive AOA or avoidance maneuver, the FACs send an order
+to the FMGCs which activate the alpha-floor protection. The A/THR
+automatically engages or stays engaged active and the engine thrust
+becomes equal to the TOGA thrust for any thrust lever position. In this
+condition, the green message A. FLOOR with an amber flashing box is
+displayed on the FMA. When the alpha-floor detection is no longer
+present in the FACs, the green message TOGA LK (LK for Lock) with an
+amber flashing box is displayed on the FMA. The alpha-floor protection
+can only be cancelled through the disengagement of the A/THR function.
+MODES DESCRIPTION The choice of the mode is automatically made by the
+FMGCs according to the active AP or Flight Director (FD) vertical mode.
+This choice is based on a simple law: priority to the speed control. -
+when the AP controls the aircraft speed with the elevators, the A/THR
+has to control the engines by a fixed thrust demand (THR mode). - when
+the AP controls another aircraft parameter (e. g. altitude), the A/THR
+has to take care of the aircraft speed by a variable thrust demand to
+the engines (SPEED/MACH mode). - Beside these two modes, RETARD is only
+available in automatic landing when engine thrust has to be reduced to
+idle for the flare phase below 40 feet RA.
+A/THR OPERATION IN FLIGHT TAKE-OFF The aircraft is on ground and ready
+for take-off. Neither the AP nor the A/THR are engaged. The engines are
+controlled by the thrust levers. To take-off, the pilot sets the thrust
+levers to the TOGA stop or to the FLX/MCT detent if a flexible
+temperature is selected on a Multipurpose Control and Display Unit
+(MCDU). This engages the A/THR function but it remains not active.
+DEFAULT MODES
+THRUST REDUCTION ALTITUDE
+When no vertical mode is engaged, the A/THR operates only in SPEED/MACH
+modes except: - when THR mode engages automatically in case of
+alpha-floor protection activation, - when, A/THR being in RETARD mode,
+the AP disengaged, the A/THR function remains in RETARD mode.
+At the thrust reduction altitude, a message on the FMAs indicates to the
+pilot that he has to set the thrust levers into the CL detent. As soon
+as the thrust levers are in the CL detent, the A/THR is active. If a
+thrust lever is set into the CL-MCT or O-CL area, a message on the FMAs
+warns the pilot to set the thrust lever to the CL detent: - white LVR
+CLB message if it is in the CL-FLX/MCT area, - amber LVR ASYM message if
+it is in the O-CL area.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 88 of 142
+The A/THR remains active. Then, the thrust levers remain in this
+position until the approach phase. When the A/C reach the thrust
+reduction altitude, LVR CLB appears and flashing.
+AUTOMATIC LANDING During automatic landing, before touch down, an auto
+call out, RETARD, indicates to the pilot that he has to set the thrust
+levers to the 0 stop. When he does it, the A/THR disengages. This lets
+the automatic activation of ground spoilers if they are in armed
+condition. Then, on ground, the pilot moves the thrust levers on the
+REVerse sector.
+DISCONNECTION Besides the normal A/THR operation, the A/THR function is
+disengaged either by a pilot action or in case of a system failure. The
+A/THR function can be disengaged either by pressing at least one of the
+two red instinctive disconnect P/Bs on the side of the thrust levers or
+by pressing the A/THR P/BSW on the FCU. A/THR disengagement can also be
+triggered due to an external system failure. When the A/THR function is
+active, the actual engine thrust does not necessarily correspond to the
+thrust lever position.
+DISCONNECTION CONSEQUENCES Consequently, it is important to know what
+happens after an A/THR disconnection: When the disconnection is made by
+the instinctive disconnect P/B, the thrust is immediately adjusted to
+the thrust lever position. In other cases, after FCU P/BSW
+disconnection, or failure: - when a thrust lever is in its detent, the
+thrust on the corresponding engine is frozen at its last value just
+before the disconnection (memo mode). - as soon as a thrust lever is
+moved out the detent, or if it is not in a detent, the thrust on the
+corresponding engine is smoothly adapted to the thrust lever position.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 89 of 142
+MODES ... DISCONNECTION
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 90 of 142
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 91 of 142
+FLIGHT GUIDANCE PRIORITY LOGIC (3) FLIGHT GUIDANCE The engagement status
+of the guidance function works on the master/slave principle. The master
+Flight Management and Guidance Computer (FMGC) imposes all the changes
+of AP/Flight Director (FD) modes and/or A/THR engagement to the slave
+FMGC. Here is an example of a master FMGC. Look at the flow chart to
+understand the priority logic. With no AP, no FD1 but FD2 engaged, FMGC2
+is the master because, by following the flow chart, the first three
+answers are NO, but the fourth one is YES.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 92 of 142
+FLIGHT GUIDANCE
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 93 of 142
+FLIGHT GUIDANCE PRIORITY LOGIC (3) FLIGHT DIRECTOR At power up, both FDs
+are normally engaged in split configuration. FMGC1 normally drives the
+FD symbols (crossbars or flight path director symbols) on the CAPT PFD.
+FMGC2 normally drives the FD symbols on the F/O PFD. The 1FD2 indication
+is displayed on each Flight Mode Annunciator (FMA) to show that FD1 is
+engaged on CAPT side and FD2 is engaged on F/O side. If one FMGC fails,
+the remaining FMGC drives the FD symbols on both PFDs. If FMGC1 fails,
+the 2FD2 indication is displayed on each FMA to show that FD2 is
+displayed on both PFDs. If both FDs fail, a red flag is displayed on
+each PFD, provided that the corresponding FD switch is on. NOTE: In case
+of loss of both FMGC, the ADIRS parameters can be optionally retrieved
+using the back-up nav on the MCDU.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 94 of 142
+FLIGHT DIRECTOR
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 95 of 142
+FLIGHT GUIDANCE PRIORITY LOGIC (3) AUTOPILOT If one AP is engaged, the
+corresponding FMGC controls the flight controls through the Flight
+Control Computers (FCCs). There is no priority logic in single
+operation. The last engaged AP is the active one. Both APs can be
+engaged as soon as the APPROACH mode is selected on the Flight Control
+Unit (FCU). AP1 has priority, AP2 is in standby. The FCCs use the AP1
+commands first. A switching is done to the AP2 commands in case of AP1
+disengagement.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 96 of 142
+AUTOPILOT
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 97 of 142
+FLIGHT GUIDANCE PRIORITY LOGIC (3) AUTOTHRUST A single A/THR SW located
+on the FCU is used for the engagement or disengagement of the A/THR
+function. The A/THR function is, in fact, composed of two systems
+(A/THR1 and A/THR2), which are ready to be engaged at the same time, but
+only one system is selected. However, the selection of A/THR1 or A/THR2
+depends on the engagement of the AP and FD. It is done according to the
+master/slave principle, which is known by the FCU and summarized in the
+table. When the selected A/THR function is active (according to the
+thrust lever position), the master FMGC controls the engines, via the
+FCU. Consequently, in automatic control, it is the same FMGC which
+controls the engines and the flight controls. To recover the A/THR
+function, when one AP is engaged and its own A/THR has failed, the
+opposite AP should be engaged to switch from the master FMGC to the
+other (which now becomes the master) and to switch to the opposite
+A/THR.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 98 of 142
+AUTOTHRUST
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 99 of 142
+FLIGHT GUIDANCE PRIORITY LOGIC (3) FLIGHT MODE ANNUNCIATIONS The three
+types of information on the FMA are: - A/THR mode/status, - AP/FD mode
+and status, - Flight Management (FM) messages. The master FMGC, which
+supplies both FMAs, displays the A/THR information. The AP/FD
+information is displayed according to the following logic: - with at
+least one AP, the master FMGC supplies both FMAs, - without AP, with the
+FDs engaged, FMGC1 supplies FMA1, FMGC2 supplies FMA2, - without AP,
+with one FD failed or manually disengaged, the opposite FMGC supplies
+both FMAs.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 100 of 142
+FLIGHT MODE ANNUNCIATIONS
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 101 of 142
+FLIGHT CONTROL UNIT D/O (3) GENERAL This description only deals with the
+central part of the Flight Control Unit (FCU). In general, the FCU
+provides the short term interface between the crew and the Flight
+Management and Guidance System (FMGS). The FCU is the main interface to
+engage functions and guidance modes and to select parameters. NOTE: In
+fact, there is one FCU panel which controls two identical processing
+channels: FCU 1 and FCU 2. Only one channel is active at a time, the
+other is in standby. If both channels fail, all FCU controls are
+inoperative: A/THR, AP/Flight Director (FD) 1 and AP/FD 2 are not
+available.
+DISPLAY Here are listed some examples of function engagement, selection
+of required guidance modes and flight parameters. The FCU allows: -
+engagement of APs, FDs and A/THR, - selection of guidance modes;
+e.g. HeaDinG, Vertical Speed (V/S) or TRacK, Flight Path Angle (FPA), -
+selection and display of the various guidance targets whenever a manual
+selection is required (SPeeD - HDG - TRK - V/S - FPA - ALT).
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 102 of 142
+GENERAL &amp; DISPLAY
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 103 of 142
+FLIGHT CONTROL UNIT D/O (3) SPEED/MACH REFERENCE CONTROL KNOB
+SPEED/MACH SWITCHING
+The SPD/MACH reference control knob can be pushed or pulled. It is
+spring-loaded to neutral. It can also be turned.
+The SPD/MACH P/BSW is only active when a value is displayed in the speed
+window. In all cases, the SPD/MACH switching is automatic. The pilot can
+only perform the switching using the SPD/MACH P/BSW when the reference
+is selected. The appropriate indication, SPD or MACH is then displayed.
+PULLED When pulled, the Flight Management and Guidance Computer (FMGC)
+uses a selected reference speed which is displayed on the FCU. The
+associated managed SPD/MACH dot light is off. - if the speed window was
+previously dashed, the value which appears is generally the last managed
+reference speed. - if not, there is no change in the window.
+TURNED When turned, it changes the displayed speed. - if a speed was
+previously displayed, the selected reference speed is modified. - if the
+speed window was previously dashed, the first click changes the dashes
+into the managed reference speed. When turned more, this value changes.
+If the knob is not pulled within 45 seconds the display reverts to
+dashes.
+PUSHED When pushed, dashes are displayed and the associated managed
+SPD/MACH dot light comes on. The FMGC uses a managed reference speed. -
+if dashes are displayed, there is no change. - if a speed was previously
+displayed, dashes appear and the light comes on. The reference becomes a
+managed speed. NOTE: For Takeoff/Go Around (TOGA) and EXPEDite, the FMGS
+automatically uses memorized speeds such as V2, VAPProach and green dot.
+Dashes are displayed and the light is on.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 104 of 142
+SPEED/MACH REFERENCE CONTROL KNOB &amp; SPEED/MACH SWITCHING
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 105 of 142
+FLIGHT CONTROL UNIT D/O (3) HEADING/TRACK LATERAL CONTROL KNOB The
+LATeral control knob can be pushed or pulled. It is spring-loaded to
+neutral. It can also be turned. The LAT window displays a value when HDG
+or TRK mode is active or when a HDG or TRK preset has been performed. It
+is dashed in all other cases. The light is on when a managed lateral
+mode is armed (e. g. NAV, RWY, LAND...)
+PULLED When pulled, HDG or TRK mode engages with a reference displayed
+on the FCU. The associated light is off. - if the LAT window was
+previously dashed, the value which appears is the present HDG or TRK, -
+if not, there is no change in the window.
+TURNED When turned, it changes the displayed HDG or TRK, - if a HDG or
+TRK was previously displayed, the selected reference is modified. - if
+the LAT window was previously dashed, the first click changes the dashes
+into the present A/C HDG or TRK. When turned more, the value changes. If
+the knob is not pulled within 45 seconds the display reverts to dashes.
+PUSHED When pushed, the navigation mode is armed. During the arming
+phase, the HDG or TRK is displayed until interception of the flight
+plan. Then, dashes will replace the HDG or TRK. During the arming and
+active phases, the light is on.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 106 of 142
+HEADING/TRACK LATERAL CONTROL KNOB - PULLED ... PUSHED
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 107 of 142
+FLIGHT CONTROL UNIT D/O (3) ALTITUDE SELECTOR KNOB The outer knob has 2
+selectable positions, 100 feet and 1000 feet. The inner knob sets the
+altitude in the FCU altitude window with increments depending on the
+outer knob position. The inner knob can be pushed or pulled and is
+spring-loaded to neutral. It can also be turned.
+PULLED When pulled, OPen CLlimB/DEScent or OPen DEScent mode engages if
+the displayed altitude is different from the present aircraft altitude.
+The LeVeL/CHange light is off. Aircraft immediately climbs or descends
+towards the selected altitude.
+TURNED When turned, the displayed altitude changes by thousands or
+hundreds feet, depending on the outer knob selection.
+PUSHED When pushed, CLB or DES mode engages if the displayed altitude on
+the FCU is different from the present aircraft altitude. The level
+change is managed and the LVL/CH light is on. NOTE: The ALT window
+always displays a target value selected by the crew. The window is never
+dashed.
+METRIC ALTITUDE P/B This METRIC ALT P/BSW is used to display the FCU
+altitude target in meter in the lower part of the lower ECAM display
+unit and optionally to display the selected and actual altitude on PFD.
+NOTE: The altitude target, on the FCU, is always in feet.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 108 of 142
+ALTITUDE SELECTOR KNOB &amp; METRIC ALTITUDE P/B
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 109 of 142
+FLIGHT CONTROL UNIT D/O (3) P/BSW changes the HDG-V/S into TRK-FPA on
+the center of the FCU and vice versa.
+VERTICAL SPEED/FLIGHT PATH ANGLE CONTROL KNOB The V/S FPA control knob
+can be pushed or pulled. It is spring-loaded to neutral. It can also be
+turned.
+NOTE: The FD symbols on the PFD changes and the Flight Path Vector (FPV)
+and the Flight Path Director (FPD) appears.
+PULLED When pulled, V/S or FPA mode engages with a reference displayed
+on the FCU. The level change light is off. If the associated window was
+previously dashed, the value which appears is the present V/S or FPA.
+The ranges are: - between -9.9 ° and +9.9 ° for FPA, - between -6000 and
++6000 feet per minute for V/S.
+TURNED When turned, it changes the displayed V/S or FPA. If the
+associated window was previously dashed, the first click changes the
+dashes into the present A/C V/S or FPA. When turned more, the value
+changes. If the knob is not pulled within 45 seconds, the display
+reverts to dashes.
+PUSHED Pushing the V/S FPA rotary knob will command an immediate level
+off by engaging the V/S FPA mode with a zero target as displayed in the
+FCU window. Flight Mode Annunciator (FMA) annunciation will turn to ALT
+green when levelled off. Any new setting of a V/S or FPA (selector
+turned) will lead to A/C movement accordingly.
+HEADING-V/S TRACK-FPA SWITCHING P/BSW This P/BSW allows selection of HDG
+and V/S or TRK and FPA modes. If any of the modes (HDG, V/S, TRK, and
+FPA) are active, pressing the P/BSW changes the mode(s) into the
+corresponding one(s). Pressing the
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 110 of 142
+VERTICAL SPEED/FLIGHT PATH ANGLE CONTROL KNOB &amp; HEADING-V/S TRACK-FPA
+SWITCHING P/BSW
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 111 of 142
+FLIGHT CONTROL UNIT D/O (3) AP1 &amp; 2 ENGAGEMENT P/BSW
+APPRAOCH ENGAGEMENT P/BSW
+The AP1 or 2 can be engaged five seconds after lift off, by pressing the
+related P/BSW. - pressed on: AP engagement is confirmed by the three
+green bars coming on, - pressed off: The related autopilot disengages.
+When pressed on, the APPRoach P/BSW arms the LANDing mode. - pressed on:
+Glide/Slope and LOCalizer modes are armed for capture and tracking if
+ILS is available, or APPR NAV/FINAL if ILS is not available, - pressed
+off: Above 400 ft, LAND or APPR NAV mode is disarmed or disengaged.
+A/THR ENGAGEMENT B/BSW When pressed on, the A/THR P/BSW manually engages
+the autothrust function, provided the aircraft is not on the ground with
+the engines running. - pressed on: A/THR engagement is confirmed by the
+three green bars coming on. NOTE: On ground, A/THR is automatically
+engaged when take-off is initiated with the thrust levers. - pressed
+off: The A/THR function disengages.
+EXPEDITE ENGAGEMENT P/BSW
+NOTE: Below 400 ft, LAND mode can only be disengaged by activating
+GO-AROUND.
+LOCALIZER ENGAGEMENT P/BSW When pressed on, the LOC P/BSW arms the LOC
+mode. - pressed on: LOC mode is generally used when the G/S is not
+available, - pressed off: - before capture, localizer mode is
+disarmed, - after capture, localizer mode is disengaged. In this case
+the HDG/TRK mode is engaged on the present aircraft heading/track.
+The EXPED mode can be engaged either to climb or descend, by pressing
+the EXPED P/BSW. - pressed on: The EXPED engagement is confirmed by the
+three green bars coming on. This function allows maximum climb or
+descent profile within the performance envelope of the aircraft. -
+disengagement is only possible by engagement of another longitudinal
+mode. NOTE: The EXPED function can be optionally deleted. In this case,
+the associated EXPED pushbutton is also removed.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 112 of 142
+AP1 &amp; 2 ENGAGEMENT P/BSW ... LOCALIZER ENGAGEMENT P/BSW
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 113 of 142
+FLIGHT MANAGEMENT PRIORITY LOGIC (3) mode operation
+fm operating modes There are three operating modes: NORMAL, INDEPENDENT
+and SINGLE. At Flight Management (FM) initialization, that means at
+power up, both FM parts exchange information. Initial cross-comparison
+is made on the following parameters: Navigation database identification,
+performance database identification, FM operational program
+identification, aircraft program pin data and engine program pin data.
+NORMAL MODE If the FM parts agree, normal mode is active. When keys are
+pressed, they are immediately processed by both FMs, regardless of the
+Multipurpose Control and Display Unit (MCDU) from which they originate.
+INDEPENDENT MODE If the FM parts disagree, a white message FMS1/FMS2 A/C
+STS DIFF is displayed on the MCDUs and the system then reverts to
+independent mode. Each FM part manages its own MCDU. A failure in the
+Flight Management and Guidance Computers (FMGCs) inter system buses
+results in an amber MCDU message INDEPENDENT OPERATION.
+SINGLE MODE If one FM part has failed, a single mode is active. Both
+MCDUs are driven by the remaining FM part. A white message OPP FMGC IN
+PROGRESS is displayed on the MCDU corresponding to the failed FMGC.
+NORMAL MODE In normal mode, the FM part receives the master/slave
+activation from the Flight Guidance (FG) part. The master computer
+imposes the following parameters upon the slave computer: - flight
+phase, - flight plan sequencing, - active performance mode and speeds, -
+clearance and maximum altitudes, - ILS frequencies and courses, if any.
+After a flight plan change, there is a comparison on the active leg and,
+every second, on the active performance mode and active guidance mode.
+If it is different, the slave computer will synchronize itself to the
+master computer by copying the master values. Also, aircraft position,
+Gross Weight (GW) and target speeds from master and slave computers are
+compared every second. If the difference is greater than 5 Nm, 2 tons or
+2 Kts respectively, an appropriate message is displayed on the MCDUs: -
+FMS1/FMS2 POS DIFF, - FMS1/FMS2 GW DIFF, - FMS1/FMS2 SPD TGT DIFF. Pilot
+action is then required.
+independent mode In independent mode, there is no interaction from one
+system to the other one. The FMGCs only send their status information to
+each other (e.g., in this case, the independent mode).
+SINGLE MODE In single mode, both MCDUs are driven by the same FM part,
+but they can still display different pages. Messages linked to the
+navigation process are displayed on both MCDUs.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 114 of 142
+mcdu As already presented in the FM OPERATING MODES topic, the MCDUs
+work differently. In normal mode, the MCDUs can be used simultaneously
+on different pages. Any modification or entry on one MCDU is sent to the
+other MCDU via the FMGC cross talk. In independent mode, both MCDUs
+operate separately. Although the cross talk is present, an entry on one
+MCDU is not applied to the other one. In single mode, both MCDUs
+basically work as in normal mode, but with the valid FMGC only.
+displays FM information is displayed on NDs and on PFDs. For FM
+information, in normal or independent modes, FMGC1 supplies PFD1 and
+ND1, FMGC2 supplies PFD2 and ND2. In single mode, the remaining FMGC
+supplies all the displays.
+radio navigation The schematic shows the architecture of the radio
+navigation receivers controlled by the FMGCs in normal or independent
+modes. For the selection of radio navigation frequencies and courses, in
+normal or independent modes, each FMGC controls its own side receivers
+through a Radio Management Panel (RMP). Only the actual frequencies and
+courses from the receivers are displayed on the PFDs and the NDs. In
+case of an FMGC failure, the valid FMGC controls its own side receivers
+as usual, through an RMP, but also the other side receivers, directly
+without going through a RMP. If both FMGCs fail, the crew must use the
+RMPs to select the frequencies and courses.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 115 of 142
+FM OPERATING MODES ... RADIO NAVIGATION
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 116 of 142
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 117 of 142
+FLIGHT PLANNING D/O (3) FLIGHT PLAN The flight plan is defined by
+various elements, which indicate the routes the aircraft must follow
+with the limitations along these routes. The elements are mainly taken
+from the database or directly entered by the pilot. The limitations are
+mainly speed, altitude or time constraints originated by the ATC. The
+function that integrates these elements and limitations to construct a
+flight plan is called flight planning. In addition to this, the Flight
+Management (FM) part gives the aircraft position and the follow-up of
+the flight plan, this is called navigation. Everything can be prepared
+prior to the take-off but can also be modified quickly and easily during
+the flight operation. In case of an FM problem, the remaining valid
+Flight Management and Guidance Computer (FMGC) is used as sole source to
+command both Multipurpose Control and Display Units (MCDUs) and NDs
+after automatic switching.
+NAVIGATION DATABASE The navigation database gives all necessary
+information for flight plan construction and follow-up. The pilot will
+either select an already assembled flight plan called COmpany ROUTE, or
+will build his own flight plan, using the existing database contents.
+This database has a tailored coverage, updated every 28 days. Some room
+is kept to allow manual entry of 20 NAVigation AIDS, 20 waypoints, 10
+runways and 3 company routes. NOTE: Optionally, aircraft are equipped
+with the second generation of Flight Management System (FMS2). The room
+kept allows manual entry of 20 NAVAIDS, 20 waypoints, 10 runways and 5
+company routes. The database cannot be erased. However and as an option,
+the manually entered data can be erased when the flight phase is over
+(i.e. aircraft on ground for 30 seconds). Two cycle database can be
+loaded and the selection is made automatically by using data from the
+aircraft clock or
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+manually. The database loading into either FMGC is done with the help of
+a Portable Data Loader (PDL) or via the Multipurpose Disk Drive Unit
+(MDDU) if installed. Then, the cross loading function allows database
+loading into the other FMGC through crosstalk busses.
+NAVIGATION The navigation process gives the system with current aircraft
+state information consisting of present position, altitude, winds, true
+airspeed and ground speed. This is achieved using inputs from the
+Inertial Reference Systems (IRS), air data sensors, GPS, navigation
+radios, Air Traffic Service Unit (ATSU) and Flight Augmentation Computer
+(FAC) flight envelope computation. Position can be updated manually
+during the flight or automatically, on the runway threshold at take-off
+for example.
+ACARS FUNCTION The FMS uses the Aircraft Communication Addressing and
+Reporting System (ACARS) function to exchange data between the ground
+station and the master FMGC via the ATSU. This interface makes the
+exchange of flight plan initialization, take-off, wind, and broadcast
+data and flight reports with the ground. Via the ACARS, the crew may
+send a request for wind data to the ground. In response to this request,
+or automatically, the ground sends climb, cruise, descent and alternate
+wind data to the aircraft.
+LATERAL FLIGHT PLAN The lateral flight plan gives the sequential track
+changes at each waypoint within 3 main sections. - DEPARTURE: initial
+fix (origin airport), Standard Instrument Departure (SID)... - EN ROUTE:
+waypoints, NAVAIDS...
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 118 of 142
+- ARRIVAL: Standard Terminal Arrival Route (STAR), approach, missed
+approach, go around... The lateral steering order can be followed by the
+pilot or the AP with the NAV mode selected.
+profiles. Fuel and time are the main actors in this particular part of
+the FM function and direct the airline choice.
+VERTICAL FLIGHT PLAN
+According to the pilot selection on the EFIS control panel of the FCU,
+the flight plan is shown in relation to the aircraft position on the
+ROSE-NAV or ARC modes. The aircraft model is fixed and the chart moves.
+The difference between the two modes is that the half range is available
+when the ND is set to ROSE-NAV mode, as there is only frontal view when
+it is set to ARC mode. In PLAN mode, the flight plan is shown, with
+NORTH at the top of the screen, centered on the TO waypoint. Depending
+on the selected range, the aircraft may or may not be visualized on this
+display. The plan display can be de-centered by scrolling the flight
+plan on the MCDU. The PFD shows the FM guidance following engagement of
+the AP/Flight Director (FD) lateral and longitudinal modes.
+The vertical flight plan gives an accurate flight path prediction, which
+requires a precise knowledge of current and forecast wind, temperature
+and the lateral flight path to be flown. The vertical flight plan is
+divided into several flight phases: - PREFLIGHT: fuel, weight and V2
+insertions, - TAKE-OFF: speed management, thrust reduction altitude,
+acceleration altitude, - CLIMB: speed limit, speed management, - CRUISE:
+top of climb, cruise altitude, top of descent, - DESCENT: speed limit,
+speed management, deceleration, - APPROACH/MISSED APPROACH/GO AROUND:
+thrust reduction altitude, acceleration altitude. The vertical steering
+order can be followed by the pilot or the AP. Any level change in the
+vertical profile is initiated after a pull or push action on the
+altitude selector knob on the Flight Control Unit (FCU), except for
+departure when the vertical profile is armed on ground and will
+automatically be active after take-off phase.
+DISPLAY
+PERFORMANCE The performance database contains optimal speed schedules
+for the expected range of operating conditions. Several performance
+modes are available to the operator with the primary one being the
+ECONomic mode. The ECON mode can be tailored to meet specific airline
+requirements using a selectable Cost Index (CI). A CI is defined as the
+ratio of cost of time to the cost of fuel. The Fuel Quantity and
+Indication Computers (FQICs) give the fuel quantity. The speed and the
+thrust values associated with a given CI are used to determine the climb
+and descent
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 119 of 142
+PERFORMANCE DATABASE OPTIMISATION (DPO) The DPO updates the Performance
+Database of the aircraft Flight Management System (FMS) to enable
+consistently more efficient descents by allowing the aircraft to remain
+in the cruise phase longer and removing the 'level-off' stage at the
+bottom of the descent, which reduces carbon emissions. In addition, the
+Continuous Descent Approach (CDA) works in tandem with DPO to reduce
+noise. The DPO function enables aircraft to use an optimum engine model
+to compute the profile of the descent, requesting less fuel when the
+engine is using idle thrust. In addition, it maximises the time spent at
+efficient cruise level by setting the top of descent later in the
+profile. Essentially what this means is that the aircraft stays at the
+higher cruise altitude and effectively descends under its own natural
+weight rather than flying a forced descent which is less fuel efficient
+BASIC FUNCTIONS Fuel Savings DPO reduces fuel consumption, resulting in
+proportional C02 and NOx reductions. Relaxing Idle Margin The level of
+Idle considered to compute the descent profile is reduced resulting in a
+less conservative slope Update engine performance model Using a more
+accurate engine model allows to compute a more realistic descent
+profile. The differences between managed and open descent are highly
+reduced.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+Airbus describe the new software as its "Descent Profile Optimisation"
+(DPO) function and this can be added to the FMC function software of all
+legacy A320 ceo aircraft worldwide The enhancement to the aircraft's
+on-board Flight Management System (FMS) performance database offers the
+ability to generate fuel savings and reduce CO2 emissions. Optimisation
+of an aircraft's flight trajectory is one of the key factors to further
+improve efficiency in cooperation with Air Traffic Control. The DPO
+function allows aircraft to descend from cruise altitude using only idle
+engine thrust, which reduces fuel consumption, resulting in proportional
+CO2 and NOx (nitrogen oxide emissions) reductions. To further enhance
+fuel reduction, DPO maximises the time spent at efficient cruise level
+-- by not starting the descent too early and subsequently minimising the
+amount of time spent at an inefficient 'leveloff' stage at the bottom of
+the descent -- when the aircraft's engines generate thrust to maintain
+level flight in dense air prior to final landing approach. When
+installed on the A320ceo aircraft, the DPO solution will help Airlines
+achieve fuel savings per aircraft, per year, enabling even more
+efficient operations particularly at constrained airports. In addition,
+DPO will help us reduce CO2 emissions by many tons per aircraft, per
+year, allowing Airlines to contribute towards more sustainable flight
+operations. DPO is one of the several flight operations optimisation
+solutions offered by Airbus and can be complemented by IDLE Factor
+Optimiser (IFO), a cloud based solution service offered by flight
+operations services subsidiary Navblue, to optimise aircraft
+performance. Together with improved Air Traffic Management, these fuel
+savings solutions enable operators in their decarbonisation journey.
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 120 of 142
+PERFORMANCE DATABASE OPTIMISATION (DPO)
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 121 of 142
+A320 Family A/C ﬁtted with updated FMGC 3G Overview:From around 2022
+Airbus has been offering the A320 series with enhanced FMGC software for
+a mixture of software based updates which can assist the crew to manage
+and control the aircraft.These can include:-
+SRS Control Law enhancement:This is a new flight control software to
+help avoid high pitch maneuvers during GO AROUND operations with the AP
+engaged. LAND Control Law enhancement:This software enhancement helps to
+avoid undue AP yaw orders and COM/MON monitoring which can be triggering
+during ﬂare with high crosswinds.
+FG standards PC 20 &amp; PI 18 introduce several enhancements, some of them
+being part of Safety Beyond Standards. These generally include Enhance
+autopilot robustness in case of FMS failure Enhance autopilot robustness
+in case of LGCIU failure Avoid excessive pitch during GO AROUND with AP
+engaged on A319 CEO TCAS Alert Prevention function (TCAP), which allows
+to avoid unnecessary TCAS resolution advisories when capturing ﬂight
+level Introduction of FMGC hardware pin-prog display on MCDU
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 122 of 142
+Introduction of FMS2 Release 1A Standard H2C (Honeywell) System
+Overview:Take off securing Baro Radio Setting:The following safety
+enhancements have been developed and introduced in the latest FMS2
+Release - 1A standard H2: These can include:Take Off Securing function
+(TOS1): To alert ﬂight crew of incorrect takeoff parameters.
+Baro radio settings: Whereby the MDA/MDH ﬁeld is replaced by BARO on the
+MCDU PERF APPR page DH ﬁeld replaced by RADIO. No proﬁle invalidation at
+MDA -50ft: Allows to remain with AP engaged in case of missed approach
+below minimum These can be embodied with SB A320-22-1523 - INSTALL FMGC
+H2CC14 HONEYWELL ON CFM powered A/C or SB A320-22-1547 - INSTALL FMGC
+H2CI15 HONEYWELL ON IAE powered A/C
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 123 of 142
+Introduction of FMS standards H3 &amp; H4 (Honeywell) Vertical guidance
+enhancement and new safety functions capability:There are many new
+status of FMGC software available and maintenance crew should be aware
+of the implication of some of these software standards and what they are
+and how they can impact crew operations. For aircraft ﬁtted with FMGC
+2G: The introduction of FMS H3 standard provides the following safety
+enhancements: Take-Off Surveillance 1 (TOS1) improvements and Take-Off
+Surveillance 2 (TOS2 improvements) FMS Landing System (FLS) and FINAL
+APP coexistence capability Cancellation of the temporary abnormal
+behavior 'Erroneous lateral guidance' in NAV mode with LOC mode armed
+during approach".For aircraft ﬁtted with FMGC 3G: The introduction of
+FMS H4 standard provides the following safety enhancements: Take-Off
+Surveillance 1 (TOS1) improvements. Take-Off Surveillance 2 (TOS2
+improvements.FMS Landing System (FLS) and FINAL APP coexistence
+capability. Satellite Landing System (SLS) CAT1 approach capability.
+Cancellation of temporary abnormal behavior 'Erroneous lateral guidance
+in NAV mode with LOC mode armed during approach'
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 124 of 142
+Introduction of FMS2 Release 1A Standard S7B (Thales) Incorrect FAC
+weight due to dashed CG on FUEL PRED page and Erroneous auto-tuning of
+the MLS:The following safety enhancement has been developed and
+introduced in FMS2 Release 1A standard S7B: It includes the correction
+of erroneous vertical proﬁle in ﬁnal approach covered by Flight
+Operations Transmissions (FOT) 999.0064/16. The correction of erroneous
+FLS deviation in QFE baro reference covered by AFM TR757 and
+LIM-AFS-10-00021676. Only for aircraft equipped with QFE capability (MOD
+20406) and FLS option (MOD 35811). The correction of default Center of
+Gravity (CG) value at engine start linked to red OEB 54,FOT 999.0034/17
+and FOT 999.0130/16. The correction of Wrong Microwave Landing System
+(MLS) / GBAS Landing System (GLS) auto-tuning linked to white Operations
+Engineering Bulletin (OEB) No. 49 and FOT 999.0077/15
+Introduction of FMS2 Release 2 Standard S8A (Thales) Take-Off
+Surveillance Landing system enhancement The following safety enhancement
+has been developed and introduced in FMS2 Release 1A standard S8A: TOS 1
+improvements TOS 2 function capability FLS and FINAL APP coexistence
+capability
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 125 of 142
+Go-around enhancement to Decrease crew workload during Go-around The
+"NAV mode in Go-around" function has been developed to reduce the crew.
+In case of Go-around, this enhancement enables the flight crew: - To
+keep the NAV mode engaged, or - To automatically arm the NAV mode that
+avoids pilot action on the HDG/TRK selector knob. This function may be
+activated via pin programming (Mod. 25612, 38399, 38670):
+Speed overshoot/undershoot prevention Speed overshoot or undershoot may
+occur when Automatic Flight System (AFS) experiences a perturbation
+(wind gradient, engine failure, etc). Activation of the Speed protection
+package (AP/FD speed protection, AP/FD engagement /disengagement
+conditions) is performed via pin programming. This function requires at
+least the FMGC FMS 2 (mandated by EASA AD 2016-0122 &amp; FAA AD 2017-20-10)
+and FCU standard M11.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 126 of 142
+Other General Modifications to Software include Enhancement of ROW/ROP
+functions to improve gross weight and VLS/S/F Green Dot speed
+computations with invalid FMS Data Installation of FAC B625 introduces
+the following safety enhancements: - Improvement of ROW/ROP stop bars
+computation in dry and wet conditions to avoid undue ROW/ROP
+activation. - In case of degraded GPS signal affecting VFOM (Vertical
+Figure Of Merit), the ROW/ROP function will remain available. -
+Improvement of FAC gross weight and VLS/S/F/Green dot speed computations
+in case of invalid FMS data.
+Enhancement of Characteristic Speeds Enhancement of ROW/ROP function
+Enhancement of aircraft attitude crew awareness Improvement of FAC gross
+weight and VLS/S/F/Green dot speed computations in case of invalid FMS
+data. Improvement of ROW/ROP function availability and accuracy. FAC and
+FMGC pin-programming status could only be checked by wiring continuity
+test with multimeter that led to maintenance mistakes during
+pin-programming modification. UAMM step1 does not allow flight crew to
+have an estimated air speed displayed on the PFD
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 127 of 142
+FLIGHT PLAN ... DISPLAY
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 128 of 142
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 129 of 142
+NAVIGATION BACK-UP D/O (OPTION) (3) GENERAL The MCDU BACK-UP NAV (B/UP
+NAV) must be used as a back-up system when both Flight Management (FM)
+parts have failed.The MCDU BACK-UP NAV (B/UP NAV) gives to the crew
+limited information, which can be used to complete the current flight.
+The MCDU B/UP NAV is activated through the "SELECT NAV B/UP" prompt on
+the MCDU MENU page. The B/UP NAV functions work independently and may be
+activated separately.
+FLIGHT PLANNING Before activation of the BACK-UP NAV function, a
+condensed form of the flight plan is transferred from the FM part to the
+MCDU. This downloading is updated in case of: - FM primary Flight Plan
+(F-PLN) changes, - FM lateral leg sequencing, - FM long power off, - FM
+source selector change, - FM resynchronization. Downloading includes
+waypoint position, waypoint identifier, leg type, discontinuity, overfly
+and turn direction information in a maximum of 150 legs. At BACK-UP NAV
+activation, a last updating is done and then any other updating is
+ignored. A reduced capability is given to the MCDU B/UP NAV function
+compared to the FM function.
+NAVIGATION The BACK-UP NAV function is based on Inertial Reference (IR)
+inputs from the ownside IR or IR3, which gives the position, ground
+speed, track, heading, altitude and wind. The selected IR depends on
+pilot selection, through the IR source selector, to be consistent with
+the current
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+displayed IR data on the related PFD and ND. The MCDU B/UP NAV gives,
+the crosstrack error and the bearing/distance/time to go to the active
+waypoint, depending on the aircraft latitude/longitude and on the active
+leg of the flight plan. It supplies the automatic leg change when the TO
+waypoint is reached. It is very important to note that all this data is
+only for display, there is no steering order issued by the MCDU, and the
+NAV mode cannot be engaged.
+ND DISPLAY The MCDU transmits the BACK-UP F-PLN to the NDs. It has
+active F-PLN vectors and waypoints related to the fixed aircraft
+position in ROSE or ARC modes, or to the moving aircraft reference in
+PLAN mode. In all cases, the flight plan line is dashed in green (as NAV
+mode cannot be engaged). Options selectable on the EFIS control panel
+are not allowed (AiRPorT, Non-Directional Beacon, VOR.D, WayPoinT,
+ConSTRaint).
+MCDU PAGE AVAILABILITY All flight-planning operations are directly
+applied through the B/UP F-PLN page. It displays each leg of the active
+route, giving position information for each waypoint, as well as
+computed course, time and distance for the connecting legs. The
+revisions, available on the B/UP F-PLN page, are: - waypoint
+insertion, - waypoint deletion, - discontinuity deletion, - overfly
+deletion/insertion. Pressing the DIR key enables the selection of a
+waypoint to join it directly. The B/UP F-PLN/DIR TO page is similar to
+the F-PLN page but line 1 is reserved for waypoint entry. Pressing the
+PROGress key gives navigation information. The B/UP PROG page displays
+the aircraft position with identification of the selected
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 130 of 142
+IR. It also gives ground speed, and active leg track with aircraft
+track. The top line displays the waypoint identifier and altitude at the
+last sequenced waypoint, also called overhead (OVHD). The bottom line
+enables access to the B/UP IRS pages. The B/UP IRS pages correspond to
+IR1 or 2, function of MCDU1 or 2, and IR3. IR provides, for display
+information about position, the true track, the true and magnetic
+headings, the ground speed and the wind.
+DEACTIVATION Backup Navigation is deactivated upon one of the following
+events: - The Deselect NAV B/UP prompt is pushed on the MCDU MENU page -
+The following condition becomes true: onside FM is Healtly and offside
+FM is failed - The FM subsystem is selected via its menu text prompt on
+the MENU page. When Backup navigation is not available, no Select NAV
+B/UP nor Deselect NAV B/UP prompt is displayed. The field is blank. Upon
+Backup Nav deactivation, the Backup Nav functions are disabled and the
+FM is given back control of the Nav Display.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 131 of 142
+GENERAL ... DEACTIVATION
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 132 of 142
+AUTO FLIGHT SYSTEM OPERATION, CONTROL &amp; INDICATING (3) FMGC FAILURE
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 133 of 142
+FMGS WARNINGS (3) GENERAL
+NOTE:
+All warnings in this lesson are generated by Flight Warning Computer
+(FWC) logics, except for some cases, which are indicated.
+BOTH FD'S FAILURE
+NOTE: - the phases of the flight phase inhibition schematic are FWC
+phases not Flight Management (FM) phases, - the status page is obtained
+by pressing CLeaR or STatuS keys of the ECAM control panel. It does not
+appear automatically after warning activation.
+In case of non-engagement or disengagement of both Flight Directors
+(FDs) not due to an action on the FD P/BSWs, a red FD flag appears on
+both PFDs. The FD failure can be internal or due to peripherals. This
+warning is not generated by the FWC but by a Display Management Computer
+(DMC) logic. The red FD flag on a given PFD is inhibited when the
+corresponding FD P/BSW, located on the EFIS control panel of the Flight
+Control Unit (FCU), is off.
+AP OFF The AP loss warning is divided into two cases. First, when the AP
+loss is due to an action on a take over P/BSW. The second case is when
+the AP loss is due to another reason than an action on a take over
+P/BSW.
+ACTION ON TAKE OVER PUSHBUTTON The visual and associated audio warnings
+are temporary: - the red MASTER WARNing light flashes for 3 s, - the red
+AP OFF message is displayed for 9 s, - the cavalry charge aural warning
+sounds for 1.5 s. Pressing the MASTER WARN P/BSW or a second action on
+the take over P/BSW immediately cancels the MASTER WARN flashing and the
+red AP OFF message; the cavalry charge is cancelled only after 0.5 s. An
+AP re-engagement cancels everything at once.
+OTHER REASON If the two APs are engaged and just one is lost, the
+warning is not triggered. An action on the MASTER WARN P/BSW or on the
+take over P/B cancels the MASTER WARN flashing and the red AUTO FLT AP
+OFF message; the cavalry charge is cancelled only after 1.5 s. A
+successful re-engagement of the AP cancels everything at once.
+Either AP1+2 or AP1 or AP2 is displayed on the status page.
+FCU 1+2 FAULT In case of FCU 1 and FCU 2 fault, the MASTER CAUTion comes
+on; the aural warning sounds and the failure is shown amber on the
+displays. NOTE: The STATUS messages are never inhibited.
+FCU 1(2) FAULT In case of FCU 1 or FCU 2 fault, the related amber
+indication appears on the displays. NOTE: The STATUS messages are never
+inhibited.
+A/THR OFF The A/THR loss warning is divided into two cases. First, when
+the loss is due to an action on an instinctive disconnect P/BSW or to a
+thrust levers setting on idle performed above 50 ft. The second case is
+when the loss of the A/THR function is due to any other reason.
+PILOT ACTION The warnings are temporary:
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 134 of 142
+- the amber MASTER CAUT light goes off after 3 s, - the amber A/THR OFF
+message disappears after 9 s. The MASTER CAUT light and the amber A/THR
+OFF message are cancelled by an action on the MASTER CAUT P/BSW or on an
+instinctive disconnect P/BSW or by an A/THR re-engagement. NOTE:
+The amber message: A/THR OFF displayed on the EWD is not inhibited by
+any flight phase.
+OTHER REASON The MASTER CAUT light and the amber AUTO FLT A/THR OFF
+message are cancelled by an action on the MASTER CAUT P/BSW or on an
+instinctive disconnect P/B or by an A/THR re-engagement. NOTE:
+This warning is not triggered when the thrust levers are set on idle
+below 50 ft. As the A/THR is OFF and the engine thrust is locked, the
+thrust levers have to be moved. If the thrust levers are not moved
+within 5 seconds, an additional repetitive warning is triggered every 5
+seconds.
+A/THR LIMITED When the A/THR is active and the thrust levers are below
+the CLimb detent, the MASTER CAUT comes on and a repetitive warning is
+triggered every 5 seconds until the levers are put back in this detent.
+In case of one engine out, the same principle applies except that the
+Maximum Continuous Thrust (MCT) detent replaces the CL detent.
+AUTOLAND The AUTOLAND red warning tells the pilot that, depending on the
+procedures, he has to do a go-around or a manual landing. This warning
+can only be activated in LANDing mode with at least one AP engaged. The
+AUTOLAND red warning is triggered in the following cases: - both APs OFF
+below 200 ft RA,
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+-   When following ILS beams, in case of a LOCalizer excessive deviation
+    (1/4 dot above 15 ft RA) or GLIDE excessive deviation (1 dot above
+    100 ft RA). LOC and GLIDE scales flash on the PFD,
+-   loss of LOC signal above 15 ft or loss of GLIDE signal above 100 ft.
+    The FD bars flash on the PFD. The LAND mode remains engaged. A
+    triple click aural warning is generated in the event of landing
+    capacity downgrading. The warning is cancelled by LOC mode or AP
+    disengagement or by doing a go-around. NOTE: A warning test can be
+    done by pressing the captain or the first officer AUTOLAND P/BSW.
+CAPACITY CHANGE The warning corresponding to a landing capacity
+downgrading is an aural warning and messages on the status page. This
+flight phase inhibition just concerns the triple click aural warning. It
+is triggered when there is a downgrading of landing capacity or when the
+LAND mode is disarmed or disengaged. Messages on the status page can
+always be displayed except when the system is in LAND mode (armed or
+active) and except in phase 1 or 10. NOTE: In LAND mode, the landing
+category is displayed on the Flight Mode Annunciator (FMA) of the PFD.
+ALTITUDE ALERT The altitude alert takes into account the difference
+between the aircraft altitude and the reference altitude selected on the
+FCU. It has an effect on the altitude window of the PFD and can trigger
+the C-chord aural warning. The altitude alert is inhibited by Glide
+Slope (G/S) capture and canceled by turning the FCU altitude knob, or by
+setting the landing gear lever to DOWN with slats extended or when the
+landing gear is downlocked.
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 135 of 142
+ALTITUDE ALERT
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 136 of 142
+This Page Intentionally Left Blank
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 137 of 142
+FMGS WARNINGS (3) DECISION HEIGHT This warning corresponds to an audio
+call out by a synthetic voice, depending on the aircraft radio altitude
+and the Decision Height (DH). "HUNDRED ABOVE" and/or "MINIMUM" warnings
+can be inhibited by pin programming.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 138 of 142
+DECISION HEIGHT
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 139 of 142
+FMGS WARNINGS (3) MCDU FAILURE When a Multipurpose Control and Display
+Unit (MCDU) fails, an amber FAIL annunciator comes on, on this MCDU.
+This warning is not generated by the FWC but by the MCDU itself.
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 140 of 142
+MCDU FAILURE
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 141 of 142
+Training Manual Airbus A318/319/ A320/A321 (CFM56 &amp; V2500)
+END
+Airbus A318/A319/A320/A321 (CFM56 / V2500)
+CATTS Ltd
+Issue: 012 - Revision 01 - Dated 01/01/2025 Page 142 of 142</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
