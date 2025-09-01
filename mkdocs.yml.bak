@@ -1,0 +1,71 @@
+site_name: A320 Knowledge Base
+theme:
+  name: readthedocs
+
+nav:
+  - A320_Base:
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/23
+      - : A320_Base/
+      - : A320_Base/25
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/33
+      - : A320_Base/34
+      - : A320_Base/35
+      - : A320_Base/36
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/49
+      - : A320_Base/51-57
+      - : A320_Base/52
+      - : A320_Base/
+      - : A320_Base/
+      - : A320_Base/Airbus
+      - : A320_Base/
+  - A320_Neo_LEAP:
+      - : A320_Neo_LEAP/
+      - : A320_Neo_LEAP/23
+      - : A320_Neo_LEAP/
+      - : A320_Neo_LEAP/
+      - : A320_Neo_LEAP/
+      - : A320_Neo_LEAP/
+      - : A320_Neo_LEAP/
+      - : A320_Neo_LEAP/
+      - : A320_Neo_LEAP/
+      - : A320_Neo_LEAP/
+      - : A320_Neo_LEAP/
+  - A320_Neo_PW1100:
+      - : A320_Neo_PW1100/
+      - : A320_Neo_PW1100/23
+      - : A320_Neo_PW1100/
+      - : A320_Neo_PW1100/
+      - : A320_Neo_PW1100/
+      - : A320_Neo_PW1100/
+      - : A320_Neo_PW1100/
+      - : A320_Neo_PW1100/
+      - : A320_Neo_PW1100/
+  - Home: docs/index.md
+  - A320 Base:
+      - Overview: docs/A320_Base/index.md
+      - file1: docs/A320_Base/file1.md
+      - file2: docs/A320_Base/file2.md
+  - A320 Neo:
+      - Overview: docs/A320_Neo/index.md
+      - file1: docs/A320_Neo/file1.md
+      - file2: docs/A320_Neo/file2.md
+
+plugins:
+  - search
+

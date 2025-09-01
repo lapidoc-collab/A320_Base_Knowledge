@@ -1,2691 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>51-57 STRUCTURE - A320 Base Knowledge</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script> 
-    </head>
-
-    <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="..">A320 Base Knowledge</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../02%20AIRCRAFT%20INTRODUCTION/" class="nav-link">02 AIRCRAFT INTRODUCTION</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../05%20-20%20INTRODUCTION%20MODULE/" class="nav-link">05 -20 INTRODUCTION MODULE</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../21%20AIR%20CONDITIONING/" class="nav-link">21 AIR CONDITIONING</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../22%20AUTO%20FLIGHT/" class="nav-link">22 AUTO FLIGHT</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../23%20COMMUNICATIONS/" class="nav-link">23 COMMUNICATIONS</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../24%20ELECTRICAL%20POWER/" class="nav-link">24 ELECTRICAL POWER</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../25%20EQUIPMENT_FURNISHINGS/" class="nav-link">25 EQUIPMENT FURNISHINGS</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../26%20FIRE%20PROTECTION/" class="nav-link">26 FIRE PROTECTION</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../27a%20E-RUDDER%20PROJECT/" class="nav-link">27a E-RUDDER PROJECT</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../27%20FLIGHT%20CONTROLS/" class="nav-link">27 FLIGHT CONTROLS</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../28%20FUEL%20%28Metric%20Units%29/" class="nav-link">28 FUEL (Metric Units)</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../29%20HYDRAULIC%20POWER/" class="nav-link">29 HYDRAULIC POWER</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../30%20ICE%20%26%20RAIN%20PROTECTION/" class="nav-link">30 ICE & RAIN PROTECTION</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../31%20INDICATING%20%28Inc%20ATA%2045%20-%20CFDS%29/" class="nav-link">31 INDICATING (Inc ATA 45 - CFDS)</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../31%20RECORDING%20SYSTEMS/" class="nav-link">31 RECORDING SYSTEMS</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../32%20LANDING%20GEAR/" class="nav-link">32 LANDING GEAR</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../33%20LIGHTS/" class="nav-link">33 LIGHTS</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../34%20NAVIGATION/" class="nav-link">34 NAVIGATION</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../35%20OXYGEN/" class="nav-link">35 OXYGEN</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../36%20PNEUMATIC/" class="nav-link">36 PNEUMATIC</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../38%20WATER%20%26%20WASTE/" class="nav-link">38 WATER & WASTE</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../46%20INFORMATION%20SYSTEMS/" class="nav-link">46 INFORMATION SYSTEMS</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../47%20INERT%20GAS%20SYSTEM/" class="nav-link">47 INERT GAS SYSTEM</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../49%20APU/" class="nav-link">49 APU</a>
-                            </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">51-57 STRUCTURE</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../52%20DOORS/" class="nav-link">52 DOORS</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../70%20POWER%20PLANT%20%28CFM%2056%29/" class="nav-link">70 POWER PLANT (CFM 56)</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../70%20POWER%20PLANT%20%28IAE%20V2500%29/" class="nav-link">70 POWER PLANT (IAE V2500)</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../Airbus%20Abbreviations/" class="nav-link">Airbus Abbreviations</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../IAE%20V2500%20-%20Engine%20Manufacturers%20Notes/" class="nav-link">IAE V2500 - Engine Manufacturers Notes</a>
-                            </li>
-                            <li class="navitem">
-                                <a href=".." class="nav-link">index</a>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../49%20APU/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../52%20DOORS/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
-
-    
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
-        <ul class="nav flex-column">
-        </ul>
-    </div>
-</div></div>
-                    <div class="col-md-9" role="main">
-
-<p>Airbus A318/A319/A320/A321 (CFM56 &amp; V2500) B1+B2 Technical Training
-Manual
-ATA 51&gt;57 Airframe Structures
-Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
-www.catts.org.uk Online Training: catts.learnupon.com/store
-TRAINING MATERIAL DECLARATION These lecture notes are compiled by Civil
-Aviation Technical Training Solutions Ltd (CATTS Ltd). Although
-comprehensive in their detail, they are only intended for use with a
-theoretical course of instruction and do not constitute a training
-programme in their own right. When issued they are as up to date as
-possible however, amendments will NOT be forwarded. THEY ARE FOR STUDY
-PURPOSES ONLY AND MUST NOT BE USED FOR OPERATIONS OR MAINTENANCE
-Click here to visit our new online training portal for HF, SFAR, EWIS
-and many more. Contact us Tel: +44(0) 1565 653745 Email:
-admin@catts.org.uk Web: www.catts.org.uk Online Training:
-catts.learnupon.com/store
-ATA Chapters Required in this Training Manual AIRFRAME STRUCTURES ATA 51
-Standard Practices and Structures (damage classification, assessment and
-repair)
-ATA 53
-Fuselage
-ATA 54
-Nacelles/Pylons
-ATA 55
-Stabilisers
-ATA 56
-Windows
-ATA 57
-Wings
-ATA 27a
-Flight Control Surfaces (All)
-ATA 52
-Doors
-ZONAL
-Zonal &amp; Stations ID Systems * (Covered during section in ATA 53
-delivery)
-Contact us Tel: +44(0) 1565 653745 Email: admin@catts.org.uk Web:
-www.catts.org.uk Online Training: catts.learnupon.com/store
-Training Ma Manual Airbus A318/319/ A320/A321 (CFM56 &amp; V2500) ATA 51-57
-Airframe Structure Level 3
-FOR TRAINING PURPOSES ONLY
-STRUCTURE Structural Breakdown and Zoning (3) . . . . . . . . . . . . .
-. . . . . . . . . . . . 2 Doors D/O (3) . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . . . . . . . . . . . . 26 Fuselage D/O
-(3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-. . . . . . 42 A318 Fuselage D/O (3) . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . . 80 Pylons/Nacelles D/O (3) . . . . . .
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . 116 Stabilizers
-D/O (3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-. . . . . . 130 A318 Stabilizers D/O (3) . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . . 164 Windows D/O (3) . . . . . . . . .
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 198 Wings
-D/O (3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . 212 SRM D/O (3) . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . . . . . . . . 262
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 5 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) REFERENCE AXES The structure
-elements are installed according to the following reference axes. The X
-axis in the longitudinal direction of the fuselage, the Y axis in the
-direction of the wing span and the Z axis in the vertical direction. The
-cross section P presents a typical fuselage section at frame 47. NOTE:
-Note: The reference (station 0) for all structural measurements for the
-X axis is set at 100 in (254 cm) forward of the A/C nose.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 6 of 300
-FOR TRAINING PURPOSES ONLY
-REFERENCE AXES
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 7 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) ATA CHAPTERS The A/C structure is
-divided according to the ATA 100 specifications.
-SECTION NUMBERS Each major part of the A/C receives a section number.
-The fuselage section base number is 10. The fuselage is divided into
-various sections for manufacturing reasons.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 8 of 300
-FOR TRAINING PURPOSES ONLY
-ATA CHAPTERS &amp; SECTION NUMBERS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 9 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) SECTION NUMBERS (continued) WING AND
-TAIL PLANE The general wing section base number is 20. The general tail
-plane section base number is 30.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 10 of 300
-FOR TRAINING PURPOSES ONLY
-SECTION NUMBERS - WING AND TAIL PLANE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 11 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) SECTION NUMBERS (continued) ENGINE,
-LANDING GEAR AND BELLY FAIRING The engine section base number is 40. The
-L/G section base number is 50. The general belly fairing section base
-number is 60.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 12 of 300
-FOR TRAINING PURPOSES ONLY
-SECTION NUMBERS - ENGINE, LANDING GEAR AND BELLY FAIRING
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 13 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) STATION NUMBERS FUSELAGE The STAtion
-number is the distance in centimeters of a cross-section from a
-reference point. The station/frame numbers shown agree with the section
-boundaries.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 14 of 300
-FOR TRAINING PURPOSES ONLY
-STATION NUMBERS - FUSELAGE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 15 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) STATION NUMBERS (continued) VERTICAL
-STABILIZER For the vertical stabilizer the reference station is Z=0 at
-the vertical Z-axis. Due to the fin tip extension, the A318 station
-numbers have changed. The new additional rib 12N is on the STA597.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 16 of 300
-FOR TRAINING PURPOSES ONLY
-STATION NUMBERS - VERTICAL STABILIZER
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 17 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) STATION NUMBERS (continued)
-HORIZONTAL STABILIZER, ENGINE AND WING For the horizontal stabilizer the
-reference station is y=0 at the A/C Y axis. For the wings, the reference
-station is the wing reference axis (WY). WY is located at 1868 mm (73.54
-in) from the A/C X axis. For the engines, station numbers are different
-depending on the version.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 18 of 300
-FOR TRAINING PURPOSES ONLY
-STATION NUMBERS - HORIZONTAL STABILIZER, ENGINE AND WING
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 19 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) ZONES NUMBERS There are 8 major
-zones for the A/C. Each major zone is identified by the first digit of a
-three digits number. The even numbers identify the zones on the RH side
-of the A/C, while odd numbers identify the zones on the LH side of the
-A/C. The sub-zone 320 identifies the vertical stabilizer.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 20 of 300
-FOR TRAINING PURPOSES ONLY
-ZONES NUMBERS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 21 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) ZONES NUMBERS (continued) WING
-(UPPER SURFACE) AND HORIZONTAL STABILIZER The 500 numbers identify the
-LH wing zones, while the 600 numbers identify the RH wing zones. The
-sub-zones 330 and 340 identify the LH and RH side of the horizontal
-stabilizer.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 22 of 300
-FOR TRAINING PURPOSES ONLY
-ZONES NUMBERS - WING (UPPER SURFACE) AND HORIZONTAL STABILIZER
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 23 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) ZONES NUMBERS (continued) WING
-(LOWER SURFACE), BELLY FAIRING AND LANDING GEAR The sub-zone 710
-identifies the NLG. The sub-zones 730 and 740 identify the LH and RH
-MLG. The sub-zone 190 indicates the belly fairing. 734 and 744 are the
-MLG door zone numbers. Access doors and panels are identified by the
-number of the zone in which the panel is installed followed by a two
-letter suffix. These two letters are used to indicate the doors and
-panels. The first letter indicates which access door or panel it is,
-starting from the reference axis (A=first, B=second, ..., G=seventh,
-etc...). The second letter indicates the access door or panel
-location: - T=top (upper) surface, - B=bottom (lower) surface, - R=right
-side, - L=left side, - Z=internal, - F=floor panel, - W=sidewall
-panel, - C=ceiling panel. Here is an example of access panels on the
-left wing lower surface.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 24 of 300
-FOR TRAINING PURPOSES ONLY
-ZONES NUMBERS - WING (LOWER SURFACE), BELLY FAIRING AND LANDING GEAR
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 25 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) ZONES NUMBERS (continued) NACELLE,
-PYLON, ENGINE The difference between the LH and RH pylon and nacelle is
-made with the ten digits of the zone number 400. The difference between
-the LH side and RH side is identified by the last digit (Tens digit: odd
-for he left and even for the right). Within one engine, an odd zone
-number indicates the LH side and an even zone number indicates the RH
-side of the engine.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 26 of 300
-FOR TRAINING PURPOSES ONLY
-ZONES NUMBERS - NACELLE, PYLON, ENGINE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 27 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL BREAKDOWN AND ZONING (3) ZONES NUMBERS (continued) DOOR The
-major zone 800 identifies the doors.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 28 of 300
-FOR TRAINING PURPOSES ONLY
-ZONES NUMBERS - DOOR
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 29 of 300
-FOR TRAINING PURPOSES ONLY
-DOORS D/O (3) GENERAL The fuselage has: - 4 passenger/crew doors, - 2 or
-4, emergency exits depending on the A/C type or option, - 2 cargo
-compartment doors, - 1 bulk cargo compartment door (A320 &amp; A321 only), -
-landing gear bay doors and access doors for servicing and maintenance.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 30 of 300
-FOR TRAINING PURPOSES ONLY
-GENERAL
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 31 of 300
-FOR TRAINING PURPOSES ONLY
-DOORS D/O (3) PASSENGER COMPARTMENT DOORS PASSENGER/CREW DOOR The
-aircraft has four type C passenger doors, located on each side of the
-fuselage at frame (Fr) 16/20 and 66/68. Normal operation of the door is
-possible from the inside and the outside of the aircraft. Arming of the
-emergency operation is only possible from inside. The doors are of
-fail-safe, plug-type construction. The structure is of conventional
-design, composed of an outer skin, frame segments and beams. Edge
-members built a surrounding frame on which hinge fittings and locking
-mechanisms are installed. The loads resulting from cabin pressure are
-transferred by stop fittings located on each side of the door and the
-frame. All the doors include an evacuation system. The escape slides or
-slide / rafts are stowed at the lower part of the passenger/crew door.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 32 of 300
-FOR TRAINING PURPOSES ONLY
-PASSENGER COMPARTMENT DOORS - PASSENGER/CREW DOOR
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 33 of 300
-FOR TRAINING PURPOSES ONLY
-DOORS D/O (3) PASSENGER COMPARTMENT DOORS (continued) EMERGENCY EXIT
-DOORS On A318 and A319 aircraft are two Type III overwing emergency
-exits installed, one on each side of the fuselage. The A320 aircraft has
-four Type III overwing emergency exit doors, two on each side of the
-fuselage. In an emergency, these exits can be opened manually. These
-emergency exits are of conventional plug type construction and contain a
-standard size passenger cabin window. The A321 aircraft has four Type
-"C" emergency exits, one on each side of the fuselage sections 14A and
-16A, between Fr 35.1 and 35.3A and between Fr 47.2A and 47.4. The
-structural design and operation of these plug-type exits is similar to
-the passenger doors. In an emergency, these exits can be opened
-manually; they are operated like the passenger doors. These emergency
-exits are of conventional plug-type construction. A slide (or
-slide/raft) is installed in a compartment below each door.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 34 of 300
-FOR TRAINING PURPOSES ONLY
-PASSENGER COMPARTMENT DOORS - EMERGENCY EXIT DOORS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 35 of 300
-FOR TRAINING PURPOSES ONLY
-DOORS D/O (3) CARGO COMPARTMENT DOORS FWD &amp; AFT CARGO DOORS Two doors in
-the lower RH side of the fuselage provide access to the main cargo
-compartments. These doors are designed to carry loads from differential
-pressure and circumferential loads of the frames from the fuselage. With
-this consideration, they are of conventional design and have: - an outer
-and inner skins, - an internal structure of drop-forged machined
-circumferential frames. The upper ends of these frames are connected to
-the hinges for the door, and the lower ends are attachment for the
-locking hooks. The A318 cargo doors cutout is reduced by 534 mm (one
-frame pitch).
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 36 of 300
-FOR TRAINING PURPOSES ONLY
-CARGO COMPARTMENT DOORS - FWD &amp; AFT CARGO DOORS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 37 of 300
-FOR TRAINING PURPOSES ONLY
-DOORS D/O (3) CARGO COMPARTMENT DOORS (continued) BULK CARGO DOOR (A320
-&amp; A321 ONLY) The bulk cargo compartment, at the rear, has a conventional
-plug-type door, located between Fr 60 and 62. The door is operated,
-locked and unlocked manually and can be opened from the outside. It is
-opened by pushing inward and upward and is locked in the open position
-onto the ceiling of the compartment. (In this compartment, nets are
-provided to maintain the clearance for the door opening). The weight of
-the door is compensated by a torsion bar. The door is connected to the
-door locking warning system.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 38 of 300
-FOR TRAINING PURPOSES ONLY
-CARGO COMPARTMENT DOORS - BULK CARGO DOOR (A320 &amp; A321 ONLY)
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 39 of 300
-FOR TRAINING PURPOSES ONLY
-DOORS D/O (3) ACCESS &amp; SERVICE DOORS The access doors are installed in
-the aircraft for inspection of the structure and to give access to
-maintenance. Service doors are installed in the fuselage to give access
-to the servicing of systems. All access and service doors are opened and
-closed manually. Access and service doors are illustrated as follows: -
-Avionics compartment door: there are four avionic compartment doors like
-the one illustrated. This avionics compartment access door is installed
-in the lower shell of the fuselage between Fr 3 and Fr 5 in a
-pressurized area. The door can be opened from the inside or the
-outside. - APU doors: The APU access doors are installed in the fuselage
-tail cone in Zone 310. These doors are located in the lower part of the
-fuselage between Fr 80A and Fr 84A. The doors give you access to the APU
-for maintenance. There are also access and service doors -
-not-illustrated: These doors are located in the fuselage and belly
-fairing for water, waste, external power and maintenance.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 40 of 300
-FOR TRAINING PURPOSES ONLY
-ACCESS &amp; SERVICE DOORS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 41 of 300
-FOR TRAINING PURPOSES ONLY
-DOORS D/O (3) LANDING GEAR DOORS NOSE LANDING GEAR (NLG) DOORS Landing
-gear doors give protection to the landing gear when the aircraft is in
-flight. The nose and auxiliary landing gear doors have five parts: - two
-forward doors, hydraulically actuated, which can be closed with the gear
-in the extended or retracted position. These doors are made from CFRP
-(Carbon Fiber Reinforced Plastic) sandwich materials with a honeycomb
-core. They are hinged to the landing gear bay longitudinal edges. - two
-aft doors, linked to the gear by a rotating rod, which are made from
-CFRP sandwich materials with an honeycomb core. The purpose of these
-doors hinged to the landing gear bay rear lateral edge, is to allow the
-forward doors to be retracted when the gear is extended. - one small
-door (fixed door) attached to the landing gear leg is made from aluminum
-alloy.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 42 of 300
-FOR TRAINING PURPOSES ONLY
-LANDING GEAR DOORS - NOSE LANDING GEAR (NLG) DOORS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 43 of 300
-FOR TRAINING PURPOSES ONLY
-DOORS D/O (3) LANDING GEAR DOORS (continued) MAIN LANDING GEAR (MLG)
-DOORS The main landing gear doors are made from CFRP sandwich materials
-with a honeycomb core, and have three parts: - a main door,
-hydraulically actuated, which is hinged to the fuselage keel beam
-parallel to the aircraft center line and can be closed with the gear in
-the extended or retracted position, - a fairing attached to the gear leg
-(fixed fairing door), - a small door hinged to the wing structure in the
-neighborhood of the upper end of the main leg (hinged fairing door). All
-doors are part of the fuselage belly fairing and wing lower surface in
-closed position.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 44 of 300
-FOR TRAINING PURPOSES ONLY
-LANDING GEAR DOORS - MAIN LANDING GEAR (MLG) DOORS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 45 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) GENERAL FUSELAGE LAYOUT The fuselage is divided into
-five main parts: - the nose forward fuselage (ATA 53-10-00), - the
-forward fuselage (ATA 53-20-00), - the center fuselage (ATA 53-30-00), -
-the rear fuselage (ATA 53-40-00), - and the cone/rear fuselage (ATA
-53-50-00).
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 46 of 300
-FOR TRAINING PURPOSES ONLY
-GENERAL - FUSELAGE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 47 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) GENERAL (continued) FUSELAGE BREAKDOWN Compared with
-the A320, the A321 forward fuselage is eight frame bays longer
-(additional section 14A, extending between frames (Fr) 35 and 35.8). The
-A321 rear fuselage is five frame bays longer (additional section 16A,
-extending between Fr 47 and Fr 47.5. Compared with the A320, the A319
-forward fuselage (section 13/14) and the rear fuselage (section 16/17)
-are respectively three frame bays and four frame bays shorter. To fulfil
-an optional request of cabin capacity of at least 160 passengers on
-A319, a second emergency exit is installed, both side, in section 15.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 48 of 300
-FOR TRAINING PURPOSES ONLY
-GENERAL - FUSELAGE BREAKDOWN
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 49 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) NOSE FORWARD FUSELAGE GENERAL ARRANGEMENT The nose
-forward fuselage includes section 11, between Fr 1 and Fr 12, and
-section 12, from Fr 12 to Fr 24. The pressurized zone extends from Fr 1
-to Fr 24. The unpressurized zones are the radome, forward of Fr 1 and
-the nose landing gear bay. The structure of the nose forward fuselage
-has three parts: - the forward upper structure, between Fr 1 and 11,
-which makes the flight deck, - the aft upper structure, between Fr 12
-and 24, which makes the forward part of the passenger cabin, - the lower
-structure between Fr 1 and 24.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 50 of 300
-FOR TRAINING PURPOSES ONLY
-NOSE FORWARD FUSELAGE - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 51 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) NOSE FORWARD FUSELAGE (continued) FORWARD &amp; AFT UPPER
-STRUCTURES The forward upper structure between Fr 1 and Fr 12
-includes: - closed frames, - opened frames at level of openings for
-windshield and side windows, - the forward pressure bulkhead, - the
-flight deck floor support structure including two lateral boxes, - the
-skin panels and the windshield frames, The skin panels just above and
-below the windshield are made of titanium alloy for bird impact
-requirements. The aft upper structure, between Fr 12 and Fr 24, is the
-forward passenger compartment and contains: - the forward passenger/crew
-door between Fr 16 and 20, - conventional assembly of skin, stringers
-and frames, - the floor support structure.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 52 of 300
-FOR TRAINING PURPOSES ONLY
-NOSE FORWARD FUSELAGE - FORWARD &amp; AFT UPPER STRUCTURES
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 53 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) NOSE FORWARD FUSELAGE (continued) LOWER STRUCTURE This
-part of section 11/12 contains the nose landing gear bay, access and
-service door cutouts. The nose landing gear bay is shaped by three
-machined panels reinforced by horizontal and vertical extruded sections
-attached to the corresponding frames. The lower parts of Fr 9 and Fr 20
-are the forward and rear limits of the gear bay. The lower fuselage
-comprises three skin panels. The central panel has an opening for access
-between Fr 3 and 5 and the opening for the nose landing gear bay between
-Fr 9 and 20. The right hand side panel has two openings for access,
-between Fr 12 and 14 and Fr 21 and 23.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 54 of 300
-FOR TRAINING PURPOSES ONLY
-NOSE FORWARD FUSELAGE - LOWER STRUCTURE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 55 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) FORWARD FUSELAGE GENERAL ARRANGEMENT This area of the
-fuselage lies between Fr 24 and Fr 35. It contains the front part of the
-passenger cabin and beneath the cabin floor and the forward cargo
-compartment. The forward cargo door is on the starboard side. The A321
-section 14A extends from Fr 35 to Fr 35.8. Section 14A is of similar
-construction to section 13/14 but includes the emergency exit cut-outs
-(one on each side of the fuselage) between Fr 35.1 and Fr 35.2A.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 56 of 300
-FOR TRAINING PURPOSES ONLY
-FORWARD FUSELAGE - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 57 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) FORWARD FUSELAGE (continued) TYPICAL STRUCTURE This
-section is of conventional construction mainly composed of chemically
-milled skin panels, frames made from sheet metal and extruded stringer
-profiles. The standard frames have a common Z-shaped section made from
-formed sheet, which provides a continuous structural member attached to
-the skin and stringers by means of sheet metal cleats. The structure of
-the cabin floor has: - cross beams, - seat tracks, - floor support
-struts, - floor panels.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 58 of 300
-FOR TRAINING PURPOSES ONLY
-FORWARD FUSELAGE - TYPICAL STRUCTURE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 59 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) FORWARD FUSELAGE (continued) LONGITUDINAL SKIN JOINTS
-The longitudinal joints are generally longitudinal lap joints with three
-rivet - row joints. As the skin is, in most areas, 1.6 thick, it is
-reinforced by bonded doubler straps of at least 0.6 mm to allow
-countersunk riveting. For chemical milled skins the maximum thickness is
-at least 2.2 mm in the joint areas. In addition, at each intersection of
-frames and lap joints, a 1 mm titanium alloy strap has been added to
-provide good damage tolerance capabilities.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 60 of 300
-FOR TRAINING PURPOSES ONLY
-FORWARD FUSELAGE - LONGITUDINAL SKIN JOINTS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 61 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) FORWARD FUSELAGE (continued) CIRCUMFERENTIAL SKIN
-JOINTS At the typical joints the skin panels are connected by a
-circumferential strap and three rivet rows. The stringers are coupled by
-joint pieces. In the region of the circumferential joints all stringers
-are riveted to the skin.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 62 of 300
-FOR TRAINING PURPOSES ONLY
-FORWARD FUSELAGE - CIRCUMFERENTIAL SKIN JOINTS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 63 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) CENTER FUSELAGE GENERAL ARRANGEMENT The fuselage center
-section (section 15) extends from Fr 35 to Fr 47 for A320, from Fr 35.8
-to Fr 47 for A321 and from Fr 35 to Fr 47/51 for A319. The upper section
-includes part of the passenger compartment. The passenger floor
-structure is made of longitudinal beams, seat and support tracks,
-support struts and floor panels. The lower section is non-pressurized
-and integrates: - the center wing box which extends across the width of
-the fuselage. The two main frames 36 and 42 are also part of the center
-wing box, - the main landing gear bay between Fr 42 and Fr 46, - the
-keel beam which keeps the longitudinal structural continuity of the
-lower fuselage, - the belly fairing supporting structure, panels and
-doors.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 64 of 300
-FOR TRAINING PURPOSES ONLY
-CENTER FUSELAGE - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 65 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) CENTER FUSELAGE (continued) KEEL BEAM The longitudinal
-structural continuity of the lower fuselage in this area is maintained
-by the keel beam. This beam is an aluminum alloy box structure,
-including skins, stringers and ribs, and provides attachments for the
-main landing gear doors and door actuators. In its center area, the keel
-beam side walls are connected to the wing-box aft lower panel.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 66 of 300
-FOR TRAINING PURPOSES ONLY
-CENTER FUSELAGE - KEEL BEAM
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 67 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) CENTER FUSELAGE (continued) BELLY FAIRING The belly
-fairing includes a substructure made of aluminum alloy frames and webs
-which are attached to the fuselage via fittings and rods. This
-substructure supports the panels made of composite materials. The belly
-fairing also includes the landing gear doors, external access panels and
-access doors for maintenance.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 68 of 300
-FOR TRAINING PURPOSES ONLY
-CENTER FUSELAGE - BELLY FAIRING
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 69 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) REAR FUSELAGE - A319 &amp; A320 GENERAL ARRANGEMENT The
-rear fuselage assembly is a pressurized area, which extends from Fr 47
-to Fr 70. The A319 and A320 rear fuselage is divided into two sections
-(the A321 has an additional section 16A): - section 16/17 between Fr 47
-and Fr 64, - section 18 between Fr 64 and Fr 70. Section 16/17 is
-shorter by four frames than on the A320. The upper part of the fuselage
-contains the aft section of the passenger cabin and the aft
-passenger/crew doors located between Fr 66 and Fr 68. The lower part
-contains the aft cargo compartment. The aft cargo compartment door is
-installed between Fr 52A and Fr 56 (RH side); the bulk cargo compartment
-door is installed between Fr 60 and Fr 62 (RH side). The design of
-section 16/17 is similar to that of forward fuselage sections (typical
-skin, stringer and frame arrangement). Skin panels of the lower area
-have support attachment structures for the belly fairing rear part.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 70 of 300
-FOR TRAINING PURPOSES ONLY
-REAR FUSELAGE - A319 &amp; A320 GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 71 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) REAR FUSELAGE - A321 GENERAL ARRANGEMENT The A321 rear
-fuselage assembly is a pressurized area, which extends from Fr 47 to Fr
-70. The A321 rear fuselage is divided into three sections: - section
-16/17 and 18 which are similar to the A320, - section 16A, The section
-16A includes the passenger cabin part in the upper section, and beneath
-the cabin floor, the forward part of the rear cargo compartment. The
-section 16A is of similar construction to section 16/17 but includes the
-emergency exit cut-outs (one on each side of the fuselage) between Fr
-47.2A and Fr 47.4.The slide is installed in a separate compartment below
-each door.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 72 of 300
-FOR TRAINING PURPOSES ONLY
-REAR FUSELAGE - A321 GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 73 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) CONE/REAR FUSELAGE GENERAL ARRANGEMENT This section
-comprises the un-pressurized part of the rear fuselage extending from Fr
-70 to Fr 87. It includes: - the mounting structures for the vertical and
-horizontal stabilizers, - the rear pressure bulkhead, - a support pad
-used during jacking operations, - attachment structure for the tail
-cone, which houses the Auxiliary Power Unit (APU). It is divided into
-two main sections: - section 19 between Fr 70 and Fr 77, - section
-19.1(tail cone) aft of Fr 77. Section 19 is composed of chemically
-milled skins, riveted stringers and frames. The side skin panels include
-the horizontal stabilizer cut-out. The lower panel has an access door
-for this section where a maintenance floor is installed.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 74 of 300
-FOR TRAINING PURPOSES ONLY
-CONE/REAR FUSELAGE - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 75 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) CONE/REAR FUSELAGE (continued) REAR PRESSURE BULKHEAD
-The rear pressure bulkhead installed at Fr 70, divides the pressurized
-rear fuselage from the cone/rear fuselage, which is not pressurized. It
-is made of a spherical membrane, and four aluminum alloy sheet segments
-joined together on the inner surface by means of four "I" profile
-sections. Four additional "I" profile radial stiffeners are also
-installed.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 76 of 300
-FOR TRAINING PURPOSES ONLY
-CONE/REAR FUSELAGE - REAR PRESSURE BULKHEAD
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 77 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) CONE/REAR FUSELAGE (continued) VERTICAL STABILIZER
-ATTACHMENT FITTINGS The vertical stabilizer spar box attachment fittings
-are located at Fr 70, Fr 72 and Fr 74. They have six fail safe yokes,
-which transmit the vertical and longitudinal stabilizer loads into the
-fuselage frames via shear bolts. Transversal loads are transmitted via
-rods between stabilizer and attachment fittings. The frame 70 is fully
-machined, the upper segments of frames 72 and 74 are machined from
-plates while the lower segments are made from sheet metal.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 78 of 300
-FOR TRAINING PURPOSES ONLY
-CONE/REAR FUSELAGE - VERTICAL STABILIZER ATTACHMENT FITTINGS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 79 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) CONE/REAR FUSELAGE (continued) THS ATTACHMENT FITTINGS
-The fuselage area between Fr 73 and Fr 77 houses the horizontal
-stabilizer. There is a large cut-out between Fr 73 and Fr 77, which is
-surrounded by machined beams. A system of diagonal struts is installed
-on the horizontal and vertical plane in the upper and lower areas of the
-cutout to increase the rigidity of this open section. The machined frame
-77 supports the tailplane hinge bearings and the lateral load fittings.
-They introduce horizontal stabilizer loads into the fuselage structure,
-via the central bracing structure and the upper and lower bracing
-structures. Frame 77 also includes four lugs for the attachment of the
-tail cone unit.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 80 of 300
-FOR TRAINING PURPOSES ONLY
-CONE/REAR FUSELAGE - THS ATTACHMENT FITTINGS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 81 of 300
-FOR TRAINING PURPOSES ONLY
-FUSELAGE D/O (3) CONE/REAR FUSELAGE (continued) TAIL CONE The tail cone
-unit is located aft of Fr 77 and houses the APU. This section is
-connected to section 19 by means of four lugs and one spigot. The inner
-skins and forward wall of the APU compartment are made from titanium
-alloy to create a fire containment compartment.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 82 of 300
-FOR TRAINING PURPOSES ONLY
-CONE/REAR FUSELAGE - TAIL CONE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 83 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) GENERAL FUSELAGE LAYOUT The fuselage is divided
-into five main parts: the nose forward fuselage (section 11/12), the
-forward fuselage (section 13/14), the center fuselage (section 15/21),
-the rear fuselage (sections 16/17 and 18) and the cone/rear fuselage
-(section 19/19.1).
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 84 of 300
-FOR TRAINING PURPOSES ONLY
-GENERAL - FUSELAGE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 85 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) GENERAL (continued) FRAME/SKIN/STRINGER ASSEMBLY
-Standard frames have a common z-shape section made from formed sheet.
-These frames are continuous structural members attached to the skin and
-stringers by sheet metal cleats. A panel with laser beam welded
-stringers has been introduced: - in section 13, between frames (Fr) 24
-and 35, from stringer (Stgr) 18LH to Stgr 32LH, - in section 16/17,
-between Fr 47/54 and 64, from Stgr 32LH to Stgr 41RH.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 86 of 300
-FOR TRAINING PURPOSES ONLY
-GENERAL - FRAME/SKIN/STRINGER ASSEMBLY
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 87 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) NOSE FORWARD FUSELAGE GENERAL ARRANGEMENT The nose
-forward fuselage has section 11, from Fr 1 to Fr 12 and section 12, from
-Fr 12 to Fr 24. The pressurized area extends from Fr 1 to Fr 24. The
-unpressurized areas are the radome, forward of Fr 1, and the nose
-landing gear bay.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 88 of 300
-FOR TRAINING PURPOSES ONLY
-NOSE FORWARD FUSELAGE - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 89 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) NOSE FORWARD FUSELAGE (continued) UPPER STRUCTURE
-The upper structure between Fr 1 and Fr 12 has closed frames and opened
-frames at level of openings for: - the windshield and side windows, -
-the forward pressure bulkhead, - the flight deck floor support
-structure, - skin panels and windshield frames. The upper structure
-between Fr 12 and Fr 24 makes the forward passenger compartment and
-contains the two forward passenger/crew doors.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 90 of 300
-FOR TRAINING PURPOSES ONLY
-NOSE FORWARD FUSELAGE - UPPER STRUCTURE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 91 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) NOSE FORWARD FUSELAGE (continued) LOWER STRUCTURE
-This part of section 11/12 contains the nose landing gear bay, access
-and service door cutouts. The nose landing gear bay is made of machined
-flat panels stabilized laterally and longitudinally by struts. The
-struts are attached respectively to frames and flight deck crossbeams.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 92 of 300
-FOR TRAINING PURPOSES ONLY
-NOSE FORWARD FUSELAGE - LOWER STRUCTURE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 93 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) FORWARD FUSELAGE GENERAL ARRANGEMENT This region
-of the fuselage lies between Fr 24 and 35. It contains the front part of
-the passenger cabin and, beneath the cabin floor, the forward cargo
-compartment. The forward cargo door is located between Fr 24A and 28 on
-the RH side of the fuselage.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 94 of 300
-FOR TRAINING PURPOSES ONLY
-FORWARD FUSELAGE - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 95 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) FORWARD FUSELAGE (continued) TYPICAL STRUCTURE
-This section is of conventional construction, having chemically milled
-skin panels, frames and stringers made from sheet metal. The standard
-frames have a common Z-shaped section made from formed sheet. They are
-continuous structural members attached to the skin and stringers by
-sheet metal cleats. A skin panel with laser beam welded stringer is
-installed between Fr 24A and 35, and between Stgr 18LH and 32LH.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 96 of 300
-FOR TRAINING PURPOSES ONLY
-FORWARD FUSELAGE - TYPICAL STRUCTURE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 97 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) FORWARD FUSELAGE (continued) LONGITUDINAL SKIN
-JOINTS The longitudinal joints are generally longitudinal lap joints
-with three rivet - row joints. As the skin is, in most areas, 1.6 thick,
-it is reinforced by bonded doubler straps of at least 0.6 mm to allow
-countersunk riveting. For chemical milled skins the maximum thickness is
-at least 2.2 mm in the joint areas. In addition, at each intersection of
-frames and lap joints, a 1 mm titanium alloy strap has been added to
-provide good damage tolerance capabilities.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 98 of 300
-FOR TRAINING PURPOSES ONLY
-FORWARD FUSELAGE - LONGITUDINAL SKIN JOINTS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 99 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) FORWARD FUSELAGE (continued) CIRCUMFERENTIAL SKIN
-JOINTS At the typical joints the skin panels are connected by a
-circumferential strap and three rivet rows. The stringers are coupled by
-joint pieces. In the region of the circumferential joints all stringers
-are riveted to the skin.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 100 of 300
-FOR TRAINING PURPOSES ONLY
-FORWARD FUSELAGE - CIRCUMFERENTIAL SKIN JOINTS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 101 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) CENTER FUSELAGE GENERAL ARRANGEMENT The fuselage
-center section extends from Fr 35 to Fr 47/54, and integrates the center
-wing box. The upper section contains a part of the passenger
-compartment, with two overwing emergency exit door cutouts. The pressure
-boundary is delimited by the forward bulkhead at Fr 35, the upper skin
-panel of the center wing box prolonged by a pressure diaphragm up to
-frame 46 and ending by an inclined pressure bulkhead. Beneath the cabin
-floor are the air conditioning, hydraulic and main landing gears, in
-conjunction with a belly fairing.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 102 of 300
-FOR TRAINING PURPOSES ONLY
-CENTER FUSELAGE - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 103 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) CENTER FUSELAGE (continued) KEEL BEAM In this
-area, the longitudinal structural continuity of the lower fuselage is
-maintained by a keel beam located between Fr 35 and 46. The keel beam
-transmits the overall fuselage vertical bending loads. This beam is a
-box structure having attachments for the main landing gear doors and
-door actuators. In its center region, the keel beam side walls are
-connected to the bottom skin panels of the center wing box.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 104 of 300
-FOR TRAINING PURPOSES ONLY
-CENTER FUSELAGE - KEEL BEAM
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 105 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) CENTER FUSELAGE (continued) BELLY FAIRING The
-belly fairing has a substructure made of aluminum alloy frames and webs,
-attached to the fuselage via fittings and rods. This substructure
-supports the panels, made of sandwich construction. The belly fairing
-also incorporates the landing gear doors, external access panels and
-access doors for maintenance.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 106 of 300
-FOR TRAINING PURPOSES ONLY
-CENTER FUSELAGE - BELLY FAIRING
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 107 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) REAR FUSELAGE - GENERAL ARRANGEMENT The rear
-fuselage assembly is a pressurized area, which extends from Fr 47/54 to
-Fr 70. It is divided into two sections: - section 16/17 between Fr 47/54
-and 64, - section 18 between Fr 64 and 70. The design of section 16/17
-is similar to that of forward fuselage sections. Skin panels of the
-lower region have support attachment structures for the belly fairing
-rear part. The aft cargo door cutout is located between Fr 57A and 60 on
-the RH side of the fuselage. Aft passenger door cutouts are located
-between Fr 66 and 68.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 108 of 300
-FOR TRAINING PURPOSES ONLY
-REAR FUSELAGE - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 109 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) CONE/REAR FUSELAGE GENERAL ARRANGEMENT This
-section is the unpressurized part of the rear fuselage, aft of Fr 70. It
-has the mounting structure for vertical and horizontal stabilizers and
-houses the Auxiliary Power Unit (APU). It is divided into two main
-sections: - section 19 between Fr 70 and 77, - section 19.1 (tail cone)
-aft of Fr 77. Section 19 has chemically milled skins, riveted stringers
-and frames. Side skin panels have the horizontal stabilizer cutout. The
-lower panel has a door, which gives access to this section where a
-maintenance floor is installed.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 110 of 300
-FOR TRAINING PURPOSES ONLY
-CONE/REAR FUSELAGE - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 111 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) CONE/REAR FUSELAGE (continued) REAR PRESSURE
-BULKHEAD The Fr 70 supports the rear pressure bulkhead, designed as a
-pressure diaphragm. It is made of aluminum alloy. The bulkhead is
-attached to the inside of the fuselage with a connecting strap, made of
-aluminum alloy.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 112 of 300
-FOR TRAINING PURPOSES ONLY
-CONE/REAR FUSELAGE - REAR PRESSURE BULKHEAD
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 113 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) CONE/REAR FUSELAGE (continued) VERTICAL STABILIZER
-ATTACHMENT FITTINGS The vertical stabilizer spar box attachment fittings
-are three pairs of fail safe yokes, made from forging aluminum alloy.
-They transmit the fin loads into the fuselage frames and are located at
-Fr 70, 72 and 74. The frame 70 is fully machined, the upper segments at
-Fr 70 and 72 are made of integrally machined plates.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 114 of 300
-FOR TRAINING PURPOSES ONLY
-CONE/REAR FUSELAGE - VERTICAL STABILIZER ATTACHMENT FITTINGS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 115 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) CONE/REAR FUSELAGE (continued) THS ATTACHMENT
-FITTINGS To house the Trimmable Horizontal Stabilizer (THS), there is a
-large cutout in the fuselage between Fr 74 and 77. Frame 77 is made of
-integrally machined plates and carries the THS bearing loads with the
-vertical link fittings. The side loads are carried through an eye bolt,
-linked to: - the side load fitting on the rear spar of the THS, - and
-oblique struts attached to the lower and upper areas of Fr 77.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 116 of 300
-FOR TRAINING PURPOSES ONLY
-CONE/REAR FUSELAGE - THS ATTACHMENT FITTINGS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 117 of 300
-FOR TRAINING PURPOSES ONLY
-A318 FUSELAGE D/O (3) CONE/REAR FUSELAGE (continued) TAIL CONE The tail
-cone unit is located aft of Fr 77 and houses the Auxiliary Power Unit
-(APU). This section is connected to section 19 by means of four lugs and
-one spigot.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 118 of 300
-FOR TRAINING PURPOSES ONLY
-CONE/REAR FUSELAGE - TAIL CONE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 119 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS/NACELLES D/O (3) GENERAL The function of the engine pylons
-installed under each wing is: - to support the engine, - to transmit the
-engine thrust to the aircraft, - to enable the routing and attachment of
-all the systems connected with the engine (electrical wiring, hydraulic,
-bleed air and fuel lines). The nacelle gives the engine an aerodynamic
-shape and supports the thrust reverser system. Information concerning
-structure of the nacelle can be found within the nacelle manufacturer
-documentation.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 120 of 300
-FOR TRAINING PURPOSES ONLY
-GENERAL
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 121 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS/NACELLES D/O (3) PYLONS - GENERAL ARRANGEMENT The pylon has: - a
-primary structure attached to the wing and supporting the engine, - a
-secondary structure, essentially fairings, housing most of the systems.
-The hinge fittings of the fan cowl doors are installed on the forward
-fairing (secondary structure). The hinge fittings of thrust reverser
-doors are installed on the pylon box, and another hinge (tie bar) goes
-through the secondary structure.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 122 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 123 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS/NACELLES D/O (3) PYLONS PRIMARY STRUCTURE - PYLON BOX GENERAL
-ARRANGEMENT The pylon box is the primary structure. It supports the
-engine by two points and is attached to the wing at three points.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 124 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS PRIMARY STRUCTURE - PYLON BOX - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 125 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS/NACELLES D/O (3) PYLONS PRIMARY STRUCTURE - PYLON BOX (continued)
-MAIN ASSEMBLY The pylon box is composed of ribs, two upper spars and one
-lower spar, and panels mainly made from steel and titanium alloys.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 126 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS PRIMARY STRUCTURE - PYLON BOX - MAIN ASSEMBLY
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 127 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS/NACELLES D/O (3) PYLONS PRIMARY STRUCTURE - PYLON BOX (continued)
-PYLON TO WING ATTACHMENT The forward pylon to wing attach fitting has a
-double lugged fork attachments connected to the wing fitting by means of
-four shackles. This fitting located at Rib 4 is made of titanium alloy
-and carries vertical loads. The aft pylon to wing attach fitting has a
-single fail safe lug connected to the wing fitting by means of two
-shackles. This fitting located at Rib 10 is made of titanium alloy and
-carries vertical and side loads. Immediately behind the forward attach
-fitting a spherical bearing transmits the thrust to a spigot bolted to
-the bottom wing skin panel.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 128 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS PRIMARY STRUCTURE - PYLON BOX - PYLON TO WING ATTACHMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 129 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS/NACELLES D/O (3) PYLONS PRIMARY STRUCTURE - PYLON BOX (continued)
-PYLON TO ENGINE ATTACHMENT At The forward engine to pylon attach fitting
-there is a pyramid attached to the rib and made of steel alloy. This
-fitting transmits the engine thrust, side loads and vertical loads. At
-The aft engine to pylon attach fitting there is an engine mount located
-at Rib 3 for CFM 56-5 engine configuration or at Rib 4 for IAE V2500
-engine configuration. This fitting reacts to vertical loads, side loads
-and roll movement.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 130 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS PRIMARY STRUCTURE - PYLON BOX - PYLON TO ENGINE ATTACHMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 131 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS/NACELLES D/O (3) PYLONS SECONDARY STRUCTURE GENERAL ARRANGEMENT
-The secondary structure is composed of: - the forward fairing, - the
-pylon to wing center fillets, - the aft fairing, - the lower fairing.
-The forward fairing can be divided into two sections; the cantilever
-structure between Rib 01 and Rib 05, and the structure between Rib 05
-and Rib 9. The cantilever structure has an aerodynamic contour between
-the engine nose cowl and the pylon box structure. It routes all systems
-and the bleed air from the engine to the fuselage. The structure between
-Rib 05 and Rib 9 has an aerodynamic contour between the cantilever
-structure and the wing leading edge, and enables the routing of various
-system lines and electrical wiring. It includes in particular two
-pressure relief doors (made from titanium), which are designed to open
-in case of hot bleed air duct bursting. The structure is mainly made of
-stainless steel alloy. The pylon to wing center fillets give an
-aerodynamic contour between the pylon box and the wing bottom skin
-panel. The pylon-to-wing center fillets are made of aluminum alloy ribs.
-These ribs support the panels made of Carbon Fiber Reinforced Plastic
-(CFRP) and Aramid Fiber Reinforced Plastic (AFRP) sandwich construction.
-The aft fairing is a removable secondary structure composed of two
-parts: - a fixed fairing installed at the rear of the pylon box, - a
-movable fairing underneath the flap. The fixed fairing is attached by
-two points to the pylon box at Rib 10 and by one point to the wing box
-at the false rear spar.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-The fixed fairing is an assembling of ribs and skin panels made of
-aluminum alloy, and includes a lower aft fairing made in inconel. The
-movable fairing is hinged at Rib 14 and linked to the flap by a rod
-attached to the fairing by a serrated plate system. The internal
-structure of the movable fairing is mainly made of aluminum alloy. The
-side panels are made from AFRP sandwich construction and the tail cone
-is made from AFRP or CFRP monolithic construction. A fairing installed
-under the pylon box (lower fairing) makes sure that there is a
-continuity of the aerodynamic profile between the pylon box and the
-engine nozzle. Its function is: - to supply thermal protection to the
-pylon from the engine exhaust gases, - to smooth out protrusions with
-minimal aerodynamic drag changes. The lower fairing structure is mainly
-made of aluminum alloy, stainless steel and inconel alloys.
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 132 of 300
-FOR TRAINING PURPOSES ONLY
-PYLONS SECONDARY STRUCTURE - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 133 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) STABILIZERS - GENERAL ARRANGEMENT Stabilizers are
-composed of: Trimmable Horizontal Stabilizer (THS), elevators, the
-vertical stabilizer and rudder.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 134 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 135 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS) GENERAL
-ARRANGEMENT The THS main structure has: - the spar boxes (Center, Left
-Hand (LH) and Right Hand (RH) sides), - the leading edge, - the trailing
-edge, - the attachment fittings. The spar boxes are the primary
-structure of the horizontal stabilizer and support all the other
-components.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 136 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 137 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS) (continued)
-SPAR BOXES The complete spar box assembly has the LH and RH boxes and
-the center joint. Each spar box includes top and bottom skin panels, a
-front spar, a rear spar and thirteen ribs (from Rib 2 thru Rib 14). The
-LH and RH spar boxes are laminated in Carbon Fiber Reinforced Plastic
-(CFRP). The center joint is made from titanium and connects the LH and
-RH spar boxes to make one single unit.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 138 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - SPAR BOXES
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 139 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS) (continued)
-MAIN SUPPORT FITTINGS A hydromechanical actuator enables the adjustment
-of the angle of incidence of the THS. The actuator is connected to a
-dual fitting (front spar fitting) at the forward end of Rib 1, by means
-of ball nut and a jack crew. The THS is attached to the cone rear
-fuselage structure at two pivot points (rear support fittings). They are
-installed on each side of the THS at Rib 3. All fittings are made of
-CFRP.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 140 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - MAIN SUPPORT FITTINGS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 141 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS) (continued)
-ELEVATOR ATTACHMENT FITTINGS Each rear spar bears six elevator hinge
-arms and two fittings for the attachment of the elevator servocontrol
-actuators.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 142 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - ELEVATOR ATTACHMENT FITTINGS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 143 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS) (continued)
-LEADING EDGE The leading edge has an aerodynamic shape at the front of
-the THS. On each side of the THS centerline, the THS leading edge
-includes: - three leading edge primary ribs, - one inboard leading edge
-section, - one outboard leading edge section and, - one leading edge
-intersection. All components are laminated in CFRP. The front part of
-the inboard and outboard leading edges stretch from Rib 1 to Rib 25 of
-the leading edge structure. Each section has a stainless steel
-protection, bonded to the leading edge. The leading edge intersection is
-attached to Rib 1 of the leading edge substructure and to the spar box.
-A rubber strip is attached to the intersection. It seals the gap between
-the fuselage skin and the leading edge intersection.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 144 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - LEADING EDGE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 145 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS) (continued)
-TIP The tips of the THS are the LH and RH outer fairings. The tips are
-made of aluminum alloy and include rib and skin panels. The tips are
-attached to the leading edge rib 25 and to the upper and lower shells of
-the spar box.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 146 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - TIP
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 147 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS) (continued)
-TRAILING EDGE The trailing edge shapes an aerodynamic surface between
-the THS spar box and the elevator. On each side of the THS centerline,
-the trailing edge panels are supported by nine intermediate ribs, and by
-six hinge elevator arm supports. The access panels are laminated in CFRP
-bonded to a honeycomb core. On each side there are four panel assemblies
-on the top surface and four access panels on the bottom surface. A
-rubber seal is installed between the panel assemblies and the access
-panels along the trailing edges to prevent dirtiness.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 148 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - TRAILING EDGE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 149 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) ELEVATORS - STRUCTURE LAYOUT The structure of each
-elevator includes: - a front spar, - top and bottom skin panels, - four
-ribs. All components are laminated in CFRP; the top and bottom panels
-are made in sandwich construction. The outboard closing rib and the tip
-are made from aluminum alloy, like the actuator and hinge attachment
-fittings. Rivets attach an aluminum profile to the trailing edge to act
-as lightning strike protection. Six hinge fittings attach each elevator
-to the spar box of the THS. Two fittings attach the servo control units.
-You can remove the tips and the inboard end caps. Each elevator has
-three hoisting points and four static dischargers.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 150 of 300
-FOR TRAINING PURPOSES ONLY
-ELEVATORS - STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 151 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) VERTICAL STABILIZER GENERAL ARRANGEMENT The vertical
-stabilizer is attached to the top of the rear fuselage. It supports the
-rudder, which is operated by three servo control units. The High
-Frequency (HF) antenna and the Very high frequency Omnibearing Range
-(VOR) antenna are also attached to it. The main components of the
-vertical stabilizer are: - the spar box, - the leading edge, - the
-trailing edge, - the tip, - the attach fittings.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 152 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 153 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) VERTICAL STABILIZER (continued) SPAR BOX - STRUCTURE
-LAYOUT The spar box is the primary structural component of the vertical
-stabilizer. All the other components of the vertical stabilizer are
-attached to it. The spar box has a front, a center and a rear spar, ribs
-and two side panels with co-bonded stringers, all laminated in CFRP.
-Three pairs of main attach fittings made of CFRP attach the spar box to
-the fuselage.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 154 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - SPAR BOX - STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 155 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) VERTICAL STABILIZER (continued) SPAR BOX - STRUCTURE
-LAYOUT (CONT'D) The seven rudder hinge arms and the three actuator hinge
-fittings are made from aluminum alloy and are attached to the spar box
-rear spar.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 156 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - SPAR BOX - STRUCTURE LAYOUT (CONT'D)
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 157 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) VERTICAL STABILIZER (continued) LEADING EDGE The
-vertical stabilizer leading edge has three removable sections. They are
-attached to the forward edge of the spar box side panels and to the
-leading edge ribs. The lower section gives access to the HF antenna (see
-ATA 53 fuselage description for the lower section). The three sections
-give an aerodynamic shape to the front of the vertical stabilizer. The
-three sections are laminated in Glass Fiber Reinforced Plastic (GFRP)
-bonded to a honeycomb core. A stainless steel cover can be bonded to the
-most forward part of the leading edge to prevent erosion damage.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 158 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - LEADING EDGE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 159 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) VERTICAL STABILIZER (continued) TIP - STRUCTURE
-LAYOUT The vertical stabilizer tip is laminated in GFRP bonded to a
-honeycomb core. It is attached to the leading edge end rib and the
-stabilizer spar box. An aluminum lightning strike protection strap is
-bonded along the top of the tip.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 160 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - TIP - STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 161 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) VERTICAL STABILIZER (continued) TRAILING EDGE The
-trailing edge components are attached to the rear spar of the vertical
-stabilizer. The supporting structure is made from aluminium alloy
-fittings, hinge arms and four access panels on each side. The panels
-give access to the rudder servo control actuators and the hinge arms.
-The panels are laminated in CFRP and GFRP bonded to a honeycomb core.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 162 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - TRAILING EDGE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 163 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) RUDDER GENERAL ARRANGEMENT The rudder is one of the
-primary flight controls of the aircraft. The components of the rudder
-are: - the main structure, - the leading edge, - the tip, - the hinge
-and actuator fittings.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 164 of 300
-FOR TRAINING PURPOSES ONLY
-RUDDER - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 165 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS D/O (3) RUDDER (continued) STRUCTURE LAYOUT The rudder main
-structure is the primary structural component of the rudder. It is an
-assembly of two CFRP sandwich panels, CFRP laminates front spar, top and
-bottom closing ribs. An access panel, installed on the left hand side
-shell, gives access to the No. 7 rudder hinge fittings. At the other
-locations, cutouts in the side shells give access to the adjacent hinge
-fittings. Three actuators and seven rudder hinge fittings are attached
-to the forward face of the rudder main structure, and rivets attach them
-to the spar and to the skin panels.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 166 of 300
-FOR TRAINING PURPOSES ONLY
-RUDDER - STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 167 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) STABILIZERS GENERAL ARRANGEMENT Stabilizers are
-composed of the Trimmable Horizontal Stabilizer (THS), the elevators,
-the vertical stabilizer and the rudder.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 168 of 300
-FOR TRAINING PURPOSES ONLY
-STABILIZERS - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 169 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS) GENERAL
-ARRANGEMENT The THS main structure has the LH and RH side spar boxes,
-the leading edge, the trailing edge, the THS tip and the attachment
-fittings. The spar boxes are the primary structure of the horizontal
-stabilizer and support all the other components.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 170 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 171 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS)
-(continued) SPAR BOXES The complete spar box assembly has the LH and RH
-spar boxes joined together with a center joint to make one single unit.
-Each spar box includes top and bottom skin panels, a front spar, a rear
-spar and thirteen ribs (from Rib 2 to Rib 14), all parts being laminated
-in Carbon Fiber Reinforced Plastic (CFRP). The center joint includes a
-web (Rib 1) made of CFRP and upper and lower fittings made of titanium.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 172 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - SPAR BOXES
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 173 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS)
-(continued) MAIN SUPPORT FITTINGS The front spar joint at Rib 1 made of
-CFRP supports the trim actuator hinge arms. The THS is attached to the
-cone/rear fuselage at Rib 3. On each spar box side, the attachment
-fittings include a THS rear support fitting of fail safe design with a
-lower and upper support fittings, and a side load fitting. All fittings
-are made of CFRP except the side load fitting made of aluminum alloy.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 174 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - MAIN SUPPORT FITTINGS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 175 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS)
-(continued) ELEVATOR ATTACHMENT FITTINGS On each THS box, the rear spar
-bears: - six hinge arms, made of CFRP, for the attachment of the
-elevator, - two fittings, made of CFRP, for the attachment of the
-elevator servo control actuators.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 176 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - ELEVATOR ATTACHMENT FITTINGS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 177 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS)
-(continued) LEADING EDGE At the front of the THS, the leading edge gives
-an aerodynamic shape. On each side of the THS centerline, the THS
-leading edge includes: three leading edge primary ribs, one inboard
-leading edge section, one outboard leading edge section and one leading
-edge intersection. All components are laminated in CFRP. The front part
-of the inboard and outboard leading edge sections has a stainless steel
-protection; it is bonded to the leading edge. The leading edge
-intersection is attached to Rib 1 and to the spar box. A rubber strip is
-installed at the intersection, it seals the gap between the fuselage
-skin and the intersection.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 178 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - LEADING EDGE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 179 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS)
-(continued) TIP The tips of the THS are the LH and RH outer fairings.
-The tips are attached to the leading edge Rib 25 and to the top and
-bottom skin panels of the spar box. The tips are made from aluminum
-alloy.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 180 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - TIP
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 181 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) TRIMMABLE HORIZONTAL STABILIZER (THS)
-(continued) TRAILING EDGE The trailing edge has an aerodynamic surface
-between the THS spar box and the elevator. On each side of the THS
-centerline, the trailing edge panels are supported by six intermediate
-ribs, and by seven hinge arm supports. The panels are laminated in CFRP
-bonded to a honeycomb core. On each side there are four panel assemblies
-on the top surface and four access panels on the bottom surface. A
-rubber seal is installed between the panel assemblies and the access
-panels along the trailing edges to prevent dirtiness.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 182 of 300
-FOR TRAINING PURPOSES ONLY
-TRIMMABLE HORIZONTAL STABILIZER (THS) - TRAILING EDGE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 183 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) ELEVATORS STRUCTURE LAYOUT The structure of
-each elevator has a front spar, a top and a bottom skin panel and four
-ribs. All components are laminated in CFRP. Six hinge fittings attach
-each elevator to the spar box of the THS and two fittings attach the
-servo control units. You can remove the leading edge access panels, the
-tips and the inboard end caps. Each elevator has three hoisting points
-and four static dischargers.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 184 of 300
-FOR TRAINING PURPOSES ONLY
-ELEVATORS - STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 185 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) VERTICAL STABILIZER GENERAL ARRANGEMENT The
-vertical stabilizer is attached to the top of the rear fuselage. It
-supports the rudder, which is operated by three servo control units. The
-High Frequency (HF) antenna and the Very high frequency Omnibearing
-Range (VOR) antenna are also attached to it. The main components of the
-vertical stabilizer are: - the spar box, - the leading edge, - the
-trailing edge, - the tip, - the attach fittings.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 186 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 187 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) VERTICAL STABILIZER (continued) STRUCTURE
-LAYOUT The spar box is the primary structural component of the vertical
-stabilizer. All the other components of the vertical stabilizer are
-attached to it. The spar box has: a front, a center and a rear spar,
-ribs and side panels with integrated stiffeners, all laminated in CFRP.
-Three pairs of primary attach fittings made of CFRP attach the spar box
-to the fuselage.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 188 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 189 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) VERTICAL STABILIZER (continued) SPAR BOX -
-STRUCTURE LAYOUT (CONT'D) The seven rudder hinge arms and the three
-actuator hinge fittings are made from aluminum alloy and are attached to
-the spar box rear spar.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 190 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - SPAR BOX - STRUCTURE LAYOUT (CONT'D)
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 191 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) VERTICAL STABILIZER (continued) LEADING EDGE
-The vertical stabilizer leading edge has four removable sections. They
-are attached to the forward edge of the spar box side panels and to the
-leading edge ribs. The lower section gives access to the High Frequency
-(HF) antenna. The four sections give an aerodynamic shape to the front
-of the vertical stabilizer. The four sections are laminated in Glass
-Fiber Reinforced Plastic (GFRP) bonded to a honeycomb core. A protective
-foil is bonded to the inner surfaces of the sections and protects them
-against hail and bird impact damage.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 192 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - LEADING EDGE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 193 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) VERTICAL STABILIZER (continued) TIP - STRUCTURE
-LAYOUT The vertical stabilizer tip is laminated in GFRP bonded to a
-honeycomb core. It is attached to the leading edge end rib and the
-stabilizer spar box. An aluminum strap is bonded along the top of the
-tip for lightning strike protection.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 194 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - TIP - STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 195 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) VERTICAL STABILIZER (continued) TRAILING EDGE
-The trailing edge is attached to the rear of the vertical stabilizer. It
-has a basic aluminum alloy supporting structure made of spar sections
-and profiles and four access panels installed on each side. The panels
-give access to the rudder hydraulics, the servo controls, the control
-rods and the hinge arms. The access panels are made of CFRP and GFRP
-laminations bonded to a honeycomb core.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 196 of 300
-FOR TRAINING PURPOSES ONLY
-VERTICAL STABILIZER - TRAILING EDGE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 197 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) RUDDER GENERAL ARRANGEMENT The rudder is one of
-the primary flight controls of the aircraft. The main components of the
-rudder are: - the main structure, - the leading edge, - the tip, - the
-hinge fittings and the actuator fittings.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 198 of 300
-FOR TRAINING PURPOSES ONLY
-RUDDER - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 199 of 300
-FOR TRAINING PURPOSES ONLY
-A318 STABILIZERS D/O (3) RUDDER (continued) STRUCTURE LAYOUT The rudder
-main structure is the primary structural component of the rudder. It has
-an assembly of two side skin panels, a front spar, a bottom closing rib
-and a top closing rib. All components of the rudder main structure are
-laminated in CFRP and are attached to the rudder main structure. Seven
-rudder hinge fittings and three actuator fittings are installed on the
-front spar of the rudder (all fittings are made from aluminum alloy). An
-aluminum profile is installed on the trailing edge of the rudder for
-lightning strike protection.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 200 of 300
-FOR TRAINING PURPOSES ONLY
-RUDDER - STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 201 of 300
-FOR TRAINING PURPOSES ONLY
-WINDOWS D/O (3) GENERAL The windows are installed in: - the cockpit, -
-the cabin, - the doors.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 202 of 300
-FOR TRAINING PURPOSES ONLY
-GENERAL
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 203 of 300
-FOR TRAINING PURPOSES ONLY
-WINDOWS D/O (3) COCKPIT WINDOWS GENERAL ARRANGEMENT There are two types
-of windows: - the fixed windows, - the sliding windows. The fixed
-windows are described as follows: There are four fixed windows installed
-in the cockpit. - two windshields, - two fixed side windows. The left
-and right windows are symmetrical. These windows are mounted in a frame
-and can be removed and installed from the exterior. The sliding windows
-are installed as follows: - on a mobile frame with a mechanism
-controlled from the cockpit.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 204 of 300
-FOR TRAINING PURPOSES ONLY
-COCKPIT WINDOWS - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 205 of 300
-FOR TRAINING PURPOSES ONLY
-WINDOWS D/O (3) COCKPIT WINDOWS (continued) WINSHIELDS STRUCTURE The
-windshield panes are made of several layers of hard glass and
-interlayers of different materials depending on the windows supplier
-(LUCAS-ACT, PPG, SPS), and are interchangeable. They are held by three
-retainers bolted onto the outer surface of the frame. They are installed
-with an anti-icing and defogging system.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 206 of 300
-FOR TRAINING PURPOSES ONLY
-COCKPIT WINDOWS - WINSHIELDS STRUCTURE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 207 of 300
-FOR TRAINING PURPOSES ONLY
-WINDOWS D/O (3) COCKPIT WINDOWS (continued) FIXED SIDE WINDOWS The fixed
-side windows have two layers of hard glass and interlayers of different
-materials depending on the windows supplier (LUCAS-ACT, PPG, SPS), and
-are interchangeable between the different suppliers. They are held by
-retainers bolted onto the inner surface of the frame. They are installed
-with an integral anti - icing and defogging system.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 208 of 300
-FOR TRAINING PURPOSES ONLY
-COCKPIT WINDOWS - FIXED SIDE WINDOWS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 209 of 300
-FOR TRAINING PURPOSES ONLY
-WINDOWS D/O (3) COCKPIT WINDOWS (continued) SLIDING WINDOWS The sliding
-windows have several layers of hard glass and interlayers of different
-materials depending on the windows supplier (LUCAS-ACT, PPG, SPS), and
-are interchangeable between the different suppliers. Each window has an
-anti-icing and defogging system. The sliding windows are installed on a
-mobile frame, which is controlled from inside the cockpit, and the crew
-can use them as emergency exits.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 210 of 300
-FOR TRAINING PURPOSES ONLY
-COCKPIT WINDOWS - SLIDING WINDOWS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 211 of 300
-FOR TRAINING PURPOSES ONLY
-WINDOWS D/O (3) CABIN WINDOWS GENERAL ARRANGEMENT The windows are
-installed in frames and create a smooth surface with the fuselage skin.
-The cabin windows are installed and removed from the inside of the
-aircraft. The window sets consists of a seal, inner and outer panes made
-of stretched acrylic resin held together by the seal. A retainer ring
-and eye bolts keeps the window set in position. A vent hole in the inner
-pane is used to only pressurize the outer pane in normal operation. The
-inner pane will maintain the cabin pressure in case of outer pain
-failure.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 212 of 300
-FOR TRAINING PURPOSES ONLY
-CABIN WINDOWS - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 213 of 300
-FOR TRAINING PURPOSES ONLY
-WINDOWS D/O (3) DOOR WINDOWS STRUCTURE LAYOUT The passenger/crew doors
-and emergency exit doors have a circular window. They are used for
-inspection and observation in order to check from outside if the cabin
-is pressurized or to verify if the outside is clear for door
-opening/slide deployment. The windows have a seal, inner and outer panes
-made of stretched acrylic, held in position by a retainer ring. A vent
-hole in the inner pane allows to pressurize only the outer pane in
-normal operation. The inner pain is able to maintain the cabin pressure
-in case of outer pane failure.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 214 of 300
-FOR TRAINING PURPOSES ONLY
-DOOR WINDOWS - STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 215 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) GENERAL The aircraft wing is in the continuity of the
-structure going through the fuselage which is divided into three
-parts: - the center wing box, - the left outer wing and, - the right
-outer wing.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 216 of 300
-FOR TRAINING PURPOSES ONLY
-GENERAL
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 217 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) CENTER WING BOX GENERAL ARRANGEMENT The center wing is
-installed in the center fuselage between the main frames (Fr) 36 and 42
-to make an integral fuel tank. The center wing box structure has: - the
-front and the rear spars respectively located at Fr 36 and 42, - top and
-bottom skin panels, - the two main frames 36 and 42, - internal spanwise
-lattice ribs, - the left rib 1 and the right rib 1. The junction between
-the center wing box and the outer wings is done at the left hand and
-right hand sides rib 1. The access for maintenance to the center wing
-box is done through two triangular openings in the rear spar.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 218 of 300
-FOR TRAINING PURPOSES ONLY
-CENTER WING BOX - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 219 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) CENTER WING BOX (continued) WING ROOT JOINT An upper
-cruciform fitting and a lower triform fitting ensure the junction
-between the center wing box and the outer wing box. The upper cruciform
-fitting makes the junction between the center wing box top skin panels,
-the outer wing box top skin panels, fuselage and Rib 1. The lower
-triform fitting and a safety butt-strap fitting make the junction
-between the center wing box bottom skin panels, the outer wing box
-bottom skin panels and Rib 1.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 220 of 300
-FOR TRAINING PURPOSES ONLY
-CENTER WING BOX - WING ROOT JOINT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 221 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) OUTER WING GENERAL ARRANGEMENT Each outer wing has: - a
-main structure (outer wing box), - a wing tip, - a leading edge and
-leading edge devices, - a trailing edge and trailing edge devices. The
-trailing edge control surfaces are: - the inboard flap, - the outboard
-flap, - the two ailerons, - the six spoilers.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 222 of 300
-FOR TRAINING PURPOSES ONLY
-OUTER WING - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 223 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) OUTER WING BOX GENERAL ARRANGEMENT The outer wing box
-tapers from Rib 1 (the wing root) to Rib 27 hold: - the wing spars
-(front and rear), - the ribs, - the top and bottom skin panels, - the
-top and bottom stringers, - the wing-root joint.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 224 of 300
-FOR TRAINING PURPOSES ONLY
-OUTER WING BOX - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 225 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) OUTER WING BOX (continued) SKIN PANELS The top and the
-bottom surfaces of the outer wing box are made of skin panels machined
-from aluminum alloy. There are two top skin panels and three bottom skin
-panels. The skin panels are stiffened by stringers machined in aluminum
-alloy extrusions. The joints between panels are aluminum alloy butt
-straps.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 226 of 300
-FOR TRAINING PURPOSES ONLY
-OUTER WING BOX - SKIN PANELS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 227 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) OUTER WING BOX (continued) RIBS &amp; SPARS Ribs: There are 27
-ribs, machined from aluminum alloy, installed in the outer wing box of
-each outer wing. Each rib is continuous between the front and rear
-spars. The junction between the center wing box and the outer wing joint
-is at Rib 1. Rib 1 is the boundary of the lateral section of the center
-wing box. Ribs 22 and 27 make the other lateral boundaries of the fuel
-and vent tanks. Spars: The wing spars are machined from aluminum alloy.
-They give strength to the wing box and they extend from Rib 1 to Rib 27.
-NOTE: If sharklets are installed on A/C, Rib 27 is fully redesigned to
-attach a sharklet to the wing.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 228 of 300
-FOR TRAINING PURPOSES ONLY
-OUTER WING BOX - RIBS &amp; SPARS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 229 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) OUTER WING BOX (continued) ACCESS HOLES/COVERS There are
-twenty-one access covers installed in the bottom skin panels of the
-outer wing box. All panels close the openings that give access to the
-outer wing box. There are: - seven non load-carrying access panels
-between Rib 1 and Rib 13, clamped on the wing skin, - fourteen
-load-carrying access panels between Rib 14 and Rib 27, bolted through
-the skin panel.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 230 of 300
-FOR TRAINING PURPOSES ONLY
-OUTER WING BOX - ACCESS HOLES/COVERS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 231 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) OUTER WING BOX (continued) REINFORCEMENT WITH SHARKLET
-(OPTIONAL) For aircraft on which sharklets are installed, some
-reinforcements are necessary to get a better resistance against
-increased loads: - wing front spar, - fixed leading edge structure, -
-wing rear spars, - fixed trailing edge structure, - wing covers, - wing
-ribs. Rib 27 and its interfaces are fully redesigned: - Rib 27 is now a
-box Rib rather than a traditional single-sided Rib. - The interface
-between the sharklet Rib 27a and Rib 27 is a tension fitting at the top
-of the joint and a multi-lug and pin arrangement at the bottom of the
-joint. - The Fixed Leading Edge (FLE) and Fixed Trailing Edge (FTE)
-parts are attached as a subassembly to the main Rib. - The leading edge
-panel is now a removable panel to give access for sharklet installation.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 232 of 300
-FOR TRAINING PURPOSES ONLY
-OUTER WING BOX - REINFORCEMENT WITH SHARKLET (OPTIONAL)
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 233 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) FIXED LEADING EDGE GENERAL ARRANGEMENT The fixed Leading
-Edge (LE) assembly is located forward of the front spar of the wing-box.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 234 of 300
-FOR TRAINING PURPOSES ONLY
-FIXED LEADING EDGE - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 235 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) FIXED LEADING EDGE (continued) STRUCTURE LAYOUT (1/2) The
-fixed leading edge assembly is made of: - the D-nose assembly, composed
-of aluminum alloy parts: - the support ribs and riblets (riblets are
-installed between the wing box front spar and the LE spar), - the sub
-spar, - the LE skin. - three top surface access panels, - bottom surface
-access panels, which are made of Carbon Fiber Reinforced Plastic (CFRP)
-sandwich construction and are attached with quick release fasteners.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 236 of 300
-FOR TRAINING PURPOSES ONLY
-FIXED LEADING EDGE - STRUCTURE LAYOUT (1/2)
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 237 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) FIXED LEADING EDGE (continued) STRUCTURE LAYOUT (2/2) Two
-pylon ribs are installed on each side of the engine pylon. These ribs
-hold the pylon shroud panels.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 238 of 300
-FOR TRAINING PURPOSES ONLY
-FIXED LEADING EDGE - STRUCTURE LAYOUT (2/2)
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 239 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) SLATS GENERAL ARRANGEMENT The wing leading edge is fitted
-of five slats, which make the movable part of the wing leading edge.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 240 of 300
-FOR TRAINING PURPOSES ONLY
-SLATS - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 241 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) SLATS (continued) STRUCTURE LAYOUT (1/2) Each slat has: -
-a front spar or the stringers (girders), - a rear spar, - a girder -
-ribs, - top and bottom skin panels, - a trailing edge assembly. Slat 1
-is supported by 4 tracks, two of them being driven (track 2 and 3).
-Slats 2 to 5 are supported by two tracks, both being driven.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 242 of 300
-FOR TRAINING PURPOSES ONLY
-SLATS - STRUCTURE LAYOUT (1/2)
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 243 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) SLATS (continued) STRUCTURE LAYOUT (2/2) When the slats
-are in retracted position, seals prevent airflow between the slat and
-the wing. Slats 3 to 5 are de-iced; the hot air comes from the bleed air
-system and is supplied to these slats through a telescopic duct (not
-shown) and piccolo tubes installed in the leading edges of the slats.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 244 of 300
-FOR TRAINING PURPOSES ONLY
-SLATS - STRUCTURE LAYOUT (2/2)
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 245 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) FIXED TRAILING EDGE STRUCTURE LAYOUT The fixed trailing
-edge is located aft of the wing rear spar. Its structure has: - an
-overwing panel and an under wing panel, - a shroud box and a fixed
-shroud, - a false rear spar, - a main landing gear attachment, -
-structures support for the trailing edge control surfaces, - access
-panels.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 246 of 300
-FOR TRAINING PURPOSES ONLY
-FIXED TRAILING EDGE - STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 247 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) FIXED TRAILING EDGE (continued) STRUCTURE LAYOUT (CONT'D)
-This page deals with the fixed trailing edge inner structure.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 248 of 300
-FOR TRAINING PURPOSES ONLY
-FIXED TRAILING EDGE - STRUCTURE LAYOUT (CONT'D)
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 249 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) TRAILING EDGE DEVICES GENERAL ARRANGEMENT The trailing
-edge devices are: - two flaps, - one aileron, - five spoilers.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 250 of 300
-FOR TRAINING PURPOSES ONLY
-TRAILING EDGE DEVICES - GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 251 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) TRAILING EDGE DEVICES (continued) FLAPS GENERAL
-ARRANGEMENT Two flaps are installed on the TE of the outer wing. The
-inboard flap is installed between Rib 1 and Rib 9 and the outboard flap
-is installed between Ribs 9 and 20. The flaps are connected to each
-other through an interconnection strut. In case of a drive station
-failure, this device carries the loads, which result in such failure.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 252 of 300
-FOR TRAINING PURPOSES ONLY
-TRAILING EDGE DEVICES - FLAPS GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 253 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) TRAILING EDGE DEVICES (continued) INBOARD FLAP STRUCTURE -
-A318-A319-A320 The inboard flap is supported and driven by a fuselage
-track and carriage at track 1 and a wing track carriage at track 2. The
-inboard flap has: - a leading edge with CFRP skin, - a flap box with: -
-skin panels and integrated stringers made of CFRP, - track ribs and end
-ribs, made of aluminum alloy, - other ribs made of aluminum alloy on the
-A318 and A319, and made of CFRP or aluminum alloy on the A320, - spars
-made of aluminum alloy on the A318 and A319, and made of CFRP or
-aluminum alloy on the A320. - a trailing edge made in an aluminum alloy
-sandwich construction. A rubbing strip (not shown) made of stainless
-steel is bonded onto the outer surface of the top skin.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 254 of 300
-FOR TRAINING PURPOSES ONLY
-TRAILING EDGE DEVICES - INBOARD FLAP STRUCTURE - A318-A319-A320
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 255 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) TRAILING EDGE DEVICES (continued) OUTBOARD FLAP
-STRUCTURE - A318-A319-A320 The outboard flap is supported and driven by
-two wing tracks and carriages (tracks 3 and 4). The outboard flap has: -
-a leading edge with CFRP skin, - a flap box with: - skin panels with
-integrated stringers and spars made of CFRP, - track ribs and end ribs
-made of aluminum alloy, - other ribs made of CFRP. - a trailing edge of
-aluminum alloy sandwich construction. A rubbing strip (not shown) made
-of stainless steel is bonded onto the outer surface of the top skin.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 256 of 300
-FOR TRAINING PURPOSES ONLY
-TRAILING EDGE DEVICES - OUTBOARD FLAP STRUCTURE - A318-A319-A320
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 257 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) TRAILING EDGE DEVICES (continued) A321 FLAPS STRUCTURE The
-A321 flaps are fowler flaps with a tab on the trailing edge. The inboard
-flap has: - a leading edge and a flap box made of aluminum alloy, - a
-trailing edge made in an aluminum alloy sandwich construction. The
-outboard flap has: - a leading edge with CFRP skin, - a flap box with: -
-skin panels and integrated stringers made of CFRP, - spars made of
-CFRP, - track end ribs made of aluminum alloy, - other ribs made of
-CFRP. The tab is made of honeycomb core with a skin made of aluminum
-sheet metal. The tab is operated by a linkage system.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 258 of 300
-FOR TRAINING PURPOSES ONLY
-TRAILING EDGE DEVICES - A321 FLAPS STRUCTURE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 259 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) TRAILING EDGE DEVICES (continued) SPOILERS GENERAL
-ARRANGEMENT There are five spoilers on the upper surface of the wing
-trailing edge. Spoiler 1 is connected to the false rear spar, inboard of
-the kink position. Spoilers 2 thru 5 are connected to the middle and
-outer sections of the rear spar, outboard of the kink position. A
-rubbing strip is attached to the trailing edge of spoilers (1 &amp; 2 only).
-It prevents damage to spoilers when flaps are retracted.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 260 of 300
-FOR TRAINING PURPOSES ONLY
-TRAILING EDGE DEVICES - SPOILERS GENERAL ARRANGEMENT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 261 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) TRAILING EDGE DEVICES (continued) SPOILERS STRUCTURE
-LAYOUT Spoilers are a wedge-shaped structure. The top and bottom skins,
-the sides and the trailing edge profile of the spoilers are made in CFRP
-sandwich construction. The spoiler hinges fittings and the actuator
-attachment fittings are made of aluminum alloy.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 262 of 300
-FOR TRAINING PURPOSES ONLY
-TRAILING EDGE DEVICES - SPOILERS STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 263 of 300
-FOR TRAINING PURPOSES ONLY
-WINGS D/O (3) TRAILING EDGE DEVICES (continued) AILERON STRUCTURE LAYOUT
-The aileron is located outboard of the outer flap and is connected to
-the wing box rear spar between Ribs 22 and 27. It is manufactured using
-CFRP skin (bonded to a honeycomb core in the center area), spar and
-ribs. The aileron hinge fittings and the actuator attachment fittings
-are made of aluminum alloy.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 264 of 300
-FOR TRAINING PURPOSES ONLY
-TRAILING EDGE DEVICES - AILERON STRUCTURE LAYOUT
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 265 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) GENERAL The structure repair manual is a non-customized
-document, accessible from AirN@v Repair. There is a dedicated SRM for: -
-A318 - A319 - A320 - A321. This manual meets the requirements of Air
-Transport Association of America (ATA) specification 2200 (iSpec 2200),
-formerly called ATA 100. The SRM includes descriptive information as
-well as specific instructions and data to other assessment of structural
-damage and to do repairs. For most of the damage/defect discovered on
-the aircraft structure, the SRM is the first document to use to assess
-the damage, to identify the affected structure and to determine the
-subsequent action or repair to make. The SRM also includes the
-Structural Repair Inspections (SRI) instructions.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 266 of 300
-FOR TRAINING PURPOSES ONLY
-GENERAL
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 267 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) MANUAL BREAKDOWN The SRM breakdown is accessible in the left
-frame of AirN@v Repair which displays the table of contents. This drop
-down menu is divided into Manual Front Matter and seven main chapters
-(From ATA 51 to ATA 57).
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 268 of 300
-FOR TRAINING PURPOSES ONLY
-MANUAL BREAKDOWN
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 269 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) HIGHLIGHTS The Highlights section provides the revision
-status and links for each SRM chapter: - Reference of the modification -
-Reason for change - Revision status.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 270 of 300
-FOR TRAINING PURPOSES ONLY
-HIGHLIGHTS
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 271 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) INTRODUCTION CHAPTER The introduction chapter contains all
-necessary information and explanations for a correct use of the manual.
-This section also provides airplane information, such as: - Weight
-Variant - Airplane Allocation List. It also contains the airplane
-allocation list giving for each Manufacturer Serial Number (MSN), the
-weight variant at delivery, the aircraft type, etc. The weight variant
-given in the Airplane allocation list is not necessarily the actual
-current status of the aircraft that needs to be confirmed by your
-engineering department.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 272 of 300
-FOR TRAINING PURPOSES ONLY
-INTRODUCTION CHAPTER
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 273 of 300
-FOR TRAINING PURPOSES ONLY
-INTRODUCTION CHAPTER
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 274 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) STRUCTURAL REPAIR INSPECTIONS (SRI) INTRODUCTION For
-permanent repairs with inspection program, inspections are quoted along
-with the repair. These inspections are spread in the SRM specific
-chapters 52 to 57. The SRM gives all necessary inspection instructions
-for allowable damage limits/repairs and gives to the airline information
-to integrate the additional inspections to their own maintenance
-program.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 275 of 300
-FOR TRAINING PURPOSES ONLY
-STRUCTURAL REPAIR INSPECTIONS (SRI) INTRODUCTION
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 276 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) NUMBERING SYSTEM AND PAGE BLOCK ALLOCATION Each subject,
-within the SRM, is identified using a three-element numbering system
-chapter/section and sub-section. - the first element designates the
-chapter which is assigned by the ATA iSpec 2200 (formerly called ATA
-100), - the second element designates the section within the chapter. -
-the third element identifies the sub-section (subject) within the
-section and is assigned by Airbus S.A.S. A standard page block
-allocation is used for all SRM chapters. - Page Block (PB) 001 for
-structure identification, - Page Block (PB) 101 for allowable damage, -
-Page Block (PB) 201 for repairs. PB 101 and PB 201 can also be used for
-Structural Repair Inspections (SRI), respectively for: - Allowable
-Damage Inspections, - Repair Inspections.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 277 of 300
-FOR TRAINING PURPOSES ONLY
-NUMBERING SYSTEM AND PAGE BLOCK ALLOCATION
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 278 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) CHAPTER 51 (STANDARD PRACTICES AND STRUCTURES) Information
-about general purposes or applicable to more than one chapter, is
-included in chapter 51. NOTE: Note: the entry in the SRM is always the
-specific chapter 52 to 57, depending on the damage location.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 279 of 300
-FOR TRAINING PURPOSES ONLY
-CHAPTER 51 (STANDARD PRACTICES AND STRUCTURES)
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 280 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) CHAPTER 52 TO 57 CONTENTS LAYOUT Chapters 52 to 57 are
-specifically attributed as per ATA 2200 specification. Chapters 52 to 57
-all have the same layout, which conforms to the defined page block
-allocation system (PB 001 - identification, PB 101 - allowable damage,
-PB 201- repairs). In addition, a table of contents and a Service
-Bulletin (SB) list are provided at the beginning of each chapter.
-Depending on the chapters, the Modification/Service Bulletin list is to
-be found either at the chapter level, or main section level.
-MODIFICATION:SERVICE BULLETIN LIST Located at: - section level for
-chapter 52, - section level for chapter 53, - chapter level for chapter
-54, - section level for chapter 55, - section level for chapter 57, this
-list is given to the user to determine the effectivity of the
-modification/SB. This list gives, for a given modification number, its
-related suffix, and the effectivity expressed in MSN.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 281 of 300
-FOR TRAINING PURPOSES ONLY
-CHAPTER 52 TO 57 CONTENTS - LAYOUT &amp; MODIFICATION:SERVICE BULLETIN LIST
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 282 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) CHAPTER 52 TO 57 CONTENTS (continued) IDENTIFICATION PAGES
-In the identification pages, the individual parts of the major
-components are illustrated and listed in tabular form. Each
-identification topic begins with an introduction page, which includes a
-general information paragraph. The item number is the key between the
-illustration and the identification table. For composite structures, the
-illustration gives the identification of individual layers, orientation
-and materials. A ply (layer) orientation reference is also given. For
-metallic structure such as fuselage skin panels, the different material
-thicknesses are provided using letter codes or shaded areas as a key to
-the thickness tables. The associated identification table provides
-additional information about material, part number, modification status
-information.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 283 of 300
-FOR TRAINING PURPOSES ONLY
-CHAPTER 52 TO 57 CONTENTS - IDENTIFICATION PAGES
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 284 of 300
-FOR TRAINING PURPOSES ONLY
-CHAPTER 52 TO 57 CONTENTS - IDENTIFICATION PAGES
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 285 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) CHAPTER 52 TO 57 CONTENTS (continued) IDENTIFICATION TABLE
-DETAILED To find the relevant effectivity linked to a modification shown
-in the STATUS column, the user must refer to the modification/service
-bulletin list. NOTE: Note: the status before or after modification/SB
-and the relevant modification solution (suffix letter) should not be
-forgotten. Within the modification/service bulletin list, the
-effectivities are expressed in MSN. In the given example item 1, P/N
-D53230463200 is the basic seat track as it is not related to any
-modification status. Item 1A P/N D53231741200 is related to modification
-status A26101P4573. The letter A before the modification number means
-"After mod." (letter B means "Before mod.) Sometimes a suffix in letter
-is written after the modification number. For this example, we will
-assume we are working on aircraft MSN 2065. According to the
-modification / SB list, mod 261001P4573 (with"D" suffix letter) has been
-embodied on our aircraft MSN 2065.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 286 of 300
-FOR TRAINING PURPOSES ONLY
-CHAPTER 52 TO 57 CONTENTS - IDENTIFICATION TABLE DETAILED
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 287 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) CHAPTER 52 TO 57 CONTENTS (continued) ALLOWABLE DAMAGE PAGE
-BLOCK The information to be found within allowable damage page block
-enables the operator to define whether a damaged airplane may be
-returned into service without repair. An allowable damage permitted has
-no significant effect on the strength or fatigue life of the structure,
-which must still be capable of fulfilling its function. Allowable damage
-may require minimal rework such as cleanup or drilling of stop holes. -
-general information pages, - damage criteria tables, - paragraph for
-each type of damage, - damage measurement procedure, - damage
-localization (zoning) figures, - allowable damage diagram. Most of
-allowable damage paragraphs are associated to an effectivity per weight
-variant and aircraft type table.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 288 of 300
-FOR TRAINING PURPOSES ONLY
-CHAPTER 52 TO 57 CONTENTS - ALLOWABLE DAMAGE PAGE BLOCK
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 289 of 300
-FOR TRAINING PURPOSES ONLY
-CHAPTER 52 TO 57 CONTENTS - ALLOWABLE DAMAGE PAGE BLOCK
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 290 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) CHAPTER 52 TO 57 CONTENTS (continued) REPAIRS PAGE BLOCK At
-the beginning of each repair page block, a list of available repair
-schemes is given for a quick assessment of repairs. The repairs can be
-found in the general section of chapter 53 (e.g.: 53-00-11 for standard
-fuselage skin repairs), or directly covered within the related section
-when the repair is specific (e.g. paragraph 5A, Fig. 201). When repairs
-are in repair category B, subsequent inspections are necessary and in
-accordance with inspection instruction reference (SRI). The Repairs Page
-Block (PB 201) contains necessary information to carry out permissible
-repairs. Each of the repairs is described with illustrations and
-procedure instructions, which includes repair applicability data and
-repair material list. Most of repair paragraphs are related to an
-effectivity per weight variant and aircraft type table.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 291 of 300
-FOR TRAINING PURPOSES ONLY
-CHAPTER 52 TO 57 CONTENTS - REPAIRS PAGE BLOCK
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 292 of 300
-FOR TRAINING PURPOSES ONLY
-CHAPTER 52 TO 57 CONTENTS - REPAIRS PAGE BLOCK
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 293 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) SRM GENERAL USAGE PROCEDURE SRM general usage procedure.
-Some allowable damage diagrams give repair categories. When the damage
-is included in repair category B, subsequent inspections in accordance
-with the inspection instruction reference are necessary.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 294 of 300
-FOR TRAINING PURPOSES ONLY
-SRM GENERAL USAGE PROCEDURE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 295 of 300
-FOR TRAINING PURPOSES ONLY
-SRM GENERAL USAGE PROCEDURE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 296 of 300
-FOR TRAINING PURPOSES ONLY
-SRM GENERAL USAGE PROCEDURE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 297 of 300
-FOR TRAINING PURPOSES ONLY
-SRM D/O (3) ELEVATOR WEIGHT RECORD PLATE A riveted plate is installed in
-the elevators front spar to give the weight of the elevator after a
-maintenance procedure. WARNING: THIS PROCEDURE IS IN A CATEGORY KNOWN AS
-A CRITICAL DESIGN CONFIGURATION CONTROL LIMITATION (CDCCL). YOU MUST
-KEEP ALL CDCCL ITEMS IN THE APPROVED CONFIGURATION. MAKE SURE THAT THE
-WEIGHT OF THE ELEVATOR IS IN THE SPECIFIED LIMITS.
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 298 of 300
-FOR TRAINING PURPOSES ONLY
-ELEVATOR WEIGHT RECORD PLATE
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 299 of 300
-FOR TRAINING PURPOSES ONLY
-Training Manual Airbus A318/319/ A320/A321 (CFM56 &amp; V2500)
-END
-Airbus A318/A319/A320/A321 (CFM56 or V2500)
-CATTS LTD
-Issue 012 - Revision 000 - Dated 01/07/2023 Page 300 of 300</p></div>
-            </div>
-        </div>
-
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script src="../js/jquery-3.6.0.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script>
-            var base_url = "..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="../js/base.js"></script>
-        <script src="../search/main.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div>
-
-    </body>
-</html>
